@@ -1,0 +1,162 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of mosques in Europe" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+!Name
+!class=unsortable|Images
+!Country
+!City
+!Year
+!Group
+!class=unsortable|Remarks
+|- valign=top
+| [[List of mosques in Albania]]
+| 
+| [[Albania]]
+| 
+| 
+| 
+|
+|- valign=top
+| [[List of mosques in Armenia]]
+| 
+| [[Armenia]]
+| 
+| 
+| 
+|
+|- valign=top
+| [[List of mosques in Azerbaijan]]
+| 
+| [[Azerbaijan]]
+| 
+| 
+| 
+|
+|- valign=top id="Austria"
+| [[Telfs mosque]]
+| [[File:Telfs-Moschee.jpg|120px]]
+| [[Austria]]
+| [[Telfs]]
+| 1998
+| DITIB
+| Minaret later built in 2006
+|- valign=top
+| [[Vienna Islamic Centre]]
+| [[File:Bruckhaufen (Wien) - Moschee (4).JPG|120px]]
+| [[Austria]]
+| [[Vienna]]
+| 1977
+| U
+| Built in order of rey [[Faisal of Saudi Arabia|Faisal ibn Abd al-Aziz]]. |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/List_of_mosques_in_Albania> wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ wdt:P360 <https://en.wikipedia.org/wiki/Mosque> ;
+ rdfs:label "list of Mosques in Albania"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Albania> .
+
+<https://example.org/resource/List_of_mosques_in_Armenia> wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Armenia> ;
+ wdt:P360 <https://en.wikipedia.org/wiki/Mosque> ;
+ rdfs:label "list of mosques in Armenia"@en .
+
+<https://example.org/resource/List_of_mosques_in_Azerbaijan> wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Azerbaijan> ;
+ rdfs:label "list of mosques in Azerbaijan"@en ;
+ wdt:P360 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Shakh%20Abbas%20Mosque.jpg> ;
+ wdt:P1754 <https://en.wikipedia.org/wiki/Category:Mosques_in_Azerbaijan> .
+
+<https://example.org/resource/Telfs_mosque> wdt:P131 <https://en.wikipedia.org/wiki/Telfs> ;
+ rdfs:label "Telfs Mosque"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Austria> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Telfs-Moschee.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Abu_Ayyub_al-Ansari> .
+
+<https://example.org/resource/Vienna_Islamic_Centre> rdfs:label "Vienna Islamic Centre"@en ;
+ wdt:P856 <https://www.izwien.at/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bruckhaufen%20%28Wien%29%20-%20Moschee%2C%20Hauptportal.JPG> ;
+ wdt:P2048 "32"^^xsd:decimal ;
+ wdt:P2046 "8300"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Vienna> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Architectural_structure> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Austria> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Islamic_architecture> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P571 "1979-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1619 "1979-11-20T00:00:00Z"^^xsd:dateTime .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P360 -> is a list of
+wdt:P17 -> country
+wdt:P18 -> image
+wdt:P1754 -> category related to list
+wdt:P131 -> located in the administrative territorial entity
+wdt:P138 -> named after
+wdt:P856 -> official website URL
+wdt:P2048 -> height
+wdt:P2046 -> area
+wdt:P149 -> architectural style
+wdt:P571 -> inception
+wdt:P1619 -> date of official opening.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+!Name
+!class=unsortable|Images
+!Country
+!City
+!Year
+!Group
+!class=unsortable|Remarks
+|- valign=top
+| [[Omar Mosque]]
+| [[File:Centro Cultural Islámico - Mezquita de Madrid 01.jpg|120px]]
+| [[Spain]]
+| [[Madrid]]
+| 1992
+| SA
+| Also known as ''M-30 Mosque'' ([[:es:Centro Cultural Islámico y Mezquita de Madrid|es:]]).<br />{{coord|40|26|18|N|3|39|26|W|region:ES-M_type:landmark|display=inline}}
+|- valign=top
+| [[Great Mosque of Valencia]]
+| [[File:Exterior de la mesquita i centre cultural islàmic de València.JPG|120px]]
+| [[Spain]]
+| [[Valencia]]
+| 1994
+| U
+| {{coord|39|28|42|N|0|21|10|W|region:ES-VA_type:landmark|display=inline}}
+|- valign=top
+| [[Winterthur Mosque]]
+|
+| [[Switzerland]]
+| [[Winterthur]]
+| ?
+| U
+| Mosque of an Islamic-Albanian community.
+|- valign=top id="Ukraine"
+| [[The Big Khan Mosque]]
+| [[File:Bakhchisaray, Hansaray Museum.jpg|120px]]
+| [[Ukraine]]
+| [[Bakhchysarai]]
+| 1532
+| SDMC
+| |}
+---

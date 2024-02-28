@@ -1,0 +1,253 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Alianza_de_Curicó> rdfs:label "Club Deportivo Alianza de Curicó"@en ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1960-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Bernardo_O'Higgins> rdfs:label "Bernardo O'Higgins"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1945-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Carlos_Walker_Martínez_FC> rdfs:label "Carlos Walker Martínez Football Club"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1936-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Club_Deportes_Lozapenco> rdfs:label "Club de Deportes Lozapenco"@en ;
+    wdt:P131 wd:Q51093 ;
+    wdt:P159 wd:Q51093 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1914-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1993-04-07T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Club_Deportivo_Alianza> rdfs:label "Club Deportivo Alianza"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1935-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Club_Deportivo_Maestranza_Central> rdfs:label "Club Deportivo Maestranza Central"@en ;
+    wdt:P131 wd:Q56136 ;
+    wdt:P159 wd:Q56136 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1914-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1956-04-07T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Club_Deportivo_Maipo_Quilicura> rdfs:label "Club Deportivo Maipo Quilicura"@en ;
+    wdt:P131 wd:Q3656 ;
+    wdt:P159 wd:Q3656 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1914-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "2015-04-07T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Club_Deportivo_Metropolitano> rdfs:label "Club Deportivo Metropolitano"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1945-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Club_Deportivo_Municipal_de_Santiago> rdfs:label "Club Deportivo Municipal de Santiago"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1970-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Club_Deportivo_San_Bernardo_Central> rdfs:label "Club Deportivo San Bernardo Central"@en ;
+    wdt:P131 wd:Q356712 ;
+    wdt:P159 wd:Q356712 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1966-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Club_Deportivo_Soinca_Bata> rdfs:label "Club Deportivo Soinca Bata"@en ;
+    wdt:P131 wd:Q51032 ;
+    wdt:P159 wd:Q51032 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1991-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Club_Deportivo_Súper_Lo_Miranda> rdfs:label "Club Deportivo Súper Lo Miranda"@en ;
+    wdt:P131 wd:Q6663163 ;
+    wdt:P159 wd:Q6663163 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1985-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Club_Deportivo_Valparaíso_Ferroviarios> rdfs:label "Club Deportivo Valparaíso Ferroviarios"@en ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1963-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Club_de_Deportes_Santiago> rdfs:label "Club de Deportes Santiago"@en ;
+    wdt:P131 wd:Q56117 ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1935-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Comercio_Atlético> rdfs:label "Comercio Atlético"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1945-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Deportes_Victoria> rdfs:label "Deportes Victoria"@en ;
+    wdt:P159 wd:Q200999 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1990-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Deportivo_Alemán> rdfs:label "Deportivo Alemán"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1934-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Deportivo_Flecha> rdfs:label "Deportivo Flecha"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Estrella_Lo_Franco> rdfs:label "Estrella Lo Franco"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Estrella_de_Bulnes> rdfs:label "Estrella de Bulnes"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1935-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Ferrobádminton> rdfs:label "Club Deportivo Ferrobádminton"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1968-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Florida_Loma_Blanca> rdfs:label "Florida Loma Blanca"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1940-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1941-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Fortín_Mapocho> rdfs:label "Fortín Mapocho"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1945-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1946-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Gimnástico_Arturo_Prat> rdfs:label "Gimnástico Arturo Prat"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1945-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1946-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Instituto_O'Higgins> rdfs:label "Instituto O'Higgins"@en ;
+    wdt:P159 wd:Q4582 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1953-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1954-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Iván_Mayo> rdfs:label "Iván Mayo"@en ;
+    wdt:P159 wd:Q174744 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1996-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Juventus> rdfs:label "Juventus"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1943-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1944-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/La_Cruz_Football_Club> rdfs:label "La Cruz Football Club"@en ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1914-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1955-04-07T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Lautaro_Juniors> rdfs:label "Lautaro Juniors"@en ;
+    wdt:P115 wd:Q20014928 ;
+    wdt:P1424 wd:Q25898028 ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1945-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1946-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 ;
+    wdt:P910 wd:Q39808286 .
+
+<https://example.org/resource/Los_Guindos> rdfs:label "Los Guindos"@en ;
+    wdt:P1424 wd:Q25898028 ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P576 "1941-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Malloco_Atlético> rdfs:label "Malloco Atlético"@en ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1945-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Morning_Star_Sport_Club> rdfs:label "Morning Star Sport Club"@en ;
+    wdt:P131 wd:Q14437 ;
+    wdt:P159 wd:Q14437 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1935-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Sirio> rdfs:label "Sirio"@en ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1945-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+

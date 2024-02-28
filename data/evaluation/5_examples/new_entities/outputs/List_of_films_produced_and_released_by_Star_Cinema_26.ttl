@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Hellcome_Home> rdfs:label "Hellcome Home"@en ;
+    wdt:P136 wd:Q31888058 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q12969819,
+        wd:Q16211102,
+        wd:Q3543342,
+        wd:Q4877877 ;
+    wdt:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q5975697 ;
+    wdt:P8889 wd:Q102108197 .
+

@@ -1,0 +1,8 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix ns2: <https://example.org/resource/Blackmore,> .
+
+<https://example.org/resource/Carroll,_Sean_M.> ns1:P1559 "Sean M. Carroll"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q25456175> ;
+    ns2:_Susan ns1:P101 .
+

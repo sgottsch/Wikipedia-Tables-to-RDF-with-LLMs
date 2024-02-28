@@ -1,0 +1,72 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/American_Psycho> rdfs:label "American Psycho"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P50 wd:Q241583 ;
+    wdt:P577 "1991-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P747 wd:Q63979202 .
+
+<https://example.org/resource/Another_Country> rdfs:label "Another Country"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P50 wd:Q273210 ;
+    wdt:P577 "1962-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Borstal_Boy> rdfs:label "Borstal Boy"@en ;
+    wdt:P136 wd:Q3056541 ;
+    wdt:P495 wd:Q22890 ;
+    wdt:P4969 wd:Q4946695 ;
+    wdt:P50 wd:Q313063 ;
+    wdt:P577 "1958-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ecstasy_and_Me> rdfs:label "Ecstasy and Me"@en ;
+    wdt:P136 wd:Q4184 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P50 wd:Q49034 ;
+    wdt:P577 "1966-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Forever_Amber> rdfs:label "Forever Amber"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P4969 wd:Q456822 ;
+    wdt:P50 wd:Q2342652 ;
+    wdt:P577 "1944-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/No_Game_No_Life> rdfs:label "No Game No Life"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P50 wd:Q8977221 ;
+    wdt:P577 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P747 wd:Q111597131 .
+
+<https://example.org/resource/The_Anarchist_Cookbook> rdfs:label "The Anarchist Cookbook"@en ;
+    wdt:P50 wd:Q17277707 ;
+    wdt:P577 "1971-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P747 wd:Q43169292 .
+
+<https://example.org/resource/The_Peaceful_Pill_Handbook> rdfs:label "The Peaceful Pill Handbook"@en ;
+    wdt:P50 wd:Q3901471,
+        <https://en.wikipedia.org/wiki/Fiona_Stewart_(author)> ;
+    wdt:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P747 wd:Q19209663 .
+
+<https://example.org/resource/The_Stud> rdfs:label "The Stud"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P4969 wd:Q3490514 ;
+    wdt:P50 wd:Q1837775 ;
+    wdt:P577 "1969-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> rdfs:label "The World Is Full of Married Men"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P4969 wd:Q30610070 ;
+    wdt:P50 wd:Q1837775 ;
+    wdt:P577 "1968-01-01T00:00:00+00:00"^^xsd:dateTime .
+

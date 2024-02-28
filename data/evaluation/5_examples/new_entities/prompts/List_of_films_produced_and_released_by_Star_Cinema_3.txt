@@ -1,0 +1,160 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films produced and released by Star Cinema" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" | ''[[Oki Doki Doc]]'' || January 11 || Efren Jarlego || [[Aga Muhlach]], [[Babalu (comedian)|Babalu]], [[Claudine Barretto]], [[Agot Isidro]], [[Carmina Villaroel]], [[Jimmy Santos (actor)|Jimmy Santos]], [[Paolo Contis]], [[Camille Prats]] || [[Comedy film|Comedy]] ||
+|-
+| style="text-align:center;" | ''[[Cedie]]'' || May 8 || Romy Suzara ||Tom Taus, [[Ronaldo Valdez]], [[Jaclyn Jose]], [[Mark Gil]] ||Family ||
+|-
+| style="text-align:center;" | ''[[Madrasta (film)|Madrasta]]''|| August 14 ||[[Olivia Lamasan]] ||[[Sharon Cuneta]], [[Christopher de Leon]], [[Zsa Zsa Padilla]] ||[[Drama film|Drama]] ||
+|-
+| style="text-align:center;" |''[[Ang TV|Ang TV The Movie: The Adarna Adventure]]'' || October 9|| [[Johnny Manahan]] || [[Nida Blanca]], [[Tirso Cruz III]], [[Camille Prats]], [[Angelica Panganiban]], [[Jolina Magdangal]], [[Gio Alvarez]], [[Paolo Contis]], [[Patrick Garcia]] [[Anna Larrucea]]|| [[Fantasy film|Fantasy]], [[Adventure film|adventure]], [[Comedy film|comedy]] ||
+|-
+| style="text-align:center;" | ''[[Magic Temple]]'' || December 25 ||[[Peque Gallaga]], Lore Reyes || Jason Salcedo, Junell Hernando, Marc Solis, [[Anna Larrucea]], [[Jackie Lou Blanco]] || [[Fantasy film|Fantasy]], [[Adventure film|adventure]], [[Comedy film|comedy]] || |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Oki_Doki_Doc> wdt:P580 "1993-10-23T00:00:00Z"^^xsd:dateTime ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Aga_Muhlach> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Television_series> ;
+ wdt:P577 "1996-01-11T00:00:00Z"^^xsd:dateTime ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Sitcom> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ rdfs:label "Oki Doki Doc"@en ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P582 "2000-12-02T00:00:00Z"^^xsd:dateTime ;
+ wdt:P449 <https://en.wikipedia.org/wiki/ABS-CBN> .
+
+<https://example.org/resource/Cedie> wdt:P161 <https://en.wikipedia.org/wiki/Subas_Herrero> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Lily_Monteverde> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ronaldo_Valdez> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Charo_Santos-Concio> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P144 <https://en.wikipedia.org/wiki/Little_Lord_Fauntleroy_(TV_series)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Anita_Linda> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Tagalog_language> ;
+ wdt:P136 wd:Q52207399 ;
+ wdt:P1040 <https://en.wikipedia.org/wiki/Joyce_Bernal> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jaclyn_Jose> ;
+ rdfs:label "Cedie"@en ;
+ wdt:P144 <https://en.wikipedia.org/wiki/Little_Lord_Fauntleroy> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Children%27s_film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Tita_de_Villa> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Mark_Gil> ;
+ wdt:P577 "1996-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P840 <https://en.wikipedia.org/wiki/New_York_City> ;
+ wdt:P57 wd:Q113206291 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Thou_Reyes> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/England> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Carlo_Aquino> .
+
+<https://example.org/resource/Madrasta> wdt:P162 <https://en.wikipedia.org/wiki/Charo_Santos-Concio> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1476 "Madrasta"@en ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Olivia_Lamasan> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sharon_Cuneta> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Christopher_de_Leon> ;
+ wdt:P577 "1996-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Madrasta"@en ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Olivia_Lamasan> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Zsa_Zsa_Padilla> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P462 wd:Q22006653 .
+
+<https://example.org/resource/Ang_TV_The_Movie:_The_Adarna_Adventure> wdt:P580 "1992-10-19T00:00:00Z"^^xsd:dateTime ;
+ wdt:P582 "1997-04-11T00:00:00Z"^^xsd:dateTime ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Teen_sitcom> ;
+ wdt:P1113 "1170"^^xsd:decimal ;
+ rdfs:label "Ang TV"@en ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Filipino_language> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Television_series> ;
+ wdt:P577 "1996-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P449 <https://en.wikipedia.org/wiki/ABS-CBN> .
+
+<https://example.org/resource/Magic_Temple> wdt:P364 <https://en.wikipedia.org/wiki/Filipino_language> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Peque_Gallaga> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Peque_Gallaga> ;
+ wdt:P1431 <https://en.wikipedia.org/wiki/Charo_Santos-Concio> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Erik_Matti> ;
+ wdt:P57 wd:Q113196817 ;
+ wdt:P577 "1996-12-25T00:00:00Z"^^xsd:dateTime ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Fantasy_film> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Adventure_film> ;
+ rdfs:label "Magic Temple"@en .
+---
+These are the labels of the properties:
+
+wdt:P580 -> start time
+wdt:P161 -> cast member
+wdt:P31 -> instance of
+wdt:P577 -> publication date
+wdt:P136 -> genre
+wdt:P495 -> country of origin
+wdt:P750 -> distributed by
+wdt:P582 -> end time
+wdt:P449 -> original broadcaster
+wdt:P162 -> producer
+wdt:P437 -> distribution format
+wdt:P144 -> based on
+wdt:P364 -> original language of film or TV show
+wdt:P1040 -> film editor
+wdt:P840 -> narrative location
+wdt:P57 -> director
+wdt:P1476 -> title
+wdt:P58 -> screenwriter
+wdt:P462 -> color
+wdt:P1113 -> number of episodes
+wdt:P407 -> language of work or name
+wdt:P1431 -> executive producer.
+---
+These are the labels of the objects:
+
+wd:Q52207399 -> film based on a novel
+wd:Q113206291 -> Romy Suzara
+wd:Q22006653 -> color
+wd:Q113196817 -> Lore Reyes.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" | ''Mula Noon Hanggang Ngayon'' || May 29 || [[Khryss Adalia]] ||[[Aiko Melendez]], [[Chin Chin Gutierrez]], [[Jomari Yllana]], [[Gina Pareño]]|| [[Drama film|Drama]], [[Romance film|romance]] || 
+|- 
+| style="text-align:center;" | ''Isa Dalawa Takbo'' || June 19 ||[[Edgar Mortiz]]||[[Anjo Yllana]], [[Patrick Garcia]] ||[[Comedy film|Comedy]], [[Horror film|horror]]||
+|-
+| style="text-align:center;" | ''Hangga't May Hininga'' || September 25 || Toto Natividad || [[Phillip Salvador]], Anjanette Abayari, [[Jackie Lou Blanco]], [[Tirso Cruz III]] ||[[Action film|Action]], [[Drama (film and television)|drama]] ||
+|-
+| style="text-align:center;" | ''Kung Kaya Mo, Kaya Ko Rin'' || November 20 || Danilo Cabreira ||[[Maricel Soriano]], [[Cesar Montano]], [[Mark Gil]] || [[Action film|Action]], [[Comedy film|comedy]] || CM Films |}
+---

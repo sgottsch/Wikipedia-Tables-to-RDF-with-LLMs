@@ -1,0 +1,192 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of cities and towns in Saudi Arabia" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! City  !! data-sort-type=number | Population<ref>{{Cite web |title=Saudi Arabia: Regions & Major Cities - Population Statistics, Maps, Charts, Weather and Web Information |url=https://www.citypopulation.de/en/saudiarabia/cities/ |access-date=2024-02-03 |website=www.citypopulation.de}}</ref>!! Comments
+|-
+| [[Ad-Dilam]] || 39,267  (2022) ||
+|-
+| [[Al-Abwa]] || ||
+|-
+| [[Al Artaweeiyah]] || ||
+|-
+| [[Al Bukayriyah]] || 25,153 ||
+|-
+| [[Badr (city)|Badr]] || 30,494 (2022) ||
+|-
+| [[Baljurashi]] || 35,985 (2021) ||
+|-
+| [[Bisha]] || 115,537 (2022) ||
+|-
+| [[Bareq]] || 75,351 (2015) || |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Ad-Dilam> wdt:P2044 "453"^^xsd:decimal ;
+ wdt:P1082 "10141"^^xsd:decimal ;
+ wdt:P1082 "29973"^^xsd:decimal ;
+ wdt:P1082 "40114"^^xsd:decimal ;
+ rdfs:label "Ad-Dilam"@en ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B03:00> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Riyadh_Province> ;
+ wdt:P571 "2017-03-11T00:00:00Z"^^xsd:dateTime ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> ;
+ wdt:P31 wd:Q66661665 ;
+ wdt:P36 wd:Q108777536 ;
+ wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Riyadh%20Region%20-%20Ad%20Dilam.svg> .
+
+<https://example.org/resource/Al-Abwa> wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B03:00> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Human_settlement> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Mecca_Province> ;
+ rdfs:label "Al-Abwa"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%B6%D8%B1%D9%8A%D8%AD%20%D8%A7%D9%84%D8%A3%D9%8A%D9%85%D9%86%20%D9%84%D8%B6%D8%B1%D9%8A%D8%AD%20%D8%A7%D9%84%D8%B3%D9%8A%D8%AF%D8%A9%20%D8%A2%D9%85%D9%86%D8%A9%20%D8%B9%D9%84%D9%8A%D9%87%D8%A7%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85.JPG> .
+
+<https://example.org/resource/Al_Artaweeiyah> wdt:P2044 "609"^^xsd:decimal ;
+ wdt:P1082 "7560"^^xsd:decimal ;
+ wdt:P1082 "3036"^^xsd:decimal ;
+ wdt:P1082 "10596"^^xsd:decimal ;
+ wdt:P31 wd:Q23827464 ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B03:00> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Human_settlement> ;
+ rdfs:label "Al Artaweeiyah"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Riyadh_Province> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> .
+
+<https://example.org/resource/Al_Bukayriyah> rdfs:label "Al Bukayriyah governorate"@en ;
+ wdt:P1082 "16276"^^xsd:decimal ;
+ wdt:P1082 "41345"^^xsd:decimal ;
+ wdt:P1082 "57621"^^xsd:decimal ;
+ wdt:P1889 wd:Q97291223 ;
+ wdt:P1538 "9673"^^xsd:decimal ;
+ wdt:P1792 <https://en.wikipedia.org/wiki/Category:People_from_Al_Bukayriah> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> ;
+ wdt:P527 wd:Q97291223 ;
+ wdt:P31 wd:Q66661665 ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Al-Qassim_Province> ;
+ wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Al%20Qaseem%20Region%20-%20Al%20Bukayriyah.svg> .
+
+<https://example.org/resource/Badr> wdt:P2044 "116"^^xsd:decimal ;
+ wdt:P1082 "6471"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Medina_Province_(Saudi_Arabia)> ;
+ wdt:P1082 "56997"^^xsd:decimal ;
+ wdt:P1082 "63468"^^xsd:decimal ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Brockhaus_and_Efron_Encyclopedic_Dictionary> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Al-Badr> ;
+ wdt:P1889 wd:Q97291232 ;
+ wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Al%20Madinah%20Al%20Munawwarah%20-%20Badr.svg> ;
+ wdt:P1465 wd:Q55908373 ;
+ wdt:P1343 wd:Q18517268 ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Badr,_Libya> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Badr-1> ;
+ wdt:P1538 "12434"^^xsd:decimal ;
+ wdt:P793 <https://en.wikipedia.org/wiki/Battle_of_Badr> ;
+ wdt:P36 wd:Q97291232 ;
+ wdt:P527 wd:Q97291232 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> ;
+ rdfs:label "Badr"@en ;
+ wdt:P31 wd:Q66661665 .
+
+<https://example.org/resource/Baljurashi> wdt:P131 <https://en.wikipedia.org/wiki/Al-Bahah_Province> ;
+ wdt:P1082 "12201"^^xsd:decimal ;
+ wdt:P1082 "53022"^^xsd:decimal ;
+ wdt:P527 wd:Q97291158 ;
+ wdt:P1082 "65223"^^xsd:decimal ;
+ wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Al%20Bahah%20Region%20-%20Biljurashi.svg> ;
+ wdt:P1538 "12695"^^xsd:decimal ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> ;
+ rdfs:label "Baljurashi governorate"@en ;
+ wdt:P31 wd:Q66661665 ;
+ wdt:P1889 wd:Q97291158 .
+
+<https://example.org/resource/Bisha> wdt:P1082 "20365"^^xsd:decimal ;
+ wdt:P1082 "65836"^^xsd:decimal ;
+ wdt:P1082 "86201"^^xsd:decimal ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B03:00> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Human_settlement> ;
+ rdfs:label "Bisha"@en ;
+ wdt:P1376 wd:Q27135 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> ;
+ wdt:P1889 wd:Q27135 ;
+ wdt:P131 wd:Q27135 ;
+ wdt:P1889 wd:Q28684872 .
+
+<https://example.org/resource/Bareq> wdt:P131 <https://en.wikipedia.org/wiki/%27Asir_Province> ;
+ wdt:P2044 "412"^^xsd:decimal ;
+ wdt:P1082 "75351"^^xsd:decimal ;
+ wdt:P1465 wd:Q55908329 ;
+ wdt:P2046 "2500"^^xsd:decimal ;
+ wdt:P112 <https://en.wikipedia.org/wiki/Bariq> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> ;
+ rdfs:label "Bareq"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bareq101.jpg> ;
+ wdt:P571 "-1999-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1464 wd:Q55936279 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/City> .
+---
+These are the labels of the properties:
+
+wdt:P2044 -> elevation above sea level
+wdt:P1082 -> population
+wdt:P421 -> located in time zone
+wdt:P131 -> located in the administrative territorial entity
+wdt:P571 -> inception
+wdt:P17 -> country
+wdt:P31 -> instance of
+wdt:P36 -> capital
+wdt:P242 -> locator map image
+wdt:P18 -> image
+wdt:P1889 -> different from
+wdt:P1538 -> number of households
+wdt:P1792 -> category of associated people
+wdt:P527 -> has part(s)
+wdt:P1343 -> described by source
+wdt:P1465 -> category for people who died here
+wdt:P793 -> significant event
+wdt:P1376 -> capital of
+wdt:P2046 -> area
+wdt:P112 -> founded by
+wdt:P1464 -> category for people born here.
+---
+These are the labels of the objects:
+
+wd:Q66661665 -> governorate of Saudi Arabia
+wd:Q108777536 -> Ad-Dilam
+wd:Q23827464 -> centre of Saudi Arabia
+wd:Q97291223 -> Al Bukayriyah
+wd:Q97291232 -> Badr
+wd:Q55908373 -> Q55908373
+wd:Q18517268 -> Islamskiy enciklopedicheskiy slovar
+wd:Q97291158 -> Baljurashi
+wd:Q27135 -> Bisha governorate
+wd:Q28684872 -> Bisha
+wd:Q55908329 -> Q55908329
+wd:Q55936279 -> Category:Births in Bareq.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! City  !! data-sort-type=number | Population<ref>{{Cite web |title=Saudi Arabia: Regions & Major Cities - Population Statistics, Maps, Charts, Weather and Web Information |url=https://www.citypopulation.de/en/saudiarabia/cities/ |access-date=2024-02-03 |website=www.citypopulation.de}}</ref>!! Comments
+|-
+| [[Ras Tanura]] || 57,030 (2022) || Eastern Province
+|-
+| [[Ranyah]] || 28,681 (2022) ||
+|-
+| [[Riyadh Al Khabra|Riyadh Al-Khabra]]|| 25,588 (2022) || Historical city best known for trading and goods exchange
+|-
+| [[Rumailah, Saudi Arabia|Rumailah]] || 10,000 (2006) || Small village in [[Al-Ahsa Governorate|Al-Hasa]]
+|-
+|[[Sabya]]
+|72,086 (2022)
+|
+|-
+| [[Sarat Abidah]]|| 19,855 (2022)|| |}
+---

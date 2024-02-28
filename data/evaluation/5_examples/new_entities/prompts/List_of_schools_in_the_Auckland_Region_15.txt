@@ -1,0 +1,129 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of schools in the Auckland Region" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Area || Authority || Opened || Roll || Website || Notes
+|-
+| [[Bucklands Beach Intermediate]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1240 1240] || 7–8 || [[Bucklands Beach]] || State || 1976 || {{NZ school roll data|1240|y}} ||  [http://www.bbi.school.nz]||
+|-
+| [[Cockle Bay School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1253 1253] || 1–6 || [[Cockle Bay, New Zealand|Cockle Bay]] || State || 1956 || {{NZ school roll data|1253|y}} ||  [http://www.cocklebay.school.nz]||
+|-
+| [[Farm Cove Intermediate]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1272 1272] || 7–8 || [[Farm Cove, New Zealand|Farm Cove]] || State || || {{NZ school roll data|1272|y}} ||  [http://www.farmcove.school.nz]||
+|-
+| [[Howick Intermediate]]  ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1318 1318] || 7–8 || [[Howick, New Zealand|Howick]] || State || 1964 || {{NZ school roll data|1318|y}} ||  [http://www.howickint.school.nz/]||
+|-
+| [[Macleans Primary School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1388 1388] || 1–6 || [[Bucklands Beach]] || State || || {{NZ school roll data|1388|y}} ||  [http://www.macleansprimary.school.nz]|| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Bucklands_Beach_Intermediate> wdt:P47 <https://en.wikipedia.org/wiki/Half_Moon_Bay,_Auckland> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ rdfs:label "Bucklands Beach"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Eastern_Beach,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Highland_Park,_New_Zealand> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bucklands%20Beach%20Sky%20View%20Photography.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/T%C4%81maki_River> .
+
+<https://example.org/resource/Cockle_Bay_School> rdfs:label "Cockle Bay School"@en ;
+ wdt:P7086 <https://en.wikipedia.org/wiki/Year_1_(education)> ;
+ wdt:P856 <http://www.cocklebay.school.nz> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P6375 "Sandspit Road, Howick South, Auckland"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/20220925%20143529%20Cockle%20Bay%20School.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/School> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ wdt:P7095 <https://en.wikipedia.org/wiki/Year_6> ;
+ wdt:P2196 "799"^^xsd:decimal ;
+ wdt:P2196 "801"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Primary_school> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Auckland> .
+
+<https://example.org/resource/Farm_Cove_Intermediate> wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/School> ;
+ wdt:P7095 <https://en.wikipedia.org/wiki/Year_8> ;
+ wdt:P6375 "16 Butley Drive, Pakuranga, Auckland"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Middle_school> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P7086 <https://en.wikipedia.org/wiki/Year_7> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ rdfs:label "Farm Cove Intermediate"@en ;
+ wdt:P856 <http://www.farmcove.school.nz> ;
+ wdt:P2196 "610"^^xsd:decimal ;
+ wdt:P2196 "532"^^xsd:decimal ;
+ wdt:P571 "1979-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Pakuranga> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Auckland> .
+
+<https://example.org/resource/Howick_Intermediate> rdfs:label "Howick Intermediate"@en ;
+ wdt:P856 <http://www.howickint.school.nz/> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Howick,_New_Zealand> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/School> ;
+ wdt:P571 "1937-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P7095 <https://en.wikipedia.org/wiki/Year_8> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Middle_school> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P7086 <https://en.wikipedia.org/wiki/Year_7> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ wdt:P6375 "Botany Road, Howick South, Auckland"@en ;
+ wdt:P2196 "487"^^xsd:decimal ;
+ wdt:P2196 "538"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Auckland> .
+
+<https://example.org/resource/Macleans_Primary_School> wdt:P47 <https://en.wikipedia.org/wiki/Half_Moon_Bay,_Auckland> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ rdfs:label "Bucklands Beach"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Eastern_Beach,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Highland_Park,_New_Zealand> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bucklands%20Beach%20Sky%20View%20Photography.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/T%C4%81maki_River> .
+---
+These are the labels of the properties:
+
+wdt:P47 -> shares border with
+wdt:P31 -> instance of
+wdt:P17 -> country
+wdt:P18 -> image
+wdt:P131 -> located in the administrative territorial entity
+wdt:P7086 -> start grade
+wdt:P856 -> official website URL
+wdt:P6375 -> street address
+wdt:P7419 -> gender educated
+wdt:P7095 -> end grade
+wdt:P2196 -> students count
+wdt:P276 -> location
+wdt:P571 -> inception.
+---
+These are the labels of the objects:
+
+wd:Q70853302 -> all genders.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Area || Authority || Opened || Roll || Website || Notes
+|-
+| Sunnyhills School  ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1515 1515] || 1–8 || [[Sunnyhills]] || State || || {{NZ school roll data|1515|y}} ||  [http://www.sunnyhills.school.nz]||
+|-
+| Te Uho O Te Nikau Primary School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=593 593] || 1–8 || [[Flat Bush]] || State || 2019<ref>{{cite news |last= Parata |first= Hekia |author-link= Hekia Parata |date= 3 March 2017 |title= Three new primary schools to open in 2019 |url= https://www.beehive.govt.nz/release/three-new-primary-schools-open-2019 |publisher=New Zealand Government |access-date= 4 March 2016}}</ref> || {{NZ school roll data|593|y}} || ||
+|-
+| Wakaaranga School  || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1560 1560] || 1–6 || [[Farm Cove, New Zealand|Farm Cove]] || State || || {{NZ school roll data|1560|y}} ||  [http://www.wakaaranga.school.nz]||
+|-
+| Willowbank School ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=6959 6959] || 1–6 || [[Dannemora, New Zealand|Dannemora]] || State || 2001 || {{NZ school roll data|6959|y}} ||  [http://www.willowbankschool.co.nz]|| |}
+---

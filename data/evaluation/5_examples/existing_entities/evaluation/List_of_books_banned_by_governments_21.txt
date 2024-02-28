@@ -1,0 +1,171 @@
+In both
+<https://example.org/resource/Men_of_Good_Will> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q334983> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P577> "1932-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Country_Girls> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q178225> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P577> "1958-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Dark> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/The_Dark> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/The_Dark> <http://www.w3.org/2000/01/rdf-schema#label> "The Dark"@en .
+<https://example.org/resource/The_Dark> <http://www.wikidata.org/prop/direct/P1476> "The Dark"@en .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q81447> .
+<https://example.org/resource/Borstal_Boy> <http://www.w3.org/2000/01/rdf-schema#label> "Borstal Boy"@en .
+<https://example.org/resource/The_Country_Girls> <http://www.w3.org/2000/01/rdf-schema#label> "The Country Girls"@en .
+<https://example.org/resource/Men_of_Good_Will> <http://www.w3.org/2000/01/rdf-schema#label> "Men of Good Will"@en .
+<https://example.org/resource/My_Secret_Garden> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Brave_New_World> <http://www.w3.org/2000/01/rdf-schema#label> "Brave New World"@en .
+<https://example.org/resource/Men_of_Good_Will> <http://www.wikidata.org/prop/direct/P577> "1932-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Country_Girls> <http://www.wikidata.org/prop/direct/P577> "1960-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/My_Secret_Garden> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q465011> .
+<https://example.org/resource/My_Secret_Garden> <http://www.w3.org/2000/01/rdf-schema#label> "My Secret Garden"@en .
+<https://example.org/resource/The_Country_Girls> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/The_Tailor_and_Ansty> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/The_Country_Girls> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P1476> "Brave New World"@en .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q313063> .
+<https://example.org/resource/The_Tailor_and_Ansty> <http://www.w3.org/2000/01/rdf-schema#label> "The Tailor and Ansty"@en .
+<https://example.org/resource/The_Tailor_and_Ansty> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q5386321> .
+<https://example.org/resource/My_Secret_Garden> <http://www.wikidata.org/prop/direct/P577> "1973-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P1476> "Borstal Boy"@en .
+<https://example.org/resource/The_Dark> <http://www.wikidata.org/prop/direct/P577> "1965-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Dark> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q1277641> .
+<https://example.org/resource/My_Secret_Garden> <http://www.wikidata.org/prop/direct/P1476> "My Secret Garden"@en .
+In ground only
+<https://example.org/resource/The_Bulpington_of_Blup> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q499644> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P2635> "18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Marriage_and_Morals> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q944296> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q3180111> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q723685> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q7106096> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P3132> "After a while I went out and left the hospital and walked back to the hotel in the rain."@en .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q1575490> .
+<https://example.org/resource/The_Bulpington_of_Blup> <http://www.w3.org/2000/01/rdf-schema#label> "The Bulpington of Blup"@en .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q9666186> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q908667> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q845617> .
+<https://example.org/resource/Marriage_and_Morals> <http://www.w3.org/2000/01/rdf-schema#label> "Marriage and Morals"@en .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q29017603> .
+<https://example.org/resource/The_Work,_Wealth_and_Happiness_of_Mankind> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q42511> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q907311> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/The_Bulpington_of_Blup> <http://www.wikidata.org/prop/direct/P1476> "The Bulpington of Blup"@en .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q334401> .
+<https://example.org/resource/Marriage_and_Morals> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q395175> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q1629592> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P443> <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q8752%20%28eus%29-ElsaBornFree-Bai%20mundu%20berria.wav> .
+<https://example.org/resource/My_Secret_Garden> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q472194> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P1476> "A Farewell to Arms"@en .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/The_Tailor_and_Ansty> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q36279> .
+<https://example.org/resource/Marriage_and_Morals> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q33760> .
+<https://example.org/resource/Men_of_Good_Will> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1667921> .
+<https://example.org/resource/The_Country_Girls> <http://www.wikidata.org/prop/direct/P156> <http://www.wikidata.org/entity/Q2678153> .
+<https://example.org/resource/The_Work,_Wealth_and_Happiness_of_Mankind> <http://www.w3.org/2000/01/rdf-schema#label> "The Work, Wealth and Happiness of Mankind"@en .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q1034411> .
+<https://example.org/resource/The_Bulpington_of_Blup> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q219400> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q435107> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ernest%20Hemingway%20-%20Addio%20alle%20armi%20%28A%20Farewell%20to%20Arms%29%20-%20Oscar%20Mondadori%2027%20aprile%201965.jpg> .
+<https://example.org/resource/The_Dark> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q27> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P166> <http://www.wikidata.org/entity/Q20899118> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P571> "1929-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P953> <https://www.fadedpage.com/showbook.php?pid=20170312> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P577> "1929-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q3024518> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P166> <http://www.wikidata.org/entity/Q4630676> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q180774> .
+<https://example.org/resource/My_Secret_Garden> <http://www.wikidata.org/prop/direct/P156> <http://www.wikidata.org/entity/Q5467335> .
+<https://example.org/resource/The_Bulpington_of_Blup> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/My_Secret_Garden> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P291> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q3292619> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/The_Work,_Wealth_and_Happiness_of_Mankind> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.w3.org/2000/01/rdf-schema#label> "A Farewell to Arms"@en .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q17612580> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q23434> .
+<https://example.org/resource/The_Dark> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q18693346> .
+<https://example.org/resource/The_Country_Girls> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q27> .
+<https://example.org/resource/Men_of_Good_Will> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P577> "1964-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q15062348> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q20737414> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P86> <http://www.wikidata.org/entity/Q1699098> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q21> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P2408> <http://www.wikidata.org/entity/Q49840> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P1476> "Girl with Green Eyes"@en .
+<https://example.org/resource/Men_of_Good_Will> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q3117417> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P2047> "91"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q170539> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q84> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q4958386> .
+<https://example.org/resource/Men_of_Good_Will> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q142> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q52207399> .
+<https://example.org/resource/The_Work,_Wealth_and_Happiness_of_Mankind> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q1251563> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P1922> "In the late summer of that year we lived in a house in a village that looked across the river and the plain to the mountains."@en .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q30642027> .
+<https://example.org/resource/The_Dark> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q898097> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q16385681> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q2254211> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q8425> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P156> <http://www.wikidata.org/entity/Q5422772> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P2408> <http://www.wikidata.org/entity/Q111982962> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P166> <http://www.wikidata.org/entity/Q1966965> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P166> <http://www.wikidata.org/entity/Q40734> .
+<https://example.org/resource/The_Bulpington_of_Blup> <http://www.wikidata.org/prop/direct/P577> "1932-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Marriage_and_Morals> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q35760> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q24925> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q130232> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q294454> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Giveaway%20von%20Pinguin%20Books%20f%C3%BCr%20Brave%20New%20World%20%28cropped%29.jpg> .
+<https://example.org/resource/Marriage_and_Morals> <http://www.wikidata.org/prop/direct/P577> "1929-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P58> <http://www.wikidata.org/entity/Q178225> .
+<https://example.org/resource/The_Country_Girls> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q1761> .
+<https://example.org/resource/The_Bulpington_of_Blup> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q42511> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q1315911> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q361> .
+<https://example.org/resource/The_Bulpington_of_Blup> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/A_Farewell_to_Arms> <http://www.wikidata.org/prop/direct/P674> <http://www.wikidata.org/entity/Q124031051> .
+<https://example.org/resource/The_Work,_Wealth_and_Happiness_of_Mankind> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/The_Bulpington_of_Blup> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q378809> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q156552> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.w3.org/2000/01/rdf-schema#label> "Girl with Green Eyes"@en .
+<https://example.org/resource/My_Secret_Garden> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P571> "1932-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q470746> .
+<https://example.org/resource/Brave_New_World> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/The_Work,_Wealth_and_Happiness_of_Mankind> <http://www.wikidata.org/prop/direct/P577> "1931-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Men_of_Good_Will> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q150> .
+In predicted only
+<https://example.org/resource/The_Tailor_and_Ansty> <http://www.wikidata.org/prop/direct/P577> "1942-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P577> "1962-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Men_of_Good_Will> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/The_Work_Wealth_and_Happiness_of_Mankind> <http://www.w3.org/2000/01/rdf-schema#label> "The Work, Wealth and Happiness of Mankind"@en .
+<https://example.org/resource/The_Lonely_Girl> <http://www.w3.org/2000/01/rdf-schema#label> "The Lonely Girl"@en .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/The_Work_Wealth_and_Happiness_of_Mankind> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Men_of_Good_Will> <http://www.wikidata.org/prop/direct/P1476> "Men of Good Will"@en .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q178225> .
+<https://example.org/resource/The_Country_Girls> <http://www.wikidata.org/prop/direct/P1476> "The Country Girls"@en .
+<https://example.org/resource/The_Work_Wealth_and_Happiness_of_Mankind> <http://www.wikidata.org/prop/direct/P577> "1932-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Men_of_Good_Will> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q27560760> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q3056541> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/The_Work_Wealth_and_Happiness_of_Mankind> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q42511> .
+<https://example.org/resource/The_Tailor_and_Ansty> <http://www.wikidata.org/prop/direct/P1476> "The Tailor and Ansty"@en .
+<https://example.org/resource/The_Work_Wealth_and_Happiness_of_Mankind> <http://www.wikidata.org/prop/direct/P1476> "The Work, Wealth and Happiness of Mankind"@en .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/The_Lonely_Girl> <http://www.wikidata.org/prop/direct/P1476> "The Lonely Girl"@en .

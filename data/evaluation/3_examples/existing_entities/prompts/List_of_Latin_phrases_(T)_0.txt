@@ -1,0 +1,57 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of Latin phrases (T)" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+!Latin!!Translation!!Notes
+|-
+|''[[tabula rasa]]''||scraped tablet||Thus, "blank slate". Romans used to write on [[wax]]-covered wooden tablets, which were erased by scraping with the flat end of the [[stylus]]. [[John Locke]] used the term to describe the human [[mind]] at birth, before it had acquired any knowledge.
+|-
+|[[Tempora mutantur|''tempora mutantur et nos mutamur in illis'']]||the times are changing, and we change in them||16th century variant of two classical lines of Ovid: ''tempora labuntur'' ("time labors", ''Fasti'') and ''omnia mutantur'' ("everything changes", ''Metamorphoses''). See [[Tempora mutantur|entry]] for details.
+|-
+|''[[tempus fugit]]''||Time flees.<br>Time flies.||From [[Virgil]]'s ''[[Georgics]]'' (Book III, line 284), where it appears as ''fugit inreparabile tempus''. A common [[list of sundial mottos|sundial motto]]. See also ''tempus volat, hora fugit'' below. |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/tabula_rasa> wdt:P1343 wd:Q19219752 ;
+ wdt:P1343 wd:Q63284758 ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Tabula_Rasa_(disambiguation)> ;
+ rdfs:label "blank slate"@en ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Armenian_Soviet_Encyclopedia> ;
+ wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/''tempora_mutantur_et_nos_mutamur_in_illis''> wdt:P1343 wd:Q19219752 ;
+ rdfs:label "tempora mutantur"@en ;
+ wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tempus_fugit> wdt:P1343 wd:Q2041543 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tempus%20fugit%2C%20Sundial%20versus%20Digital%20clock.JPG> ;
+ rdfs:label "Tempus fugit"@en ;
+ wdt:P31 wd:Q3062294 .
+---
+These are the labels of the properties:
+
+wdt:P1343 -> described by source
+wdt:P1889 -> different from
+wdt:P31 -> instance of
+wdt:P18 -> image.
+---
+These are the labels of the objects:
+
+wd:Q19219752 -> Meyers Konversations-Lexikon, 4th edition (1885–1890)
+wd:Q63284758 -> Desktop Encyclopedic Dictionary
+wd:Q3062294 -> Latin phrase
+wd:Q2041543 -> Ottův slovník naučný.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+!Latin!!Translation!!Notes
+|-
+|''[[tu quoque]]''||you too||The logical [[fallacy]] of attempting to defend one's position merely by pointing out the same weakness in one's opponent. |}
+---

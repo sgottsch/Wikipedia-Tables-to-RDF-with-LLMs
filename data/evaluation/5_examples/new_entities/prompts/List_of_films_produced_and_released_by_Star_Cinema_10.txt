@@ -1,0 +1,161 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films produced and released by Star Cinema" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" | ''[[Ngayong Nandito Ka]]''||February 26 ||Jerry Lopez Sineneng ||[[Kristine Hermosa]], [[Jericho Rosales]], [[Onemig Bondoc]], [[Dianne dela Fuente]] ||[[Romance film|Romance]], [[Drama film|drama]] ||
+|-
+| style="text-align:center;" | ''[[Till There Was You (2003 film)|Till There Was You]]''||April 30 || [[Joyce E. Bernal]]|| [[Judy Ann Santos]], [[Piolo Pascual]]||[[Romance film|Romance]], [[Drama film|drama]] ||
+|-
+| style="text-align:center;" | ''[[Ang Tanging Ina]]''|| May 28||[[Wenn Deramas]] ||[[Ai-Ai de las Alas]], [[Marvin Agustin]], [[Carlo Aquino]], [[Nikki Valdez]], [[Heart Evangelista]], [[Eugene Domingo]] ||[[Comedy film|Comedy]] ||
+|-
+| style="text-align:center;" | ''[[Noon At Ngayon: Pagsasamang Kay Ganda]]''||August 13 ||[[Marilou Diaz-Abaya]] ||[[Dina Bonnevie]], [[Eula Valdez]], [[Jean Garcia]], [[Cherry Pie Picache]], [[Laurice Guillen]] ||[[Drama film|Drama]] ||
+|-
+| style="text-align:center;" | ''[[Pinay Pie]]''||September 3 || [[Jose Javier Reyes]]|| [[Joyce Jimenez]], [[Assunta De Rossi]], [[Ai Ai de las Alas]], [[Carlos Agassi]]||[[Comedy film|Comedy]] || |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Ngayong_Nandito_Ka> wdt:P161 <https://en.wikipedia.org/wiki/Onemig_Bondoc> ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Filipino_language> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Kristine_Hermosa> ;
+ wdt:P577 "2003-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Ngayong Nandito Ka"@en ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dianne_dela_Fuente> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Japan> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jericho_Rosales> ;
+ wdt:P57 wd:Q113206347 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P462 wd:Q22006653 .
+
+<https://example.org/resource/Till_There_Was_You> wdt:P1476 "Till There Was You"@en ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Drama_(film_and_television)> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P577 "2003-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Judy_Ann_Santos> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ rdfs:label "Till There Was You"@en ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Japan> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Piolo_Pascual> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Romance_film> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Raul_Mitra> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Joyce_Bernal> ;
+ wdt:P462 wd:Q22006653 .
+
+<https://example.org/resource/Ang_Tanging_Ina> wdt:P272 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jiro_Manio> ;
+ wdt:P577 "2003-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Tagalog_language> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Eugene_Domingo> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Alwyn_Uytingco> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Television_series> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Heart_Evangelista> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Angelica_Panganiban> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Shaina_Magdayao> ;
+ wdt:P1476 "Ang Tanging Ina"@en ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Serena_Dalrymple> ;
+ wdt:P580 "2003-05-28T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Comedy_film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ai-Ai_delas_Alas> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_Prats> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Marvin_Agustin> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Wenn_V._Deramas> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Kaye_Abad> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Nikki_Valdez> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P449 <https://en.wikipedia.org/wiki/ABS-CBN> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Carlo_Aquino> ;
+ rdfs:label "Ang Tanging Ina"@en .
+
+<https://example.org/resource/Noon_At_Ngayon:_Pagsasamang_Kay_Ganda> wdt:P161 <https://en.wikipedia.org/wiki/Eula_Valdez> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P577 "2003-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1476 "Noon at Ngayon: Pagsasamang Kay Ganda"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Marilou_Diaz-Abaya> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Ricky_Lee> ;
+ rdfs:label "Noon at Ngayon: Pagsasamang Kay Ganda"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dina_Bonnevie> .
+
+<https://example.org/resource/Pinay_Pie> wdt:P161 <https://en.wikipedia.org/wiki/Onemig_Bondoc> ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Charo_Santos-Concio> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Joyce_Jimenez> ;
+ wdt:P577 "2003-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Pinay Pie"@en ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Carlos_Agassi> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Vhong_Navarro> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Rafael_Rosell> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Jose_Javier_Reyes> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Comedy_film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Assunta_De_Rossi> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ai-Ai_delas_Alas> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Jose_Javier_Reyes> ;
+ wdt:P462 wd:Q22006653 .
+---
+These are the labels of the properties:
+
+wdt:P161 -> cast member
+wdt:P272 -> production company
+wdt:P364 -> original language of film or TV show
+wdt:P577 -> publication date
+wdt:P31 -> instance of
+wdt:P840 -> narrative location
+wdt:P57 -> director
+wdt:P495 -> country of origin
+wdt:P462 -> color
+wdt:P1476 -> title
+wdt:P437 -> distribution format
+wdt:P136 -> genre
+wdt:P750 -> distributed by
+wdt:P86 -> composer
+wdt:P407 -> language of work or name
+wdt:P580 -> start time
+wdt:P449 -> original broadcaster
+wdt:P58 -> screenwriter
+wdt:P162 -> producer.
+---
+These are the labels of the objects:
+
+wd:Q113206347 -> Jerry Lopez Sineneng
+wd:Q22006653 -> color.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" | ''Kung Ako Na Lang Sana''|| September 24||[[Jose Javier Reyes]] ||[[Sharon Cuneta]], [[Aga Muhlach]], [[Christine Bersola-Babao]] ||[[Romance film|Romance]], [[Comedy film|comedy]] || |}
+---

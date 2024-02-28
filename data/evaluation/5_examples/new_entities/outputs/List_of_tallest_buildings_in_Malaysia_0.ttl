@@ -1,0 +1,66 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/8_Conlay_Tower_A> rdfs:label "8 Conlay Tower A"@en ;
+    ns1:P1101 61.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2023-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/8%20Conlay%20Tower%20A.jpg> ;
+    ns1:P2048 277.0 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q41176> ;
+    ns1:P571 "2023-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Bloomsvale_Verbena> rdfs:label "Bloomsvale Verbena"@en ;
+    ns1:P1101 66.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2023-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bloomsvale%20Verbena%20KL.jpg> ;
+    ns1:P2048 270.0 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q41176> ;
+    ns1:P571 "2023-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Kempinski_Hotel_and_Residences> rdfs:label "Kempinski Hotel and Residences"@en ;
+    ns1:P1101 72.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kempinski%20Hotel%20Residences%20KL.jpg> ;
+    ns1:P2048 307.8 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q41176> ;
+    ns1:P571 "2024-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Oxley_Tower_1> rdfs:label "Oxley Tower 1"@en ;
+    ns1:P1101 78.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Exchange%20106%20skyline%20Nov%20of%202021.jpg> ;
+    ns1:P2048 345.0 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q41176> ;
+    ns1:P571 "2024-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Petronas_Tower_2> rdfs:label "Petronas Tower 2"@en ;
+    ns1:P1101 88.0 ;
+    ns1:P1139 5.0 ;
+    ns1:P127 <http://www.wikidata.org/entity/Q221692> ;
+    ns1:P1301 87.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2023-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Petronas%20Panorama%20II.jpg> ;
+    ns1:P2048 451.9 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q17049670> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11303> ;
+    ns1:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Twins%20SE%20Asia%202019%20%2849171985716%29.jpg> ;
+    ns1:P366 <http://www.wikidata.org/entity/Q182060> ;
+    ns1:P571 "2023-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P6375 "Kuala Lumpur"@en ;
+    ns1:P793 <http://www.wikidata.org/entity/Q1075723>,
+        <http://www.wikidata.org/entity/Q27136782> ;
+    ns1:P84 <http://www.wikidata.org/entity/Q372245> ;
+    ns1:P856 <https://www.skyscrapercenter.com/building/petronas-twin-tower-2/150> .
+

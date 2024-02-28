@@ -1,0 +1,139 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of schools in the Auckland Region" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Area || Authority || Opened || Roll ||  Website || Notes
+|-
+| [[Glen Eden Intermediate School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1284 1284] || 7–8 || [[Kaurilands]] || State || || {{NZ school roll data|1284|y}}||  [http://www.geis.school.nz/]||
+|-
+| [[Glen Eden School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1285 1285] || 1–6 || [[Glen Eden, New Zealand|Glen Eden]] || State || 1915 || {{NZ school roll data|1285|y}} ||  [http://www.geps.school.nz/]||
+|-
+| [[Laingholm School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1338 1338] || 1–6 || [[Laingholm]] || State || || {{NZ school roll data|1338|y}} ||  [http://www.laingholm.school.nz/]||
+|-
+| [[Titirangi School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1537 1537] || 1–6 || [[Titirangi]] || State || || {{NZ school roll data|1537|y}} ||  [http://www.titirangi.school.nz/]||
+|-
+| [[Woodlands Park School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1578 1578] || 1–6 || [[Woodlands Park]] || State || 1958 || {{NZ school roll data|1578|y}} ||  [http://www.woodlandspark.school.nz/]|| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Glen_Eden_Intermediate_School> wdt:P6375 "Kaurilands Road, Titirangi, Auckland"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/School> ;
+ wdt:P7095 <https://en.wikipedia.org/wiki/Year_8> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Middle_school> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P7086 <https://en.wikipedia.org/wiki/Year_7> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ rdfs:label "Glen Eden Intermediate School"@en ;
+ wdt:P856 <http://www.geis.school.nz> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Glen%20Eden%20Intermediate%20Modern%20Learning%20Environment.jpg> ;
+ wdt:P2196 "1032"^^xsd:decimal ;
+ wdt:P571 "1961-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Auckland> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Titirangi> .
+
+<https://example.org/resource/Glen_Eden_School> wdt:P47 <https://en.wikipedia.org/wiki/Glendene,_New_Zealand> ;
+ wdt:P1082 "6300"^^xsd:decimal ;
+ wdt:P1082 "6400"^^xsd:decimal ;
+ wdt:P1082 "6500"^^xsd:decimal ;
+ wdt:P1082 "7500"^^xsd:decimal ;
+ wdt:P1082 "7900"^^xsd:decimal ;
+ wdt:P1082 "8700"^^xsd:decimal ;
+ wdt:P1082 "11500"^^xsd:decimal ;
+ wdt:P1082 "2580"^^xsd:decimal ;
+ wdt:P1082 "694"^^xsd:decimal ;
+ wdt:P1082 "6970"^^xsd:decimal ;
+ wdt:P1082 "7170"^^xsd:decimal ;
+ wdt:P1082 "8370"^^xsd:decimal ;
+ wdt:P1082 "1019"^^xsd:decimal ;
+ wdt:P1082 "1313"^^xsd:decimal ;
+ wdt:P1082 "1569"^^xsd:decimal ;
+ wdt:P1082 "5174"^^xsd:decimal ;
+ wdt:P1082 "6045"^^xsd:decimal ;
+ wdt:P1082 "6771"^^xsd:decimal ;
+ wdt:P1082 "8594"^^xsd:decimal ;
+ wdt:P1082 "9396"^^xsd:decimal ;
+ wdt:P1082 "11949"^^xsd:decimal ;
+ wdt:P1082 "12867"^^xsd:decimal ;
+ wdt:P1082 "13761"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:GLAM/Auckland_Museum> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Kaurilands> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/New_Lynn> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Titirangi> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Sunnyvale,_Auckland> ;
+ rdfs:label "Glen Eden"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Glen%20Eden%2020220413%20113014.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Oratia> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Konini> .
+
+<https://example.org/resource/Laingholm_School> wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Parau> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Woodlands_Park> ;
+ rdfs:label "Laingholm"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 wd:Q3257686 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Laingholm%20manukau.jpg> .
+
+<https://example.org/resource/Titirangi_School> wdt:P47 <https://en.wikipedia.org/wiki/Glen_Eden,_New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ rdfs:label "Titirangi"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Titirangi%2020221101%20102719.jpg> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Green_Bay,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Laingholm> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Oratia> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Konini> .
+
+<https://example.org/resource/Woodlands_Park_School> wdt:P47 <https://en.wikipedia.org/wiki/Waiatarua> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Huia,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Waima> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Woodlands%20Park%2C%20looking%20from%20Exhibition%20Drive%20walk%2C%20Waitakere%20Ranges.jpg> ;
+ rdfs:label "Woodlands Park"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Laingholm> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> .
+---
+These are the labels of the properties:
+
+wdt:P6375 -> street address
+wdt:P17 -> country
+wdt:P31 -> instance of
+wdt:P7095 -> end grade
+wdt:P7419 -> gender educated
+wdt:P7086 -> start grade
+wdt:P856 -> official website URL
+wdt:P18 -> image
+wdt:P2196 -> students count
+wdt:P571 -> inception
+wdt:P131 -> located in the administrative territorial entity
+wdt:P276 -> location
+wdt:P47 -> shares border with
+wdt:P1082 -> population
+wdt:P5008 -> on focus list of Wikimedia project.
+---
+These are the labels of the objects:
+
+wd:Q70853302 -> all genders
+wd:Q3257686 -> locality.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Area || Authority || Opened || Roll ||  Website || Notes
+|-
+| Waitakere School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1557 1557] || 1–8 || [[Waitākere, Auckland|Waitākere]] || State || || {{NZ school roll data|1557|y}} || [http://www.waitakereprimary.school.nz]|| |}
+---

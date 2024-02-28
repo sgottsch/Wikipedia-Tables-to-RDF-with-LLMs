@@ -1,0 +1,86 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Abha> rdfs:label "Abha"@en ;
+    wdt:P1082 334290.0 .
+
+<https://example.org/resource/Al_Bahah> rdfs:label "Al Bahah"@en ;
+    wdt:P1082 90515.0 .
+
+<https://example.org/resource/Al_Jafr> wdt:P1082 12000.0 .
+
+<https://example.org/resource/Al_Mawain> wdt:P1082 0.0 .
+
+<https://example.org/resource/Al_Mikhwah> wdt:P1082 0.0 .
+
+<https://example.org/resource/Al_Qadeeh> rdfs:label "Al Qadeeh"@en .
+
+<https://example.org/resource/Arar> rdfs:label "Arar"@en ;
+    wdt:P1082 199247.0 .
+
+<https://example.org/resource/Buraydah> rdfs:label "Buraydah"@en ;
+    wdt:P1082 574169.0 .
+
+<https://example.org/resource/Dammam> rdfs:label "Dammam"@en ;
+    wdt:P1082 1386166.0 .
+
+<https://example.org/resource/Gatgat> rdfs:label "Gatgat"@en .
+
+<https://example.org/resource/Ha'il> rdfs:label "Ha'il"@en ;
+    wdt:P1082 448623.0 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P36 wd:Q55908373 .
+
+<https://example.org/resource/Habaala> wdt:P1082 0.0 .
+
+<https://example.org/resource/Jizan> rdfs:label "Jizan"@en ;
+    wdt:P1082 173919.0 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P36 wd:Q97291235 .
+
+<https://example.org/resource/Mecca> rdfs:label "Mecca"@en ;
+    wdt:P1082 2385509.0 ;
+    wdt:P131 wd:Q234167 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q108777536 ;
+    wdt:P36 wd:Q97291235 .
+
+<https://example.org/resource/Medina> rdfs:label "Medina"@en ;
+    wdt:P1082 1411599.0 ;
+    wdt:P131 wd:Q236027 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q108777536 ;
+    wdt:P36 wd:Q97291234 .
+
+<https://example.org/resource/Najran> rdfs:label "Najran"@en ;
+    wdt:P1082 381431.0 ;
+    wdt:P131 wd:Q464718 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q108777536 ;
+    wdt:P36 wd:Q97291236 .
+
+<https://example.org/resource/Riyadh> rdfs:label "Riyadh"@en ;
+    wdt:P1082 6924566.0 ;
+    wdt:P131 wd:Q1249255 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q108777536 ;
+    wdt:P36 wd:Q97291237 .
+
+<https://example.org/resource/Rumah> rdfs:label "Rumah"@en .
+
+<https://example.org/resource/Sabt_Al_Alaya> rdfs:label "Sabt Al Alaya"@en ;
+    wdt:P1082 0.0 .
+
+<https://example.org/resource/Sakakah> rdfs:label "Sakakah"@en ;
+    wdt:P1082 204174.0 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P36 wd:Q55908373 .
+
+<https://example.org/resource/Tabuk> rdfs:label "Tabuk"@en ;
+    wdt:P1082 594350.0 ;
+    wdt:P131 wd:Q1315953 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P36 wd:Q97291223 .
+

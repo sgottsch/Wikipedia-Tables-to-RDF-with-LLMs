@@ -1,0 +1,112 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of tallest buildings in Malaysia" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " 
+|-
+! Name
+! class="unsortable"| Image
+! class="unsortable"| City
+! Years as Tallest 
+! Years
+! Architectural height<br /><small>m (ft)</small>
+! Roof height<br /><small>m (ft)</small>
+! Floors
+! Coordinates
+! class="unsortable"| Notes
+|-
+| [[Sultan Abdul Samad Building]]
+| [[File:Kuala Lumpur Sultan Abdul Building.jpg|100px]]
+| [[Kuala Lumpur]]
+| 1897–1942
+| align=center | 45 years
+| align=center | 40 (131)
+| align=center | 40 (131)
+| align=center | 3
+| {{Coord|3|08|55.2|N|101|41|39.8|E}}
+| Formerly known simply as Government Offices in its early years<ref>{{Cite web|url=https://www.emporis.com/buildings/105756/sultan-abdul-samad-building-kuala-lumpur-malaysia|archive-url=https://web.archive.org/web/20191014033552/https://www.emporis.com/buildings/105756/sultan-abdul-samad-building-kuala-lumpur-malaysia|url-status=dead|archive-date=14 October 2019|title=Sultan Abdul Samad Building|website=Emporis.com|access-date=14 October 2019}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Sultan_Abdul_Samad_Building> rdfs:label "Sultan Abdul Samad Building"@en ;
+ wdt:P466 <https://en.wikipedia.org/wiki/Ministry_of_Communications_and_Digital> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/20190822%20Sultan%20Abdul%20Samad%20Building-10.jpg> ;
+ wdt:P571 "1897-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Architectural_structure> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Abdul_Samad_of_Selangor> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/Dataran%20Merdeka%20-%20panoramio.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Islamic_architecture> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Arthur_Charles_Alfred_Norman> .
+---
+These are the labels of the properties:
+
+wdt:P466 -> occupant
+wdt:P18 -> image
+wdt:P571 -> inception
+wdt:P31 -> instance of
+wdt:P138 -> named after
+wdt:P17 -> country
+wdt:P3451 -> nighttime view
+wdt:P131 -> located in the administrative territorial entity
+wdt:P149 -> architectural style
+wdt:P84 -> architect.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " 
+|-
+! Name
+! class="unsortable"| Image
+! class="unsortable"| City
+! Years as Tallest 
+! Years
+! Architectural height<br /><small>m (ft)</small>
+! Roof height<br /><small>m (ft)</small>
+! Floors
+! Coordinates
+! class="unsortable"| Notes
+|-
+| [[Petronas Twin Towers]]
+| [[File:Petronas Panorama II (4to3).jpg|100px]]
+| [[Kuala Lumpur]]
+| 1998–2019
+| align=center | 20 years
+| align=center | {{cvt|451.9|m}}
+| align=center | {{cvt|405.9|m}}
+| align=center | 88
+| {{Coord|3|09|28|N|101|42|42.9|E}}
+| The tallest building in the world from 1998 to 2004 and remain the tallest twin towers in the world<ref>{{cite web | publisher = Skyscrapercenter.com | title = Petronas Tower 1 | url = https://www.skyscrapercenter.com/building/petronas-twin-tower-1/149 | access-date = 24 September 2019 }}</ref><ref>{{cite web | publisher = Skyscrapercenter.com | title = Petronas Tower 2 | url = https://www.skyscrapercenter.com/building/petronas-twin-tower-2/150 | access-date = 24 September 2019 }}</ref>
+|-
+| [[The Exchange 106]] 
+| [[File:The Exchange 106 20230317.jpg|100px]]
+| [[Kuala Lumpur]]
+| 2019–2021
+| align=center | 2 years
+| align=center | {{cvt|453.6|m}}
+| align=center | {{cvt|387.6|m}}
+| align=center | 95
+| 
+| Centerpiece of [[Tun Razak Exchange]] development.
+|-
+| [[Merdeka 118]]
+| [[File:Merdeka 118 20230317.jpg|100px]]
+| [[Kuala Lumpur]]
+| 2021–present
+| align=center | 3 years
+| align=center | {{cvt|678.9|m}}
+| align=center | {{cvt|518.9|m}}
+| align=center | 118 
+| {{coord|3.141335|N|101.700659|E}}
+| The second-tallest building in the world and tallest in Southeast Asia, The first skyscraper exceeding 500 m and 600 m in Kuala Lumpur and Malaysia.<ref>{{cite web | publisher = Skyscrapercenter.com | title = Merdeka PNB118 | url = https://www.skyscrapercenter.com/building/merdeka-pnb118/10115 | access-date = 14 October 2019 }}</ref> |}
+---

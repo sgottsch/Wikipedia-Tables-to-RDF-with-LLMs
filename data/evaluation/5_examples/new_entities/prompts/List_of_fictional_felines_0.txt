@@ -1,0 +1,126 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of fictional felines" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+!Character
+!Earliest Appearance
+!Notes
+|-
+|[[Cheshire Cat]]
+|''[[Alice's Adventures in Wonderland]]''
+|Sometimes raises philosophical points that annoy or baffle Alice. It does, however, appear to cheer her up when it turns up suddenly at the Queen of Hearts' croquet field, and when sentenced to death baffles everyone by having made its head appear without its body, sparking a massive argument between the executioner and the King and Queen of Hearts about whether something that does not have a body can indeed be beheaded.
+|-
+|[[Crookshanks]]
+|''[[Harry Potter (film series)|Harry Potter]]''
+|The pet cat of [[Hermione Granger]]. He is described as having a "squashed face", which was inspired by a real cat Rowling once saw,{{Citation needed|date=August 2013}} which she said looked like it had run face first into a brick wall, most likely a [[Persian cat|Persian]]. Hermione buys Crookshanks from a shop in [[Diagon Alley]] out of [[sympathy]], as nobody wants him because of his behaviour and his squashed looking-face. Rowling has confirmed that Crookshanks is half [[Kneazle]],<ref name="Rowling">{{cite web|last=Rowling |first=J. K. |author-link=J. K. Rowling |title=J. K. Rowling's Official Website |work=Crookshanks |url=http://www.jkrowling.com/textonly/en/extrastuff_view.cfm?id=10 |access-date=30 June 2007 |url-status=dead |archive-url=https://web.archive.org/web/20110916173905/http://www.jkrowling.com/textonly/en/extrastuff_view.cfm?id=10 |archive-date=16 September 2011 }}</ref> an intelligent, cat-like creature who can detect when they are around untrustworthy people, explaining his higher than normal cat intelligence and stature.
+|-
+|[[Pete the Cat]]
+|''[[Pete the Cat|Pete the Cat: I Love My White Shoes]]''
+|Pete started as a book series, and later became an inspiration for a song and its own television series on [[Amazon Prime]].<ref>{{cite web|url=https://deadline.com/2017/02/amazon-orders-kids-series-pete-the-cat-costume-quest-1201910175/|title=Amazon Greenlights Kids Series 'Pete The Cat' & 'Costume Quest'|first=Denise|last=Petski|date=February 13, 2017|website=Dateline|access-date=May 21, 2019}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Cheshire_Cat> wdt:P31 wd:Q27303706 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Alice%20par%20John%20Tenniel%2023.png> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Cheshire%20Cat%20Tenniel.png> ;
+ wdt:P31 wd:Q27120684 ;
+ wdt:P170 <https://en.wikipedia.org/wiki/Lewis_Carroll> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Alice_in_Wonderland_(musical)> ;
+ wdt:P138 wd:Q67287495 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Alice_in_Wonderland_(2010_film)> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Cheshire_Cat_(Blink-182_album)> ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Wonderland_(fictional_country)> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Alice_in_Wonderland_(1915_film)> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Alice_Through_the_Looking_Glass_(2016_film)> ;
+ rdfs:label "Cheshire Cat"@en ;
+ wdt:P31 wd:Q3658341 .
+
+<https://example.org/resource/Crookshanks> wdt:P1441 <https://en.wikipedia.org/wiki/Harry_Potter> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ wdt:P360 wd:Q30017383 ;
+ rdfs:label "creature in Harry Potter"@en ;
+ wdt:P8345 <https://en.wikipedia.org/wiki/Wizarding_World> ;
+ wdt:P1080 <https://en.wikipedia.org/wiki/Fictional_universe_of_Harry_Potter> ;
+ wdt:P910 wd:Q6213263 .
+
+<https://example.org/resource/Pete_the_Cat> wdt:P2360 <https://en.wikipedia.org/wiki/Child> ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Picture_book> ;
+ wdt:P123 <https://en.wikipedia.org/wiki/HarperCollins> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Eric_Litwin> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P577 "2008-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1476 "Pete the Cat: I Love My White Shoes"@en ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P747 wd:Q124517911 ;
+ wdt:P747 wd:Q124517931 ;
+ wdt:P747 wd:Q124517929 ;
+ wdt:P747 wd:Q124517937 ;
+ wdt:P110 wd:Q20963637 ;
+ rdfs:label "Pete the Cat"@en ;
+ wdt:P856 <http://www.petethecatbooks.com/> ;
+ wdt:P31 wd:Q7725634 .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P1441 -> present in work
+wdt:P18 -> image
+wdt:P170 -> creator
+wdt:P138 -> named after
+wdt:P1889 -> different from
+wdt:P21 -> sex or gender
+wdt:P17 -> country
+wdt:P360 -> is a list of
+wdt:P8345 -> media franchise
+wdt:P1080 -> from narrative universe
+wdt:P910 -> topic's main category
+wdt:P2360 -> intended public
+wdt:P7937 -> form of creative work
+wdt:P123 -> publisher
+wdt:P50 -> author
+wdt:P495 -> country of origin
+wdt:P577 -> publication date
+wdt:P1476 -> title
+wdt:P407 -> language of work or name
+wdt:P747 -> has edition or translation
+wdt:P110 -> illustrator
+wdt:P856 -> official website URL.
+---
+These are the labels of the objects:
+
+wd:Q27303706 -> anthropomorphic cat
+wd:Q27120684 -> fictional cat
+wd:Q67287495 -> Cheshire
+wd:Q3658341 -> literary character
+wd:Q30017383 -> fictional organism
+wd:Q6213263 -> Category:Creatures in Harry Potter
+wd:Q124517911 -> Pete the Cat: I Love My White Shoes
+wd:Q124517931 -> Pete the Cat: I Love My White Shoes
+wd:Q124517929 -> Pete the Cat: I Love My White Shoes
+wd:Q124517937 -> Pete the Cat: I Love My White Shoes
+wd:Q20963637 -> James Dean
+wd:Q7725634 -> literary work.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+!Character
+!Earliest Appearance
+!Notes
+|-
+|The Cat in the Hat
+|''[[The Cat in the Hat]]''
+|The Cat in the Hat is a tall, [[anthropomorphism|anthropomorphic]] cat who wears a red and white-striped hat and a red bow tie. The Cat creates chaos when he shows up at the house of Sally and her brother while their mother is out. The children and the fish become very alarmed. Just before the children's mother arrives home the Cat uses a machine to clean up the mess, and then disappears.
+|-
+|Speaker-to-Animals
+|''[[Ringworld]]'' and ''[[Man-Kzin Wars]]'' book series
+|Member of the [[Kzinti]] race of anthropomorphic felines in the [[Larry Niven]] collection of books. One of the few to have earned the right to bear a name. |}
+---

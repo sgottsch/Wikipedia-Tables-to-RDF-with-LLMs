@@ -1,0 +1,66 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Beach_City> rdfs:label "Beach City"@en ;
+    wdt:P1080 wd:Q108528616 ;
+    wdt:P31 wd:Q1964689 ;
+    wdt:P376 wd:Q124605675 ;
+    wdt:P4584 wd:Q62129451 ;
+    wdt:P8345 wd:Q106612969 .
+
+<https://example.org/resource/Gravity_Falls> rdfs:label "Gravity Falls, Oregon"@en ;
+    wdt:P1080 wd:Q61468436 ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Konohagakure> rdfs:label "Konohagakure"@en ;
+    wdt:P1080 wd:Q122998 ;
+    wdt:P31 wd:Q122998 ;
+    wdt:P376 wd:Q122998 ;
+    wdt:P4584 wd:Q122998 ;
+    wdt:P8345 wd:Q122998 .
+
+<https://example.org/resource/Musutafu> rdfs:label "Musutafu"@en ;
+    wdt:P1080 wd:Q122998 ;
+    wdt:P31 wd:Q122998 ;
+    wdt:P376 wd:Q122998 ;
+    wdt:P4584 wd:Q122998 ;
+    wdt:P8345 wd:Q122998 .
+
+<https://example.org/resource/New_Helic_City> rdfs:label "New Helic City"@en ;
+    wdt:P1080 wd:Q122998 ;
+    wdt:P31 wd:Q122998 ;
+    wdt:P376 wd:Q122998 ;
+    wdt:P4584 wd:Q122998 ;
+    wdt:P8345 wd:Q122998 .
+
+<https://example.org/resource/New_New_York_City> rdfs:label "New New York City, New York"@en ;
+    wdt:P1080 wd:Q64861227 ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Paradigm_City> rdfs:label "Paradigm City"@en ;
+    wdt:P1080 wd:Q122998 ;
+    wdt:P31 wd:Q122998 ;
+    wdt:P376 wd:Q122998 ;
+    wdt:P4584 wd:Q122998 ;
+    wdt:P8345 wd:Q122998 .
+
+<https://example.org/resource/Quahog_Rhode_Island> rdfs:label "Quahog, Rhode Island"@en ;
+    wdt:P1080 wd:Q64861227 ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/South_Park> rdfs:label "South Park, Colorado"@en ;
+    wdt:P1080 wd:Q61468436 ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Townsville> rdfs:label "Townsville"@en ;
+    wdt:P1080 wd:Q122998 ;
+    wdt:P31 wd:Q122998 ;
+    wdt:P376 wd:Q122998 ;
+    wdt:P4584 wd:Q122998 ;
+    wdt:P8345 wd:Q122998 .
+
+<https://example.org/resource/West_City> rdfs:label "West City"@en ;
+    wdt:P1080 wd:Q64861227 ;
+    wdt:P31 wd:Q1964689 .
+

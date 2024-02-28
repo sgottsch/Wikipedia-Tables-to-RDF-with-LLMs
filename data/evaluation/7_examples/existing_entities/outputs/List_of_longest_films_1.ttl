@@ -1,0 +1,91 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Baa_Baa_Land> wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Baa Baa Land"@en ;
+    wdt:P2047 480.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q108064185 ;
+    wdt:P577 "2017-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Crude_Oil> wdt:P136 wd:Q93204 ;
+    wdt:P1476 "Crude Oil"@en ;
+    wdt:P2047 840.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q108064183 ;
+    wdt:P577 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Empire> wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Empire"@en ;
+    wdt:P2047 485.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q5603 ;
+    wdt:P577 "1965-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Evolution_of_a_Filipino_Family> wdt:P1476 "Evolution of a Filipino Family"@en ;
+    wdt:P2047 624.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P577 "0001-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Hitler_A_Film_from_Germany> rdfs:label "Hitler: A Film from Germany"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Hitler: A Film from Germany"@en ;
+    wdt:P2047 442.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P577 "1977-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Imitation_of_Christ> rdfs:label "Imitation of Christ"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Imitation of Christ"@en ;
+    wdt:P2047 480.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q5603 ;
+    wdt:P577 "1967-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/My_Human_Time> wdt:P136 wd:Q790192 ;
+    wdt:P1476 "My Human Time"@en ;
+    wdt:P2047 1440.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q108064182 ;
+    wdt:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Paint_Drying> wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Paint Drying"@en ;
+    wdt:P2047 607.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q108064184 ;
+    wdt:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/River_of_Fundament> rdfs:label "River of Fundament"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "River of Fundament"@en ;
+    wdt:P2047 352.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q451185 ;
+    wdt:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Sleep> rdfs:label "Sleep"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Sleep"@en ;
+    wdt:P2047 480.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P577 "2013-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Sleep_1964> rdfs:label "Sleep"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Sleep"@en ;
+    wdt:P2047 321.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q5603 ;
+    wdt:P577 "1964-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Star_Spangled_to_Death> rdfs:label "Star Spangled to Death"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Star Spangled to Death"@en ;
+    wdt:P2047 402.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q325399 ;
+    wdt:P577 "2004-01-01T00:00:00+00:00"^^xsd:dateTime .
+

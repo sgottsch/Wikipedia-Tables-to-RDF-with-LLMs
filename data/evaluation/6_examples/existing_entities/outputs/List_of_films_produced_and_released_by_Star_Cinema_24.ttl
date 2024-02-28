@@ -1,0 +1,72 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Ang_Panday> rdfs:label "Ang Panday"@en ;
+    wdt:P161 wd:Q5139743 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "2017-12-25T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q22006653,
+        wd:Q7907096 .
+
+<https://example.org/resource/Gandarrapiddo:_The_Revenger_Squad> rdfs:label "Gandarrapiddo: The Revenger Squad"@en ;
+    wdt:P136 wd:Q1535153 ;
+    wdt:P161 wd:Q7925032 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q6297464 ;
+    wdt:P577 "2017-12-25T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q7907096 .
+
+<https://example.org/resource/Last_Night> rdfs:label "Last Night"@en ;
+    wdt:P161 wd:Q1956929,
+        wd:Q3544566 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q6297464 ;
+    wdt:P577 "2017-09-27T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q17088846,
+        wd:Q23301855 .
+
+<https://example.org/resource/Loving_in_Tandem> rdfs:label "Loving in Tandem"@en ;
+    wdt:P161 wd:Q27671269,
+        wd:Q27829408,
+        wd:Q30646961,
+        wd:Q5341758 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "2017-09-13T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Seven_Sundays> rdfs:label "Seven Sundays"@en ;
+    wdt:P161 wd:Q12970124,
+        wd:Q145424,
+        wd:Q1869913,
+        wd:Q3543293,
+        wd:Q5186397 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q5053417 ;
+    wdt:P577 "2017-10-11T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Ghost_Bride> rdfs:label "The Ghost Bride"@en ;
+    wdt:P161 wd:Q41187873,
+        wd:Q467044,
+        wd:Q4725821,
+        wd:Q6786461 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "2017-11-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Unexpectedly_Yours> rdfs:label "Unexpectedly Yours"@en ;
+    wdt:P161 wd:Q14956451,
+        wd:Q22959199,
+        wd:Q3543654,
+        wd:Q466942 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q5053417 ;
+    wdt:P577 "2017-11-29T00:00:00+00:00"^^xsd:dateTime .
+

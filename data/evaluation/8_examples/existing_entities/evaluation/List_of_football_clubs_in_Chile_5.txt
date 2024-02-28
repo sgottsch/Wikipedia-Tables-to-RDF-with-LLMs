@@ -1,0 +1,99 @@
+In both
+<https://example.org/resource/Universidad_Técnica> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q298> .
+<https://example.org/resource/O'Higgins_Braden> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q4582> .
+<https://example.org/resource/Santiago_National> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q298> .
+<https://example.org/resource/Luis_Cruz_Martínez> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q298> .
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q112860999> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.w3.org/2000/01/rdf-schema#label> "Naval de Talcahuano"@en .
+<https://example.org/resource/O'Higgins_Braden> <http://www.wikidata.org/prop/direct/P641> <http://www.wikidata.org/entity/Q2736> .
+<https://example.org/resource/O'Higgins_Braden> <http://www.wikidata.org/prop/direct/P576> "1955-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Unión_Temuco> <http://www.wikidata.org/prop/direct/P641> <http://www.wikidata.org/entity/Q2736> .
+<https://example.org/resource/Rodelindo_Román> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q298> .
+<https://example.org/resource/Rodelindo_Román> <http://www.wikidata.org/prop/direct/P641> <http://www.wikidata.org/entity/Q2736> .
+<https://example.org/resource/Universidad_Técnica> <http://www.wikidata.org/prop/direct/P641> <http://www.wikidata.org/entity/Q2736> .
+<https://example.org/resource/Regional_Atacama> <http://www.w3.org/2000/01/rdf-schema#label> "Regional Atacama"@en .
+<https://example.org/resource/Thomas_Bata> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q298> .
+<https://example.org/resource/Unión_Temuco> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q298> .
+<https://example.org/resource/Unión_Temuco> <http://www.w3.org/2000/01/rdf-schema#label> "Unión Temuco"@en .
+<https://example.org/resource/Universidad_Técnica> <http://www.w3.org/2000/01/rdf-schema#label> "Club Deportivo Universidad Técnica del Estado"@en .
+<https://example.org/resource/Unión_Temuco> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q82128> .
+<https://example.org/resource/Unión_Temuco> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q112860999> .
+<https://example.org/resource/Thomas_Bata> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q112860999> .
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q298> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q298> .
+<https://example.org/resource/O'Higgins_Braden> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q112860999> .
+<https://example.org/resource/Luis_Cruz_Martínez> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q112860999> .
+<https://example.org/resource/Santiago_National> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q112860999> .
+<https://example.org/resource/Unión_Temuco> <http://www.wikidata.org/prop/direct/P118> <http://www.wikidata.org/entity/Q2686290> .
+<https://example.org/resource/O'Higgins_Braden> <http://www.wikidata.org/prop/direct/P571> "1954-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P6112> <http://www.wikidata.org/entity/Q13479919> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P576> "1991-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/O'Higgins_Braden> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q298> .
+<https://example.org/resource/Thomas_Bata> <http://www.wikidata.org/prop/direct/P641> <http://www.wikidata.org/entity/Q2736> .
+<https://example.org/resource/O'Higgins_Braden> <http://www.w3.org/2000/01/rdf-schema#label> "O'Higgins Braden"@en .
+<https://example.org/resource/Universidad_Técnica> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q112860999> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P641> <http://www.wikidata.org/entity/Q2736> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q112860999> .
+<https://example.org/resource/Luis_Cruz_Martínez> <http://www.wikidata.org/prop/direct/P641> <http://www.wikidata.org/entity/Q2736> .
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P641> <http://www.wikidata.org/entity/Q2736> .
+<https://example.org/resource/Santiago_National> <http://www.wikidata.org/prop/direct/P641> <http://www.wikidata.org/entity/Q2736> .
+In ground only
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P571> "1979-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P6112> <http://www.wikidata.org/entity/Q9544390> .
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P115> <http://www.wikidata.org/entity/Q5400341> .
+<https://example.org/resource/Unión_Temuco> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q13321361> .
+<https://example.org/resource/Rodelindo_Román> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q86229164> .
+<https://example.org/resource/Thomas_Bata> <http://www.wikidata.org/prop/direct/P571> "1940-09-18T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Rodelindo_Román> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15944511> .
+<https://example.org/resource/Santiago_National> <http://www.wikidata.org/prop/direct/P571> "1900-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Rodelindo_Román> <http://www.wikidata.org/prop/direct/P286> <http://www.wikidata.org/entity/Q7357175> .
+<https://example.org/resource/Thomas_Bata> <http://www.wikidata.org/prop/direct/P118> <http://www.wikidata.org/entity/Q5098760> .
+<https://example.org/resource/Luis_Cruz_Martínez> <http://www.w3.org/2000/01/rdf-schema#label> "Luis Cruz Martínez de Curicó"@en .
+<https://example.org/resource/Santiago_National> <http://www.wikidata.org/prop/direct/P6112> <http://www.wikidata.org/entity/Q6245278> .
+<https://example.org/resource/Luis_Cruz_Martínez> <http://www.wikidata.org/prop/direct/P571> "1905-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P576> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q38373565> .
+<https://example.org/resource/Rodelindo_Román> <http://www.wikidata.org/prop/direct/P571> "1956-11-16T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/O'Higgins_Braden> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q4582> .
+<https://example.org/resource/O'Higgins_Braden> <http://www.wikidata.org/prop/direct/P115> <http://www.wikidata.org/entity/Q991407> .
+<https://example.org/resource/Universidad_Técnica> <http://www.wikidata.org/prop/direct/P571> "1947-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Rodelindo_Román> <http://www.wikidata.org/prop/direct/P115> <http://www.wikidata.org/entity/Q33207586> .
+<https://example.org/resource/Unión_Temuco> <http://www.wikidata.org/prop/direct/P571> "2008-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Unión_Temuco> <http://www.wikidata.org/prop/direct/P856> <http://www.uniontemuco.cl/> .
+<https://example.org/resource/O'Higgins_Braden> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q2882410> .
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P1424> <http://www.wikidata.org/entity/Q115958224> .
+<https://example.org/resource/Thomas_Bata> <http://www.w3.org/2000/01/rdf-schema#label> "C.D. Thomas Bata"@en .
+<https://example.org/resource/Unión_Temuco> <http://www.wikidata.org/prop/direct/P1424> <http://www.wikidata.org/entity/Q25889400> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P115> <http://www.wikidata.org/entity/Q5847927> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P571> "1944-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Santiago_National> <http://www.w3.org/2000/01/rdf-schema#label> "Santiago National"@en .
+<https://example.org/resource/Luis_Cruz_Martínez> <http://www.wikidata.org/prop/direct/P6112> <http://www.wikidata.org/entity/Q6247040> .
+<https://example.org/resource/Rodelindo_Román> <http://www.w3.org/2000/01/rdf-schema#label> "Rodelindo S.A.D.P"@en .
+<https://example.org/resource/Santiago_National> <http://www.wikidata.org/prop/direct/P118> <http://www.wikidata.org/entity/Q2686290> .
+In predicted only
+<https://example.org/resource/Universidad_Técnica> <http://www.wikidata.org/prop/direct/P571> "1969-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Thomas_Bata> <http://www.wikidata.org/prop/direct/P571> "1990-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P571> "1972-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Rodelindo_Román> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q112860999> .
+<https://example.org/resource/Rodelindo_Román> <http://www.wikidata.org/prop/direct/P576> "2023-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Santiago_National> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q2887> .
+<https://example.org/resource/Unión_Temuco> <http://www.wikidata.org/prop/direct/P571> "2013-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P6112> <http://www.wikidata.org/entity/Q25200393> .
+<https://example.org/resource/Universidad_Técnica> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q2887> .
+<https://example.org/resource/Luis_Cruz_Martínez> <http://www.wikidata.org/prop/direct/P576> "1967-04-07T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P1424> <http://www.wikidata.org/entity/Q25898028> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q41997> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P115> <http://www.wikidata.org/entity/Q20014928> .
+<https://example.org/resource/Luis_Cruz_Martínez> <http://www.wikidata.org/prop/direct/P571> "1914-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Thomas_Bata> <http://www.w3.org/2000/01/rdf-schema#label> "Deportivo Thomas Bata"@en .
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P571> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Rodelindo_Román> <http://www.w3.org/2000/01/rdf-schema#label> "Rodelindo Román"@en .
+<https://example.org/resource/Santiago_National> <http://www.wikidata.org/prop/direct/P576> "1956-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P118> <http://www.wikidata.org/entity/Q2686290> .
+<https://example.org/resource/Naval_de_Talcahuano> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q39808286> .
+<https://example.org/resource/Luis_Cruz_Martínez> <http://www.w3.org/2000/01/rdf-schema#label> "Luis Cruz Martínez"@en .
+<https://example.org/resource/Santiago_National> <http://www.wikidata.org/prop/direct/P571> "1942-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Santiago_National> <http://www.w3.org/2000/01/rdf-schema#label> "Santiago National Juventus"@en .
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P576> "1999-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Regional_Atacama> <http://www.wikidata.org/prop/direct/P118> <http://www.wikidata.org/entity/Q2686290> .
+<https://example.org/resource/Rodelindo_Román> <http://www.wikidata.org/prop/direct/P571> "1916-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .

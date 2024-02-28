@@ -1,0 +1,121 @@
+Table	List_of_mosques_in_Africa	0	Done	2024-02-27 21:56:21
+Article	List_of_mosques_in_Africa		Done	2024-02-27 21:56:21
+Table	List_of_museums_in_Central_Texas	1	Done	2024-02-27 21:57:23
+Table	List_of_museums_in_Central_Texas	2	Skipped	2024-02-27 21:57:24
+Table	List_of_museums_in_Central_Texas	5	Skipped	2024-02-27 21:57:24
+Table	List_of_museums_in_Central_Texas	9	Done	2024-02-27 21:57:40
+Table	List_of_museums_in_Central_Texas	11	Skipped	2024-02-27 21:57:40
+Article	List_of_museums_in_Central_Texas		Done	2024-02-27 21:57:40
+Table	List_of_museums_and_galleries_in_Berlin	0	Done	2024-02-27 22:03:09
+Article	List_of_museums_and_galleries_in_Berlin		Done	2024-02-27 22:03:09
+Table	List_of_PlayStation_4_games_(A%E2%80%93L)	1	Done	2024-02-27 22:10:34
+Article	List_of_PlayStation_4_games_(A%E2%80%93L)		Done	2024-02-27 22:10:34
+Table	List_of_books_banned_by_governments	3	Error	2024-02-27 22:12:17
+Table	List_of_books_banned_by_governments	21	Done	2024-02-27 22:12:48
+Table	List_of_books_banned_by_governments	46	Done	2024-02-27 22:13:19
+Table	List_of_books_banned_by_governments	47	Done	2024-02-27 22:13:34
+Table	List_of_books_banned_by_governments	55	Done	2024-02-27 22:13:55
+Table	List_of_schools_in_the_Auckland_Region	0	Done	2024-02-27 22:14:35
+Table	List_of_schools_in_the_Auckland_Region	2	Skipped	2024-02-27 22:14:36
+Table	List_of_schools_in_the_Auckland_Region	5	Done	2024-02-27 22:15:05
+Table	List_of_schools_in_the_Auckland_Region	6	Skipped	2024-02-27 22:15:06
+Table	List_of_schools_in_the_Auckland_Region	10	Skipped	2024-02-27 22:15:06
+Table	List_of_schools_in_the_Auckland_Region	11	Skipped	2024-02-27 22:15:06
+Table	List_of_schools_in_the_Auckland_Region	15	Skipped	2024-02-27 22:15:07
+Table	List_of_schools_in_the_Auckland_Region	17	Done	2024-02-27 22:15:29
+Table	List_of_schools_in_the_Auckland_Region	18	Done	2024-02-27 22:16:12
+Article	List_of_schools_in_the_Auckland_Region		Done	2024-02-27 22:16:12
+Table	List_of_cinemas_in_Malaysia	2	Done	2024-02-27 22:16:33
+Table	List_of_cinemas_in_Malaysia	7	Skipped	2024-02-27 22:16:33
+Table	List_of_cinemas_in_Malaysia	12	Skipped	2024-02-27 22:16:33
+Article	List_of_cinemas_in_Malaysia		Done	2024-02-27 22:16:33
+Table	List_of_books_about_skepticism	0	Error	2024-02-27 22:29:35
+Table	List_of_films_produced_and_released_by_Star_Cinema	2	Skipped	2024-02-27 22:29:37
+Table	List_of_films_produced_and_released_by_Star_Cinema	3	Skipped	2024-02-27 22:29:37
+Table	List_of_films_produced_and_released_by_Star_Cinema	4	Skipped	2024-02-27 22:29:38
+Table	List_of_films_produced_and_released_by_Star_Cinema	5	Done	2024-02-27 22:29:53
+Table	List_of_films_produced_and_released_by_Star_Cinema	6	Skipped	2024-02-27 22:29:54
+Table	List_of_films_produced_and_released_by_Star_Cinema	7	Skipped	2024-02-27 22:29:55
+Table	List_of_films_produced_and_released_by_Star_Cinema	9	Skipped	2024-02-27 22:29:55
+Table	List_of_films_produced_and_released_by_Star_Cinema	10	Skipped	2024-02-27 22:29:56
+Table	List_of_films_produced_and_released_by_Star_Cinema	24	Done	2024-02-27 22:30:31
+Table	List_of_films_produced_and_released_by_Star_Cinema	26	Skipped	2024-02-27 22:30:33
+Table	List_of_films_produced_and_released_by_Star_Cinema	27	Skipped	2024-02-27 22:30:33
+Article	List_of_films_produced_and_released_by_Star_Cinema		Done	2024-02-27 22:30:33
+Table	List_of_Latin_phrases_(T)	0	Done	2024-02-27 22:30:58
+Article	List_of_Latin_phrases_(T)		Done	2024-02-27 22:30:58
+Table	List_of_tallest_buildings_in_Malaysia	0	Done	2024-02-27 22:33:12
+Table	List_of_tallest_buildings_in_Malaysia	3	Done	2024-02-27 22:33:29
+Article	List_of_tallest_buildings_in_Malaysia		Done	2024-02-27 22:33:29
+Table	List_of_lost_expeditions	0	Skipped	2024-02-27 22:33:31
+Article	List_of_lost_expeditions		Done	2024-02-27 22:33:31
+Table	List_of_Web_archiving_initiatives	0	Done	2024-02-27 22:35:06
+Article	List_of_Web_archiving_initiatives		Done	2024-02-27 22:35:06
+Table	List_of_Ganesha_temples	1	Done	2024-02-27 22:36:19
+Table	List_of_Ganesha_temples	2	Skipped	2024-02-27 22:36:19
+Article	List_of_Ganesha_temples		Done	2024-02-27 22:36:19
+Table	List_of_mosques_in_the_United_Kingdom	0	Done	2024-02-27 22:36:44
+Table	List_of_mosques_in_the_United_Kingdom	2	Skipped	2024-02-27 22:36:45
+Table	List_of_mosques_in_the_United_Kingdom	3	Skipped	2024-02-27 22:36:45
+Table	List_of_mosques_in_the_United_Kingdom	7	Skipped	2024-02-27 22:36:46
+Table	List_of_mosques_in_the_United_Kingdom	8	Skipped	2024-02-27 22:36:48
+Table	List_of_mosques_in_the_United_Kingdom	9	Skipped	2024-02-27 22:36:48
+Article	List_of_mosques_in_the_United_Kingdom		Done	2024-02-27 22:36:48
+Table	List_of_mosques_in_Europe	0	Done	2024-02-27 22:40:16
+Article	List_of_mosques_in_Europe		Done	2024-02-27 22:40:16
+Table	List_of_oldest_church_buildings	0	Skipped	2024-02-27 22:40:19
+Article	List_of_oldest_church_buildings		Done	2024-02-27 22:40:19
+Table	List_of_universities_in_Malaysia	1	Skipped	2024-02-27 22:40:20
+Table	List_of_universities_in_Malaysia	2	Done	2024-02-27 22:43:04
+Article	List_of_universities_in_Malaysia		Done	2024-02-27 22:43:04
+Table	List_of_cities_and_towns_in_Saudi_Arabia	0	Done	2024-02-27 22:44:46
+Article	List_of_cities_and_towns_in_Saudi_Arabia		Done	2024-02-27 22:44:46
+Table	List_of_coalition_military_operations_of_the_Iraq_War	0	Done	2024-02-27 22:45:17
+Article	List_of_coalition_military_operations_of_the_Iraq_War		Done	2024-02-27 22:45:17
+Table	List_of_airlines_of_India	1	Skipped	2024-02-27 22:45:19
+Table	List_of_airlines_of_India	3	Skipped	2024-02-27 22:45:19
+Article	List_of_airlines_of_India		Done	2024-02-27 22:45:19
+Table	List_of_newspapers_in_Argentina	0	Done	2024-02-27 22:46:47
+Article	List_of_newspapers_in_Argentina		Done	2024-02-27 22:46:47
+Table	List_of_Arthurian_characters	0	Done	2024-02-27 22:49:34
+Article	List_of_Arthurian_characters		Done	2024-02-27 22:49:34
+Table	List_of_fictional_settlements	0	Done	2024-02-27 22:49:51
+Table	List_of_fictional_settlements	1	Skipped	2024-02-27 22:49:52
+Table	List_of_fictional_settlements	2	Skipped	2024-02-27 22:49:54
+Table	List_of_fictional_settlements	3	Skipped	2024-02-27 22:49:55
+Table	List_of_fictional_settlements	4	Skipped	2024-02-27 22:49:55
+Table	List_of_fictional_settlements	5	Done	2024-02-27 22:50:13
+Article	List_of_fictional_settlements		Done	2024-02-27 22:50:13
+Table	List_of_longest_films	0	Done	2024-02-27 22:51:47
+Table	List_of_longest_films	1	Done	2024-02-27 22:52:36
+Article	List_of_longest_films		Done	2024-02-27 22:52:36
+Table	List_of_films_featuring_dinosaurs	0	Done	2024-02-27 22:55:18
+Table	List_of_films_featuring_dinosaurs	1	Done	2024-02-27 22:58:14
+Article	List_of_films_featuring_dinosaurs		Done	2024-02-27 22:58:14
+Table	List_of_monster_movies	0	Error	2024-02-27 23:03:05
+Table	List_of_clock_towers_in_India	0	Done	2024-02-27 23:03:58
+Article	List_of_clock_towers_in_India		Done	2024-02-27 23:03:58
+Table	List_of_fictional_felines	0	Skipped	2024-02-27 23:04:00
+Table	List_of_fictional_felines	3	Skipped	2024-02-27 23:04:01
+Table	List_of_fictional_felines	5	Skipped	2024-02-27 23:04:02
+Table	List_of_fictional_felines	6	Skipped	2024-02-27 23:04:05
+Table	List_of_fictional_felines	7	Skipped	2024-02-27 23:04:06
+Article	List_of_fictional_felines		Done	2024-02-27 23:04:06
+Table	List_of_charities_accused_of_ties_to_terrorism	0	Done	2024-02-27 23:04:28
+Article	List_of_charities_accused_of_ties_to_terrorism		Done	2024-02-27 23:04:28
+Table	List_of_charities_established_by_Australian_athletes	0	Skipped	2024-02-27 23:04:29
+Article	List_of_charities_established_by_Australian_athletes		Done	2024-02-27 23:04:29
+Table	List_of_football_clubs_in_Chile	5	Done	2024-02-27 23:05:07
+Article	List_of_football_clubs_in_Chile		Done	2024-02-27 23:05:07
+Table	List_of_hairstyles	1	Done	2024-02-27 23:06:47
+Table	List_of_hairstyles	2	Skipped	2024-02-27 23:06:47
+Table	List_of_hairstyles	0	Done	2024-02-27 23:07:32
+Article	List_of_hairstyles		Done	2024-02-27 23:07:32
+Table	List_of_churches_in_London	0	Skipped	2024-02-27 23:07:34
+Article	List_of_churches_in_London		Done	2024-02-27 23:07:34
+Table	List_of_books_banned_by_governments	3	Done	2024-02-28 14:16:43
+Article	List_of_books_banned_by_governments		Done	2024-02-28 14:16:43
+Table	List_of_books_about_skepticism	0	Done	2024-02-28 14:26:17
+Article	List_of_books_about_skepticism		Done	2024-02-28 14:26:17
+Table	List_of_monster_movies	0	Done	2024-02-28 14:29:53
+Article	List_of_monster_movies		Done	2024-02-28 14:29:53

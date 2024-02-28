@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Afghan_Support_Committee> rdfs:label "Afghan Support Committee"@en ;
+    wdt:P17 wd:Q843 .
+
+<https://example.org/resource/Bosanska_Idealna_Futura> rdfs:label "Bosanska Idealna Futura"@en ;
+    wdt:P17 wd:Q225 .
+
+<https://example.org/resource/Health_and_Education_Project_International> rdfs:label "Health and Education Project International"@en ;
+    wdt:P17 wd:Q16 .
+
+<https://example.org/resource/International_Relief_Fund_for_the_Afflicted_and_Needy_(IRFAN-Canada)> rdfs:label "International Relief Fund for the Afflicted and Needy (IRFAN-Canada)"@en ;
+    wdt:P17 wd:Q16 .
+
+<https://example.org/resource/Jamat_al_Tabligh> rdfs:label "Jamat al Tabligh"@en ;
+    wdt:P17 wd:Q843 .
+
+<https://example.org/resource/Tamil_(Sri_Lanka)_Refugee-Aid_Society_of_Ottawa> rdfs:label "Tamil (Sri Lanka) Refugee-Aid Society of Ottawa"@en ;
+    wdt:P17 wd:Q16 .
+

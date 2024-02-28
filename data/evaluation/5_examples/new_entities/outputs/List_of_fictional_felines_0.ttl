@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Speaker-to-Animals> rdfs:label "Member of the Kzinti race of anthropomorphic felines"@en ;
+    wdt:P1080 wd:Q3122718 ;
+    wdt:P1441 wd:Q1505793,
+        wd:Q6746104 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q30017383 ;
+    wdt:P8345 wd:Q316610 ;
+    wdt:P910 wd:Q6213263 .
+
+<https://example.org/resource/The_Cat_in_the_Hat> rdfs:label "The Cat in the Hat"@en ;
+    wdt:P138 wd:Q67287495 ;
+    wdt:P1441 wd:Q1286387,
+        wd:Q60541527,
+        wd:Q973053 ;
+    wdt:P170 wd:Q298685 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The_Cat_in_the_Hat.png> ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P31 wd:Q27120684,
+        wd:Q27303706,
+        wd:Q3658341 .
+

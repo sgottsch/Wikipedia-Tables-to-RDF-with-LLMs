@@ -1,0 +1,132 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/A_Tale_of_Filipino_Violence> rdfs:label "A Tale of Filipino Violence"@en ;
+    wdt:P1040 wd:Q106243109 ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q106189215,
+        wd:Q129619,
+        wd:Q28001335,
+        wd:Q5696453 ;
+    wdt:P162 wd:Q129619 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/A_Tale_of_Filipino_Violence_poster.jpg> ;
+    wdt:P2047 434.0 ;
+    wdt:P2635 1.0 ;
+    wdt:P2758 wd:Q23817729 ;
+    wdt:P31 wd:Q336144 ;
+    wdt:P364 wd:Q33298 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P5028 wd:Q106281630 ;
+    wdt:P5150 wd:Q52692412 ;
+    wdt:P527 wd:Q106097512,
+        wd:Q106097514,
+        wd:Q106097516,
+        wd:Q106097519 ;
+    wdt:P57 wd:Q129619 ;
+    wdt:P577 "2012-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q129619 ;
+    wdt:P856 <https://www.film-fest-report.com/home/fid-marseille-2022-a-tale-of-filipino-violence-review> ;
+    wdt:P86 wd:Q106243603 ;
+    wdt:P921 wd:Q3328821 ;
+    wdt:P973 <https://www.film-fest-report.com/home/fid-marseille-2022-a-tale-of-filipino-violence-review> .
+
+<https://example.org/resource/Century_of_Birthing> rdfs:label "Century of Birthing"@en ;
+    wdt:P1040 wd:Q106243109 ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q106189215,
+        wd:Q129619,
+        wd:Q28001335,
+        wd:Q5696453 ;
+    wdt:P162 wd:Q129619 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Century_of_Birthing_poster.jpg> ;
+    wdt:P2047 360.0 ;
+    wdt:P2635 1.0 ;
+    wdt:P2758 wd:Q23817729 ;
+    wdt:P31 wd:Q336144 ;
+    wdt:P364 wd:Q33298 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P5028 wd:Q106281630 ;
+    wdt:P5150 wd:Q52692412 ;
+    wdt:P527 wd:Q106097512,
+        wd:Q106097514,
+        wd:Q106097516,
+        wd:Q106097519 ;
+    wdt:P57 wd:Q129619 ;
+    wdt:P577 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q129619 ;
+    wdt:P856 <http://www.avfestival.co.uk/programme/2012/events-and-exhibitions/century-of-birthing-/> ;
+    wdt:P86 wd:Q106243603 ;
+    wdt:P921 wd:Q3328821 ;
+    wdt:P973 <http://www.avfestival.co.uk/programme/2012/events-and-exhibitions/century-of-birthing-/> .
+
+<https://example.org/resource/DAU_Degeneration> rdfs:label "DAU. Degeneration"@en ;
+    wdt:P1040 wd:Q4501358 ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q2093592,
+        wd:Q4501358 ;
+    wdt:P2047 355.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P344 wd:Q4501358 ;
+    wdt:P495 wd:Q183 ;
+    wdt:P57 wd:Q4501358 ;
+    wdt:P577 "2020-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q4501358 .
+
+<https://example.org/resource/Florentina_Hubaldo_CTE> rdfs:label "Florentina Hubaldo, CTE"@en ;
+    wdt:P1040 wd:Q129619 ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q129619 ;
+    wdt:P2047 367.0 ;
+    wdt:P31 wd:Q11424,
+        wd:Q1259759 ;
+    wdt:P344 wd:Q129619 ;
+    wdt:P364 wd:Q33298 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q129619 ;
+    wdt:P577 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Near_Death> rdfs:label "Near Death"@en ;
+    wdt:P1040 wd:Q106243109 ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q1361201,
+        wd:Q2093592 ;
+    wdt:P2047 358.0 ;
+    wdt:P2758 wd:Q23817729 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P5028 wd:Q106281630 ;
+    wdt:P57 wd:Q1361201 ;
+    wdt:P577 "1989-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q1361201 ;
+    wdt:P86 wd:Q106243603 .
+
+<https://example.org/resource/Three_Mirrors_Creatures_Flashes_of_Flesh> rdfs:label "Three Mirrors Creature's Flashes of Flesh"@en ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q2093592 ;
+    wdt:P2047 442.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q31 ;
+    wdt:P577 "2023-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Tsahal> rdfs:label "Tsahal"@en ;
+    wdt:P161 wd:Q551512 ;
+    wdt:P2047 304.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q551512 ;
+    wdt:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ugryum-River> rdfs:label "Ugryum-River"@en ;
+    wdt:P2047 316.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P577 "1969-01-01T00:00:00+00:00"^^xsd:dateTime .
+

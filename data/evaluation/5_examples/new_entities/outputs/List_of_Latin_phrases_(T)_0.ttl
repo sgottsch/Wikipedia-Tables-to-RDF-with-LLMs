@@ -1,0 +1,161 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Te_occidere_possunt_sed_te_edere_non_possunt_nefas_est> rdfs:label "Te occidere possunt sed te edere non possunt nefas est"@en ;
+    wdt:P1343 wd:Q19219752 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/Tibi_cordi_immaculato_concredimus_nos_ac_consecramus> rdfs:label "Tibi cordi immaculato concredimus nos ac consecramus"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/Triste_est_omne_animal_post_coitum,_præter_mulierem_gallumque> rdfs:label "Triste est omne animal post coitum, præter mulierem gallumque"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tabula_gratulatoria> rdfs:label "tabula gratulatoria"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/talis_qualis> rdfs:label "talis qualis"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/taliter_qualiter> rdfs:label "taliter qualiter"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/talium_Dei_regnum> rdfs:label "talium Dei regnum"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tanquam_ex_ungue_leonem> rdfs:label "tanquam ex ungue leonem"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tarde_venientibus_ossa> rdfs:label "tarde venientibus ossa"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/technica_impendi_nationi> rdfs:label "technica impendi nationi"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/temet_nosce> rdfs:label "temet nosce"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tempora_heroica> rdfs:label "tempora heroica"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tempus_edax_rerum> rdfs:label "tempus edax rerum"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tempus_rerum_imperator> rdfs:label "tempus rerum imperator"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tempus_vernum> rdfs:label "tempus vernum"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tempus_volat_hora_fugit> rdfs:label "tempus volat, hora fugit"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tendit_in_ardua_virtus> rdfs:label "tendit in ardua virtus"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/teneo_te_Africa> rdfs:label "teneo te Africa"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tentanda_via> rdfs:label "tentanda via"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/ter_in_die> rdfs:label "ter in die"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/terminat_hora_diem_terminat_auctor_opus> rdfs:label "terminat hora diem; terminat auctor opus"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/terra_australis_incognita> rdfs:label "terra australis incognita"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/terra_nova> rdfs:label "terra nova"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/terras_irradient> rdfs:label "terras irradient"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/timidi_mater_non_flet> rdfs:label "timidi mater non flet"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/toto_cælo> rdfs:label "toto cælo"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/totus_tuus> rdfs:label "totus tuus"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/transire_benefaciendo> rdfs:label "transire benefaciendo"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tres_faciunt_collegium> rdfs:label "tres faciunt collegium"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/treuga_Dei> rdfs:label "treuga Dei"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tria_juncta_in_uno> rdfs:label "tria juncta in uno"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tu_autem_Domine_miserere_nobis> rdfs:label "tu autem Domine miserere nobis"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tu_fui_ego_eris> rdfs:label "tu fui ego eris"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tu_ne_cede_malis,_sed_contra_audentior_ito> rdfs:label "tu ne cede malis, sed contra audentior ito"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tu_stultus_es> rdfs:label "tu stultus es"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tuebor> rdfs:label "tuebor"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P1889 wd:Q228708 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tuitio_fidei_et_obsequium_pauperum> rdfs:label "tuitio fidei et obsequium pauperum"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tunica_propior_est_pallio> rdfs:label "tunica propior est pallio"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P1889 wd:Q228708 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/turba> rdfs:label "turba"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P1889 wd:Q228708 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/turris_fortis_mihi_Deus> rdfs:label "turris fortis mihi Deus"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P1889 wd:Q228708 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tutum_te_robore_reddam> rdfs:label "tutum te robore reddam"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P1889 wd:Q228708 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tuum_est> rdfs:label "tuum est"@en ;
+    wdt:P1343 wd:Q63284758 ;
+    wdt:P1889 wd:Q228708 ;
+    wdt:P31 wd:Q3062294 .
+

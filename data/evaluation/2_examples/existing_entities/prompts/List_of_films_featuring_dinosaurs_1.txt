@@ -1,0 +1,167 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films featuring dinosaurs" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+!Title!!Year!!Country!!Type!!Ref.
+|-
+| ''[[Allegro non troppo]]'' || 1976 || Italy || 2D animation ||
+|-
+| ''[[Alpha and Omega: Dino Digs]]'' || 2016 || United States || CGI Animation || <ref>{{cite web |url= https://splashentertainment.com/alpha-and-omega-6  |title=Alpha and Omega: Dino Digs |access-date= 3 January 2023}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Allegro_non_troppo> wdt:P577 "1976-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Bruno_Bozzetto> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Maurizio_Micheli> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Maurizio_Nichetti> ;
+ wdt:P195 <https://en.wikipedia.org/wiki/Museum_of_Modern_Art> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Italy> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Italian_language> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Bruno_Bozzetto> ;
+ wdt:P462 <https://en.wikipedia.org/wiki/Black-and-white> ;
+ wdt:P2047 "85"^^xsd:decimal ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Maurizio_Nichetti> ;
+ wdt:P161 wd:Q2006565 ;
+ wdt:P725 <https://en.wikipedia.org/wiki/Maurizio_Nichetti> ;
+ wdt:P941 <https://en.wikipedia.org/wiki/Fantasia_(1940_film)> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Maurizio_Nichetti> ;
+ wdt:P1981 wd:Q20644795 ;
+ rdfs:label "Allegro non troppo"@en ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Parody_film> ;
+ wdt:P2635 "6"^^xsd:decimal ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Bruno_Bozzetto> ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Claude_Debussy> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Guido_Manuli> ;
+ wdt:P5021 <https://en.wikipedia.org/wiki/Bechdel_test> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Haunted_house> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Netflix> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Live-action_animated_film> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Anthology_film> .
+
+<https://example.org/resource/Alpha_and_Omega:_Dino_Digs> wdt:P2142 "53507267"^^xsd:decimal ;
+ wdt:P2079 <https://en.wikipedia.org/wiki/Computer_animation> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Steve_Moore_(cartoonist)> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Family_film> ;
+ wdt:P31 wd:Q29168811 ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P58 wd:Q2964698 ;
+ wdt:P750 wd:Q1005887 ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Benjamin_Gluck> ;
+ wdt:P725 <https://en.wikipedia.org/wiki/Hayden_Panettiere> ;
+ wdt:P825 <https://en.wikipedia.org/wiki/Dennis_Hopper> ;
+ wdt:P1431 <https://en.wikipedia.org/wiki/Anthony_Bell_(director)> ;
+ wdt:P725 <https://en.wikipedia.org/wiki/Christina_Ricci> ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Chris_Bacon_(composer)> ;
+ rdfs:label "Alpha and Omega"@en ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Crest_Animation_Productions> ;
+ wdt:P856 <https://www.alphaandomega3d.com> ;
+ wdt:P725 <https://en.wikipedia.org/wiki/Dennis_Hopper> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "88"^^xsd:decimal ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Relativity_Media> ;
+ wdt:P725 <https://en.wikipedia.org/wiki/Danny_Glover> ;
+ wdt:P1431 wd:Q3308434 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Lionsgate> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P361 <https://en.wikipedia.org/wiki/Alpha_and_Omega_(film_series)> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Comedy_film> ;
+ wdt:P1981 wd:Q20644795 ;
+ wdt:P3402 wd:Q27915574 ;
+ wdt:P1431 wd:Q3342501 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/India> ;
+ wdt:P725 <https://en.wikipedia.org/wiki/Justin_Long> ;
+ wdt:P1476 "Alpha and Omega"@en ;
+ wdt:P156 wd:Q14505430 ;
+ wdt:P577 "2010-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Anthony_Bell_(director)> ;
+ wdt:P2747 wd:Q23830577 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Canada> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/3D_film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Fantasy_film> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Richard_Rich_(filmmaker)> ;
+ wdt:P577 "2010-09-17T00:00:00Z"^^xsd:dateTime ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P2130 "20000000"^^xsd:decimal ;
+ wdt:P577 "2010-10-21T00:00:00Z"^^xsd:dateTime ;
+ wdt:P725 <https://en.wikipedia.org/wiki/Chris_Carmack> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Adventure_film> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Netflix> .
+---
+These are the labels of the properties:
+
+wdt:P577 -> publication date
+wdt:P162 -> producer
+wdt:P437 -> distribution format
+wdt:P161 -> cast member
+wdt:P58 -> screenwriter
+wdt:P195 -> collection
+wdt:P495 -> country of origin
+wdt:P364 -> original language of film or TV show
+wdt:P57 -> director
+wdt:P462 -> color
+wdt:P2047 -> duration
+wdt:P725 -> voice actor
+wdt:P941 -> inspired by
+wdt:P1981 -> FSK film rating
+wdt:P136 -> genre
+wdt:P2635 -> number of parts of this work
+wdt:P86 -> composer
+wdt:P5021 -> assessment
+wdt:P921 -> main subject
+wdt:P750 -> distributed by
+wdt:P31 -> instance of
+wdt:P2142 -> box office
+wdt:P2079 -> fabrication method
+wdt:P825 -> dedicated to
+wdt:P1431 -> executive producer
+wdt:P272 -> production company
+wdt:P856 -> official website URL
+wdt:P361 -> part of
+wdt:P3402 -> CNC film rating (Romania)
+wdt:P1476 -> title
+wdt:P156 -> followed by
+wdt:P2747 -> Filmiroda rating
+wdt:P2130 -> cost.
+---
+These are the labels of the objects:
+
+wd:Q2006565 -> Néstor Garay
+wd:Q20644795 -> FSK 6
+wd:Q22006653 -> color
+wd:Q29168811 -> animated feature film
+wd:Q2964698 -> Chris Denk
+wd:Q1005887 -> Fórum Hungary
+wd:Q3308434 -> Michael Paseornek
+wd:Q27915574 -> A.G.
+wd:Q3342501 -> Noah Fogelson
+wd:Q14505430 -> Alpha and Omega 2: A Howl-iday Adventure
+wd:Q23830577 -> Category II.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+!Title!!Year!!Country!!Type!!Ref.
+|-
+| ''[[Tom and Jerry and the Wizard of Oz]]'' || 2011 || United States || 2D animation ||
+|-
+| ''[[Toy Story]]'' || 1995 || United States || CGI animation ||
+|-
+| ''[[Toy Story 2]]'' || 1999 || United States || CGI animation ||
+|-
+| ''[[Toy Story 3]]'' || 2010 || United States || CGI animation ||
+|-
+| ''[[Toy Story 4]]'' || 2019 || United States || CGI animation ||
+|-
+| ''[[The Transformers: The Movie|Transformers: The Movie]]'' || 1986 || United States || 2D animation || |}
+---

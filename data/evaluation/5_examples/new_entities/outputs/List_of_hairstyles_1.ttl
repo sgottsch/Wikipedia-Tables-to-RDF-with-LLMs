@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Crown_braid> rdfs:label "Crown braid"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Yulia%20Tymoshenko%2C%202010.JPG> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Double_buns> rdfs:label "Double buns"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20S.%20Curtis%20Collection%20People%20043.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Fallera_hairdo> rdfs:label "Fallera hairdo"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Falleras%20hairstyle%202008.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Flipped-up_ends> rdfs:label "Flipped-up ends"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Flipped%20ends%20hairstyle.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Gretchenfrisur> rdfs:label "Gretchenfrisur"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20europeanpeoplesparty%20-%20EPP%20Congress%20Bonn%20(781).jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Half_updo> rdfs:label "Half updo"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Brigitte%20Bardot%20-%201962.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Historic_hairstyle> rdfs:label "historic hairstyle"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Historic%20hairstyle.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Line_up> rdfs:label "line up"@en ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Tail_on_back> rdfs:label "tail on back"@en ;
+    wdt:P31 wd:Q327496 .
+

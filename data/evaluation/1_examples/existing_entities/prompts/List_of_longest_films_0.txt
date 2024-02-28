@@ -1,0 +1,90 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of longest films" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|+ Cinematic films
+|-
+! Title
+! Running time
+! Director
+! Year released
+! scope="col" class="unsortable" | Notes
+|-
+| ''[[Resan]]'' (''The Journey'')
+| 873 min (14 hr, 33 min)
+|[[Peter Watkins]]
+| 1987
+| <ref name="Ash2003">{{cite book
+|last=Ash
+|first=Russell
+|author-link=Russell Ash
+|title=The Top 10 of Film
+|url=https://books.google.com/books?id=--mEiDR39BEC
+|access-date=October 15, 2010
+|date=September 23, 2003
+|publisher=Dorling Kindersley
+|page=21|isbn=9780789496409
+}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Resan> wdt:P161 <https://en.wikipedia.org/wiki/Martin_Duckworth> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Italy> ;
+ wdt:P462 <https://en.wikipedia.org/wiki/Black-and-white> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Peter_Watkins> ;
+ wdt:P2047 "873"^^xsd:decimal ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Peter_Watkins> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Australia> ;
+ wdt:P161 wd:Q2093592 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P577 "1987-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Documentary_film> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Peter_Watkins> ;
+ rdfs:label "Resan"@en .
+---
+These are the labels of the properties:
+
+wdt:P161 -> cast member
+wdt:P495 -> country of origin
+wdt:P462 -> color
+wdt:P162 -> producer
+wdt:P2047 -> duration
+wdt:P57 -> director
+wdt:P31 -> instance of
+wdt:P577 -> publication date
+wdt:P136 -> genre
+wdt:P58 -> screenwriter.
+---
+These are the labels of the objects:
+
+wd:Q2093592 -> Pierre Landry.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|+ Cinematic films
+|-
+! Title
+! Running time
+! Director
+! Year released
+! scope="col" class="unsortable" | Notes
+|-
+|''[[The Deluge (film)|The Deluge]]''
+|315 min (5 hr, 15 min)
+|[[Jerzy Hoffman]]
+|1974
+|<ref>{{Citation|title=The Deluge|url=https://mubi.com/films/the-deluge-1974|language=en|access-date=2018-02-23}}</ref>
+|-
+|''[[Fanny and Alexander]]''
+|314 min (5 hr, 14 min)
+|[[Ingmar Bergman]]
+|1982
+|<ref>{{cite web |title=Fanny and Alexander |url=https://www.svenskfilmdatabas.se/en/item/?type=film&itemid=16184 |website=[[Swedish Film Database]] |publisher=[[Svenska filminstitutet]]}}</ref> |}
+---

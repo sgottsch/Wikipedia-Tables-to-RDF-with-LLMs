@@ -1,0 +1,52 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Commonsense_and_the_Child> rdfs:label "Commonsense and the Child"@en ;
+    wdt:P1476 "Commonsense and the Child"@en ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P50 wd:Q4118826 ;
+    wdt:P577 "1931-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dutch_Interior> rdfs:label "Dutch Interior"@en ;
+    wdt:P1476 "Dutch Interior"@en ;
+    wdt:P31 wd:Q47461344 ;
+    wdt:P495 wd:Q22890 ;
+    wdt:P50 wd:Q1351972 ;
+    wdt:P577 "1940-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7937 wd:Q8261 .
+
+<https://example.org/resource/Honourable_Estate> rdfs:label "Honourable Estate"@en ;
+    wdt:P1476 "Honourable Estate"@en ;
+    wdt:P31 wd:Q47461344 ;
+    wdt:P50 wd:Q450802 ;
+    wdt:P577 "1936-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7937 wd:Q8261 .
+
+<https://example.org/resource/I_Knock_at_the_Door> rdfs:label "I Knock at the Door"@en ;
+    wdt:P1476 "I Knock at the Door"@en ;
+    wdt:P31 wd:Q47461344 ;
+    wdt:P577 "1939-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7937 wd:Q4184 .
+
+<https://example.org/resource/The_House_of_Gold> rdfs:label "The House of Gold"@en ;
+    wdt:P1476 "The House of Gold"@en ;
+    wdt:P31 wd:Q47461344 ;
+    wdt:P50 wd:Q370973 ;
+    wdt:P577 "1929-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7937 wd:Q8261 .
+
+<https://example.org/resource/The_Laws_of_Life> rdfs:label "The Laws of Life"@en ;
+    wdt:P1476 "The Laws of Life"@en ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P50 wd:Q15999521 ;
+    wdt:P577 "1935-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Martyr> rdfs:label "The Martyr"@en ;
+    wdt:P1476 "The Martyr"@en ;
+    wdt:P31 wd:Q47461344 ;
+    wdt:P50 wd:Q370973 ;
+    wdt:P577 "1933-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7937 wd:Q8261 .
+

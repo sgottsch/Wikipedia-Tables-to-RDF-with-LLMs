@@ -1,0 +1,20 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Dinosaur_Island> wdt:P2047 85.0 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2002-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Journey_to_the_Center_of_the_Earth> wdt:P2047 85.0 ;
+    wdt:P495 wd:Q16 ;
+    wdt:P577 "1996-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Bark> wdt:P2047 85.0 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Planet:_The_Mighty_Kingdom> wdt:P2047 85.0 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+

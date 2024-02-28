@@ -1,0 +1,72 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix ns2: <https://example.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns2:Holocaust_Memorial_Museum_of_San_Antonio rdfs:label "Holocaust Memorial Museum of San Antonio"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1439> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q975> ;
+    ns1:P856 <https://www.jfsatx.org/holocaust-memorial-museum/> .
+
+ns2:McNay_Art_Museum rdfs:label "McNay Art Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1439> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q975> ;
+    ns1:P856 <https://www.mcnayart.org/> .
+
+ns2:O._Henry_House_Museum rdfs:label "O. Henry House Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1439> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q975> ;
+    ns1:P856 <https://www.theohehenryhouse.org/> .
+
+ns2:Ruby_City rdfs:label "Ruby City"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1439> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q975> ;
+    ns1:P856 <https://rubycity.org/> .
+
+ns2:San_Antonio_Missions_National_Historical_Park rdfs:label "San Antonio Missions National Historical Park"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1439> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q975> ;
+    ns1:P856 <https://www.nps.gov/saan/index.htm> .
+
+ns2:San_Antonio_Museum_of_Art rdfs:label "San Antonio Museum of Art"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1439> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q975> ;
+    ns1:P856 <https://www.samuseum.org/> .
+
+<https://example.org/resource/Spanish_Governor's_Palace> rdfs:label "Spanish Governor's Palace"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q975> ;
+    ns1:P1343 <http://www.wikidata.org/entity/Q602358> ;
+    ns1:P1435 <http://www.wikidata.org/entity/Q1129142>,
+        <http://www.wikidata.org/entity/Q19558910>,
+        <http://www.wikidata.org/entity/Q3719>,
+        <http://www.wikidata.org/entity/Q43113623> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P1705 "Spanish Governor's Palace"@en ;
+    ns1:P276 <http://www.wikidata.org/entity/Q975> ;
+    ns1:P30 <http://www.wikidata.org/entity/Q49> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q1081138>,
+        <http://www.wikidata.org/entity/Q33506>,
+        <http://www.wikidata.org/entity/Q41176> ;
+    ns1:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/San%20Antonio%20TX%20Spanish%20Govenors%20Palace.jpg> ;
+    ns1:P361 <http://www.wikidata.org/entity/Q3719> ;
+    ns1:P4291 <http://commons.wikimedia.org/wiki/Special:FilePath/San%20Antonio%20TX%20Spanish%20Govenors%20Palace.jpg> ;
+    ns1:P6375 "105 Military Plaza"@en ;
+    ns1:P710 <http://www.wikidata.org/entity/Q61791539> ;
+    ns1:P793 <http://www.wikidata.org/entity/Q3719> ;
+    ns1:P856 <https://www.visitsanantonio.com/> .
+
+ns2:Texas_Air_Museum rdfs:label "Texas Air Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1439> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q11223>,
+        <http://www.wikidata.org/entity/Q1772975>,
+        <http://www.wikidata.org/entity/Q183170>,
+        <http://www.wikidata.org/entity/Q2397965>,
+        <http://www.wikidata.org/entity/Q7617473>,
+        <http://www.wikidata.org/entity/Q7707498>,
+        <http://www.wikidata.org/entity/Q7889492>,
+        <http://www.wikidata.org/entity/Q975> ;
+    ns1:P30 <http://www.wikidata.org/entity/Q49> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q33506> ;
+    ns1:P856 <https://www.texasairmuseum.org/> ;
+    ns2:UTSA_art_galleries ns1:P31 .
+

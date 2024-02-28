@@ -1,0 +1,147 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films produced and released by Star Cinema" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" | ''[[American Adobo]]''||January 16 ||[[Laurice Guillen]] || [[Cherry Pie Picache]], [[Christopher de Leon]], [[Dina Bonnevie]], [[Ricky Davao]], [[Paolo Montalban]], [[Sandy Andolong]] ||[[Comedy film|Comedy]], [[Drama (film and television)|drama]] || Unitel Pictures, Magic Adobo Productions, and Outrider Pictures
+|-
+| style="text-align:center;" | ''[[Kung Ikaw Ay Isang Panaginip]]''|| January 30||[[Wenn V. Deramas]] ||[[Jolina Magdangal]], [[Rafael Rosell]], Leandro Munoz || [[Drama (film and television)|Drama]], [[Fantasy film|fantasy]], [[Family]]||
+|-
+| style="text-align:center;" | ''[[Got 2 Believe]]''||February 27 || [[Olivia Lamasan]]||[[Claudine Barretto]], [[Rico Yan]] || [[Romance film|Romance]]||
+|-
+| style="text-align:center;" |''[[Jologs]]''|| August 28|| Gilbert Perez|| [[Diether Ocampo]], [[Patrick Garcia]], [[Vhong Navarro]], [[Assunta de Rossi]], [[John Prats]], [[Jodi Sta. Maria]], [[Baron Geisler]]||[[Drama (film and television)|Drama]], [[Comedy film|comedy]] ||
+|-
+| style="text-align:center;" | ''[[Kailangan Kita]]''|| November 14 || [[Rory Quintos]] ||[[Claudine Barretto]], [[Aga Muhlach]] || [[Romance film|Romance]], [[Drama (film and television)|drama]]|| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/American_Adobo> wdt:P272 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Charo_Santos-Concio> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Laurice_Guillen> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ rdfs:label "American Adobo"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "104"^^xsd:decimal ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sandy_Andolong> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Kevin_Foxe> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Christopher_de_Leon> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Comedy_film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Paolo_Montalban> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ricky_Davao> ;
+ wdt:P577 "2001-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1476 "American Adobo"@en ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Cherry_Pie_Picache> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Romance_film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dina_Bonnevie> .
+
+<https://example.org/resource/Kung_Ikaw_Ay_Isang_Panaginip> rdfs:label "Kung Ikaw Ay Isang Panaginip"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Wenn_V._Deramas> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P577 "2002-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Got_2_Believe> wdt:P161 <https://en.wikipedia.org/wiki/Claudine_Barretto> ;
+ rdfs:label "Got 2 Believe"@en ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Olivia_Lamasan> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Tagalog_language> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Romance_film> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P577 "2002-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Jologs> wdt:P161 <https://en.wikipedia.org/wiki/Onemig_Bondoc> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Diether_Ocampo> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Charo_Santos-Concio> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Julia_Clarete> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Tagalog_language> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dominic_Ochoa> ;
+ wdt:P2047 "110"^^xsd:decimal ;
+ rdfs:label "Jologs"@en ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Gilbert_Perez> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Vhong_Navarro> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Patrick_Garcia> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Assunta_De_Rossi> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jodi_Sta._Maria> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Baron_Geisler> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_Prats> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Teen_film> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P162 <https://en.wikipedia.org/wiki/ABS-CBN_Corporation> ;
+ wdt:P577 "2002-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Kailangan_Kita> wdt:P161 <https://en.wikipedia.org/wiki/Claudine_Barretto> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Tagalog_language> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Aga_Muhlach> ;
+ wdt:P8889 wd:Q102108196 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Rory_Quintos> ;
+ rdfs:label "Kailangan Kita"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Romance_film> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P577 "2002-01-01T00:00:00Z"^^xsd:dateTime .
+---
+These are the labels of the properties:
+
+wdt:P272 -> production company
+wdt:P162 -> producer
+wdt:P57 -> director
+wdt:P364 -> original language of film or TV show
+wdt:P495 -> country of origin
+wdt:P2047 -> duration
+wdt:P161 -> cast member
+wdt:P31 -> instance of
+wdt:P136 -> genre
+wdt:P840 -> narrative location
+wdt:P577 -> publication date
+wdt:P1476 -> title
+wdt:P437 -> distribution format
+wdt:P750 -> distributed by
+wdt:P462 -> color
+wdt:P8889 -> MTRCB rating.
+---
+These are the labels of the objects:
+
+wd:Q22006653 -> color
+wd:Q102108196 -> Parental Guidance.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" | ''Videoke King''|| May 1|| Jerry Lopez Sineneng||[[Robin Padilla]], [[Pops Fernandez]], Gabe Mercado ||[[Action film|Action]], [[Comedy film|comedy]], [[Drama (film and television)|drama]] || RCP Productions
+|-
+| style="text-align:center;" | ''Forevermore''||June 26 ||John Lazatin ||[[Jericho Rosales]], [[Kristine Hermosa]], Nestor de Villa ||[[Romance film|Romance]] ||
+|-
+| style="text-align:center;" | ''9 Mornings''||October 16 || [[Jose Javier Reyes]]||[[Piolo Pascual]], [[Donita Rose]], [[Dominic Ochoa]] ||[[Romance film|Romance]] || |}
+---

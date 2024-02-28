@@ -1,0 +1,73 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Alamo_Liaison_Squadron_Flying_Museum> rdfs:label "Alamo Liaison Squadron Flying Museum"@en ;
+    wdt:P131 wd:Q975 .
+
+<https://example.org/resource/Briscoe_Western_Art_Museum> rdfs:label "Briscoe Western Art Museum"@en ;
+    wdt:P131 wd:Q975 .
+
+<https://example.org/resource/Centro_de_Artes> rdfs:label "Centro de Artes"@en ;
+    wdt:P131 wd:Q975 .
+
+<https://example.org/resource/Culture_Commons> rdfs:label "Culture Commons"@en ;
+    wdt:P131 wd:Q975 .
+
+<https://example.org/resource/Guadalupe_Cultural_Arts_Center> rdfs:label "Guadalupe Cultural Arts Center"@en ;
+    wdt:P131 wd:Q975 .
+
+<https://example.org/resource/Instituto_Cultural_de_México> rdfs:label "Instituto Cultural de México"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/HemisFair%20Park%20May%202018%2003%20(Instituto%20Cultural%20de%20México).jpg> ;
+    wdt:P276 wd:Q975 ;
+    wdt:P856 <https://texastimetravel.com/directory/mexican-cultural-institute-instituto-cultural-de/> .
+
+<https://example.org/resource/Magic_Lantern_Castle_Museum> rdfs:label "Magic Lantern Castle Museum"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P856 <https://maps.roadtrippers.com/us/san-antonio-tx/attractions/magic-lantern-castle-museum> .
+
+<https://example.org/resource/Michael_and_Noemi_Neidorff_Art_Gallery> rdfs:label "Michael and Noemi Neidorff Art Gallery"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P856 <https://www.trinity.edu/academics/departments/art-and-art-history/gallery-studios> .
+
+<https://example.org/resource/Northside_Independent_School_District_School_Museum> rdfs:label "Northside Independent School District School Museum"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P856 <https://atlas.thc.state.tx.us/Details/4200000988> .
+
+<https://example.org/resource/San_Antonio_Art_League_Museum> rdfs:label "San Antonio Art League Museum"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P856 <https://www.aaa.com/travelinfo/texas/san-antonio/attractions/san-antonio-art-league-museum-545868.html> .
+
+<https://example.org/resource/San_Antonio_Fire_Museum> rdfs:label "San Antonio Fire Museum"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P856 <https://atlas.thc.state.tx.us/Details/4200001467> .
+
+<https://example.org/resource/San_Antonio_Scottish_Rite_Library_and_Museum> rdfs:label "San Antonio Scottish Rite Library and Museum"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P856 <https://atlas.thc.state.tx.us/Details/4200001468> .
+
+<https://example.org/resource/Scobee_Education_Center_at_San_Antonio_College> rdfs:label "Scobee Education Center at San Antonio College"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P856 <https://sanantonio.kidsoutandabout.com/content/scobee-education-center-planetarium-challenger-center> .
+
+<https://example.org/resource/Semmes_Gallery> rdfs:label "Semmes Gallery"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P856 <https://www.uiw.edu/chass/academics/departments/art/semmesgallery.html> .
+
+<https://example.org/resource/Southwest_School_of_Art> rdfs:label "Southwest School of Art"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P856 <https://artinamericaguide.com/listings/southwest-school-of-art/> .
+
+<https://example.org/resource/The_DoSeum> rdfs:label "The DoSeum"@en ;
+    wdt:P131 wd:Q975 .
+

@@ -1,0 +1,165 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of airlines of India" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable sticky-header"
+!Airline
+!Image
+![[IATA]]
+![[ICAO]]
+![[Airline call sign|Callsign]]
+!Founded
+!Hubs
+!Fleet Size
+!Notes
+|-
+|[[Deccan Charters]]
+|[[File:Deccan_Shuttles_Cessna_208B_Grand_Caravan_Vyas-1.jpg|100x100px]]
+|DN
+|DKN
+|DECCAN
+|1997
+|[[Bengaluru]]
+|5
+|
+|-
+|[[Pawan Hans]]
+|[[File:Pawan_hans_helicopter_mizoram.jpg|100x100px]]
+|—
+|PHE
+|PAWAN HANS
+|1985
+|[[New Delhi]]
+|43
+|
+|-
+|[[Club One Air]]
+|[[File:Cessna_550_Citation_II,_Club_One_Air_JP6385372.jpg|100x100px]]
+|—
+|—
+|—
+|2005
+|[[New Delhi]], [[Mumbai]], [[Visakhapatnam]]
+|4
+|
+|-
+|[[Global Vectra Helicorp]]
+|
+|—
+|—
+|—
+|1997
+|[[Mumbai]]
+|30
+|
+|-
+|[[Fly Safe Aviation|India Fly Safe Aviation]]
+|
+|—
+|—
+|—
+|2010
+|[[New Delhi]]
+|6
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Deccan_Charters> rdfs:label "Deccan Charters"@en ;
+ wdt:P856 <http://www.deccanair.com/> ;
+ wdt:P113 <https://en.wikipedia.org/wiki/HAL_Airport> ;
+ wdt:P113 <https://en.wikipedia.org/wiki/Jakkur_Aerodrome> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Airline> ;
+ wdt:P355 <https://en.wikipedia.org/wiki/Simplifly_Deccan> ;
+ wdt:P113 <https://en.wikipedia.org/wiki/Kempegowda_International_Airport> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Bangalore> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> ;
+ wdt:P355 <https://en.wikipedia.org/wiki/Air_Deccan> .
+
+<https://example.org/resource/Pawan_Hans> wdt:P571 "1985-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P113 <https://en.wikipedia.org/wiki/Juhu_Aerodrome> ;
+ rdfs:label "Pawan Hans"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Airline> ;
+ wdt:P856 <http://www.pawanhans.co.in/> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Noida> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> .
+
+<https://example.org/resource/Club_One_Air> rdfs:label "Club One Air"@en ;
+ wdt:P856 <http://www.cluboneair.com/> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Airline> ;
+ wdt:P8687 "11359"^^xsd:decimal ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> .
+
+<https://example.org/resource/Global_Vectra_Helicorp> wdt:P452 <https://en.wikipedia.org/wiki/Aviation> ;
+ rdfs:label "Global Vectra Helicorp Limited"@en ;
+ wdt:P856 <http://www.globalhelicorp.com/index.asp> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Mumbai> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Business> .
+
+<https://example.org/resource/India_Fly_Safe_Aviation> rdfs:label "Fly Safe Aviation"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Airline> .
+---
+These are the labels of the properties:
+
+wdt:P856 -> official website URL
+wdt:P113 -> airline hub
+wdt:P31 -> instance of
+wdt:P355 -> has subsidiary
+wdt:P159 -> headquarters location
+wdt:P17 -> country
+wdt:P571 -> inception
+wdt:P8687 -> social media followers
+wdt:P452 -> industry.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable sticky-header"
+!Airline
+!Image
+![[IATA]]
+![[ICAO]]
+![[Airline call sign|Callsign]]
+!Founded
+!Hubs
+!Fleet Size
+!Notes
+|-
+|Air One Aviation
+|
+|
+|
+|
+|2007
+|
+|3
+|
+|-
+|Karnavati Aviation
+|
+|
+|
+|
+|2007
+|
+|1
+|
+|-
+|{{nowrap|[[Ventura AirConnect]]}}
+|  
+| &mdash;
+| &mdash;
+| &mdash;
+| 2011
+| [[Surat]]
+| 2
+| |}
+---

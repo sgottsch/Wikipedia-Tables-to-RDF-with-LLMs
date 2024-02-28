@@ -1,0 +1,290 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Barking_Baptist_Church> rdfs:label "Barking Baptist Church"@en ;
+    wdt:P131 wd:Q377720 ;
+    wdt:P140 wd:Q93191 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1929-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://barkingbaptist.blogspot.co.uk/> .
+
+<https://example.org/resource/Barking_Methodist_Church> rdfs:label "Barking Methodist Church"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P140 wd:Q769691 ;
+    wdt:P276 wd:Q377720 .
+
+<https://example.org/resource/Barking_Riverside_Salvation_Army> rdfs:label "Barking Riverside Salvation Army"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P140 wd:Q188307 ;
+    wdt:P276 wd:Q377720 ;
+    wdt:P856 <https://www.salvationarmy.org.uk/barking-riverside> .
+
+<https://example.org/resource/Beacontree_Heath_Methodist_Church> rdfs:label "Beacontree Heath Methodist Church"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P140 wd:Q769691 ;
+    wdt:P276 wd:Q2571762 .
+
+<https://example.org/resource/Becontree_Avenue_Baptist_Church> rdfs:label "Becontree Avenue Baptist Church"@en ;
+    wdt:P131 wd:Q2571762 ;
+    wdt:P140 wd:Q30188468 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1929-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.becavebaptistchurch.org.uk/> .
+
+<https://example.org/resource/Becontree_Church> rdfs:label "Becontree Church"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P571 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.becontreechurch.com/> .
+
+<https://example.org/resource/Bethel_London's_Riverside_Church> rdfs:label "Bethel – London's Riverside Church"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P140 wd:Q494890 ;
+    wdt:P571 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P825 wd:Q3876767 ;
+    wdt:P856 <http://www.bethel.org.uk/> .
+
+<https://example.org/resource/COPUK_Dagenham_Central_Assembly> rdfs:label "COPUK Dagenham Central Assembly"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P856 <https://www.copuk.org/dagenham-district> .
+
+<https://example.org/resource/Christ_Apostolic_Church_Kingdom_Builders> rdfs:label "Christ Apostolic Church Kingdom Builders"@en ;
+    wdt:P131 wd:Q2571762 ;
+    wdt:P856 <https://www.cackingdombuilders.org/> .
+
+<https://example.org/resource/Cornerstone_Fountain_Church> rdfs:label "Cornerstone Fountain Church"@en ;
+    wdt:P131 wd:Q377720 ;
+    wdt:P856 <http://cfchurch.org.uk/> .
+
+<https://example.org/resource/Dagenham_Baptist_Church> rdfs:label "Dagenham Baptist Church"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P140 wd:Q93191 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1927-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.dagenhambaptistchurch.com/> .
+
+<https://example.org/resource/Dagenham_Congregational_Church> rdfs:label "Dagenham Congregational Church"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P140 wd:Q5415674 .
+
+<https://example.org/resource/Elim_Christian_Centre> rdfs:label "Elim Christian Centre"@en ;
+    wdt:P131 wd:Q377720 ;
+    wdt:P140 wd:Q3674482 ;
+    wdt:P856 <http://www.elimchristiancentre.org.uk/> .
+
+<https://example.org/resource/Glorious_Ministries_International> rdfs:label "Glorious Ministries International"@en ;
+    wdt:P131 wd:Q377720 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.glom.org.uk/> .
+
+<https://example.org/resource/Harmony_Christian_Centre> rdfs:label "Harmony Christian Centre"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P571 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.hccentre.org.uk/> .
+
+<https://example.org/resource/Hartley_Brook_Church> rdfs:label "Hartley Brook Church"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P276 wd:Q1075299 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P7959 wd:Q67442940 .
+
+<https://example.org/resource/Holy_Family,_Dagenham> rdfs:label "Holy Family, Dagenham"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P571 "1931-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P825 wd:Q618057 ;
+    wdt:P856 <http://www.holyfamilychurchdagenham.org/> .
+
+<https://example.org/resource/Kings_Church_Barking> rdfs:label "King's Church Barking"@en ;
+    wdt:P131 wd:Q377720 ;
+    wdt:P856 <http://www.kingschurchbarking.co.uk/> .
+
+<https://example.org/resource/Kingsley_Hall_Church> rdfs:label "Kingsley Hall Church"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P571 "1929-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.khccc.com/> .
+
+<https://example.org/resource/LifeLine_Church> rdfs:label "LifeLine Church"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P571 "1970-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.lifelinechurch.co.uk/> .
+
+<https://example.org/resource/Marks_Gate_Baptist_Church> rdfs:label "Marks Gate Baptist Church"@en .
+
+<https://example.org/resource/Old_Dagenham_Methodist_Church> rdfs:label "Old Dagenham Methodist Church"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P140 wd:Q769691 ;
+    wdt:P276 wd:Q1075299 .
+
+<https://example.org/resource/Osborne_Square_Church> rdfs:label "Osborne Square Church"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P140 wd:Q5415674,
+        <https://en.wikipedia.org/wiki/Fellowship_of_Independent_Evangelical_Churches> ;
+    wdt:P276 wd:Q2571762 ;
+    wdt:P856 <https://osbornesquarechurch.org/> .
+
+<https://example.org/resource/Oxlow_Lane_Baptist_Church> rdfs:label "Oxlow Lane Baptist Church"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P140 wd:Q30188468 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P856 <http://www.oxlowlanebaptist.org.uk/> .
+
+<https://example.org/resource/Potter's_House_Christian_Fellowship_Ch.> rdfs:label "Potter's House Christian Fellowship Church"@en ;
+    wdt:P131 wd:Q377720 .
+
+<https://example.org/resource/Power_House_International_Ministries> rdfs:label "Power House International Ministries"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P571 "1996-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://powerhousechurch.org.uk/> .
+
+<https://example.org/resource/RCCG_Living_Faith_Connections> rdfs:label "RCCG Living Faith Connections"@en ;
+    wdt:P131 wd:Q377720 ;
+    wdt:P140 wd:Q846770 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.lifaco.cc/> .
+
+<https://example.org/resource/RCCG_Rivers_of_Joy> rdfs:label "RCCG Rivers of Joy"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P140 wd:Q846770 ;
+    wdt:P856 <http://www.rccg-riversofjoy.org.uk/> .
+
+<https://example.org/resource/Rehoboth_Tamil_Church_of_God> rdfs:label "Rehoboth Tamil Church of God"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P140 wd:Q700743 ;
+    wdt:P571 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P825 wd:Q2753190 ;
+    wdt:P856 <http://www.tamilchurchofgod.com/> .
+
+<https://example.org/resource/SS_Mary_&_Ethelburga,_Barking> rdfs:label "SS Mary & Ethelburga, Barking"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P276 wd:Q377720 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1858-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P825 wd:Q345 .
+
+<https://example.org/resource/St_Alban,_Becontree> rdfs:label "St Alban, Becontree"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P276 wd:Q2571762 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1932-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P825 wd:Q312982 .
+
+<https://example.org/resource/St_Anne,_Becontree> rdfs:label "St Anne, Becontree"@en ;
+    wdt:P131 wd:Q2571762 ;
+    wdt:P571 "1937-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/St_Cedd,_Becontree> rdfs:label "St Cedd, Becontree"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P276 wd:Q2571762 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1933-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P825 wd:Q1052577 .
+
+<https://example.org/resource/St_Chad,_Chadwell_Heath> rdfs:label "St Chad, Chadwell Heath"@en ;
+    wdt:P131 wd:Q1058698 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1884-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P825 wd:Q742311 ;
+    wdt:P856 <http://www.saintchadschadwellheath.org.uk/welcome.htm> .
+
+<https://example.org/resource/St_Elisabeth,_Becontree> rdfs:label "St Elisabeth, Becontree"@en ;
+    wdt:P131 wd:Q2571762 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1932-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P825 wd:Q235849 ;
+    wdt:P856 <http://www.st-elisabeths.org.uk/> .
+
+<https://example.org/resource/St_George,_Dagenham> rdfs:label "St George, Dagenham"@en ;
+    wdt:P131 wd:Q2571762 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1929-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P825 wd:Q48438 ;
+    wdt:P856 <http://stgeorgesdagenham.blogspot.co.uk/> .
+
+<https://example.org/resource/St_John_the_Divine,_Becontree> rdfs:label "St John the Divine, Becontree"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P276 wd:Q2571762 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1935-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P825 wd:Q328804 .
+
+<https://example.org/resource/St_Mark,_Mark's_Gate> rdfs:label "St Mark, Mark's Gate"@en ;
+    wdt:P131 wd:Q205358 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1956-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P825 wd:Q31966 .
+
+<https://example.org/resource/St_Martin,_Becontree> rdfs:label "St Martin, Becontree"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1925-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P825 wd:Q133704 ;
+    wdt:P856 <http://www.becontreesouth.org.uk/> .
+
+<https://example.org/resource/St_Mary,_Becontree> rdfs:label "St Mary, Becontree"@en ;
+    wdt:P131 wd:Q2571762 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1927-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P825 wd:Q345 ;
+    wdt:P856 <http://www.stmarysbecontree.org.uk/> .
+
+<https://example.org/resource/St_Peter,_Dagenham> rdfs:label "St Peter, Dagenham"@en ;
+    wdt:P131 wd:Q1075299 ;
+    wdt:P571 "1926-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P825 wd:Q33923 ;
+    wdt:P856 <http://www.stpeterdagenham.co.uk/> .
+
+<https://example.org/resource/St_Thomas,_Becontree> rdfs:label "St Thomas, Becontree"@en ;
+    wdt:P131 wd:Q2571762 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1922-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P825 wd:Q43669 .
+
+<https://example.org/resource/St_Thomas_More,_Barking> rdfs:label "St Thomas More, Barking"@en ;
+    wdt:P131 wd:Q377720 ;
+    wdt:P571 "1935-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P825 wd:Q42544 .
+
+<https://example.org/resource/St_Vincent,_Becontree> rdfs:label "St Vincent, Becontree"@en ;
+    wdt:P131 wd:Q2571762 ;
+    wdt:P571 "1923-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Tree_of_Life_Dagenham> rdfs:label "Tree of Life Dagenham"@en ;
+    wdt:P131 wd:Q2571762 ;
+    wdt:P856 <https://tree.church/dagenham> .
+
+<https://example.org/resource/Upney_Baptist_Church> rdfs:label "Upney Baptist Church"@en ;
+    wdt:P131 wd:Q377720 ;
+    wdt:P140 wd:Q93191 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1935-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.upneybaptist.org.uk/> .
+
+<https://example.org/resource/Victorious_Pentecostal_Assembly_Barking> rdfs:label "Victorious Pentecostal Assembly Barking"@en ;
+    wdt:P131 wd:Q377720 ;
+    wdt:P856 <http://www.vpa-church.com/> .
+
+<https://example.org/resource/Wood_Lane_Baptist_Church> rdfs:label "Wood Lane Baptist Church"@en ;
+    wdt:P131 wd:Q2571762 ;
+    wdt:P140 wd:Q93191 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "1932-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.woodlane.co.uk/> .
+

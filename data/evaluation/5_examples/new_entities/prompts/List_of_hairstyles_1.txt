@@ -1,0 +1,114 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of hairstyles" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="text-align: center"
+|- style="background:#cccccc"
+! Name !! Image !! Description
+|-
+| style="background:#eeeeee" | [[Afro]]
+| [[File:Afro 2 cropped by David Shankbone.jpg|120px]]
+| align=left | A style of [[Afro-textured hair|natural African hair]] that has been grown out without any straightening or ironing, and combed regularly with special [[Comb#Afro pick|afro picks]]. In recent history, the hairstyle was popular through the late 1960s and 1970s in the United States.
+|-
+| style="background:#eeeeee" | [[Beehive (hairstyle)|Beehive]]
+| [[File:WinehouseLA.jpg|120px]]
+| align=left | Backcombing or teasing with hairspray to style hair on top of the head so that the size and shape is suggestive of a beehive, hence the name.
+|-
+| style="background:#eeeeee" | [[Bangs (hair)|Bangs]]
+| [[File:Bettie Page-2.jpg|120px]]
+| align=left | Bangs (or fringe) straight across the high forehead, or cut at a slight U-shape.<ref name="McFadden 2008">{{cite news |last=McFadden |first=Robert D. |title=Bettie Page, Queen of Pinups, Dies at 85 |url=https://www.nytimes.com/2008/12/12/arts/12page.html |url-access=subscription |newspaper=New York Times |date=December 11, 2008 |access-date=February 25, 2017 |archive-date=March 8, 2021 |archive-url=https://web.archive.org/web/20210308205503/https://www.nytimes.com/2008/12/12/arts/12page.html |url-status=live }}</ref>
+|-
+| style="background:#eeeeee" | [[Big hair]]
+| [[File:Thompson-twins-tom2.jpg|120px]]
+| align=left | Any hairstyle with large volume, though this is generally a description given to hair with a straight texture that is blown out or "teased" into a large size. The increased volume is often maintained with the use of hairspray or other styling products that offer hold. 
+|-
+| style="background:#eeeeee" | [[Long hair|Blowout]]
+| [[File:Kate middleton.jpg|120px]]
+| align=left | A long hairstyle for women that is used with rich products and blown dry from the roots to the ends. Popularized by individuals such as [[Catherine, Duchess of Cambridge|Catherine, Princess of Wales]] |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Afro> wdt:P31 <https://en.wikipedia.org/wiki/Hairstyle> ;
+ wdt:P279 wd:Q111143758 ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Big_hair> ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:WikiProject_African_diaspora> ;
+ wdt:P527 <https://en.wikipedia.org/wiki/Afro_puffs> ;
+ rdfs:label "afro"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/LaurynHill%20cropped.jpg> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Natural%20Afro%20-%20hair%20type%204c-%20model%20Gwyneth%20Ellis.jpg> ;
+ wdt:P279 <https://en.wikipedia.org/wiki/Kinky_hair> ;
+ wdt:P279 wd:Q102247646 .
+
+<https://example.org/resource/Beehive> wdt:P31 <https://en.wikipedia.org/wiki/Hairstyle> ;
+ wdt:P138 wd:Q66491086 ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Brigitte_Bardot> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Al%20Chabaka%20Magazine%20cover%2C%20Issue%20510%2C%201%20November%201965%20-%20Brigitte%20Bardot.jpg> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Life%20Ball%202010%2C%20red%20carpet%2C%20Dita%20von%20Teese%202.jpg> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/WinehouseLA.jpg> ;
+ wdt:P178 <https://en.wikipedia.org/wiki/Margaret_Vinci_Heldt> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Babette_Goes_to_War> ;
+ rdfs:label "beehive"@en .
+
+<https://example.org/resource/Bangs> wdt:P31 <https://en.wikipedia.org/wiki/Hairstyle> ;
+ rdfs:label "bangs"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bangs.jpg> ;
+ wdt:P279 wd:Q72854003 ;
+ wdt:P527 wd:Q11276054 .
+
+<https://example.org/resource/Big_hair> wdt:P1889 <https://en.wikipedia.org/wiki/Afro> ;
+ wdt:P279 <https://en.wikipedia.org/wiki/Hairstyle> ;
+ rdfs:label "big hair"@en .
+
+<https://example.org/resource/Blowout> wdt:P31 <https://en.wikipedia.org/wiki/Hairstyle> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Vietnam%20Young%20Woman.JPG> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Wadowice%2C%20Poland%20%28Unsplash%29.jpg> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Xiuhtezcatl%20Martinez%20for%20Standing%20Strong%20Project%20%28cropped%29.jpg> ;
+ wdt:P1552 <https://en.wikipedia.org/wiki/Length> ;
+ wdt:P279 wd:Q10532119 ;
+ wdt:P1889 wd:Q102247646 ;
+ rdfs:label "waist-length hair"@en .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P279 -> subclass of
+wdt:P1889 -> different from
+wdt:P5008 -> on focus list of Wikimedia project
+wdt:P527 -> has part(s)
+wdt:P18 -> image
+wdt:P138 -> named after
+wdt:P178 -> developer
+wdt:P1552 -> has characteristic.
+---
+These are the labels of the objects:
+
+wd:Q111143758 -> medium-length hair
+wd:Q102247646 -> shoulder-length hair
+wd:Q66491086 -> skep
+wd:Q72854003 -> hairdressing
+wd:Q11276054 -> straight bangs
+wd:Q10532119 -> haircutting.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="text-align: center"
+|- style="background:#cccccc"
+! Name !! Image !! Description
+|-
+| style="background:#eeeeee" | Historic hairstyle
+| [[File:Historic hairstyle.jpg|120px]]
+| align=left | Historic [[hairstyle]] from 18th century à la [[Marie Antoinette]] created by members of the Danish organization "Academy of Historic Hairstyles" - at the event "[[:da:Historiske Dage|Historic Days 2019]]" in Copenhagen, Denmark
+|-
+| style="background:#eeeeee" | Line up
+|
+| align=left | Hair that has an even line across the forehead and then turns sharply at a 90-degree angle and blends with the sideburns. It can be worn with almost any other hairstyle. Primarily worn by [[Hispanic and Latino Americans|Latino]]s and some [[African Americans]]. Well-known examples include Canadian hip-hop artist [[Drake (entertainer)|Drake]] and Vinny Guadagnino from MTV's [[Jersey Shore (TV series)|Jersey Shore]].
+|-
+| style="background:#eeeeee" | Tail on back
+|<!-- Deleted image removed: [[File:Awesome Hair Style For Boys AbhayKrishnan.jpg|120px]] -->
+| align=left |Men's hairstyle by growing the hair in back like a small tail. This is widely used all over India. |}
+---

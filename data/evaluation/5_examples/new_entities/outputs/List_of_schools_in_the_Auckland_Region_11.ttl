@@ -1,0 +1,148 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Auckland_Normal_Intermediate> rdfs:label "Auckland Normal Intermediate"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 0.0 ;
+    wdt:P276 wd:Q477145 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q149566 ;
+    wdt:P6375 "Denbigh Avenue, Mount Eden, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://ani.school.nz/> .
+
+<https://example.org/resource/Cornwall_Park_School> rdfs:label "Cornwall Park School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 0.0 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P571 "1921-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.cornwallpark.school.nz/> .
+
+<https://example.org/resource/Edendale_School> rdfs:label "Edendale School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 0.0 ;
+    wdt:P276 wd:Q7416828 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P571 "1909-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.edendale.school.nz/> .
+
+<https://example.org/resource/Ficino_School> rdfs:label "Ficino School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 0.0 ;
+    wdt:P276 wd:Q477145 ;
+    wdt:P31 wd:Q149566 ;
+    wdt:P571 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.ficino.school.nz/> .
+
+<https://example.org/resource/Gladstone_Primary_School> rdfs:label "Gladstone Primary School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 0.0 ;
+    wdt:P276 wd:Q6919326 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.gladstone.school.nz/> .
+
+<https://example.org/resource/Good_Shepherd_School> rdfs:label "Good Shepherd School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 0.0 ;
+    wdt:P276 wd:Q4852373 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P571 "1912-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.goodshepherd.school.nz/> .
+
+<https://example.org/resource/Kohia_Terrace_School> rdfs:label "Kohia Terrace School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 6939.0 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q9842 ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.kts.school.nz/> .
+
+<https://example.org/resource/Marist_School> rdfs:label "Marist School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1359.0 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.marist.school.nz/> .
+
+<https://example.org/resource/Mount_Eden_Normal_Primary_School> rdfs:label "Mount Eden Normal Primary School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1378.0 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q9842 ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.mteden.school.nz/> .
+
+<https://example.org/resource/Our_Lady_of_the_Sacred_Heart_School> rdfs:label "Our Lady of the Sacred Heart School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1411.0 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.olsh.school.nz/> .
+
+<https://example.org/resource/Owairaka_District_School> rdfs:label "Owairaka District School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1412.0 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q9842 ;
+    wdt:P7419 wd:Q70853302 .
+
+<https://example.org/resource/Pasadena_Intermediate> rdfs:label "Pasadena Intermediate"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1437.0 ;
+    wdt:P31 wd:Q149566 ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.pasadena.school.nz> .
+
+<https://example.org/resource/Point_Chevalier_School> rdfs:label "Point Chevalier School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1440.0 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P571 "1887-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.ptchev.school.nz> .
+
+<https://example.org/resource/St_Francis_Catholic_Primary_School> rdfs:label "St Francis Catholic Primary School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1488.0 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://stfrancis.school.nz/> .
+
+<https://example.org/resource/TKKM_o_Nga_Maungarongo> rdfs:label "TKKM o Nga Maungarongo"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 4207.0 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P571 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.kkmmaungarongo.co.nz> .
+
+<https://example.org/resource/Waterview_School> rdfs:label "Waterview School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1563.0 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.waterview.school.nz> .
+

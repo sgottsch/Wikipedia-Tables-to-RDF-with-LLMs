@@ -1,0 +1,114 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films produced and released by Star Cinema" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" | ''[[Tunay na Tunay: Gets Mo? Gets Ko!]]''||March 15 ||[[Joyce Bernal]] ||[[Robin Padilla]], [[Jolina Magdangal]], Vic Diaz || [[Action film|Action]], [[Comedy film|comedy]], [[Romance film|romance]]|| RCP Productions
+|-
+| style="text-align:center;" | ''[[Anak (film)|Anak]]''|| May 10 || [[Rory Quintos]] || [[Vilma Santos]], [[Claudine Barretto]] || [[Drama film|Drama]], family ||
+|-
+| style="text-align:center;" | ''[[Tanging Yaman]]''|| December 25 || [[Laurice Guillen]] || [[Gloria Romero (actress)|Gloria Romero]], [[Hilda Koronel]], [[Edu Manzano]], [[Johnny Delgado]]|| [[Drama film|Drama]], family || |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Tunay_na_Tunay:_Gets_Mo?_Gets_Ko!> rdfs:label "Tunay Na Tunay: Gets Mo? Gets Ko!"@en ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Action_film> ;
+ wdt:P577 "2000-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Robin_Padilla> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Joyce_Bernal> .
+
+<https://example.org/resource/Anak> wdt:P364 <https://en.wikipedia.org/wiki/Filipino_language> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Claudine_Barretto> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Drama_(film_and_television)> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Hong_Kong> ;
+ wdt:P577 "2000-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Rory_Quintos> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Ricky_Lee> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ rdfs:label "Anak"@en ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P462 wd:Q22006653 .
+
+<https://example.org/resource/Tanging_Yaman> wdt:P161 <https://en.wikipedia.org/wiki/Johnny_Delgado> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Laurice_Guillen> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dominic_Ochoa> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P1476 "Tanging Yaman"@en ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Carol_Banawa> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Edu_Manzano> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Janette_McBride> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Shaina_Magdayao> ;
+ wdt:P577 "2000-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Hilda_Koronel> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_Prats> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Marvin_Agustin> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jericho_Rosales> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Cherry_Pie_Picache> ;
+ rdfs:label "Tanging Yaman"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Gloria_Romero_(actress)> .
+---
+These are the labels of the properties:
+
+wdt:P136 -> genre
+wdt:P577 -> publication date
+wdt:P31 -> instance of
+wdt:P161 -> cast member
+wdt:P495 -> country of origin
+wdt:P750 -> distributed by
+wdt:P57 -> director
+wdt:P364 -> original language of film or TV show
+wdt:P437 -> distribution format
+wdt:P840 -> narrative location
+wdt:P58 -> screenwriter
+wdt:P462 -> color
+wdt:P1476 -> title
+wdt:P162 -> producer.
+---
+These are the labels of the objects:
+
+wd:Q22006653 -> color.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" | ''Minsan Minahal Kita''|| February 23|| Olivia Lamasan||[[Sharon Cuneta]], [[Richard Gomez]], [[Edu Manzano]] ||[[Drama film|Drama]], [[Romance film|romance]] ||
+|-
+| style="text-align:center;" |''Daddy Oh, Baby Oh''|| June 14|| [[Eric Quizon]]||[[Dolphy]], [[Serena Dalrymple]], [[Angel Aquino]] ||[[Drama film|Drama]], family, [[Comedy film|comedy]] || RVQ Productions, Inc.
+|-
+| style="text-align:center;" | ''Kahit Isang Saglit''|| November 15 ||Gilbert Perez || [[Judy Ann Santos]], [[Piolo Pascual]], [[Leandro Muñoz]] || [[Romance film|Romance]], [[Drama film|drama]] ||
+|-
+| style="text-align:center;" | ''Ex-Con''|| December 13|| Toto Natividad || Victor Neri, [[Rica Peralejo]], Noel Trinidad ||[[Action film|Action]] || |}
+---

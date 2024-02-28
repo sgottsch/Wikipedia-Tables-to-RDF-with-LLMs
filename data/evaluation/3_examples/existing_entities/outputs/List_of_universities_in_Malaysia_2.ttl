@@ -1,0 +1,376 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Berjaya_University_College> rdfs:label "Berjaya University College"@en ;
+    wdt:P131 wd:Q3524186 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.berjaya.edu.my/> .
+
+<https://example.org/resource/First_City_University_College> rdfs:label "First City University College"@en ;
+    wdt:P131 wd:Q4854438 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P571 "1990-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://firstcity.edu.my/en/> .
+
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> rdfs:label "Han Chiang University College of Communication"@en ;
+    wdt:P131 wd:Q61092 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P571 "1999-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.hcu.edu.my> .
+
+<https://example.org/resource/INTI_International_University> rdfs:label "INTI International University"@en ;
+    wdt:P131 wd:Q2701093 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://newinti.edu.my/> ;
+    wdt:P8687 1986.0 .
+
+<https://example.org/resource/International_Islamic_University_College_Selangor> rdfs:label "International Islamic University College Selangor"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P571 "1995-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.kuis.edu.my/> .
+
+<https://example.org/resource/Islamic_University_of_Malaysia> rdfs:label "Islamic University of Malaysia"@en ;
+    wdt:P131 wd:Q1147163 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.uim.edu.my/> ;
+    wdt:P8687 2014.0 .
+
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> rdfs:label "Kuala Lumpur Metropolitan University College"@en ;
+    wdt:P131 wd:Q6126444,
+        wd:Q7456354 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P571 "1991-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://klmuc.edu.my/> .
+
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> rdfs:label "Limkokwing University of Creative Technology"@en ;
+    wdt:P131 wd:Q1147163 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1992-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.limkokwing.net/> ;
+    wdt:P8687 1992.0 .
+
+<https://example.org/resource/Lincoln_University_College> rdfs:label "Lincoln University College"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q189004,
+        wd:Q3918 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.lincoln.edu.my> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/MAHSA_University> rdfs:label "MAHSA University"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.mahsa.edu.my/> ;
+    wdt:P8687 2005.0 .
+
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> rdfs:label "Malaysia University of Science and Technology"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.must.edu.my/> ;
+    wdt:P8687 2000.0 .
+
+<https://example.org/resource/Management_and_Science_University> rdfs:label "Management and Science University"@en ;
+    wdt:P131 wd:Q500033 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2001-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.msu.edu.my/> ;
+    wdt:P8687 2001.0 .
+
+<https://example.org/resource/Manipal_International_University> rdfs:label "Manipal International University"@en ;
+    wdt:P131 wd:Q2701093 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.miu.edu.my/> ;
+    wdt:P8687 2011.0 .
+
+<https://example.org/resource/Monash_University_Malaysia_Campus> rdfs:label "Monash University Malaysia Campus"@en ;
+    wdt:P131 wd:Q876876 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.monash.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Multimedia_University> rdfs:label "Multimedia University"@en ;
+    wdt:P131 wd:Q1147163,
+        wd:Q183032,
+        wd:Q185221 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.mmu.edu.my/> .
+
+<https://example.org/resource/National_Energy_University> rdfs:label "Universiti Tenaga Nasional"@en ;
+    wdt:P131 wd:Q182378 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q233324,
+        wd:Q3918 ;
+    wdt:P571 "1976-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.uniten.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/New_Era_University_College> rdfs:label "New Era University College"@en ;
+    wdt:P131 wd:Q1946482 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q189004,
+        wd:Q3918 ;
+    wdt:P571 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.newera.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Nilai_University> rdfs:label "Nilai University"@en ;
+    wdt:P131 wd:Q2701093 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.nilai.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Open_University_Malaysia> rdfs:label "Open University Malaysia"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.oum.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Perdana_University> rdfs:label "Perdana University"@en ;
+    wdt:P131 wd:Q4986889 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://perdanauniversity.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Royal_College_of_Surgeons_in_Ireland_and_University_College_Dublin_Malaysia_Campus> rdfs:label "Royal College of Surgeons in Ireland and University College Dublin Malaysia Campus"@en ;
+    wdt:P131 wd:Q61092 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1996-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.pmc.edu.my> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/SEGi_University> rdfs:label "SEGi University"@en ;
+    wdt:P131 wd:Q6433791 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q189004,
+        wd:Q3918 ;
+    wdt:P571 "1977-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.segi.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Southern_University_College> rdfs:label "Southern University College"@en ;
+    wdt:P131 wd:Q5254191 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q189004,
+        wd:Q3918 ;
+    wdt:P571 "1990-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.southern.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Sultan_Abdul_Halim_Muadzam_Shah_International_Islamic_University> rdfs:label "Sultan Abdul Halim Mu'adzam Shah International Islamic University"@en ;
+    wdt:P131 wd:Q6440978 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q233324,
+        wd:Q3918 ;
+    wdt:P571 "1995-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://unishams.edu.my/portal/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Sultan_Azlan_Shah_University> rdfs:label "Universiti Sultan Azlan Shah"@en ;
+    wdt:P131 wd:Q24841029 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q233324,
+        wd:Q3918 ;
+    wdt:P571 "1999-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.usas.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Sunway_University> rdfs:label "Sunway University"@en ;
+    wdt:P131 wd:Q876876 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.sunway.edu.my/> .
+
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> rdfs:label "Swinburne University of Technology Sarawak Campus"@en ;
+    wdt:P131 wd:Q220445 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.swinburne.edu.my/> .
+
+<https://example.org/resource/TATI_University_College> rdfs:label "TATI University College"@en ;
+    wdt:P131 wd:Q189701 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q189004 ;
+    wdt:P571 "1993-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.tatiuc.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Taylor's_University> rdfs:label "Taylor's University"@en ;
+    wdt:P131 wd:Q876876 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1969-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.taylors.edu.my/> .
+
+<https://example.org/resource/Tun_Abdul_Razak_University> rdfs:label "Tun Abdul Razak University"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.unirazak.edu.my/> .
+
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> rdfs:label "Tunku Abdul Rahman University of Management and Technology"@en ;
+    wdt:P131 wd:Q7456354 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q189004,
+        wd:Q3918 ;
+    wdt:P571 "1969-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.tarc.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Twintech_International_University_College_of_Technology> rdfs:label "Twintech International University College of Technology"@en ;
+    wdt:P131 wd:Q4854422,
+        wd:Q651131 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q189004,
+        wd:Q3918 ;
+    wdt:P571 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://iuctt.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/UCSI_University> rdfs:label "UCSI University"@en ;
+    wdt:P131 wd:Q1087831 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.ucsi.edu.my/> ;
+    wdt:P8687 1986.0 .
+
+<https://example.org/resource/UNITAR_International_University> rdfs:label "UNITAR International University"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.unitar.my/> ;
+    wdt:P8687 2011.0 .
+
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> rdfs:label "Universiti Teknologi PETRONAS"@en ;
+    wdt:P131 wd:Q7454630 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q233324,
+        wd:Q3918 ;
+    wdt:P571 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.utp.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/University_Technology_of_Sarawak> rdfs:label "University Technology of Sarawak"@en ;
+    wdt:P131 wd:Q1048700 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2013-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.uts.edu.my/> ;
+    wdt:P8687 2013.0 .
+
+<https://example.org/resource/University_Tunku_Abdul_Rahman> rdfs:label "University Tunku Abdul Rahman"@en ;
+    wdt:P131 wd:Q22694790 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q233324,
+        wd:Q3918 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.utar.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/University_of_Cyberjaya> rdfs:label "University of Cyberjaya"@en ;
+    wdt:P131 wd:Q1147163 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://cyberjaya.edu.my/> .
+
+<https://example.org/resource/University_of_Kuala_Lumpur> rdfs:label "University of Kuala Lumpur"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.unikl.edu.my/> ;
+    wdt:P8687 2002.0 .
+
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> rdfs:label "University of Nottingham Malaysia Campus"@en ;
+    wdt:P131 wd:Q737705 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q233324,
+        wd:Q3918 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.nottingham.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> rdfs:label "University of Reading Malaysia Campus"@en ;
+    wdt:P131 wd:Q4650216 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q233324,
+        wd:Q3918 ;
+    wdt:P571 "2013-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.reading.edu.my> ;
+    wdt:P8687 3225.0 .
+
+<https://example.org/resource/University_of_Selangor> rdfs:label "University of Selangor"@en ;
+    wdt:P131 wd:Q2998743 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1999-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.unisel.edu.my/> ;
+    wdt:P8687 1999.0 .
+
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> rdfs:label "University of Southampton Malaysia Campus"@en ;
+    wdt:P131 wd:Q4650216 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.southampton.ac.uk/my> .
+
+<https://example.org/resource/University_of_Wollongong_Malaysia> rdfs:label "University of Wollongong Malaysia"@en ;
+    wdt:P131 wd:Q500033 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1983-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.kdu.edu.my/> .
+
+<https://example.org/resource/Wawasan_Open_University> rdfs:label "Wawasan Open University"@en ;
+    wdt:P131 wd:Q61092 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2006-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.wou.edu.my/> .
+
+<https://example.org/resource/Widad_University_College> rdfs:label "Widad University College"@en ;
+    wdt:P131 wd:Q817578 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q189004,
+        wd:Q3918 ;
+    wdt:P571 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.widad.edu.my/> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Xiamen_University_Malaysia> rdfs:label "Xiamen University Malaysia"@en ;
+    wdt:P131 wd:Q1853191 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.xmu.edu.my/> .
+

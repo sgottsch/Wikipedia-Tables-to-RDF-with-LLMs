@@ -1,0 +1,286 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of museums and galleries in Berlin" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+! Name
+!Image
+! Neighborhood
+! Borough
+! Type
+! Summary
+|-
+| [[Academy of Arts, Berlin]] 
+|[[File:Akademie der Künste Berlin.jpg|frameless|125x125px]]|| [[Friedrichstadt (Berlin)|Friedrichstadt]] || Mitte  || Art || Located in [[Pariser Platz]], offers exhibitions, concerts, debates, readings, film, theatre, and dance performances
+|-
+| [[AG Märkische Kleinbahn]] 
+|[[File:Mkb bfsow.jpg|frameless|125x125px]]||[[Lichterfelde (Berlin)|Lichterfelde]] || [[Steglitz-Zehlendorf]] || Railway || Railway vehicles, exhibits about the history of Zehlendorfer Railway
+|-
+| [[Allied Museum]] 
+|[[File:Berlin Clayallee AlliiertenMuseum UAV 04-2017.jpg|frameless|125x125px]]||[[Dahlem (Berlin)|Dahlem]] ||Steglitz-Zehlendorf  || History ||  Cold War history and roles of the Western Allies (US, France and Britain) in Germany between 1945 and 1994 and their contribution to liberty in Berlin
+|-
+| [[Alte Nationalgalerie]]
+|[[File:AlteNationalgalerie 1a.jpg|frameless|125x125px]]|| [[Museum Island]]  || [[Mitte]] || Art || Part of the [[Berlin State Museums]], gallery showing a collection of [[Neoclassicism#Painting and printmaking|Neoclassical]], [[Romanticism#Romantic visual arts|Romantic]], [[Biedermeier#Visual arts|Biedermeier]], [[Impressionism|Impressionist]] and early [[Modernism|Modernist]] artwork
+|-
+| [[Altes Museum]] 
+|[[File:Altes Museum (Berlin) (6339770591).jpg|frameless|125x125px]]|| Museum Island || Mitte || Art || Part of the Berlin State Museums, features antiquities - art and culture of the Ancient Greeks, Etruscans, and Romans
+|-
+| [[Anne Frank Zentrum]] 
+|[[File:Anne-frank-zentrum.jpg|frameless|167x167px]]|| [[Mitte (locality)|Mitte]] || Mitte || History || Exhibit about Anne Frank and about antisemitism and intolerance in the present |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Academy_of_Arts,_Berlin> wdt:P31 <https://en.wikipedia.org/wiki/Cultural_institution> ;
+ wdt:P155 <https://en.wikipedia.org/wiki/Akademie_der_K%C3%BCnste_der_DDR> ;
+ wdt:P355 wd:Q123504001 ;
+ wdt:P571 "1696-07-11T00:00:00Z"^^xsd:dateTime ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:Academy_of_Arts,_Berlin> ;
+ wdt:P1687 wd:P4114 ;
+ wdt:P3876 wd:Q29968526 ;
+ wdt:P463 wd:Q1780343 ;
+ wdt:P137 <https://en.wikipedia.org/wiki/Germany> ;
+ wdt:P112 <https://en.wikipedia.org/wiki/Frederick_I_of_Prussia> ;
+ wdt:P6365 wd:Q9023406 ;
+ wdt:P1454 wd:Q15734684 ;
+ wdt:P527 wd:Q635522 ;
+ wdt:P276 wd:Q105045058 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Archive> ;
+ wdt:P669 <https://en.wikipedia.org/wiki/Pariser_Platz> ;
+ wdt:P488 <https://en.wikipedia.org/wiki/Jeanine_Meerapfel> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Mitte> ;
+ wdt:P159 wd:Q105045058 ;
+ wdt:P485 wd:Q635522 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Germany> ;
+ rdfs:label "Academy of Arts, Berlin"@en ;
+ wdt:P1889 wd:Q60181836 ;
+ wdt:P856 <http://www.adk.de/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Akademie%20der%20k%C3%BCnste%20berlin.JPG> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Mitte_(locality)> ;
+ wdt:P1830 wd:Q821725 ;
+ wdt:P155 wd:Q15649796 ;
+ wdt:P527 wd:Q123504001 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Academy> .
+
+<https://example.org/resource/AG_Märkische_Kleinbahn> wdt:P1454 <https://en.wikipedia.org/wiki/Registered_association_(Germany)> ;
+ wdt:P571 "1981-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "AG Märkische Kleinbahn"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Germany> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Berlin> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Voluntary_association> .
+
+<https://example.org/resource/Allied_Museum> rdfs:label "Allied Museum"@en ;
+ wdt:P856 <https://www.alliiertenmuseum.de/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Clayallee%20AlliiertenMuseum%20UAV%2004-2017.jpg> ;
+ wdt:P527 wd:Q28739601 ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B02:00> ;
+ wdt:P1435 wd:Q811165 ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Steglitz-Zehlendorf> ;
+ wdt:P1343 wd:Q73357989 ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B01:00> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Germany> ;
+ wdt:P571 "1996-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P276 wd:Q47046631 ;
+ wdt:P31 wd:Q2772772 .
+
+<https://example.org/resource/Alte_Nationalgalerie> wdt:P706 <https://en.wikipedia.org/wiki/Museum_Island> ;
+ wdt:P112 <https://en.wikipedia.org/wiki/Joachim_Heinrich_Wilhelm_Wagener> ;
+ wdt:P1037 wd:Q1232620 ;
+ rdfs:label "Alte Nationalgalerie"@en ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B02:00> ;
+ wdt:P856 <http://www.smb.museum/museen-und-einrichtungen/alte-nationalgalerie/home.html> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/AlteNationalgalerie%201a.jpg> ;
+ wdt:P669 wd:Q95674790 ;
+ wdt:P2851 wd:Q58220185 ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Mitte> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Art_museum> ;
+ wdt:P1435 wd:Q811165 ;
+ wdt:P1343 wd:Q114798196 ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Heinrich_Strack> ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B01:00> ;
+ wdt:P1619 "1861-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Germany> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Berlin> ;
+ wdt:P571 "1861-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Friedrich_August_St%C3%BCler> ;
+ wdt:P973 <https://www.smb.museum/fileadmin/website/Museen_und_Sammlungen/Alte_Nationalgalerie/04_Besuch_Planen/Lageplan/ANG_A4_Flyer_DE_190627_compressed.pdf> ;
+ wdt:P361 <https://en.wikipedia.org/wiki/Staatliche_Museen_zu_Berlin> ;
+ wdt:P527 wd:Q114729953 ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Berlin> ;
+ wdt:P1174 "316000"^^xsd:decimal ;
+ wdt:P910 wd:Q8387397 ;
+ wdt:P8768 <https://recherche.smb.museum/?language=de&limit=15&controls=none&collectionKey=NG*&collectionKey=NGAlteNationalgalerie> .
+
+<https://example.org/resource/Altes_Museum> wdt:P706 <https://en.wikipedia.org/wiki/Museum_Island> ;
+ wdt:P31 wd:Q16735822 ;
+ wdt:P466 <https://en.wikipedia.org/wiki/Antikensammlung_Berlin> ;
+ wdt:P7561 wd:Q104558125 ;
+ wdt:P669 wd:Q95674761 ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Mitte> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Art_museum> ;
+ wdt:P1435 wd:Q811165 ;
+ rdfs:label "Altes Museum"@en ;
+ wdt:P856 <http://www.smb.museum/museums-institutions/altes-museum/home.html> ;
+ wdt:P88 <https://en.wikipedia.org/wiki/Frederick_William_III> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Lustgarten%201.JPG> ;
+ wdt:P1435 <https://en.wikipedia.org/wiki/World_Heritage_Site> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Karl_Friedrich_Schinkel> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Germany> ;
+ wdt:P1619 "1830-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Mitte_(locality)> ;
+ wdt:P361 <https://en.wikipedia.org/wiki/Staatliche_Museen_zu_Berlin> ;
+ wdt:P571 "1830-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P112 <https://en.wikipedia.org/wiki/Frederick_William_III> ;
+ wdt:P910 wd:Q8877869 ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Neoclassical_architecture> ;
+ wdt:P1174 "330000"^^xsd:decimal ;
+ wdt:P1174 "1080000"^^xsd:decimal ;
+ wdt:P1174 "162000"^^xsd:decimal ;
+ wdt:P1174 "165000"^^xsd:decimal ;
+ wdt:P1174 "206000"^^xsd:decimal ;
+ wdt:P1174 "252000"^^xsd:decimal ;
+ wdt:P1174 "253000"^^xsd:decimal ;
+ wdt:P1174 "271000"^^xsd:decimal ;
+ wdt:P1174 "362000"^^xsd:decimal ;
+ wdt:P1174 "531000"^^xsd:decimal ;
+ wdt:P5008 wd:Q68074438 .
+
+<https://example.org/resource/Anne_Frank_Zentrum> wdt:P1454 <https://en.wikipedia.org/wiki/Registered_association_(Germany)> ;
+ wdt:P1619 "1998-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P571 "1998-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 wd:Q113805953 ;
+ wdt:P101 wd:Q104917986 ;
+ wdt:P101 wd:Q104919537 ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B02:00> ;
+ wdt:P463 wd:Q628407 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Museum> ;
+ wdt:P101 wd:Q104917936 ;
+ wdt:P463 wd:Q1006424 ;
+ wdt:P31 wd:Q64167531 ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B01:00> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Germany> ;
+ wdt:P101 wd:Q104918055 ;
+ rdfs:label "Anne Frank Zentrum"@en ;
+ wdt:P856 <http://www.annefrank.de> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Anne-frank-zentrum.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Berlin> ;
+ wdt:P463 wd:Q1663590 ;
+ wdt:P101 wd:Q104919470 .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P155 -> follows
+wdt:P355 -> has subsidiary
+wdt:P571 -> inception
+wdt:P910 -> topic's main category
+wdt:P1687 -> Wikidata property
+wdt:P3876 -> category for alumni of educational institution
+wdt:P463 -> member of
+wdt:P137 -> operator
+wdt:P112 -> founded by
+wdt:P6365 -> member category
+wdt:P1454 -> legal form
+wdt:P527 -> has part(s)
+wdt:P276 -> location
+wdt:P669 -> located on street
+wdt:P488 -> chairperson
+wdt:P131 -> located in the administrative territorial entity
+wdt:P159 -> headquarters location
+wdt:P485 -> archives at
+wdt:P17 -> country
+wdt:P1889 -> different from
+wdt:P856 -> official website URL
+wdt:P18 -> image
+wdt:P1830 -> owner of
+wdt:P421 -> located in time zone
+wdt:P1435 -> heritage designation
+wdt:P1343 -> described by source
+wdt:P706 -> located in/on physical feature
+wdt:P1037 -> director / manager
+wdt:P2851 -> payment types accepted
+wdt:P84 -> architect
+wdt:P1619 -> date of official opening
+wdt:P973 -> described at URL
+wdt:P361 -> part of
+wdt:P1174 -> visitors per year
+wdt:P8768 -> online catalog URL
+wdt:P466 -> occupant
+wdt:P7561 -> category for the interior of the item
+wdt:P88 -> commissioned by
+wdt:P149 -> architectural style
+wdt:P5008 -> on focus list of Wikimedia project
+wdt:P101 -> field of work.
+---
+These are the labels of the objects:
+
+wd:Q123504001 -> Q123504001
+wd:P4114 -> ADK member ID
+wd:Q29968526 -> Q29968526
+wd:Q1780343 -> Kommunaler Arbeitgeberverband Berlin
+wd:Q9023406 -> Q9023406
+wd:Q15734684 -> Körperschaft des öffentlichen Rechts
+wd:Q635522 -> Archive of the Academy of Arts
+wd:Q105045058 -> Academy of Arts (Pariser Platz)
+wd:Q60181836 -> Berliner Akademie der Künste
+wd:Q821725 -> Collection of Calligraphy of Berlin
+wd:Q15649796 -> Academy of Arts (West Berlin)
+wd:Q28739601 -> Q28739601
+wd:Q811165 -> architectural heritage monument
+wd:Q73357989 -> Survey of GLAM open access policy and practice
+wd:Q47046631 -> Outpost
+wd:Q2772772 -> military museum
+wd:Q1232620 -> Ralph Gleis
+wd:Q95674790 -> Bodestraße
+wd:Q58220185 -> ICOM membership card
+wd:Q114798196 -> Q114798196
+wd:Q114729953 -> Q114729953
+wd:Q8387397 -> Category:Alte Nationalgalerie
+wd:Q16735822 -> history museum
+wd:Q104558125 -> Category:Interior of the Altes Museum Berlin
+wd:Q95674761 -> Am Lustgarten
+wd:Q8877869 -> Category:Altes Museum (Berlin)
+wd:Q68074438 -> WikiProject Livius
+wd:Q113805953 -> charitable corporation
+wd:Q104917986 -> Q104917986
+wd:Q104919537 -> Q104919537
+wd:Q628407 -> Arbeitskreis Deutscher Bildungsstätten
+wd:Q104917936 -> Promotion of science and research
+wd:Q1006424 -> Bundesnetzwerk Bürgerschaftliches Engagement
+wd:Q64167531 -> Träger der politischen Bildung
+wd:Q104918055 -> Förderung der Erziehung, Volks- und Berufsbildung einschließlich der Studentenhilfe
+wd:Q1663590 -> Initiative Transparent Civil Society
+wd:Q104919470 -> Förderung internationaler Gesinnung, der Toleranz auf allen Gebieten der Kultur und des Völkerverständigungsgedankens.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+! Name
+!Image
+! Neighborhood
+! Borough
+! Type
+! Summary
+|-
+| [[Martin-Gropius-Bau]]
+| [[File:Gropius Bau Berlin 1.jpg|frameless|125x125px]]|| Kreuzberg || Friedrichshain-Kreuzberg || Art || Modern and contemporary art and photography
+|-
+| [[me Collectors Room Berlin]]
+| [[File:Mitte Auguststraße am Gallery Weekend-001.JPG|frameless|167x167px]]|| Tiergarten || Mitte  || Art || Changing exhibitions of contemporary art from private collections
+|-
+| [[Memorial to the German Resistance]]
+| [[File:Bendlerblock.jpg|frameless|125x125px]]|| Tiergarten || Mitte  || History || Resistance to National Socialism from 1933 to 1945
+|-
+| [[Memorial to the Murdered Jews of Europe]]
+| [[File:Memorial to the Murdered Jews of Europeabove.jpg|frameless|125x125px]]|| [[Friedrichstadt (Berlin)|Friedrichstadt]] || Mitte  || History || Memorial and visitor center exhibits about the persecution and extermination of the Jews of Europe and the historical sites of the crimes
+|-
+| [[Militärhistorisches Museum Flugplatz Berlin-Gatow|Military History Museum at Belin-Gatow]]
+| [[File:LUFTWAFFEN MUSEUM RAF GATOW BERLIN GERMANY JUNE 2013 (9040885653).jpg|frameless|125x125px]]|| [[Gatow]] || [[Spandau]] || Aviation || History of the Luftwaffe of the German Armed Forces
+|-
+| [[Museum in the Kulturbrauerei]]
+| || [[Prenzlauer Berg]] || Pankow || History || [http://www.hdg.de/berlin/ Website], everyday life in East Germany |}
+---

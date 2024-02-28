@@ -1,0 +1,197 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/168_Park_Selayang_Mall> rdfs:label "168 Park Selayang Mall"@en ;
+    wdt:P131 wd:Q7447519 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/168_Park_Selayang_Mall.jpg> ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/1_Plaza> rdfs:label "1 Plaza"@en ;
+    wdt:P131 wd:Q3267302 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/3_Damansara> rdfs:label "3 Damansara"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P1619 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/AEON_Cheras_Selatan> rdfs:label "AEON Cheras Selatan"@en ;
+    wdt:P131 wd:Q279392 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/AEON_Rawang> rdfs:label "AEON Rawang"@en ;
+    wdt:P131 wd:Q2072124 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Amerin_Mall> rdfs:label "Amerin Mall"@en ;
+    wdt:P131 wd:Q7454632 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Ampang_Point_Shopping_Centre> rdfs:label "Ampang Point Shopping Centre"@en ;
+    wdt:P131 wd:Q4748042 ;
+    wdt:P1619 "2024-02-22T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/Atria_Shopping_Gallery> rdfs:label "Atria Shopping Gallery"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/Bukit_Raja_Shopping_Centre> rdfs:label "Bukit Raja Shopping Centre"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/CITTA_Mall> rdfs:label "CITTA Mall"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/CITTA_Mall.jpg> ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/Capitol_Selayang> rdfs:label "Capitol Selayang"@en ;
+    wdt:P131 wd:Q7447519 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Central_i-City> rdfs:label "Central i-City"@en ;
+    wdt:P131 wd:Q500033 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/D'Pulze> rdfs:label "D'Pulze"@en ;
+    wdt:P131 wd:Q1147163 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Damen> rdfs:label "da:men"@en ;
+    wdt:P131 wd:Q876876 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Empire_City_Damansara_Mall> rdfs:label "Empire City Damansara Mall"@en ;
+    wdt:P131 wd:Q5211977 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Encorp_Strand_Mall> rdfs:label "Encorp Strand Mall"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Harbour_Place> rdfs:label "Harbour Place"@en ;
+    wdt:P131 wd:Q417354 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/IRDKL_Mall> rdfs:label "IRDKL Mall"@en ;
+    wdt:P131 wd:Q500033 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/KL_Northgate_Paragon_Mall> rdfs:label "KL Northgate @ Paragon Mall"@en ;
+    wdt:P131 wd:Q7447519 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/Melawati_Mall> rdfs:label "Melawati Mall"@en ;
+    wdt:P131 wd:Q7880748 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Melawati_Mall.jpg> ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/Metro_Kajang_Plaza> rdfs:label "Metro Kajang Plaza"@en ;
+    wdt:P131 wd:Q1946482 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/PJ_State> rdfs:label "PJ State"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Paradigm_Mall> rdfs:label "Paradigm Mall"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P1619 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/Pawagam_Sun_Rawang> rdfs:label "Pawagam Sun Rawang"@en ;
+    wdt:P131 wd:Q2072124 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Pinnacle_PJ> rdfs:label "Pinnacle PJ"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Quayside_Mall> rdfs:label "Quayside Mall"@en ;
+    wdt:P131 wd:Q500033 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Quayside_Mall.jpg> ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/Setia_City_Mall> rdfs:label "Setia City Mall"@en ;
+    wdt:P131 wd:Q500033 ;
+    wdt:P1619 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/Setia_EcoHill_Mall> rdfs:label "Setia EcoHill Mall"@en ;
+    wdt:P131 wd:Q737705 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/Setia_Walk_Mall> rdfs:label "Setia Walk Mall"@en ;
+    wdt:P131 wd:Q7258228 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Space_U8> rdfs:label "Space U8"@en ;
+    wdt:P131 wd:Q2276361 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/Spectrum_Ampang_Mall> rdfs:label "Spectrum Ampang Mall"@en ;
+    wdt:P131 wd:Q4748042 ;
+    wdt:P7561 wd:Q104562265 .
+
+<https://example.org/resource/Sri_Intan> rdfs:label "Sri Intan"@en ;
+    wdt:P131 wd:Q417354 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/The_Starling_Mall> rdfs:label "The Starling Mall"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The_Starling_Mall.jpg> ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/The_Summit_USJ> rdfs:label "The Summit USJ"@en ;
+    wdt:P131 wd:Q876876 ;
+    wdt:P1619 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 .
+
+<https://example.org/resource/Tropicana_Gardens_Mall> rdfs:label "Tropicana Gardens Mall"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tropicana_Gardens_Mall.jpg> ;
+    wdt:P31 wd:Q11315 .
+

@@ -1,0 +1,199 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of mosques in the United Kingdom" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|- valign=top
+| [[Abbey Mills Mosque]]
+|[[File:Abbey Mills Mosque (2392935331).jpg|120px|center]]
+| [[London]]
+| 1996
+| TJ/D<ref>{{Cite web |title=Home |url=https://www.london-markaz.com/ |access-date=2023-08-07 |website=www.london-markaz.com}}</ref>
+| Greater London [[Tablighi Jamaat]] HQ.  Also known as ''Masjid e Ilyas, London Markaz ''or'' West Ham Markaz''
+|- valign=top
+| [[Aziziye Mosque (London)|Aziziye Mosque]]
+| [[File:Aziziye Mosque.jpg|120px|center]]
+| [[London]]
+| 1983
+| UKTIA
+|
+|-
+| [[Baitul Futuh Mosque]]
+| 
+| [[London]]
+| 2003
+| AMJ
+| The Baitul Futuh Mosque, also known as the Morden Mosque, is a mosque complex in Morden, London. It is one of the largest mosques in Western Europe. Completed in 2003 at a cost of £15 million, entirely from donations of British Ahmadis, the full complex can accommodate 13,000 people.
+|- valign="top"
+|[[Brick Lane Mosque]] / Jamme Masjid
+|[[File:Brick Lane Mosque2.JPG|120px|center]]
+|[[London]]
+| 1976
+|U
+|
+|- valign="top"
+|[[Brixton Mosque]]
+|[[Image:Brixton Mosque, Gresham Road.jpg|120px|center]]
+|[[London]]
+| 1990
+|SA
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Abbey_Mills_Mosque> wdt:P131 <https://en.wikipedia.org/wiki/Stratford,_London> ;
+ wdt:P7959 wd:Q67442940 ;
+ rdfs:label "Abbey Mills Mosque"@en ;
+ wdt:P1083 "2500"^^xsd:decimal ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Abbey%20Mills%20Mosque%20%282392935331%29.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Allies_and_Morrison> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Aziziye_Mosque> wdt:P131 <https://en.wikipedia.org/wiki/London_Borough_of_Hackney> ;
+ wdt:P6375 "117 Stoke Newington Road, London, N16 8PU, England"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Movie_theater> ;
+ rdfs:label "Aziziye Mosque"@en ;
+ wdt:P856 <http://www.aziziye.co.uk> ;
+ wdt:P571 "1983-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/2008%20Stoke%20Newington%20Road.jpg> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Stoke_Newington> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P7959 <https://en.wikipedia.org/wiki/Middlesex> ;
+ wdt:P140 <https://en.wikipedia.org/wiki/Islam> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Baitul_Futuh_Mosque> wdt:P276 <https://en.wikipedia.org/wiki/Morden> ;
+ wdt:P571 "2003-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P7959 wd:Q67443130 ;
+ wdt:P5775 <http://commons.wikimedia.org/wiki/Special:FilePath/Bait%20ul-Futuh%20interior.jpg> ;
+ wdt:P1619 "2003-10-03T00:00:00Z"^^xsd:dateTime ;
+ wdt:P2046 "21000"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/London> ;
+ wdt:P1705 "Baitul Futuh"@en ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Islamic_architecture> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P140 <https://en.wikipedia.org/wiki/Islam> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Art_Nouveau> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ rdfs:label "Baitul Futuh Mosque"@en ;
+ wdt:P856 <http://www.baitulfutuh.org> ;
+ wdt:P2130 "5500000"^^xsd:decimal ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Baitul%20Futuh.jpg> .
+
+<https://example.org/resource/Brick_Lane_Mosque> wdt:P131 <https://en.wikipedia.org/wiki/London_Borough_of_Tower_Hamlets> ;
+ rdfs:label "Brick Lane Mosque"@en ;
+ wdt:P856 <http://bricklanejammemasjid.org.uk/> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Georgian_architecture> ;
+ wdt:P571 "1743-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Brick%20Lane%20Jamme%20Masjid.jpg> ;
+ wdt:P1435 wd:Q15700831 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P186 <https://en.wikipedia.org/wiki/Brick> ;
+ wdt:P7959 <https://en.wikipedia.org/wiki/Middlesex> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Brixton_Mosque> rdfs:label "Brixton Mosque"@en ;
+ wdt:P856 <http://www.masjidit.co.uk/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Brixton%20Mosque%2C%20Gresham%20Road.jpg> ;
+ wdt:P571 "1990-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P7959 wd:Q67443130 ;
+ wdt:P131 <https://en.wikipedia.org/wiki/London_Borough_of_Lambeth> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Brixton> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+---
+These are the labels of the properties:
+
+wdt:P131 -> located in the administrative territorial entity
+wdt:P7959 -> historic county
+wdt:P1083 -> maximum capacity
+wdt:P18 -> image
+wdt:P31 -> instance of
+wdt:P84 -> architect
+wdt:P17 -> country
+wdt:P6375 -> street address
+wdt:P856 -> official website URL
+wdt:P571 -> inception
+wdt:P276 -> location
+wdt:P140 -> religion or worldview
+wdt:P5775 -> image of interior
+wdt:P1619 -> date of official opening
+wdt:P2046 -> area
+wdt:P1705 -> native label
+wdt:P149 -> architectural style
+wdt:P2130 -> cost
+wdt:P1435 -> heritage designation
+wdt:P186 -> made from material.
+---
+These are the labels of the objects:
+
+wd:Q67442940 -> Essex
+wd:Q67443130 -> Surrey
+wd:Q15700831 -> Grade II* listed building.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|-
+|Waltham Forest Islamic Association 
+|
+|[[Leyton|Leyton, London]]
+|1966
+| B
+|Also known as ''Jamia Ghousia Masjid, Lea Bridge Road Mosque, WFIA''
+|-
+|Wapping Noorani Masjid & Cultural Centre
+|
+|[[Wapping|Wapping,London]]
+|2012
+|U
+|It was previously used as a office for [https://towerhamletshomes.org,uk Tower Hamlets Homes]
+|- valign=top
+| [[White City Mosque]]
+| [[File:White City Mosque.jpg|120px|center]]
+| [[White City, London]]
+| 2015
+| U
+| Also known as the ''White City Musalla'' or "The Egyptian House"
+|-
+|[[Wimbledon Mosque]]
+|
+|[[Wimbledon, London]]
+|1976
+|D
+|The first mainstream purpose-built mosque in South London and one of the first purpose-built mosques in London.<ref>{{Cite web|url=http://wimbledonmosque.org/|title=Wimbledon Mosque – Your Mosque. Our community|language=en-GB|access-date=2020-04-24}}</ref>
+|-
+|[[Darul Amaan Mosque, Colliers Wood| Darul Amaan Mosque]]
+|
+|[[Colliers Wood]]
+|1978
+|D
+|
+|-
+|Muslim Welfare House
+|
+|North London
+|1976
+|
+|Also known as Muslim Welfare House Trust. www.mwht.org.uk |}
+---

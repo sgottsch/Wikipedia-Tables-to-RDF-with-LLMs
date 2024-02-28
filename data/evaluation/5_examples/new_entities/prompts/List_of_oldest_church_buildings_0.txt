@@ -1,0 +1,141 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of oldest church buildings" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable collapsible"
+|-
+! style="width:15%"|Building
+! style="width:15%"|Image
+! style="width:10%"|Location
+! style="width:10%"|Country
+! style="width:10%"|Oldest part 
+! style="width:15%"|Denomination
+! style="width:25%"|Notes
+|-
+|[[Monastery of Saint Anthony]]
+|[[File:Antonius Kloster BW 7.jpg|120px|center]]
+|[[Eastern Desert]]
+|[[Egypt]]
+|data-sort-value="356" | 356 
+|[[Coptic Orthodox Church of Alexandria|Coptic Orthodox]] 
+|Partially destroyed in the 11th century and rebuilt; very little of the original structure remains.
+|-
+|[[Debre Sina (Eritrea)|Debre Sina]]
+|
+|[[Anseba Region|Anseba]]
+|[[Eritrea]]
+|data-sort-value="382" | <383
+|[[Eritrean Orthodox Tewahedo Church|Eritrean Orthodox]] 
+|It was the site of the first [[Holy Communion]] prepared in the [[Eritrean Orthodox Church]], by the 4th-century bishop [[Aba Salama]].<ref>{{cite book
+|title=Eritrea: The Bradt Travel Guide
+|year=2007
+|author1=Edward Denison
+|author2=Edward Paice
+|isbn=978-1841621715
+|url=https://books.google.com/books?id=Qi-KQchGks8C&pg=PA187
+|page=187
+|access-date=2020-09-25
+|archive-date=2023-02-16
+|archive-url=https://web.archive.org/web/20230216164006/https://books.google.com/books?id=Qi-KQchGks8C&pg=PA187
+|url-status=live
+}}</ref>
+|-
+|[[Church of Our Lady Mary of Zion]]
+|[[File:Ark of the Covenant church in Axum Ethiopia.jpg|120px|center]]
+|[[Axum]]
+|[[Ethiopia]]
+|data-sort-value="301" | 4th century 
+|[[Ethiopian Orthodox Tewahedo Church|Ethiopian Orthodox]] 
+|Originally built in the 4th century, it has been rebuilt several times, most recently in the 17th century during the reign of Emperor [[Fasilides]].
+|-
+|[[Beta Samati]]
+|
+|[[Beta Samati]], near Edaga Rebua, Mezbir
+|[[Kingdom of Aksum]], [[Ethiopia]]
+|data-sort-value="301" | 4th century 
+|[[Ethiopian Orthodox Tewahedo Church|Ethiopian Orthodox]] 
+|Originally built in the 4th century, the church may be the oldest known from sub-Saharan Africa.<ref>{{cite web |last1=Urbanus |first1=Jason |title=Africa's merchant kings |url=https://www.archaeology.org/issues/515-2307/features/11500-aksum-ethiopia-eritrea-kingdom |website=Archaeology |publisher=The Archaeological Institute of America |access-date=1 August 2023 |archive-date=1 August 2023 |archive-url=https://web.archive.org/web/20230801073449/https://www.archaeology.org/issues/515-2307/features/11500-aksum-ethiopia-eritrea-kingdom |url-status=live }}</ref><ref>{{cite journal |last1=Harrower |first1=Michael J. |title=Beta Samati: discovery and excavation of an Aksumite town |journal=Antiquity |date=2019 |volume=93 |issue=372 |page=1534 |doi=10.15184/aqy.2019.84|doi-access=free }}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Monastery_of_Saint_Anthony> wdt:P2044 "445"^^xsd:decimal ;
+ wdt:P1889 wd:Q20669809 ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Red_Sea_Governorate> ;
+ rdfs:label "Monastery of Saint Anthony"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Egypt> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Monastery> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/St.%20Anthony%27s%20Monastery%202006.jpg> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Anthony_the_Great> ;
+ wdt:P571 "0298-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Debre_Sina> wdt:P31 <https://en.wikipedia.org/wiki/Monastery> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Eritrea> ;
+ rdfs:label "Debre Sina"@en .
+
+<https://example.org/resource/Church_of_Our_Lady_Mary_of_Zion> wdt:P31 <https://en.wikipedia.org/wiki/Church_(building)> ;
+ wdt:P571 "1964-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P5775 <http://commons.wikimedia.org/wiki/Special:FilePath/ET%20Axum%20asv2018-01%20img25%20StMary%20of%20Zion%20Church.jpg> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Mary,_mother_of_Jesus> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Neo-Byzantine_architecture> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Axum> ;
+ wdt:P825 <https://en.wikipedia.org/wiki/Mary,_mother_of_Jesus> ;
+ wdt:P140 <https://en.wikipedia.org/wiki/Ethiopian_Orthodox_Tewahedo_Church> ;
+ rdfs:label "Church of Our Lady Mary of Zion"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/ET%20Axum%20asv2018-01%20img33%20StMary%20of%20Zion%20Church.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Ethiopia> .
+
+<https://example.org/resource/Beta_Samati> rdfs:label "Beta Samati"@en ;
+ rdfs:label "Beta Samati"@en .
+---
+These are the labels of the properties:
+
+wdt:P2044 -> elevation above sea level
+wdt:P1889 -> different from
+wdt:P131 -> located in the administrative territorial entity
+wdt:P17 -> country
+wdt:P31 -> instance of
+wdt:P18 -> image
+wdt:P138 -> named after
+wdt:P571 -> inception
+wdt:P5775 -> image of interior
+wdt:P149 -> architectural style
+wdt:P825 -> dedicated to
+wdt:P140 -> religion or worldview.
+---
+These are the labels of the objects:
+
+wd:Q20669809 -> Monastère Saint-Antoine de Basse-Terre.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable collapsible"
+|-
+! style="width:15%"|Building
+! style="width:15%"|Image
+! style="width:10%"|Location
+! style="width:10%"|Country
+! style="width:10%"|Oldest part 
+! style="width:15%"|Denomination
+! style="width:25%"|Notes
+|-
+||[[Monastery of Saint John the Short]]
+|[[File:Hosios_Loukas_(nave,_vault_over_south-west_bay)_-_John_Kolobos.jpg|120px|center]]
+|[[Wadi El Natrun]]
+|[[Egypt]]
+|data-sort-value="301" | 4th century 
+|[[Coptic Orthodox Church of Alexandria|Coptic Orthodox]] 
+|Built by Saint John around his "Tree of Obedience". The Monastery remained open until the 17th century when it was finally abandoned. Originally the body of St. John was in a Church near modern-day Suez, Egypt, but his disciples moved it to the monastery in 515 AD.
+|-
+||[[Monastery of Saint Moses the Strong]]
+|[[File:MTBcrop.jpg|120px|center]]
+|[[Wadi El Natrun]]
+|[[Egypt]]
+|data-sort-value="301" | 4th century 
+|[[Coptic Orthodox Church of Alexandria|Coptic Orthodox]] 
+|Built by Saint Moses the Strong, who is called the Apostle of Peace. St. Moses was an Outlaw who repented and became a Monk in Sketes. As he progressed in age he became a father unto many, some of whom were criminals following his example. He was ordained a Priest and built a Chapel and a small monastic community around it. In 405 AD St. Moses heard news that the Monastery was going to be sacked, his disciples wanted to pick up arms and defend their home, however he urged them to either stand as Martyrs with him or escape to neighboring monastic communities. He and 7 others remained in the Church as it was sacked. Later some of his disciples returned and took his body, and the 7 others, with them to Paramous, where they lay today. The Monastery has remained desolate to this day. |}
+---

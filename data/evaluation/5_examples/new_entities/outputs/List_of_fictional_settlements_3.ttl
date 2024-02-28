@@ -1,0 +1,28 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Felpersham> rdfs:label "Felpersham"@en ;
+    wdt:P1441 wd:Q386813 ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Llareggub> rdfs:label "Llareggub"@en ;
+    wdt:P1441 wd:Q2497140 ;
+    wdt:P170 wd:Q191023 ;
+    wdt:P31 wd:Q1964689 ;
+    wdt:P6251 "It's been a quiet week in Llareggub, my home town, out on the edge of the sea."@en,
+        "Where all the women are strong, all the men are good-looking, and all the children are above-average."@en ;
+    wdt:P706 wd:Q25 .
+
+<https://example.org/resource/London_Below> rdfs:label "London Below"@en ;
+    wdt:P1441 wd:Q10552999 ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Meyruelle> rdfs:label "Meyruelle"@en ;
+    wdt:P1441 wd:Q386813 ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Wistful_Vista> rdfs:label "Wistful Vista"@en ;
+    wdt:P1441 wd:Q4355416 ;
+    wdt:P31 wd:Q1964689 .
+

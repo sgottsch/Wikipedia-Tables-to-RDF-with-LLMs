@@ -1,0 +1,19 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Bowl_cut> rdfs:label "bowl cut"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Undercut.jpg> ;
+    wdt:P279 wd:Q111082186 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Comma_hair> rdfs:label "comma hair"@en ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/French_Crop> rdfs:label "french crop"@en ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Slicked-back> rdfs:label "slicked-back"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Norman%20kerry.jpg> ;
+    wdt:P31 wd:Q327496 .
+

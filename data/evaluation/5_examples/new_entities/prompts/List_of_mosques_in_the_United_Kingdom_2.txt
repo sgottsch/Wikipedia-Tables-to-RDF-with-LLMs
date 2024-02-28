@@ -1,0 +1,147 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of mosques in the United Kingdom" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|- valign=top
+| [[Al-Rahma mosque]]
+| [[File:Al-Rahma Mosque, Liverpool (1).JPG|120px|center]]
+| [[Liverpool]]
+| 1974
+| [[Sunni Muslim]]
+| Third mosque in Great Britain
+|-
+|[[Baitul Lateef Mosque|Bait-ul-Lateef Mosque]]
+|[[File:Baitul-lateef-front.jpg|frameless|180x180px]]
+|[[Liverpool]]
+|
+|AMJ
+|Formerly a church
+|-
+|[[Darul Amaan Mosque, Manchester|Darul Amaan Mosque]]
+|[[File:ManchesterMosque.png|center|120px]]
+|[[Manchester]]
+|2012
+|AMJ
+|
+|- valign="top"
+|[[Didsbury Mosque]]
+|[[File:Didsbury mosque.jpg|120px|center]]
+|[[Manchester]]
+| 1962
+|SA
+| Originally opened in 1883 as Albert Park Methodist Chapel
+|- valign="top"
+|[[Jamea Masjid, Preston|Jamea Masjid]]
+|[[File:Front View of Jamea Masjid.gif|120px|center]]
+|[[Preston, Lancashire|Preston]]
+| 1984
+|D
+| Recognised as the Central Masjid of Preston and also known for its 'castle-like' [[Islamic Architecture|Islamic]] architectural design. |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Al-Rahma_mosque> wdt:P7959 wd:Q67311452 ;
+ rdfs:label "Al-Rahma Mosque"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Al-Rahma%20Mosque%2C%20Liverpool%202020.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Liverpool> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P571 "1974-07-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Bait-ul-Lateef_Mosque> rdfs:label "Baitul Lateef Mosque"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Richmond%20Baptist%20church%2C%20Everton%203.jpg> ;
+ wdt:P1435 <https://en.wikipedia.org/wiki/Grade_II_listed_building> ;
+ wdt:P31 wd:Q56242063 ;
+ wdt:P7959 wd:Q67311452 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P140 <https://en.wikipedia.org/wiki/Islam> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P131 wd:Q21665571 .
+
+<https://example.org/resource/Darul_Amaan_Mosque> wdt:P5775 <http://commons.wikimedia.org/wiki/Special:FilePath/Darul%20Amaan%20Mosque%20%E2%80%93%20Men%27s%20hall%2C%20Manchester.jpg> ;
+ wdt:P571 "2012-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1619 "2012-04-27T00:00:00Z"^^xsd:dateTime ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Hulme> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Hulme> ;
+ wdt:P7959 wd:Q67311452 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/ManchesterMosque.png> ;
+ wdt:P1083 "2000"^^xsd:decimal ;
+ rdfs:label "Darul Amaan Mosque"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Didsbury_Mosque> rdfs:label "Didsbury Mosque"@en ;
+ wdt:P856 <http://www.didsburymosque.com/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Didsbury%20mosque.jpg> ;
+ wdt:P7959 wd:Q67311452 ;
+ wdt:P571 "1883-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P131 wd:Q21525592 .
+
+<https://example.org/resource/Jamea_Masjid> wdt:P856 <http://www.jameamasjid.co.uk> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Front%20View%20of%20Jamea%20Masjid.gif> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/City_of_Preston,_Lancashire> ;
+ wdt:P7959 wd:Q67311452 ;
+ wdt:P1083 "900"^^xsd:decimal ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Islamic_architecture> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ rdfs:label "Jamea Masjid, Preston"@en ;
+ wdt:P571 "1984-01-01T00:00:00Z"^^xsd:dateTime .
+---
+These are the labels of the properties:
+
+wdt:P7959 -> historic county
+wdt:P18 -> image
+wdt:P131 -> located in the administrative territorial entity
+wdt:P31 -> instance of
+wdt:P571 -> inception
+wdt:P17 -> country
+wdt:P1435 -> heritage designation
+wdt:P140 -> religion or worldview
+wdt:P5775 -> image of interior
+wdt:P1619 -> date of official opening
+wdt:P276 -> location
+wdt:P1083 -> maximum capacity
+wdt:P856 -> official website URL
+wdt:P149 -> architectural style.
+---
+These are the labels of the objects:
+
+wd:Q67311452 -> Lancashire
+wd:Q56242063 -> protestant church building
+wd:Q21665571 -> Liverpool
+wd:Q21525592 -> Manchester.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|-
+|North Manchester Jamé Masjid<ref>{{Cite web|url=https://www.manchestermasjid.co.uk/|title=Mosque Manchester|website=North Manchester Jamé Masjid}}</ref>
+|
+|[[Manchester]]
+|
+|
+|It is one of the largest Muslim centres in [[Europe]]. The mosque is open to all men and women, and its main prayer halls currently hold between 2,500 and 3,000 people during a Friday service, with over 15,000 worshippers walking through the mosque's doors during the multiple services held on the religious festivals of [[Eid al-Fitr|Eid]]. |}
+---

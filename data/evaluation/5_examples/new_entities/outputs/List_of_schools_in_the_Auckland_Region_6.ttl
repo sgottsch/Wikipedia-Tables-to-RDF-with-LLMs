@@ -1,0 +1,65 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Henderson_Valley_School> rdfs:label "Henderson Valley School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P6375 "Henderson Valley"@en ;
+    wdt:P856 <http://www.hendersonvalley.school.nz> .
+
+<https://example.org/resource/Kaurilands_School> rdfs:label "Kaurilands School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P6375 "Kaurilands"@en ;
+    wdt:P856 <http://www.kaurilands.school.nz> .
+
+<https://example.org/resource/Konini_School> rdfs:label "Konini School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P6375 "Konini"@en ;
+    wdt:P856 <http://www.konini.school.nz> .
+
+<https://example.org/resource/Oratia_School> rdfs:label "Oratia School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P571 "1882-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "Oratia"@en ;
+    wdt:P856 <http://www.oratia.school.nz> .
+
+<https://example.org/resource/Prospect_School> rdfs:label "Prospect School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P6375 "Glen Eden West"@en ;
+    wdt:P856 <http://www.prospect.school.nz> .
+
+<https://example.org/resource/Swanson_School> rdfs:label "Swanson School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P6375 "Swanson"@en ;
+    wdt:P856 <http://www.swanson.school.nz> .
+
+<https://example.org/resource/Waitakere_School> rdfs:label "Waitakere School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q149566,
+        wd:Q3914 ;
+    wdt:P6375 "Waitākere, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.waitakereprimary.school.nz> .
+

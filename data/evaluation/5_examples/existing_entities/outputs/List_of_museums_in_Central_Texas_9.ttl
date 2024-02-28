@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> rdfs:label "Fort McKavett State Historic Site"@en ;
+    wdt:P131 wd:Q111821 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20McKavett%20State%20Historic%20Site.jpg> ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P571 "1852-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Presidio_de_San_Saba> rdfs:label "Presidio de San Saba"@en ;
+    wdt:P131 wd:Q111821 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Presidio%20de%20San%20Saba%20in%20Menard%20(10549348075).jpg> ;
+    wdt:P31 wd:Q33506 .
+

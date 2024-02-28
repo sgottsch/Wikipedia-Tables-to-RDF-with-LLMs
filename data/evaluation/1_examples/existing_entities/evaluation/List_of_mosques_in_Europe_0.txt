@@ -1,0 +1,724 @@
+In both
+<https://example.org/resource/Ibrahim_Pasha_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Ibrahim Pasha Mosque"@en .
+<https://example.org/resource/List_of_mosques_in_France> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Çelebi Sultan Mehmed Mosque"@en .
+<https://example.org/resource/Maryam_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Maryam Mosque"@en .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "King Abdelaziz Mosque"@en .
+<https://example.org/resource/Ljubljana_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Ljubljana_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q215> .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Fuengirola Mosque"@en .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Lisbon_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q45> .
+<https://example.org/resource/List_of_mosques_in_the_Netherlands> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q55> .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Tahtali-Jami Mosque"@en .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q233> .
+<https://example.org/resource/Mosque_of_Rome> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Reykjavík_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Geneva_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Geneva Mosque"@en .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Mufti-Jami Mosque"@en .
+<https://example.org/resource/Ibrahim_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q219> .
+<https://example.org/resource/List_of_mosques_in_Denmark> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q221> .
+<https://example.org/resource/List_of_mosques_in_Russia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/List_of_mosques_in_Russia> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Ahat Jami Mosque"@en .
+<https://example.org/resource/Bohoniki_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Bohoniki Mosque"@en .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q39> .
+<https://example.org/resource/Al-Andalus_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Mosque_of_Segrate> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/List_of_mosques_in_Cyprus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q158604> .
+<https://example.org/resource/Järvenpää_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Järvenpää Mosque"@en .
+<https://example.org/resource/List_of_mosques_in_Sweden> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1410> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1246> .
+<https://example.org/resource/Tombul_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Tombul Mosque"@en .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Madrid Central Mosque"@en .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Banya Bashi Mosque"@en .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Ismi Khan Jami Mosque"@en .
+<https://example.org/resource/List_of_mosques_in_Sweden> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/List_of_mosques_in_France> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q142> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q41> .
+<https://example.org/resource/Al-Andalus_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Al-Andalus Mosque"@en .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Ljubljana_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Ljubljana Mosque"@en .
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Almonaster_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q219> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Bohoniki_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q36> .
+<https://example.org/resource/Almonaster_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q533277> .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Molla-Mustafa Jami Mosque"@en .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Zagreb_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Zagreb Mosque"@en .
+<https://example.org/resource/Reykjavík_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Reykjavík Mosque"@en .
+<https://example.org/resource/Lisbon_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q846589> .
+<https://example.org/resource/Järvenpää_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q33> .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q158604> .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q219> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q218> .
+<https://example.org/resource/Mosque_of_Rome> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q38> .
+<https://example.org/resource/Zagreb_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q224> .
+<https://example.org/resource/Dublin_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Dublin Mosque"@en .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q71> .
+<https://example.org/resource/Mosque_of_Rome> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q220> .
+<https://example.org/resource/Reykjavík_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q189> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Ibrahim-al-Ibrahim Mosque"@en .
+<https://example.org/resource/List_of_mosques_in_the_Netherlands> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Mariam Al-Batool Mosque"@en .
+<https://example.org/resource/Mosque_of_Segrate> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q42902> .
+<https://example.org/resource/Maryam_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q218> .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q39> .
+<https://example.org/resource/Mosque_of_Segrate> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q38> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q218> .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Kharkiv Cathedral Mosque"@en .
+<https://example.org/resource/Almonaster_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1761> .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Kruszyniany Mosque"@en .
+<https://example.org/resource/List_of_mosques_in_France> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Hadum_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Hadum Mosque"@en .
+<https://example.org/resource/List_of_mosques_in_the_Netherlands> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mahmood_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Mahmood Mosque"@en .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q36> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q221> .
+In ground only
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q173500> .
+<https://example.org/resource/List_of_mosques_in_Sweden> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Scandinavia"@en .
+<https://example.org/resource/Zagreb_Mosque> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q106774722> .
+<https://example.org/resource/Bab_al-Mardum_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Mosque of Cristo de la Luz"@en .
+<https://example.org/resource/List_of_mosques_in_Armenia> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Armenia"@en .
+<https://example.org/resource/Telfs_mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q660015> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q31844059> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P1619> "1988-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q384> .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q181830> .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q75123750> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Old Bazaar"@en .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/2014.%20%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%20047.jpg> .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P571> "1905-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P2043> "178"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Tombul-Moschee-Ostfassade1.jpg> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q48356> .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Ibrahim_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P571> "1616-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Ibrahim_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1081138> .
+<https://example.org/resource/List_of_mosques_in_France> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q8248895> .
+<https://example.org/resource/List_of_mosques_in_the_Netherlands> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in the Netherlands"@en .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mosque%20of%20King%20Abdelaziz.JPG> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3656386> .
+<https://example.org/resource/Al-Morabito_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/El%20Morabito.jpg> .
+<https://example.org/resource/List_of_mosques_in_Azerbaijan> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q227> .
+<https://example.org/resource/List_of_mosques_in_Turkey> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q7144610> .
+<https://example.org/resource/List_of_mosques_in_Turkey> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Turkey"@en .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q96440023> .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q287> .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q106490036> .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P571> "1982-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/List_of_mosques_in_the_Nagorno-Karabakh> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Nagorno-Karabakh"@en .
+<https://example.org/resource/List_of_mosques_in_Germany> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Germany"@en .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q10780973> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q16155011> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q56242215> .
+<https://example.org/resource/Almonaster_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Almonaster%20la%20Real%20-%20002%20%2830081665854%29.jpg> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q158604> .
+<https://example.org/resource/Mosque_of_Segrate> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Moschea%20Segrate.JPG> .
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q27> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P706> <http://www.wikidata.org/entity/Q1101790> .
+<https://example.org/resource/List_of_mosques_in_Russia> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q6731956> .
+<https://example.org/resource/Dzhumaya_Mosque> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q924037> .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Skopje%20OldBazaar.jpg> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mezquita%20de%20las%20Torner%C3%ADas.%20Toledo.jpg> .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.wikidata.org/prop/direct/P3451> <http://commons.wikimedia.org/wiki/Special:FilePath/MEZQUITA%20DE%20FUENGIROLA%20-%20panoramio.jpg> .
+<https://example.org/resource/Al-Morabito_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Al-Morabito Mosque"@en .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q483654> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P3451> <http://commons.wikimedia.org/wiki/Special:FilePath/Mezquita%20C%C3%B3rdoba%20nocturna.jpg> .
+<https://example.org/resource/List_of_mosques_in_France> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in France"@en .
+<https://example.org/resource/List_of_mosques_in_Hungary> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q6164528> .
+<https://example.org/resource/List_of_mosques_in_Germany> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q484799> .
+<https://example.org/resource/Bohoniki_Mosque> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q75131093> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Ukr%20Kharkiv%20Mosque%20Mekhrab%202010%20SU-HS.jpg> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q29048715> .
+<https://example.org/resource/List_of_mosques_in_Armenia> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q3134295> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P571> "1674-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Sailors'_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q236> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q403> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/List_of_mosques_in_Azerbaijan> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/List_of_mosques_in_Azerbaijan> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q16553114> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q159> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P571> "1492-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q21438156> .
+<https://example.org/resource/List_of_mosques_in_Bosnia_and_Herzegovina> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q46261> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1454820> .
+<https://example.org/resource/Mosque_of_Rome> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q176938> .
+<https://example.org/resource/Telfs_mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Telfs Mosque"@en .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.wikidata.org/prop/direct/P571> "1994-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mezquita%20de%20Fuengirola.jpg> .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P2048> "18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Mosque_of_Segrate> <http://www.wikidata.org/prop/direct/P856> <http://www.centroislamico.it/> .
+<https://example.org/resource/Bohoniki_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q833571> .
+<https://example.org/resource/List_of_mosques_in_Russia> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Russia"@en .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q483654> .
+<https://example.org/resource/Zagreb_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://www.islamska-zajednica.hr/index.php> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Ibrahim_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q189650> .
+<https://example.org/resource/List_of_mosques_in_Cyprus> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P112> <http://www.wikidata.org/entity/Q168769> .
+<https://example.org/resource/Bab_al-Mardum_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q5836> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q168769> .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Bajrakli%20d%C5%BEamija19.JPG> .
+<https://example.org/resource/Telfs_mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q40> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.wikidata.org/prop/direct/P2046> "8300"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P571> "1566-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q165189> .
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Dublin%20Mosque.jpg> .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q105835744> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q91338534> .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ismi%20Han%20Cami.jpg> .
+<https://example.org/resource/Ibrahim_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Al-Morabito_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q5600> .
+<https://example.org/resource/Bab_al-Mardum_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q96440023> .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.w3.org/2000/01/rdf-schema#label> "Mosque-Cathedral of Cordoba"@en .
+<https://example.org/resource/Mosque_of_Rome> <http://www.wikidata.org/prop/direct/P571> "1995-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q45301843> .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q159> .
+<https://example.org/resource/Al-Morabito_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Zagreb_Mosque> <http://www.wikidata.org/prop/direct/P571> "1987-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q5600> .
+<https://example.org/resource/Lisbon_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q10780973> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2807> .
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P571> "1983-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P2049> "125"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/List_of_mosques_in_the_Nagorno-Karabakh> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q7841262> .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Tahtal%C4%B1%20Cami%20mosque.jpg> .
+<https://example.org/resource/Reykjavík_Mosque> <http://www.wikidata.org/prop/direct/P571> "1991-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Sailors'_Mosque> <http://www.wikidata.org/prop/direct/P1083> "300"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q467498> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P1619> "1999-09-03T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Dzhumaya_Mosque> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q104554887> .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q23668083> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3557808> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P1174> "751008"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/2011-10-30%20-%20panoramio%20%281%29.jpg> .
+<https://example.org/resource/Reykjavík_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q483654> .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q247492> .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.wikidata.org/prop/direct/P948> <http://commons.wikimedia.org/wiki/Special:FilePath/StaraCarsijaBanner.jpg> .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Gen%C3%A8ve%20Colladon%20Int%C3%A9rieur.jpg> .
+<https://example.org/resource/Reykjavík_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Moskan%20i%20reykjavik.JPG> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q239> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Abdulaziz%20Mosque%20Gibraltar.jpg> .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://mariamalbatool.com/> .
+<https://example.org/resource/List_of_mosques_in_Hungary> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q28> .
+<https://example.org/resource/Almonaster_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Mezquita de Almonaster"@en .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q97622911> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q467498> .
+<https://example.org/resource/List_of_mosques_in_Turkey> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q15981101> .
+<https://example.org/resource/Dzhumaya_Mosque> <http://www.wikidata.org/prop/direct/P571> "1363-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/List_of_mosques_in_Turkey> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P825> <http://www.wikidata.org/entity/Q162691> .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q97354725> .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q23757> .
+<https://example.org/resource/Sailors'_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q40089> .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3124714> .
+<https://example.org/resource/List_of_mosques_in_Norway> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P571> "1593-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P571> "1997-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Ljubljana_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/D%C5%BEamija%20Ljubljana%203.jpg> .
+<https://example.org/resource/List_of_mosques_in_the_Nagorno-Karabakh> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Bab_al-Mardum_Mosque> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q40089> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mangalia%20Mosque1020578.jpg> .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q42308> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P8596> <http://www.wikidata.org/entity/Q104583804> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Macedonia%20%285881756742%29.jpg> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q31> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q5836> .
+<https://example.org/resource/List_of_mosques_in_Bosnia_and_Herzegovina> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Bosnia and Herzegovina"@en .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P825> <http://www.wikidata.org/entity/Q168769> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/20100328%20Bayezid%20Mosque%20Mehmed%20I%20Didymoteicho%20Evros%20Greece%201.jpg> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20central%20mosque.jpg> .
+<https://example.org/resource/Al-Andalus_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q974484> .
+<https://example.org/resource/List_of_mosques_in_Norway> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Scandinavia"@en .
+<https://example.org/resource/Bohoniki_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q15981101> .
+<https://example.org/resource/Mosque_of_Rome> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Moschea%20-%20sala%20principale%2000531.JPG> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P973> <https://donetsk.wiki/places/ahat-dami-349/> .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q10780973> .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/681px-Banya.JPG> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q159> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.w3.org/2000/01/rdf-schema#label> "Orta Cami"@en .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Malta%20-%20Paola%20-%20Triq%20Kordin%20-%20Mosque%2001%20ies.jpg> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P571> "1897-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://es.ucide.org/> .
+<https://example.org/resource/List_of_mosques_in_Bosnia_and_Herzegovina> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q474651> .
+<https://example.org/resource/Telfs_mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Telfs-Moschee.jpg> .
+<https://example.org/resource/Järvenpää_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q18325129> .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1088552> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P88> <http://www.wikidata.org/entity/Q15388533> .
+<https://example.org/resource/List_of_mosques_in_Denmark> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q105835744> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q31> .
+<https://example.org/resource/Al-Andalus_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q45301843> .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Ibrahim_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q3323469> .
+<https://example.org/resource/List_of_mosques_in_Azerbaijan> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q9028201> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Mezquita de las Tornerías"@en .
+<https://example.org/resource/Zagreb_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Zagreb%20-%20Islamski%20centar%20-%20d%C5%BEamija.jpg> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q18418087> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P669> <http://www.wikidata.org/entity/Q76295214> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q9259> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q384177> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.wikidata.org/prop/direct/P856> <https://www.izwien.at/> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Mosque_of_Rome> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Grande%20Mosqu%C3%A9e%20de%20Rome%2002.JPG> .
+<https://example.org/resource/Mosque_of_Rome> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q595448> .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Moscheea%20Carol%20I%2C%20Constanta.JPG> .
+<https://example.org/resource/List_of_mosques_in_Armenia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/List_of_mosques_in_the_Nagorno-Karabakh> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q18325129> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q3057196> .
+<https://example.org/resource/Telfs_mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mosque_of_Segrate> <http://www.w3.org/2000/01/rdf-schema#label> "Moschea di Segrate"@en .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Lisbon_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q40089> .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Marbella%20Mosque%20July%202017-13.jpg> .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q96440023> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/List_of_mosques_in_Turkey> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q43> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q597526> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q16542654> .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.wikidata.org/prop/direct/P571> "1668-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q8192112> .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://www.mosque.ch/> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q25815773> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q60685355> .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q158604> .
+<https://example.org/resource/Bab_al-Mardum_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q96382432> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P1619> "1997-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q3323436> .
+<https://example.org/resource/Telfs_mosque> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q334813> .
+<https://example.org/resource/Järvenpää_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A4rvenp%C3%A4%C3%A4n%20islamilainen%20rukoushuone%20-%20Keskitalontie%203%20-%20Kinnari%20-%20J%C3%A4rvenp%C3%A4%C3%A4.jpg> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86116828> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q18418093> .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mahmud%20Moschee1.jpg> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q744373> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q23668083> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q916620> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q916620> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q12720948> .
+<https://example.org/resource/Zagreb_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P88> <http://www.wikidata.org/entity/Q168769> .
+<https://example.org/resource/Mosque_of_Rome> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q40089> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q158491> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1081138> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16970> .
+<https://example.org/resource/Zagreb_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q104586690> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Bakhchysarai%2004-14%20img06%20Orta%20Juma%20Jami%20Mosque.jpg> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P571> "1637-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q43070> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q385378> .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P2130> "900000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Al-Andalus_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/List_of_mosques_in_Azerbaijan> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Shakh%20Abbas%20Mosque.jpg> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P856> <https://mezquita-catedraldecordoba.es/> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Hadum%20Mosque-%20from%20inside.JPG> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1454820> .
+<https://example.org/resource/List_of_mosques_in_Hungary> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Hungary"@en .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q483654> .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q159> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P571> "1913-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q12289746> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mezquita%20de%20C%C3%B3rdoba%20desde%20el%20aire%20%28C%C3%B3rdoba%2C%20Espa%C3%B1a%29.jpg> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q106490036> .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P1083> "500"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3711> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Mustafa Paşa Mosque"@en .
+<https://example.org/resource/Bab_al-Mardum_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q56750657> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.w3.org/2000/01/rdf-schema#label> "Vienna Islamic Centre"@en .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Bajrakli%20d%C5%BEamija%20u%20Beogradu%200014.JPG> .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1081138> .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Bakhchysarai%2004-14%20img05%20Mustafa%20Jami%20Mosque.jpg> .
+<https://example.org/resource/Almonaster_Mosque> <http://www.wikidata.org/prop/direct/P708> <http://www.wikidata.org/entity/Q869535> .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P571> "1963-06-22T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Bohoniki_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.wikidata.org/prop/direct/P112> <http://www.wikidata.org/entity/Q36> .
+<https://example.org/resource/Sailors'_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q907116> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P571> "1999-09-03T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.wikidata.org/prop/direct/P1619> "1979-11-20T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q159> .
+<https://example.org/resource/List_of_mosques_in_Armenia> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q399> .
+<https://example.org/resource/Dzhumaya_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q219> .
+<https://example.org/resource/List_of_mosques_in_Hungary> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1741> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P88> <http://www.wikidata.org/entity/Q57146> .
+<https://example.org/resource/List_of_mosques_in_Norway> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q23757> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P571> "0786-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q384> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q811979> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Bruxelles%20%28Cinquantenaire%29%20la%20grande%20Mosqu%C3%A9e.JPG> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P417> <http://www.wikidata.org/entity/Q345> .
+<https://example.org/resource/Bab_al-Mardum_Mosque> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q1262699> .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q403> .
+<https://example.org/resource/List_of_mosques_in_Germany> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q9028242> .
+<https://example.org/resource/Dzhumaya_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q459> .
+<https://example.org/resource/Ibrahim_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Maktul%20ibrahim%20Pasa%20Camii%20%28Razgrad%29.jpg> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.w3.org/2000/01/rdf-schema#label> "Great Mosque of Brussels"@en .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P1083> "700"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q15388533> .
+<https://example.org/resource/Dzhumaya_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q5824684> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C%20%D0%9C%D1%83%D1%84%D1%82%D0%B8%D0%B9%20%D0%94%D0%B6%D0%B0%D0%BC%D0%B8%2C%20%D0%B3.%20%D0%A4%D0%B5%D0%BE%D0%B4%D0%BE%D1%81%D0%B8%D1%8F%2C%201897.jpg> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Mangalia Mosque"@en .
+<https://example.org/resource/Sailors'_Mosque> <http://www.wikidata.org/prop/direct/P576> "1931-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q472> .
+<https://example.org/resource/Dzhumaya_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Dzhumaya Mosque"@en .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q570116> .
+<https://example.org/resource/Almonaster_Mosque> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q102039655> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q811165> .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Mosque_of_Segrate> <http://www.wikidata.org/prop/direct/P571> "1988-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q932648> .
+<https://example.org/resource/Bab_al-Mardum_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mezquita%20de%20Bab%20al-Mardum%20%28Toledo%29.jpg> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q247492> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.wikidata.org/prop/direct/P2048> "32"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mosqu%C3%A9eGen%C3%A8ve.jpg> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P3451> <http://commons.wikimedia.org/wiki/Special:FilePath/Ibrahim-al-Ibrahim%20Mosque%20at%20night.jpg> .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q492735> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P571> "1988-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://www.ahmadiyya.ch> .
+<https://example.org/resource/Sailors'_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Seaman's Mosque"@en .
+<https://example.org/resource/Bajrakli_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Bajrakli Mosque"@en .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P571> "1707-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q4095626> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P854> <http://imuslim.net/?item=31#.WWCOW9OLRTY> .
+<https://example.org/resource/List_of_mosques_in_Germany> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Bab_al-Mardum_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mufti%20Dzhami%20Theodosia%20Mosque.jpg> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q40> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q837715> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.w3.org/2000/01/rdf-schema#label> "Carol I Mosque"@en .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1081138> .
+<https://example.org/resource/Bohoniki_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q21438156> .
+<https://example.org/resource/Sailors'_Mosque> <http://www.wikidata.org/prop/direct/P571> "1798-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://www.islaminireland.com> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q17255635> .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q18418091> .
+<https://example.org/resource/List_of_mosques_in_Bosnia_and_Herzegovina> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q9028225> .
+<https://example.org/resource/Lisbon_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mesquita%20Central%20de%20Lisboa%20Joao%20Paulo%20Concei%C3%A7ao%202.jpg> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kompleksi%20Xhamija%20e%20Hadumit%2003.jpg> .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.wikidata.org/prop/direct/P571> "1979-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Dzhumaya_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://dcmu.com.ua> .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q181830> .
+<https://example.org/resource/List_of_mosques_in_Cyprus> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q7481501> .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q10160385> .
+<https://example.org/resource/Lisbon_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q597> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q16542731> .
+<https://example.org/resource/Sailors'_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q483654> .
+<https://example.org/resource/Maryam_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Meczet%20w%20Kruszynianach%20front%20side.jpg> .
+<https://example.org/resource/Al-Andalus_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Minaret%20M%C3%A1laga.jpg> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q966571> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P571> "1575-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q6906963> .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P571> "1978-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Vienna_Islamic_Centre> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Bruckhaufen%20%28Wien%29%20-%20Moschee%2C%20Hauptportal.JPG> .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3658289> .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q16542760> .
+<https://example.org/resource/List_of_mosques_in_Cyprus> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Cyprus"@en .
+<https://example.org/resource/Mosque–Cathedral_of_Córdoba> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Mezquita-Catedral%20de%20C%C3%B3rdoba%20-%20Blending%20of%20Christian%20and%20Moorish%20architecture.jpg> .
+<https://example.org/resource/Great_Mosque_of_Brussels> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q2144402> .
+<https://example.org/resource/Bab_al-Mardum_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q2864629> .
+<https://example.org/resource/List_of_mosques_in_Hungary> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q10780973> .
+<https://example.org/resource/Lisbon_Mosque> <http://www.wikidata.org/prop/direct/P571> "1985-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/List_of_mosques_in_the_Netherlands> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q8642228> .
+<https://example.org/resource/Almonaster_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/List_of_mosques_in_Denmark> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Scandinavia"@en .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P571> "1744-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q57146> .
+<https://example.org/resource/Mosque_of_Rome> <http://www.w3.org/2000/01/rdf-schema#label> "Moschea di Roma"@en .
+<https://example.org/resource/Lisbon_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Central Mosque of Lisbon"@en .
+<https://example.org/resource/List_of_mosques_in_Azerbaijan> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Azerbaijan"@en .
+<https://example.org/resource/Sailors'_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q189969> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1454820> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P973> <http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=5901> .
+<https://example.org/resource/Dzhumaya_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Dzhumayata.jpg> .
+<https://example.org/resource/Dzhumaya_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1081138> .
+<https://example.org/resource/Sailors'_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Sailors%E2%80%99%20Mosque%20%282012%29.jpg> .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q151509> .
+<https://example.org/resource/Bohoniki_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Meczet%20w%20Bohonikach%2002.jpg> .
+In predicted only
+<https://example.org/resource/Al-Salam_Mosque_Odessa> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Sailors_Mosque> <http://www.wikidata.org/prop/direct/P131> "Ulcinj" .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P131> "Bakhchysarai" .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P195> <https://example.org/resource/Mahmood_Mosque> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Kokkoz_Jami_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Kokkoz Jami Mosque"@en .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P571> "1707"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P571> "Middle of the 11th century" .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q1297> .
+<https://example.org/resource/Sultan_Suleiman_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Sultan Suleiman Mosque"@en .
+<https://example.org/resource/Järvenpää_Mosque> <http://www.wikidata.org/prop/direct/P571> "1942"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Bajrakli_Mosque_Belgrade> <http://www.w3.org/2000/01/rdf-schema#label> "Bajrakli Mosque"@en .
+<https://example.org/resource/Kyiv_Islamic_Cultural_Center> <http://www.wikidata.org/prop/direct/P571> "2001"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P571> "1993"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/List_of_mosques_in_France> <http://www.w3.org/2000/01/rdf-schema#label> "list of Mosques in France"@en .
+<https://example.org/resource/Bajrakli_Mosque_Belgrade> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Sailors_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Ar-Rahma_Mosque_Kyiv> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Luhansk_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Kebir-Jami_Mosque_Simferopol> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q19566> .
+<https://example.org/resource/Kyiv_Islamic_Cultural_Center> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Bajrakli_Mosque_Belgrade> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q403> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P571> "1988"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.wikidata.org/prop/direct/P131> "Kruszyniany" .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P571> "1492"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Almonaster_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Almonaster Mosque"@en .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P402> "UCIDE" .
+<https://example.org/resource/List_of_mosques_in_the_Netherlands> <http://www.w3.org/2000/01/rdf-schema#label> "List of mosques in the Netherlands"@en .
+<https://example.org/resource/Kebir-Jami_Mosque_Simferopol> <http://www.w3.org/2000/01/rdf-schema#label> "Kebir-Jami Mosque"@en .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P195> <https://example.org/resource/Geneva_Mosque> .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.wikidata.org/prop/direct/P170> <http://www.wikidata.org/entity/Q9747> .
+<https://example.org/resource/Mosque_Cathedral_of_Cordoba> <http://www.wikidata.org/prop/direct/P571> "784"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P131> "Bakhchysarai" .
+<https://example.org/resource/List_of_mosques_in_Denmark> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q35> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.wikidata.org/prop/direct/P571> "18/19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P571> "1637"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P463> "U" .
+<https://example.org/resource/List_of_mosques_in_Sweden> <http://www.w3.org/2000/01/rdf-schema#label> "list of Mosques in Sweden"@en .
+<https://example.org/resource/Mosque_of_Rome> <http://www.w3.org/2000/01/rdf-schema#label> "Mosque of Rome"@en .
+<https://example.org/resource/Mosque_Cathedral_of_Cordoba> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Sailors_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Luhansk_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q134279> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P131> "Madrid" .
+<https://example.org/resource/Al-Andalus_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Kokkoz_Jami_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1107226> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P580> "August 8, 1997"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Banya_Bashi_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Mosque_Cathedral_of_Cordoba> <http://www.w3.org/2000/01/rdf-schema#label> "Mosque–Cathedral of Córdoba"@en .
+<https://example.org/resource/Bajrakli_Mosque_Belgrade> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3711> .
+<https://example.org/resource/Kokkoz_Jami_Mosque> <http://www.wikidata.org/prop/direct/P571> "1910"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Ar-Rahma_Mosque_Kyiv> <http://www.wikidata.org/prop/direct/P1647> "SDMU" .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q932648> .
+<https://example.org/resource/Al_Morabito_Mosque> <http://www.wikidata.org/prop/direct/P1448> "Constructed by the Nationalists for the Regulares at the Spanish Civil War" .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.wikidata.org/prop/direct/P170> <http://www.wikidata.org/entity/Q9747> .
+<https://example.org/resource/Mosque_Cathedral_of_Cordoba> <http://www.wikidata.org/prop/direct/P793> "U" .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Kokkoz_Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Al-Salam_Mosque_Odessa> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Bohoniki_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Kokkoz_Jami_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P1448> "Inaugurated by Khalid ibn Abd al-Aziz."@en .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.w3.org/2000/01/rdf-schema#label> "Grand Mosque of Constanța"@en .
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q55488> .
+<https://example.org/resource/Mosque_of_Segrate> <http://www.w3.org/2000/01/rdf-schema#label> "Mosque of Segrate"@en .
+<https://example.org/resource/Kyiv_Islamic_Cultural_Center> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1899> .
+<https://example.org/resource/Järvenpää_Mosque> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Al-Salam_Mosque_Odessa> <http://www.wikidata.org/prop/direct/P571> "2000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P131> "Feodosiya" .
+<https://example.org/resource/Lisbon_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Lisbon Mosque"@en .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P571> "1978"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Sultan_Suleiman_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q37133> .
+<https://example.org/resource/Almonaster_Mosque> <http://www.wikidata.org/prop/direct/P571> "9-10th century" .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.wikidata.org/prop/direct/P571> "1981"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Mufti-Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P571> "1976"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Kebir-Jami_Mosque_Simferopol> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Sailors_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q236> .
+<https://example.org/resource/Maryam_Mosque> <http://www.wikidata.org/prop/direct/P571> "2014"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Al_Morabito_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Al-Morabito Mosque"@en .
+<https://example.org/resource/Kebir-Jami_Mosque_Simferopol> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q55488> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Mosque_of_Rome> <http://www.wikidata.org/prop/direct/P571> "1995"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mosque_of_Cristo_de_la_Luz> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Sailors_Mosque> <http://www.wikidata.org/prop/direct/P571> "1798"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Ar-Rahma_Mosque_Kyiv> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.wikidata.org/prop/direct/P402> "SA" .
+<https://example.org/resource/Mosque_of_Cristo_de_la_Luz> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Sailors_Mosque> <http://www.wikidata.org/prop/direct/P463> "U" .
+<https://example.org/resource/Mosque_Cathedral_of_Cordoba> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.wikidata.org/prop/direct/P571> "1994"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Zagreb_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q1297> .
+<https://example.org/resource/List_of_mosques_in_Russia> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q159> .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Al_Morabito_Mosque> <http://www.wikidata.org/prop/direct/P793> "U" .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P580> "1963-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P1448> "First mosque in Switzerland."@en .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q55488> .
+<https://example.org/resource/Mosque_of_Cristo_de_la_Luz> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Maryam_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> <http://www.wikidata.org/prop/direct/P571> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Ibrahim_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Ar-Rahma_Mosque_Kyiv> <http://www.wikidata.org/prop/direct/P571> "2000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Al-Salam_Mosque_Odessa> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1874> .
+<https://example.org/resource/List_of_mosques_in_Russia> <http://www.w3.org/2000/01/rdf-schema#label> "list of Mosques in Russia"@en .
+<https://example.org/resource/Bajrakli_Mosque_Belgrade> <http://www.wikidata.org/prop/direct/P793> "U" .
+<https://example.org/resource/List_of_mosques_in_Cyprus> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q1297> .
+<https://example.org/resource/Dublin_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q22890> .
+<https://example.org/resource/List_of_mosques_in_Cyprus> <http://www.w3.org/2000/01/rdf-schema#label> "List of mosques in Cyprus"@en .
+<https://example.org/resource/Al_Morabito_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P571> "1575"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.wikidata.org/prop/direct/P131> "Mangalia" .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P170> <http://www.wikidata.org/entity/Q295185> .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.wikidata.org/prop/direct/P131> "Marbella" .
+<https://example.org/resource/Sailors_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Sailors' Mosque"@en .
+<https://example.org/resource/Sultan_Suleiman_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P571> "1912"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Mosque_of_Cristo_de_la_Luz> <http://www.wikidata.org/prop/direct/P131> "Toledo, Spain" .
+<https://example.org/resource/Kyiv_Islamic_Cultural_Center> <http://www.w3.org/2000/01/rdf-schema#label> "Kyiv Islamic Cultural Center"@en .
+<https://example.org/resource/Reykjavík_Mosque> <http://www.wikidata.org/prop/direct/P571> "2002"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P580> "1978-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P170> <http://www.wikidata.org/entity/Q9747> .
+<https://example.org/resource/List_of_mosques_in_Cyprus> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q229> .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Işak Bey Mosque"@en .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.wikidata.org/prop/direct/P131> "Skopje" .
+<https://example.org/resource/Bajrakli_Mosque_Belgrade> <http://www.wikidata.org/prop/direct/P571> "1575"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q55488> .
+<https://example.org/resource/Kruszyniany_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Hadum_Mosque> <http://www.wikidata.org/prop/direct/P571> "1594"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P131> "Donetsk" .
+<https://example.org/resource/Luhansk_Cathedral_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Luhansk Cathedral Mosque"@en .
+<https://example.org/resource/Ar-Rahma_Mosque_Kyiv> <http://www.wikidata.org/prop/direct/P131> "Kyiv" .
+<https://example.org/resource/Al-Andalus_Mosque> <http://www.wikidata.org/prop/direct/P131> "Málaga" .
+<https://example.org/resource/Al_Morabito_Mosque> <http://www.wikidata.org/prop/direct/P571> "1936"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Ar-Rahma_Mosque_Kyiv> <http://www.w3.org/2000/01/rdf-schema#label> "Ar-Rahma Mosque, Kyiv"@en .
+<https://example.org/resource/Bajrakli_Mosque_Belgrade> <http://www.wikidata.org/prop/direct/P1448> "Built around 1575" .
+<https://example.org/resource/Maryam_Mosque> <http://www.wikidata.org/prop/direct/P131> "Bâra|Rediu" .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Mosque_of_Cristo_de_la_Luz> <http://www.wikidata.org/prop/direct/P402> "U" .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P402> "U" .
+<https://example.org/resource/List_of_mosques_in_Sweden> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q34> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.wikidata.org/prop/direct/P131> "Toledo, Spain" .
+<https://example.org/resource/Ar-Rahma_Mosque_Kyiv> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Ljubljana_Mosque> <http://www.wikidata.org/prop/direct/P571> "2020"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/List_of_mosques_in_Denmark> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q1297> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Mustapha Pasha Mosque"@en .
+<https://example.org/resource/Al-Andalus_Mosque> <http://www.wikidata.org/prop/direct/P402> "SA" .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Ljubljana_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q437> .
+<https://example.org/resource/List_of_mosques_in_Denmark> <http://www.w3.org/2000/01/rdf-schema#label> "List of mosques in Denmark"@en .
+<https://example.org/resource/Geneva_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q55488> .
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> <http://www.wikidata.org/prop/direct/P571> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Zagreb_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Bohoniki_Mosque> <http://www.wikidata.org/prop/direct/P571> "19/20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P131> "Kharkiv" .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.wikidata.org/prop/direct/P402> "SA" .
+<https://example.org/resource/Bohoniki_Mosque> <http://www.wikidata.org/prop/direct/P131> "Bohoniki" .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P571> "1963"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Mosque_of_Cristo_de_la_Luz> <http://www.wikidata.org/prop/direct/P571> "999"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Sultan_Suleiman_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Mustapha_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P131> "Skopje" .
+<https://example.org/resource/Al-Salam_Mosque_Odessa> <http://www.w3.org/2000/01/rdf-schema#label> "Al-Salam Mosque"@en .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P571> "1674"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Luhansk_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P571> "2010"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P571> "1997"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Esmahan_Sultan_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Esmahan Sultan Mosque"@en .
+<https://example.org/resource/Luhansk_Cathedral_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Tornerías_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Tornerías Mosque"@en .
+<https://example.org/resource/Lisbon_Mosque> <http://www.wikidata.org/prop/direct/P131> "Lisbon" .
+<https://example.org/resource/Mosque_of_Segrate> <http://www.wikidata.org/prop/direct/P571> "1988"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Ahat_Jami_Mosque> <http://www.wikidata.org/prop/direct/P571> "1993"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Madrid_Central_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Al-Andalus_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Mahmood_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q55488> .
+<https://example.org/resource/Al-Andalus_Mosque> <http://www.wikidata.org/prop/direct/P571> "2009"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/King_Abdelaziz_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Al_Morabito_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Kyiv_Islamic_Cultural_Center> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/Kebir-Jami_Mosque_Simferopol> <http://www.wikidata.org/prop/direct/P571> "1508"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1410> .
+<https://example.org/resource/Grand_Mosque_of_Constanța> <http://www.wikidata.org/prop/direct/P131> "Constanţa" .
+<https://example.org/resource/Tombul_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q1297> .
+<https://example.org/resource/Lisbon_Mosque> <http://www.wikidata.org/prop/direct/P571> "1988"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Orta_Juma_Jami> <http://www.w3.org/2000/01/rdf-schema#label> "Orta Juma Jami"@en .
+<https://example.org/resource/Sailors_Mosque> <http://www.wikidata.org/prop/direct/P1448> "Destroyed in 1931, rebuilt between 2008 and 2012" .
+<https://example.org/resource/Tahtali-Jami_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Sultan_Suleiman_Mosque> <http://www.wikidata.org/prop/direct/P571> "2007"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Işak_Bey_Mosque> <http://www.wikidata.org/prop/direct/P463> "U" .
+<https://example.org/resource/Mosque_Cathedral_of_Cordoba> <http://www.wikidata.org/prop/direct/P1448> "“Great Mosque of Cordoba”, now a Catholic cathedral" .
+<https://example.org/resource/Järvenpää_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q55488> .
+<https://example.org/resource/Ibrahim_Pasha_Mosque> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q1297> .
+<https://example.org/resource/Mariam_Al-Batool_Mosque> <http://www.wikidata.org/prop/direct/P571> "1978"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Mosque_of_Cristo_de_la_Luz> <http://www.w3.org/2000/01/rdf-schema#label> "Mosque of Cristo de la Luz"@en .
+<https://example.org/resource/Fuengirola_Mosque> <http://www.wikidata.org/prop/direct/P131> "Fuengirola" .

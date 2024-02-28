@@ -1,0 +1,244 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of mosques in Africa" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+!Name
+!class=unsortable|Images
+!Country
+!City
+![[Gregorian calendar|Year]]
+!class=unsortable|Remarks
+|- valign=top id="Ethiopia"
+| [[Al Nejashi Mosque]]
+| [[File:Negash 8.jpg|120px]]
+| {{flag|Ethiopia}}
+| [[Negash]]
+| 7th century
+|  Founded in the 7th century in [[Negash]], by tradition the burial site of several followers of the [[Prophets and messengers in Islam|Islamic Prophet]] [[Muhammad]] who, during his lifetime, fled to the [[Aksumite Kingdom]] to escape persecution in Mecca.<ref>{{Cite web|url=https://www.omanobserver.om/article/28253/Features/the-untold-story-of-king-negash-and-the-al-nejashi-mosque|title=The untold story of King Negash and the al Nejashi Mosque|date=18 July 2019}}</ref> It was recently renovated by TIKA, a Turkish cooperation organization.<ref name="madainnegash">{{cite web |title=Negash Āmedīn Mesgīd |url=https://madainproject.com/negash_amedin_mesgid |website=Madain Project |access-date=30 May 2019}}</ref>
+|-
+|[[Djamaa el Djazaïr]]
+|[[File:Grande Mosquée d'Alger.jpg|thumb|167x167px|left]]
+|{{flag|Algeria}}
+|[[Algiers]]
+|2019
+|Djamaa el Djazaïr, also known as the Great Mosque of Algiers, is the second largest mosque in Africa and one of the largest in the world, and houses the world's largest minaret.<ref>{{Cite web |date=2019-04-16 |title=Bouteflika's mosque seen as monument to megalomania in Algeria |url=https://www.arabnews.com/node/1483151/offbeat |access-date=2022-12-31 |website=Arab News |language=en}}</ref><ref>{{Cite web |agency=Agence France-Presse |date=2016-05-06 |title=Algeria builds giant mosque with world's tallest minaret |url=http://www.theguardian.com/world/2016/may/06/algeria-builds-giant-mosque-with-worlds-tallest-minaret |access-date=2022-12-31 |website=the Guardian |language=en}}</ref>
+|- valign=top id="Djibouti"
+| [[Hamoudi Mosque]]
+| [[File:Djibouti mosque.JPG|120px]]
+| {{flag|Djibouti}}
+| [[Djibouti city|City of Djibouti]]
+| 1906
+|
+|- valign=top id="Eritrea"
+| [[Great Mosque of Asmara]]
+| [[File:Great Mosque (8351473351).jpg|120px]]
+| {{flag|Eritrea}}
+| [[Asmara]]
+| 1938
+| The minaret resembles a fluted Roman column.
+|- valign=top id="Eritrea"
+| [[Mosque of the Companions|Masjid as-Sahabah]]
+| [[File:Sahaba Shrine, Massawa, Eritrea.jpg|120px]]
+| {{flag|Eritrea}}
+| [[Massawa]]
+| 613<ref name="Reid2012Massawa"/>
+|Believed by some to be the first mosque on the [[Africa]]n continent and the first mosque in the world built by the companions of [[Muhammad in Islam|Muhammad]] in the 7th century.<ref name="Reid2012Massawa">{{cite book |last=Reid |first=Richard J. |title=A History of Modern Africa: 1800 to the Present |publisher=[[John Wiley and Sons]] |chapter=The Islamic Frontier in Eastern Africa |page=106 |isbn=978-0470658987 |chapter-url=https://books.google.com/books?id=US6RQtYwasUC |date=12 January 2012 |access-date=15 March 2015}}</ref>
+|- valign=top id="Egypt"
+| [[Sadat Quraish Mosque]]
+| [[File:Mosque Sadat Quraish City Belbes.jpg|120px|left]]
+| {{flag|Egypt}}
+| [[Bilbeis]] 
+| 640
+| Claimed by some to be the first mosque in Egypt and in Africa.<ref name=":0">{{cite news |date=7 June 2017 |title=سادات قريش .. أول مسجد في مصر وأفريقيا |trans-title="Sadat Quraish"... the first mosque in Egypt and Africa |url=https://www.alittihad.ae/article/33408/2017/%C2%AB%D8%B3%D8%A7%D8%AF%D8%A7%D8%AA-%D9%82%D8%B1%D9%8A%D8%B4%C2%BB-%D8%A3%D9%88%D9%84-%D9%85%D8%B3%D8%AC%D8%AF-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%88%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7 |url-status=dead |archive-url=https://web.archive.org/web/20210621190050/https://www.alittihad.ae/article/33408/2017/%C2%AB%D8%B3%D8%A7%D8%AF%D8%A7%D8%AA-%D9%82%D8%B1%D9%8A%D8%B4%C2%BB-%D8%A3%D9%88%D9%84-%D9%85%D8%B3%D8%AC%D8%AF-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%88%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7 |archive-date=21 June 2021 |work=Aledtihad |agency=صحيفة الاتحاد}}</ref>
+|-
+|[[Ghana National Mosque]]
+| 
+|{{flag|Ghana}}
+|Accra
+|2021
+|The second largest mosque in West Africa
+|- valign=top id="Ghana"
+| [[Madina Mosque (Accra)|Medina Mosque]]
+|
+| {{flag|Ghana}}
+| [[Accra]]
+| 1959
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Al_Nejashi_Mosque> wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ rdfs:label "Al Nejashi Mosque"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Ethiopia> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Negash%2C%20la%20moschea%20sul%20sito%20della%20pi%C3%B9%20antica%20moschea%20d%27etiopia%2C%20del%20vii%20secolo%2003.jpg> .
+
+<https://example.org/resource/Djamaa_el_Djazaïr> wdt:P2048 "270"^^xsd:decimal ;
+ wdt:P2048 "265"^^xsd:decimal ;
+ wdt:P1101 "4"^^xsd:decimal ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Algeria> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Grande%20Mosqu%C3%A9e%20d%27Alger.jpg> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/China_State_Construction_Engineering> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Islamic_architecture> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P793 wd:Q385378 ;
+ rdfs:label "Djamaa El Djazaïr"@en ;
+ wdt:P140 <https://en.wikipedia.org/wiki/Islam> ;
+ wdt:P571 "2019-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Mohammedia,_Algiers> .
+
+<https://example.org/resource/Hamoudi_Mosque> wdt:P17 <https://en.wikipedia.org/wiki/Djibouti> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Djibouti_City> ;
+ wdt:P571 "1906-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Hamoudi Mosque"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Djibouti%20mosque.JPG> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> .
+
+<https://example.org/resource/Great_Mosque_of_Asmara> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Great%20Mosque%20%288351473351%29.jpg> ;
+ wdt:P571 "1938-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P84 wd:Q55227524 ;
+ wdt:P140 wd:Q3675649 ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Rationalism_(architecture)> ;
+ wdt:P5008 wd:Q109929866 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Eritrea> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P361 <https://en.wikipedia.org/wiki/Asmara> ;
+ wdt:P1435 wd:Q43113623 ;
+ rdfs:label "Great Mosque of Asmara"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Asmara> .
+
+<https://example.org/resource/Masjid_as-Sahabah> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sahaba%20Shrine%2C%20Massawa%2C%20Eritrea.jpg> ;
+ wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q9610%20%28ben%29-Yahya-%E0%A6%AE%E0%A6%B8%E0%A6%9C%E0%A6%BF%E0%A6%A6%20%E0%A6%86%E0%A6%B8-%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%AC%E0%A6%BE.wav> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Eritrea> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Massawa> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ rdfs:label "Mosque of the Companions, Massawa"@en .
+
+<https://example.org/resource/Sadat_Quraish_Mosque> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mosque%20Sadat%20Quraish%20City%20Belbes.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Egypt> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Bilbeis> ;
+ rdfs:label "Sadat Quraish Mosque"@en .
+
+<https://example.org/resource/Ghana_National_Mosque> wdt:P8001 <https://en.wikipedia.org/wiki/Turkey> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Dwelling> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Greater_Accra_Region> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Library> ;
+ wdt:P5775 <http://commons.wikimedia.org/wiki/Special:FilePath/Ghana%20National%20Mosque%204.jpg> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Parking_lot> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Pharmacy> ;
+ wdt:P571 "2012-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P186 <https://en.wikipedia.org/wiki/Marble> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Dome> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Accra> ;
+ wdt:P186 <https://en.wikipedia.org/wiki/Paint> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Ottoman_architecture> ;
+ rdfs:label "Ghana National Mosque"@en ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/National%20Mosque%20of%20Ghana1.jpg> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Morgue> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Clinic> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Minaret> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Carpet> ;
+ wdt:P729 "2021-07-16T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Calligraphy> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Office> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Ghana> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Laboratory> ;
+ wdt:P88 <https://en.wikipedia.org/wiki/Nana_Akufo-Addo> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Mihrab> ;
+ wdt:P186 <https://en.wikipedia.org/wiki/Glass> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Road> ;
+ wdt:P912 <https://en.wikipedia.org/wiki/Dormitory> .
+
+<https://example.org/resource/Medina_Mosque> rdfs:label "Madina Mosque"@en ;
+ wdt:P571 "1959-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Ghana> .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P17 -> country
+wdt:P18 -> image
+wdt:P2048 -> height
+wdt:P1101 -> floors above ground
+wdt:P84 -> architect
+wdt:P149 -> architectural style
+wdt:P793 -> significant event
+wdt:P140 -> religion or worldview
+wdt:P571 -> inception
+wdt:P131 -> located in the administrative territorial entity
+wdt:P5008 -> on focus list of Wikimedia project
+wdt:P361 -> part of
+wdt:P1435 -> heritage designation
+wdt:P443 -> pronunciation audio
+wdt:P8001 -> endorsed by
+wdt:P912 -> has facility
+wdt:P5775 -> image of interior
+wdt:P186 -> made from material
+wdt:P276 -> location
+wdt:P729 -> service entry
+wdt:P88 -> commissioned by.
+---
+These are the labels of the objects:
+
+wd:Q385378 -> construction
+wd:Q55227524 -> Guido Ferrazza
+wd:Q3675649 -> Christian Georg Schütz
+wd:Q109929866 -> Told Cities
+wd:Q43113623 -> part of UNESCO World Heritage Site.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+!Name
+!class=unsortable|Images
+!Country
+!City
+![[Gregorian calendar|Year]]
+!class=unsortable|Remarks
+|- valign=top id="Tanzania"
+| [[Gaddafi Mosque]]
+| [[File:Dodoma Mosque, Front, Dodoma City Counci.jpg|120px]]
+| {{flag|Tanzania}}
+| [[Dodoma]]
+| 2010
+| 
+|- valign=top
+| [[Great Mosque of Kilwa]]
+| [[File:GreatMosque.jpg|120px]]
+| {{flag|Tanzania}}
+| [[Kilwa Kisiwani|Kilwa]]
+| ~1000
+| Historical – one of the earliest surviving mosques in East Africa
+|- valign=top
+| [[Kizimkazi Mosque]]
+| [[File:KizimkaziMosque3.JPG|120px]] 
+| {{flag|Tanzania}}
+| [[Dimbani]]
+| 1107
+|
+|- valign=top
+| [[List of mosques in Tunisia]]
+| 
+| {{flag|Tunisia}}
+| 
+| 
+|
+|- valign=top id="Uganda"
+| [[Uganda National Mosque]]
+| [[File:Laika ac Gaddafi National Mosque, Kampala (6693328097).jpg|120px]]
+| {{flag|Uganda}}
+| [[Kampala]]
+| 2006
+| Opened in June 2007<ref>[http://www.ugpulse.com/articles/daily/Travel-Tourism.asp?ID=482 New Mosque Redraws Kampala's Skyline], 24. August 2006; [http://www.newvision.co.ug/D/8/12/569459 Libyans open Old Kampala mosque] {{webarchive|url=https://web.archive.org/web/20150626222703/http://www.newvision.co.ug/D/8/12/569459 |date=2015-06-26 }}, 8. Juni 2007</ref> |}
+---

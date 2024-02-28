@@ -1,0 +1,42 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix ns2: <https://example.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns2:AEON_Bukit_Mertajam rdfs:label "AEON Bukit Mertajam"@en ;
+    ns1:P127 <http://www.wikidata.org/entity/Q7670188> ;
+    ns1:P131 <http://www.wikidata.org/entity/Q2158697> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11315> .
+
+ns2:GEM_Megamall rdfs:label "GEM Megamall"@en ;
+    ns1:P127 <http://www.wikidata.org/entity/Q5579784> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11315> .
+
+ns2:Klippa_Shopping_Centre rdfs:label "Klippa Shopping Centre"@en ;
+    ns1:P127 <http://www.wikidata.org/entity/Q7670188> ;
+    ns1:P131 <http://www.wikidata.org/entity/Q4873313> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11315> .
+
+ns2:Megamall_Penang rdfs:label "Megamall Penang"@en ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11315> .
+
+ns2:Sunshine_Bertam_Shopping_Mall rdfs:label "Sunshine Bertam Shopping Mall"@en ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11315> ;
+    ns1:P571 "YYYY-01-01T00:00:00Z"^^xsd:dateTime ;
+    ns2:LFS_Butterworth ns1:P131 .
+
+ns2:Sunshine_Central rdfs:label "Sunshine Central"@en ;
+    ns1:P127 <http://www.wikidata.org/entity/Q5579784> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11315> .
+
+ns2:Sunway_Valleycity_Mall rdfs:label "Sunway Valleycity Mall"@en ;
+    ns1:P127 <http://www.wikidata.org/entity/Q7670188> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11315> .
+

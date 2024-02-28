@@ -1,0 +1,8 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Carroll,_Sean_M.> ns1:P1559 "Sean M. Carroll"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/>,
+        <http://www.wikidata.org/entity/Q25456175>,
+        <http://www.wikidata.org/entity/Q5317558>,
+        <http://www.wikidata.org/entity/Q67311526> .
+

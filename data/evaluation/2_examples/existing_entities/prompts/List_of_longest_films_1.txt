@@ -1,0 +1,123 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of longest films" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|+ Experimental films
+|-
+! Title
+! Running time
+! Director
+! Year released
+! scope="col" class="unsortable" | Notes
+|-
+| ''[[Logistics (film)|Logistics]]''
+| 51,420 min (857 hr / 35 days, 17 hours)
+|Erika Magnusson<br />Daniel Andersson
+| 2012
+| <ref>{{Cite news|url=http://timesofindia.indiatimes.com/entertainment/events/At-7-hours-20-minutes-this-is-the-worlds-longest-movie-trailer/articleshow/51960758.cms|title=At 7 hours 20 minutes, this is the world's longest movie trailer|newspaper=The Times of India|quote='Logistics', released in 2012, was 857 hours (35 days and 17 hours) long.|access-date=2017-01-28}}</ref>
+|-
+| ''[[Ambiancé]]''
+| 43,200 min (720 hr / 30 days)
+|Anders Weberg
+| 2020
+| <ref>{{Cite news|url=http://yonah.org/channel/ambiance-anders-weberg|title=Ambiance: Why Anders Weberg Is Making The Longest Film Ever|website=Yonah.com|access-date=2020-11-26}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Logistics> wdt:P1476 "Logistics"@en ;
+ wdt:P57 wd:Q108064181 ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P856 <http://logisticsartproject.com> ;
+ wdt:P2047 "51420"^^xsd:decimal ;
+ wdt:P577 "2012-12-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ rdfs:label "Logistics"@en ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Documentary_film> ;
+ wdt:P57 wd:Q108064180 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Sweden> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Experimental_film> .
+
+<https://example.org/resource/Ambiancé> wdt:P577 "2020-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Ambiancé"@en ;
+ wdt:P856 <http://www.thelongestfilm.com/> ;
+ wdt:P2047 "43200"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 wd:Q109317356 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Documentary_film> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Swedish_language> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Sweden> .
+---
+These are the labels of the properties:
+
+wdt:P1476 -> title
+wdt:P57 -> director
+wdt:P364 -> original language of film or TV show
+wdt:P856 -> official website URL
+wdt:P2047 -> duration
+wdt:P577 -> publication date
+wdt:P31 -> instance of
+wdt:P136 -> genre
+wdt:P495 -> country of origin
+wdt:P462 -> color.
+---
+These are the labels of the objects:
+
+wd:Q108064181 -> Daniel Andersson
+wd:Q108064180 -> Erika Magnusson
+wd:Q22006653 -> color
+wd:Q109317356 -> Anders Weberg.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|+ Experimental films
+|-
+! Title
+! Running time
+! Director
+! Year released
+! scope="col" class="unsortable" | Notes
+|-
+| ''[[Imitation of Christ (film)|Imitation of Christ]]''
+| 480 min (8 hr)
+|[[Andy Warhol]]
+| 1967
+| <ref>{{cite web |url=http://smironne.free.fr/NICO/FILMS/imi.html |title=''Imitation of Christ'' (Andy Warhol) |publisher=Smironne.free.fr |date=September 7, 2000 |access-date=June 10, 2012}}</ref>
+|-
+| ''[[Sleep (2013 film)|Sleep]]''
+|480 min (8 hr)
+|Lilja Juha
+|2013
+|<ref>{{cite web |url=https://iffr.com/en/2015/films/sleep |title=''Sleep'' (Juha Lilja) |publisher=International Film Festival Rotterdam |date=January 20, 2015 |access-date=February 6, 2018}}</ref><ref>{{cite AV media notes |title = Sleep |orig-year = 2013 |others = Juha Lilja |type = DVD |year = 2015}}</ref><ref>{{Cite web|title=Sleep|url=https://iffr.com/en/iffr/2015/films/sleep|access-date=March 9, 2023|website=[[IFFR]]}}</ref>
+|-
+|''[[Hitler: A Film from Germany]]''
+|442 min (7 hr, 23 min)
+|[[Hans-Jürgen Syberberg]]
+|1977
+|<ref>{{Cite web |title=Hitler : A Film from Germany |url=https://www.cinemadureel.org/en/film/hitler-a-film-from-germany/ |access-date=2021-05-29 |website=Cinéma du réel |language=en-US |archive-date=May 17, 2021 |archive-url=https://web.archive.org/web/20210517214538/https://www.cinemadureel.org/en/film/hitler-a-film-from-germany/ |url-status=dead }}</ref>
+|-
+| ''[[Star Spangled to Death]]''
+| 402 min (6 hr, 42 min)
+|[[Ken Jacobs]]
+| 2004
+| <ref>{{cite AV media notes |title = Star Spangled to Death |orig-year = 2004 |others = Ken Jacobs |type = DVD |year = 2004}}</ref>
+|-
+| ''[[River of Fundament]]''
+| 352 min (5 hr, 52 min)<br /><small>Including two 20-minute intermissions</small>
+|[[Matthew Barney]]
+| 2014
+|<ref>{{Cite web|url=http://www.bam.org/film/2014/river-of-fundament|title=River of Fundament|website=BAM.org|access-date=2017-01-28}}</ref>
+|-
+| ''[[Sleep (1964 film)|Sleep]]''
+| 321 min (5 hr, 21 min)
+|[[Andy Warhol]]
+| 1964
+| <ref name="amazon16"/> |}
+---

@@ -1,0 +1,140 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix ns2: <https://example.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns2:AmBank_Tower rdfs:label "AmBank Tower"@en ;
+    ns1:P1101 50.0 ;
+    ns1:P2048 210.0 .
+
+ns2:Komtar rdfs:label "Komtar"@en ;
+    ns1:P1101 68.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q61092> ;
+    ns1:P1619 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 248.7 .
+
+ns2:Marriott_Residences_Penang rdfs:label "Marriott Residences Penang"@en ;
+    ns1:P1101 56.0 ;
+    ns1:P2048 223.5 .
+
+ns2:Maxis_Tower rdfs:label "Maxis Tower"@en ;
+    ns1:P1101 49.0 ;
+    ns1:P2048 212.0 .
+
+ns2:Maybank_Tower rdfs:label "Maybank Tower"@en ;
+    ns1:P1101 50.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 243.5 .
+
+ns2:Muze_Block_B rdfs:label "Muze Block B"@en ;
+    ns1:P1101 58.0 ;
+    ns1:P2048 205.5 ;
+    ns1:P366 <http://www.wikidata.org/entity/Q1007870>,
+        <http://www.wikidata.org/entity/Q1060829>,
+        <http://www.wikidata.org/entity/Q1065656>,
+        <http://www.wikidata.org/entity/Q11303>,
+        <http://www.wikidata.org/entity/Q1137809>,
+        <http://www.wikidata.org/entity/Q11707>,
+        <http://www.wikidata.org/entity/Q1195942>,
+        <http://www.wikidata.org/entity/Q12280>,
+        <http://www.wikidata.org/entity/Q12323>,
+        <http://www.wikidata.org/entity/Q1248784>,
+        <http://www.wikidata.org/entity/Q1277907>,
+        <http://www.wikidata.org/entity/Q1341387>,
+        <http://www.wikidata.org/entity/Q1352349>,
+        <http://www.wikidata.org/entity/Q1378975>,
+        <http://www.wikidata.org/entity/Q1501>,
+        <http://www.wikidata.org/entity/Q150737>,
+        <http://www.wikidata.org/entity/Q1529340>,
+        <http://www.wikidata.org/entity/Q159719>,
+        <http://www.wikidata.org/entity/Q166118>,
+        <http://www.wikidata.org/entity/Q167346>,
+        <http://www.wikidata.org/entity/Q16917>,
+        <http://www.wikidata.org/entity/Q179049>,
+        <http://www.wikidata.org/entity/Q181623>,
+        <http://www.wikidata.org/entity/Q183503>,
+        <http://www.wikidata.org/entity/Q189004>,
+        <http://www.wikidata.org/entity/Q194195>,
+        <http://www.wikidata.org/entity/Q194356>,
+        <http://www.wikidata.org/entity/Q22698>,
+        <http://www.wikidata.org/entity/Q2305951>,
+        <http://www.wikidata.org/entity/Q269949>,
+        <http://www.wikidata.org/entity/Q27686>,
+        <http://www.wikidata.org/entity/Q31374404>,
+        <http://www.wikidata.org/entity/Q32815>,
+        <http://www.wikidata.org/entity/Q32880>,
+        <http://www.wikidata.org/entity/Q33506>,
+        <http://www.wikidata.org/entity/Q34627>,
+        <http://www.wikidata.org/entity/Q3476515>,
+        <http://www.wikidata.org/entity/Q35054>,
+        <http://www.wikidata.org/entity/Q3914>,
+        <http://www.wikidata.org/entity/Q3917681>,
+        <http://www.wikidata.org/entity/Q3918>,
+        <http://www.wikidata.org/entity/Q40080>,
+        <http://www.wikidata.org/entity/Q40357>,
+        <http://www.wikidata.org/entity/Q41176>,
+        <http://www.wikidata.org/entity/Q43501>,
+        <http://www.wikidata.org/entity/Q4387609>,
+        <http://www.wikidata.org/entity/Q44377>,
+        <http://www.wikidata.org/entity/Q44539>,
+        <http://www.wikidata.org/entity/Q44782>,
+        <http://www.wikidata.org/entity/Q47537>,
+        <http://www.wikidata.org/entity/Q4787070>,
+        <http://www.wikidata.org/entity/Q494829>,
+        <http://www.wikidata.org/entity/Q55488>,
+        <http://www.wikidata.org/entity/Q567053>,
+        <http://www.wikidata.org/entity/Q605315>,
+        <http://www.wikidata.org/entity/Q635281>,
+        <http://www.wikidata.org/entity/Q635309>,
+        <http://www.wikidata.org/entity/Q6671777>,
+        <http://www.wikidata.org/entity/Q7075>,
+        <http://www.wikidata.org/entity/Q721207>,
+        <http://www.wikidata.org/entity/Q811979>,
+        <http://www.wikidata.org/entity/Q83405>,
+        <http://www.wikidata.org/entity/Q861951> ;
+    ns2:Grand_Seasons_Hotel ns1:P2048 .
+
+ns2:Permata_Sapura_Tower rdfs:label "Permata Sapura Tower"@en ;
+    ns1:P1101 53.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2020-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 252.5 .
+
+ns2:Petronas_Tower_3 rdfs:label "Petronas Tower 3"@en ;
+    ns1:P1101 60.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 267.0 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q1865> .
+
+ns2:Star_Residences_ONE rdfs:label "Star Residences ONE"@en ;
+    ns1:P1101 58.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2019-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 264.9 .
+
+ns2:The_Astaka_Tower_B rdfs:label "The Astaka Tower B"@en ;
+    ns1:P1101 67.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q231318> ;
+    ns1:P1619 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 255.6 .
+
+ns2:The_Stride rdfs:label "The Stride"@en ;
+    ns1:P1101 48.0 ;
+    ns1:P2048 209.0 .
+
+ns2:Vista_Tower rdfs:label "Vista Tower"@en ;
+    ns1:P1101 62.0 ;
+    ns1:P2048 238.0 .
+
+ns2:Vortex_Tower rdfs:label "Vortex Tower"@en ;
+    ns1:P1101 58.0 ;
+    ns1:P2048 235.0 .
+

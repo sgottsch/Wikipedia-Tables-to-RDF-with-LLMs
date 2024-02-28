@@ -1,0 +1,160 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Abuja_National_Mosque> rdfs:label "Abuja National Mosque"@en ;
+    wdt:P17 wd:Q1033 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/AbujaNationalMosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1984-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Agadez_Mosque> rdfs:label "Agadez Mosque"@en ;
+    wdt:P17 wd:Q1032 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/1997%20277-9A%20Agadez%20mosque%20cropped.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1500-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Al-Nilin_Mosque> rdfs:label "Al-Nilin Mosque"@en ;
+    wdt:P131 wd:Q1963 ;
+    wdt:P17 wd:Q1049 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1970-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Arba'a_Rukun_Mosque> rdfs:label "Arba'a Rukun Mosque"@en ;
+    wdt:P131 wd:Q2449 ;
+    wdt:P17 wd:Q1045 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mogadishu1936.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1268-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Chinguetti_Mosque> rdfs:label "Chinguetti Mosque"@en ;
+    wdt:P17 wd:Q1025 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Chinguetti%20mosquee.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Dakar_Grand_Mosque> rdfs:label "Dakar Grand Mosque"@en ;
+    wdt:P131 wd:Q3718 ;
+    wdt:P17 wd:Q1041 ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Djinguereber_Mosque> rdfs:label "Djinguereber Mosque"@en ;
+    wdt:P17 wd:Q912 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Djingareiber%20cour.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Fakr_ad-Din_Mosque> rdfs:label "Fakr ad-Din Mosque"@en ;
+    wdt:P17 wd:Q1045 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fakr%20Ud%20Din%20Mosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1269-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Gaddafi_Mosque> rdfs:label "Gaddafi Mosque"@en ;
+    wdt:P17 wd:Q924 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Dodoma%20Mosque,%20Front,%20Dodoma%20City%20Counci.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Grand_Mosque_of_Niamey> rdfs:label "Grand Mosque of Niamey"@en ;
+    wdt:P131 wd:Q3674 ;
+    wdt:P17 wd:Q1032 ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Great_Mosque_of_Djenne> rdfs:label "Great Mosque of Djenné"@en ;
+    wdt:P17 wd:Q912 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Great%20Mosque%20of%20Djenn%C3%A9%203.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1907-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Great_Mosque_of_Kano> rdfs:label "Great Mosque of Kano"@en ;
+    wdt:P17 wd:Q1033 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kano%20Mosque%20in%201960.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Great_Mosque_of_Kilwa> rdfs:label "Great Mosque of Kilwa"@en ;
+    wdt:P17 wd:Q924 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/GreatMosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P793 wd:Q385378 .
+
+<https://example.org/resource/Great_Mosque_of_Touba> rdfs:label "Great Mosque of Touba"@en ;
+    wdt:P17 wd:Q1041 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P793 wd:Q43113623 .
+
+<https://example.org/resource/Juma_Masjid_Mosque> rdfs:label "Juma Masjid Mosque"@en ;
+    wdt:P17 wd:Q258 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Juma%20Masjid%20Mosque%20on%20Queen%20%28Denis%20Harle%29%20Street-20140222.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1881-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jummah_Mosque> rdfs:label "Jummah Mosque"@en ;
+    wdt:P17 wd:Q1027 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mosqu%C3%A9e%20-%20panoramio.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Kizimkazi_Mosque> rdfs:label "Kizimkazi Mosque"@en ;
+    wdt:P17 wd:Q924 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/KizimkaziMosque3.JPG> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1107-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Larabanga_Mosque> rdfs:label "Larabanga Mosque"@en ;
+    wdt:P17 wd:Q117 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Larabanga%20Mosque%20Ghana.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Masjid_al-Qiblatayn> rdfs:label "Masjid al-Qiblatayn"@en ;
+    wdt:P17 wd:Q1045 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Zeila%20Mosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "7th century-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Mosque_of_Divinity> rdfs:label "Mosque of Divinity"@en ;
+    wdt:P131 wd:Q3357914 ;
+    wdt:P17 wd:Q1041 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Senegal%20Grande%20Mosquee%20de%20Ouakam%20800x600.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Mosque_of_Islamic_Solidarity> rdfs:label "Mosque of Islamic Solidarity"@en ;
+    wdt:P17 wd:Q1045 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mosque%20of%20Islamic%20Solidarity.jpeg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1987-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Nizamiye_Mosque> rdfs:label "Nizamiye Mosque"@en ;
+    wdt:P131 wd:Q639518 ;
+    wdt:P17 wd:Q258 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Saudi_Mosque> rdfs:label "Saudi Mosque"@en ;
+    wdt:P17 wd:Q1025 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Central%20mosque%20in%20Nouakchott.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Shitta-Bey_Mosque> rdfs:label "Shitta-Bey Mosque"@en ;
+    wdt:P131 wd:Q8673 ;
+    wdt:P17 wd:Q1033 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Shitta-Bey%20Mosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1892-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Sidi_Yahya_Mosque> rdfs:label "Sidi Yahya Mosque"@en ;
+    wdt:P17 wd:Q912 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fortier%20361%20Timbuktu%20Sidi-Yabya%20Mosque.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Uganda_National_Mosque> rdfs:label "Uganda National Mosque"@en ;
+    wdt:P17 wd:Q1036 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Laika%20ac%20Gaddafi%20National%20Mosque,%20Kampala%20(6693328097).jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Yamma_Mosque> rdfs:label "Yamma Mosque"@en ;
+    wdt:P131 wd:Q877122 ;
+    wdt:P17 wd:Q1032 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1962-01-01T00:00:00+00:00"^^xsd:dateTime .
+

@@ -1,0 +1,240 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of museums in Central Texas" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable plainrowheaders"
+|+{{sronly|List of museums in Bexar County, Texas}}
+|-
+!scope="col" |Museum name 
+!scope="col"  class="unsortable" |Image
+!scope="col"  |City
+!scope="col"  |County
+!scope="col"  |Notes
+!scope="col" class="unsortable" |Refs
+|-
+!scope="row"|[[Alamo Mission in San Antonio|The Alamo]]
+|[[File:Alamo night.jpg|125px|Alamo Mission in San Antonio]]
+|[[San Antonio]]
+|Bexar
+|Recorded Texas Historic Landmark, National Register of Historic Places
+|align="center"|<ref>{{cite web |title=Details - The Alamo - Atlas Number 4200000360 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000360 |website=atlas.thc.state.tx.us |access-date=14 August 2022}}</ref>
+|-
+!scope="row"|[[Artpace]]
+|[[File:Artpace san antonio.jpg|125px|Artpace]]
+|San Antonio
+|Bexar
+|Contemporary art center 
+|align="center"|<ref>{{cite web |title=ARTPACE (San Antonio) - All You Need to Know BEFORE You Go |url=https://www.tripadvisor.com/Attraction_Review-g60956-d144013-Reviews-Artpace-San_Antonio_Texas.html |website=Tripadvisor |access-date=14 August 2022}}</ref>
+|-
+!scope="row"|[[Blue Star Contemporary Art Museum]]
+|[[File:BlueStarArtComplex.jpg|125px|Blue Star Contemporary Art Museum]]
+|San Antonio
+|Bexar
+|Multiple exhibitions 
+|align="center"|<ref>{{cite web |title=Blue Star Contemporary Art Museum |url=https://foursquare.com/v/blue-star-contemporary-art-museum/4ad4bffff964a5202beb20e3 |website=Foursquare |access-date=14 August 2022}}</ref>
+|-
+!scope="row"|[[Buckhorn Saloon & Museum (San Antonio, Texas)|Buckhorn Saloon & Texas Ranger Museum]]
+|[[File:Buckhorn Saloon SA 2011-12-11.jpg|125px|Buckhorn Saloon & Museum]]
+|San Antonio
+|Bexar
+|Old West saloon and museum with wildlife trophy mounts, mounted fish specimens, bird dioramas, the Hall of Texas History Wax Museum and the Texas Ranger Museum
+|align="center"|<ref>{{cite web |title=Details - The Buckhorn Saloon and Museum - Atlas Number 4200001140 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200001140 |website=atlas.thc.state.tx.us |access-date=15 August 2022}}</ref>
+|-
+!scope="row"|[[Casa Navarro State Historic Site]]
+|[[File:Casa Navarro State Historic Site in 2009.jpg|125px|Casa Navarro State Historic Site]]
+|San Antonio
+|Bexar
+|Recorded Texas Historic Landmark, National Register of Historic Places, 1848 adobe home of Tejano patriot [[José Antonio Navarro]], signer of Texas Declaration of Independence
+|align="center"|<ref>{{cite web |title=Details - Casa Navarro State Historic Site - Atlas Number 4200000584 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000584 |website=atlas.thc.state.tx.us|access-date=15 August 2022}}</ref>
+|-
+!scope="row"|[[Edward Steves Homestead]]
+|[[File:Edward steves homestead.jpg|125px|Edward Steves Homestead]]
+|San Antonio
+|Bexar
+|Late 19th-century Victorian homestead, operated by the [[San Antonio Conservation Society]]
+|align="center"|<ref>{{cite web |title=Details - Edward Steves Homestead - Atlas Number 4200000371 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000371 |website=atlas.thc.state.tx.us |access-date=15 August 2022}}</ref>
+|-
+!scope="row"|[[Fort Sam Houston]] Museum
+|
+|San Antonio
+|Bexar
+|National Register of Historic Places
+|align="center"|<ref>{{cite web |title=Details - Fort Sam Houston Museum - Atlas Number 4200000362 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000362 |website=atlas.thc.state.tx.us |access-date=15 August 2022}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/The_Alamo> wdt:P1705 "Alamo Mission in San Antonio"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mission_(station)> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/San_Antonio> ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Brockhaus_and_Efron_Encyclopedic_Dictionary> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Building> ;
+ wdt:P361 <https://en.wikipedia.org/wiki/San_Antonio_Missions_(World_Heritage_Site)> ;
+ rdfs:label "Alamo Mission in San Antonio"@en ;
+ wdt:P856 <https://www.thealamo.org/> ;
+ wdt:P4291 <http://commons.wikimedia.org/wiki/Special:FilePath/Alamo%20pano.jpg> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Alamo%20Mission%2C%20San%20Antonio%2C%20Texas%2C%20USA.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2046 "1.7"^^xsd:decimal ;
+ wdt:P793 <https://en.wikipedia.org/wiki/Siege_of_the_Alamo> ;
+ wdt:P1435 <https://en.wikipedia.org/wiki/Recorded_Texas_Historic_Landmark> ;
+ wdt:P30 <https://en.wikipedia.org/wiki/North_America> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Alamo_Plaza_Historic_District> ;
+ wdt:P710 wd:Q61791539 ;
+ wdt:P1435 wd:Q1129142 ;
+ wdt:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/Alamo%20On%20Guard.jpg> ;
+ wdt:P1435 wd:Q19558910 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Tourist_attraction> ;
+ wdt:P6375 "300 Alamo Plaza"@en ;
+ wdt:P1435 <https://en.wikipedia.org/wiki/National_Historic_Landmark> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Fortification> ;
+ wdt:P1435 wd:Q43113623 .
+
+<https://example.org/resource/Artpace> wdt:P276 <https://en.wikipedia.org/wiki/San_Antonio> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Art_gallery> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ rdfs:label "Artpace"@en ;
+ wdt:P856 <http://www.artpace.org/> ;
+ wdt:P571 "1995-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Artpace%20san%20antonio.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Texas> .
+
+<https://example.org/resource/Blue_Star_Contemporary_Art_Museum> wdt:P31 <https://en.wikipedia.org/wiki/Art_gallery> ;
+ wdt:P571 "1985-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P968 <mailto:bluestarart@bluestarart.org> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Art_museum> ;
+ rdfs:label "Blue Star Contemporary Art Center"@en ;
+ wdt:P856 <http://www.bluestarart.org/> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Texas> .
+
+<https://example.org/resource/Buckhorn_Saloon_&_Texas_Ranger_Museum> wdt:P571 "1881-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ rdfs:label "Buckhorn Saloon & Museum"@en ;
+ wdt:P856 <http://www.buckhornmuseum.com> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Texas> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Restaurant> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Buckhorn%20Saloon%20SA%202011-12-11.jpg> .
+
+<https://example.org/resource/Casa_Navarro_State_Historic_Site> wdt:P131 <https://en.wikipedia.org/wiki/San_Antonio> ;
+ wdt:P571 "1964-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Casa Navarro State Historic Site"@en ;
+ wdt:P856 <https://www.thc.texas.gov/historic-sites/casa-navarro-state-historic-site> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Casa%20Navarro%20State%20Historic%20Site%20in%202009.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P1435 <https://en.wikipedia.org/wiki/Recorded_Texas_Historic_Landmark> ;
+ wdt:P31 wd:Q52063464 ;
+ wdt:P1435 wd:Q19558910 ;
+ wdt:P6375 "228--232 S. Loredo St."@en .
+
+<https://example.org/resource/Edward_Steves_Homestead> wdt:P131 <https://en.wikipedia.org/wiki/San_Antonio> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Building> ;
+ rdfs:label "Edward Steves Homestead"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Edward%20steves%20homestead.jpg> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Alfred_Giles_(architect)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/House> ;
+ wdt:P6375 "509 King William St."@en ;
+ wdt:P1435 <https://en.wikipedia.org/wiki/Recorded_Texas_Historic_Landmark> ;
+ wdt:P1435 wd:Q1129142 ;
+ wdt:P793 wd:Q385378 ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Alfred_Giles_(architect)> ;
+ wdt:P361 <https://en.wikipedia.org/wiki/King_William_Historic_District> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Second_Empire_style> .
+
+<https://example.org/resource/Fort_Sam_Houston> wdt:P131 <https://en.wikipedia.org/wiki/San_Antonio> ;
+ rdfs:label "Fort Sam Houston"@en ;
+ wdt:P856 <https://www.samhouston.army.mil> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Quad01a.jpg> ;
+ wdt:P1343 wd:Q112756208 ;
+ wdt:P47 wd:Q123587893 ;
+ wdt:P30 <https://en.wikipedia.org/wiki/North_America> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Historic_district> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Texas> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Texas> ;
+ wdt:P1435 wd:Q19558910 ;
+ wdt:P1435 <https://en.wikipedia.org/wiki/National_Historic_Landmark> ;
+ wdt:P6375 "N edge of San Antonio"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Military_base> .
+---
+These are the labels of the properties:
+
+wdt:P1705 -> native label
+wdt:P31 -> instance of
+wdt:P131 -> located in the administrative territorial entity
+wdt:P1343 -> described by source
+wdt:P361 -> part of
+wdt:P856 -> official website URL
+wdt:P4291 -> panoramic view
+wdt:P18 -> image
+wdt:P17 -> country
+wdt:P2046 -> area
+wdt:P793 -> significant event
+wdt:P1435 -> heritage designation
+wdt:P30 -> continent
+wdt:P276 -> location
+wdt:P710 -> participant
+wdt:P3451 -> nighttime view
+wdt:P6375 -> street address
+wdt:P571 -> inception
+wdt:P968 -> email address
+wdt:P84 -> architect
+wdt:P149 -> architectural style
+wdt:P47 -> shares border with.
+---
+These are the labels of the objects:
+
+wd:Q61791539 -> Ford, Powell & Carson
+wd:Q1129142 -> National Register of Historic Places contributing property
+wd:Q19558910 -> National Register of Historic Places listed place
+wd:Q43113623 -> part of UNESCO World Heritage Site
+wd:Q52063464 -> Texas State Historic Site
+wd:Q385378 -> construction
+wd:Q112756208 -> FortWiki
+wd:Q123587893 -> Camp Travis.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable plainrowheaders"
+|+{{sronly|List of museums in Bexar County, Texas}}
+|-
+!scope="col" |Museum name 
+!scope="col"  class="unsortable" |Image
+!scope="col"  |City
+!scope="col"  |County
+!scope="col"  |Notes
+!scope="col" class="unsortable" |Refs
+|-
+!scope="row"|[[University of Texas at San Antonio|UTSA]] art galleries
+|  
+|San Antonio
+|Bexar 
+|Multiple galleries
+|align="center"|<ref>{{cite web |title=Main Art Gallery {{!}} UTSA Department of Art & Art History |url=https://art.utsa.edu/main-gallery |website=art.utsa.edu |access-date=15 August 2022}}</ref>
+|-
+!scope="row"|[[Villa Finale]]
+|[[File:Norton polk mathis house 2014.jpg|125px|Norton Polk Mathis house]]
+|San Antonio
+|Bexar
+|Victorian period mansion
+|align="center"|<ref>{{cite web |title=Details - Villa Finale Museum and Gardens - Atlas Number 4200001070 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200001070 |website=atlas.thc.state.tx.us |access-date=15 August 2022}}</ref>
+|-
+!scope="row"|[[Witte Museum]]
+|[[File:Witte Museum Acrocanthosaurus.jpg|166x166px|Witte Museum]]
+|San Antonio
+|Bexar
+|Natural history, science, art
+|align="center"|<ref>{{cite web |title=Details - The Witte Museum - Atlas Number 4200000375 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000375 |website=atlas.thc.state.tx.us |access-date=15 August 2022}}</ref>
+|-
+!scope="row"|[[Yturri-Edmunds Historic Site]]
+|[[File:Yturriedmunds1.jpg|125px|Yturri-Edmunds Historic Site]]
+|San Antonio
+|Bexar
+|House and operating grist mill, 1840–1860, restored in 1964 by the San Antonio Conservation Society
+|align="center"|<ref>{{cite web |title=Yturri-Edmunds House Museum – The Conservation Society of San Antonio |url=https://www.saconservation.org/what-we-do/tours/yturri-edmunds-house-museum/ |access-date=15 August 2022}}</ref> |}
+---

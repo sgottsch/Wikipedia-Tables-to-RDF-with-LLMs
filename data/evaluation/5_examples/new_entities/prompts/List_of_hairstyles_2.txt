@@ -1,0 +1,112 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of hairstyles" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="text-align: center"
+|- style="background:#cccccc"
+! Name !! Image !! Description
+|-
+| style="background:#eeeeee" | [[Asymmetric cut]]
+| [[File:Asymmetrical haricut.jpg|120px]]
+| align=left | A haircut where the hair is longer on one side. In the 1980s and 1990s, asymmetric was a popular staple of Black hip hop fashion, among women and men. 
+|-
+| style="background:#eeeeee" | [[Braid (hairstyle)|Braid]]
+|[[File:Braiding hair 05.jpg|120px]]
+| align=left | A [[Braid (hairstyle)|braid]], also known as a plait, is a type of hairstyle usually worn by women with long hair in which all or part of one's hair is separated into strands, normally three, and then plaited or braided together, typically forming one braid hanging down at the back of the head or two braids hanging down on either side of the head. Braids can also be strengthened or lengthened with the addition of weaving hair. Braids may also serve as the base for sewing on additional weave hair on top of the braid for additional hair styling options. See also [[cornrows]], [[Queue (hairstyle)|queue]], crown braid (below), [[Dutch braid]] and [[pigtail]].
+|-
+| style="background:#eeeeee" | [[Cornrows]]
+| [[File:Long cornrows.jpg|120px]]
+| align=left | A hairstyle originating from [[Subsaharan Africa|Sub-Saharan Africa]], popularized by [[African Americans]] wherein the hair is braided into a series of locks that cling to the head. 
+|-
+| style="background:#eeeeee" | [[Dreadlocks]]
+| [[File:Dreadlocked rasta.jpg|120px]]
+| align=left | The hair is 'dreadlocked' into individual sections using one of several methods, usually either backcombing, braiding, hand rolling, or locking in the roots. Dreadlocks can vary in size, tightness, and length. Dreadlocks are associated most closely with [[Rastafarians]].
+|-
+| style="background:#eeeeee" | [[Artificial hair integrations|Extensions]]
+|[[File:18-inch remy weave.jpg|120px]]
+| align=left | Either natural or synthetic locks of hair secured to the head, either by taping, clipping, or sewn in, giving the wearer the appearance of having longer and thicker hair. |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Asymmetric_cut> wdt:P31 <https://en.wikipedia.org/wiki/Hairstyle> ;
+ rdfs:label "asymmetric cut"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Asymmetrical%20haricut.jpg> ;
+ wdt:P279 <https://en.wikipedia.org/wiki/Asymmetry> .
+
+<https://example.org/resource/Braid> wdt:P31 <https://en.wikipedia.org/wiki/Hairstyle> ;
+ wdt:P279 <https://en.wikipedia.org/wiki/Braid> ;
+ rdfs:label "braid"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Snake%20in%20the%20Tree%20Braid.JPG> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Vlecht%2C%20close-up.jpg> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:Braid_hairstyles> ;
+ wdt:P527 wd:Q111236957 ;
+ wdt:P527 <https://en.wikipedia.org/wiki/Cornrows> ;
+ wdt:P527 <https://en.wikipedia.org/wiki/Queue_(hairstyle)> ;
+ wdt:P2079 wd:Q123757769 ;
+ wdt:P527 <https://en.wikipedia.org/wiki/Crochet_braids> ;
+ wdt:P527 <https://en.wikipedia.org/wiki/French_braid> ;
+ wdt:P527 <https://en.wikipedia.org/wiki/Suebian_knot> ;
+ wdt:P527 <https://en.wikipedia.org/wiki/Lovelock_(hair)> ;
+ wdt:P527 <https://en.wikipedia.org/wiki/Box_braids> .
+
+<https://example.org/resource/Cornrows> wdt:P31 <https://en.wikipedia.org/wiki/Hairstyle> ;
+ rdfs:label "cornrows"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Africa> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Long%20cornrows.jpg> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Woman%20with%20braids%20%28Jamaica%2C%20September%202002%29.jpg> ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:WikiProject_African_diaspora> ;
+ wdt:P279 <https://en.wikipedia.org/wiki/Braid_(hairstyle)> .
+
+<https://example.org/resource/Dreadlocks> wdt:P31 <https://en.wikipedia.org/wiki/Hairstyle> ;
+ wdt:P910 wd:Q55327056 ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:WikiProject_African_diaspora> ;
+ rdfs:label "dreadlocks"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Dreadlocked%20rasta.jpg> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Box_braids> .
+
+<https://example.org/resource/Extensions> wdt:P31 wd:Q21369154 ;
+ wdt:P186 <https://en.wikipedia.org/wiki/Hair> ;
+ wdt:P1382 wd:Q50303450 ;
+ wdt:P186 <https://en.wikipedia.org/wiki/Synthetic_fiber> ;
+ rdfs:label "artificial hair integrations"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Deep%20wave%2Cdeep%20curl.jpg> ;
+ wdt:P1889 wd:Q29874252 .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P18 -> image
+wdt:P279 -> subclass of
+wdt:P910 -> topic's main category
+wdt:P527 -> has part(s)
+wdt:P2079 -> fabrication method
+wdt:P495 -> country of origin
+wdt:P5008 -> on focus list of Wikimedia project
+wdt:P1889 -> different from
+wdt:P186 -> made from material
+wdt:P1382 -> partially coincident with.
+---
+These are the labels of the objects:
+
+wd:Q111236957 -> fishtail braid
+wd:Q123757769 -> hair braiding
+wd:Q55327056 -> Category:Dreadlocks
+wd:Q21369154 -> hairstyle accessory
+wd:Q50303450 -> fall
+wd:Q29874252 -> Extension.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="text-align: center"
+|- style="background:#cccccc"
+! Name !! Image !! Description
+|-
+| style="background:#eeeeee" | Fishtail hair
+| [[File:Fishtail hairstyle 01.jpg|120px]]
+| align=left | Hair is worn in a braid resembling a fish's tail. |}
+---

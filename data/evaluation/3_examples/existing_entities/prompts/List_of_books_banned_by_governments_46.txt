@@ -1,0 +1,120 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of books banned by governments" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Title
+! Author(s)
+! Year published
+! Type
+! Notes
+|-
+| ''[[Value, Price and Profit]]''
+| [[Karl Marx]]
+| 1865
+| Non-fiction
+| rowspan="27" | Banned under the Internal Security (Prohibition of Publications) (Consolidation) Order.<ref name="prohibitionsingapore">{{Singapore legislation|title=Internal Security (Prohibition of Publications) (Consolidation) Order|url= https://sso.agc.gov.sg/SL/ISA1960-OR1|dateformat=DD-MM-YYYY|cap=143|sltype=O|no=413|ed=1990}}</ref>
+|-
+| ''[[The Origin of the Family, Private Property and the State|Origin of Family, Private Property and State]]''
+| [[Friedrich Engels]]
+| 1884
+| Non-fiction
+|-
+| ''[[One Step Forward, Two Steps Back]]''
+| [[Vladimir Lenin]]
+| 1904
+| Non-fiction |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Value,_Price_and_Profit> wdt:P136 <https://en.wikipedia.org/wiki/Essay> ;
+ wdt:P577 "1898-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Karl_Marx> ;
+ rdfs:label "Value, Price and Profit"@en ;
+ wdt:P953 <https://www.marxists.org/archive/marx/works/1865/value-price-profit/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Lohn%20Preis%20und%20Profit.jpg> ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P407 <https://en.wikipedia.org/wiki/German_language> .
+
+<https://example.org/resource/Origin_of_Family,_Private_Property_and_State> rdfs:label "The origin of the family, private property and the state"@en ;
+ wdt:P136 wd:Q1391420 ;
+ wdt:P953 <https://www.projekt-gutenberg.org/engels/familie/familie.html> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/OriginOfFamily-1884.jpg> ;
+ wdt:P577 "1884-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P180 <https://en.wikipedia.org/wiki/Lewis_H._Morgan> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Socialism> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Friedrich_Engels> ;
+ wdt:P144 <https://en.wikipedia.org/wiki/Ancient_Society> ;
+ wdt:P1343 wd:Q105745165 ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P407 <https://en.wikipedia.org/wiki/German_language> .
+
+<https://example.org/resource/One_Step_Forward,_Two_Steps_Back> wdt:P747 wd:Q109884040 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Essay> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Politics> ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ rdfs:label "One Step Forward, Two Steps Back"@en ;
+ wdt:P577 "1904-05-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Russian_language> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/One%20Step%20Forward%2C%20Two%20Steps%20Back%20%281904%29.jpg> ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Armenian_Soviet_Encyclopedia> ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Vladimir_Lenin> .
+---
+These are the labels of the properties:
+
+wdt:P136 -> genre
+wdt:P577 -> publication date
+wdt:P6216 -> copyright status
+wdt:P50 -> author
+wdt:P953 -> full work available at URL
+wdt:P18 -> image
+wdt:P31 -> instance of
+wdt:P407 -> language of work or name
+wdt:P180 -> depicts
+wdt:P921 -> main subject
+wdt:P144 -> based on
+wdt:P1343 -> described by source
+wdt:P747 -> has edition or translation.
+---
+These are the labels of the objects:
+
+wd:Q7725634 -> literary work
+wd:Q1391420 -> specialized literature
+wd:Q105745165 -> Women under socialism
+wd:Q109884040 -> Ek Paa Age Dui Paa Piche.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Title
+! Author(s)
+! Year published
+! Type
+! Notes
+|-
+| ''[[How the Steel Was Tempered]]''
+| [[Nikolai Ostrovsky]]
+| 1936
+| Novel
+|-
+| ''[[Marxism and the National and Colonial Question]]''
+| Joseph Stalin
+| 1937
+| Non-fiction
+|-
+| ''[[The Satanic Verses]]''
+| [[Salman Rushdie]]
+| 1988
+| Novel
+| Banned in 1989 for blasphemy against Islam.<ref name="bald-0816062692" /><ref>{{cite news|work=The Straits Times|title=Parliament: Singapore has own approach to offensive speech|date=2 April 2019|url=https://www.straitstimes.com/singapore/spore-has-own-approach-to-offensive-speech|first=Melody|last=Zaccheus|quote=Salman Rushdie's novel Satanic Verses was banned in 1989 – as a result of Singapore's mainstream Muslim community taking offence}}</ref> |}
+---

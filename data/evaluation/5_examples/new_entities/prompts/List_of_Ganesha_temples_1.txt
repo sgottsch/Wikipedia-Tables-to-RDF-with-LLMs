@@ -1,0 +1,79 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of Ganesha temples" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name !! City / town !! State !! Image 
+|-
+| [[Dodda Basavana Gudi|Dodda Ganapathi Temple]] || [[Basavanagudi|Basavanagudi, Bengaluru]] || [[Karnataka]] ||
+|-
+| [[Bohra Ganesh Temple]] || [[Udaipur]] || [[Rajasthan]] ||
+|-
+| [[Anegudde|Shri Vinayaka Temple]] || [[Anegudde]] || [[Karnataka]] ||
+|-
+| [[Budha Ganesha Temple]] || [[Jajpur]] || [[Odisha]] ||
+|-
+| [[Chintaman Ganesh temple, Ujjain]] || [[Ujjain]] || [[Madhya Pradesh]] || |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Dodda_Ganapathi_Temple> wdt:P31 <https://en.wikipedia.org/wiki/Hindu_temple> ;
+ rdfs:label "Dodda Ganeshana Gudi"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Dodda%20Ganeshana%20Gudi%20Hindu%20temple%2C%20Basavanagudi%2C%20Karnataka%2C%20India.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> .
+
+<https://example.org/resource/Bohra_Ganesh_Temple> rdfs:label "Bohra Ganesh Temple"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Hindu_temple> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Udaipur_district> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> .
+
+<https://example.org/resource/Shri_Vinayaka_Temple> rdfs:label "Kumbashi"@en ;
+ wdt:P31 wd:Q4167410 .
+
+<https://example.org/resource/Budha_Ganesha_Temple> wdt:P31 <https://en.wikipedia.org/wiki/Hindu_temple> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> ;
+ rdfs:label "Budha Ganesha Temple"@en .
+
+<https://example.org/resource/Chintaman_Ganesh_temple,_Ujjain> wdt:P31 <https://en.wikipedia.org/wiki/Hindu_temple> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> ;
+ rdfs:label "Chintaman ganesh"@en .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P18 -> image
+wdt:P17 -> country
+wdt:P131 -> located in the administrative territorial entity.
+---
+These are the labels of the objects:
+
+wd:Q4167410 -> Wikimedia disambiguation page.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name !! City / town !! State !! Image 
+|-
+|POURNAMIKAVU TEMPLE 
+(Panjamukh/5-faced Ganesha Temple)
+|Trivandrum
+|Kerala
+|
+|-
+|Jai Vinayak temple
+|Kachare Village, Ratnagiri dist.
+|[[Maharashtra]]
+|
+|-
+|Shree Navshya Ganpati Mandir
+|[[Nashik]], on the banks of [[Godavari River|godavari river]] 
+|[[Maharashtra]] 
+| |}
+---

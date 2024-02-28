@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Anderson_Mill_and_Robinson_Museum> rdfs:label "Anderson Mill and Robinson Museum"@en ;
+    wdt:P131 wd:Q110426 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P276 wd:Q285394 ;
+    wdt:P793 wd:Q385378 .
+
+<https://example.org/resource/Austin_Fire_Museum> rdfs:label "Austin Fire Museum"@en ;
+    wdt:P131 wd:Q110426 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P793 wd:Q385378 .
+
+<https://example.org/resource/Austin_Nature_&_Science_Center> rdfs:label "Austin Nature & Science Center"@en ;
+    wdt:P131 wd:Q110426 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P276 wd:Q16559 ;
+    wdt:P749 wd:Q8071899 ;
+    wdt:P793 wd:Q385378 .
+
+<https://example.org/resource/Beverly_S._Sheffield_Education_Center> rdfs:label "Beverly S. Sheffield Education Center"@en ;
+    wdt:P131 wd:Q110426 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P276 wd:Q16559 ;
+    wdt:P793 wd:Q385378 .
+
+<https://example.org/resource/Christian-Green_Gallery> rdfs:label "Christian-Green Gallery"@en ;
+    wdt:P131 wd:Q110426 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P276 wd:Q16559 ;
+    wdt:P793 wd:Q385378 .
+

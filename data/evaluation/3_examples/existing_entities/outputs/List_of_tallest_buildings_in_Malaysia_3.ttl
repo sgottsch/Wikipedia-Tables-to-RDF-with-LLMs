@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Merdeka_118> rdfs:label "Merdeka 118"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Merdeka%20118%20202303.jpg> ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Petronas_Twin_Towers> rdfs:label "Petronas Twin Towers"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Petronas%20Panorama%20II%20(4to3).jpg> ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "1998-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Exchange_106> rdfs:label "The Exchange 106"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Exchange%20106%20202303.jpg> ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2019-01-01T00:00:00+00:00"^^xsd:dateTime .
+

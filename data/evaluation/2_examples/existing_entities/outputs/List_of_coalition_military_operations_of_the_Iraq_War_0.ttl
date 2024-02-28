@@ -1,0 +1,81 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Operation_Bayonet_Lightning> rdfs:label "Operation Bayonet Lightning"@en ;
+    wdt:P276 wd:Q36986475 ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P361 wd:Q107802 ;
+    wdt:P580 "2003-12-02T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-02T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q30 .
+
+<https://example.org/resource/Operation_Bulldog_Mammoth> rdfs:label "Operation Bulldog Mammoth"@en ;
+    wdt:P276 wd:Q1530 ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P361 wd:Q107802 ;
+    wdt:P580 "2003-12-04T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-04T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q30 .
+
+<https://example.org/resource/Operation_Desert_Scorpion> rdfs:label "Operation Desert Scorpion"@en ;
+    wdt:P276 wd:Q191170 ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P361 wd:Q107802 ;
+    wdt:P580 "2003-06-15T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-06-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q30 .
+
+<https://example.org/resource/Operation_Desert_Thrust> rdfs:label "Operation Desert Thrust"@en ;
+    wdt:P276 wd:Q796 ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P361 wd:Q107802 ;
+    wdt:P580 "2003-10-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-10-31T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Operation_Iron_Hammer> rdfs:label "Operation Iron Hammer (Matraqa Hadidia)"@en ;
+    wdt:P276 wd:Q1530 ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P361 wd:Q107802 ;
+    wdt:P580 "2003-11-12T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-11-12T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q11223,
+        wd:Q6067981,
+        wd:Q9212 .
+
+<https://example.org/resource/Operation_Iron_Justice> rdfs:label "Operation Iron Justice"@en ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P361 wd:Q107802 ;
+    wdt:P580 "2003-12-18T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-18T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q9212 .
+
+<https://example.org/resource/Operation_Ivy_Blizzard> rdfs:label "Operation Ivy Blizzard"@en ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P361 wd:Q107802 ;
+    wdt:P580 "2003-12-17T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-17T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q9212 .
+
+<https://example.org/resource/Operation_Panther_Squeeze> rdfs:label "Operation Panther Squeeze"@en ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P361 wd:Q107802 ;
+    wdt:P580 "2003-12-10T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-10T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Operation_Peninsula_Strike> rdfs:label "Operation Peninsula Strike"@en ;
+    wdt:P276 wd:Q1029645 ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P361 wd:Q107802 ;
+    wdt:P580 "2003-06-09T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-06-13T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q30 .
+
+<https://example.org/resource/Operation_Red_Dawn> rdfs:label "Operation Red Dawn"@en ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P361 wd:Q107802 ;
+    wdt:P580 "2003-12-13T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-13T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q9212 .
+

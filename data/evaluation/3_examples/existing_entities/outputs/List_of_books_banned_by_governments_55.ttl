@@ -1,0 +1,32 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Last_Exit_to_Brooklyn> ns1:P136 <http://www.wikidata.org/entity/Q105420>,
+        <http://www.wikidata.org/entity/Q10857409>,
+        <http://www.wikidata.org/entity/Q113013>,
+        <http://www.wikidata.org/entity/Q1137326>,
+        <http://www.wikidata.org/entity/Q1384425>,
+        <http://www.wikidata.org/entity/Q1498333>,
+        <http://www.wikidata.org/entity/Q1508663>,
+        <http://www.wikidata.org/entity/Q1510761>,
+        <http://www.wikidata.org/entity/Q17105912>,
+        <http://www.wikidata.org/entity/Q1778765>,
+        <http://www.wikidata.org/entity/Q18211073>,
+        <http://www.wikidata.org/entity/Q213457>,
+        <http://www.wikidata.org/entity/Q2279967>,
+        <http://www.wikidata.org/entity/Q2395725>,
+        <http://www.wikidata.org/entity/Q264892>,
+        <http://www.wikidata.org/entity/Q2672648>,
+        <http://www.wikidata.org/entity/Q2995893>,
+        <http://www.wikidata.org/entity/Q3697780>,
+        <http://www.wikidata.org/entity/Q49084>,
+        <http://www.wikidata.org/entity/Q5431887>,
+        <http://www.wikidata.org/entity/Q545825>,
+        <http://www.wikidata.org/entity/Q5853064>,
+        <http://www.wikidata.org/entity/Q627187>,
+        <http://www.wikidata.org/entity/Q7551419>,
+        <http://www.wikidata.org/entity/Q7834250>,
+        <http://www.wikidata.org/entity/Q7900118>,
+        <http://www.wikidata.org/entity/Q837024> ;
+    ns1:P1476 "Last Exit to Brooklyn"@en ;
+    ns1:P50 <http://www.wikidata.org/entity/Q551487> .
+

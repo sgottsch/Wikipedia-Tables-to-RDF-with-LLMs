@@ -1,0 +1,64 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Balan> rdfs:label "Balan"@en ;
+    ns1:P1441 <http://www.wikidata.org/entity/Q1136104>,
+        <http://www.wikidata.org/entity/Q3179725> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617>,
+        <http://www.wikidata.org/entity/Q3658341> .
+
+<https://example.org/resource/Balin> rdfs:label "Balin"@en ;
+    ns1:P1441 <http://www.wikidata.org/entity/Q1136104>,
+        <http://www.wikidata.org/entity/Q3179725> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617>,
+        <http://www.wikidata.org/entity/Q3658341> .
+
+<https://example.org/resource/Bedivere> rdfs:label "Bedivere"@en ;
+    ns1:P1441 <http://www.wikidata.org/entity/Q1136104>,
+        <http://www.wikidata.org/entity/Q2044985>,
+        <http://www.wikidata.org/entity/Q238693>,
+        <http://www.wikidata.org/entity/Q2542444>,
+        <http://www.wikidata.org/entity/Q279810>,
+        <http://www.wikidata.org/entity/Q389906> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617>,
+        <http://www.wikidata.org/entity/Q3658341> .
+
+<https://example.org/resource/Black_Knight> rdfs:label "Black Knight"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617>,
+        <http://www.wikidata.org/entity/Q3658341> .
+
+<https://example.org/resource/Blanchefleur> rdfs:label "Blanchefleur"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617>,
+        <http://www.wikidata.org/entity/Q3658341> .
+
+<https://example.org/resource/Bors_the_Elder> rdfs:label "Bors the Elder"@en ;
+    ns1:P1441 <http://www.wikidata.org/entity/Q1195086>,
+        <http://www.wikidata.org/entity/Q1467333> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617>,
+        <http://www.wikidata.org/entity/Q3658341> .
+
+<https://example.org/resource/Bors_the_Younger> rdfs:label "Bors the Younger"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617> .
+
+<https://example.org/resource/Brangaine> rdfs:label "Brangaine"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617> .
+
+<https://example.org/resource/Breunor_le_Noir> rdfs:label "Breunor le Noir"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617> .
+
+<https://example.org/resource/Brutus_of_Britain> rdfs:label "Brutus of Britain"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617> .
+
+<https://example.org/resource/Cador> rdfs:label "Cador"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617> .
+
+<https://example.org/resource/Caelia> rdfs:label "Caelia"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617> .
+
+<https://example.org/resource/Calogrenant> rdfs:label "Calogrenant"@en ;
+    ns1:P1441 <http://www.wikidata.org/entity/Q1136104> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q15632617> .
+
+<https://example.org/resource/Caradoc> ns1:P1441 rdfs:label,
+        <http://www.wikidata.org/entity/Q1335337> .
+

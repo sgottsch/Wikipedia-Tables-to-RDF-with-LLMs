@@ -1,0 +1,141 @@
+In both
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Rutherford_School> <http://www.w3.org/2000/01/rdf-schema#label> "Rutherford School"@en .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+In ground only
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "6045"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Western%20Heights%20-%20Palomino%20Dr%20to%20Waitakere%20Ranges.jpg> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5568403> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.w3.org/2000/01/rdf-schema#label> "Henderson"@en .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q97930987> .
+<https://example.org/resource/Henderson_South_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "694"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "7170"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q7790579> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.w3.org/2000/01/rdf-schema#label> "Glen Eden"@en .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q112028979> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7640919> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/20230102%20155843%20Rangeview%20Intermediate%20School.jpg> .
+<https://example.org/resource/Tirimoana_School> <http://www.w3.org/2000/01/rdf-schema#label> "Te Atatū South"@en .
+<https://example.org/resource/Henderson_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6550361> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "5174"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q149566> .
+<https://example.org/resource/Henderson_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6802076> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6802076> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6802076> .
+<https://example.org/resource/Henderson_South_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Old%20Henderson%20Railway%20Station%2CNot%20In%20Use%20Now.%20%2812147659335%29.jpg> .
+<https://example.org/resource/Henderson_South_School> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q7790579> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "1313"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "2580"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Henderson_South_School> <http://www.w3.org/2000/01/rdf-schema#label> "Henderson"@en .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5568403> .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5713175> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "6771"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "12867"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "1569"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7099917> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "7500"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P2196> "383"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "11500"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6550361> .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Wade%20Cornell%20sculpture%2C%20Te%20Atatu%20South%20roundabout%2C%20Te%20Atatu%20Road.jpg> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7640919> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7640919> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Old%20Henderson%20Railway%20Station%2CNot%20In%20Use%20Now.%20%2812147659335%29.jpg> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "6970"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "7900"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "9396"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q96414550> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q26888> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P856> <http://www.rutherfordschool.org.uk> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "8594"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q67443130> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q10551839> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "6300"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q15262068> .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5568403> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.w3.org/2000/01/rdf-schema#label> "Rangeview Intermediate School"@en .
+<https://example.org/resource/Henderson_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5713391> .
+<https://example.org/resource/Summerland_Primary> <http://www.w3.org/2000/01/rdf-schema#label> "Western Heights"@en .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "6400"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Henderson_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5568403> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P2196> "429"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6550361> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "8370"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Henderson_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7640919> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7987895> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P571> "1971-06-14T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Rutherford%20School%2C%20Coombe%20-%20geograph.org.uk%20-%202666679.jpg> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "1019"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "8700"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "13761"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "6500"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P856> <http://www.rangeview.school.nz> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q25660318> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P6375> "Keru Place, Te Atatu South, Auckland"@en .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P1082> "11949"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6429390> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q7566929> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Glen%20Eden%2020220413%20113014.jpg> .
+<https://example.org/resource/Henderson_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7987895> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6517338> .
+<https://example.org/resource/Henderson_South_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Henderson_South_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Holy_Cross_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5713391> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5713175> .
+<https://example.org/resource/Rangeview_Intermediate> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+In predicted only
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P856> <http://www.tirimoana.school.nz> .
+<https://example.org/resource/Tirimoana_School> <http://www.w3.org/2000/01/rdf-schema#label> "Tirimoana School"@en .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P6375> "2 Montel Avenue, McLaren Park, Auckland"@en .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P856> <http://www.rutherfordprimary.school.nz> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P6375> "2 Matipo Road, Te Atatū Peninsula, Auckland"@en .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P2196> "4151"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P6375> "2 Seabrook Avenue, Te Atatū South, Auckland"@en .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P571> "2002-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P571> "2002-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P2196> "1536"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P571> "2002-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P856> <http://www.summerland.school.nz> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P2196> "6937"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P2196> "1478"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7987895> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.w3.org/2000/01/rdf-schema#label> "Waitakere Seventh-day Adventist School"@en .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Summerland_Primary> <http://www.w3.org/2000/01/rdf-schema#label> "Summerland Primary"@en .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P571> "2002-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Summerland_Primary> <http://www.wikidata.org/prop/direct/P6375> "95 Summerland Drive, Western Heights, Auckland"@en .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+<https://example.org/resource/Rutherford_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+<https://example.org/resource/Tirimoana_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6802076> .
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> <http://www.wikidata.org/prop/direct/P856> <https://www.waitakeresda.school.nz/> .

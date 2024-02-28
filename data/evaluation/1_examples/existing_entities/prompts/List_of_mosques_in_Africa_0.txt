@@ -1,0 +1,88 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of mosques in Africa" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+!Name
+!class=unsortable|Images
+!Country
+!City
+![[Gregorian calendar|Year]]
+!class=unsortable|Remarks
+|- valign=top id="Ethiopia"
+| [[Al Nejashi Mosque]]
+| [[File:Negash 8.jpg|120px]]
+| {{flag|Ethiopia}}
+| [[Negash]]
+| 7th century
+|  Founded in the 7th century in [[Negash]], by tradition the burial site of several followers of the [[Prophets and messengers in Islam|Islamic Prophet]] [[Muhammad]] who, during his lifetime, fled to the [[Aksumite Kingdom]] to escape persecution in Mecca.<ref>{{Cite web|url=https://www.omanobserver.om/article/28253/Features/the-untold-story-of-king-negash-and-the-al-nejashi-mosque|title=The untold story of King Negash and the al Nejashi Mosque|date=18 July 2019}}</ref> It was recently renovated by TIKA, a Turkish cooperation organization.<ref name="madainnegash">{{cite web |title=Negash Āmedīn Mesgīd |url=https://madainproject.com/negash_amedin_mesgid |website=Madain Project |access-date=30 May 2019}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Al_Nejashi_Mosque> wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ rdfs:label "Al Nejashi Mosque"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Ethiopia> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Negash%2C%20la%20moschea%20sul%20sito%20della%20pi%C3%B9%20antica%20moschea%20d%27etiopia%2C%20del%20vii%20secolo%2003.jpg> .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P17 -> country
+wdt:P18 -> image.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+!Name
+!class=unsortable|Images
+!Country
+!City
+![[Gregorian calendar|Year]]
+!class=unsortable|Remarks
+|- valign=top id="Tanzania"
+| [[Gaddafi Mosque]]
+| [[File:Dodoma Mosque, Front, Dodoma City Counci.jpg|120px]]
+| {{flag|Tanzania}}
+| [[Dodoma]]
+| 2010
+| 
+|- valign=top
+| [[Great Mosque of Kilwa]]
+| [[File:GreatMosque.jpg|120px]]
+| {{flag|Tanzania}}
+| [[Kilwa Kisiwani|Kilwa]]
+| ~1000
+| Historical – one of the earliest surviving mosques in East Africa
+|- valign=top
+| [[Kizimkazi Mosque]]
+| [[File:KizimkaziMosque3.JPG|120px]] 
+| {{flag|Tanzania}}
+| [[Dimbani]]
+| 1107
+|
+|- valign=top
+| [[List of mosques in Tunisia]]
+| 
+| {{flag|Tunisia}}
+| 
+| 
+|
+|- valign=top id="Uganda"
+| [[Uganda National Mosque]]
+| [[File:Laika ac Gaddafi National Mosque, Kampala (6693328097).jpg|120px]]
+| {{flag|Uganda}}
+| [[Kampala]]
+| 2006
+| Opened in June 2007<ref>[http://www.ugpulse.com/articles/daily/Travel-Tourism.asp?ID=482 New Mosque Redraws Kampala's Skyline], 24. August 2006; [http://www.newvision.co.ug/D/8/12/569459 Libyans open Old Kampala mosque] {{webarchive|url=https://web.archive.org/web/20150626222703/http://www.newvision.co.ug/D/8/12/569459 |date=2015-06-26 }}, 8. Juni 2007</ref> |}
+---

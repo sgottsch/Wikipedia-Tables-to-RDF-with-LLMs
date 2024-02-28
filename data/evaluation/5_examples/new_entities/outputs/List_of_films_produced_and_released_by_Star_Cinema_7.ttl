@@ -1,0 +1,49 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Daddy_Oh,_Baby_Oh> rdfs:label "Daddy Oh, Baby Oh"@en ;
+    wdt:P136 wd:Q130232,
+        wd:Q157443 ;
+    wdt:P161 wd:Q3241481,
+        wd:Q4762076,
+        wd:Q7453114 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q5387313 ;
+    wdt:P577 "2000-06-14T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q7600659 .
+
+<https://example.org/resource/Ex-Con> rdfs:label "Ex-Con"@en ;
+    wdt:P136 wd:Q188473 ;
+    wdt:P161 wd:Q20586272,
+        wd:Q3543475 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "2000-12-13T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q7600659 .
+
+<https://example.org/resource/Kahit_Isang_Saglit> rdfs:label "Kahit Isang Saglit"@en ;
+    wdt:P136 wd:Q1054574,
+        wd:Q130232 ;
+    wdt:P161 wd:Q1928501,
+        wd:Q1956929 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q5561147 ;
+    wdt:P577 "2000-11-15T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q7600659 .
+
+<https://example.org/resource/Minsan_Minahal_Kita> rdfs:label "Minsan Minahal Kita"@en ;
+    wdt:P136 wd:Q1054574,
+        wd:Q130232 ;
+    wdt:P161 wd:Q3348165,
+        wd:Q466942,
+        wd:Q6108639 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q7088065 ;
+    wdt:P577 "2000-02-23T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q7600659 .
+

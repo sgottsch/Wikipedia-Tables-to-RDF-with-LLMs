@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Crusty_the_Cat> rdfs:label "Crusty the Cat"@en ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q52688389 .
+
+<https://example.org/resource/Walter> rdfs:label "Walter the cat"@en ;
+    wdt:P1268 wd:Q29570 ;
+    wdt:P138 wd:Q29570 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q27120684,
+        wd:Q4686758 ;
+    wdt:P6291 wd:Q29570 .
+

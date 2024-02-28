@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Kung_Ako_Na_Lang_Sana> rdfs:label "Kung Ako Na Lang Sana"@en ;
+    wdt:P161 wd:Q1869913,
+        wd:Q277947,
+        wd:Q466942,
+        wd:Q6292560 ;
+    wdt:P272 wd:Q7600659 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q33298 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P840 wd:Q17 .
+

@@ -1,0 +1,142 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Ganpatipule> rdfs:label "Ganpatipule"@en ;
+    wdt:P131 wd:Q1771768 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ganpati%20Temple%2C%20Ganpatipule.JPG> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Kalamassery_Mahaganapathy_Temple> rdfs:label "Kalamassery Mahaganapathy Temple"@en ;
+    wdt:P131 wd:Q2475675 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Kanipakam_Vinayaka_Temple> rdfs:label "Kanipakam Vinayaka Temple"@en ;
+    wdt:P131 wd:Q11055174 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kanipakam%20Temple%20Gopuram%20view.jpg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Karpaka_Vinayakar_Temple> rdfs:label "Karpaka Vinayakar Temple"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Kasba_Ganapati> rdfs:label "Kasba Ganapati"@en ;
+    wdt:P131 wd:Q1538 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/KasbaganpatiMandir.JPG> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Khajrana_Ganesh_Temple> rdfs:label "Khajrana Ganesh Temple"@en ;
+    wdt:P131 wd:Q66616 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Kottarakkara_Sree_Mahaganapathi_Kshethram> rdfs:label "Kottarakkara Sree Mahaganapathi Kshethram"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kottarakkara%20Temple(HighResoluion).jpg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Kumara_Swamy_Devasthana,_Bangalore> rdfs:label "Kumara Swamy Devasthana, Bangalore"@en ;
+    wdt:P131 wd:Q1355 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Madhur_Temple> rdfs:label "Madhur Temple"@en ;
+    wdt:P131 wd:Q1419703 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ananteshwara%20Vinayaka%20Temple.jpg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Maha_Ganapathi_Mahammaya_Temple> rdfs:label "Maha Ganapathi Mahammaya Temple"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/ShiraliMahaGanapathy.jpg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Mahavinayak_Temple> rdfs:label "Mahavinayak Temple"@en ;
+    wdt:P131 wd:Q2087771 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mahabinayak%20temple.jpg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Nandrudayan_Vinayaka_Temple> rdfs:label "Nandrudayan Vinayaka Temple"@en ;
+    wdt:P131 wd:Q207754 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Padmalaya> rdfs:label "Padmalaya"@en ;
+    wdt:P131 wd:Q1797291 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Padmalaya%20temple.jpeg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Pazhavangadi_Ganapathy_Temple> rdfs:label "Pazhavangadi Ganapathy Temple"@en ;
+    wdt:P131 wd:Q162612 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Ranjangaon_Ganpati> rdfs:label "Ranjangaon Ganpati"@en ;
+    wdt:P131 wd:Q1797336 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ranjangaon%20Mahaganapati%20Temple%20Viman.jpg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Siddhivinayak_Mahaganapati_Temple> rdfs:label "Siddhivinayak Mahaganapati Temple"@en ;
+    wdt:P131 wd:Q943099 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Siddhivinayak_Temple> rdfs:label "Siddhivinayak Temple"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Famous%20SiddhiVinayak%20Temple.jpg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Sree_Indilayappan_Temple> rdfs:label "Sree Indilayappan Temple"@en ;
+    wdt:P131 wd:Q1356124 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/ഇണ്ടിളയപ്പന്‍%20ക്ഷേത്രം.jpg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Sri_Vinayaka_Temple_Guddattu> rdfs:label "Sri Vinayaka Temple, Guddattu"@en ;
+    wdt:P131 wd:Q1483337 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Swayambhu_Sri_Abhista_Gnana_Ganapathi_Temple> rdfs:label "Swayambhu Sri Abhista Gnana Ganapathi Temple"@en ;
+    wdt:P131 wd:Q15381 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/knl-ganapathi.jpg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Swetha_Vinayagar_Temple> rdfs:label "Swetha Vinayagar Temple"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Tarsod-Ganapati_Temple> rdfs:label "Tarsod-Ganapati Temple"@en ;
+    wdt:P131 wd:Q1797291 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Thoondugai_vinayagar_temple> rdfs:label "Thoondugai vinayagar temple"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Ucchi_Pillayar_Temple_Rockfort> rdfs:label "Ucchi Pillayar Temple, Rockfort"@en ;
+    wdt:P131 wd:Q15201 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Rock%20Fort%20view1.jpg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Uthrapathiswaraswamy_Temple> rdfs:label "Uthrapathiswaraswamy Temple"@en ;
+    wdt:P131 wd:Q15197 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ganapathi%20Temple,%20Thiruchengattankudi.jpg> ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Varasiddhi_Vinayaka_Temple> rdfs:label "Varasiddhi Vinayaka Temple"@en ;
+    wdt:P131 wd:Q1352 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+

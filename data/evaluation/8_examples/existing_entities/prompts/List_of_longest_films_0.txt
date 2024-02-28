@@ -1,0 +1,343 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of longest films" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|+ Cinematic films
+|-
+! Title
+! Running time
+! Director
+! Year released
+! scope="col" class="unsortable" | Notes
+|-
+| ''[[Resan]]'' (''The Journey'')
+| 873 min (14 hr, 33 min)
+|[[Peter Watkins]]
+| 1987
+| <ref name="Ash2003">{{cite book
+|last=Ash
+|first=Russell
+|author-link=Russell Ash
+|title=The Top 10 of Film
+|url=https://books.google.com/books?id=--mEiDR39BEC
+|access-date=October 15, 2010
+|date=September 23, 2003
+|publisher=Dorling Kindersley
+|page=21|isbn=9780789496409
+}}</ref>
+|-
+| ''[[La flor]]''
+| 803 min (13 hr, 23 min)
+|Mariano Llinás
+| 2018
+| <ref>{{Cite web|url=https://www.filmlinc.org/nyff2018/films/la-flor/|title=La Flor|year=2018|publisher=[[Film Society of Lincoln Center]]|access-date=2018-09-17}}</ref>
+|-
+| ''[[Out 1]]'' (''Noli me tangere'') 
+| 775 min (12 hr, 55 min)
+|[[Jacques Rivette]]
+| 1971
+| <ref>{{Cite web|url=http://bluray.highdefdigest.com/26798/out1.html|title=Out 1 Blu-ray Disc Details {{!}} High-Def Digest|website=bluray.highdefdigest.com|language=en|access-date=2017-06-16}}</ref>
+|-
+| ''[[How Yukong Moved the Mountains]]''
+| 763 min (12 hr, 43 min)
+|[[Joris Ivens]]<br />[[Marceline Loridan-Ivens]]
+| 1976
+| <ref>{{cite web|url=http://www.moma.org/visit/calendar/films/932|title=''MoMa film exhibitions: How Yukong Moved the Mountains''|website=moma.org|date=22 February 2006|archive-url=https://web.archive.org/web/20170112232614/https://www.moma.org/calendar/exhibitions/931/|archive-date=12 January 2017|access-date=24 September 2023}}</ref>
+|-
+| ''[[Shoah (film)|Shoah]]''
+| 566 min (9 hr, 26 min)
+|[[Claude Lanzmann]]
+| 1985
+| <ref>{{Cite web|url=http://bluray.highdefdigest.com/8909/shoah.html|title=Shoah Blu-ray Review {{!}} High Def Digest|website=bluray.highdefdigest.com|language=en|access-date=2017-06-16}}</ref>
+|-
+|''[[Tie Xi Qu: West of the Tracks]]''
+| 551 min (9 hr, 11 min)
+|[[Wang Bing (director)|Wang Bing]]
+| 2003
+|<ref>{{Cite news|url=https://www2.bfi.org.uk/news-opinion/sight-sound-magazine/features/was-china-wang-bing-s-west-tracks|title=This was China: Wang Bing's West of the Tracks {{!}} Sight & Sound|work=British Film Institute|access-date=2017-06-17|language=en}}</ref>
+|-
+| ''[[Death in the Land of Encantos]]''
+| 538 min (8 hr, 58 min)
+|[[Lav Diaz]]
+| 2007
+| <ref>{{Cite web|url=https://variety.com/2007/film/reviews/death-in-the-land-of-encantos-1200555719/|title=Death in the Land of Encantos {{!}} Variety|website=variety.com|date=October 3, 2007|language=en|access-date=2019-06-02}}</ref>
+|-
+|''[[Heremias|Heremias: (Book One: Legend of the Lizard Princess)]]''
+| 519 min (8 hr, 39 min)
+|[[Lav Diaz]]
+| 2006
+|<ref>{{Citation|title=Heremias (Book One: The Legend of the Lizard Princess)|url=https://mubi.com/films/heremias-book-one-the-legend-of-the-lizard-princess|work=[[MUBI]]|language=en|access-date=2020-06-05}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Resan> wdt:P161 <https://en.wikipedia.org/wiki/Martin_Duckworth> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Italy> ;
+ wdt:P462 <https://en.wikipedia.org/wiki/Black-and-white> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Peter_Watkins> ;
+ wdt:P2047 "873"^^xsd:decimal ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Peter_Watkins> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Australia> ;
+ wdt:P161 wd:Q2093592 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P577 "1987-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Documentary_film> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Peter_Watkins> ;
+ rdfs:label "Resan"@en .
+
+<https://example.org/resource/La_flor> wdt:P161 wd:Q27949845 ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Mariano_Llin%C3%A1s> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Drama_(film_and_television)> ;
+ rdfs:label "La Flor"@en ;
+ wdt:P527 wd:Q106097512 ;
+ wdt:P921 wd:Q3328821 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Mariano_Llin%C3%A1s> ;
+ wdt:P161 wd:Q106189215 ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Spanish_language> ;
+ wdt:P527 wd:Q106097519 ;
+ wdt:P2047 "890"^^xsd:decimal ;
+ wdt:P856 <http://elpamperocine.com.ar/laflor.html> ;
+ wdt:P527 wd:Q106097516 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/La%20Flor%20structure.png> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Mariano_Llin%C3%A1s> ;
+ wdt:P577 "2018-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P86 wd:Q106243603 ;
+ wdt:P5028 wd:Q106281630 ;
+ wdt:P161 wd:Q5696453 ;
+ wdt:P5150 wd:Q52692412 ;
+ wdt:P973 <https://mubi.com/de/notebook/posts/experiencing-mariano-llinas-s-la-flor> ;
+ wdt:P973 <https://mubi.com/de/notebook/posts/la-flor-seven-propositions> ;
+ wdt:P973 <https://mubi.com/de/notebook/posts/nyff-what-is-one-to-do-with-mariano-llinas-s-14-hour-la-flor> ;
+ wdt:P2635 "6"^^xsd:decimal ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Laura_Citarella> ;
+ wdt:P527 wd:Q106097514 ;
+ wdt:P161 wd:Q28001335 ;
+ wdt:P2758 wd:Q23817729 ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P527 wd:Q106097509 ;
+ wdt:P577 "2019-07-25T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1040 wd:Q106243109 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Argentina> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Anthology_film> .
+
+<https://example.org/resource/Out_1> wdt:P161 <https://en.wikipedia.org/wiki/Bulle_Ogier> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Pierre_Baillot> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Drama_(film_and_television)> ;
+ wdt:P344 <https://en.wikipedia.org/wiki/Pierre-William_Glenn> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P1040 <https://en.wikipedia.org/wiki/Nicole_Lubtchansky> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/%C3%89ric_Rohmer> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Fran%C3%A7oise_Fabian> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/French_language> ;
+ wdt:P462 <https://en.wikipedia.org/wiki/Black-and-white> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Jacques_Rivette> ;
+ wdt:P161 wd:Q3124163 ;
+ wdt:P161 wd:Q3168981 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Barbet_Schroeder> ;
+ wdt:P2047 "776"^^xsd:decimal ;
+ wdt:P161 wd:Q3384539 ;
+ wdt:P161 wd:Q2848018 ;
+ wdt:P161 wd:Q3298864 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Marc_Chapiteau> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/St%C3%A9phane_Tchalgadjieff> ;
+ wdt:P161 wd:Q3309416 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Bernard_Eisenschitz> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Suzanne_Schiffman> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/St%C3%A9phane_Tchalgadjieff> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Guillaume_Schiffman> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Michael_Lonsdale> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_St%C3%A9venin> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Marcel_Bozonnet> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Michel_Berto> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Brigitte_Ro%C3%BCan> ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Jean-Pierre_Drouet> ;
+ wdt:P161 wd:Q2965730 ;
+ wdt:P161 wd:Q2830037 ;
+ wdt:P161 wd:Q3105996 ;
+ wdt:P161 wd:Q3134232 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Mich%C3%A8le_Moretti> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jacques_Doniol-Valcroze> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Jacques_Rivette> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Bernadette_Lafont> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jean-Pierre_L%C3%A9aud> ;
+ wdt:P577 "1971-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Juliet_Berto> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jean_Bouise> ;
+ wdt:P462 wd:Q22006653 ;
+ rdfs:label "Out 1"@en .
+
+<https://example.org/resource/How_Yukong_Moved_the_Mountains> wdt:P577 "1976-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Joris_Ivens> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/French_language> ;
+ wdt:P344 <https://en.wikipedia.org/wiki/Joris_Ivens> ;
+ wdt:P2047 "763"^^xsd:decimal ;
+ wdt:P1040 <https://en.wikipedia.org/wiki/Joris_Ivens> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/China> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Documentary_film> ;
+ rdfs:label "How Yukong Moved the Mountains"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Miniseries> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Marceline_Loridan-Ivens> .
+
+<https://example.org/resource/Shoah> wdt:P161 <https://en.wikipedia.org/wiki/Rudolf_Vrba> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Raul_Hilberg> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Mordecha%C3%AF_Podchlebnik> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P577 "1985-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P750 <https://en.wikipedia.org/wiki/New_Yorker_Films> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Hebrew_language> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/French_language> ;
+ wdt:P344 <https://en.wikipedia.org/wiki/William_Lubtchansky> ;
+ rdfs:label "Shoah"@en ;
+ wdt:P2047 "540"^^xsd:decimal ;
+ wdt:P1435 <https://en.wikipedia.org/wiki/Memory_of_the_World_Programme> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Claude_Lanzmann> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/World_War_II> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P856 <http://www.ifcfilms.com/films/shoah/> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Szymon_Srebrnik> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Claude_Lanzmann> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/The_Holocaust> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Documentary_film> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/German_language> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Claude_Lanzmann> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jan_Karski> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Claude_Lanzmann> ;
+ wdt:P1981 wd:Q20644796 ;
+ wdt:P2758 wd:Q23817729 ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Netflix> .
+
+<https://example.org/resource/Tie_Xi_Qu:_West_of_the_Tracks> rdfs:label "Tie Xi Qu: West of the Tracks"@en ;
+ wdt:P577 "2003-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Chinese_language> ;
+ wdt:P2047 "551"^^xsd:decimal ;
+ wdt:P361 wd:Q100705570 ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Wang_Bing_(director)> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/China> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Wang_Bing_(director)> ;
+ wdt:P2061 <https://en.wikipedia.org/wiki/Fullscreen_(aspect_ratio)> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Documentary_film> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Wang_Bing_(director)> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Liaoning> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P344 <https://en.wikipedia.org/wiki/Wang_Bing_(director)> .
+
+<https://example.org/resource/Death_in_the_Land_of_Encantos> wdt:P57 <https://en.wikipedia.org/wiki/Lav_Diaz> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Drama_(film_and_television)> ;
+ wdt:P577 "2007-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Death in the Land of Encantos"@en ;
+ wdt:P2047 "540"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Lav_Diaz> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> .
+
+<https://example.org/resource/Heremias:_(Book_One:_Legend_of_the_Lizard_Princess)> wdt:P57 <https://en.wikipedia.org/wiki/Lav_Diaz> ;
+ wdt:P2047 "540"^^xsd:decimal ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ronnie_Lazaro> ;
+ wdt:P344 <https://en.wikipedia.org/wiki/Tamara_Benitez> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Independent_film> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ rdfs:label "Heremias"@en ;
+ wdt:P577 "2006-01-01T00:00:00Z"^^xsd:dateTime .
+---
+These are the labels of the properties:
+
+wdt:P161 -> cast member
+wdt:P495 -> country of origin
+wdt:P462 -> color
+wdt:P162 -> producer
+wdt:P2047 -> duration
+wdt:P57 -> director
+wdt:P31 -> instance of
+wdt:P577 -> publication date
+wdt:P136 -> genre
+wdt:P58 -> screenwriter
+wdt:P437 -> distribution format
+wdt:P527 -> has part(s)
+wdt:P921 -> main subject
+wdt:P364 -> original language of film or TV show
+wdt:P856 -> official website URL
+wdt:P18 -> image
+wdt:P86 -> composer
+wdt:P5028 -> sound designer
+wdt:P5150 -> IGAC rating
+wdt:P973 -> described at URL
+wdt:P2635 -> number of parts of this work
+wdt:P2758 -> CNC film rating (France)
+wdt:P1040 -> film editor
+wdt:P344 -> director of photography
+wdt:P750 -> distributed by
+wdt:P1435 -> heritage designation
+wdt:P1981 -> FSK film rating
+wdt:P361 -> part of
+wdt:P2061 -> aspect ratio (W:H)
+wdt:P840 -> narrative location.
+---
+These are the labels of the objects:
+
+wd:Q2093592 -> Pierre Landry
+wd:Q27949845 -> Elisa Carricajo
+wd:Q106097512 -> La Flor - Episode 3
+wd:Q3328821 -> narration
+wd:Q106189215 -> Valeria Correa
+wd:Q106097519 -> La Flor - Episode 6
+wd:Q106097516 -> La Flor - Episode 5
+wd:Q106243603 -> Gabriel Chwojnik
+wd:Q106281630 -> Rodrigo Sánchez Mariño
+wd:Q5696453 -> Pilar Gamboa
+wd:Q52692412 -> M/14
+wd:Q106097514 -> La Flor - Episode 4
+wd:Q28001335 -> Laura Paredes
+wd:Q23817729 -> no age restriction
+wd:Q22006653 -> color
+wd:Q106097509 -> La Flor - Episode 2
+wd:Q106243109 -> Alejo Moguillansky
+wd:Q3124163 -> Gérard Martin
+wd:Q3168981 -> Jean-Pierre Bastid
+wd:Q3384539 -> Pierre Cottrell
+wd:Q2848018 -> André Julien
+wd:Q3298864 -> Mathieu Schiffman
+wd:Q3309416 -> Michel Delahaye
+wd:Q2965730 -> Christian de Tillière
+wd:Q2830037 -> Alain Libolt
+wd:Q3105996 -> Gilette Barbier
+wd:Q3134232 -> Hermine Karagheuz
+wd:Q20644796 -> FSK 12
+wd:Q100705570 -> new documentary movement films.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|+ Cinematic films
+|-
+! Title
+! Running time
+! Director
+! Year released
+! scope="col" class="unsortable" | Notes
+|-
+|''[[The Deluge (film)|The Deluge]]''
+|315 min (5 hr, 15 min)
+|[[Jerzy Hoffman]]
+|1974
+|<ref>{{Citation|title=The Deluge|url=https://mubi.com/films/the-deluge-1974|language=en|access-date=2018-02-23}}</ref>
+|-
+|''[[Fanny and Alexander]]''
+|314 min (5 hr, 14 min)
+|[[Ingmar Bergman]]
+|1982
+|<ref>{{cite web |title=Fanny and Alexander |url=https://www.svenskfilmdatabas.se/en/item/?type=film&itemid=16184 |website=[[Swedish Film Database]] |publisher=[[Svenska filminstitutet]]}}</ref> |}
+---

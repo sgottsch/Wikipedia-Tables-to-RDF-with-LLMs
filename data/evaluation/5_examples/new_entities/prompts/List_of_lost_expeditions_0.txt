@@ -1,0 +1,181 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of lost expeditions" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! style="width:21%;"| Name
+! style="width:15%;"| Leader
+! style="width:7%;"| Year lost
+! style="width:10%;"| Region
+! style="width:55%;"| Comments
+|- valign="top"
+| [[Lost Army of Cambyses]]
+| [[Cambyses II]]
+| 524 BC
+| [[Egypt]]
+| {{flagicon|Achaemenid Empire}} [[Cambyses II]] sent his army to destroy the [[Oracle of Ammon]] at [[Siwa Oasis]] in 524 BC. 50,000 warriors entered Egypt’s western desert near [[Luxor]]. According to the ancient historian [[Herodotus]], somewhere in the middle of the desert the army was overwhelmed by a sandstorm and were presumed destroyed.
+|- valign="top"
+| [[Vandino and Ugolino Vivaldi|Vivaldi expedition]]
+| [[Ugolino Vivaldi|Vandino and Ugolino Vivaldi]]
+| 1291
+| [[Morocco]] (North Africa)
+| {{flagicon|Republic of Genoa}} Genoese exploration voyage to find a sea route to India. It was one of the first recorded voyages to sail from the Mediterranean into the Atlantic Ocean since the [[fall of the Roman Empire]] in the 5th century AD, and predated attempts by [[Christopher Columbus]] and [[Vasco da Gama]] by two centuries.
+|- valign="top"
+| [[Franklin's lost expedition]]
+| [[John Franklin]]
+| 1845
+| [[Victoria Strait]] (Canadian Arctic)
+| {{flagicon|UK}} British expedition to traverse the last unnavigated section of the [[Northwest Passage]].
+|- valign="top"
+| [[Russian polar expedition of 1900-1902]]
+| [[Eduard Von Toll]]
+| 1902
+| [[Bennett Island]] (Arctic Ocean, north of Siberia)
+| {{flagicon|Russia}} Russian expedition to search for the legendary [[Sannikov Land]].
+|- valign="top"
+| [[Terra Nova Expedition|''Terra Nova'' expedition]]
+| [[Robert Falcon Scott]]
+| 1913
+| [[Antarctica]]
+| {{flagicon|UK}} British expedition to become the first to reach the geographical [[South Pole]]. |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Lost_Army_of_Cambyses> wdt:P31 wd:Q110903080 ;
+ wdt:P585 "-0523-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Lost Army of Cambyses"@en ;
+ wdt:P361 <https://en.wikipedia.org/wiki/First_Achaemenid_conquest_of_Egypt> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Western_Desert_(Egypt)> .
+
+<https://example.org/resource/Vivaldi_expedition> wdt:P937 <https://en.wikipedia.org/wiki/Strait_of_Gibraltar> ;
+ wdt:P3989 wd:Q12038843 ;
+ rdfs:label "Vandino and Ugolino Vivaldi"@en ;
+ wdt:P527 wd:Q15056182 ;
+ wdt:P3989 <https://en.wikipedia.org/wiki/Sailor> ;
+ wdt:P527 wd:Q15056183 ;
+ wdt:P580 "1291-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P937 <https://en.wikipedia.org/wiki/Genoa> ;
+ wdt:P31 wd:Q14073567 .
+
+<https://example.org/resource/Franklin's_lost_expedition> rdfs:label "Franklin's lost expedition"@en ;
+ wdt:P1343 wd:Q19219752 ;
+ wdt:P1876 <https://en.wikipedia.org/wiki/HMS_Erebus_(1826)> ;
+ wdt:P15 <http://commons.wikimedia.org/wiki/Special:FilePath/Franklin%27s%20lost%20expedition%20map.png> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/John_Hartnell> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/John_Torrington> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_Kingdom_of_Great_Britain_and_Ireland> ;
+ wdt:P580 "1845-05-19T00:00:00Z"^^xsd:dateTime ;
+ wdt:P710 <https://en.wikipedia.org/wiki/James_Fitzjames> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Harry_Goodsir> ;
+ wdt:P1037 <https://en.wikipedia.org/wiki/John_Franklin> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/HMSTerrorThrownUpByIce.jpg> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/William_Braine> ;
+ wdt:P582 "1848-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:Franklin%27s_lost_expedition> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Francis_Crozier> ;
+ wdt:P1876 <https://en.wikipedia.org/wiki/HMS_Terror_(1813)> ;
+ wdt:P31 wd:Q366301 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Canada> .
+
+<https://example.org/resource/Russian_polar_expedition_of_1900-1902> rdfs:label "Russian polar expedition of 1900–02"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/1900-RussianPolarExpedition.png> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Russian_Empire> ;
+ wdt:P31 wd:Q366301 ;
+ wdt:P585 "1902-12-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/''Terra_Nova''_expedition> wdt:P710 <https://en.wikipedia.org/wiki/Frank_Debenham> ;
+ wdt:P710 wd:Q4334608 ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Raymond_Priestley> ;
+ rdfs:label "Terra Nova expedition"@en ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Lawrence_Oates> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Edward_Nelson_(marine_biologist)> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Denis_G._Lillie> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Scottgroup.jpg> ;
+ wdt:P710 wd:Q107596995 ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Apsley_Cherry-Garrard> ;
+ wdt:P580 "1910-06-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P710 <https://en.wikipedia.org/wiki/George_Simpson_(meteorologist)> ;
+ wdt:P710 wd:Q4138873 ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Edward_Wilson_(explorer)> ;
+ wdt:P1876 <https://en.wikipedia.org/wiki/Terra_Nova_(ship)> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Robert_Falcon_Scott> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:Terra_Nova_expedition> ;
+ wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/Terra%20Nova%20Expedition-ar.ogg> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/C._S._Wright> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Henry_Robertson_Bowers> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Thomas_Griffith_Taylor> ;
+ wdt:P582 "1913-06-14T00:00:00Z"^^xsd:dateTime ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Edward_Evans,_1st_Baron_Mountevans> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Edgar_Evans> ;
+ wdt:P31 wd:Q366301 .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P585 -> point in time
+wdt:P361 -> part of
+wdt:P276 -> location
+wdt:P937 -> work location
+wdt:P3989 -> members have occupation
+wdt:P527 -> has part(s)
+wdt:P580 -> start time
+wdt:P1343 -> described by source
+wdt:P1876 -> vessel
+wdt:P15 -> route map
+wdt:P710 -> participant
+wdt:P495 -> country of origin
+wdt:P1037 -> director / manager
+wdt:P18 -> image
+wdt:P582 -> end time
+wdt:P910 -> topic's main category
+wdt:P17 -> country
+wdt:P443 -> pronunciation audio.
+---
+These are the labels of the objects:
+
+wd:Q110903080 -> unexplained disappearance of a human
+wd:Q12038843 -> seafarer
+wd:Q15056182 -> Ugolino de Vivaldo
+wd:Q15056183 -> Vadino de Vivaldo
+wd:Q14073567 -> sibling duo
+wd:Q19219752 -> Meyers Konversations-Lexikon, 4th edition (1885–1890)
+wd:Q366301 -> research expedition
+wd:Q4334608 -> Anton Omelchenko
+wd:Q107596995 -> Francis R H Drake
+wd:Q4138873 -> Dmitry Girev.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! style="width:21%;"| Name
+! style="width:15%;"| Leader
+! style="width:7%;"| Year lost
+! style="width:10%;"| Region
+! style="width:55%;"| Comments
+|- valign="top"
+| Ferrer expedition
+| [[Jaume Ferrer]]
+| 1346
+| [[Cape Bojador]] (Western Sahara)
+| [[File:Armoiries Majorque.svg|20px]] Majorcan expedition to locate a fabled "river of gold" somewhere on the African continent.
+|- valign="top"
+| Corte-Real expedition
+| [[Gaspar Corte-Real]]
+| 1501
+| [[Labrador]] (Canada)
+| {{flagicon|POR}} Portuguese expedition to discover the [[Northwest Passage]]. Part of the expedition, captained by Gaspar's brother [[Miguel Corte-Real]], were sent back to Portugal and are the only known survivors from this expedition.
+|- valign="top"
+| Corte-Real rescue expedition
+| [[Miguel Corte-Real]]
+| 1502
+| [[Atlantic Ocean]]
+| {{flagicon|POR}} Portuguese rescue mission to search for lost explorer [[Gaspar Corte-Real]]. |}
+---

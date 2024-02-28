@@ -1,0 +1,288 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/A.R.O.G> wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q43 ;
+    wdt:P577 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Aztec_Rex> wdt:P136 wd:Q471839 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Baby_Secret_of_the_Lost_Legend> wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1985-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Bakuryu_Sentai_Abaranger_20th_The_Unforgivable_Fury> wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "2023-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Barneys_Great_Adventure> wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1998-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Battle_at_Big_Rock> wdt:P136 wd:Q2336369,
+        wd:Q366459 ;
+    wdt:P2047 8.0 ;
+    wdt:P31 wd:Q24862 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P57 wd:Q5145625 ;
+    wdt:P577 "2019-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "2019-12-31T23:59:59+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.jurassicworld.com/news/battle-at-big-rock> ;
+    wdt:P915 wd:Q30 .
+
+<https://example.org/resource/Blackadder_Back_Forth> wdt:P2047 33.0 ;
+    wdt:P31 wd:Q24862 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "1999-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "1999-12-31T23:59:59+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Bringing_Up_Baby> wdt:P2047 102.0 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1938-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "1938-12-31T23:59:59+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Brute_Force> wdt:P2047 60.0 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1914-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "1914-12-31T23:59:59+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Carnosaur> wdt:P495 wd:Q30 ;
+    wdt:P577 1993 .
+
+<https://example.org/resource/Carnosaur_2> wdt:P495 wd:Q30 ;
+    wdt:P577 1995 .
+
+<https://example.org/resource/Carnosaur_3_Primal_Species> wdt:P495 wd:Q30 ;
+    wdt:P577 1996 .
+
+<https://example.org/resource/Caveman> wdt:P495 wd:Q30 ;
+    wdt:P577 1981 .
+
+<https://example.org/resource/Destroy_All_Monsters> wdt:P495 wd:Q17 ;
+    wdt:P577 1968 .
+
+<https://example.org/resource/Dino_Dana:_The_Movie> wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q16,
+        <https://en.wikipedia.org/wiki/United_States> ;
+    wdt:P577 "2020-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinocroc> wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2004-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinocroc_vs_Supergator> wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaur_Island_(1994_film)> rdfs:label "Dinosaur Island (1994 film)"@en ;
+    wdt:P2047 1994.0 ;
+    wdt:P495 wd:Q30 .
+
+<https://example.org/resource/Dinosaur_Island_(2014_film)> rdfs:label "Dinosaur Island (2014 film)"@en ;
+    wdt:P2047 2014.0 ;
+    wdt:P495 wd:Q408 .
+
+<https://example.org/resource/Dinosaur_from_the_Deep> wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q142 ;
+    wdt:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaurs:_Giants_of_Patagonia> rdfs:label "Dinosaurs: Giants of Patagonia"@en ;
+    wdt:P2047 2007.0 ;
+    wdt:P495 wd:Q30 .
+
+<https://example.org/resource/Dinosaurs:_The_Final_Day_with_David_Attenborough> wdt:P495 wd:Q145 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaurs_Alive!> wdt:P495 wd:Q30 ;
+    wdt:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaurus!> rdfs:label "Dinosaurus!"@en ;
+    wdt:P2047 1960.0 ;
+    wdt:P495 wd:Q30 .
+
+<https://example.org/resource/Dinoshark> rdfs:label "Dinoshark"@en ;
+    wdt:P2047 2010.0 ;
+    wdt:P495 wd:Q30 .
+
+<https://example.org/resource/Dinotopia_miniseries> rdfs:label "Dinotopia miniseries"@en ;
+    wdt:P31 wd:Q1259759 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2002-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Doctor_Strange_in_the_Multiverse_of_Madness> rdfs:label "Doctor Strange in the Multiverse of Madness"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Flying_Elephants> rdfs:label "Flying Elephants"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1928-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Future_War> rdfs:label "Future War"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Godzilla_1954_film> rdfs:label "Godzilla (1954 film)"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "1954-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Godzilla_King_of_the_Monsters> rdfs:label "Godzilla, King of the Monsters!"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1956-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Godzilla_vs_King_Ghidorah> wdt:P1476 "Godzilla vs. King Ghidorah"@en ;
+    wdt:P2047 1991.0 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "1991-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.smithsonianmag.com/science-nature/what-kind-of-dinosaur-is-godzilla-45639768/> .
+
+<https://example.org/resource/House_II_The_Second_Story> wdt:P1476 "House II: The Second Story"@en ;
+    wdt:P2047 1987.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://stopmotionmagazine.com/wp-content/uploads/2015/09/April-2010-Issue1.pdf> .
+
+<https://example.org/resource/Iron_Sky_The_Coming_Race> wdt:P1476 "Iron Sky: The Coming Race"@en ;
+    wdt:P2047 2017.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q33 ;
+    wdt:P577 "2017-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Its_Alive> wdt:P1476 "It's Alive!"@en ;
+    wdt:P2047 1969.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1969-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Journey_to_the_Beginning_of_Time> wdt:P1476 "Journey to the Beginning of Time"@en ;
+    wdt:P2047 1955.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q33946 ;
+    wdt:P577 "1955-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Journey_to_the_Center_of_the_Earth> wdt:P1476 "Journey to the Center of the Earth"@en ;
+    wdt:P2047 1959.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1959-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_City> wdt:P1476 "Jurassic City"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Park> wdt:P1476 "Jurassic Park"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1993-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Park_III> wdt:P1476 "Jurassic Park III"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2001-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_World> wdt:P1476 "Jurassic World"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_World:_Fallen_Kingdom> wdt:P136 wd:Q2336369 ;
+    wdt:P1476 "Jurassic World: Fallen Kingdom"@en ;
+    wdt:P2047 128.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2018-06-22T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_World_Dominion> wdt:P1476 "Jurassic World: Dominion"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/King_Dinosaur> wdt:P1476 "King Dinosaur"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1955-06-16T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/King_Kong_(1933_film)> wdt:P1476 "King Kong"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1933-03-02T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/King_Kong_(2005_film)> wdt:P1476 "King Kong"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2005-12-05T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/King_Kong_Escapes> wdt:P1476 "King Kong Escapes"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1967-07-22T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Kong:_Skull_Island> wdt:P136 wd:Q21527684 ;
+    wdt:P1476 "Kong: Skull Island"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2017-03-08T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Beast_from_20000_Fathoms> wdt:P2047 80.0 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1953-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "1953-12-31T23:59:59+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Beast_of_Hollow_Mountain> wdt:P2047 81.0 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1956-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "1956-12-31T23:59:59+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Bubble> wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Crater_Lake_Monster> wdt:P495 wd:Q30 ;
+    wdt:P577 1977 .
+
+<https://example.org/resource/The_Dinosaur_Project> rdfs:label "The Dinosaur Project"@en ;
+    wdt:P2047 2012.0 ;
+    wdt:P495 wd:Q145 .
+
+<https://example.org/resource/The_Eden_Formula> rdfs:label "The Eden Formula"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Extraordinary_Adventures_of_Adele_Blanc-Sec> rdfs:label "The Extraordinary Adventures of Adèle Blanc-Sec"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q142 ;
+    wdt:P577 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Flintstones> rdfs:label "The Flintstones"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Flintstones_in_Viva_Rock_Vegas> rdfs:label "The Flintstones in Viva Rock Vegas"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2000-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Ghost_of_Slumber_Mountain> rdfs:label "The Ghost of Slumber Mountain"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1918-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Giant_Behemoth> rdfs:label "The Giant Behemoth"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1959-01-01T00:00:00+00:00"^^xsd:dateTime .
+

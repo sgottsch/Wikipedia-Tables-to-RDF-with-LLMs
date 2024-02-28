@@ -1,0 +1,151 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of mosques in the United Kingdom" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|- valign="top"
+|[[Birmingham Central Mosque]]
+|[[File:Birmingham Central Mosque.jpg|120px|center]]
+|[[Birmingham]]
+| 1981
+| D<ref name="Birmingham Central Mosque1">{{cite web|url=http://mosques.muslimsinbritain.org/maps.php#/mosque/155  |title=Birmingham Central Mosque|work = Muslims in Britain |date =25 April 2015| access-date = 4 June 2017}}</ref>
+|
+|- valign="top"
+|[[Darul Barakaat Mosque]]
+|[[File:DarulBarakaat.jpg|120px|center]]
+|[[Birmingham]]<!-- 85 Tilton Road Bordesley Green -->
+| 2004
+| AMJ
+| Holds 500 worshippers<ref>Birmingham: [https://www.panoramio.com/photo/15868092 Photo] {{Webarchive|url=https://web.archive.org/web/20180419183333/https://www.panoramio.com/photo/15868092 |date=2018-04-19 }}; [http://www.ahmadiyya.org.uk/mosques/darul_barakat.php Ahmadiyya Muslim Community UK – Darul Barakaat]</ref>
+|- valign=top
+| [[Ghamkol Shariff Masjid]]
+| [[File:Mosque, Poets Corner, Small Heath Highway - geograph.org.uk - 2119238.jpg|120px|center]]
+| [[Birmingham]]
+| 1992
+| B
+| One of the largest mosques in Western Europe can accommodate 5,000 worshippers.
+|
+|- valign=top
+| [[Green Lane Masjid]]
+| [[File:Green Lane Mosque sym.jpg|120px|center]]
+| [[Birmingham]]
+| 1970s
+| SA<ref>{{cite web|url=http://www.greenlanemasjid.org/About-Us.aspx |title=About Us |access-date=2016-09-13 |url-status=dead |archive-url=https://web.archive.org/web/20080113180228/http://www.greenlanemasjid.org/about_us.aspx |archive-date=2008-01-13 }}</ref>
+| Built 1893–1902 as a public library and baths
+|- valign="top"
+|[[Masjid As-Salafi]]
+| 
+|[[Birmingham]]
+| 2002
+|SA
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Birmingham_Central_Mosque> wdt:P7959 wd:Q67575442 ;
+ rdfs:label "Birmingham Central Mosque"@en ;
+ wdt:P856 <http://www.centralmosque.org.uk> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Birmingham%20Central%20Mosque.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Highgate,_Birmingham> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Darul_Barakaat_Mosque> wdt:P131 <https://en.wikipedia.org/wiki/Birmingham> ;
+ rdfs:label "Darul Barakaat Mosque"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/DarulBarakaat.jpg> ;
+ wdt:P7959 wd:Q67575123 ;
+ wdt:P571 "2004-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Ghamkol_Shariff_Masjid> wdt:P7959 wd:Q67575123 ;
+ wdt:P571 "1996-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ rdfs:label "Ghamkol Shariff Masjid"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mosque%2C%20Poets%20Corner%2C%20Small%20Heath%20Highway%20-%20geograph.org.uk%20-%202119238.jpg> .
+
+<https://example.org/resource/Green_Lane_Masjid> wdt:P131 <https://en.wikipedia.org/wiki/Birmingham> ;
+ wdt:P571 "1893-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P7959 wd:Q67575123 ;
+ rdfs:label "Green Lane Masjid"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Green%20Lane%20Mosque.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Architectural_structure> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Martin_%26_Chamberlain> .
+
+<https://example.org/resource/Masjid_As-Salafi> rdfs:label "Masjid As-Salafi"@en ;
+ wdt:P856 <http://www.salafimasjid.com/> ;
+ wdt:P7959 wd:Q67575123 ;
+ wdt:P1083 "800"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+---
+These are the labels of the properties:
+
+wdt:P7959 -> historic county
+wdt:P856 -> official website URL
+wdt:P18 -> image
+wdt:P31 -> instance of
+wdt:P131 -> located in the administrative territorial entity
+wdt:P17 -> country
+wdt:P571 -> inception
+wdt:P84 -> architect
+wdt:P1083 -> maximum capacity.
+---
+These are the labels of the objects:
+
+wd:Q67575442 -> Worcestershire
+wd:Q67575123 -> Warwickshire.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|-
+|Baitul Ata Mosque<ref>{{Cite web|url=https://ahmadiyya.uk/mosques/baitul-ata-mosque-wolverhampton/|title=Baitul Ata Mosque - Wolverhampton |website=Ahmadiyya Muslim Association UK}}</ref>
+|
+|[[Wolverhampton]]
+|2012
+|AMJ
+|The mosque had previously been used as a church before being acquired and converted into a Mosque.
+|-
+|Baitul Ehsan Mosque<ref>{{Cite web|url=https://ahmadiyya.uk/mosques/baitul-ehsan-mosque-leamington-spa/|title=Baitul Ehsan Mosque - Leamington Spa |website=Ahmadiyya Muslim Association UK}}</ref>
+|
+|[[Leamington Spa]]
+|2008
+|AMJ
+|The mosque was opened at the former James West Centre in Adelaide Road.
+|-
+|Baitul Ghafoor Mosque<ref>{{Cite web|url=https://ahmadiyya.uk/mosques/baitul-ghafoor-mosque-halesowen/|title=Baitul Ghafoor Mosque - Halesowen |website=Ahmadiyya Muslim Association UK}}</ref>
+|
+|[[Halesowen]]
+|2012
+|AMJ
+|The mosque can facilitate up to 600 worshippers.
+|-
+|Baitul Muqeet Mosque<ref>{{Cite web|url=https://ahmadiyya.uk/mosques/baitul-muqeet-mosque-walsall/|title=Baitul Muqeet Mosque - Walsall |website=Ahmadiyya Muslim Association UK}}</ref>
+|
+|[[Walsall]]
+|2018
+|AMJ
+| |}
+---

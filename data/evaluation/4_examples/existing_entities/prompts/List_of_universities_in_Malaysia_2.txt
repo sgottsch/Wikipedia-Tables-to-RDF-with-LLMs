@@ -1,0 +1,147 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of universities in Malaysia" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable |colspan=6 align=center|
+
+===Universities===
+|-
+!Name in [[English language|English]]
+!Name in [[Malay language|Malay]]
+!Acronym
+!Foundation
+!Location
+!class="unsortable"|Link
+|-
+|width="30%"|[[Al-Madinah International University]]
+|width="30%" align="center"|Universiti Antarabangsa Al-Madinah
+|width="10%" align="center"|MEDIU
+|width="10%" align="center"|2006
+|width="15%" align="center"|[[Shah Alam]]
+|width="5%" align="center"|[http://www.mediu.edu.my/]
+|-
+|width="30%"|[[Asia e University]]
+|width="30%" align="center"|Universiti Asia e
+|width="10%" align="center"|AeU
+|width="10%" align="center"|2007
+|width="15%" align="center"|[[Jalan Sultan Sulaiman]]
+|width="5%" align="center"|[http://www.aeu.edu.my/]
+|-
+|width="30%"|[[Asia Pacific University of Technology & Innovation]]
+|width="30%" align="center"|Universiti Teknologi & Inovasi Asia Pasifik
+|width="10%" align="center"|APU
+|width="10%" align="center"|1993
+|width="15%" align="center"|[[Bukit Jalil]]
+|width="5%" align="center"|[http://www.apu.edu.my/]
+|-
+|width="30%"|[[City University, Malaysia|City University]]
+|width="30%" align="center"|Universiti City
+|width="10%" align="center"|CityU
+|width="10%" align="center"|1984
+|width="15%" align="center"|[[Petaling Jaya]]
+|width="5%" align="center"|[http://www.city.edu.my/] |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Al-Madinah_International_University> wdt:P131 <https://en.wikipedia.org/wiki/Shah_Alam> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/University> ;
+ wdt:P8687 "3225"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Seminary> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ rdfs:label "Al-Madinah International University"@en ;
+ wdt:P856 <http://www.mediu.edu.my> ;
+ wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/MEDIU%20AL-Madinah%20University.jpg> ;
+ wdt:P571 "2006-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Asia_e_University> wdt:P571 "2002-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/University> ;
+ rdfs:label "Asia e University"@en ;
+ wdt:P856 <https://aeu.edu.my> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> .
+
+<https://example.org/resource/Asia_Pacific_University_of_Technology_&_Innovation> wdt:P749 <https://en.wikipedia.org/wiki/Asia_Pacific_Institute_of_Information_Technology> ;
+ wdt:P571 "1993-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/University> ;
+ rdfs:label "Asia Pacific University College of Technology & Innovation"@en ;
+ wdt:P856 <http://www.ucti.edu.my/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/UCTI%20Interior.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> .
+
+<https://example.org/resource/City_University> wdt:P131 <https://en.wikipedia.org/wiki/Selangor> ;
+ rdfs:label "City University, Malaysia"@en ;
+ wdt:P856 <https://www.city.edu.my/> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Academic_institution> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P571 "1984-01-01T00:00:00Z"^^xsd:dateTime .
+---
+These are the labels of the properties:
+
+wdt:P131 -> located in the administrative territorial entity
+wdt:P31 -> instance of
+wdt:P8687 -> social media followers
+wdt:P17 -> country
+wdt:P856 -> official website URL
+wdt:P154 -> logo image
+wdt:P571 -> inception
+wdt:P749 -> parent organization
+wdt:P18 -> image.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable |colspan=6 align=center|
+
+===Universities===
+|-
+!Name in [[English language|English]]
+!Name in [[Malay language|Malay]]
+!Acronym
+!Foundation
+!Location
+!class="unsortable"|Link
+|-
+|width="30%"|[[Lincoln University College, Malaysia|Lincoln University College]]
+|width="30%" align="center"|Kolej Universiti Lincoln
+|width="10%" align="center"|LUC
+|width="10%" align="center"|2002
+|width="15%" align="center"|[[Petaling Jaya]]
+|width="5%" align="center"|[http://www.lincoln.edu.my/]
+|-
+|width="30%"|[[New Era University College]]<ref>[https://www.newera.edu.my/aboutUs.php?id=113 Originally established as New Era College]</ref>
+|width="30%" align="center"|Kolej Universiti New Era
+|width="10%" align="center"|NEUC
+|width="10%" align="center"|1997
+|width="15%" align="center"|[[Kajang]]
+|width="5%" align="center"|[https://www.newera.edu.my/]
+|-
+|width="30%"|[[Southern University College]]<ref>{{Cite web |url=http://www.southern.edu.my/exploresuc/history.html |title=Originally established by Chinese Community to provide tertiary education in the area at the year of 1975 |access-date=1 February 2017 |archive-url=https://web.archive.org/web/20170322072615/http://www.southern.edu.my/exploresuc/history.html |archive-date=22 March 2017 |url-status=dead |df=dmy-all }}</ref>
+|width="30%" align="center"|Kolej Universiti Southern
+|width="10%" align="center"|Southern UC
+|width="10%" align="center"|1990
+|width="15%" align="center"|[[Skudai]]
+|width="5%" align="center"|[http://www.southern.edu.my/]
+|-
+|width="30%"|[[Twintech International University College of Technology]]<ref>[http://www.studyonair.com/indonesia/profiles/profile_lg.shtml Originally established as the L&G Twintech Institute Of Technology (in Indonesian)]</ref>
+|width="30%" align="center"|Kolej Universiti Teknologi Antarabangsa Twintech
+|width="10%" align="center"|Twintech
+|width="10%" align="center"|1994
+|width="15%" align="center"|[[Bandar Sri Damansara]] <br> [[Kota Bharu]]
+|width="5%" align="center"|[http://iuctt.edu.my/]
+|-
+|width="30%"|[[Widad University College]]
+|width="30%" align="center"|Kolej Universiti Widad
+|width="10%" align="center"|Widad UC
+|width="10%" align="center"|1997
+|width="15%" align="center"|[[Kuantan]]
+|width="5%" align="center"|[http://www.widad.edu.my/] |}
+---

@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Judd> rdfs:label "list of Splatoon characters"@en ;
+    wdt:P31 wd:Q63032896 ;
+    wdt:P360 wd:Q95074 .
+
+<https://example.org/resource/Kabegami> rdfs:label "list of Ōkami characters"@en ;
+    wdt:P31 wd:Q63032896 ;
+    wdt:P360 wd:Q95074 .
+
+<https://example.org/resource/Mr._Midnight> rdfs:label "list of Fran Bow characters"@en ;
+    wdt:P31 wd:Q63032896 ;
+    wdt:P360 wd:Q95074 .
+
+<https://example.org/resource/Popoi> rdfs:label "list of Puyo Puyo Fever characters"@en ;
+    wdt:P31 wd:Q63032896 ;
+    wdt:P360 wd:Q95074 .
+
+<https://example.org/resource/Spitz> rdfs:label "list of WarioWare Inc.: Mega Microgame$ characters"@en ;
+    wdt:P31 wd:Q63032896 ;
+    wdt:P360 wd:Q95074 .
+

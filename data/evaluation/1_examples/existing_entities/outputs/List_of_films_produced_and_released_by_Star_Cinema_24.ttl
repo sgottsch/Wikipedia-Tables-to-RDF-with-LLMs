@@ -1,0 +1,10 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Loving_in_Tandem> rdfs:label "Loving in Tandem"@en ;
+    ns1:P161 <http://www.wikidata.org/entity/Q27671269>,
+        <https://example.org/resource/Last_Night> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P577 "2017-09-13T00:00:00+00:00"^^xsd:dateTime .
+

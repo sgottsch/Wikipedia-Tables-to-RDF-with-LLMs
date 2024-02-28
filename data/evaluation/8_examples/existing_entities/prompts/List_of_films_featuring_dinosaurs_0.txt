@@ -1,0 +1,422 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films featuring dinosaurs" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+!Title!!Year!!Country!!Type!!Ref.
+|-
+| ''[[65 (film)|65]]'' || 2023 || United States || || <ref>{{cite web |url= https://www.smithsonianmag.com/science-nature/what-earth-would-have-really-looked-like-in-the-sci-fi-movie-65-180981772/ | title= What Earth Would Have Really Looked Like in Adam Driver’s ‘65’ |accessdate=4 February 2024}}</ref>
+|-
+| ''[[Adhisaya Ulagam]]'' || 2012 || India || ||{{fact|date=October 2023}}
+|-
+| ''[[Adventures in Dinosaur City]]'' || 1991 || United States, United Kingdom, Italy || TV film || {{fact|date=October 2023}}
+|-
+| ''[[Age of Dinosaurs]]'' || 2013 || United States || direct-to-DVD||{{fact|date=October 2023}}
+|-
+| ''[[The Animal World (film)|The Animal World]]'' || 1956 || United States || ||{{fact|date=October 2023}}
+|-
+| ''[[Anonymous Rex (film)|Anonymous Rex]]'' || 2004 || United States || direct-to-DVD  ||{{fact|date=October 2023}}
+|-
+| ''[[Aquaman (film)|Aquaman]]'' || 2018 || United States || DC Comics ||{{fact|date=October 2023}}
+|-
+| ''[[Area 407]]'' || 2012 || United States || ||{{fact|date=November 2023}} |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/65> wdt:P2629 wd:Q23301856 ;
+ wdt:P1552 wd:Q27834579 ;
+ wdt:P915 <https://en.wikipedia.org/wiki/New_Orleans> ;
+ wdt:P750 wd:Q3490764 ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Scott_Beck> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Bryan_Woods> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Sam_Raimi> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Adam_Driver> ;
+ wdt:P856 <https://www.65.movie/> ;
+ wdt:P2408 <https://en.wikipedia.org/wiki/Paleocene> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "93"^^xsd:decimal ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Bryan_Woods> ;
+ wdt:P1981 wd:Q20644797 ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Sony_Pictures> ;
+ wdt:P2363 wd:Q21571489 ;
+ wdt:P7573 wd:Q74434531 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ariana_Greenblatt> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Nika_King> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Chloe_Coleman> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Debbie_Liebling> ;
+ wdt:P8889 wd:Q102108196 ;
+ rdfs:label "65"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Thriller_film> ;
+ wdt:P2684 wd:Q23649983 ;
+ wdt:P2756 wd:Q23790275 ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Scott_Beck> ;
+ wdt:P344 <https://en.wikipedia.org/wiki/Salvatore_Totino> ;
+ wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/65%20film%20logo.jpg> ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Columbia_Pictures> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Kisatchie_National_Forest> ;
+ wdt:P577 "2023-03-09T00:00:00Z"^^xsd:dateTime ;
+ wdt:P577 "2023-03-10T00:00:00Z"^^xsd:dateTime ;
+ wdt:P577 "2023-03-15T00:00:00Z"^^xsd:dateTime ;
+ wdt:P577 "2023-03-16T00:00:00Z"^^xsd:dateTime ;
+ wdt:P5150 wd:Q52692411 ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Danny_Elfman> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Survival_film> ;
+ wdt:P3402 wd:Q27915575 ;
+ wdt:P3306 wd:Q27253945 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_film> ;
+ wdt:P1657 wd:Q18665339 ;
+ wdt:P2758 wd:Q23817739 ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Scott_Beck> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/HK%20SKD%20TKO%20%E5%B0%87%E8%BB%8D%E6%BE%B3%20Tseung%20Kwan%20O%20%E6%97%A5%E5%87%BA%E5%BA%B7%E5%9F%8E%20The%20Lohas%20Park%20%E5%95%86%E5%A0%B4%20mall%20shop%20%E8%8B%B1%E7%9A%87%E6%88%B2%E9%99%A2%20Emperor%20Cinemas%20banners%20n%20corridor%20lobby%20February%202023%20Px3%2001.jpg> ;
+ wdt:P2758 wd:Q23817729 ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Bryan_Woods> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P2130 "45000000"^^xsd:decimal ;
+ wdt:P1476 "65"@en ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Adventure_film> .
+
+<https://example.org/resource/Adhisaya_Ulagam> wdt:P921 <https://en.wikipedia.org/wiki/Time_travel> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Chennai> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Tamil_language> ;
+ wdt:P577 "2012-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Dinosaur> ;
+ rdfs:label "Adhisaya Ulagam 3D"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/India> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/3D_film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_film> ;
+ wdt:P462 wd:Q22006653 .
+
+<https://example.org/resource/Adventures_in_Dinosaur_City> wdt:P161 <https://en.wikipedia.org/wiki/Omri_Katz> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Drama_(film_and_television)> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1476 "Adventures in Dinosaur City"@en ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Brett_Thompson> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "88"^^xsd:decimal ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Lisa_Morton> ;
+ wdt:P577 "1991-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Republic_Pictures> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Children%27s_film> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Lisa_Morton> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Comedy_film> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Dinosaur> ;
+ wdt:P577 "1991-12-12T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Adventures in Dinosaur City"@en ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Fantasy_film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_film> ;
+ wdt:P2758 wd:Q23817729 ;
+ wdt:P162 wd:Q106313202 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Adventure_film> .
+
+<https://example.org/resource/Age_of_Dinosaurs> wdt:P840 <https://en.wikipedia.org/wiki/Los_Angeles> ;
+ rdfs:label "Age of Dinosaurs"@en ;
+ wdt:P1040 wd:Q64689345 ;
+ wdt:P162 wd:Q1175663 ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P577 "2015-10-08T00:00:00Z"^^xsd:dateTime ;
+ wdt:P577 "2015-10-15T00:00:00Z"^^xsd:dateTime ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Treat_Williams> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P272 <https://en.wikipedia.org/wiki/The_Asylum> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Action_film> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "88"^^xsd:decimal ;
+ wdt:P1476 "Age of Dinosaurs"@en ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Direct-to-video> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P577 "2013-05-19T00:00:00Z"^^xsd:dateTime ;
+ wdt:P161 wd:Q25907677 ;
+ wdt:P750 wd:Q16516296 ;
+ wdt:P86 wd:Q22662418 ;
+ wdt:P2363 wd:Q21571488 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_film> ;
+ wdt:P57 wd:Q64590709 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Netflix> .
+
+<https://example.org/resource/The_Animal_World> wdt:P750 <https://en.wikipedia.org/wiki/Warner_Bros.> ;
+ wdt:P1476 "The Animal World"@en ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Warner_Bros.> ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Paul_Sawtell> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "82"^^xsd:decimal ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Theodore_von_Eltz> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Irwin_Allen> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ rdfs:label "The Animal World"@en ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Dinosaur> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Documentary_film> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Irwin_Allen> ;
+ wdt:P577 "1956-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Irwin_Allen> .
+
+<https://example.org/resource/Anonymous_Rex> wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Action_film> ;
+ wdt:P3216 wd:Q26678733 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "90"^^xsd:decimal ;
+ wdt:P136 wd:Q52207399 ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Julian_Jarrold> ;
+ wdt:P1476 "Anonymous Rex"@en ;
+ wdt:P577 "2004-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Toronto> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Television_film> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Dinosaur> ;
+ wdt:P577 "2004-11-19T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Anonymous Rex"@en ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Fantasy_film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sam_Trammell> .
+
+<https://example.org/resource/Aquaman> wdt:P915 <https://en.wikipedia.org/wiki/Newfoundland_(island)> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Sicily> ;
+ wdt:P2515 <https://en.wikipedia.org/wiki/Kym_Barrett> ;
+ wdt:P2142 "335104314"^^xsd:decimal ;
+ wdt:P2142 "1148528393"^^xsd:decimal ;
+ wdt:P1476 "Aquaman"@en ;
+ wdt:P8411 <https://en.wikipedia.org/wiki/Desert> ;
+ wdt:P4437 wd:Q42012503 ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P2629 wd:Q23301855 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ludi_Lin> ;
+ wdt:P5201 wd:Q52382301 ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Rupert_Gregson-Williams> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Peter_Safran> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Atlantis_(Aquaman)> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1431 <https://en.wikipedia.org/wiki/Geoff_Johns> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Willem_Dafoe> ;
+ wdt:P1638 "Ahab"@en ;
+ wdt:P915 wd:Q21956474 ;
+ wdt:P1434 <https://en.wikipedia.org/wiki/DC_Extended_Universe> ;
+ wdt:P793 <https://en.wikipedia.org/wiki/Principal_photography> ;
+ wdt:P344 <https://en.wikipedia.org/wiki/Don_Burgess_(cinematographer)> ;
+ wdt:P856 <https://www.warnerbros.com/movies/aquaman/> ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Warner_Bros.> ;
+ wdt:P272 <https://en.wikipedia.org/wiki/The_Safran_Company> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Maine> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Action_film> ;
+ wdt:P5970 wd:Q56887490 ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Indian_Ocean> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Yahya_Abdul-Mateen_II> ;
+ wdt:P2142 "67873522"^^xsd:decimal ;
+ wdt:P2061 wd:Q24668302 ;
+ wdt:P6452 wd:Q56902726 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Graham_McTavish> ;
+ wdt:P3216 wd:Q26678733 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Nicole_Kidman> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P750 wd:Q1097348 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Temuera_Morrison> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Atlantic_Ocean> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Superhero_film> ;
+ wdt:P2047 "143"^^xsd:decimal ;
+ wdt:P6658 wd:Q62365366 ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Will_Beall> ;
+ wdt:P767 <https://en.wikipedia.org/wiki/Kodak> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Michael_Beach> ;
+ wdt:P5021 wd:Q105776216 ;
+ wdt:P7573 wd:Q74434531 ;
+ wdt:P8411 <https://en.wikipedia.org/wiki/Fictional_country> ;
+ wdt:P767 <https://en.wikipedia.org/wiki/Moving_Picture_Company> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Sahara> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/James_Wan> ;
+ wdt:P8687 "94560"^^xsd:decimal ;
+ wdt:P8889 wd:Q102108196 ;
+ wdt:P8411 <https://en.wikipedia.org/wiki/Ship> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ rdfs:label "Aquaman"@en ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Patrick_Wilson> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Main_Beach,_Queensland> ;
+ wdt:P2684 wd:Q23649983 ;
+ wdt:P767 <https://en.wikipedia.org/wiki/Industrial_Light_%26_Magic> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Amity,_Queensland> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Hardwick%20%26%20Jason%20Momoa%20%2835368589944%29%20%28cropped%29.jpg> ;
+ wdt:P767 <https://en.wikipedia.org/wiki/W%C4%93t%C4%81_FX> ;
+ wdt:P767 <https://en.wikipedia.org/wiki/Scanline_VFX> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jason_Momoa> ;
+ wdt:P577 "2018-11-26T00:00:00Z"^^xsd:dateTime ;
+ wdt:P6802 <http://commons.wikimedia.org/wiki/Special:FilePath/Aisha%20Tyler%2C%20Jason%20Momoa%2C%20Amber%20Heard%2C%20Nicole%20Kidman%2C%20Patrick%20Wilson%2C%20Yahya%20Abdul-Mateen%20II%20%26%20James%20Wan%20%2843723293462%29.jpg> ;
+ wdt:P5150 wd:Q52692411 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Warner_Bros._Pictures> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Erfoud> ;
+ wdt:P3834 wd:Q28980109 ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Hastings_Point,_New_South_Wales> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Merzouga> ;
+ wdt:P179 <https://en.wikipedia.org/wiki/DC_Extended_Universe> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dolph_Lundgren> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/David_Leslie_Johnson-McGoldrick> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Amber_Heard> ;
+ wdt:P1431 <https://en.wikipedia.org/wiki/Deborah_Snyder> ;
+ wdt:P1431 <https://en.wikipedia.org/wiki/Zack_Snyder> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Southport,_Queensland> ;
+ wdt:P8411 wd:Q6619693 ;
+ wdt:P5021 <https://en.wikipedia.org/wiki/Bechdel_test> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/3D_film> ;
+ wdt:P3402 wd:Q27915575 ;
+ wdt:P1040 wd:Q23876890 ;
+ wdt:P2363 wd:Q21571488 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Fantasy_film> ;
+ wdt:P3306 wd:Q27253945 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_film> ;
+ wdt:P1657 wd:Q18665339 ;
+ wdt:P767 <https://en.wikipedia.org/wiki/Method_Studios> ;
+ wdt:P2758 wd:Q23817729 ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P144 <https://en.wikipedia.org/wiki/Aquaman> ;
+ wdt:P2130 "200000000"^^xsd:decimal ;
+ wdt:P767 <https://en.wikipedia.org/wiki/Dolby> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Adventure_film> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Village_Roadshow_Studios> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Netflix> ;
+ wdt:P8411 <https://en.wikipedia.org/wiki/Lighthouse> .
+
+<https://example.org/resource/Area_407> wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1476 "Tape 407"@en ;
+ wdt:P57 wd:Q113581773 ;
+ wdt:P577 "2012-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "90"^^xsd:decimal ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Horror_fiction> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 wd:Q113581774 ;
+ rdfs:label "Tape 407"@en ;
+ wdt:P856 <http://tape407.com> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Horror_film> .
+---
+These are the labels of the properties:
+
+wdt:P2629 -> BBFC rating
+wdt:P1552 -> has characteristic
+wdt:P915 -> filming location
+wdt:P750 -> distributed by
+wdt:P57 -> director
+wdt:P364 -> original language of film or TV show
+wdt:P162 -> producer
+wdt:P161 -> cast member
+wdt:P856 -> official website URL
+wdt:P2408 -> set in period
+wdt:P495 -> country of origin
+wdt:P2047 -> duration
+wdt:P1981 -> FSK film rating
+wdt:P272 -> production company
+wdt:P2363 -> NMHH film rating
+wdt:P7573 -> IFCO rating
+wdt:P8889 -> MTRCB rating
+wdt:P31 -> instance of
+wdt:P136 -> genre
+wdt:P2684 -> Kijkwijzer rating
+wdt:P2756 -> EIRIN film rating
+wdt:P58 -> screenwriter
+wdt:P344 -> director of photography
+wdt:P154 -> logo image
+wdt:P577 -> publication date
+wdt:P5150 -> IGAC rating
+wdt:P86 -> composer
+wdt:P3402 -> CNC film rating (Romania)
+wdt:P3306 -> ICAA rating
+wdt:P1657 -> MPA film rating
+wdt:P2758 -> CNC film rating (France)
+wdt:P18 -> image
+wdt:P462 -> color
+wdt:P2130 -> cost
+wdt:P1476 -> title
+wdt:P921 -> main subject
+wdt:P840 -> narrative location
+wdt:P1040 -> film editor
+wdt:P437 -> distribution format
+wdt:P3216 -> ClassInd rating
+wdt:P2515 -> costume designer
+wdt:P2142 -> box office
+wdt:P8411 -> set in environment
+wdt:P4437 -> FPB rating
+wdt:P5201 -> IMDA rating
+wdt:P1431 -> executive producer
+wdt:P1638 -> working title
+wdt:P1434 -> takes place in fictional universe
+wdt:P793 -> significant event
+wdt:P5970 -> Medierådet rating
+wdt:P2061 -> aspect ratio (W:H)
+wdt:P6452 -> CBFC rating
+wdt:P6658 -> RCQ classification
+wdt:P767 -> contributor to the creative work or subject
+wdt:P5021 -> assessment
+wdt:P8687 -> social media followers
+wdt:P6802 -> related image
+wdt:P3834 -> RTC film rating
+wdt:P179 -> part of the series
+wdt:P144 -> based on.
+---
+These are the labels of the objects:
+
+wd:Q23301856 -> 12 certificate
+wd:Q27834579 -> title for Hispanic America
+wd:Q3490764 -> Sony Pictures Releasing France
+wd:Q20644797 -> FSK 16
+wd:Q21571489 -> Category IV
+wd:Q74434531 -> 12A
+wd:Q102108196 -> Parental Guidance
+wd:Q23649983 -> 12
+wd:Q23790275 -> G
+wd:Q52692411 -> M/12
+wd:Q27915575 -> A.P. - 12
+wd:Q27253945 -> not recommended for children under 12
+wd:Q18665339 -> PG-13
+wd:Q23817739 -> warning
+wd:Q23817729 -> no age restriction
+wd:Q22006653 -> color
+wd:Q106313202 -> Luigi Cingolani
+wd:Q64689345 -> Rob Pallatina
+wd:Q1175663 -> David Michael Latt
+wd:Q25907677 -> Jennifer Robyn Jacobs
+wd:Q16516296 -> ADS Service
+wd:Q22662418 -> Chris Ridenhour
+wd:Q21571488 -> Category III
+wd:Q64590709 -> Joseph J. Lawson
+wd:Q26678733 -> 12
+wd:Q52207399 -> film based on a novel
+wd:Q42012503 -> 13
+wd:Q23301855 -> 12A certificate
+wd:Q52382301 -> PG13
+wd:Q21956474 -> Currumbin Beach
+wd:Q56887490 -> For ages 11 and up
+wd:Q24668302 -> 2.39:1
+wd:Q56902726 -> U/A certificate
+wd:Q1097348 -> InterCom
+wd:Q62365366 -> G
+wd:Q105776216 -> reverse Bechdel Test
+wd:Q28980109 -> B
+wd:Q6619693 -> fictional island
+wd:Q23876890 -> Kirk M. Morri
+wd:Q113581773 -> Dale Fabrigar
+wd:Q113581774 -> Everette Wallin.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+!Title!!Year!!Country!!Type!!Ref.
+|-
+| ''[[Jurassic World: Fallen Kingdom]]'' || 2018 || United States || Jurassic Park franchise ||<ref>{{cite web | url= https://movieweb.com/jurassic-park-criticized-sequel-hit-netflix/ | title= Jurassic Park's Most Criticized Sequel Becomes a Huge Hit on Netflix |accessdate=4 February 2024}}</ref>
+|-
+| ''[[King Dinosaur]]'' || 1955 || United States || ||{{fact|date=October 2023}}
+|-
+| ''[[King Kong (1933 film)|King Kong]]'' || 1933 || United States || ||{{fact|date=October 2023}}
+|-
+| ''[[King Kong (2005 film)|King Kong]]'' || 2005 || United States || ||{{fact|date=October 2023}}
+|-
+| ''[[King Kong Escapes]]'' || 1967 || United States || ||{{fact|date=October 2023}}
+|-
+| ''[[Kong: Skull Island]]'' || 2017 || United States || MonsterVerse || {{Efn|A ''[[Triceratops]]'' skull is briefly shown.}} |}
+---

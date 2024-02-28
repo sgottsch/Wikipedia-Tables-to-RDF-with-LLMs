@@ -1,0 +1,120 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of schools in the Auckland Region" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Area || Authority || Roll ||  Website || Notes
+|-
+| [[Arahoe School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1206 1206] || 1–6 || [[New Lynn, New Zealand|New Lynn]] || State || {{NZ school roll data|1206|y}} ||  [http://www.arahoe.school.nz/]||
+|-
+| [[Blockhouse Bay Intermediate]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1232 1232] || 7–8 || [[Blockhouse Bay]] || State || {{NZ school roll data|1232|y}} ||  [http://www.bhbint.school.nz/]||
+|-
+| [[New Lynn|Fruitvale School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1281 1281] || 1–6 || [[New Lynn, New Zealand|New Lynn]] || State || {{NZ school roll data|1281|y}} || [http://www.fruitvale.school.nz/]||
+|-
+| [[Glenavon School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1290 1290] || 1–8 || [[Blockhouse Bay]] || State || {{NZ school roll data|1290|y}} ||  [http://www.glenavon.school.nz/]||
+|-
+| [[Green Bay Primary School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1298 1298] || 1–8 || [[Green Bay, New Zealand|Green Bay]] || State || {{NZ school roll data|1298|y}} ||  [http://www.greenbay.school.nz/]|| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Arahoe_School> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/New%20Lynn.jpg> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Glen_Eden,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Kelston,_New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/New_Windsor,_New_Zealand> ;
+ rdfs:label "New Lynn"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Green_Bay,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Blockhouse_Bay> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> .
+
+<https://example.org/resource/Blockhouse_Bay_Intermediate> wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Mount_Roskill> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/New_Windsor,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/New_Lynn> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Avondale,_Auckland> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Blockhousebay.jpg> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Green_Bay,_New_Zealand> ;
+ rdfs:label "Blockhouse Bay"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Lynfield,_New_Zealand> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> .
+
+<https://example.org/resource/Fruitvale_School> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/New%20Lynn.jpg> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Glen_Eden,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Kelston,_New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/New_Windsor,_New_Zealand> ;
+ rdfs:label "New Lynn"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Green_Bay,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Blockhouse_Bay> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> .
+
+<https://example.org/resource/Glenavon_School> wdt:P6375 "340 Blockhouse Bay Road, Blockhouse Bay, Auckland"@en ;
+ wdt:P571 "1955-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P7086 <https://en.wikipedia.org/wiki/Year_1_(education)> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/School> ;
+ wdt:P7095 <https://en.wikipedia.org/wiki/Year_8> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Blockhouse_Bay> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ rdfs:label "Glenavon School"@en ;
+ wdt:P856 <http://www.glenavon.school.nz> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/20220925%20135926%20Glenavon%20School.jpg> ;
+ wdt:P2196 "362"^^xsd:decimal ;
+ wdt:P2196 "408"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Primary_school> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Auckland> .
+
+<https://example.org/resource/Green_Bay_Primary_School> wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/New_Lynn> ;
+ rdfs:label "Green Bay"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Titirangi> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Green%20Bay%2020220618%20113021.jpg> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Blockhouse_Bay> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> .
+---
+These are the labels of the properties:
+
+wdt:P18 -> image
+wdt:P47 -> shares border with
+wdt:P31 -> instance of
+wdt:P17 -> country
+wdt:P131 -> located in the administrative territorial entity
+wdt:P6375 -> street address
+wdt:P571 -> inception
+wdt:P7086 -> start grade
+wdt:P7095 -> end grade
+wdt:P276 -> location
+wdt:P7419 -> gender educated
+wdt:P856 -> official website URL
+wdt:P2196 -> students count.
+---
+These are the labels of the objects:
+
+wd:Q70853302 -> all genders.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Area || Authority || Roll ||  Website || Notes
+|-
+| New Windsor School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1390 1390] || 1–6 || [[New Windsor, New Zealand|New Windsor]] || State || {{NZ school roll data|1390|y}} || [http://www.newwindsor.school.nz]||
+|-
+| Rosebank School ||[https://www.educationcounts.govt.nz/find-school/school/profile?school=1471 1471] || 1–6 || [[Avondale, Auckland|Avondale]] || State || {{NZ school roll data|1471|y}} || [http://www.rosebank.school.nz]||
+|-
+| St Dominic's Catholic School ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1487 1487] || 1–6 || [[Blockhouse Bay]] || State integrated || {{NZ school roll data|1487|y}} || [http://www.stdominics.school.nz]|| Catholic
+|-
+| St Mary's School ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1503 1503] || 1–8 || [[Avondale, Auckland|Avondale]] || State integrated || {{NZ school roll data|1503|y}} || [http://www.stmarysavondale.school.nz]|| Catholic |}
+---

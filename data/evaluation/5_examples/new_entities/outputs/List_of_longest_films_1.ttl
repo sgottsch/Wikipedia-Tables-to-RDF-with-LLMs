@@ -1,0 +1,141 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/15_Hours> rdfs:label "15 Hours"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "15 Hours"@en ;
+    wdt:P2047 900.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q7850 ;
+    wdt:P495 wd:Q148 ;
+    wdt:P57 wd:Q20747247 ;
+    wdt:P577 "2017-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.filmlinc.org/films/15-hours/> .
+
+<https://example.org/resource/A_Lot_of_Sorrow> rdfs:label "A Lot of Sorrow"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "A Lot of Sorrow"@en ;
+    wdt:P2047 369.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q28152235 ;
+    wdt:P577 "2013-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Babel> rdfs:label "Babel"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Babel"@en ;
+    wdt:P2047 380.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q108064182 ;
+    wdt:P577 "1991-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Beijing_2003> rdfs:label "Beijing 2003"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Beijing 2003"@en ;
+    wdt:P2047 9000.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q7850 ;
+    wdt:P495 wd:Q148 ;
+    wdt:P57 wd:Q3125160 ;
+    wdt:P577 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.magasin3.com/aiweiwei> .
+
+<https://example.org/resource/Bordeaux_Piece> rdfs:label "Bordeaux Piece"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Bordeaux Piece"@en ;
+    wdt:P2047 823.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q150 ;
+    wdt:P495 wd:Q31 ;
+    wdt:P57 wd:Q28152234 ;
+    wdt:P577 "2004-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.photomonitor.co.uk/2012/07/david-claerbout-the-time-that-remains/> .
+
+<https://example.org/resource/Circus_Savage> rdfs:label "Circus Savage"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Circus Savage"@en ;
+    wdt:P2047 643.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P57 wd:Q28152234 ;
+    wdt:P577 "2009-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Lamentations_A_Monument_to_the_Dead_World> rdfs:label "Lamentations: A Monument to the Dead World"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Lamentations: A Monument to the Dead World"@en ;
+    wdt:P2047 435.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q16 ;
+    wdt:P57 wd:Q28152234 ;
+    wdt:P577 "1985-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Park_Lanes> rdfs:label "Park Lanes"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "Park Lanes"@en ;
+    wdt:P2047 480.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P57 wd:Q28152234 ;
+    wdt:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Clock> rdfs:label "The Clock"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "The Clock"@en ;
+    wdt:P2047 1440.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P57 wd:Q1984891 ;
+    wdt:P577 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.theguardian.com/film/filmblog/2011/apr/07/christian-marclay-the-clock> .
+
+<https://example.org/resource/The_Cure_for_Insomnia> rdfs:label "The Cure for Insomnia"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "The Cure for Insomnia"@en ;
+    wdt:P2047 5220.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P57 wd:Q19545152 ;
+    wdt:P577 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://curestoinsomnia.net> .
+
+<https://example.org/resource/The_Longest_Most_Meaningless_Movie_in_the_World> rdfs:label "The Longest Most Meaningless Movie in the World"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "The Longest Most Meaningless Movie in the World"@en ;
+    wdt:P2047 2880.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q150 ;
+    wdt:P495 wd:Q142 ;
+    wdt:P57 wd:Q20747245 ;
+    wdt:P577 "1968-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://orynmq.altervista.org> .
+
+<https://example.org/resource/The_Movie_Orgy> rdfs:label "The Movie Orgy"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "The Movie Orgy"@en ;
+    wdt:P2047 420.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P57 wd:Q28152234 ;
+    wdt:P577 "1968-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Wake> rdfs:label "The Wake"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "The Wake"@en ;
+    wdt:P2047 462.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q35 ;
+    wdt:P57 wd:Q28152234 ;
+    wdt:P577 "2000-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_White_House> rdfs:label "The White House"@en ;
+    wdt:P136 wd:Q790192 ;
+    wdt:P1476 "The White House"@en ;
+    wdt:P2047 690.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q31 ;
+    wdt:P57 wd:Q28152234 ;
+    wdt:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+

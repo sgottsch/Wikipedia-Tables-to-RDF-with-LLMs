@@ -1,0 +1,55 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Rutherford_School> rdfs:label "Rutherford School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/placeholder.jpg> ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q149566,
+        wd:Q3914 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "Rutherford Road, Te Atatu Peninsula, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.rutherfordprimary.school.nz> .
+
+<https://example.org/resource/Summerland_Primary> rdfs:label "Summerland Primary"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/placeholder.jpg> ;
+    wdt:P276 wd:Q37100,
+        wd:Q7987895 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q149566,
+        wd:Q3914 ;
+    wdt:P6375 "Summerland Drive, Western Heights, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.summerland.school.nz> .
+
+<https://example.org/resource/Tirimoana_School> rdfs:label "Tirimoana School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/placeholder.jpg> ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q149566,
+        wd:Q3914 ;
+    wdt:P6375 "Te Atatu South, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.tirimoana.school.nz> .
+
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> rdfs:label "Waitakere Seventh-day Adventist School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/placeholder.jpg> ;
+    wdt:P276 wd:Q37100,
+        wd:Q6802076 ;
+    wdt:P31 wd:Q149566,
+        wd:Q3914 ;
+    wdt:P6375 "McLaren Park, New Zealand"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <https://www.waitakeresda.school.nz/> .
+

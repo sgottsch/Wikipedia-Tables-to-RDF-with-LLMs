@@ -1,0 +1,127 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of schools in the Auckland Region" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Area || Authority || Roll || Website || Notes
+|-
+| [[Bairds Mainfreight Primary School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1218 1218] || 1–6 || [[Ōtara]] || State || {{NZ school roll data|1218|y}} ||  [https://archive.today/20080612121928/http://www.bairdsmainfreight.school.nz/]||
+|-
+| [[Holy Cross School (Papatoetoe)|Holy Cross School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1315 1315] || 1–8 || [[Papatoetoe]] || State integrated || {{NZ school roll data|1315|y}} ||  [http://www.hcsp.school.nz/]|| Catholic
+|-
+| [[Kedgley Intermediate]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1329 1329] || 7–8 || [[Māngere East]] || State || {{NZ school roll data|1329|y}} ||  [http://www.kedgley.school.nz]||
+|-
+| [[Papatoetoe Central School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1426 1426] || 1–6 || [[Papatoetoe]] || State || {{NZ school roll data|1426|y}} ||  [http://www.pcs.school.nz]||
+|-
+| [[Papatoetoe East School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1427 1427] || 1–6 || [[Papatoetoe]] || State || {{NZ school roll data|1427|y}} ||  [http://www.pep.school.nz]|| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Bairds_Mainfreight_Primary_School> wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ rdfs:label "Bairds Mainfreight Primary School"@en ;
+ wdt:P856 <https://www.bmps.school.nz/> ;
+ wdt:P2196 "369"^^xsd:decimal ;
+ wdt:P2196 "472"^^xsd:decimal ;
+ wdt:P571 "1961-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Primary_school> .
+
+<https://example.org/resource/Holy_Cross_School> wdt:P47 <https://en.wikipedia.org/wiki/Clover_Park> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Flat_Bush> ;
+ rdfs:label "Papatoetoe"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Manukau> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Middlemore> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Wiri> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/%C5%8Ctara> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Rangitoto%20and%20Auckland%2031-03-2012%2014-03-10%20-%20cropped%20to%20Papatoetoe.png> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/M%C4%81ngere_East> .
+
+<https://example.org/resource/Kedgley_Intermediate> wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/School> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Papatoetoe> ;
+ wdt:P7095 <https://en.wikipedia.org/wiki/Year_8> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Middle_school> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P6375 "Portage Road, Papatoetoe, Auckland"@en ;
+ wdt:P7086 <https://en.wikipedia.org/wiki/Year_7> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ wdt:P571 "1958-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Kedgley Intermediate School"@en ;
+ wdt:P856 <http://www.kedgley.school.nz> ;
+ wdt:P856 <http://www.kedgleyint.school.nz/> ;
+ wdt:P2196 "753"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Auckland> .
+
+<https://example.org/resource/Papatoetoe_Central_School> wdt:P47 <https://en.wikipedia.org/wiki/Clover_Park> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Flat_Bush> ;
+ rdfs:label "Papatoetoe"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Manukau> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Middlemore> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Wiri> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/%C5%8Ctara> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Rangitoto%20and%20Auckland%2031-03-2012%2014-03-10%20-%20cropped%20to%20Papatoetoe.png> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/M%C4%81ngere_East> .
+
+<https://example.org/resource/Papatoetoe_East_School> wdt:P47 <https://en.wikipedia.org/wiki/Clover_Park> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Flat_Bush> ;
+ rdfs:label "Papatoetoe"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Manukau> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Middlemore> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Wiri> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/%C5%8Ctara> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Rangitoto%20and%20Auckland%2031-03-2012%2014-03-10%20-%20cropped%20to%20Papatoetoe.png> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/M%C4%81ngere_East> .
+---
+These are the labels of the properties:
+
+wdt:P17 -> country
+wdt:P31 -> instance of
+wdt:P856 -> official website URL
+wdt:P2196 -> students count
+wdt:P571 -> inception
+wdt:P131 -> located in the administrative territorial entity
+wdt:P47 -> shares border with
+wdt:P18 -> image
+wdt:P276 -> location
+wdt:P7095 -> end grade
+wdt:P7419 -> gender educated
+wdt:P6375 -> street address
+wdt:P7086 -> start grade.
+---
+These are the labels of the objects:
+
+wd:Q70853302 -> all genders.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Area || Authority || Roll || Website || Notes
+|-
+| Rongomai School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1468 1468] || 1–6 || [[Ōtara]] || State || {{NZ school roll data|1468|y}} || [http://www.rongomai.school.nz/]||
+|-
+| St John The Evangelist Catholic School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1491 1491] || 1–8 || [[Ōtara]] || State integrated || {{NZ school roll data|1491|y}} || [https://www.stjohnsotara.school.nz/]|| Catholic
+|-
+| TKKM o Piripono || [https://www.educationcounts.govt.nz/find-school/school/profile?school=4205 4205] || 1–8 || [[Ōtara]] || State || {{NZ school roll data|4205|y}} ||  [https://archive.today/20040606203912/http://www.piripono.school.nz/]||
+|-
+| Wymondley Road School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1579 1579] || 1–6 || [[Ōtara]] || State || {{NZ school roll data|1579|y}} || [http://wymondley.school.nz]||
+|-
+| Yendarra School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1580 1580] || 1–6 || [[Ōtara]] || State || {{NZ school roll data|1580|y}} || [http://www.yendarra.school.nz/]|| |}
+---

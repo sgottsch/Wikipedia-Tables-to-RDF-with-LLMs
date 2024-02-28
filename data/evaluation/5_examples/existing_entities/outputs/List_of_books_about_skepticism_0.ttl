@@ -1,0 +1,325 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Blackmore,_Susan> ns1:P101 <http://www.wikidata.org/entity/Q929771> ;
+    ns1:P106 <http://www.wikidata.org/entity/Q36180> ;
+    ns1:P1559 "Blackmore, Susan"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q108674101>,
+        <http://www.wikidata.org/entity/Q109119401>,
+        <http://www.wikidata.org/entity/Q11900058>,
+        <http://www.wikidata.org/entity/Q1225716>,
+        <http://www.wikidata.org/entity/Q124316207>,
+        <http://www.wikidata.org/entity/Q12729910>,
+        <http://www.wikidata.org/entity/Q12759592>,
+        <http://www.wikidata.org/entity/Q15839134>,
+        <http://www.wikidata.org/entity/Q15862775>,
+        <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q16063546>,
+        <http://www.wikidata.org/entity/Q16082057>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q18691526>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19085957>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q20078554>,
+        <http://www.wikidata.org/entity/Q20266330>,
+        <http://www.wikidata.org/entity/Q2041543>,
+        <http://www.wikidata.org/entity/Q2822396>,
+        <http://www.wikidata.org/entity/Q37549995>,
+        <http://www.wikidata.org/entity/Q41955909>,
+        <http://www.wikidata.org/entity/Q4205432>,
+        <http://www.wikidata.org/entity/Q4671344>,
+        <http://www.wikidata.org/entity/Q51955019>,
+        <http://www.wikidata.org/entity/Q55851121>,
+        <http://www.wikidata.org/entity/Q563248>,
+        <http://www.wikidata.org/entity/Q60527532>,
+        <http://www.wikidata.org/entity/Q67311526>,
+        <http://www.wikidata.org/entity/Q68772997>,
+        <http://www.wikidata.org/entity/Q71887839>,
+        <http://www.wikidata.org/entity/Q96382318>,
+        <http://www.wikidata.org/entity/Q99413897> ;
+    ns1:P569 "1951-07-29T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Carroll,_Sean_M.> ns1:P101 <http://www.wikidata.org/entity/Q178659> ;
+    ns1:P1559 "Sean M. Carroll"@en ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sean_M._Carroll.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q12759592>,
+        <http://www.wikidata.org/entity/Q5317558> ;
+    ns1:P569 2016 .
+
+<https://example.org/resource/Dobelli,_Rolf> ns1:P101 <http://www.wikidata.org/entity/Q8078> ;
+    ns1:P106 <http://www.wikidata.org/entity/Q36180> ;
+    ns1:P1559 "Dobelli, Rolf"@en ;
+    ns1:P21 <http://www.wikidata.org/entity/Q6581097> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q108674101>,
+        <http://www.wikidata.org/entity/Q109119401>,
+        <http://www.wikidata.org/entity/Q11900058>,
+        <http://www.wikidata.org/entity/Q1225716>,
+        <http://www.wikidata.org/entity/Q124316207>,
+        <http://www.wikidata.org/entity/Q12729910>,
+        <http://www.wikidata.org/entity/Q12759592>,
+        <http://www.wikidata.org/entity/Q15839134>,
+        <http://www.wikidata.org/entity/Q15862775>,
+        <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q16063546>,
+        <http://www.wikidata.org/entity/Q16082057>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q18691526>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19085957>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q20078554>,
+        <http://www.wikidata.org/entity/Q20266330>,
+        <http://www.wikidata.org/entity/Q2041543>,
+        <http://www.wikidata.org/entity/Q2822396>,
+        <http://www.wikidata.org/entity/Q37549995>,
+        <http://www.wikidata.org/entity/Q41955909>,
+        <http://www.wikidata.org/entity/Q4205432>,
+        <http://www.wikidata.org/entity/Q51955019>,
+        <http://www.wikidata.org/entity/Q55851121>,
+        <http://www.wikidata.org/entity/Q563248>,
+        <http://www.wikidata.org/entity/Q60527532>,
+        <http://www.wikidata.org/entity/Q67311526>,
+        <http://www.wikidata.org/entity/Q68772997>,
+        <http://www.wikidata.org/entity/Q71887839>,
+        <http://www.wikidata.org/entity/Q96382318>,
+        <http://www.wikidata.org/entity/Q99413897> ;
+    ns1:P569 "1966-07-15T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Empiricus,_Sextus> ns1:P101 <http://www.wikidata.org/entity/Q1126340> ;
+    ns1:P106 <http://www.wikidata.org/entity/Q4964182> ;
+    ns1:P1559 "Empiricus, Sextus"@en ;
+    ns1:P21 <http://www.wikidata.org/entity/Q6581097> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q108674101>,
+        <http://www.wikidata.org/entity/Q109119401>,
+        <http://www.wikidata.org/entity/Q11900058>,
+        <http://www.wikidata.org/entity/Q1225716>,
+        <http://www.wikidata.org/entity/Q124316207>,
+        <http://www.wikidata.org/entity/Q12729910>,
+        <http://www.wikidata.org/entity/Q12759592>,
+        <http://www.wikidata.org/entity/Q15839134>,
+        <http://www.wikidata.org/entity/Q15862775>,
+        <http://www.wikidata.org/entity/Q1587900>,
+        <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q16063546>,
+        <http://www.wikidata.org/entity/Q16082057>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q18691526>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19085957>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q20078554>,
+        <http://www.wikidata.org/entity/Q20266330>,
+        <http://www.wikidata.org/entity/Q2041543>,
+        <http://www.wikidata.org/entity/Q2822396>,
+        <http://www.wikidata.org/entity/Q37549995>,
+        <http://www.wikidata.org/entity/Q41955909>,
+        <http://www.wikidata.org/entity/Q4205432>,
+        <http://www.wikidata.org/entity/Q51955019>,
+        <http://www.wikidata.org/entity/Q55851121>,
+        <http://www.wikidata.org/entity/Q563248>,
+        <http://www.wikidata.org/entity/Q60527532>,
+        <http://www.wikidata.org/entity/Q67311526>,
+        <http://www.wikidata.org/entity/Q68772997>,
+        <http://www.wikidata.org/entity/Q71887839>,
+        <http://www.wikidata.org/entity/Q96382318>,
+        <http://www.wikidata.org/entity/Q99413897> .
+
+<https://example.org/resource/Entine,_Jon> ns1:P101 <http://www.wikidata.org/entity/Q929771> ;
+    ns1:P1559 "Entine, Jon"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2005-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Gardner,_Martin> ns1:P101 <http://www.wikidata.org/entity/Q929771> ;
+    ns1:P1559 "Gardner, Martin"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q1871370>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "1996-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Gaylor,_Annie_Laurie> ns1:P101 <http://www.wikidata.org/entity/Q3359185> ;
+    ns1:P1559 "Annie Laurie Gaylor"@en ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Annie_Laurie_Gaylor.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 1997 .
+
+<https://example.org/resource/Harari,_Yuval_Noah> ns1:P101 <http://www.wikidata.org/entity/Q929771> ;
+    ns1:P1559 "Harari, Yuval Noah"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q257813>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P800 <http://www.wikidata.org/entity/Q12411055> .
+
+<https://example.org/resource/Harding,_Nick> ns1:P101 <http://www.wikidata.org/entity/Q3359185> ;
+    ns1:P1559 "Harding, Nick"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Hendry,_Allan> ns1:P101 <http://www.wikidata.org/entity/Q929771> ;
+    ns1:P1559 "Allan Hendry"@en ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Allan_Hendry.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 1979 .
+
+<https://example.org/resource/Humes,_Edward> ns1:P101 <http://www.wikidata.org/entity/Q130352> ;
+    ns1:P106 <http://www.wikidata.org/entity/Q36180> ;
+    ns1:P1559 "Humes, Edward"@en ;
+    ns1:P21 <http://www.wikidata.org/entity/Q6581097> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q108674101>,
+        <http://www.wikidata.org/entity/Q109119401>,
+        <http://www.wikidata.org/entity/Q11900058>,
+        <http://www.wikidata.org/entity/Q1225716>,
+        <http://www.wikidata.org/entity/Q124316207>,
+        <http://www.wikidata.org/entity/Q12729910>,
+        <http://www.wikidata.org/entity/Q12759592>,
+        <http://www.wikidata.org/entity/Q15839134>,
+        <http://www.wikidata.org/entity/Q15862775>,
+        <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q16063546>,
+        <http://www.wikidata.org/entity/Q16082057>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q18691526>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19085957>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q20078554>,
+        <http://www.wikidata.org/entity/Q20266330>,
+        <http://www.wikidata.org/entity/Q2041543>,
+        <http://www.wikidata.org/entity/Q2822396>,
+        <http://www.wikidata.org/entity/Q37549995>,
+        <http://www.wikidata.org/entity/Q41955909>,
+        <http://www.wikidata.org/entity/Q4205432>,
+        <http://www.wikidata.org/entity/Q51955019>,
+        <http://www.wikidata.org/entity/Q55851121>,
+        <http://www.wikidata.org/entity/Q563248>,
+        <http://www.wikidata.org/entity/Q5663419>,
+        <http://www.wikidata.org/entity/Q60527532>,
+        <http://www.wikidata.org/entity/Q67311526>,
+        <http://www.wikidata.org/entity/Q68772997>,
+        <http://www.wikidata.org/entity/Q71887839>,
+        <http://www.wikidata.org/entity/Q96382318>,
+        <http://www.wikidata.org/entity/Q99413897> .
+
+<https://example.org/resource/Hutchinson,_Sikivu> ns1:P101 <http://www.wikidata.org/entity/Q3359185> ;
+    ns1:P1559 "Sikivu Hutchinson"@en ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sikivu_Hutchinson.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 2015 .
+
+<https://example.org/resource/Lebo,_Lauri> ns1:P101 <http://www.wikidata.org/entity/Q130352> ;
+    ns1:P106 <http://www.wikidata.org/entity/Q36180> ;
+    ns1:P1559 "Lebo, Lauri"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q108674101>,
+        <http://www.wikidata.org/entity/Q109119401>,
+        <http://www.wikidata.org/entity/Q11900058>,
+        <http://www.wikidata.org/entity/Q1225716>,
+        <http://www.wikidata.org/entity/Q124316207>,
+        <http://www.wikidata.org/entity/Q12729910>,
+        <http://www.wikidata.org/entity/Q12759592>,
+        <http://www.wikidata.org/entity/Q15839134>,
+        <http://www.wikidata.org/entity/Q15862775>,
+        <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q16063546>,
+        <http://www.wikidata.org/entity/Q16082057>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q18691526>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19085957>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q20078554>,
+        <http://www.wikidata.org/entity/Q20266330>,
+        <http://www.wikidata.org/entity/Q2041543>,
+        <http://www.wikidata.org/entity/Q2822396>,
+        <http://www.wikidata.org/entity/Q37549995>,
+        <http://www.wikidata.org/entity/Q41955909>,
+        <http://www.wikidata.org/entity/Q4205432>,
+        <http://www.wikidata.org/entity/Q51955019>,
+        <http://www.wikidata.org/entity/Q55851121>,
+        <http://www.wikidata.org/entity/Q563248>,
+        <http://www.wikidata.org/entity/Q60527532>,
+        <http://www.wikidata.org/entity/Q67311526>,
+        <http://www.wikidata.org/entity/Q68772997>,
+        <http://www.wikidata.org/entity/Q71887839>,
+        <http://www.wikidata.org/entity/Q7753716>,
+        <http://www.wikidata.org/entity/Q96382318>,
+        <http://www.wikidata.org/entity/Q99413897> .
+
+<https://example.org/resource/Loftus,_John> ns1:P101 <http://www.wikidata.org/entity/Q3359185> ;
+    ns1:P1559 "John W. Loftus"@en ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/John_W._Loftus.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q1871370>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 2013 .
+
+<https://example.org/resource/Pendergrast,_Mark> ns1:P1559 "Mark Pendergrast"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    <https://example.org/resource/Bok,_Bart_J.> ns1:P101 .
+
+<https://example.org/resource/Skrabanek,_Petr> ns1:P101 <http://www.wikidata.org/entity/Q188504> ;
+    ns1:P1559 "Skrabanek, Petr"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q1871370>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "1990-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Stebbing,_Susan> ns1:P101 <http://www.wikidata.org/entity/Q8078> ;
+    ns1:P106 <http://www.wikidata.org/entity/Q36180> ;
+    ns1:P1559 "Stebbing, Susan"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q108674101>,
+        <http://www.wikidata.org/entity/Q109119401>,
+        <http://www.wikidata.org/entity/Q11900058>,
+        <http://www.wikidata.org/entity/Q1225716>,
+        <http://www.wikidata.org/entity/Q124316207>,
+        <http://www.wikidata.org/entity/Q12729910>,
+        <http://www.wikidata.org/entity/Q12759592>,
+        <http://www.wikidata.org/entity/Q1508259>,
+        <http://www.wikidata.org/entity/Q15839134>,
+        <http://www.wikidata.org/entity/Q15862775>,
+        <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q16063546>,
+        <http://www.wikidata.org/entity/Q16082057>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q18691526>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19085957>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q20078554>,
+        <http://www.wikidata.org/entity/Q20266330>,
+        <http://www.wikidata.org/entity/Q2041543>,
+        <http://www.wikidata.org/entity/Q2822396>,
+        <http://www.wikidata.org/entity/Q37549995>,
+        <http://www.wikidata.org/entity/Q41955909>,
+        <http://www.wikidata.org/entity/Q4205432>,
+        <http://www.wikidata.org/entity/Q51955019>,
+        <http://www.wikidata.org/entity/Q55851121>,
+        <http://www.wikidata.org/entity/Q563248>,
+        <http://www.wikidata.org/entity/Q60527532>,
+        <http://www.wikidata.org/entity/Q67311526>,
+        <http://www.wikidata.org/entity/Q68772997>,
+        <http://www.wikidata.org/entity/Q71887839>,
+        <http://www.wikidata.org/entity/Q96382318>,
+        <http://www.wikidata.org/entity/Q99413897> ;
+    ns1:P569 "1885-05-02T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Twain,_Mark> ns1:P101 <http://www.wikidata.org/entity/Q3359185> ;
+    ns1:P1559 "Twain, Mark"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "1907-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P800 <http://www.wikidata.org/entity/Q5110120> .
+
+<https://example.org/resource/Wilson,_Robert_A> ns1:P101 <http://www.wikidata.org/entity/Q5891> ;
+    ns1:P1559 "Robert Anton Wilson"@en ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Robert_Anton_Wilson.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 1978 .
+

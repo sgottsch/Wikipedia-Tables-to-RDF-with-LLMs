@@ -1,0 +1,126 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of schools in the Auckland Region" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Gender || Area || Authority || Opened || Roll ||  Website  || Notes
+|-
+| [[Balmoral Seventh-day Adventist School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=4100 4100] || 1–8 || Coed || [[Balmoral, New Zealand|Balmoral]] || State integrated || 1950 || {{NZ school roll data|4100|y}} || [https://www.balmoralsda.school.nz/]||
+|-
+| [[Balmoral School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1219 1219] || 1–8 || Coed || [[Balmoral, New Zealand|Balmoral]] || State || 1926 || {{NZ school roll data|1219|y}} || [http://www.balmoral.school.nz/]||
+|-
+| [[Epsom Normal Primary School|Epsom Normal School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1270 1270] || 1–6 || Coed || [[Epsom, New Zealand|Epsom]] || State || 1886 || {{NZ school roll data|1270|y}} ||  [http://www.epsomnormalprimary.school.nz/]||
+|-
+| [[Kōwhai Intermediate School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1337 1337] || 7–8 || Coed || [[Kingsland, New Zealand|Kingsland]] || State || 1922 || {{NZ school roll data|1337|y}} ||  [http://www.kowhai.school.nz/]||
+|-
+| [[Maungawhau School]]  ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1367 1367] || 1–6 || Coed || [[Balmoral, New Zealand|Balmoral]] || State || 1913 || {{NZ school roll data|1367|y}} ||  [http://www.maungawhau.school.nz/]|| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Balmoral_Seventh-day_Adventist_School> wdt:P47 <https://en.wikipedia.org/wiki/Mount_Eden> ;
+ wdt:P1889 wd:Q65429493 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Sandringham,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Kingsland,_New_Zealand> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Balmoral%20%282%29.jpg> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Mount_Roskill> ;
+ rdfs:label "Balmoral"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> .
+
+<https://example.org/resource/Balmoral_School> wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Middle_school> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ rdfs:label "Balmoral School"@en ;
+ wdt:P856 <http://www.balmoral.school.nz/> ;
+ wdt:P571 "1926-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P2196 "822"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Primary_school> .
+
+<https://example.org/resource/Epsom_Normal_School> wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ rdfs:label "Epsom Normal Primary School"@en ;
+ wdt:P856 <http://www.epsomnormalprimary.school.nz/> ;
+ wdt:P2196 "682"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P571 "1886-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Primary_school> .
+
+<https://example.org/resource/Kōwhai_Intermediate_School> wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P856 <http://www.kowhai.school.nz> ;
+ wdt:P7095 <https://en.wikipedia.org/wiki/Year_8> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Middle_school> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P7086 <https://en.wikipedia.org/wiki/Year_7> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ rdfs:label "Kōwhai Intermediate School"@en ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Kingsland,_New_Zealand> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/K%C5%8Dwhai%20Intermediate%20School%20gates.jpg> ;
+ wdt:P2196 "660"^^xsd:decimal ;
+ wdt:P2196 "581"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P6375 "26 Onslow Road, Kingsland, Auckland"@en ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Auckland> .
+
+<https://example.org/resource/Maungawhau_School> wdt:P571 "1912-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P7086 <https://en.wikipedia.org/wiki/Year_1_(education)> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/School> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P6375 "Ellerton Road, Mount Eden, Auckland"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Mount_Eden> ;
+ wdt:P7095 <https://en.wikipedia.org/wiki/Year_6> ;
+ rdfs:label "Maungawhau School"@en ;
+ wdt:P2196 "681"^^xsd:decimal ;
+ wdt:P2196 "689"^^xsd:decimal ;
+ wdt:P856 <https://www.maungawhau.school.nz/> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Primary_school> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Auckland> .
+---
+These are the labels of the properties:
+
+wdt:P47 -> shares border with
+wdt:P1889 -> different from
+wdt:P31 -> instance of
+wdt:P17 -> country
+wdt:P18 -> image
+wdt:P131 -> located in the administrative territorial entity
+wdt:P7419 -> gender educated
+wdt:P856 -> official website URL
+wdt:P571 -> inception
+wdt:P2196 -> students count
+wdt:P7095 -> end grade
+wdt:P7086 -> start grade
+wdt:P276 -> location
+wdt:P6375 -> street address.
+---
+These are the labels of the objects:
+
+wd:Q65429493 -> Balmoral
+wd:Q70853302 -> all genders.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Gender || Area || Authority || Opened || Roll ||  Website  || Notes
+|-
+| Point Chevalier School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1440 1440] || 1–6 || Coed || [[Point Chevalier]] || State || 1887 || {{NZ school roll data|1440|y}} ||  [http://www.ptchev.school.nz]||
+|-
+| St Francis Catholic Primary School ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1488 1488] || 1–6 || Coed || [[Point Chevalier]] || State integrated || || {{NZ school roll data|1488|y}} || [http://stfrancis.school.nz/]|| Catholic
+|-
+| {{abbr|TKKM|Te Kura Kaupapa Māori}} o Nga Maungarongo || [https://www.educationcounts.govt.nz/find-school/school/profile?school=4207 4207] || 1–8 || Coed || [[Mount Albert, New Zealand|Mount Albert]] || State || 1987 || {{NZ school roll data|4207|y}} || [http://www.kkmmaungarongo.co.nz]||
+|-
+| Waterview School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1563 1563] || 1–6 || Coed || [[Waterview, New Zealand|Waterview]] || State ||  || {{NZ school roll data|1563|y}} ||  [http://www.waterview.school.nz]|| |}
+---

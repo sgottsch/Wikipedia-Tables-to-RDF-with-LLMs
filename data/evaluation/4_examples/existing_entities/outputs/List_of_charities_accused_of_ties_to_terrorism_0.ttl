@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Internationale_Humanitäre_Hilfsorganisation_e.V.> rdfs:label "Internationale Humanitäre Hilfsorganisation e.V."@en ;
+    wdt:P17 wd:Q183 .
+
+<https://example.org/resource/Interpal> rdfs:label "Interpal"@en ;
+    wdt:P159 wd:Q145 ;
+    wdt:P17 wd:Q145 .
+
+<https://example.org/resource/Islamic_Relief> rdfs:label "Islamic Relief"@en ;
+    wdt:P159 wd:Q145 ;
+    wdt:P17 wd:Q145 .
+
+<https://example.org/resource/Jamaat_al_Dawa_al_Quran> rdfs:label "Jamaat al Dawa al Quran"@en ;
+    wdt:P17 wd:Q889 .
+
+<https://example.org/resource/Maktab_al-Khidamat> rdfs:label "Maktab al-Khidamat"@en ;
+    wdt:P17 wd:Q889 .
+
+<https://example.org/resource/Muslim_Aid> rdfs:label "Muslim Aid"@en ;
+    wdt:P159 wd:Q145 ;
+    wdt:P17 wd:Q145 .
+
+<https://example.org/resource/Popular_Front_of_India> rdfs:label "Popular Front of India"@en ;
+    wdt:P17 wd:Q668 .
+
+<https://example.org/resource/Society_of_the_Revival_of_Islamic_Heritage> rdfs:label "Society of the Revival of Islamic Heritage"@en ;
+    wdt:P17 wd:Q817 .
+
+<https://example.org/resource/Tamils_Rehabilitation_Organisation> rdfs:label "Tamils Rehabilitation Organisation"@en ;
+    wdt:P17 wd:Q16 .
+

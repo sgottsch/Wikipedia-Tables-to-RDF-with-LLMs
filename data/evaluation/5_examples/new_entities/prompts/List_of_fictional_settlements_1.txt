@@ -1,0 +1,153 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of fictional settlements" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+! City/Town
+! Film Name
+! Distributor(s)
+! class=unsortable|Notes
+|-
+|[[Derry (Stephen King)|Derry, Maine]]
+|''[[It (2017 film)|It]]''
+|[[Warner Bros.]]
+| '''Derry''' is a fictional town created by [[Stephen King]] to serve as a nexus of horror in books such as ''[[It (novel)|It]]'', ''[[Insomnia (novel)|Insomnia]]'', ''[[The Tommyknockers]]'' and ''[[11/22/63]]''.
+|-
+|[[Hill Valley (Back to the Future)|Hill Valley, California]] 
+| [[Back to the Future trilogy|''Back to the Future'']]
+|[[Universal Studios|Universal]]
+|'''Hill Valley''' is a fictional town in California, located in the Sierra Nevada Mountains and 16 miles from Grass Valley.
+|-
+|[[Emerald City]] 
+| [[The Wizard of Oz (1939 film)|''The Wizard of Oz'']]
+|[[Metro-Goldwyn-Mayer|MGM]]
+|The '''Emerald City''' is the fictional capital city of the [[Land of Oz]] based on [[L. Frank Baum]]'s series of [[Oz books]]. It was first described in ''[[The Wonderful Wizard of Oz]]''. The city is sometimes called the City of Emeralds due to its extensively green architecture.
+|-
+|[[Zion (The Matrix)|Zion]] 
+|''[[The Matrix]]''
+|[[Warner Brothers]]
+|'''Zion''' is a fictional [[city]] in ''[[The Matrix (franchise)|The Matrix]]'' films. It is the last [[human]] [[city]] on the [[planet]] [[Earth]] after a cataclysmic nuclear war between humankind and sentient Machines, which resulted in artificial lifeforms dominating the world.
+|-
+|[[Mos Eisley]]
+|[[Star Wars (film)|''Star Wars'']]
+|[[20th Century Fox]]
+|'''Mos Eisley''' is a setting in the fictional ''[[Star Wars]]'' [[fictional universe|universe]]. It is introduced as a spaceport<ref>[https://www.starwars.com/databank/location/moseisley/ StarWars.com Databank: Mos Eisley]</ref> town on the planet [[Tatooine]] which [[Obi-Wan Kenobi]] (played by [[Alec Guinness]]) describes as a "wretched hive of scum and villainy." It is the home of the [[Mos Eisley]] cantina and [[Figrin D'an and the Modal Nodes]]. |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Derry,_Maine> wdt:P170 <https://en.wikipedia.org/wiki/Stephen_King> ;
+ wdt:P1705 "Derry"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ rdfs:label "Derry"@en ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/It_(novel)> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Maine> ;
+ wdt:P1080 wd:Q20714890 ;
+ wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Hill_Valley,_California> wdt:P915 <https://en.wikipedia.org/wiki/Griffith_Park> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Victory_Boulevard_(Los_Angeles)> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Gamble_House_(Pasadena,_California)> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Back_to_the_Future_(TV_series)> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Puente_Hills_Mall> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Port_Hueneme,_California> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Chino,_California> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Back_to_the_Future:_The_Game> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ rdfs:label "Hill Valley"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Horloge%20retour%20vers%20le%20futur.jpg> ;
+ wdt:P1080 wd:Q98298155 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Back_to_the_Future> ;
+ wdt:P571 "1865-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Golden_Oak_Ranch> ;
+ wdt:P8345 wd:Q98112763 ;
+ wdt:P915 <https://en.wikipedia.org/wiki/South_Pasadena,_California> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Back_to_the_Future_Part_III> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Oxnard,_California> ;
+ wdt:P31 wd:Q1964689 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Back_to_the_Future_Part_II> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Burbank,_California> .
+
+<https://example.org/resource/Emerald_City> wdt:P1441 <https://en.wikipedia.org/wiki/The_Wonderful_Wizard_of_Oz> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Winkie_Country> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Gillikin_Country> ;
+ wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Oz%20Mapa.svg> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Munchkin_Country> ;
+ wdt:P910 wd:Q9556903 ;
+ rdfs:label "Emerald City"@en ;
+ wdt:P1376 <https://en.wikipedia.org/wiki/Land_of_Oz> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Emerald%20City.jpg> ;
+ wdt:P1889 wd:Q28037250 ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Quadling_Country> ;
+ wdt:P31 wd:Q1964689 ;
+ wdt:P1080 wd:Q15912693 .
+
+<https://example.org/resource/Zion> wdt:P8345 <https://en.wikipedia.org/wiki/The_Matrix_(franchise)> ;
+ wdt:P1080 <https://en.wikipedia.org/wiki/Matrix_universe> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Zion> ;
+ wdt:P31 wd:Q65630486 ;
+ rdfs:label "Zion"@en ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/The_Matrix_Revolutions> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/The_Matrix_Reloaded> ;
+ wdt:P31 wd:Q80196698 .
+
+<https://example.org/resource/Mos_Eisley> wdt:P1080 wd:Q19786052 ;
+ rdfs:label "Mos Eisley"@en ;
+ wdt:P8345 <https://en.wikipedia.org/wiki/Star_Wars> ;
+ wdt:P1080 <https://en.wikipedia.org/wiki/Star_Wars_in_other_media> ;
+ wdt:P376 <https://en.wikipedia.org/wiki/Tatooine> ;
+ wdt:P31 wd:Q108059698 ;
+ wdt:P31 wd:Q1964689 .
+---
+These are the labels of the properties:
+
+wdt:P170 -> creator
+wdt:P1705 -> native label
+wdt:P17 -> country
+wdt:P1441 -> present in work
+wdt:P131 -> located in the administrative territorial entity
+wdt:P1080 -> from narrative universe
+wdt:P31 -> instance of
+wdt:P915 -> filming location
+wdt:P18 -> image
+wdt:P571 -> inception
+wdt:P8345 -> media franchise
+wdt:P47 -> shares border with
+wdt:P242 -> locator map image
+wdt:P910 -> topic's main category
+wdt:P1376 -> capital of
+wdt:P1889 -> different from
+wdt:P138 -> named after
+wdt:P376 -> located on astronomical body.
+---
+These are the labels of the objects:
+
+wd:Q20714890 -> Multiverse
+wd:Q1964689 -> fictional city
+wd:Q98298155 -> Hill Valley fictive universe
+wd:Q98112763 -> Back to the Future
+wd:Q9556903 -> Category:Emerald City
+wd:Q28037250 -> Emerald City
+wd:Q15912693 -> Oz universe
+wd:Q65630486 -> fictional city-state
+wd:Q80196698 -> fictional underground city
+wd:Q19786052 -> Star Wars universe
+wd:Q108059698 -> Star Wars location.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+! City/Town
+! Film Name
+! Distributor(s)
+! class=unsortable|Notes
+|-
+|Toontown
+|''[[Who Framed Roger Rabbit]]''
+|Touchstone Pictures (1988)
+|Fictional town that borders [[Burbank, California]], it is designed specifically to act as a home for Toons, and as a result, the laws of physics are subject to change within its borders, often making it hazardous for human visitors. Formerly owned by tycoon Marvin Acme, his death and apparent absence of a will triggers an ownership dispute that drives the main plot of the film. |}
+---

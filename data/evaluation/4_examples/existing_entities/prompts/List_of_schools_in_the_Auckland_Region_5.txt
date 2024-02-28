@@ -1,0 +1,117 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of schools in the Auckland Region" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name ||  MOE || Years || Area || Authority || Opened || Roll || Website || Notes
+|-
+| [[Bruce McLaren Intermediate]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1238 1238] || 7–8  || [[McLaren Park, New Zealand|McLaren Park]] || State ||  || {{NZ school roll data|1238|y}} || [http://www.brucemclaren.school.nz]||
+|-
+| [[Glendene School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1293 1293] || 1–6  || [[Glendene, New Zealand|Glendene]] || State ||  || {{NZ school roll data|1293|y}} || [https://www.glendene.school.nz/]||
+|-
+| [[Henderson Intermediate]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1307 1307] || 7–8  || [[Henderson North, New Zealand|Henderson North]] || State ||  || {{NZ school roll data|1307|y}} ||  [http://www.hendersonint.school.nz/]||
+|-
+| [[Henderson North School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1308 1308] || 1–6  || [[Henderson North, New Zealand|Henderson North]] || State ||  || {{NZ school roll data|1308|y}} ||  [http://www.hns.school.nz/]|| |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Bruce_McLaren_Intermediate> wdt:P571 "1971-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Bruce McLaren Intermediate"@en ;
+ wdt:P856 <http://www.brucemclaren.school.nz> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/School> ;
+ wdt:P7095 <https://en.wikipedia.org/wiki/Year_8> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Middle_school> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P7086 <https://en.wikipedia.org/wiki/Year_7> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/20230220%20190450%20Bruce%20McLaren%20Intermediate.jpg> ;
+ wdt:P6375 "61 - 69 Bruce Mclaren Road, Henderson, Auckland"@en ;
+ wdt:P2196 "302"^^xsd:decimal ;
+ wdt:P2196 "324"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Auckland> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Henderson,_New_Zealand> .
+
+<https://example.org/resource/Glendene_School> wdt:P47 <https://en.wikipedia.org/wiki/Glen_Eden,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Kelston,_New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/New_Lynn> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Henderson,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Sunnyvale,_Auckland> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Stay%20safe%2C%20Stay%20well%2C%20Be%20KIND%20-%20sign%20at%20Flowers%20on%20the%20Hilltop%20florists%20during%20Covid-19%20level%204%20lockdown.jpg> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Te_Atat%C5%AB_South> ;
+ rdfs:label "Glendene"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Oratia> .
+
+<https://example.org/resource/Henderson_Intermediate> wdt:P47 <https://en.wikipedia.org/wiki/Glendene,_New_Zealand> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Thomas_Henderson_(New_Zealand_politician)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Henderson_North,_New_Zealand> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Lincoln,_Auckland> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/McLaren_Park,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Western_Heights,_Auckland> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Sunnyvale,_Auckland> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Old%20Henderson%20Railway%20Station%2CNot%20In%20Use%20Now.%20%2812147659335%29.jpg> ;
+ rdfs:label "Henderson"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Te_Atat%C5%AB_South> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> .
+
+<https://example.org/resource/Henderson_North_School> wdt:P47 <https://en.wikipedia.org/wiki/Glendene,_New_Zealand> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Thomas_Henderson_(New_Zealand_politician)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Henderson_North,_New_Zealand> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Lincoln,_Auckland> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/McLaren_Park,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Western_Heights,_Auckland> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Sunnyvale,_Auckland> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Old%20Henderson%20Railway%20Station%2CNot%20In%20Use%20Now.%20%2812147659335%29.jpg> ;
+ rdfs:label "Henderson"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Te_Atat%C5%AB_South> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> .
+---
+These are the labels of the properties:
+
+wdt:P571 -> inception
+wdt:P856 -> official website URL
+wdt:P17 -> country
+wdt:P31 -> instance of
+wdt:P7095 -> end grade
+wdt:P7419 -> gender educated
+wdt:P7086 -> start grade
+wdt:P18 -> image
+wdt:P6375 -> street address
+wdt:P2196 -> students count
+wdt:P131 -> located in the administrative territorial entity
+wdt:P276 -> location
+wdt:P47 -> shares border with
+wdt:P138 -> named after.
+---
+These are the labels of the objects:
+
+wd:Q70853302 -> all genders.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name ||  MOE || Years || Area || Authority || Opened || Roll || Website || Notes
+|-
+| [[Rutherford School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1478 1478] || 1–6  || [[Te Atatū Peninsula]] || State || || {{NZ school roll data|1478|y}} || [http://www.rutherfordprimary.school.nz]||
+|-
+| [[Summerland Primary]]  ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=6937 6937] || 1–6  || [[Western Heights, Auckland|Western Heights]] || State || 2002 || {{NZ school roll data|6937|y}} ||  [http://www.summerland.school.nz/]||
+|-
+| [[Tirimoana School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1536 1536] || 1–6  || [[Te Atatū South]] || State || || {{NZ school roll data|1536|y}} ||  [http://www.tirimoana.school.nz/]||
+|-
+| [[Waitakere Seventh-day Adventist School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=4151 4151] || 1–8  || [[McLaren Park, New Zealand|McLaren Park]] || State integrated || || {{NZ school roll data|4151|y}} ||  https://www.waitakeresda.school.nz/<nowiki/>|| |}
+---

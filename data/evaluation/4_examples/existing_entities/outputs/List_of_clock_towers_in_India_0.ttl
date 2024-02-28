@@ -1,0 +1,67 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Chimnabai_Clock_Tower> rdfs:label "Chimnabai Clock Tower"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Chinnakada_Clock_Tower> rdfs:label "Chinnakada Clock Tower"@en ;
+    wdt:P1619 "1944-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Clock_Tower,_Meerut> rdfs:label "Clock Tower, Meerut"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Clock_Tower_of_Murshidabad> rdfs:label "Clock Tower of Murshidabad"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Ghadi_Chowk,_Raipur> rdfs:label "Ghadi Chowk, Raipur"@en ;
+    wdt:P1619 "1995-12-19T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Ghanta_Ghar> rdfs:label "Ghanta Ghar"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Golden_Rock_Railway_Workshop> rdfs:label "Golden Rock Railway Workshop"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Husainabad_Clock_Tower> rdfs:label "Husainabad Clock Tower"@en ;
+    wdt:P1619 "1881-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/King_George_Hospital_Clock_Tower> rdfs:label "King George Hospital Clock Tower"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Lawrence_School_Lovedale_Clock_Tower> rdfs:label "Lawrence School, Lovedale Clock Tower"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Mohamedally_Tower> rdfs:label "Mohamedally Tower"@en ;
+    wdt:P1619 "1915-04-04T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Rajabai_Tower> rdfs:label "Rajabai Tower"@en ;
+    wdt:P1619 "1878-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Shah_Ali_Banda_Clock_Tower> rdfs:label "Shah Ali Banda Clock Tower"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Sultan_Bazar_Clock_Tower> rdfs:label "Sultan Bazar Clock Tower"@en ;
+    wdt:P1619 "1865-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+

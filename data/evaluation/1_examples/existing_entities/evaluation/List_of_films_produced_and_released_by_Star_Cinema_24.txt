@@ -1,0 +1,148 @@
+In both
+<https://example.org/resource/Loving_in_Tandem> <http://www.wikidata.org/prop/direct/P577> "2017-09-13T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Loving_in_Tandem> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Loving_in_Tandem> <http://www.w3.org/2000/01/rdf-schema#label> "Loving in Tandem"@en .
+In ground only
+<https://example.org/resource/Can't_Help_Falling_In_Love> <http://www.w3.org/2000/01/rdf-schema#label> "Can't Help Falling in Love"@en .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P272> <http://www.wikidata.org/entity/Q22116885> .
+<https://example.org/resource/Bloody_Crayons> <http://www.wikidata.org/prop/direct/P577> "2017-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Last_Night> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q723685> .
+<https://example.org/resource/Last_Night> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Unexpectedly_Yours> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q723685> .
+<https://example.org/resource/Seven_Sundays> <http://www.w3.org/2000/01/rdf-schema#label> "Seven Sundays"@en .
+<https://example.org/resource/Ang_Panday> <http://www.wikidata.org/prop/direct/P2047> "128"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Gandarrapiddo:_The_Revenger_Squad> <http://www.wikidata.org/prop/direct/P856> <http://therevengersquad.com.ph> .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q15696586> .
+<https://example.org/resource/Can't_Help_Falling_In_Love> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Last_Night> <http://www.wikidata.org/prop/direct/P58> <http://www.wikidata.org/entity/Q2567854> .
+<https://example.org/resource/The_Ghost_Bride> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q200092> .
+<https://example.org/resource/Last_Night> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q6297464> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q22959199> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q9589> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q12970124> .
+<https://example.org/resource/Can't_Help_Falling_In_Love> <http://www.wikidata.org/prop/direct/P577> "2017-04-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Ang_Panday> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Northern_Lights:_A_Journey_to_Love> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q130232> .
+<https://example.org/resource/Bloody_Crayons> <http://www.w3.org/2000/01/rdf-schema#label> "Bloody Crayons"@en .
+<https://example.org/resource/The_Ghost_Bride> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q54820071> .
+<https://example.org/resource/Finally_Found_Someone> <http://www.wikidata.org/prop/direct/P577> "2017-07-26T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q5880927> .
+<https://example.org/resource/Unexpectedly_Yours> <http://www.w3.org/2000/01/rdf-schema#label> "Unexpectedly Yours"@en .
+<https://example.org/resource/Unexpectedly_Yours> <http://www.wikidata.org/prop/direct/P577> "2017-11-29T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Gandarrapiddo:_The_Revenger_Squad> <http://www.w3.org/2000/01/rdf-schema#label> "Gandarrapiddo: The Revenger Squad"@en .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.w3.org/2000/01/rdf-schema#label> "My Ex and Whys"@en .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q3543293> .
+<https://example.org/resource/Ang_Panday> <http://www.wikidata.org/prop/direct/P9215> <http://www.wikidata.org/entity/Q3517772> .
+<https://example.org/resource/Bloody_Crayons> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q5880927> .
+<https://example.org/resource/Last_Night> <http://www.wikidata.org/prop/direct/P585> "2017-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Finally_Found_Someone> <http://www.wikidata.org/prop/direct/P272> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P462> <http://www.wikidata.org/entity/Q22006653> .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q860626> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Gandarrapiddo:_The_Revenger_Squad> <http://www.wikidata.org/prop/direct/P462> <http://www.wikidata.org/entity/Q22006653> .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P2629> <http://www.wikidata.org/entity/Q23301855> .
+<https://example.org/resource/Last_Night> <http://www.wikidata.org/prop/direct/P577> "2017-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Ghost_Bride> <http://www.wikidata.org/prop/direct/P577> "2017-07-26T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P577> "2017-08-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Last_Night> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Bloody_Crayons> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q6152602> .
+<https://example.org/resource/The_Ghost_Bride> <http://www.wikidata.org/prop/direct/P2142> "99000000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q145424> .
+<https://example.org/resource/Gandarrapiddo:_The_Revenger_Squad> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q1535153> .
+<https://example.org/resource/Bloody_Crayons> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Gandarrapiddo:_The_Revenger_Squad> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q6297464> .
+<https://example.org/resource/Finally_Found_Someone> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q44216469> .
+<https://example.org/resource/Bloody_Crayons> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q723685> .
+<https://example.org/resource/Last_Night> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Ang_Panday> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q5139743> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q33298> .
+<https://example.org/resource/The_Ghost_Bride> <http://www.wikidata.org/prop/direct/P1040> <http://www.wikidata.org/entity/Q102413902> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Gandarrapiddo:_The_Revenger_Squad> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Loving_in_Tandem> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q860626> .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P1476> "My Ex and Whys"@en .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Northern_Lights:_A_Journey_to_Love> <http://www.w3.org/2000/01/rdf-schema#label> "Northern Lights: A Journey to Love"@en .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q723685> .
+<https://example.org/resource/Ang_Panday> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q28026639> .
+<https://example.org/resource/Can't_Help_Falling_In_Love> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q860626> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.w3.org/2000/01/rdf-schema#label> "Love You to the Stars and Back"@en .
+<https://example.org/resource/Bloody_Crayons> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Northern_Lights:_A_Journey_to_Love> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Finally_Found_Someone> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Dear_Other_Self> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Gandarrapiddo:_The_Revenger_Squad> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Finally_Found_Someone> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Can't_Help_Falling_In_Love> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q34057> .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P577> "2017-02-14T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q860626> .
+<https://example.org/resource/Can't_Help_Falling_In_Love> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q22277455> .
+<https://example.org/resource/Loving_in_Tandem> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q5880927> .
+<https://example.org/resource/The_Ghost_Bride> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q5880927> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q14956451> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P272> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q157443> .
+<https://example.org/resource/Unexpectedly_Yours> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q5880927> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q723685> .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Last_Night> <http://www.w3.org/2000/01/rdf-schema#label> "Last Night"@en .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P462> <http://www.wikidata.org/entity/Q22006653> .
+<https://example.org/resource/The_Ghost_Bride> <http://www.w3.org/2000/01/rdf-schema#label> "Ghost Bride"@en .
+<https://example.org/resource/Northern_Lights:_A_Journey_to_Love> <http://www.wikidata.org/prop/direct/P577> "2017-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Gandarrapiddo:_The_Revenger_Squad> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Finally_Found_Someone> <http://www.w3.org/2000/01/rdf-schema#label> "Finally Found Someone"@en .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P577> "2017-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Ang_Panday> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/The_Ghost_Bride> <http://www.wikidata.org/prop/direct/P272> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Dear_Other_Self> <http://www.wikidata.org/prop/direct/P577> "2017-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Finally_Found_Someone> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q2333745> .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q723685> .
+<https://example.org/resource/Can't_Help_Falling_In_Love> <http://www.wikidata.org/prop/direct/P2629> <http://www.wikidata.org/entity/Q23301855> .
+<https://example.org/resource/Northern_Lights:_A_Journey_to_Love> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Gandarrapiddo:_The_Revenger_Squad> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q34057> .
+<https://example.org/resource/Unexpectedly_Yours> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Northern_Lights:_A_Journey_to_Love> <http://www.wikidata.org/prop/direct/P915> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Can't_Help_Falling_In_Love> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q33298> .
+<https://example.org/resource/Bloody_Crayons> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q7824822> .
+<https://example.org/resource/Bloody_Crayons> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q2484376> .
+<https://example.org/resource/Finally_Found_Someone> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q860626> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q18719493> .
+<https://example.org/resource/Can't_Help_Falling_In_Love> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q723685> .
+<https://example.org/resource/Northern_Lights:_A_Journey_to_Love> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q113206325> .
+<https://example.org/resource/Ang_Panday> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q723685> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Dear_Other_Self> <http://www.w3.org/2000/01/rdf-schema#label> "Dear Other Self"@en .
+<https://example.org/resource/The_Ghost_Bride> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P58> <http://www.wikidata.org/entity/Q18719493> .
+<https://example.org/resource/Ang_Panday> <http://www.wikidata.org/prop/direct/P577> "2017-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Gandarrapiddo:_The_Revenger_Squad> <http://www.wikidata.org/prop/direct/P577> "2017-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q1869913> .
+<https://example.org/resource/Ang_Panday> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Dear_Other_Self> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/My_Ex_and_Whys> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Bloody_Crayons> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Can't_Help_Falling_In_Love> <http://www.wikidata.org/prop/direct/P2047> "119"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> <http://www.wikidata.org/prop/direct/P2047> "111"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Finally_Found_Someone> <http://www.wikidata.org/prop/direct/P2047> "125"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Ghost_Bride> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q467044> .
+<https://example.org/resource/Can't_Help_Falling_In_Love> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Northern_Lights:_A_Journey_to_Love> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q797> .
+<https://example.org/resource/Finally_Found_Someone> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Ang_Panday> <http://www.w3.org/2000/01/rdf-schema#label> "Ang Panday"@en .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q5186397> .
+<https://example.org/resource/Seven_Sundays> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Dear_Other_Self> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q113586866> .
+<https://example.org/resource/Unexpectedly_Yours> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q860626> .
+<https://example.org/resource/Loving_in_Tandem> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Northern_Lights:_A_Journey_to_Love> <http://www.wikidata.org/prop/direct/P2629> <http://www.wikidata.org/entity/Q23301855> .
+<https://example.org/resource/Last_Night> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q398245> .
+In predicted only
+<https://example.org/resource/Loving_in_Tandem> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q27671269> .
+<https://example.org/resource/Loving_in_Tandem> <http://www.wikidata.org/prop/direct/P161> <https://example.org/resource/Last_Night> .

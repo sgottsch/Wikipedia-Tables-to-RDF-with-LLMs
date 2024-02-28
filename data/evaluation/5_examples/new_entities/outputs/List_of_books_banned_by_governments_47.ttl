@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/The_First_Book_of_Africa> rdfs:label "The First Book of Africa"@en ;
+    wdt:P495 wd:Q258 ;
+    wdt:P50 wd:Q188093 ;
+    wdt:P577 "1964-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7937 wd:Q131539 .
+
+<https://example.org/resource/The_Lottery> rdfs:label "The Lottery"@en ;
+    wdt:P1476 "The Lottery"@en ;
+    wdt:P495 wd:Q258 ;
+    wdt:P50 wd:Q239910 ;
+    wdt:P577 "1948-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7937 wd:Q49084 .
+
+<https://example.org/resource/The_Struggle_Is_My_Life> wdt:P1476 "The Struggle Is My Life"@en ;
+    wdt:P495 wd:Q258 ;
+    wdt:P50 wd:Q8023 ;
+    wdt:P577 "1978-01-01T00:00:00+00:00"^^xsd:dateTime .
+

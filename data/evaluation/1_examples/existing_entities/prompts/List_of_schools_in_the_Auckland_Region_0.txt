@@ -1,0 +1,50 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of schools in the Auckland Region" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name  || MOE  || Years || Area || Authority || Opened || Roll ||  class="unsortable"|Website !! class="unsortable"|Notes
+|-
+| [[Ahuroa School]]  || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1200 1200] || 1–8 || [[Ahuroa]] || State || 1888 || {{NZ school roll data|1200|y}} ||  [https://www.ahuroa.school.nz/]|| |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Ahuroa_School> rdfs:label "Ahuroa"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ex%27s%20NZGR%20Da1431%20%2833705296156%29.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 wd:Q3257686 .
+---
+These are the labels of the properties:
+
+wdt:P17 -> country
+wdt:P18 -> image
+wdt:P131 -> located in the administrative territorial entity
+wdt:P31 -> instance of.
+---
+These are the labels of the objects:
+
+wd:Q3257686 -> locality.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name  || MOE  || Years || Area || Authority || Opened || Roll ||  class="unsortable"|Website !! class="unsortable"|Notes
+|-
+| [[Waioneke School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1553 1553] || 1–8 || [[Waioneke]] || State || 1930 || {{NZ school roll data|1553|y}} ||  [http://www.waioneke.school.nz]||
+|-
+| [[Waitoki School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1558 1558] || 1–8 || [[Waitoki]] || State || 1924||{{NZ school roll data|1558|y}} ||  [http://www.waitoki.school.nz/]||
+|-
+| [[Warkworth Primary School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1561 1561] || 1–6 || [[Warkworth, New Zealand|Warkworth]] || State || || {{NZ school roll data|1561|y}} ||  [http://www.warkworth.school.nz/]||
+|-
+| [[Wellsford School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1126 1126]  || 1–8 || [[Wellsford]] || State || || {{NZ school roll data|1126|y}} ||  [http://www.wellsford.school.nz/]||
+|-
+| [[Woodhill School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1577 1577] || 1–8 || [[Woodhill, Auckland|Woodhill]] || State || 1877 || {{NZ school roll data|1577|y}} ||  [http://www.woodhill.school.nz/]|| |}
+---

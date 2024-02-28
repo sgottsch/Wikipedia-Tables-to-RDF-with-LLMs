@@ -1,0 +1,130 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of books banned by governments" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! width=170pt|Title
+! width=120pt|Author(s)
+! Year published
+!Year Banned
+!Year Unbanned 
+! Type
+! Notes
+|-
+| ''[[Areopagitica]]''
+| [[John Milton]]
+| 1644
+|1644
+|1695
+| Essay
+| Banned in the [[Kingdom of England]] for political reasons.<ref>Karolides et al., pp. 16–20</ref>
+|-
+|''[[Fanny Hill]]'' or ''Memoirs of a Woman of Pleasure''
+|[[John Cleland]]
+|1748
+|1749
+|1970
+|Novel
+|Banned in the UK till after the Second World War.<ref>{{Cite web |last=Little |first=Becky |date=23 January 2019 |title=When the Supreme Court Had to Read an 18th-Century Erotic Novel |url=https://www.history.com/news/fanny-hill-banned-book-supreme-court-case |website=The History Channel}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Areopagitica> wdt:P50 <https://en.wikipedia.org/wiki/John_Milton> ;
+ wdt:P1476 "Areopagitica"@en ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Pamphlet> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Polemic> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Kingdom_of_England> ;
+ rdfs:label "Areopagitica"@en ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Human_rights> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Areopagitica%201644bw%20gobeirne.png> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Censorship> ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/The_Nuttall_Encyclop%C3%A6dia> ;
+ wdt:P577 "1644-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 wd:Q7725634 .
+
+<https://example.org/resource/Fanny_Hill> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Memoirs%20of%20a%20Woman%20of%20Pleasure%20Fanny%20Hill%201749%20edition%20title%20page.jpg> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/John_Cleland> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Fanny_Hill_(1983_film)> ;
+ wdt:P136 wd:Q10318944 ;
+ wdt:P577 "1748-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1476 "Memoirs of a Woman of Pleasure"@en ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Fanny_Hill_(1968_film)> ;
+ rdfs:label "Fanny Hill"@en ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Novel> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Erotica> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/London> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/England> ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P953 <https://gutenberg.org/ebooks/25305> .
+---
+These are the labels of the properties:
+
+wdt:P50 -> author
+wdt:P1476 -> title
+wdt:P136 -> genre
+wdt:P407 -> language of work or name
+wdt:P6216 -> copyright status
+wdt:P495 -> country of origin
+wdt:P5008 -> on focus list of Wikimedia project
+wdt:P18 -> image
+wdt:P921 -> main subject
+wdt:P1343 -> described by source
+wdt:P577 -> publication date
+wdt:P31 -> instance of
+wdt:P4969 -> derivative work
+wdt:P7937 -> form of creative work
+wdt:P840 -> narrative location
+wdt:P953 -> full work available at URL.
+---
+These are the labels of the objects:
+
+wd:Q7725634 -> literary work
+wd:Q10318944 -> LGBT literature.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! width=170pt|Title
+! width=120pt|Author(s)
+! Year published
+!Year Banned
+!Year Unbanned 
+! Type
+! Notes
+|-
+| ''[[Last Exit to Brooklyn]]''
+| [[Hubert Selby Jr.]]
+| 1966 (in the UK)
+|1967
+|1968
+| Anthology of short stories
+| Banned in [[Soho]] for frank depictions of taboo subjects, such as drug use, street violence, homosexuality, gender identity and domestic violence.<ref>{{Cite news|url=https://www.telegraph.co.uk/obituaries/2021/01/29/david-britton-maverick-published-last-novel-britain-banned-obscenity/ |archive-url=https://ghostarchive.org/archive/20220112/https://www.telegraph.co.uk/obituaries/2021/01/29/david-britton-maverick-published-last-novel-britain-banned-obscenity/ |archive-date=January 12, 2022 |url-access=subscription |url-status=live |title=david Britton, maverick who published last novel in Britain to be banned for obscenity – obituary |newspaper=The Telegraph |date=29 January 2021|last1=Obituaries |first1=Telegraph }}{{cbignore}}</ref>
+|-
+| ''[[Spycatcher]]''
+| [[Peter Wright (MI5 officer)|Peter Wright]]
+| 1985
+|1985
+|1988
+| Autobiography
+| Banned in the UK 1985–1988 for revealing secrets. Wright was a former [[MI5]] intelligence officer and his book was banned before it was even published in 1987.<ref name="Spycatcher_time_Zuckerman">{{cite magazine |url=http://www.time.com/time/magazine/article/0,9171,965233,00.html |archive-url=https://web.archive.org/web/20070930093808/http://www.time.com/time/magazine/article/0,9171,965233,00.html |archive-date=September 30, 2007 |title=How Not to Silence a Spy |access-date=2008-01-20 |last=Zuckerman |first=Laurence |date=August 17, 1987 |magazine=[[Time (magazine)|Time]] |publisher=[[Time Warner]]}}</ref><ref name="Spycatcher_bbc2">[http://news.bbc.co.uk/onthisday/hi/dates/stories/september/23/newsid_2528000/2528695.stm 1987: Ban lifted on MI5 man's memoirs]. BBC News. Retrieved on 2012-01-21.</ref>
+|-
+| ''[[The Anarchist Cookbook]]''
+| [[William Powell (author)|William Powell]]
+| 1971
+|*Unknown*
+|*Unknown*
+| Instructional
+| Criminal due to containing information useful to terrorists.<ref name="jewish_times_2021-03-23">{{Cite web|url=https://jewishnews.timesofisrael.com/nazi-sympathiser-facing-jail-after-conviction-for-downloading-terror-manuals/ |title=Nazi sympathizer facing jail after conviction for downloading terror manuals |date=23 March 2021|website=Jewish News|language=en}}</ref><ref name="bbc_news-2021-03-23">{{Cite web|url=https://www.bbc.com/news/uk-england-berkshire-56499185 |title=Maidenhead far-right sympathizer guilty of terrorism offences |date=23 March 2021|website=BBC News|language=en}}</ref> |}
+---

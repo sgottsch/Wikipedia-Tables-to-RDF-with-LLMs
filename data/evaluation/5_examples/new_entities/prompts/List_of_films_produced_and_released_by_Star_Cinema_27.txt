@@ -1,0 +1,118 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films produced and released by Star Cinema" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="width:97%"
+|- 
+! style="width:25%;"|Title
+! style="width:10%;"|Release date 
+! style="width:10%;"|Director 
+! style="width:30%;"|Cast 
+! style="width:10%;"|Genre(s) 
+! style="width:15%;"|Associated film production 
+|- 
+| style="text-align: center;" |''[[Block Z]]'' 
+| style="text-align: center;" | January 29 
+| style="text-align: center;" | [[Mikhail Red]] 
+| [[Julia Barretto]], [[Joshua Garcia]], [[Maris Racal]], [[Yves Flores]], [[Ina Raymundo]], [[Ian Veneracion]], [[McCoy de Leon]], [[Myrtle Sarrosa]] and [[Dimples Romana]] 
+| [[Horror film|Horror]], [[Suspense film|Suspense]], [[Thriller (genre)|Thriller]], [[Zombie apocalypse|Zombie Apocalypse]] 
+| Keep Filming Productions 
+|-
+| style="text-align: center;" |''[[Boyette: Not a Girl Yet]]''
+| style="text-align: center;" |November 27
+| style="text-align: center;" |Jumbo Albano
+|[[Zaijian Jaranilla|Zaijan Jaranilla]], [[Maris Racal]], and [[Iñigo Pascual]]
+|[[Boys' Love]], [[Comedy film|Comedy]]
+|
+|-
+| style="text-align: center;" | ''[[Four Sisters Before the Wedding]]''
+| style="text-align: center;" | December 11
+| style="text-align: center;" | [[Mae Cruz-Alviar]]
+| [[Alexa Ilacad]], [[Charlie Dizon]], Gillian Vicencio, [[Belle Mariano]], [[Clarence Delgado]], [[Carmina Villarroel]] and [[Dominic Ochoa]]
+| [[Family drama film|Family Drama]], [[Comedy film|Comedy]]
+| SCX
+|-
+| style="text-align: center;" | ''[[Mang Kepweng: Ang Lihim ng Bandanang Itim]]''
+| style="text-align: center;" | December 25
+| style="text-align: center;" | [[Topel Lee]]
+| [[Vhong Navarro]]
+| [[Fantasy film|Fantasy]], [[Horror film|Horror]], [[Comedy film|Comedy]]
+| Cineko Productions |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Block_Z> wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P8889 wd:Q102108197 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Mikhail_Red> ;
+ rdfs:label "Block Z"@en ;
+ wdt:P577 "2019-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Horror_film> .
+
+<https://example.org/resource/Boyette:_Not_a_Girl_Yet> wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ rdfs:label "Boyette: Not a Girl Yet"@en .
+
+<https://example.org/resource/Four_Sisters_Before_the_Wedding> wdt:P8889 wd:Q102108196 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Mae_Cruz-Alviar> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ rdfs:label "Four Sisters Before the Wedding"@en .
+
+<https://example.org/resource/Mang_Kepweng:_Ang_Lihim_ng_Bandanang_Itim> wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ rdfs:label "Mang Kepweng: Ang Lihim ng Bandanang Itim"@en .
+---
+These are the labels of the properties:
+
+wdt:P437 -> distribution format
+wdt:P8889 -> MTRCB rating
+wdt:P31 -> instance of
+wdt:P57 -> director
+wdt:P577 -> publication date
+wdt:P495 -> country of origin
+wdt:P136 -> genre.
+---
+These are the labels of the objects:
+
+wd:Q102108197 -> R-13
+wd:Q102108196 -> Parental Guidance.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="width:97%"
+|- 
+! style="width:25%;"|Title
+! style="width:10%;"|Release date 
+! style="width:10%;"|Director 
+! style="width:30%;"|Cast 
+! style="width:10%;"|Genre(s) 
+! style="width:15%;"|Associated film production 
+|- 
+| style="text-align: center;" |''James and Pat and Dave'' 
+| style="text-align: center;" | February 12 
+| style="text-align: center;" |[[Theodore Boborol]] 
+| [[Ronnie Alonte]], [[Loisa Andalio]] and [[Donny Pangilinan]] 
+| [[Romance film|Romance]], [[Comedy film|Comedy]] 
+| 
+|- 
+| style="text-align: center;" | ''U-Turn''
+| style="text-align: center;" |October 30
+| style="text-align: center;" | Roderick Cabrido
+| [[Kim Chiu]], [[JM De Guzman]] and [[Tony Labrusca]]
+| [[Horror film|Horror]]
+|
+|-
+| style="text-align: center;" |''My Lockdown Romance''
+| style="text-align: center;" | November 13
+| style="text-align: center;" |Bobby Bonifacio Jr.
+|[[Jameson Blake]] and Joao Constancia
+|[[Romance film|Romance]], [[Comedy film|Comedy]], [[Boys' Love|Boys’ Love]]
+| |}
+---

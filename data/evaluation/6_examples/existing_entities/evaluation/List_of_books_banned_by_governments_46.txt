@@ -1,0 +1,176 @@
+In both
+<https://example.org/resource/The_Satanic_Verses> <http://www.w3.org/2000/01/rdf-schema#label> "The Satanic Verses"@en .
+<https://example.org/resource/Time,_Forward!> <http://www.w3.org/2000/01/rdf-schema#label> "Time, Forward!"@en .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q7737> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q855> .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q1394> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q271853> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q44306> .
+<https://example.org/resource/On_Cooperation> <http://www.w3.org/2000/01/rdf-schema#label> "On Cooperation"@en .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.w3.org/2000/01/rdf-schema#label> "Imperialism, the Highest Stage of Capitalism"@en .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q1394> .
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.w3.org/2000/01/rdf-schema#label> "'Left-Wing' Communism: An Infantile Disorder"@en .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q1394> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q1394> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P577> "1918-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q1394> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q7737> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.w3.org/2000/01/rdf-schema#label> "The Proletarian Revolution and the Renegade Kautsky"@en .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.w3.org/2000/01/rdf-schema#label> "How the Steel Was Tempered"@en .
+In ground only
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P58> <http://www.wikidata.org/entity/Q1960570> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Lenine%2C%20Imperialisme%20stade%20supreme%20du%20capitalisme.jpg> .
+<https://example.org/resource/The_Right_of_Nations_to_Self-Determination> <http://www.wikidata.org/prop/direct/P6216> <http://www.wikidata.org/entity/Q19652> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q15180> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P344> <http://www.wikidata.org/entity/Q4133366> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P577> "1988-09-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q117287577> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q1660307> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P571> "1901-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Right_of_Nations_to_Self-Determination> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q2657718> .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/L%27%C3%A9tat%20et%20la%20r%C3%A9volution.jpg> .
+<https://example.org/resource/The_Right_of_Nations_to_Self-Determination> <http://www.wikidata.org/prop/direct/P2959> <http://www.wikidata.org/entity/Q108032673> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P180> <http://www.wikidata.org/entity/Q1394> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q191067> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q7737> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q123615570> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P577> "1916-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q156035> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P6216> <http://www.wikidata.org/entity/Q19652> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P344> <http://www.wikidata.org/entity/Q4068919> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q21758914> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P953> <https://www.marxists.org/archive/lenin/works/1916/imp-hsc/> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q34266> .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q239543> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q7737> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q6235> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P577> "1923-05-26T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q64458904> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q15982549> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q7264> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q35760> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q7264> .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q110299353> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q155059> .
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/20-lenin-infantilesickness.jpg> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.wikidata.org/prop/direct/P6216> <http://www.wikidata.org/entity/Q19652> .
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q7737> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q180902> .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P577> "1918-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P156> <http://www.wikidata.org/entity/Q897003> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P144> <http://www.wikidata.org/entity/Q7804791> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P6216> <http://www.wikidata.org/entity/Q19652> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P577> "1902-03-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Right_of_Nations_to_Self-Determination> <http://www.w3.org/2000/01/rdf-schema#label> "The Right of Nations to Self-Determination"@en .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q2368070> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q159> .
+<https://example.org/resource/The_Right_of_Nations_to_Self-Determination> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q35760> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P2635> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P2047> "158"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q35760> .
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q1066224> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q4300551> .
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q921536> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P571> "1923-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q1960570> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Salman%20Rushdie%2C%20Satanic%20Verses%20-1988-%20illegal%20Iranian%20edition.JPG> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P577> "1913-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7163> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P953> <https://www.marxists.org/esperanto/lenin/imperiismo.htm> .
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.wikidata.org/prop/direct/P577> "1920-06-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P953> <https://www.marxists.org/francais/lenin/works/1916/vlimperi/vlimp.htm> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q117279989> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P571> "1930-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q117281045> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P953> <https://www.fundacionfedericoengels.net/images/PDF/lenin_imperialismo.pdf> .
+<https://example.org/resource/The_Right_of_Nations_to_Self-Determination> <http://www.wikidata.org/prop/direct/P577> "1914-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P58> <http://www.wikidata.org/entity/Q333873> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P1433> <http://www.wikidata.org/entity/Q183644> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q1394> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q118128859> .
+<https://example.org/resource/The_Right_of_Nations_to_Self-Determination> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q1508663> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P571> "1916-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q7163> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q130232> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P577> "1923-05-27T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q109883698> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P571> "1980-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q15180> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q7737> .
+<https://example.org/resource/The_Right_of_Nations_to_Self-Determination> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q7231> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P577> "1965-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.wikidata.org/prop/direct/P291> <http://www.wikidata.org/entity/Q649> .
+<https://example.org/resource/The_Right_of_Nations_to_Self-Determination> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q1394> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P1411> <http://www.wikidata.org/entity/Q607354> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q2622252> .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P6216> <http://www.wikidata.org/entity/Q19652> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q4151791> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q114241439> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Lenin%20book%201902.jpg> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/RUB%2095%20%28Leipzig%2C%201984%2C%2023.Auflage%29%20-%20Ostrowski%2C%20Wie%20der%20Stahl.jpg> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q35760> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.w3.org/2000/01/rdf-schema#label> "What Is to Be Done?"@en .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q7737> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P155> <http://www.wikidata.org/entity/Q852565> .
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q1508663> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q17525620> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P1411> <http://www.wikidata.org/entity/Q160082> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q76586> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P86> <http://www.wikidata.org/entity/Q467738> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q7260> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q100743860> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P1476> "The Satanic Verses"@en .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P577> "1932-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%20-%20%D0%9F%D1%80%D0%BE%D0%BB%D0%B5%D1%82%D0%B0%D1%80%D1%81%D0%BA%D0%B0%D1%8F%20%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D0%B8%D1%8F%20%D0%B8%20%D1%80%D0%B5%D0%BD%D0%B5%D0%B3%D0%B0%D1%82%20%D0%9A%D0%B0%D1%83%D1%82%D1%81%D0%BA%D0%B8%D0%B9%20%281918%29.jpg> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q109735420> .
+<https://example.org/resource/The_Right_of_Nations_to_Self-Determination> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q7737> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.w3.org/2000/01/rdf-schema#label> "Marxism and the National Question"@en .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P272> <http://www.wikidata.org/entity/Q141336> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q102439494> .
+<https://example.org/resource/State_and_Revolution> <http://www.w3.org/2000/01/rdf-schema#label> "The State and Revolution"@en .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q7737> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q39> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P6216> <http://www.wikidata.org/entity/Q19652> .
+<https://example.org/resource/What_Is_to_Be_Done?> <http://www.wikidata.org/prop/direct/P6216> <http://www.wikidata.org/entity/Q19652> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q7737> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q100743799> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q15180> .
+In predicted only
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.wikidata.org/prop/direct/P577> "1920-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q186747> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P577> "1917-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/State_and_Revolution> <http://www.w3.org/2000/01/rdf-schema#label> "State and Revolution"@en .
+<https://example.org/resource/State_and_Revolution> <http://www.wikidata.org/prop/direct/P577> "1917-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P577> "1923-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q571> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.w3.org/2000/01/rdf-schema#label> "Marxism and the National and Colonial Question"@en .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Time,_Forward!> <http://www.wikidata.org/prop/direct/P577> "1932-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/On_Cooperation> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P577> "1936-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Satanic_Verses> <http://www.wikidata.org/prop/direct/P577> "1988-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> <http://www.wikidata.org/prop/direct/P577> "1937-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/How_the_Steel_Was_Tempered> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7725634> .

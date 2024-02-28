@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Baitul_Afiyat_Mosque> rdfs:label "Baitul Afiyat Mosque"@en ;
+    wdt:P131 wd:Q12956644 ;
+    wdt:P140 wd:Q432 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q163 ;
+    wdt:P856 <https://ahmadiyya.uk/mosques/baitul-afiyat-mosque-sheffield/> .
+
+<https://example.org/resource/Baitul_Hamd_Mosque> rdfs:label "Baitul Hamd Mosque"@en ;
+    wdt:P131 wd:Q22905 ;
+    wdt:P140 wd:Q432 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1980-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q163 .
+
+<https://example.org/resource/Baitul_Tauhid_Mosque> rdfs:label "Baitul Tauhid Mosque"@en ;
+    wdt:P131 wd:Q201812 ;
+    wdt:P140 wd:Q432 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q163 .
+
+<https://example.org/resource/Makkah_Masjid_Leeds> rdfs:label "Makkah Masjid"@en ;
+    wdt:P131 wd:Q12060638 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Makkah%20Masjid%20-%20Brudenell%20Road%20-%20geograph.org.uk%20-%20579135.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P7959 wd:Q163 .
+
+<https://example.org/resource/York_Mosque_and_Islamic_Centre> rdfs:label "York Mosque and Islamic Centre"@en ;
+    wdt:P131 wd:Q42462 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P7959 wd:Q163 .
+

@@ -1,0 +1,124 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of Arthurian characters" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|+King Arthur characters
+|-
+!Name
+!Other names
+!Earliest appearance
+!Works featured in
+!Description
+|-
+| [[Accolon]]
+|
+| [[Post-Vulgate Cycle]], 1230s
+|
+| [[Morgan le Fay]]'s love
+|-
+| [[Aglovale]]{{dagger}}
+| Agloval, Sir Aglovale de Galis
+|
+| ''The Life of Sir Aglovale de Galis'', ''[[The Once and Future King]]''
+| [[King Pellinore]]'s eldest son |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Accolon> wdt:P451 <https://en.wikipedia.org/wiki/Morgan_le_Fay> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Knight> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Le_Morte_d%27Arthur> ;
+ rdfs:label "Accolon"@en ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/And%20grasped%20of%20both%20wild%20hands%2C%20swung%20trenchant.png> ;
+ wdt:P1080 wd:Q18176971 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Post-Vulgate_Cycle> ;
+ wdt:P31 wd:Q3658341 ;
+ wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Aglovale> wdt:P31 wd:Q16887380 ;
+ rdfs:label "Knights of the Round Table"@en ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Brockhaus_and_Efron_Encyclopedic_Dictionary> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Erec_and_Enide> ;
+ wdt:P31 wd:Q42962623 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Roman_de_Brut> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Round_Table> ;
+ wdt:P1080 wd:Q18176971 ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/The_Nuttall_Encyclop%C3%A6dia> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:Knights_of_the_Round_Table> ;
+ wdt:P1343 wd:Q19180675 .
+---
+These are the labels of the properties:
+
+wdt:P451 -> unmarried partner
+wdt:P106 -> occupation
+wdt:P1441 -> present in work
+wdt:P21 -> sex or gender
+wdt:P18 -> image
+wdt:P1080 -> from narrative universe
+wdt:P31 -> instance of
+wdt:P1343 -> described by source
+wdt:P138 -> named after
+wdt:P910 -> topic's main category.
+---
+These are the labels of the objects:
+
+wd:Q18176971 -> Arthurian universe
+wd:Q3658341 -> literary character
+wd:Q15632617 -> fictional human
+wd:Q16887380 -> group
+wd:Q42962623 -> fictional order of chivalry
+wd:Q19180675 -> Small Brockhaus and Efron Encyclopedic Dictionary.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|+King Arthur characters
+|-
+!Name
+!Other names
+!Earliest appearance
+!Works featured in
+!Description
+|-
+| [[Gornemant]]
+|
+|''[[Erec and Enide]]'', {{circa}} 1170
+|''[[Perceval, the Story of the Grail]]''
+| Percival's mentor
+|-
+| [[Guiron le Courtois]]
+| 
+| ''[[Palamedes (romance)|Palamedes]]'', 1235–1240
+| ''Palamedes'', ''Guiron Compilation''
+| Companion of [[Meliodas]]
+|-
+| [[Green Knight]], The
+| Bercilak, Bertilak, Bernlak, Bredbeddle
+| ''[[Sir Gawain and the Green Knight]]'', 1300s
+|''[[The Greene Knight]]'', ''[[King Arthur and King Cornwall]]''
+| A knight enchanted by [[Morgan le Fay]] in order to test Gawain
+|-
+| [[Griflet]]{{dagger}}
+| Girflet, Jaufre
+|
+| ''[[Jaufré]]''
+| The son of Do (or Don), cousin to Sir Lucan and Sir Bedivere
+|-
+| [[Gringolet]]
+| (Welsh: {{lang|cy|Gwyn Calet}}, {{lang|cy|Ceincaled}})
+|''[[Erec and Enide]]'', {{circa}} 1170
+| ''[[Sir Gawain and the Green Knight]]''
+| Gawain's horse
+|-
+| [[Guinevak]]
+| Gwenhwyvach
+| ''[[Culhwch and Olwen]]'', {{circa}} 11th century
+| [[Welsh Triads]], ''Misfortunes of [[Elffin ap Gwyddno|Elphin]]''
+| Guinevere's half-sister |}
+---

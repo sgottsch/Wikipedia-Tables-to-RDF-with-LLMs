@@ -1,0 +1,101 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Hobsonville_Point_Primary_School> rdfs:label "Pinehill"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P1889 wd:Q7195192 ;
+    wdt:P31 wd:Q3257686 ;
+    wdt:P47 wd:Q1501615,
+        wd:Q29468011,
+        wd:Q3941757,
+        wd:Q8024667,
+        wd:Q94976132 .
+
+<https://example.org/resource/Hobsonville_School> rdfs:label "Hobsonville"@en ;
+    wdt:P1082 725.0,
+        1314.0,
+        1572.0,
+        1592.0,
+        4146.0,
+        6788.0 ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P1448 "Hobsonville"@en ;
+    wdt:P1538 3240.0 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P1705 "Hobsonville"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Westfield%20Albany%20Being%20Built%2001.jpg> ;
+    wdt:P2046 9.86 ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P421 wd:Q7105,
+        wd:Q7118 ;
+    wdt:P47 wd:Q25660304,
+        wd:Q29468011,
+        wd:Q7195492,
+        wd:Q76212283,
+        wd:Q90351311,
+        wd:Q94976132,
+        wd:Q96377644 ;
+    wdt:P571 "1840-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Marina_View_School> rdfs:label "West Harbour"@en ;
+    wdt:P1082 725.0,
+        1314.0,
+        1572.0,
+        1592.0,
+        4146.0,
+        6788.0 ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P1448 "West Harbour"@en ;
+    wdt:P1538 3240.0 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P1705 "West Harbour"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Westfield%20Albany%20Being%20Built%2001.jpg> ;
+    wdt:P2046 9.86 ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P421 wd:Q7105,
+        wd:Q7118 ;
+    wdt:P47 wd:Q25660304,
+        wd:Q29468011,
+        wd:Q7195492,
+        wd:Q76212283,
+        wd:Q90351311,
+        wd:Q94976132,
+        wd:Q96377644 ;
+    wdt:P571 "1840-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Scott_Point_Primary_School> rdfs:label "Pinehill"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P1889 wd:Q7195192 ;
+    wdt:P31 wd:Q3257686 ;
+    wdt:P47 wd:Q1501615,
+        wd:Q29468011,
+        wd:Q3941757,
+        wd:Q8024667,
+        wd:Q94976132 .
+
+<https://example.org/resource/Timatanga_Community_School> rdfs:label "Pinehill"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P1889 wd:Q7195192 ;
+    wdt:P31 wd:Q3257686 ;
+    wdt:P47 wd:Q1501615,
+        wd:Q29468011,
+        wd:Q3941757,
+        wd:Q8024667,
+        wd:Q94976132 .
+
+<https://example.org/resource/Whenuapai_School> rdfs:label "Pinehill"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P1889 wd:Q7195192 ;
+    wdt:P31 wd:Q3257686 ;
+    wdt:P47 wd:Q1501615,
+        wd:Q29468011,
+        wd:Q3941757,
+        wd:Q8024667,
+        wd:Q94976132 .
+

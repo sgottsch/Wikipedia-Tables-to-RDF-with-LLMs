@@ -1,0 +1,141 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of cinemas in Malaysia" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="text-align:left"
+|-
+!Cinema||Total halls||Seats||Location||Operator||Remarks
+|-
+|[[Mid Valley Megamall]]||21||2,688||[[Mid Valley City]]||[[Golden Screen Cinemas]]||The largest cinema in Malaysia. Features ATMOS D-BOX & Onyx Hall. Located on Level 3 and 3M.<ref>{{cite web | url=https://www.gsc.com.my/cinema/gsc-mid-valley-megamall/ | title=GSC Mid Valley Megamall - Golden Screen Cinemas }}</ref>
+|-
+|[[Berjaya Times Square]]
+|TBA
+|TBA
+|[[Bukit Bintang]]
+|mmCineplexes
+|Opening in January 2024. Will feature Premiere Class Halls. Located on Levels 1 and 3.<ref>{{Cite web |last=Kaur |first=Sharen |date=2023-12-07 |title=mmCineplexes takes over GSC's place at Berjaya Times Square {{!}} New Straits Times |url=https://www.nst.com.my/business/corporate/2023/12/987356/mmcineplexes-takes-over-gscs-place-berjaya-times-square |access-date=2023-12-15 |website=NST Online |language=en}}</ref>
+|-
+|[[Quill City|Quill City Mall]]||10||1,751||[[Kuala Lumpur City Centre]]||[[Golden Screen Cinemas]]||Features ATMOS Hall. Located on Levels 5 and 6.<ref>{{cite web | url=https://www.gsc.com.my/cinema/gsc-quill-city-mall/ | title=GSC Quill City Mall - Golden Screen Cinemas }}</ref>
+|-
+|[[Setapak Central]]||7||1,020||[[Setapak]]||[[Golden Screen Cinemas]]||Located on Level 2.<ref>{{cite web | url=https://www.gsc.com.my/cinema/gsc-setapak-central-kl/ | title=GSC Setapak Central, KL - Golden Screen Cinemas }}</ref>
+|-
+|[[Mid Valley Megamall|The Gardens Mall]]||7||226||[[Mid Valley City]]||[[Golden Screen Cinemas]]||Malaysia's first Boutique Cinema and has been converted into GSC Aurum Theatre. Located on Levels 4 and 5.
+|-
+|[[Mitsui Shopping Park LaLaport Bukit Bintang City Centre|Mitsui Shopping Park LaLaport]]||12||1,282||[[Bukit Bintang City Centre]]||[[Golden Screen Cinemas]]||Located on Levels 2 and 3 in the BBCC Entertainment Hub with 4Dx and GSC BIG.<ref>https://www.gsc.com.my/cinema/gsc-lalaport-bbcc</ref>
+|-
+|[[The Exchange TRX]]||11||796||[[Tun Razak Exchange]]||[[Golden Screen Cinemas]]||GSC Aurum Theatre. Opened in 2024 and is the largest luxury cinema in Southeast Asia. Features Getha Lux Suites, Comfort Cabin, Escape Studio, IMAX and Screen X.<ref>{{Cite web |last=Ignatius |first=Cynthia |date=2023-11-16 |title=Aurum Theatre, Getha Set To Redefine Luxury Cinema With Aurum TRX Launch In 2024 - BusinessToday |url=https://www.businesstoday.com.my/2023/11/16/aurum-theatre-getha-set-to-redefine-luxury-cinema-with-aurum-trx-launch-in-2024/ |access-date=2023-12-20 |website=Business Today |language=en-US}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Mid_Valley_Megamall> wdt:P7561 wd:Q86108806 ;
+ wdt:P571 "1999-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ rdfs:label "Mid Valley Megamall"@en ;
+ wdt:P856 <http://www.midvalley.com.my/> ;
+ wdt:P1619 "1999-11-20T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Midvalleymegamall.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> .
+
+<https://example.org/resource/Berjaya_Times_Square> wdt:P7561 wd:Q86107012 ;
+ rdfs:label "Berjaya Times Square"@en ;
+ wdt:P856 <https://berjayatimessquarekl.com/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berjaya%20Times%20Square%20from%20BBCC%20%28220121%29%2002.jpg> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/DP_Architects> ;
+ wdt:P571 "2003-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ wdt:P1619 "2003-10-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Modern_architecture> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Skyscraper> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Brick_and_mortar> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:Berjaya_Times_Square> ;
+ wdt:P127 <https://en.wikipedia.org/wiki/Berjaya_Corporation> .
+
+<https://example.org/resource/Quill_City_Mall> wdt:P7561 wd:Q86109019 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ rdfs:label "Quill City Mall"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Quill%20City%20Mall.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P571 "2014-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Setapak_Central> wdt:P571 "2015-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P127 <https://en.wikipedia.org/wiki/Lion_Group> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ rdfs:label "Setapak Central"@en ;
+ wdt:P856 <http://www.setapakcentral.com.my> .
+
+<https://example.org/resource/The_Gardens_Mall> wdt:P7561 wd:Q86108806 ;
+ wdt:P571 "1999-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ rdfs:label "Mid Valley Megamall"@en ;
+ wdt:P856 <http://www.midvalley.com.my/> ;
+ wdt:P1619 "1999-11-20T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Midvalleymegamall.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> .
+
+<https://example.org/resource/Mitsui_Shopping_Park_LaLaport> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/LaLaport%20BBCC%20from%20Jalan%20Hang%20Tuah%20%28220121%29%2002.jpg> ;
+ rdfs:label "Mitsui Shopping Park LaLaport Bukit Bintang City Centre"@en .
+
+<https://example.org/resource/The_Exchange_TRX> wdt:P1619 "2023-11-29T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Exchange%20TRX%20Shopping%20Mall%20%2823.12.02%29.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P361 <https://en.wikipedia.org/wiki/Tun_Razak_Exchange> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Tun_Razak_Exchange> ;
+ rdfs:label "The Exchange TRX"@en ;
+ wdt:P856 <https://www.theexchange.my/> .
+---
+These are the labels of the properties:
+
+wdt:P7561 -> category for the interior of the item
+wdt:P571 -> inception
+wdt:P31 -> instance of
+wdt:P856 -> official website URL
+wdt:P1619 -> date of official opening
+wdt:P18 -> image
+wdt:P17 -> country
+wdt:P84 -> architect
+wdt:P149 -> architectural style
+wdt:P131 -> located in the administrative territorial entity
+wdt:P910 -> topic's main category
+wdt:P127 -> owned by
+wdt:P361 -> part of
+wdt:P276 -> location.
+---
+These are the labels of the objects:
+
+wd:Q86108806 -> Category:Interior of Mid Valley Megamall
+wd:Q86107012 -> Category:Interior of Berjaya Times Square
+wd:Q86109019 -> Category:Interior of Quill City Mall.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="text-align:left"
+|-
+!Cinema||Total halls||Seats||Location||Operator||Remarks
+|-
+|[[Sunway Velocity Mall]]
+|9
+|1,590
+|[[Cheras, Kuala Lumpur|Cheras]]
+|[[TGV Cinemas]]
+|Features an IMAX and 2 Indulge Halls. Located on Levels 3 & 4.
+|-
+|[[Sunway Putra Mall]]||6||1,060||[[Chow Kit]]||[[TGV Cinemas]]||Features Beanieplex. Located on Level 5.
+|-
+|[[118 Mall]]||16||TBA||[[Bukit Bintang]]||[[TGV Cinemas]]||Opening soon.
+|-
+|[[Pavilion Bukit Jalil]]||16||1,555||[[Bukit Jalil]]||[[TGV Cinemas]]||The largest TGV Cinemas in Malaysia. Features 2 Indulge Halls, 2 Beanie Halls, 1 Dolby Atmos hall, 1 Junior Hall, 1 IMAX Theatre and 8 Deluxe+ halls
+|-
+|[[Pavilion Kuala Lumpur|Pavilion KL]]||13||1,776||[[Bukit Bintang]]||[[Dadi Theater Circuit|Dadi Cinema]]||Features an ATMOS STAR-MAX, STAR+ & Lil-STAR. Located on Level 5 and Level 6.
+|-
+|[[LFS Coliseum Theatre|Coliseum Theatre]]||2||474||[[Jalan Tunku Abdul Rahman]]||[[Lotus Five Star]]||Oldest cinema in the country. Single-building Cinema. |}
+---

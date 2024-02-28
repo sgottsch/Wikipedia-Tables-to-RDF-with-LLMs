@@ -1,0 +1,103 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of cinemas in Malaysia" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="text-align:left"
+|-
+!Cinema||Total halls||Seats||Location||Operator||Remarks
+|-
+|[[1 Utama]] (Old Wing)||12||1,845||[[Petaling Jaya]]||[[TGV Cinemas]]||Located on Level 3 (Old Wing). Has 1 IMAX Hall, TGV Luxe, Beanieplex and 7 Standard Halls. In 2014, TGV introduced TGV Indulge (2 Hall), a boutique concept hall with a cafe.
+|-
+|[[Sunway Pyramid]]||11||1,634||[[Petaling Jaya]]||[[TGV Cinemas]]||Located on Level R. Has 1 IMAX Hall, 2 TGV Luxe, 1 Beanieplex and 7 Standard Halls.
+|-
+|[[AEON Bukit Tinggi]]||10||1,832||[[Klang, Malaysia|Klang]]||[[TGV Cinemas]]||Located on Level 2. All in Standard Halls. Largest cinema in [[Klang, Malaysia|Klang]].<ref>{{cite web | url=https://www.tgv.com.my/cinemas/tgv-bukit-tinggi | title=TGV Cinemas }}</ref>
+|-
+|[[Jaya Shopping Centre]]||8||929||[[Petaling Jaya]]||[[TGV Cinemas]]||Located on Level 5. All Standard Halls.
+|-
+|[[The Mines]]||5||977||[[Seri Kembangan]]||[[TGV Cinemas]]||Located on Level 2. All Standard Halls. |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/1_Utama> wdt:P7561 wd:Q104562265 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ rdfs:label "1 Utama"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/1%20Utama%20%28220426%29%2004.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Petaling_Jaya> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P5775 <http://commons.wikimedia.org/wiki/Special:FilePath/1%20Utama%20-%20Highstreet.jpg> .
+
+<https://example.org/resource/Sunway_Pyramid> wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ rdfs:label "Sunway Pyramid"@en ;
+ wdt:P856 <https://www.sunwaypyramid.com/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sunway%20Pyramid%20front.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P571 "1997-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/AEON_Bukit_Tinggi> wdt:P131 <https://en.wikipedia.org/wiki/Bandar_Bukit_Tinggi> ;
+ wdt:P571 "2007-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1619 "2007-11-24T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ rdfs:label "ÆON Bukit Tinggi Shopping Centre"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/AEON%20Bukit%20Tinggi.jpg> .
+
+<https://example.org/resource/Jaya_Shopping_Centre> wdt:P127 <https://en.wikipedia.org/wiki/Mapletree_Investments> ;
+ rdfs:label "Jaya Shopping Centre"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Jaya%20Shopping%20Centre.jpg> ;
+ wdt:P856 <http://www.jayashoppingcentre.my> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P571 "2014-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/The_Mines> wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Hotel> ;
+ rdfs:label "Mines Wellness City"@en .
+---
+These are the labels of the properties:
+
+wdt:P7561 -> category for the interior of the item
+wdt:P31 -> instance of
+wdt:P18 -> image
+wdt:P131 -> located in the administrative territorial entity
+wdt:P17 -> country
+wdt:P5775 -> image of interior
+wdt:P856 -> official website URL
+wdt:P571 -> inception
+wdt:P1619 -> date of official opening
+wdt:P127 -> owned by.
+---
+These are the labels of the objects:
+
+wd:Q104562265 -> Category:Interior of 1 Utama Shopping Centre.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="text-align:left"
+|-
+!Cinema||Total halls||Seats||Location||Operator||Remarks
+|-
+|Spectrum Ampang Mall||6||777||[[Ampang District|Ampang]]||One Cinemas||Located on Level 3.
+|-
+|Pawagam Sun Rawang||1||320||[[Rawang, Selangor|Rawang]]||[[Lotus Five Star]]||Single building cinema.
+|-
+|da:men
+|8
+|TBA
+|[[Subang Jaya]]
+|[[Dadi Theater Circuit|Dadi Cinema]]
+|Located At Level 4
+|-
+|Empire City Damansara Mall
+|20
+|TBA
+|[[Damansara Town Centre|Damansara]] 
+|CGV Cinemas
+|TBC.
+|-
+|Pinnacle PJ||7||TBA||[[Petaling Jaya]]||[[TBA]]||TBC. |}
+---

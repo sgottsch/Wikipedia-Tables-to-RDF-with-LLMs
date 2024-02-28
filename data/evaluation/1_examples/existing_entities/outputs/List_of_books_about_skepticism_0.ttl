@@ -1,0 +1,69 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Allan_Hendry> ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Allan_Hendry.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q25456175> .
+
+<https://example.org/resource/Annie_Laurie_Gaylor> ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Annie_Laurie_Gaylor.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q25456175> .
+
+<https://example.org/resource/Edward_Humes> ns1:P101 <http://www.wikidata.org/entity/Q130352> ;
+    ns1:P108 <http://www.wikidata.org/entity/Q5663419> ;
+    ns1:P1559 "Edward Humes"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q60527532> .
+
+<https://example.org/resource/John_W_Loftus> ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/John_W_Loftus.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q25456175> .
+
+<https://example.org/resource/Jon_Entine> ns1:P101 <http://www.wikidata.org/entity/Q159236> ;
+    ns1:P1559 "Jon Entine"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q12759592>,
+        <http://www.wikidata.org/entity/Q464135>,
+        <http://www.wikidata.org/entity/Q60527532>,
+        <https://example.org/resource/Mark_Pendergrast> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q25456175> .
+
+<https://example.org/resource/Lauri_Lebo> ns1:P101 <http://www.wikidata.org/entity/Q130352> ;
+    ns1:P108 <http://www.wikidata.org/entity/Q7753716> ;
+    ns1:P1559 "Lauri Lebo"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q60527532> .
+
+<https://example.org/resource/Robert_A_Wilson> ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Robert_Anton_Wilson.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q25456175> .
+
+<https://example.org/resource/Rolf_Dobelli> ns1:P101 <http://www.wikidata.org/entity/Q8078> ;
+    ns1:P1559 "Rolf Dobelli"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q60527532> .
+
+<https://example.org/resource/Sean_M_Carroll> ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sean_M_Carroll.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q25456175> .
+
+<https://example.org/resource/Sextus_Empiricus> ns1:P101 <http://www.wikidata.org/entity/Q1126340> ;
+    ns1:P108 <http://www.wikidata.org/entity/Q1587900> ;
+    ns1:P1559 "Sextus Empiricus"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q60527532> .
+
+<https://example.org/resource/Sikivu_Hutchinson> ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sikivu_Hutchinson.jpg> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q25456175> .
+
+<https://example.org/resource/Susan_Blackmore> ns1:P101 <http://www.wikidata.org/entity/Q929771> ;
+    ns1:P108 <http://www.wikidata.org/entity/Q25456175> ;
+    ns1:P1559 "Susan Blackmore"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q60527532> .
+
+<https://example.org/resource/Susan_Stebbing> ns1:P101 <http://www.wikidata.org/entity/Q8078> ;
+    ns1:P108 <http://www.wikidata.org/entity/Q1508259> ;
+    ns1:P1559 "Susan Stebbing"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P800 <http://www.wikidata.org/entity/Q60527532> .
+

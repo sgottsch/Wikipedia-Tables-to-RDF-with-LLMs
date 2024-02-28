@@ -1,0 +1,212 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Amy_Gillett_Foundation> rdfs:label "Amy Gillett Foundation"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.amygillett.org.au/about-us> .
+
+<https://example.org/resource/Arthur_Beetson_Foundation> rdfs:label "Arthur Beetson Foundation"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.arthurbeetsonfoundation.com.au/> .
+
+<https://example.org/resource/Bachar_Houli_Academy> rdfs:label "Bachar Houli Academy"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P856 <http://www.aflcommunityclub.com.au/index.php?id=1907> .
+
+<https://example.org/resource/Bradman_Foundation> rdfs:label "Bradman Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.bradman.com.au/about-the-bradman-foundation/> .
+
+<https://example.org/resource/Cathy_Freeman_Foundation> rdfs:label "Cathy Freeman Foundation"@en ;
+    wdt:P159 wd:Q3141 ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.cathyfreemanfoundation.org.au/about/> .
+
+<https://example.org/resource/Cherish_the_Children_Foundation> rdfs:label "Cherish the Children Foundation"@en ;
+    wdt:P31 wd:Q43229 .
+
+<https://example.org/resource/David_Hookes_Foundation> rdfs:label "David Hookes Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2004-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.davidhookesfoundation.com/> .
+
+<https://example.org/resource/Dennis_Lillee_Disabled_Sports_Foundation> rdfs:label "Dennis Lillee Disabled Sports Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "1989-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.theaustralian.com.au/sport/lillee-changes-pace-with-passion-for-charity> .
+
+<https://example.org/resource/Dylan_Alcott_Foundation> rdfs:label "Dylan Alcott Foundation"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2017-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://dylanalcottfoundation.com.au/> .
+
+<https://example.org/resource/EJ_Whitten_Foundation> rdfs:label "E.J Whitten Foundation"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "1995-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.ejwhittenfoundation.com.au/> .
+
+<https://example.org/resource/Evonne_Goolagong_Foundation> rdfs:label "Evonne Goolagong Foundation"@en ;
+    wdt:P159 wd:Q3224 ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.evonnegoolagongfoundation.org.au/about/> .
+
+<https://example.org/resource/Finnans_Gift> rdfs:label "Finnan's Gift"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P856 <http://finnansgift.gofundraise.com.au/> .
+
+<https://example.org/resource/Footys4All_Foundation> rdfs:label "Footys4All Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P856 <http://www.footys4all.com.au/our-mission> .
+
+<https://example.org/resource/Gasnier_Foundation> rdfs:label "Gasnier Foundation"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://gasnierfoundation.com.au/our-story/> .
+
+<https://example.org/resource/Go_Foundation> rdfs:label "Go Foundation"@en ;
+    wdt:P159 wd:Q3224 ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.go-foundation.org/> .
+
+<https://example.org/resource/Ian_Thorpes_Fountain_for_Youth> rdfs:label "Ian Thorpe's Fountain for Youth"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.smh.com.au/national/ian-thorpe-charity-in-liquidation-20150203-1353rt.html> .
+
+<https://example.org/resource/Indigenous_Marathon_Foundation> rdfs:label "Indigenous Marathon Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://imf.org.au/?page_id=65> .
+
+<https://example.org/resource/John_Maclean_Foundation> rdfs:label "John Maclean Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2001-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://jmf.com.au/about-us/> .
+
+<https://example.org/resource/Kids_Tennis_Foundation> rdfs:label "Kids Tennis Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "1983-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.kidstennisfoundation.com/about-KTF/history-of-kids-tennis-foundation/> .
+
+<https://example.org/resource/Layne_Beachley_Foundation> rdfs:label "Layne Beachley Foundation 'Aim For The Stars'"@en ;
+    wdt:P159 wd:Q3224 ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2006-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.aimforthestars.com.au/about-layne-beachley> .
+
+<https://example.org/resource/Luke_Priddis_Foundation> rdfs:label "Luke Priddis Foundation"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2006-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.lukepriddisfoundation.com> .
+
+<https://example.org/resource/Maddie_Riewoldt's_Vision> rdfs:label "Maddie Riewoldt's Vision"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://mrv.org.au/> .
+
+<https://example.org/resource/Mark_Hughes_Foundation> rdfs:label "Mark Hughes Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2013-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.markhughesfoundation.com.au/home> .
+
+<https://example.org/resource/Ponting_Foundation> rdfs:label "Ponting Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://pontingfoundation.com.au/> .
+
+<https://example.org/resource/Reach_Foundation> rdfs:label "Reach Foundation"@en ;
+    wdt:P159 wd:Q3141 ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.reach.org.au> .
+
+<https://example.org/resource/Ricky_Stuart_Foundation> rdfs:label "Ricky Stuart Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.rickystuart.org/> .
+
+<https://example.org/resource/Roger_Rasheed_Sports_Foundation> rdfs:label "Roger Rasheed Sports Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.rogerrasheed.com/vision.php> .
+
+<https://example.org/resource/Sport_Access_Foundation> rdfs:label "Sport Access Foundation"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2016-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.primaryclub.com/2017/02/19/katie-kelly-named-sir-roden-cutler-awardee-201617/> .
+
+<https://example.org/resource/Sport_Matters> rdfs:label "Sport Matters"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P856 <http://www.sportmatters.org.au/what.php> .
+
+<https://example.org/resource/Sporting_Dreams> rdfs:label "Sporting Dreams"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.sportingdreams.org.au/about/> .
+
+<https://example.org/resource/Steve_Waugh_Foundation> rdfs:label "Steve Waugh Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.stevewaughfoundation.com.au/> .
+
+<https://example.org/resource/Stockwell_Foundation> rdfs:label "Stockwell Foundation"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.ausport.gov.au/about/structure/the_board> .
+
+<https://example.org/resource/Team_Ladder> rdfs:label "Team Ladder"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.ladder.org.au/index.php?id=3> .
+
+<https://example.org/resource/The_Chappell_Foundation> rdfs:label "The Chappell Foundation"@en ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2017-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.theaustralian.com.au/arts/visual-arts/chappell-foundation-big-names-pitch-in-for-those-on-a-sticky-wicket> .
+
+<https://example.org/resource/Tristan_Knowles_Kids_for_Cancer_Foundation> rdfs:label "Tristan Knowles Kids for Cancer Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P856 <http://www.kidscancerfoundation.com.au/#!about2/c4nz> .
+
+<https://example.org/resource/Waalitj_Foundation> rdfs:label "Waalitj Foundation"@en ;
+    wdt:P159 wd:Q3206 ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.wf.org.au/> .
+
+<https://example.org/resource/Wally_Foreman_Foundation> rdfs:label "Wally Foreman Foundation"@en ;
+    wdt:P17 wd:Q408 ;
+    wdt:P31 wd:Q43229 ;
+    wdt:P856 <http://wais.org.au/other/id.php?section=Other&ID=14> .
+

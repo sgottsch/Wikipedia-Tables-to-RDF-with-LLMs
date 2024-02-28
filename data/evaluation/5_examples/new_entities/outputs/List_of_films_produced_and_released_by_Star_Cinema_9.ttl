@@ -1,0 +1,33 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/9_Mornings> rdfs:label "9 Mornings"@en ;
+    wdt:P136 wd:Q1054574 ;
+    wdt:P161 wd:Q1956929,
+        wd:Q3549105,
+        wd:Q5287988 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q6292560 ;
+    wdt:P577 "2002-10-16T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Forevermore> rdfs:label "Forevermore"@en ;
+    wdt:P136 wd:Q1054574 ;
+    wdt:P161 wd:Q3550224,
+        wd:Q3550248 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "2002-06-26T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Videoke_King> rdfs:label "Videoke King"@en ;
+    wdt:P136 wd:Q130232,
+        wd:Q157443,
+        wd:Q188473 ;
+    wdt:P161 wd:Q3543396,
+        wd:Q3543654 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "2002-05-01T00:00:00+00:00"^^xsd:dateTime .
+

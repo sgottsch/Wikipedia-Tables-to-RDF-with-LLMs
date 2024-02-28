@@ -1,0 +1,97 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of Ganesha temples" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name !! City / town !! State !! Image 
+|-
+| [[Dodda Basavana Gudi|Dodda Ganapathi Temple]] || [[Basavanagudi|Basavanagudi, Bengaluru]] || [[Karnataka]] ||
+|-
+| [[Bohra Ganesh Temple]] || [[Udaipur]] || [[Rajasthan]] ||
+|-
+| [[Anegudde|Shri Vinayaka Temple]] || [[Anegudde]] || [[Karnataka]] ||
+|-
+| [[Budha Ganesha Temple]] || [[Jajpur]] || [[Odisha]] ||
+|-
+| [[Chintaman Ganesh temple, Ujjain]] || [[Ujjain]] || [[Madhya Pradesh]] ||
+|-
+| [[Dagadusheth Halwai Ganapati Temple]] || Pune || Maharashtra || [[File:Dagdusheth Ganpati 07.JPG|100px]]
+|-
+| [[Dashabhuja Ganapati Temple, Pune|Dashabhuja Temple]] || [[Pune]] || [[Maharashtra]] ||
+|-
+| [[Ganesha Temple, Idagunji]] || [[Idagunji]] || [[Karnataka]] || |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Dodda_Ganapathi_Temple> wdt:P31 <https://en.wikipedia.org/wiki/Hindu_temple> ;
+ rdfs:label "Dodda Ganeshana Gudi"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Dodda%20Ganeshana%20Gudi%20Hindu%20temple%2C%20Basavanagudi%2C%20Karnataka%2C%20India.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> .
+
+<https://example.org/resource/Bohra_Ganesh_Temple> rdfs:label "Bohra Ganesh Temple"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Hindu_temple> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Udaipur_district> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> .
+
+<https://example.org/resource/Shri_Vinayaka_Temple> rdfs:label "Kumbashi"@en ;
+ wdt:P31 wd:Q4167410 .
+
+<https://example.org/resource/Budha_Ganesha_Temple> wdt:P31 <https://en.wikipedia.org/wiki/Hindu_temple> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> ;
+ rdfs:label "Budha Ganesha Temple"@en .
+
+<https://example.org/resource/Chintaman_Ganesh_temple,_Ujjain> wdt:P31 <https://en.wikipedia.org/wiki/Hindu_temple> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> ;
+ rdfs:label "Chintaman ganesh"@en .
+
+<https://example.org/resource/Dagadusheth_Halwai_Ganapati_Temple> wdt:P31 <https://en.wikipedia.org/wiki/Hindu_temple> ;
+ wdt:P6375 "250, Budhwar Peth, Pune, Maharashtra 411002"@en ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Budhwar_Peth,_Pune> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Pune> ;
+ wdt:P856 <https://www.dagdushethganpati.com/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Dagdusheth%20Ganpati%2008.JPG> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> ;
+ rdfs:label "Dagadusheth Halwai Ganapati Temple"@en .
+
+<https://example.org/resource/Dashabhuja_Temple> wdt:P31 <https://en.wikipedia.org/wiki/Hindu_temple> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Maharashtra> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> ;
+ rdfs:label "Dashabhuja Temple"@en ;
+ wdt:P856 <http://www.sdspune.in/html/dashabhuja_temple.html> .
+
+<https://example.org/resource/Ganesha_Temple,_Idagunji> rdfs:label "Ganesha Temple, Idagunji"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Entrance%20to%20Shri%20Ganesh%20Temple%20at%20Gokarna%20-%20panoramio.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Karnataka> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Temple> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P18 -> image
+wdt:P17 -> country
+wdt:P131 -> located in the administrative territorial entity
+wdt:P6375 -> street address
+wdt:P276 -> location
+wdt:P856 -> official website URL.
+---
+These are the labels of the objects:
+
+wd:Q4167410 -> Wikimedia disambiguation page.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name !! City / town !! State !! Image 
+|-
+| [[Varasiddhi Vinayaka Temple]] || [[Chennai]] || Tamil Nadu ||
+|-
+| [[Swayambhu Sri Abhista Gnana Ganapathi Temple]] || [[Kurnool]] || Andhra Pradesh || [[File:knl-ganapathi.jpg|100px]] |}
+---

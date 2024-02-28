@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Bumiputra_Commerce_Tower> rdfs:label "Bumiputra Commerce Tower"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P571 "1978-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Crowne_Plaza_Mutiara_KL> rdfs:label "Crowne Plaza Mutiara KL"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P571 "1973-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/DBKL_Tower_1> rdfs:label "DBKL Tower 1"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P571 "1980-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dato_Onn_Tower> rdfs:label "Dato' Onn Tower"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P571 "1985-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Takaful_Tower> rdfs:label "Takaful Tower"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P571 "1971-01-01T00:00:00+00:00"^^xsd:dateTime .
+

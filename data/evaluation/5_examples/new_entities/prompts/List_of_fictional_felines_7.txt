@@ -1,0 +1,115 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of fictional felines" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+!Character
+!Origin
+!Notes
+|-
+| [[Chessie (railroad mascot)|Chessie]]
+|| Mascot of the [[Chesapeake & Ohio Railway]], and later the [[Chessie System]]
+|| Appeared with the slogan "sleep like a kitten".
+|-
+|[[Hector the Cat]]
+|Mascot created to aid the teaching of [[Road traffic safety|road safety]] to children in Australia
+|Currently the mascot of [[Northern Territory]] Department of Transport to teach road safety to children
+|-
+|[[Mimsie the Cat]]
+|| Mascot of the [[MTM Enterprises]] logo
+|| 
+|-
+|[[Morris the Cat]]
+| Mascot for [[9Lives (cat food)|9Lives]] cat food
+| Appeared on packaging and many television commercials. |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Chessie> rdfs:label "Chessie"@en ;
+ wdt:P31 wd:Q27120684 ;
+ wdt:P6291 <https://en.wikipedia.org/wiki/Chesapeake_and_Ohio_Railway> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Advertising_character> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Chesapeake_and_Ohio_Railway> ;
+ wdt:P1268 <https://en.wikipedia.org/wiki/Chesapeake_and_Ohio_Railway> .
+
+<https://example.org/resource/Hector_the_Cat> wdt:P31 <https://en.wikipedia.org/wiki/Mascot> ;
+ rdfs:label "Hector the Cat"@en ;
+ wdt:P31 wd:Q27303706 ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P6291 <https://en.wikipedia.org/wiki/Road_traffic_safety> .
+
+<https://example.org/resource/Mimsie_the_Cat> wdt:P571 "1969-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P112 <https://en.wikipedia.org/wiki/Mary_Tyler_Moore> ;
+ wdt:P1056 <https://en.wikipedia.org/wiki/Television_show> ;
+ wdt:P576 "1998-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P112 <https://en.wikipedia.org/wiki/Grant_Tinker> ;
+ wdt:P749 <https://en.wikipedia.org/wiki/ABC_Family_Worldwide> ;
+ wdt:P749 <https://en.wikipedia.org/wiki/Television_South> ;
+ wdt:P749 <https://en.wikipedia.org/wiki/News_Corporation> ;
+ wdt:P452 wd:Q16144339 ;
+ rdfs:label "MTM Enterprises"@en ;
+ wdt:P199 <https://en.wikipedia.org/wiki/MTM_Records> ;
+ wdt:P1366 <https://en.wikipedia.org/wiki/20th_Television> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Business> .
+
+<https://example.org/resource/Morris_the_Cat> wdt:P570 "1978-07-07T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 wd:Q27120684 ;
+ wdt:P31 wd:Q52688389 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Morris%20the%20Cat%20for%20President.jpg> ;
+ rdfs:label "Morris the Cat"@en ;
+ wdt:P569 "1959-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P119 <https://en.wikipedia.org/wiki/Chicago> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Cat> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Advertising_character> ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male> .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P6291 -> advertises
+wdt:P17 -> country
+wdt:P138 -> named after
+wdt:P1268 -> represents
+wdt:P21 -> sex or gender
+wdt:P571 -> inception
+wdt:P112 -> founded by
+wdt:P1056 -> product or material produced or service provided
+wdt:P576 -> dissolved, abolished or demolished date
+wdt:P749 -> parent organization
+wdt:P452 -> industry
+wdt:P199 -> business division
+wdt:P1366 -> replaced by
+wdt:P570 -> date of death
+wdt:P18 -> image
+wdt:P569 -> date of birth
+wdt:P119 -> place of burial.
+---
+These are the labels of the objects:
+
+wd:Q27120684 -> fictional cat
+wd:Q27303706 -> anthropomorphic cat
+wd:Q16144339 -> cinematography
+wd:Q52688389 -> animal actor.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+!Character
+!Origin
+!Notes
+|-
+|Crusty the Cat
+|Animatronic character at [[Chuck E. Cheese's|Chuck E Cheese's Pizza Time Theatre]]
+|One of the original Pizza Time Players and was present at the original Pizza Time Theatre in [[San Jose, California]]. He was replaced by Mr. Munch in 1978.<ref>{{cite web |title=Showbiz Pizza.com Crusty the Cat |url=http://www.showbizpizza.com/ptp/characters/crusty.html}}</ref>
+|-
+|Walter (AKA Walter the cat)
+| Star of 3 Chevrolet truck commercials
+| Played by six gray, domestic shorthair tabby cats, "Walter" appeared in three Chevy Silverado TV commercials in 2021 and 2022. The first one, entitled "Cat", aired during the 2021 Summer Olympics. The sequel, called "Walter in Winter," was broadcast during the 2022 Winter Olympics and [[List of Super Bowl commercials|Super Bowl LVI]] (both as a 30-second spot and a 60-second spot).<ref name=":0">{{Cite web |title=Cat Enjoys Dog Days Of Winter For Chevy Silverado, Commonwealth//McCann |url=https://www.shootonline.com/video/cat-enjoys-dog-days-winter-chevy-silverado-commonwealthmccann |access-date=2022-11-13 |website=SHOOTonline |language=en}}</ref><ref>{{Cite web|url=https://people.com/tv/super-bowl-2020-watch-lil-nas-x-win-a-dance-off-against-sam-elliott-in-doritos-commercial/|title=Watch Lil Nas X Win a Dance-Off Against Sam Elliott in Doritos' Super Bowl 2020 Commercial|website=People.com|language=en|access-date=February 3, 2020}}</ref> Ad-makers and reporters say that Walter the cat does things people would expect of a dog, but he is a cat, so he showed what cats can do. That included herding cows, swimming and fetching a stick from a lake, digging a skier out of the snow, and chasing a mailman.  Walter co-starred with [[John Hoogenakker]].<ref name=":0" /><ref>{{cite AV media|title=Walter The Cat Chevy Commercial|publisher=WE LOVE CATS & DOGS}}</ref><ref>{{Cite web |last=Draper |first=Don |date=2022-05-28 |title=Who is the actor in the Chevy cat commercial? |url=https://advertisingrow.com/advertising-magazine/who-is-the-actor-in-the-chevy-cat-commercial/ |access-date=2022-11-05 |website=AdvertisingRow.com {{!}} Home of Advertising Professionals, Advertising news, Infographics, Job offers |language=en-US}}</ref><ref>{{cite web | url=https://musebycl.io/advertising/walter-chevy-cat-back-and-hes-more-doglike-ever | title=Walter the Chevy Cat is Back, and More Doglike Than Ever }}</ref><ref name=":3">{{Cite web |title=Chevrolet: 2022 Chevy Silverado - Walter in Winter • Ads of the World™ {{!}} Part of The Clio Network |url=https://www.adsoftheworld.com/campaigns/2022-chevy-silverado-walter-in-winter |access-date=2022-11-13 |website=Ads of the World™}}</ref> Walter also appeared with [[Chris Pratt]] for the same truck in 2022.<ref name=":3" /><ref>{{Cite web |last=Putzer |first=Mark |date=2021-09-22 |title=What Do Chris Pratt, a Cat, a Steer, and a Chevy Silverado ZR2 Have in Common? |url=https://www.motorbiscuit.com/what-do-chris-pratt-cat-steer-chevy-silverado-zr2-common/ |access-date=2022-11-07 |website=MotorBiscuit |language=en-US}}</ref> |}
+---

@@ -1,0 +1,107 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Manurewa_West_School> rdfs:label "Manurewa West School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1356.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q6753177 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "56 Browns Road, Manurewa, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.manurewawest.school.nz> .
+
+<https://example.org/resource/Randwick_Park_School> rdfs:label "Randwick Park School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 6944.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q99485115 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "177 Shifnal Drive, Randwick Park, Manurewa, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.randwickpark.school.nz/> .
+
+<https://example.org/resource/Reremoana_Primary_School> rdfs:label "Reremoana Primary School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 6978.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q7974975 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "2 Reremoana Road, Wattle Downs, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.reremoana.school.nz> .
+
+<https://example.org/resource/Roscommon_School> rdfs:label "Roscommon School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1470.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q5131609 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "36-38 Barlow Road, Clendon Park, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.roscommon.school.nz> .
+
+<https://example.org/resource/Rowandale_School> rdfs:label "Rowandale School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1474.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q6753177 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "14 Barlow Road, Manurewa, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.rowandale.school.nz/> .
+
+<https://example.org/resource/St_Anne's_Catholic_School> rdfs:label "St Anne's Catholic School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1486.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q6753177 ;
+    wdt:P31 wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "22 Russell Road, Manurewa, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.stanne.school.nz> .
+
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> rdfs:label "Te Kura Ākonga o Manurewa"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1619.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q6753177 ;
+    wdt:P31 wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "1 Russell Road, Randwick Park, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.tekuraakongaomanurewa.school.nz> .
+
+<https://example.org/resource/The_Gardens_School> rdfs:label "The Gardens School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 6947.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q6753177 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "101 Charles Prevost Drive, The Gardens, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.thegardens.school.nz> .
+

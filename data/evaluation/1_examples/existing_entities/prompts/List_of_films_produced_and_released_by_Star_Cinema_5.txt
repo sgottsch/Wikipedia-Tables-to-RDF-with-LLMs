@@ -1,0 +1,67 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films produced and released by Star Cinema" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" | ''[[Ang Lalaki sa Buhay ni Selya]]'' || February 11 || Carlos Siguion-Reyna || [[Rosanna Roces]], [[Ricky Davao]], [[Gardo Versoza]], [[Eva Darren]] || [[Drama (film and television)|drama]] || Reyna Films |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Ang_Lalaki_sa_Buhay_ni_Selya> wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ rdfs:label "Ang Lalaki sa Buhay ni Selya"@en ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Tagalog_language> ;
+ wdt:P57 wd:Q110732743 ;
+ wdt:P2047 "96"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Ryan_Cayabyab> ;
+ wdt:P577 "1997-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P136 wd:Q20442589 .
+---
+These are the labels of the properties:
+
+wdt:P437 -> distribution format
+wdt:P364 -> original language of film or TV show
+wdt:P57 -> director
+wdt:P2047 -> duration
+wdt:P31 -> instance of
+wdt:P86 -> composer
+wdt:P577 -> publication date
+wdt:P495 -> country of origin
+wdt:P750 -> distributed by
+wdt:P136 -> genre.
+---
+These are the labels of the objects:
+
+wd:Q110732743 -> Carlos Siguion-Reyna
+wd:Q20442589 -> LGBT-related film.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" | ''[[Hiling]]''||November 18 || [[Jose Javier Reyes]]||[[Camille Prats]], [[Shaina Magdayao]], [[Serena Dalrymple]] ||[[Drama (film and television)|Drama]], [[Fantasy film|fantasy]]||
+|-
+| style="text-align:center;" | ''[[Puso ng Pasko]]'' ||December 25 ||[[Peque Gallaga]], Lore Reyes ||[[Jolina Magdangal]], Jason Salcedo, [[Jaclyn Jose]], [[Rita Avila]], [[Edu Manzano]], Justin Simoy || [[Drama (film and television)|Drama]], [[fantasy]] || |}
+---

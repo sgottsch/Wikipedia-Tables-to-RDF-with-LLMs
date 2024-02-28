@@ -1,0 +1,218 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of museums in Central Texas" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable plainrowheaders"
+|+{{sronly|List of museums in Blanco -  Burnet counties, Texas}}
+|-
+!scope="col" |Museum name 
+!scope="col"  class="unsortable" |Image
+!scope="col"  |City
+!scope="col"  |County
+!scope="col"  |Notes
+!scope="col" class="unsortable" |Refs
+|-
+!scope="row"|[[Lyndon B. Johnson National Historical Park]]
+|[[File:Lbj park nima1.jpg|125px|Lyndon B. Johnson National Historical Park]]
+|[[Johnson City, Texas|Johnson City]]
+|Blanco 
+|Boyhood home, Texas White House, Johnson family cemetery, Johnson's first school and his grandparents' log cabin
+|align="center|<ref>{{cite web |title=Details - Lyndon B. Johnson National Historical Park - Atlas Number 4200000483 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000483 |website=atlas.thc.state.tx.us |access-date=20 August 2022}}</ref>
+|-
+!scope="row"|[[Old Blanco County Courthouse]]
+|
+|Blanco
+|Blanco 
+|aka Blanco City Square, State Antiquities Landmark
+|align="center|<ref>{{cite web |title=Details - Old Blanco County Courthouse - Atlas Number 4200001433 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200001433 |website=atlas.thc.state.tx.us |access-date=20 August 2022}}; {{cite web |title=Details - Old Blanco County Courthouse aka Blanco City Square - Atlas Number 8200002435 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/8200002435 |website=atlas.thc.state.tx.us |access-date=20 August 2022}}</ref>
+|-
+!scope="row"|[[Brazos Valley Museum of Natural History]]
+|[[File:Brazos valley museum of natural history.jpg|125px|Brazos Valley Museum of Natural History]]
+|Bryan
+|Brazos
+|Natural
+|align="center|<ref>{{cite web |title=Details - Brazos Valley Museum of Natural History - Atlas Number 4200000043 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000043 |website=atlas.thc.state.tx.us |access-date=20 August 2022}}</ref>
+|-
+!scope="row"|[[George Bush Presidential Library]]
+|[[File:George Bush Presidential Library.jpg|125px|George Bush Presidential Library]]
+|[[College Station, Texas|College Station]]
+|Brazos 
+|Life and career of President [[George H. W. Bush]]
+|align="center|<ref>{{cite web |title=Details - George H.W. Bush Presidential Library and Museum - Atlas Number 4200000558 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000558 |website=atlas.thc.state.tx.us |access-date=20 August 2022}}</ref>
+|-
+!scope="row"|[[Sanders Corps of Cadets Center|Sam Houston Sanders Corps of Cadets Center]]
+|
+|College Station
+|Brazos
+|Texas A&M University
+|align="center|<ref>{{cite web |title=Details - Sam Houston Sanders Corps of Cadets Center - Atlas Number 4200000730 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000730 |website=atlas.thc.state.tx.us |access-date=20 August 2022}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Lyndon_B._Johnson_National_Historical_Park> rdfs:label "Lyndon B. Johnson National Historical Park"@en ;
+ wdt:P856 <https://www.nps.gov/lyjo/> ;
+ wdt:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/DIG13746-P1%20%28cropped%29.jpg> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Lyndon%20B.%20Johnson%20birthplace%20NPS.jpg> ;
+ wdt:P206 <https://en.wikipedia.org/wiki/Pedernales_River> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Gillespie_County,_Texas> ;
+ wdt:P31 wd:Q15836337 ;
+ wdt:P31 wd:Q20856087 ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Lyndon_B._Johnson> ;
+ wdt:P2872 wd:Q68469888 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P814 wd:Q14545646 ;
+ wdt:P2872 wd:Q69766053 ;
+ wdt:P910 wd:Q74222528 ;
+ wdt:P2046 "1571"^^xsd:decimal ;
+ wdt:P527 wd:Q73226558 ;
+ wdt:P137 <https://en.wikipedia.org/wiki/National_Park_Service> ;
+ wdt:P6375 "Lyndon B. Johnson National Historical Park"@en ;
+ wdt:P527 wd:Q73228328 ;
+ wdt:P1766 <http://commons.wikimedia.org/wiki/Special:FilePath/LBJ%20Historical%20Park%20sign%20IMG%201521.JPG> ;
+ wdt:P1435 wd:Q19558910 ;
+ wdt:P7153 <https://en.wikipedia.org/wiki/Johnson_City,_Texas> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Johnson_City,_Texas> .
+
+<https://example.org/resource/Old_Blanco_County_Courthouse> wdt:P31 <https://en.wikipedia.org/wiki/Building> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Frederick_Ernst_Ruffini> ;
+ wdt:P6375 "101 E Pecan Dr"@en ;
+ wdt:P6375 "300 Main St"@en ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Second_Empire_architecture_in_Europe> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Blanco,_Texas> ;
+ wdt:P710 <https://en.wikipedia.org/wiki/Henry_T._Phelps> ;
+ wdt:P1435 <https://en.wikipedia.org/wiki/Recorded_Texas_Historic_Landmark> ;
+ rdfs:label "Old Blanco County Courthouse"@en ;
+ wdt:P856 <http://www.historicblanco.org> ;
+ wdt:P31 wd:Q64037785 ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Frederick_Ernst_Ruffini> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Old%20Blanco%20County%20Courthouse%2C%20Blanco%2C%20TX%20IMG%201911.JPG> ;
+ wdt:P793 wd:Q385378 .
+
+<https://example.org/resource/Brazos_Valley_Museum_of_Natural_History> rdfs:label "Brazos Valley Museum of Natural History"@en ;
+ wdt:P856 <http://www.brazosvalleymuseum.org/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Brazos%20valley%20museum%20of%20natural%20history.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Bryan,_Texas> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Museum> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Bryan,_Texas> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P1174 "50000"^^xsd:decimal ;
+ wdt:P571 "1961-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/George_Bush_Presidential_Library> rdfs:label "George Bush Presidential Library"@en ;
+ wdt:P856 <http://bushlibrary.tamu.edu> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/George%20Bush%20Presidential%20Library.jpg> ;
+ wdt:P749 <https://en.wikipedia.org/wiki/National_Archives_and_Records_Administration> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Museum> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Library> ;
+ wdt:P8687 "63245"^^xsd:decimal ;
+ wdt:P138 <https://en.wikipedia.org/wiki/George_H._W._Bush> ;
+ wdt:P968 <mailto:bush.library@nara.gov> ;
+ wdt:P8464 wd:Q120839298 ;
+ wdt:P6375 "1000 George Bush Drive West"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Official%20logo%20of%20the%20George%20H.W.%20Bush%20Presidential%20Library%20and%20Museum.svg> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/HOK_(firm)> ;
+ wdt:P10225 <http://www.museumstore.com> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/College_Station,_Texas> ;
+ wdt:P571 "1997-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Sam_Houston_Sanders_Corps_of_Cadets_Center> wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ rdfs:label "Sanders Corps of Cadets Center"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Texas> ;
+ wdt:P571 "1992-01-01T00:00:00Z"^^xsd:dateTime .
+---
+These are the labels of the properties:
+
+wdt:P856 -> official website URL
+wdt:P948 -> page banner
+wdt:P18 -> image
+wdt:P206 -> located in or next to body of water
+wdt:P131 -> located in the administrative territorial entity
+wdt:P31 -> instance of
+wdt:P138 -> named after
+wdt:P2872 -> visitor center
+wdt:P17 -> country
+wdt:P814 -> IUCN protected areas category
+wdt:P910 -> topic's main category
+wdt:P2046 -> area
+wdt:P527 -> has part(s)
+wdt:P137 -> operator
+wdt:P6375 -> street address
+wdt:P1766 -> place name sign
+wdt:P1435 -> heritage designation
+wdt:P7153 -> significant place
+wdt:P710 -> participant
+wdt:P149 -> architectural style
+wdt:P84 -> architect
+wdt:P793 -> significant event
+wdt:P276 -> location
+wdt:P1174 -> visitors per year
+wdt:P571 -> inception
+wdt:P749 -> parent organization
+wdt:P8687 -> social media followers
+wdt:P968 -> email address
+wdt:P8464 -> content partnership category
+wdt:P10225 -> official shop URL.
+---
+These are the labels of the objects:
+
+wd:Q15836337 -> National Historical Park
+wd:Q20856087 -> NRHP district
+wd:Q68469888 -> Airplane Hangar Visitor Center
+wd:Q14545646 -> IUCN category V: Protected Landscape/Seascape
+wd:Q69766053 -> Lyndon B. Johnson National Historical Park Visitor Center
+wd:Q74222528 -> Category:Lyndon B. Johnson National Historical Park
+wd:Q73226558 -> Johnson City District
+wd:Q73228328 -> LBJ Ranch District
+wd:Q19558910 -> National Register of Historic Places listed place
+wd:Q64037785 -> county courthouse
+wd:Q385378 -> construction
+wd:Q120839298 -> Category:Media contributed by George Bush Presidential Library.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable plainrowheaders"
+|+{{sronly|List of museums in Blanco -  Burnet counties, Texas}}
+|-
+!scope="col" |Museum name 
+!scope="col"  class="unsortable" |Image
+!scope="col"  |City
+!scope="col"  |County
+!scope="col"  |Notes
+!scope="col" class="unsortable" |Refs
+|-
+!scope="row"|Somerville Area Museum
+|  
+|[[Somerville, Texas|Somerville]]
+|Burleson
+|
+Local history
+|align="center|<ref>{{cite web |title=Somerville Area Museum |url=https://texastimetravel.com/directory/somerville-area-museum/ |website=Texas Time Travel |access-date=20 August 2022}}</ref>
+|-
+!scope="row"|Falls on the Colorado Museum
+|[[File:Falls on the colorado museum 2014.jpg|125px|Falls on the Colorado Museum]]
+|[[Marble Falls, Texas|Marble Falls]]
+|Burnet
+|Local history 
+|align="center|<ref>{{cite web |title=Details - The Falls on the Colorado Museum - Atlas Number 4200000904 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000904 |website=atlas.thc.state.tx.us |access-date=20 August 2022}}</ref>
+|-
+!scope="row"|Highland Lakes Squadron CAF Museum
+|[[File:Highlan lakes air museum 2014.jpg|125px|Highland Lakes Squadron CAF Museum]]
+|Burnet
+|Burnet
+|Restored World War II aircraft, weapons, home front items, newspapers, uniforms, helmets, aircraft and ship models, other artifacts, part of the [[Commemorative Air Force]]; also known as Highland Lakes Air Museum
+|align="center|<ref>{{cite web |title=Details - Highland Lakes Squadron CAF Museum - Atlas Number 4200000914 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000914 |website=atlas.thc.state.tx.us |access-date=20 August 2022}}</ref>
+|-
+!scope="row"|Museo Benini
+|
+|Marble Falls
+|Burnet
+|Established in 2015, on 35 acres in the Texas Hill Country with a 6,500 square foot museum, a fine arts library and outdoor sculptures. The galleries features 60 years of paintings and three-dimensional work of Italian-born Benini.
+|<ref>{{cite web |title=Museo Benini |url=https://texastimetravel.com/directory/benini-galleries-sculpture-ranch/ |website=Texas Time Travel |access-date=11 November 2022}}</ref> |}
+---

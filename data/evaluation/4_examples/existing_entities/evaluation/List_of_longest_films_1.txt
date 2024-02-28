@@ -1,0 +1,286 @@
+In both
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P1476> "Empire"@en .
+<https://example.org/resource/My_Human_Time> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Baa_Baa_Land> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P1476> "Imitation of Christ"@en .
+<https://example.org/resource/Crude_Oil> <http://www.wikidata.org/prop/direct/P577> "2008-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Crude_Oil> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q148> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P577> "1965-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Baa_Baa_Land> <http://www.w3.org/2000/01/rdf-schema#label> "Baa Baa Land"@en .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/My_Human_Time> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q29> .
+<https://example.org/resource/Baa_Baa_Land> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P2047> "607"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Paint_Drying> <http://www.w3.org/2000/01/rdf-schema#label> "Paint Drying"@en .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Empire> <http://www.w3.org/2000/01/rdf-schema#label> "Empire"@en .
+<https://example.org/resource/Imitation_of_Christ> <http://www.w3.org/2000/01/rdf-schema#label> "Imitation of Christ"@en .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P1476> "River of Fundament"@en .
+<https://example.org/resource/My_Human_Time> <http://www.w3.org/2000/01/rdf-schema#label> "My Human Time"@en .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P1476> "Star Spangled to Death"@en .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Crude_Oil> <http://www.wikidata.org/prop/direct/P2047> "840"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Sleep> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep"@en .
+<https://example.org/resource/My_Human_Time> <http://www.wikidata.org/prop/direct/P2047> "1440"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/River_of_Fundament> <http://www.w3.org/2000/01/rdf-schema#label> "River of Fundament"@en .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P577> "2016-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Baa_Baa_Land> <http://www.wikidata.org/prop/direct/P577> "2017-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P1476> "Sleep"@en .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P2047> "485"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Crude_Oil> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P577> "1967-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Crude_Oil> <http://www.w3.org/2000/01/rdf-schema#label> "Crude Oil"@en .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P577> "2004-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.w3.org/2000/01/rdf-schema#label> "Star Spangled to Death"@en .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P1476> "Paint Drying"@en .
+In ground only
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q1663415> .
+<https://example.org/resource/''Evolution_of_a_Filipino_Family''> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q261056> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P344> <http://www.wikidata.org/entity/Q699702> .
+<https://example.org/resource/24_Hour_Psycho> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q459290> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q5603> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P1476> "Four Stars"@en .
+<https://example.org/resource/Matrjoschka> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q93204> .
+<https://example.org/resource/Baa_Baa_Land> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q93204> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.w3.org/2000/01/rdf-schema#label> "Four Stars"@en .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P577> "1967-11-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q2127961> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P1981> <http://www.wikidata.org/entity/Q20644797> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P577> "1978-07-08T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/24_Hour_Psycho> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q1252327> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q157443> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q5603> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P577> "1967-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P1040> <http://www.wikidata.org/entity/Q23688637> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q61881> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q208649> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q642513> .
+<https://example.org/resource/Baa_Baa_Land> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q5524386> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P577> "2015-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q457802> .
+<https://example.org/resource/Crude_Oil> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q100705570> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P86> <http://www.wikidata.org/entity/Q14313> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Matrjoschka> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q28152234> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P1411> <http://www.wikidata.org/entity/Q31155> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q272994> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q5603> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q2277126> .
+<https://example.org/resource/My_Human_Time> <http://www.wikidata.org/prop/direct/P577> "2014-09-05T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Baa_Baa_Land> <http://www.wikidata.org/prop/direct/P2047> "481"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P180> <http://www.wikidata.org/entity/Q9188> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q211144> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q226730> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q5085164> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q823422> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q553454> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q95187871> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P577> "1963-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P344> <http://www.wikidata.org/entity/Q5085164> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q93204> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q2648369> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P915> <http://www.wikidata.org/entity/Q60> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P1476> "Hitler: A Film from Germany"@en .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P577> "2014-02-12T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q150> .
+<https://example.org/resource/Matrjoschka> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q134556> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q7318> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q1135802> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q5603> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q2894685> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P2047> "1500"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/24_Hour_Psycho> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q707310> .
+<https://example.org/resource/''Evolution_of_a_Filipino_Family''> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q366233> .
+<https://example.org/resource/Crude_Oil> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q9192> .
+<https://example.org/resource/''Evolution_of_a_Filipino_Family''> <http://www.w3.org/2000/01/rdf-schema#label> "Evolution of a Filipino Family"@en .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P166> <http://www.wikidata.org/entity/Q120442881> .
+<https://example.org/resource/24_Hour_Psycho> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q1252327> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P155> <http://www.wikidata.org/entity/Q14633159> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Empire%20State%20Building%2015%20Dec%202005.jpg> .
+<https://example.org/resource/24_Hour_Psycho> <http://www.w3.org/2000/01/rdf-schema#label> "24 Hour Psycho"@en .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/''Evolution_of_a_Filipino_Family''> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q130232> .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P462> <http://www.wikidata.org/entity/Q22006653> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P1725> "156"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q455315> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P826> <http://www.wikidata.org/entity/Q913790> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q226730> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P2629> <http://www.wikidata.org/entity/Q23301853> .
+<https://example.org/resource/''Evolution_of_a_Filipino_Family''> <http://www.wikidata.org/prop/direct/P2047> "625"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q5603> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P5021> <http://www.wikidata.org/entity/Q4165246> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q14313> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Paint%20Drying%20promotional%20still.jpg> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P2061> <http://www.wikidata.org/entity/Q3754248> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q91742> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P344> <http://www.wikidata.org/entity/Q109714> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q328633> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q6223795> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P175> <http://www.wikidata.org/entity/Q14313> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q215026> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P1411> <http://www.wikidata.org/entity/Q4835477> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P1411> <http://www.wikidata.org/entity/Q919999> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7366> .
+<https://example.org/resource/''Evolution_of_a_Filipino_Family''> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q33298> .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P2754> "2013-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Matrjoschka> <http://www.wikidata.org/prop/direct/P2047> "5700"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Crude_Oil> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q3566046> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P3803> <http://www.wikidata.org/entity/Q194383> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q915955> .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q5603> .
+<https://example.org/resource/''Evolution_of_a_Filipino_Family''> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P264> <http://www.wikidata.org/entity/Q183387> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q84722> .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q325399> .
+<https://example.org/resource/24_Hour_Psycho> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q226730> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q545396> .
+<https://example.org/resource/My_Human_Time> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q39911916> .
+<https://example.org/resource/24_Hour_Psycho> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Norman%20Bates.jpg> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q7143298> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q268253> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q452400> .
+<https://example.org/resource/Baa_Baa_Land> <http://www.wikidata.org/prop/direct/P856> <https://www.calm.com> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P2047> "410"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q232340> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.w3.org/2000/01/rdf-schema#label> "Happy"@en .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q106254> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7251595> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P2047> "311"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Matrjoschka> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q183> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/''Evolution_of_a_Filipino_Family''> <http://www.wikidata.org/prop/direct/P58> <http://www.wikidata.org/entity/Q129619> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q15741930> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q26162675> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q17093751> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.w3.org/2000/01/rdf-schema#label> "Hitler: A Film from Germany"@en .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q7737> .
+<https://example.org/resource/My_Human_Time> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q93204> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P344> <http://www.wikidata.org/entity/Q5603> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q467348> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q90045> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P676> <http://www.wikidata.org/entity/Q2678922> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q242735> .
+<https://example.org/resource/24_Hour_Psycho> <http://www.wikidata.org/prop/direct/P577> "1993-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Matrjoschka> <http://www.wikidata.org/prop/direct/P577> "2006-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q188> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P577> "1978-06-07T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/''Evolution_of_a_Filipino_Family''> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q129619> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P462> <http://www.wikidata.org/entity/Q22006653> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q202381> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q34> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q5603> .
+<https://example.org/resource/24_Hour_Psycho> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P577> "2013-11-21T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q1351229> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q142> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P86> <http://www.wikidata.org/entity/Q7304> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q1704907> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P1411> <http://www.wikidata.org/entity/Q904344> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q93204> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q95887744> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q1260021> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q25212003> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q130232> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q2368831> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P58> <http://www.wikidata.org/entity/Q5603> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q328633> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q451185> .
+<https://example.org/resource/24_Hour_Psycho> <http://www.wikidata.org/prop/direct/P1476> "24 Hour Psycho"@en .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P941> <http://www.wikidata.org/entity/Q104840722> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P156> <http://www.wikidata.org/entity/Q15920900> .
+<https://example.org/resource/''Evolution_of_a_Filipino_Family''> <http://www.wikidata.org/prop/direct/P577> "2004-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q915955> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q44634> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q60> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q5603> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q101855> .
+<https://example.org/resource/Matrjoschka> <http://www.w3.org/2000/01/rdf-schema#label> "Matrjoschka"@en .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P577> "1978-10-28T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q1697335> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P676> <http://www.wikidata.org/entity/Q14313> .
+<https://example.org/resource/_nowiki_****_/nowiki__(Four_Stars)> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q1406528> .
+<https://example.org/resource/Crude_Oil> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q93204> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q183> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q15982450> .
+<https://example.org/resource/24_Hours_of_Happy> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q131272> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q44634> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P577> "1977-11-05T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P2130> "5900"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Hitler:_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q362> .
+In predicted only
+<https://example.org/resource/Sleep_1964> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep"@en .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Evolution_of_a_Filipino_Family> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/My_Human_Time> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Hitler_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P2047> "442"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P2047> "480"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P2047> "352"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q108064185> .
+<https://example.org/resource/Hitler_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Hitler_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P1476> "Hitler: A Film from Germany"@en .
+<https://example.org/resource/Sleep_1964> <http://www.wikidata.org/prop/direct/P1476> "Sleep"@en .
+<https://example.org/resource/Crude_Oil> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q108064183> .
+<https://example.org/resource/Evolution_of_a_Filipino_Family> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Sleep_1964> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Baa_Baa_Land> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q108064186> .
+<https://example.org/resource/Sleep_1964> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/My_Human_Time> <http://www.wikidata.org/prop/direct/P577> "2014-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Paint_Drying> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q108064184> .
+<https://example.org/resource/Evolution_of_a_Filipino_Family> <http://www.wikidata.org/prop/direct/P1476> "Evolution of a Filipino Family"@en .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P577> "2013-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hitler_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Sleep_1964> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q3125160> .
+<https://example.org/resource/Baa_Baa_Land> <http://www.wikidata.org/prop/direct/P1476> "Baa Baa Land"@en .
+<https://example.org/resource/Hitler_A_Film_from_Germany> <http://www.w3.org/2000/01/rdf-schema#label> "Hitler: A Film from Germany"@en .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q20747247> .
+<https://example.org/resource/Hitler_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q19545152> .
+<https://example.org/resource/Crude_Oil> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Empire> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Baa_Baa_Land> <http://www.wikidata.org/prop/direct/P2047> "480"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Evolution_of_a_Filipino_Family> <http://www.wikidata.org/prop/direct/P2047> "624"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q20747245> .
+<https://example.org/resource/Star_Spangled_to_Death> <http://www.wikidata.org/prop/direct/P2047> "402"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Hitler_A_Film_from_Germany> <http://www.wikidata.org/prop/direct/P577> "1977-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q1984891> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Crude_Oil> <http://www.wikidata.org/prop/direct/P1476> "Crude Oil"@en .
+<https://example.org/resource/Evolution_of_a_Filipino_Family> <http://www.wikidata.org/prop/direct/P577> "2000-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/River_of_Fundament> <http://www.wikidata.org/prop/direct/P577> "2014-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Imitation_of_Christ> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q3125160> .
+<https://example.org/resource/My_Human_Time> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q108064182> .
+<https://example.org/resource/Evolution_of_a_Filipino_Family> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Evolution_of_a_Filipino_Family> <http://www.w3.org/2000/01/rdf-schema#label> "Evolution of a Filipino Family"@en .
+<https://example.org/resource/Baa_Baa_Land> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q790192> .
+<https://example.org/resource/Sleep_1964> <http://www.wikidata.org/prop/direct/P577> "1964-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/My_Human_Time> <http://www.wikidata.org/prop/direct/P1476> "My Human Time"@en .
+<https://example.org/resource/Sleep_1964> <http://www.wikidata.org/prop/direct/P2047> "321"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Sleep> <http://www.wikidata.org/prop/direct/P2047> "480"^^<http://www.w3.org/2001/XMLSchema#decimal> .

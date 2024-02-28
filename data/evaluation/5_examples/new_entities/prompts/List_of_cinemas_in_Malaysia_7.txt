@@ -1,0 +1,85 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of cinemas in Malaysia" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="text-align:left"
+|-
+!Cinema||Total halls||Seats||Location||Operator||Remarks
+|-
+|[[Gurney Plaza]]||12||1,617||[[Georgetown, Penang|Georgetown]]||[[Golden Screen Cinemas]]||The largest cinema in northern region. Featured Malaysia's first Premiere Class Hall. Located on Level 7. Features Dolby ATMOS and D-BOX. <ref>{{cite web | url=https://www.gsc.com.my/cinema/gsc-gurney-plaza/ | title=GSC Gurney Plaza - Golden Screen Cinemas }}</ref>
+|-
+|[[Queensbay Mall]]||8||1,528||[[Bayan Lepas]]||[[Golden Screen Cinemas]]||Second GSC in [[Penang]] after GSC [[Gurney Plaza]]. Located on Level 3. Features Dolby AMTOS. <ref>{{cite web | url=https://www.gsc.com.my/cinema/gsc-queensbay-mall/ | title=GSC Queensbay Mall - Golden Screen Cinemas }}</ref>
+|-
+|[[Sunway Carnival Mall]]||8|910||[[Seberang Jaya]]||[[Golden Screen Cinemas]]||Third GSC Cinema in [[Penang]]. Located on Level 2 featuring Dolby ATMOS.<ref>https://www.gsc.com.my/cinema/gsc-sunway-carnival</ref>
+|-
+|[[Gurney Paragon|Gurney Paragon Mall]]||9||1,252||[[Georgetown, Penang|Georgetown]]||[[TGV Cinemas]]||Located on Level 8. Features the 4th IMAX hall in Malaysia.
+|-
+|[[1st Avenue Mall]]||8||1,304||[[Georgetown, Penang|Georgetown]]||[[TGV Cinemas]]||Located on Level 8. Features Beanieplex. |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Gurney_Plaza> wdt:P131 <https://en.wikipedia.org/wiki/George_Town,_Penang> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ rdfs:label "Gurney Plaza"@en ;
+ wdt:P856 <http://www.gurneyplaza.com> ;
+ wdt:P571 "2001-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Gurney%20Plaza%20Exterior.jpg> ;
+ wdt:P127 <https://en.wikipedia.org/wiki/CapitaLand> .
+
+<https://example.org/resource/Queensbay_Mall> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Queensbay%20Mall%2C%20Penang%2C%20Malaysia.JPG> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ rdfs:label "Queensbay Mall"@en .
+
+<https://example.org/resource/Sunway_Carnival_Mall> wdt:P127 <https://en.wikipedia.org/wiki/Sunway_Group> ;
+ wdt:P571 "2007-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Sunway Carnival Mall"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sunway%20Carnival%20Mall%20outview%20%28220921%29.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> .
+
+<https://example.org/resource/Gurney_Paragon_Mall> wdt:P131 <https://en.wikipedia.org/wiki/George_Town,_Penang> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Building> ;
+ wdt:P571 "2013-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ rdfs:label "Gurney Paragon"@en ;
+ wdt:P856 <http://www.gurneyparagon.com/index.php/home> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Gurney%20Paragon%2C%20George%20Town%2C%20Penang.jpg> .
+
+<https://example.org/resource/1st_Avenue_Mall> wdt:P131 <https://en.wikipedia.org/wiki/George_Town,_Penang> ;
+ rdfs:label "1st Avenue Mall"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shopping_center> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P571 "2010-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/1st%20Avenue%20in%20George%20Town%2C%20Penang%202023.jpg> .
+---
+These are the labels of the properties:
+
+wdt:P131 -> located in the administrative territorial entity
+wdt:P31 -> instance of
+wdt:P17 -> country
+wdt:P856 -> official website URL
+wdt:P571 -> inception
+wdt:P18 -> image
+wdt:P127 -> owned by.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="text-align:left"
+|-
+!Cinema||Total halls||Seats||Location||Operator||Remarks
+|-
+|Sunshine Bertam Shopping Mall||4||756||[[Kepala Batas, Penang|Kepala Batas]]||mmCineplexes||Located on Level G.
+|-
+|LFS Butterworth||4||926||[[Butterworth, Penang|Butterworth]]||[[Lotus Five Star]]||Single building cinema. |}
+---

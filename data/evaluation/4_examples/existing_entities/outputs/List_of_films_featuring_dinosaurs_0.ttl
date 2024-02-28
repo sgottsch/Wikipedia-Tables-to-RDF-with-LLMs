@@ -1,0 +1,312 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/A.R.O.G> rdfs:label "A.R.O.G"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q43> ;
+    ns1:P577 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Aztec_Rex> rdfs:label "Aztec Rex"@en ;
+    ns1:P2047 90.0 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q844580> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Baby_Secret_of_the_Lost_Legend> rdfs:label "Baby: Secret of the Lost Legend"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1985-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Bakuryu_Sentai_Abaranger_20th_The_Unforgivable_Fury> rdfs:label "Bakuryū Sentai Abaranger 20th: The Unforgivable Fury"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "2023-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Barneys_Great_Adventure> rdfs:label "Barney's Great Adventure"@en ;
+    ns1:P2047 76.0 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1998-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Battle_at_Big_Rock> rdfs:label "Battle at Big Rock"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q2336369> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q24862> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2019-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Blackadder_Back_Forth> rdfs:label "Blackadder: Back & Forth"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q24862> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q145> ;
+    ns1:P577 "1999-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Bringing_Up_Baby> rdfs:label "Bringing Up Baby"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1938-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Brute_Force> rdfs:label "Brute Force"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1914-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Carnosaur> rdfs:label "Carnosaur"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1993-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Carnosaur_2> rdfs:label "Carnosaur 2"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1995-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Carnosaur_3_Primal_Species> rdfs:label "Carnosaur 3: Primal Species"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1996-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Caveman> rdfs:label "Caveman"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1981-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Destroy_All_Monsters> rdfs:label "Destroy All Monsters"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "1968-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dino_Dana_The_Movie> rdfs:label "Dino Dana: The Movie"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q16>,
+        <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2020-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinocroc> rdfs:label "Dinocroc"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q622548> ;
+    ns1:P2047 90.0 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> .
+
+<https://example.org/resource/Dinocroc_vs_Supergator> rdfs:label "Dinocroc vs. Supergator"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaur_Island_1994> rdfs:label "Dinosaur Island"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaur_Island_2014> rdfs:label "Dinosaur Island"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q408> ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P915 <http://www.wikidata.org/entity/Q667529>,
+        <https://www.imdb.com/title/tt3261302/?ref_=ttmi_tt> .
+
+<https://example.org/resource/Dinosaur_from_the_Deep> rdfs:label "Dinosaur from the Deep"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q142> ;
+    ns1:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaurs_Alive> rdfs:label "Dinosaurs Alive!"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q93204> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaurs_Giants_of_Patagonia> rdfs:label "Dinosaurs: Giants of Patagonia"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q93204> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaurs_The_Final_Day_with_David_Attenborough> rdfs:label "Dinosaurs: The Final Day with David Attenborough"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q93204> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q145> ;
+    ns1:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaurus> rdfs:label "Dinosaurus!"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1960-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinoshark> rdfs:label "Dinoshark"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinotopia_miniseries> rdfs:label "Dinotopia miniseries"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q1259759> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2002-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Doctor_Strange_in_the_Multiverse_of_Madness> rdfs:label "Doctor Strange in the Multiverse of Madness"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Flying_Elephants> rdfs:label "Flying Elephants"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1928-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Future_War> rdfs:label "Future War"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Godzilla_1954_film> rdfs:label "Godzilla"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "1954-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Godzilla_King_of_the_Monsters> rdfs:label "Godzilla, King of the Monsters!"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1956-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Godzilla_vs_King_Ghidorah> rdfs:label "Godzilla vs. King Ghidorah"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "1991-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/House_II_The_Second_Story> rdfs:label "House II: The Second Story"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1987-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Iron_Sky_The_Coming_Race> rdfs:label "Iron Sky: The Coming Race"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q33> ;
+    ns1:P577 "2017-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Its_Alive> rdfs:label "It's Alive!"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1969-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Journey_to_the_Beginning_of_Time> rdfs:label "Journey to the Beginning of Time"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q33946> ;
+    ns1:P577 "1955-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Journey_to_the_Center_of_the_Earth> rdfs:label "Journey to the Center of the Earth"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1959-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_City> rdfs:label "Jurassic City"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Park> rdfs:label "Jurassic Park"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1993-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Park_III> rdfs:label "Jurassic Park III"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2001-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_World> rdfs:label "Jurassic World"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_World_Dominion> rdfs:label "Jurassic World: Dominion"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_World_Fallen_Kingdom> rdfs:label "Jurassic World: Fallen Kingdom"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q2336369> ;
+    ns1:P161 <http://www.wikidata.org/entity/Q106706>,
+        <http://www.wikidata.org/entity/Q1190134>,
+        <http://www.wikidata.org/entity/Q13576931>,
+        <http://www.wikidata.org/entity/Q2076016>,
+        <http://www.wikidata.org/entity/Q22058479>,
+        <http://www.wikidata.org/entity/Q229775>,
+        <http://www.wikidata.org/entity/Q230636>,
+        <http://www.wikidata.org/entity/Q299483>,
+        <http://www.wikidata.org/entity/Q342419>,
+        <http://www.wikidata.org/entity/Q433520>,
+        <http://www.wikidata.org/entity/Q503706>,
+        <http://www.wikidata.org/entity/Q5219325>,
+        <http://www.wikidata.org/entity/Q526886>,
+        <http://www.wikidata.org/entity/Q55873637>,
+        <http://www.wikidata.org/entity/Q64984637>,
+        <http://www.wikidata.org/entity/Q901193>,
+        <http://www.wikidata.org/entity/Q948751> ;
+    ns1:P162 <http://www.wikidata.org/entity/Q1175663> ;
+    ns1:P2047 128.0 ;
+    ns1:P2363 <http://www.wikidata.org/entity/Q21571488> ;
+    ns1:P272 <http://www.wikidata.org/entity/Q168383> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P57 <http://www.wikidata.org/entity/Q932019> ;
+    ns1:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P750 <http://www.wikidata.org/entity/Q16516296> ;
+    ns1:P7573 <http://www.wikidata.org/entity/Q74434531> ;
+    ns1:P915 <http://www.wikidata.org/entity/Q65> .
+
+<https://example.org/resource/The_Beast_from_20000_Fathoms> rdfs:label "The Beast from 20,000 Fathoms"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1953-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Beast_of_Hollow_Mountain> rdfs:label "The Beast of Hollow Mountain"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1956-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Bubble> rdfs:label "The Bubble"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Crater_Lake_Monster> rdfs:label "The Crater Lake Monster"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1977-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Dinosaur_Project> rdfs:label "The Dinosaur Project"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q145> ;
+    ns1:P577 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Eden_Formula> rdfs:label "The Eden Formula"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Extraordinary_Adventures_of_Adele_Blanc-Sec> rdfs:label "The Extraordinary Adventures of Adèle Blanc-Sec"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q142> ;
+    ns1:P577 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Flintstones> rdfs:label "The Flintstones"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Flintstones_in_Viva_Rock_Vegas> rdfs:label "The Flintstones in Viva Rock Vegas"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2000-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Ghost_of_Slumber_Mountain> rdfs:label "The Ghost of Slumber Mountain"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1918-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Giant_Behemoth> rdfs:label "The Giant Behemoth"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1959-01-01T00:00:00+00:00"^^xsd:dateTime .
+

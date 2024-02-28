@@ -1,0 +1,84 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Avondale_Intermediate> rdfs:label "Avondale"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Avondale%20Intermediate%20School.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q15262068,
+        wd:Q4927276,
+        wd:Q6517338 .
+
+<https://example.org/resource/Avondale_Primary_School> rdfs:label "Avondale"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Avondale%20Primary%20School.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q15262068,
+        wd:Q4927276,
+        wd:Q6517338 .
+
+<https://example.org/resource/Blockhouse_Bay_School> rdfs:label "Blockhouse Bay"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Blockhouse%20Bay%20School.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q15262068,
+        wd:Q4927276,
+        wd:Q6517338 .
+
+<https://example.org/resource/Chaucer_School> rdfs:label "Blockhouse Bay"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Chaucer%20School.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q15262068,
+        wd:Q4927276,
+        wd:Q6517338 .
+
+<https://example.org/resource/Kelston_Intermediate> rdfs:label "Kelston"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kelston%20Intermediate%20School.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q6386562,
+        wd:Q6517338 .
+
+<https://example.org/resource/Kelston_School> rdfs:label "Kelston"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kelston%20School.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q6386562,
+        wd:Q6517338 .
+
+<https://example.org/resource/New_Windsor_School> rdfs:label "New Windsor"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/New%20Windsor.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q4927276 .
+
+<https://example.org/resource/Rosebank_School> rdfs:label "Avondale"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Avondale.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q4927276 .
+
+<https://example.org/resource/St_Dominic's_Catholic_School> rdfs:label "Blockhouse Bay"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Blockhousebay.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q4927276 .
+
+<https://example.org/resource/St_Mary's_School> rdfs:label "Avondale"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Avondale.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q4927276 .
+

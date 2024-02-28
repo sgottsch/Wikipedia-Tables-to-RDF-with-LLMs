@@ -1,0 +1,204 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of museums in Central Texas" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable plainrowheaders"
+|+{{sronly|List of museums in Travis County, Texas}}
+|-
+!scope="col" |Museum name 
+!scope="col"  class="unsortable" |Image
+!scope="col"  |City
+!scope="col"  |County
+!scope="col"  |Notes
+!scope="col" class="unsortable" |Refs
+|-
+!scope="row"|[[Austin History Center]]
+|[[File:Austin history center 2006.jpg|125px|Austin History Center]]
+|Austin
+|Travis
+|[[Austin Public Library]], features changing exhibits from its collections
+|align="center"|<ref>{{cite web |title=TSHA {{!}} Austin History Center |url=https://www.tshaonline.org/handbook/entries/austin-history-center |website=www.tshaonline.org |access-date=16 August 2022}}</ref>
+|-
+!scope="row"|[[Austin Museum of Digital Art]]
+|
+|Austin
+|Travis
+|
+|align="center"|<ref>{{cite web |title=Austin Museum of Digital Art |url=https://www.nowplayingaustin.com/organization/austin-museum-of-digital-art/ |website=NowPlayingAustin.com |access-date=16 August 2022}}</ref>
+|-
+!scope="row"|[[Blanton Museum of Art]]
+|[[File:Blanton Museum.JPG|125px|Blanton Museum of Art]]
+|Austin
+|Travis
+|Part of the [[University of Texas at Austin]], collection features European paintings, modern and contemporary American and Latin American art, prints and drawings
+|align="center"|<ref>{{cite web |title=Blanton Museum of Art in Austin {{!}} Tour Texas |url=https://www.tourtexas.com/attractions/blanton-museum-of-art-austin |website=www.tourtexas.com |access-date=16 August 2022}}</ref>
+|-
+!scope="row"|[[Dolph Briscoe Center for American History|Briscoe Center for American History]]
+|[[File:Center american history 2012.jpg|125px|Briscoe Center for American History]]
+|Austin
+|Travis
+|Part of the University of Texas at Austin, exhibits of history from its collections
+|align="center"|<ref>{{cite web |title=TSHA {{!}} Dolph Briscoe Center For American History |url=https://www.tshaonline.org/handbook/entries/dolph-briscoe-center-for-american-history |website=www.tshaonline.org |access-date=16 August 2022}}</ref>
+|-
+!scope="row"|[[Bullock Texas State History Museum]]
+|[[File:TexasStateHistoryMuseum-2010-08-b.JPG|125px|Bullock Texas State History Museum]]
+|Austin
+|Travis
+|Texas history
+|align="center"|<ref>{{cite web |title=Details - The Bullock Texas State History Museum - Atlas Number 4200000809 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000809 |website=atlas.thc.state.tx.us |access-date=16 August 2022}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Austin_History_Center> wdt:P710 wd:Q107003912 ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Renaissance_Revival_architecture> ;
+ wdt:P749 <https://en.wikipedia.org/wiki/Austin_Public_Library> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ rdfs:label "Austin History Center"@en ;
+ wdt:P856 <http://www.ci.austin.tx.us/library/ahc/> ;
+ wdt:P31 wd:Q12324798 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Austin%20history%20center%202006.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Austin,_Texas> ;
+ wdt:P1435 <https://en.wikipedia.org/wiki/Recorded_Texas_Historic_Landmark> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Hugo_Kuehne> ;
+ wdt:P6375 "810 Guadalupe St, Austin, TX 78701"@en ;
+ wdt:P1435 wd:Q19558910 ;
+ wdt:P793 wd:Q385378 ;
+ wdt:P31 wd:Q856584 .
+
+<https://example.org/resource/Austin_Museum_of_Digital_Art> rdfs:label "Austin Museum of Digital Art"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Art_museum> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Austin,_Texas> ;
+ wdt:P571 "1997-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Blanton_Museum_of_Art> rdfs:label "Blanton Museum of Art"@en ;
+ wdt:P856 <https://www.blantonmuseum.org/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/BlantonJackSMuseumArt.JPG> ;
+ wdt:P1619 "1963-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P710 wd:Q107005010 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P7561 wd:Q86110234 ;
+ wdt:P571 "1963-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Art_museum> ;
+ wdt:P749 <https://en.wikipedia.org/wiki/University_of_Texas_at_Austin> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Austin,_Texas> ;
+ wdt:P8687 "16538"^^xsd:decimal ;
+ wdt:P5514 <https://en.wikipedia.org/wiki/American_Alliance_of_Museums> ;
+ wdt:P6375 "Martin Luther King Jr. 200 E"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Texas> ;
+ wdt:P8768 <https://collection.blantonmuseum.org/> ;
+ wdt:P793 wd:Q385378 .
+
+<https://example.org/resource/Briscoe_Center_for_American_History> wdt:P31 <https://en.wikipedia.org/wiki/Museum> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Austin,_Texas> ;
+ rdfs:label "Dolph Briscoe Center for American History"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Texas> ;
+ wdt:P856 <http://www.cah.utexas.edu/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Center%20american%20history%202012.jpg> .
+
+<https://example.org/resource/Bullock_Texas_State_History_Museum> wdt:P31 wd:Q16735822 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Building> ;
+ rdfs:label "Bullock Texas State History Museum"@en ;
+ wdt:P856 <http://www.thestoryoftexas.com/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/BobBullockMuseumAustinTX.JPG> ;
+ wdt:P463 <https://en.wikipedia.org/wiki/North_American_Reciprocal_Museum_Association> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Austin,_Texas> ;
+ wdt:P8687 "6194"^^xsd:decimal ;
+ wdt:P5514 <https://en.wikipedia.org/wiki/American_Alliance_of_Museums> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Bob_Bullock> ;
+ wdt:P793 wd:Q385378 ;
+ wdt:P571 "2001-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P710 wd:Q107004795 .
+---
+These are the labels of the properties:
+
+wdt:P710 -> participant
+wdt:P149 -> architectural style
+wdt:P749 -> parent organization
+wdt:P17 -> country
+wdt:P856 -> official website URL
+wdt:P31 -> instance of
+wdt:P18 -> image
+wdt:P131 -> located in the administrative territorial entity
+wdt:P1435 -> heritage designation
+wdt:P84 -> architect
+wdt:P6375 -> street address
+wdt:P793 -> significant event
+wdt:P571 -> inception
+wdt:P1619 -> date of official opening
+wdt:P7561 -> category for the interior of the item
+wdt:P276 -> location
+wdt:P8687 -> social media followers
+wdt:P5514 -> accredited by
+wdt:P8768 -> online catalog URL
+wdt:P463 -> member of
+wdt:P138 -> named after.
+---
+These are the labels of the objects:
+
+wd:Q107003912 -> Hugo Franz Kuehne
+wd:Q12324798 -> local history archive
+wd:Q19558910 -> National Register of Historic Places listed place
+wd:Q385378 -> construction
+wd:Q856584 -> library building
+wd:Q107005010 -> Kallman, McKinnell and Wood
+wd:Q86110234 -> Category:Interior of the Blanton Museum of Art
+wd:Q16735822 -> history museum
+wd:Q107004795 -> E. Varner Johnson and Associates.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable plainrowheaders"
+|+{{sronly|List of museums in Travis County, Texas}}
+|-
+!scope="col" |Museum name 
+!scope="col"  class="unsortable" |Image
+!scope="col"  |City
+!scope="col"  |County
+!scope="col"  |Notes
+!scope="col" class="unsortable" |Refs
+|-
+!scope="row"|Anderson Mill and Robinson Museum
+|  
+|[[Volente, Texas|Volente]]
+|Travis
+|
+|align="center"|<ref>{{cite web |title=TSHA {{!}} Volente, TX |url=https://www.tshaonline.org/handbook/entries/volente-tx |website=www.tshaonline.org |access-date=16 August 2022}}</ref>
+|-
+!scope="row"|Austin Fire Museum
+|
+|Being relocated
+|Travis
+|Operated by the Austin Fire Museum Hook & Ladder Society
+|align="center"|<ref>{{cite web |title=Austin Fire Museum {{!}} AustinTexas.gov |url=https://www.austintexas.gov/department/austin-fire-museum |website=www.austintexas.gov |access-date=16 August 2022}}</ref>
+|-
+!scope="row"|Austin Nature & Science Center
+|[[File:Austin nature center entrance.jpg|125px|Austin Nature & Science Center]]
+|Austin
+|Travis
+|[[Zilker Park]], hands-on nature exhibits
+|align="center"|<ref>{{cite web |title=Austin Nature & Science Center |url=https://austin.kidsoutandabout.com/content/austin-nature-science-center |website=Kids Out and About Austin |access-date=16 August 2022}}</ref>
+|-
+!scope="row"|Beverly S. Sheffield Education Center
+|  
+|Austin
+|Travis
+|"Splash! Into the [[Edwards Aquifer]]" exhibit about [[Barton Springs]]
+|align="center"|<ref>{{cite web |title=Beverly S. Sheffield Education Center {{!}} AustinTexas.gov |url=https://www.austintexas.gov/department/beverly-s-sheffield-education-center |website=www.austintexas.gov |access-date=16 August 2022}}</ref>
+|-
+!scope="row"|Christian-Green Gallery
+|
+|Austin
+|Travis
+|
+|align="center"|<ref>{{cite web |title=Details - Christian-Green Gallery - Atlas Number 4200001473 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200001473 |website=atlas.thc.state.tx.us |access-date=15 August 2022}}</ref>
+|-
+!scope="row"|{{sort|contemporary|[[The Contemporary Austin]] |}
+---

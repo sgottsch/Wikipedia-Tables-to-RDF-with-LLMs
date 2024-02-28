@@ -1,0 +1,268 @@
+In both
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.w3.org/2000/01/rdf-schema#label> "Great Mosque of Touba"@en .
+<https://example.org/resource/Mosque_of_Islamic_Solidarity> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1045> .
+<https://example.org/resource/Mosque_of_Islamic_Solidarity> <http://www.w3.org/2000/01/rdf-schema#label> "Mosque of Islamic Solidarity"@en .
+<https://example.org/resource/Arba'a_Rukun_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1045> .
+<https://example.org/resource/Nizamiye_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mosque_of_Divinity> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1041> .
+<https://example.org/resource/Great_Mosque_of_Kilwa> <http://www.w3.org/2000/01/rdf-schema#label> "Great Mosque of Kilwa"@en .
+<https://example.org/resource/Great_Mosque_of_Kano> <http://www.w3.org/2000/01/rdf-schema#label> "Great Mosque of Kano"@en .
+<https://example.org/resource/Jummah_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Saudi_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q912> .
+<https://example.org/resource/Chinguetti_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Agadez_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q320049> .
+<https://example.org/resource/Abuja_National_Mosque> <http://www.wikidata.org/prop/direct/P571> "1984-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Gaddafi_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q924> .
+<https://example.org/resource/Chinguetti_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Chinguetti Mosque"@en .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1033> .
+<https://example.org/resource/Mosque_of_Divinity> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mosque_of_Islamic_Solidarity> <http://www.wikidata.org/prop/direct/P571> "1987-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Abuja_National_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Masjid_al-Qiblatayn> <http://www.w3.org/2000/01/rdf-schema#label> "Masjid al-Qiblatayn"@en .
+<https://example.org/resource/Agadez_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/1997%20277-9A%20Agadez%20mosque%20cropped.jpg> .
+<https://example.org/resource/Fakr_ad-Din_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1045> .
+<https://example.org/resource/Jummah_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Jummah Mosque"@en .
+<https://example.org/resource/Agadez_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1032> .
+<https://example.org/resource/Arba'a_Rukun_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Arba'a Rukun Mosque"@en .
+<https://example.org/resource/Fakr_ad-Din_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Jummah_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1027> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Great_Mosque_of_Kano> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kano%20Mosque%20in%201960.jpg> .
+<https://example.org/resource/Gaddafi_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Dodoma%20Mosque%2C%20Front%2C%20Dodoma%20City%20Counci.jpg> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P571> "1327-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Yamma_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1032> .
+<https://example.org/resource/Abuja_National_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1033> .
+<https://example.org/resource/Larabanga_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Djinguereber Mosque"@en .
+<https://example.org/resource/Masjid_al-Qiblatayn> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1041> .
+<https://example.org/resource/Fakr_ad-Din_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Fakr ad-Din Mosque"@en .
+<https://example.org/resource/Al-Nilin_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1049> .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q8673> .
+<https://example.org/resource/Mosque_of_Islamic_Solidarity> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mosque%20of%20Islamic%20Solidarity.jpeg> .
+<https://example.org/resource/Nizamiye_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q639518> .
+<https://example.org/resource/Yamma_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Yamma Mosque"@en .
+<https://example.org/resource/Sidi_Yahya_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Nizamiye_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q258> .
+<https://example.org/resource/Great_Mosque_of_Kano> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1033> .
+<https://example.org/resource/Arba'a_Rukun_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mogadishu1936.jpg> .
+<https://example.org/resource/Abuja_National_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/AbujaNationalMosque.jpg> .
+<https://example.org/resource/Al-Nilin_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Gaddafi_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Larabanga_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Larabanga%20Mosque%20Ghana.jpg> .
+<https://example.org/resource/Sidi_Yahya_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q912> .
+<https://example.org/resource/Sidi_Yahya_Mosque> <http://www.wikidata.org/prop/direct/P571> "1440-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Arba'a_Rukun_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Laika%20ac%20Gaddafi%20National%20Mosque%2C%20Kampala%20%286693328097%29.jpg> .
+<https://example.org/resource/Abuja_National_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3787> .
+<https://example.org/resource/Juma_Masjid_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Fakr_ad-Din_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Fakr%20Ud%20Din%20Mosque.jpg> .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Gaddafi_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Gaddafi Mosque"@en .
+<https://example.org/resource/Yamma_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Mosque_of_Islamic_Solidarity> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1036> .
+<https://example.org/resource/Kizimkazi_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q924> .
+<https://example.org/resource/Dakar_Grand_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1041> .
+<https://example.org/resource/Saudi_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1025> .
+<https://example.org/resource/Juma_Masjid_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q258> .
+<https://example.org/resource/Dakar_Grand_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3718> .
+<https://example.org/resource/Great_Mosque_of_Kilwa> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/GreatMosque.jpg> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Djingareiber%20cour.jpg> .
+<https://example.org/resource/Jummah_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3929> .
+<https://example.org/resource/Abuja_National_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Abuja National Mosque"@en .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Shitta-Bey Mosque"@en .
+<https://example.org/resource/Kizimkazi_Mosque> <http://www.wikidata.org/prop/direct/P571> "1107-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Kizimkazi_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Kizimkazi Mosque"@en .
+<https://example.org/resource/Great_Mosque_of_Kilwa> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Great_Mosque_of_Kano> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Agadez_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Agadez Mosque"@en .
+<https://example.org/resource/Dakar_Grand_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Nizamiye_Mosque> <http://www.wikidata.org/prop/direct/P571> "2012-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Dakar_Grand_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Dakar Grand Mosque"@en .
+<https://example.org/resource/Agadez_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Chinguetti_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1025> .
+<https://example.org/resource/Masjid_al-Qiblatayn> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Zeila%20Mosque.jpg> .
+<https://example.org/resource/Grand_Mosque_of_Niamey> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3674> .
+<https://example.org/resource/Sidi_Yahya_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Fortier%20361%20Timbuktu%20Sidi-Yabya%20Mosque.jpg> .
+<https://example.org/resource/Sidi_Yahya_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Sidi Yahya Mosque"@en .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Shitta-Bey%20Mosque.jpg> .
+<https://example.org/resource/Arba'a_Rukun_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2449> .
+<https://example.org/resource/Grand_Mosque_of_Niamey> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Grand_Mosque_of_Niamey> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1032> .
+<https://example.org/resource/Yamma_Mosque> <http://www.wikidata.org/prop/direct/P571> "1962-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Larabanga_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Larabanga Mosque"@en .
+<https://example.org/resource/Larabanga_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q117> .
+<https://example.org/resource/Great_Mosque_of_Kilwa> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q924> .
+<https://example.org/resource/Kizimkazi_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+In ground only
+<https://example.org/resource/Jummah_Mosque> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Port%20Louis%2C%20Jummah%20Masjeed%2C%20interieur%20%284%29.jpg> .
+<https://example.org/resource/Mosque_of_Divinity> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/OuakamMosqu%C3%A9e.jpg> .
+<https://example.org/resource/Saudi_Mosque> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q3688> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q48356> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Great%20Mosque%20of%20Djenn%C3%A9%201.jpg> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q183496> .
+<https://example.org/resource/Larabanga_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q489021> .
+<https://example.org/resource/Grand_Mosque_of_Niamey> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q43113623> .
+<https://example.org/resource/List_of_mosques_in_Tunisia> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P571> "1906-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Great_Mosque_of_Kano> <http://www.wikidata.org/prop/direct/P6802> <http://commons.wikimedia.org/wiki/Special:FilePath/ASC%20Leiden%20-%20NSAG%20-%20van%20Es%209%20-%20003%20-%20The%20Great%20Mosque%20of%20Kano%20with%20a%20wall%20around%20it%20with%20a%20gate%2C%20two%20tall%20minarets%20and%20a%20large%20dome%20-%20Kano%2C%20North%20Nigeria%20-%2013-15%20January%201962.tif> .
+<https://example.org/resource/Abuja_National_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Grand_Mosque_of_Niamey> <http://www.wikidata.org/prop/direct/P571> "1971-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Juma_Masjid_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Street%20Masjid%20%28Grey%20%26Queen%20Street%29-20140223.jpg> .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3894> .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q657072> .
+<https://example.org/resource/Grand_Mosque_of_Niamey> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Niamey%20Grande%20Mosqu%C3%A9e%20%284832863260%29.jpg> .
+<https://example.org/resource/Mosque_of_Islamic_Solidarity> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2449> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/List_of_mosques_in_Morocco> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Morocco"@en .
+<https://example.org/resource/Fakr_ad-Din_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Al-Nilin_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q180921> .
+<https://example.org/resource/Yamma_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q489021> .
+<https://example.org/resource/List_of_mosques_in_Tunisia> <http://www.w3.org/2000/01/rdf-schema#label> "list of mosques in Tunisia"@en .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q489021> .
+<https://example.org/resource/Sidi_Yahya_Mosque> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q9427> .
+<https://example.org/resource/Sidi_Yahya_Mosque> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q109929866> .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q38085690> .
+<https://example.org/resource/Larabanga_Mosque> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q183496> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P2048> "16"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q489021> .
+<https://example.org/resource/Agadez_Mosque> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q109929866> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P1619> "1907-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q107414369> .
+<https://example.org/resource/Gaddafi_Mosque> <http://www.wikidata.org/prop/direct/P1083> "3000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Chinguetti_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/%D9%85%D8%B3%D8%AC%D8%AF%20%D8%B4%D9%86%D9%82%D9%8A%D8%B7%20%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A.jpg> .
+<https://example.org/resource/Mosque_of_Divinity> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3718> .
+<https://example.org/resource/Jummah_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mosqu%C3%A9e%20-%20panoramio%20-%20franek2.jpg> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q184190> .
+<https://example.org/resource/Abuja_National_Mosque> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q385378> .
+<https://example.org/resource/Agadez_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q489021> .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Nizamiye_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Nizamiye Masjid"@en .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q43113623> .
+<https://example.org/resource/Yamma_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q10311165> .
+<https://example.org/resource/Nizamiye_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q527449> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q912> .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P856> <http://www.mosqueetouba.org/> .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.wikidata.org/prop/direct/P1083> "200"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Sidi_Yahya_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q489021> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q107414369> .
+<https://example.org/resource/Grand_Mosque_of_Niamey> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Niamey%2C%20Niger%20%285489325064%29%20%28cropped%29.jpg> .
+<https://example.org/resource/Juma_Masjid_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Juma Mosque"@en .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P2048> "86.8"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Larabanga_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Abuja_National_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.wikidata.org/prop/direct/P571> "1978-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Kampala Mosque"@en .
+<https://example.org/resource/Kizimkazi_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1774> .
+<https://example.org/resource/Kizimkazi_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/KizimkaziMosque1.JPG> .
+<https://example.org/resource/Chinguetti_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q247492> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.w3.org/2000/01/rdf-schema#label> "Great Mosque of Djenné"@en .
+<https://example.org/resource/Sidi_Yahya_Mosque> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q107414369> .
+<https://example.org/resource/List_of_mosques_in_Tunisia> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q8268718> .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P1083> "7000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Saudi_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Saudi%20mosque%20in%20Nouakchott.jpg> .
+<https://example.org/resource/Al-Nilin_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Masjed%20Alnileen.JPG> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q6173448> .
+<https://example.org/resource/Dakar_Grand_Mosque> <http://www.wikidata.org/prop/direct/P571> "1964-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Larabanga_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q5555520> .
+<https://example.org/resource/Grand_Mosque_of_Niamey> <http://www.w3.org/2000/01/rdf-schema#label> "Niamey Grand Mosque"@en .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.wikidata.org/prop/direct/P2795> "on top of the hill next to the new taxi park"@en .
+<https://example.org/resource/Al-Nilin_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Masjid Al-Nilin"@en .
+<https://example.org/resource/List_of_mosques_in_Tunisia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Agadez_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q43113623> .
+<https://example.org/resource/Masjid_al-Qiblatayn> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Great_Mosque_of_Kano> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q182984> .
+<https://example.org/resource/Gaddafi_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3866> .
+<https://example.org/resource/Dakar_Grand_Mosque> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q1417098> .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q21531791> .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Yamma_Mosque> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q56529285> .
+<https://example.org/resource/Larabanga_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3110546> .
+<https://example.org/resource/Dakar_Grand_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Mosque%20of%20Dakar%20DSC07363-2.jpg> .
+<https://example.org/resource/Abuja_National_Mosque> <http://www.wikidata.org/prop/direct/P30> <http://www.wikidata.org/entity/Q15> .
+<https://example.org/resource/Juma_Masjid_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q5468> .
+<https://example.org/resource/Agadez_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q9427> .
+<https://example.org/resource/List_of_mosques_in_Morocco> <http://www.wikidata.org/prop/direct/P1754> <http://www.wikidata.org/entity/Q8642130> .
+<https://example.org/resource/Dakar_Grand_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q21531791> .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.wikidata.org/prop/direct/P1705> "Shitta-Bey Mosque"@en .
+<https://example.org/resource/Chinguetti_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q312357> .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Touba%20%28senegal%29%202006.JPG> .
+<https://example.org/resource/Fakr_ad-Din_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2449> .
+<https://example.org/resource/Chinguetti_Mosque> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q2845953> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q2821734> .
+<https://example.org/resource/Agadez_Mosque> <http://www.wikidata.org/prop/direct/P571> "1515-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Mosque_of_Divinity> <http://www.wikidata.org/prop/direct/P580> "1997-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/List_of_mosques_in_Morocco> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Sidi_Yahya_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q9427> .
+<https://example.org/resource/Kizimkazi_Mosque> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Kizimkazi02.jpg> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q109929866> .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P1619> "1963-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Yamma_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q798805> .
+<https://example.org/resource/Saudi_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Mosque Saudique"@en .
+<https://example.org/resource/Juma_Masjid_Mosque> <http://www.wikidata.org/prop/direct/P571> "1930-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.wikidata.org/prop/direct/P1083> "12200"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Nizamiye_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://nizamiye.co.za/> .
+<https://example.org/resource/List_of_mosques_in_Morocco> <http://www.wikidata.org/prop/direct/P1424> <http://www.wikidata.org/entity/Q20321811> .
+<https://example.org/resource/List_of_mosques_in_Morocco> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Djinguereber_Mosque> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q15240719> .
+<https://example.org/resource/Arba'a_Rukun_Mosque> <http://www.wikidata.org/prop/direct/P571> "1260-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Agadez_Mosque> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q47800464> .
+<https://example.org/resource/Yamma_Mosque> <http://www.wikidata.org/prop/direct/P2046> "430.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Great_Mosque_of_Djenné> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q109929866> .
+<https://example.org/resource/Larabanga_Mosque> <http://www.wikidata.org/prop/direct/P571> "1421-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Larabanga_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q502215> .
+<https://example.org/resource/Mosque_of_Islamic_Solidarity> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Mosque_of_Divinity> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Masjid_al-Qiblatayn> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q570116> .
+<https://example.org/resource/Mosque_of_Divinity> <http://www.w3.org/2000/01/rdf-schema#label> "Mosquée de la Divinité"@en .
+<https://example.org/resource/Masjid_al-Qiblatayn> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q34754> .
+<https://example.org/resource/Sidi_Yahya_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q43113623> .
+<https://example.org/resource/Dakar_Grand_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Mosque%20of%20Dakar%20DSC07361-2.jpg> .
+In predicted only
+<https://example.org/resource/Great_Mosque_of_Kilwa> <http://www.wikidata.org/prop/direct/P571> "1000-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Juma_Masjid_Mosque> <http://www.wikidata.org/prop/direct/P571> "1881-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Mosque_of_Divinity> <http://www.w3.org/2000/01/rdf-schema#label> "Mosque of Divinity"@en .
+<https://example.org/resource/Great_Mosque_of_Touba> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q279404> .
+<https://example.org/resource/Juma_Masjid_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Juma%20Masjid%20Mosque%20on%20Queen%20%28Denis%20Harle%29%20Street-20140222.jpg> .
+<https://example.org/resource/Great_Mosque_of_Djenne> <http://www.wikidata.org/prop/direct/P571> "1907-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Great_Mosque_of_Djenne> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Great%20Mosque%20of%20Djenn%C3%A9%203.jpg> .
+<https://example.org/resource/Great_Mosque_of_Djenne> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Saudi_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Saudi Mosque"@en .
+<https://example.org/resource/Mosque_of_Divinity> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Senegal%20Grande%20Mosquee%20de%20Ouakam%20800x600.jpg> .
+<https://example.org/resource/Al-Nilin_Mosque> <http://www.wikidata.org/prop/direct/P571> "1970-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Masjid_al-Qiblatayn> <http://www.wikidata.org/prop/direct/P571> "7th century-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Gaddafi_Mosque> <http://www.wikidata.org/prop/direct/P571> "2010-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Kizimkazi_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/KizimkaziMosque3.JPG> .
+<https://example.org/resource/Juma_Masjid_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Juma Masjid Mosque"@en .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.wikidata.org/prop/direct/P571> "2006-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Fakr_ad-Din_Mosque> <http://www.wikidata.org/prop/direct/P571> "1269-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Yamma_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q877122> .
+<https://example.org/resource/Great_Mosque_of_Djenne> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q912> .
+<https://example.org/resource/Mosque_of_Divinity> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3357914> .
+<https://example.org/resource/Great_Mosque_of_Kilwa> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q385378> .
+<https://example.org/resource/Shitta-Bey_Mosque> <http://www.wikidata.org/prop/direct/P571> "1892-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Arba'a_Rukun_Mosque> <http://www.wikidata.org/prop/direct/P571> "1268-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Al-Nilin_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1963> .
+<https://example.org/resource/Grand_Mosque_of_Niamey> <http://www.w3.org/2000/01/rdf-schema#label> "Grand Mosque of Niamey"@en .
+<https://example.org/resource/Saudi_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3688> .
+<https://example.org/resource/Agadez_Mosque> <http://www.wikidata.org/prop/direct/P571> "1500-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Nizamiye_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Nizamiye Mosque"@en .
+<https://example.org/resource/Chinguetti_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Chinguetti%20mosquee.jpg> .
+<https://example.org/resource/Great_Mosque_of_Djenne> <http://www.w3.org/2000/01/rdf-schema#label> "Great Mosque of Djenné"@en .
+<https://example.org/resource/Masjid_al-Qiblatayn> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q1045> .
+<https://example.org/resource/Uganda_National_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Uganda National Mosque"@en .
+<https://example.org/resource/Jummah_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mosqu%C3%A9e%20-%20panoramio.jpg> .
+<https://example.org/resource/Al-Nilin_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Al-Nilin Mosque"@en .

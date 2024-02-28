@@ -1,0 +1,61 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of Ganesha temples" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name !! City / town !! Country !! Image
+
+|-
+| [[Suryavinayak Temple|Suryavinayak Temple Temple]] || [[Kathmandu]] || [[Nepal]] || [[File:Suryavinayak_Temple13.jpg|150px]] 
+|-
+| [[Hinduism in Seychelles|Arulmigu Navasakti Vinayagar Temple]] || Victoria || [[Seychelles]] || [[File:Hindu Temple Victoria Seychelles Islands of Africa.jpg|150px]] 
+|-
+| [[Hindu Temple Society of North America]] || [[Flushing, Queens]] || [[United States of America]] || [[File:Temple at Flushing, NY.jpg|150px]] |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Suryavinayak_Temple_Temple> wdt:P31 <https://en.wikipedia.org/wiki/Temple> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Nepal> ;
+ rdfs:label "Suryavinayak Temple"@en .
+
+<https://example.org/resource/Arulmigu_Navasakti_Vinayagar_Temple> wdt:P17 <https://en.wikipedia.org/wiki/Seychelles> ;
+ wdt:P279 <https://en.wikipedia.org/wiki/Religion_in_Seychelles> ;
+ wdt:P279 <https://en.wikipedia.org/wiki/Hinduism> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:Hinduism_in_Seychelles> ;
+ rdfs:label "Hinduism in Seychelles"@en ;
+ wdt:P1269 <https://en.wikipedia.org/wiki/Seychelles> ;
+ wdt:P31 wd:Q12932380 .
+
+<https://example.org/resource/Hindu_Temple_Society_of_North_America> wdt:P131 <https://en.wikipedia.org/wiki/New_York_(state)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Hindu_temple> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ rdfs:label "Hindu Temple Society of North America"@en .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P17 -> country
+wdt:P279 -> subclass of
+wdt:P910 -> topic's main category
+wdt:P1269 -> facet of
+wdt:P131 -> located in the administrative territorial entity.
+---
+These are the labels of the objects:
+
+wd:Q12932380 -> Hinduism of an area.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name !! City / town !! Country !! Image
+
+|-
+|Pikanesuandevalai||[[Amphoe Mueang Chiang Mai|Mueang Chiang Mai]], [[Chiang Mai province|Chiang Mai]]||Thailand|| |}
+---

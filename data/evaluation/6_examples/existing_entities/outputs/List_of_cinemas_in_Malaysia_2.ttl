@@ -1,0 +1,46 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/118_Mall> rdfs:label "118 Mall"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q86107012 ;
+    wdt:P856 <https://www.118mall.com.my/> .
+
+<https://example.org/resource/Coliseum_Theatre> rdfs:label "Coliseum Theatre"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q86108806 ;
+    wdt:P856 <https://www.lfs.com.my/> .
+
+<https://example.org/resource/Pavilion_Bukit_Jalil> rdfs:label "Pavilion Bukit Jalil"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q86108806 ;
+    wdt:P856 <https://www.pavilionbukitjalil.com/> .
+
+<https://example.org/resource/Pavilion_KL> rdfs:label "Pavilion KL"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q86107012 ;
+    wdt:P856 <https://www.pavilion-kl.com/> .
+
+<https://example.org/resource/Sunway_Putra_Mall> rdfs:label "Sunway Putra Mall"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q86108806 ;
+    wdt:P856 <https://www.sunwayputramall.com/> .
+
+<https://example.org/resource/Sunway_Velocity_Mall> rdfs:label "Sunway Velocity Mall"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P7561 wd:Q86108806 ;
+    wdt:P856 <https://www.sunwayvelocitymall.com/> .
+

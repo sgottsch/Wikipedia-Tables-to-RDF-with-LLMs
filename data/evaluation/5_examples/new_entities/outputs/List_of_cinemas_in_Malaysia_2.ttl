@@ -1,0 +1,125 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/163_Retail_Park> rdfs:label "163 Retail Park"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/163_Retail_Park.jpg> ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "2019-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 ;
+    wdt:P856 <https://www.163retailpark.com/> .
+
+<https://example.org/resource/1_Shamelin_Mall> rdfs:label "1 Shamelin Mall"@en ;
+    wdt:P1619 "TBA"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "TBA"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/8th_and_Stellar> rdfs:label "8th & Stellar"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "Opening soon"^^xsd:string ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/AEON_AU2> rdfs:label "AEON AU2"@en ;
+    wdt:P1619 "TBA"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "TBA"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/AEON_Metro_Prima> rdfs:label "AEON Metro Prima"@en ;
+    wdt:P1619 "TBA"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "TBA"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/Brem_Mall> rdfs:label "Brem Mall"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "Opening soon"^^xsd:string ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/Cheras_Sentral> rdfs:label "Cheras Sentral"@en ;
+    wdt:P1619 "TBA"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "TBA"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/EkoCheras_Mall> rdfs:label "EkoCheras Mall"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/EkoCheras_Mall.jpg> ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "2015-11-11T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 ;
+    wdt:P856 <https://www.ekocheras.com.my/> .
+
+<https://example.org/resource/Federal_Cinema> rdfs:label "Federal Cinema"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "Single-building cinema"^^xsd:string ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/KL_East_Mall> rdfs:label "KL East Mall"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/KL_East_Mall.jpg> ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "2024-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 ;
+    wdt:P856 <https://www.kleastmall.com/> .
+
+<https://example.org/resource/Lotus's_Kepong> rdfs:label "Lotus's Kepong"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Lotus's_Kepong.jpg> ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "2023-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 ;
+    wdt:P856 <https://www.gsc.com.my/cinema/gsc-kepong-village-mall/> .
+
+<https://example.org/resource/MyTown_Shopping_Mall> rdfs:label "MyTown Shopping Mall"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/MyTown_Shopping_Mall.jpg> ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "2017-03-16T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 ;
+    wdt:P856 <https://www.mytown.com.my/> .
+
+<https://example.org/resource/NU_Sentral> rdfs:label "NU Sentral"@en ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/NU_Sentral.jpg> ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 ;
+    wdt:P856 <https://www.nusentral.com/> .
+
+<https://example.org/resource/Pavilion_Damansara_Heights> rdfs:label "Pavilion Damansara Heights"@en ;
+    wdt:P1619 "TBA"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "TBA"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/Solaris_Parq> rdfs:label "Solaris Parq"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "Opening soon"^^xsd:string ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/Wangsa_Walk_Mall> rdfs:label "Wangsa Walk Mall"@en ;
+    wdt:P1619 "TBA"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q11315 ;
+    wdt:P571 "TBA"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+

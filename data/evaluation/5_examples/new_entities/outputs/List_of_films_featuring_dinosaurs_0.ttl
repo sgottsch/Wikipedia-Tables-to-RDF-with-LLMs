@@ -1,0 +1,204 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/100_Million_BC> wdt:P1476 "100 Million BC"@en ;
+    wdt:P2047 88.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P437 wd:Q844580 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Along_the_Moonbeam_Trail> wdt:P1476 "Along the Moonbeam Trail"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1920-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Beneath_Loch_Ness> wdt:P1476 "Beneath Loch Ness"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2002-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Claw> wdt:P1476 "Claw"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Cowboys_vs_Dinosaurs> wdt:P1476 "Cowboys vs Dinosaurs"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dino_Mecard_The_Island_Of_Tinysaurs> rdfs:label "Dino Mecard: The Island Of Tinysaurs"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q884 ;
+    wdt:P577 "2019-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaur_Hotel> rdfs:label "Dinosaur Hotel"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaur_Hotel_2> rdfs:label "Dinosaur Hotel 2"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaur_Prison> rdfs:label "Dinosaur Prison"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2023-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaur_World> rdfs:label "Dinosaur World"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q148 ;
+    wdt:P577 "2020-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ebola_Rex> rdfs:label "Ebola Rex"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Extinction_Jurassic_Predators> rdfs:label "Extinction: Jurassic Predators"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Hatched> rdfs:label "Hatched"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Herr_Vinners_stenaldersdrom> rdfs:label "Herr Vinners stenåldersdröm"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q34 ;
+    wdt:P577 "1924-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Attack> rdfs:label "Jurassic Attack"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Domination> rdfs:label "Jurassic Domination"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Expedition> rdfs:label "Jurassic Expedition"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Galaxy> rdfs:label "Jurassic Galaxy"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Hunt> rdfs:label "Jurassic Hunt"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Island> rdfs:label "Jurassic Island"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Prey> rdfs:label "Jurassic Prey"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Thunder> rdfs:label "Jurassic Thunder"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2019-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jurassic_Valley> rdfs:label "Jurassic Valley"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/KillerSaurus> rdfs:label "KillerSaurus"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Kingdom_of_the_Dinosaurs> rdfs:label "Kingdom of the Dinosaurs"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://moviesreview101.com/kingdom-of-the-dinosaurs-2022-movie-review/?amp=1> .
+
+<https://example.org/resource/Lost_in_Dinosaur_World> rdfs:label "Lost in Dinosaur World"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1993-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Monsters_of_the_Past:_The_Story_of_the_Great_Dinosaurs> rdfs:label "Monsters of the Past: The Story of the Great Dinosaurs"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1922-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Revenge_of_the_Lost> rdfs:label "Revenge of the Lost"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2017-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Rise_of_the_Dinosaurs> rdfs:label "Rise of the Dinosaurs"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2013-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Rise_of_the_Jurassic> rdfs:label "Rise of the Jurassic"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q148 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Snake_3:_Dinosaur_vs._Python> rdfs:label "Snake 3: Dinosaur vs. Python"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q148 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Adventures_of_Jurassic_Pet_The_Lost_Secret> wdt:P1476 "The Adventures of Jurassic Pet: The Lost Secret"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2019-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Final_Level_Escaping_Rancala> rdfs:label "The Final Level: Escaping Rancala (Jurassic Island)"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2019-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Jurassic_Dead> rdfs:label "The Jurassic Dead"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2017-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Jurassic_Games> rdfs:label "The Jurassic Games"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P437 wd:Q844580 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Loch_Ness_Horror> rdfs:label "The Loch Ness Horror"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Timescape_Back_to_the_Dinosaurs> rdfs:label "Timescape: Back to the Dinosaurs"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q16 ;
+    wdt:P577 "2023-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Triassic_Hunt> rdfs:label "Triassic Hunt"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Triassic_World> rdfs:label "Triassic World"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+

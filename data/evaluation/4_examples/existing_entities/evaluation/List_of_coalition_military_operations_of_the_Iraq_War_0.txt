@@ -1,0 +1,118 @@
+In both
+<https://example.org/resource/Operation_Red_Dawn> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q1029552> .
+<https://example.org/resource/Operation_Ivy_Blizzard> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Operation_Panther_Squeeze> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q2618795> .
+<https://example.org/resource/Operation_Red_Dawn> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Operation_Panther_Squeeze> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Panther Squeeze"@en .
+<https://example.org/resource/Operation_Red_Dawn> <http://www.wikidata.org/prop/direct/P585> "2003-12-13T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Panther_Squeeze> <http://www.wikidata.org/prop/direct/P585> "2003-12-10T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Desert_Scorpion> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Desert Scorpion"@en .
+<https://example.org/resource/Operation_Iron_Justice> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Operation_Bayonet_Lightning> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Operation_Iron_Justice> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Iron Justice"@en .
+<https://example.org/resource/Operation_Red_Dawn> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Red Dawn"@en .
+<https://example.org/resource/Operation_Peninsula_Strike> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q1029645> .
+<https://example.org/resource/Operation_Peninsula_Strike> <http://www.wikidata.org/prop/direct/P582> "2003-06-13T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Bulldog_Mammoth> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Bulldog Mammoth"@en .
+<https://example.org/resource/Operation_Bulldog_Mammoth> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Operation_Peninsula_Strike> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Peninsula Strike"@en .
+<https://example.org/resource/Operation_Bayonet_Lightning> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Bayonet Lightning"@en .
+<https://example.org/resource/Operation_Panther_Squeeze> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Operation_Peninsula_Strike> <http://www.wikidata.org/prop/direct/P580> "2003-06-09T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Ivy_Blizzard> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Ivy Blizzard"@en .
+<https://example.org/resource/Operation_Ivy_Blizzard> <http://www.wikidata.org/prop/direct/P585> "2003-12-17T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Peninsula_Strike> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+In ground only
+<https://example.org/resource/Battle_of_Baghdad> <http://www.wikidata.org/prop/direct/P585> "2003-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Red_Dawn> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q545449> .
+<https://example.org/resource/Operation_Red_Dawn> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/SaddamSpiderHole.jpg> .
+<https://example.org/resource/Operation_Bayonet_Lightning> <http://www.wikidata.org/prop/direct/P585> "2003-12-02T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Hammer_(Matraqa_Hadidia)> <http://www.wikidata.org/prop/direct/P580> "2003-11-12T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Red_Dawn> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q506400> .
+<https://example.org/resource/Operation_Iron_Hammer_(Matraqa_Hadidia)> <http://www.wikidata.org/prop/direct/P585> "2003-12-25T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Hammer_(Matraqa_Hadidia)> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Iron Hammer"@en .
+<https://example.org/resource/Operation_Bulldog_Mammoth> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q545449> .
+<https://example.org/resource/Battle_of_Baghdad> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Operation_Planet_X> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Planet X"@en .
+<https://example.org/resource/Operation_Airborne_Dragon> <http://www.wikidata.org/prop/direct/P582> "2003-04-10T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Battle_of_Debecka_Pass> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q107802> .
+<https://example.org/resource/Battle_of_Debecka_Pass> <http://www.w3.org/2000/01/rdf-schema#label> "Battle of Debecka Pass"@en .
+<https://example.org/resource/Operation_Bulldog_Mammoth> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q335021> .
+<https://example.org/resource/Battle_of_Debecka_Pass> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Operation_Airborne_Dragon> <http://www.wikidata.org/prop/direct/P585> "2003-04-10T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Hammer_(Matraqa_Hadidia)> <http://www.wikidata.org/prop/direct/P582> "2003-12-25T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Desert_Thrust> <http://www.w3.org/2000/01/rdf-schema#label> "list of coalition military operations of the Iraq War"@en .
+<https://example.org/resource/Operation_Panther_Squeeze> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q545449> .
+<https://example.org/resource/Operation_Desert_Scorpion> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4167410> .
+<https://example.org/resource/Operation_Airborne_Dragon> <http://www.wikidata.org/prop/direct/P580> "2003-04-07T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Desert_Thrust> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Battle_of_Baghdad> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q796> .
+<https://example.org/resource/Operation_Red_Dawn> <http://www.wikidata.org/prop/direct/P1120> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Operation_Airborne_Dragon> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Operation_Bulldog_Mammoth> <http://www.wikidata.org/prop/direct/P585> "2003-12-04T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Planet_X> <http://www.wikidata.org/prop/direct/P585> "2003-05-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Bayonet_Lightning> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Operation%20Bayonet%20Lightning%20%281%29.jpg> .
+<https://example.org/resource/Battle_of_Baghdad> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/SaddamStatue.jpg> .
+<https://example.org/resource/Operation_Iron_Hammer_(Matraqa_Hadidia)> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Operation_Iron_Hammer_(Matraqa_Hadidia)> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20soldiers%20from%20Scout%20Platoon%2C%20HHC%2C%201st%20Battalion%2C%2036th%20Infantry%20Regiment%2C%201st%20Armored%20Division%20during%20Operation%20Iron%20Hammer%20in%202003.jpg> .
+<https://example.org/resource/Battle_of_Baghdad> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q178561> .
+<https://example.org/resource/Battle_of_Debecka_Pass> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q178561> .
+<https://example.org/resource/Battle_of_Baghdad> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q796> .
+<https://example.org/resource/Operation_Airborne_Dragon> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Airborne Dragon"@en .
+<https://example.org/resource/Battle_of_Baghdad> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q545449> .
+<https://example.org/resource/Battle_of_Debecka_Pass> <http://www.wikidata.org/prop/direct/P582> "2003-04-07T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Bayonet_Lightning> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q545449> .
+<https://example.org/resource/Battle_of_Baghdad> <http://www.w3.org/2000/01/rdf-schema#label> "Battle of Baghdad"@en .
+<https://example.org/resource/Operation_Airborne_Dragon> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q796> .
+<https://example.org/resource/Battle_of_Debecka_Pass> <http://www.wikidata.org/prop/direct/P580> "2003-04-06T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Airborne_Dragon> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q545449> .
+<https://example.org/resource/Operation_Peninsula_Strike> <http://www.wikidata.org/prop/direct/P585> "2003-06-09T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Justice> <http://www.wikidata.org/prop/direct/P585> "2003-12-07T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Battle_of_Baghdad> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q1530> .
+<https://example.org/resource/Battle_of_Baghdad> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Marines%20in%20Saddams%20palace%20DM-SD-04-12222.jpg> .
+<https://example.org/resource/Operation_Planet_X> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Battle_of_Baghdad> <http://www.wikidata.org/prop/direct/P582> "2003-04-12T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Red_Dawn> <http://www.wikidata.org/prop/direct/P585> "2003-12-12T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Battle_of_Baghdad> <http://www.wikidata.org/prop/direct/P580> "2003-04-03T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Hammer_(Matraqa_Hadidia)> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q1530> .
+<https://example.org/resource/Battle_of_Debecka_Pass> <http://www.wikidata.org/prop/direct/P585> "2003-04-07T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Desert_Thrust> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+In predicted only
+<https://example.org/resource/Operation_Bayonet_Lightning> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q36986475> .
+<https://example.org/resource/Operation_Bayonet_Lightning> <http://www.wikidata.org/prop/direct/P582> "2003-12-02T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Justice> <http://www.wikidata.org/prop/direct/P580> "2003-12-18T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Hammer> <http://www.wikidata.org/prop/direct/P580> "2003-11-12T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Red_Dawn> <http://www.wikidata.org/prop/direct/P582> "2003-12-13T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Hammer> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q11223> .
+<https://example.org/resource/Operation_Panther_Squeeze> <http://www.wikidata.org/prop/direct/P580> "2003-12-10T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Justice> <http://www.wikidata.org/prop/direct/P582> "2003-12-18T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Ivy_Blizzard> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q170047> .
+<https://example.org/resource/Operation_Iron_Justice> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q1530> .
+<https://example.org/resource/Operation_Ivy_Blizzard> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q113687269> .
+<https://example.org/resource/Operation_Desert_Scorpion> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q173310> .
+<https://example.org/resource/Operation_Iron_Justice> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q113687269> .
+<https://example.org/resource/Operation_Desert_Thrust> <http://www.wikidata.org/prop/direct/P580> "2003-10-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Justice> <http://www.wikidata.org/prop/direct/P585> "2003-12-18T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Desert_Thrust> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q796> .
+<https://example.org/resource/Operation_Desert_Scorpion> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q191170> .
+<https://example.org/resource/Operation_Desert_Thrust> <http://www.wikidata.org/prop/direct/P582> "2003-10-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Desert_Scorpion> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Operation_Bulldog_Mammoth> <http://www.wikidata.org/prop/direct/P582> "2003-12-04T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Hammer> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q9212> .
+<https://example.org/resource/Operation_Red_Dawn> <http://www.wikidata.org/prop/direct/P580> "2003-12-13T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Desert_Scorpion> <http://www.wikidata.org/prop/direct/P582> "2003-06-29T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Ivy_Blizzard> <http://www.wikidata.org/prop/direct/P580> "2003-12-17T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Ivy_Blizzard> <http://www.wikidata.org/prop/direct/P582> "2003-12-17T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Desert_Thrust> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Desert Thrust"@en .
+<https://example.org/resource/Operation_Panther_Squeeze> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q113687269> .
+<https://example.org/resource/Operation_Iron_Hammer> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q1530> .
+<https://example.org/resource/Operation_Iron_Hammer> <http://www.w3.org/2000/01/rdf-schema#label> "Operation Iron Hammer (Matraqa Hadidia)"@en .
+<https://example.org/resource/Operation_Bulldog_Mammoth> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q1530> .
+<https://example.org/resource/Operation_Desert_Scorpion> <http://www.wikidata.org/prop/direct/P580> "2003-06-15T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Bayonet_Lightning> <http://www.wikidata.org/prop/direct/P580> "2003-12-02T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Bulldog_Mammoth> <http://www.wikidata.org/prop/direct/P580> "2003-12-04T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Operation_Iron_Hammer> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Operation_Desert_Thrust> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q645883> .
+<https://example.org/resource/Operation_Red_Dawn> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q113687269> .
+<https://example.org/resource/Operation_Iron_Hammer> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q6067981> .
+<https://example.org/resource/Operation_Panther_Squeeze> <http://www.wikidata.org/prop/direct/P582> "2003-12-10T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .

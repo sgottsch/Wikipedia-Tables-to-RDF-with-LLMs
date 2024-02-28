@@ -1,0 +1,102 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of books banned by governments" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Title
+! width=100pt|Author(s)
+! Year published
+! Type
+! Notes
+|-
+| ''[[Christianity not Mysterious]]''
+| [[John Toland]]
+| 1696
+| Non-fiction
+| Banned by the [[Parliament of Ireland|Irish Parliament]] for contradicting the teaching of the [[Church of England|Anglican Church]]. Copies of the book were burnt by the public hangman in Dublin.<ref>Gilbert, J.T., ''History of the City of Dublin'' (1854). Volume III, p. 66.</ref>
+|-
+| ''[[Les Cent Contes drolatiques|Droll Stories]]''
+| [[Honoré de Balzac]]
+| 1837
+| Short stories
+| Banned for [[obscenity]] in 1953. The ban was lifted in 1967.<ref name="sovasexual"/> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Christianity_not_Mysterious> wdt:P136 <https://en.wikipedia.org/wiki/Theology> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/John_Toland> ;
+ wdt:P1476 "Christianity not Mysterious"@en ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ rdfs:label "Christianity not Mysterious"@en ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Christianity> ;
+ wdt:P31 wd:Q7725634 .
+
+<https://example.org/resource/Droll_Stories> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/BalzacContesDrolatiques01.jpg> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P577 "1832-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P747 wd:Q19209663 ;
+ wdt:P31 wd:Q27560760 ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/French_language> ;
+ wdt:P953 <https://www.projekt-gutenberg.org/balzac/tolldrei/tolldrei.html> ;
+ wdt:P136 wd:Q17991521 ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Honor%C3%A9_de_Balzac> ;
+ rdfs:label "Les Cent Contes drolatiques"@en .
+---
+These are the labels of the properties:
+
+wdt:P136 -> genre
+wdt:P50 -> author
+wdt:P1476 -> title
+wdt:P407 -> language of work or name
+wdt:P921 -> main subject
+wdt:P31 -> instance of
+wdt:P18 -> image
+wdt:P495 -> country of origin
+wdt:P577 -> publication date
+wdt:P747 -> has edition or translation
+wdt:P6216 -> copyright status
+wdt:P953 -> full work available at URL.
+---
+These are the labels of the objects:
+
+wd:Q7725634 -> literary work
+wd:Q19209663 -> Q19209663
+wd:Q27560760 -> collection of fairy tales
+wd:Q17991521 -> tale.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Title
+! width=100pt|Author(s)
+! Year published
+! Type
+! Notes
+|-
+| ''[[Girl with Green Eyes|The Lonely Girl]]'' (1962)
+| [[Edna O'Brien]]
+| 1962
+| Novel
+| Banned in Ireland in 1962 after Archbishop [[John Charles McQuaid]] complained personally to Justice Minister [[Charles Haughey]] that it "was particularly bad".<ref name=dwyerexaminer/>
+|-
+| ''[[The Dark (McGahern novel)|The Dark]]''
+| [[John McGahern]]
+| 1965
+| Novel
+| Banned in Ireland for obscenity.<ref>{{cite news | last = Wroe | first = Nicholas | title = Ireland's rural elegist | work = The Guardian | date = January 5, 2002 | url = https://www.theguardian.com/books/2002/jan/05/fiction.books | access-date = 2012-07-01 | location=London}}</ref>
+|-
+| ''[[My Secret Garden]]''
+| [[Nancy Friday]]
+| 1973
+| Non-fiction
+| Banned in Ireland for its sexual content.<ref>"Banned Publications", ''The Irish Times'', Friday 19 November 1976 (pg. 4)</ref> |}
+---

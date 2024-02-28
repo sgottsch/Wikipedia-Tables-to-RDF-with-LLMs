@@ -1,0 +1,369 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of fictional settlements" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+! Name !! Debut !! Creator(s) !! Publisher !! class=unsortable|Notes
+|-
+|[[Blüdhaven]]
+|''[[Nightwing]]'' Vol 1 #1
+|[[Chuck Dixon]], [[Scott McDaniel]]
+|[[DC Comics]]
+|A fictional American city located in [[New Jersey]]. A former whaling town, which was officially incorporated as a "Commonwealth" in 1912. The town had a generally poor socio-economic populace, owing in part to failed efforts to transform itself into a manufacturing and shipping center. In modern times, it became more dangerous than Gotham, ruled by gangs and a corrupt police department. [[Nightwing]] is the most common heroic presence. 
+|-
+|[[Coast City]]
+|''[[Showcase (comics)|Showcase]]'' #22 (October 1959)
+|[[John Broome (writer)|John Broome]]
+|[[DC Comics]]
+|
+|-
+|[[District X]]
+|''New X-Men'' #127
+|[[Grant Morrison]], [[John Paul Leon]]
+|[[Marvel Comics]]
+|A ghetto like neighbourhood of [[New York City]], where most of the inhabitants are [[Mutant (Marvel Comics)|Mutants]], with the rise of [[Manhattan]]'s mutant population coupled with racism among normal humans, led to mutants forming their own community in a ghetto established in or around Alphabet City, Manhattan; Middle East Side, Mutant Town are its other names. A series of explosions incinerated much of the neighborhood, with Arcade's force fields preventing fire fighters from entering the area until the entire district had been utterly annihilated. Now [[District X]] has been destroyed completely.
+|-
+|[[Duckburg]]
+|''Walt Disney's Comics and Stories'' #49 (1944)
+|[[Carl Barks]]
+|[[Disney]]
+|Fictional city that appears in various Disney comic books and animated projects, located in the fictional state of Calisota. It is the home of [[Donald Duck]], [[Scrooge McDuck]], [[Huey, Dewey and Louie Duck]], [[Daisy Duck]], and most of their supporting cast. Various writers have given it a long and complex history; it was originally known as "Fort Drake Borough", a fort built in the 16th century by British explorer Sir [[Francis Drake]]. By the 19th century, the fort had been handed over by its departing British occupants to [[Cornelius Coot]], who renamed the fort "Duckburg".
+|-
+|[[Keystone City]]
+|[[Flash Comics|''Flash Comics'']] #1 (January 1940)
+|[[Gardner Fox]], [[Harry Lampert]]
+|[[DC Comics]]
+|
+|-
+|[[Metropolis (comics)|Metropolis]] || ''[[Action Comics]]'' #16 (Sept 1939) || || [[DC Comics]] || A fictional American city that is the home of [[Superman]], and along with [[Smallville (comics)|Smallville]], one of the principal settings for all Superman comics, films, and other adaptations.
+|-
+|[[Riverdale (Archie Comics)|Riverdale]]
+|''[[Pep Comics]]'' #22 (Dec 1941)
+|Maurice Coyne, [[Louis Silberkleit]], [[John L. Goldwater]]
+|Archie Comic Publications, Inc.
+|Riverdale is a fictional city that appears in the Archie Comics. Its exact location is unknown but it is presented to be a suburban town with parks, shopping malls, and restaurants. Publisher [[John L. Goldwater]] has said that the town is based on his own hometown of Hiawatha, Kansas, while ''Archie'' artist Bob Montana has said that it is based on his hometown of Haverhill, Massachusetts. |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Blüdhaven> wdt:P360 <https://en.wikipedia.org/wiki/Fictional_location> ;
+ wdt:P31 wd:Q18572946 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/JLA_(comic_book)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ rdfs:label "Justice League Watchtower"@en ;
+ wdt:P1441 wd:Q10318224 ;
+ wdt:P466 <https://en.wikipedia.org/wiki/Justice_League> ;
+ wdt:P1080 <https://en.wikipedia.org/wiki/DC_Universe> .
+
+<https://example.org/resource/Coast_City> wdt:P360 <https://en.wikipedia.org/wiki/Fictional_location> ;
+ wdt:P31 wd:Q18572946 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/JLA_(comic_book)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ rdfs:label "Justice League Watchtower"@en ;
+ wdt:P1441 wd:Q10318224 ;
+ wdt:P466 <https://en.wikipedia.org/wiki/Justice_League> ;
+ wdt:P1080 <https://en.wikipedia.org/wiki/DC_Universe> .
+
+<https://example.org/resource/District_X> wdt:P1080 <https://en.wikipedia.org/wiki/Marvel_Universe> ;
+ rdfs:label "District X"@en ;
+ wdt:P50 <https://en.wikipedia.org/wiki/David_Hine> ;
+ wdt:P31 wd:Q65922689 .
+
+<https://example.org/resource/Duckburg> wdt:P1445 wd:Q3621547 ;
+ wdt:P1445 wd:Q3796253 ;
+ wdt:P1445 wd:Q3894785 ;
+ wdt:P1445 wd:Q3894760 ;
+ wdt:P1445 wd:Q4024551 ;
+ wdt:P1445 wd:Q4024532 ;
+ wdt:P1445 wd:Q10578751 ;
+ wdt:P1445 wd:Q19521383 ;
+ wdt:P1445 wd:Q56322521 ;
+ wdt:P1445 wd:Q86666887 ;
+ wdt:P1445 wd:Q52826778 ;
+ wdt:P1445 wd:Q95056 ;
+ wdt:P1445 wd:Q1319839 ;
+ wdt:P1445 wd:Q3621553 ;
+ wdt:P1445 wd:Q3623809 ;
+ wdt:P1445 wd:Q3791103 ;
+ wdt:P1445 wd:Q3791174 ;
+ wdt:P1445 wd:Q3792668 ;
+ wdt:P1445 wd:Q3894726 ;
+ wdt:P1445 wd:Q3894732 ;
+ wdt:P1445 wd:Q3894748 ;
+ wdt:P1445 wd:Q3894766 ;
+ wdt:P1445 wd:Q3894775 ;
+ wdt:P1445 wd:Q3894802 ;
+ wdt:P1445 wd:Q3894811 ;
+ wdt:P1445 wd:Q3894808 ;
+ wdt:P1445 wd:Q3948138 ;
+ wdt:P1445 wd:Q4009205 ;
+ wdt:P1445 wd:Q4024514 ;
+ wdt:P1445 wd:Q4024526 ;
+ wdt:P1445 wd:Q4024542 ;
+ wdt:P1445 wd:Q4024546 ;
+ wdt:P1445 wd:Q3894776 ;
+ wdt:P1445 wd:Q3894784 ;
+ wdt:P1445 wd:Q3894794 ;
+ wdt:P1445 wd:Q4024520 ;
+ wdt:P1445 wd:Q10542699 ;
+ wdt:P1445 wd:Q9164171 ;
+ wdt:P1445 wd:Q10494044 ;
+ wdt:P1445 wd:Q10531926 ;
+ wdt:P1445 wd:Q10605150 ;
+ wdt:P1445 wd:Q1319339 ;
+ wdt:P1445 wd:Q3894763 ;
+ wdt:P361 wd:Q3551225 ;
+ wdt:P1445 wd:Q3894758 ;
+ wdt:P1445 wd:Q3894786 ;
+ wdt:P1445 wd:Q4024519 ;
+ wdt:P1445 wd:Q4024508 ;
+ wdt:P1445 wd:Q4024528 ;
+ wdt:P1445 wd:Q4024537 ;
+ wdt:P1445 wd:Q17638302 ;
+ wdt:P1445 wd:Q20008387 ;
+ wdt:P1445 wd:Q20010005 ;
+ wdt:P1445 wd:Q21206914 ;
+ wdt:P1445 wd:Q21207518 ;
+ wdt:P1445 wd:Q21207521 ;
+ wdt:P1445 wd:Q25410595 ;
+ wdt:P1445 wd:Q3314944 ;
+ wdt:P1445 wd:Q3794341 ;
+ wdt:P1445 wd:Q28670313 ;
+ wdt:P1445 wd:Q28670366 ;
+ wdt:P1445 wd:Q4024531 ;
+ wdt:P1445 wd:Q4024522 ;
+ wdt:P1445 wd:Q30888592 ;
+ wdt:P1445 wd:Q17638304 ;
+ wdt:P1445 wd:Q29053258 ;
+ wdt:P1445 wd:Q18450569 ;
+ wdt:P1445 wd:Q4024533 ;
+ wdt:P1445 wd:Q4024543 ;
+ rdfs:label "Donald Duck universe"@en ;
+ wdt:P1445 wd:Q29053248 ;
+ wdt:P1445 wd:Q46870367 ;
+ wdt:P1445 wd:Q1460848 ;
+ wdt:P1445 wd:Q12341005 ;
+ wdt:P1445 wd:Q3400158 ;
+ wdt:P1445 wd:Q3894790 ;
+ wdt:P1445 wd:Q3894789 ;
+ wdt:P1445 wd:Q3894820 ;
+ wdt:P910 wd:Q9754528 ;
+ wdt:P1445 wd:Q47498775 ;
+ wdt:P1445 wd:Q1319526 ;
+ wdt:P1445 wd:Q2923873 ;
+ wdt:P1445 wd:Q3894771 ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Donald_Duck_Finds_Pirate_Gold> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Duck_Who_Never_Was> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Only_a_Poor_Old_Man> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Last_Lord_of_Eldorado> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/W.H.A.D.A.L.O.T.T.A.J.A.R.G.O.N.> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/His_Majesty,_McDuck> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Billionaire_of_Dismal_Downs> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Invader_of_Fort_Duckburg> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Sharpie_of_the_Culebra_Cut> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Raider_of_the_Copper_Hill> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Treasury_of_Croesus> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Prisoner_of_White_Agony_Creek> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Oolated_Luck> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Beagle_Boys_vs._the_Money_Bin> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Last_of_the_Clan_McDuck> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Dream_of_a_Lifetime> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Treasure_of_the_Ten_Avatars> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Attack_of_the_Hideous_Space-Varmints> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Golden_River_(comics)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Shared_universe> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Donald_Duck_and_the_Mummy%27s_Ring> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Mythological_Menagerie> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Truant_Officer_Donald_(comics)> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Race_to_the_South_Seas!> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Toyland_(comics)> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_King_of_the_Klondike> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Of_Ducks,_Dimes_and_Destinies> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/A_Little_Something_Special> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Golden_Christmas_Tree> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Lost_Charts_of_Columbus> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Richest_Duck_in_the_World> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Buckaroo_of_the_Badlands> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Gilded_Man_(comics)> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Golden_Helmet> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Cowboy_Captain_of_the_Cutty_Sark> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Donald_Duck:_The_Complete_Daily_Newspaper_Comics> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Gyro%27s_First_Invention> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Back_to_the_Klondike> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Magnificent_Seven_(Minus_4)_Caballeros> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Ghost_of_the_Grotto> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Forget_It!> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Terror_of_the_Transvaal> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Searching_for_a_Successor> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/On_a_Silver_Platter> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_New_Laird_of_Castle_McDuck> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Recalled_Wreck> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Life_and_Times_of_Scrooge_McDuck> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Treasure_under_Glass> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Wintertime_Wager> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Master_Landscapist> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/North_of_the_Yukon_(Disney_comics)> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Sheriff_of_Bullet_Valley> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Once_and_Future_Duck> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Nobody%27s_Business_(comic)> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Victory_Garden_(comics)> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Return_to_Plain_Awful> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/The_Old_Castle%27s_Secret> ;
+ wdt:P1445 <https://en.wikipedia.org/wiki/Donald_Duck:_The_Complete_Sunday_Comics> .
+
+<https://example.org/resource/Keystone_City> wdt:P360 <https://en.wikipedia.org/wiki/Fictional_location> ;
+ wdt:P31 wd:Q18572946 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/JLA_(comic_book)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ rdfs:label "Justice League Watchtower"@en ;
+ wdt:P1441 wd:Q10318224 ;
+ wdt:P466 <https://en.wikipedia.org/wiki/Justice_League> ;
+ wdt:P1080 <https://en.wikipedia.org/wiki/DC_Universe> .
+
+<https://example.org/resource/Metropolis> wdt:P910 <https://en.wikipedia.org/wiki/Category:Metropolis_(comics)> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Metropolis_(1927_film)> ;
+ rdfs:label "Metropolis"@en ;
+ wdt:P941 <https://en.wikipedia.org/wiki/Toronto> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Action_Comics> ;
+ wdt:P941 <https://en.wikipedia.org/wiki/New_York_City> ;
+ wdt:P31 wd:Q1964689 ;
+ wdt:P1080 <https://en.wikipedia.org/wiki/DC_Universe> .
+
+<https://example.org/resource/Riverdale> wdt:P131 <https://en.wikipedia.org/wiki/New_York_(state)> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ rdfs:label "Riverdale"@en ;
+ wdt:P31 wd:Q1964689 .
+---
+These are the labels of the properties:
+
+wdt:P360 -> is a list of
+wdt:P31 -> instance of
+wdt:P1441 -> present in work
+wdt:P466 -> occupant
+wdt:P1080 -> from narrative universe
+wdt:P50 -> author
+wdt:P1445 -> fictional universe described in
+wdt:P361 -> part of
+wdt:P910 -> topic's main category
+wdt:P17 -> country
+wdt:P138 -> named after
+wdt:P941 -> inspired by
+wdt:P131 -> located in the administrative territorial entity.
+---
+These are the labels of the objects:
+
+wd:Q18572946 -> fictional space station
+wd:Q10318224 -> Justice League of America
+wd:Q65922689 -> fictional district
+wd:Q3621547 -> The Pied Piper of Duckburg
+wd:Q3796253 -> The Vigilante of Pizen Bluff
+wd:Q3894785 -> Frozen Gold
+wd:Q3894760 -> The Icebox Robber
+wd:Q4024551 -> His Fortune on the Rocks
+wd:Q4024532 -> The Horseradish Story
+wd:Q10578751 -> Crown of the Mayas
+wd:Q19521383 -> Hound of the Whiskervilles
+wd:Q56322521 -> The Duck Who Fell to Earth
+wd:Q86666887 -> Return to Xanadu
+wd:Q52826778 -> Writer Unknown
+wd:Q95056 -> Q95056
+wd:Q1319839 -> The Terror of the River
+wd:Q3621553 -> Q3621553
+wd:Q3623809 -> Q3623809
+wd:Q3791103 -> Q3791103
+wd:Q3791174 -> Q3791174
+wd:Q3792668 -> Q3792668
+wd:Q3894726 -> Q3894726
+wd:Q3894732 -> Q3894732
+wd:Q3894748 -> Q3894748
+wd:Q3894766 -> Q3894766
+wd:Q3894775 -> Q3894775
+wd:Q3894802 -> Q3894802
+wd:Q3894811 -> Q3894811
+wd:Q3894808 -> Q3894808
+wd:Q3948138 -> Q3948138
+wd:Q4009205 -> Q4009205
+wd:Q4024514 -> Q4024514
+wd:Q4024526 -> Q4024526
+wd:Q4024542 -> Q4024542
+wd:Q4024546 -> Q4024546
+wd:Q3894776 -> Sagmore Springs Hotel
+wd:Q3894784 -> The Mysterious Stone Ray
+wd:Q3894794 -> The Beachcombers' Picnic
+wd:Q4024520 -> The Lemming with the Locket
+wd:Q10542699 -> Q10542699
+wd:Q9164171 -> The Swamp of No Return
+wd:Q10494044 -> Cave of Ali Baba
+wd:Q10531926 -> Trick or Treat
+wd:Q10605150 -> On Stolen Time
+wd:Q1319339 -> The Firebug
+wd:Q3894763 -> The Wax Museum
+wd:Q3551225 -> Disney universe
+wd:Q3894758 -> Farragut the Falcon
+wd:Q3894786 -> Say Uncle!
+wd:Q4024519 -> Gift Lion
+wd:Q4024508 -> The Coin
+wd:Q4024528 -> Uncle Scrooge and the Last Balabù
+wd:Q4024537 -> The Midas Touch
+wd:Q17638302 -> Q17638302
+wd:Q20008387 -> Q20008387
+wd:Q20010005 -> Q20010005
+wd:Q21206914 -> Q21206914
+wd:Q21207518 -> Q21207518
+wd:Q21207521 -> Q21207521
+wd:Q25410595 -> Q25410595
+wd:Q3314944 -> The Money Pit
+wd:Q3794341 -> Il grande splash
+wd:Q28670313 -> Q28670313
+wd:Q28670366 -> Q28670366
+wd:Q4024531 -> Island at the Edge of Time
+wd:Q4024522 -> Secret of the Incas
+wd:Q30888592 -> Q30888592
+wd:Q17638304 -> Donald Tames His Temper
+wd:Q29053258 -> Donald Duck and urban climbers
+wd:Q18450569 -> Rug Riders in the Sky
+wd:Q4024533 -> The Unsafe Safe
+wd:Q4024543 -> War of the Wendigo
+wd:Q29053248 -> Moldfinger or The Spy Who Ducked-Out On Me
+wd:Q46870367 -> Q46870367
+wd:Q1460848 -> Volcano Valley
+wd:Q12341005 -> Wild Otto
+wd:Q3400158 -> Trash or Treasure
+wd:Q3894790 -> Rip Van Donald
+wd:Q3894789 -> The Man from Oola-Oola
+wd:Q3894820 -> Watching the Watchman
+wd:Q9754528 -> Category:Donald Duck universe
+wd:Q47498775 -> Fit to Be Pied
+wd:Q1319526 -> The Magic Hourglass
+wd:Q2923873 -> The Purloined Toys
+wd:Q3894771 -> A Duck's-eye View of Europe
+wd:Q1964689 -> fictional city.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+! Name !! Debut !! Creator(s) !! Publisher !! class=unsortable|Notes
+|-
+|[[Star City (comics)|Star City]]
+|Green Arrow
+|[[George Papp]], [[Mort Weisinger]]
+|[[DC comics]]
+|Home of the fictional vigilantes [[Green Arrow]], [[Black Canary]], Spartan, and Overwatch. They fight crime in this city. 
+|-
+|[[Kamar-Taj]]
+|''[[Strange Tales]]'' #110 (July 1963) 
+|[[Stan Lee]], [[Steve Ditko]]
+|[[Marvel Comics]]
+|A village hidden high in the [[Himalayan mountains|Himalayas]], where [[Doctor Strange]] learns magic from the [[Ancient One]].
+|-
+|[[Fawcett City]]
+|Whiz Comics #2 (February 1940)
+|
+|[[Fawcett Comics]], [[DC Comics]]
+| |}
+---

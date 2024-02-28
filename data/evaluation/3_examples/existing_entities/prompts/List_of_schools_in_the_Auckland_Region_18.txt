@@ -1,0 +1,90 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of schools in the Auckland Region" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name ||  MOE || Years || Area || Authority || Opened || Roll ||  Website || Notes
+|-
+| [[Clendon Park School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1248 1248]|| 1–6 || [[Clendon Park]] || State || 1971 || {{NZ school roll data|1248|y}} ||  [http://www.clendonpark.school.nz]||
+|-
+| [[Finlayson Park School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1275 1275]|| 1–6 || [[Manurewa]] || State || || {{NZ school roll data|1275|y}} ||  [http://www.finlaysonpark.school.nz]||
+|-
+| [[Hillpark School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1312 1312]|| 1–6 || [[Hillpark, Auckland|Hillpark]] || State || 1967 || {{NZ school roll data|1312|y}} ||  [http://www.hillpark.school.nz]|| |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Clendon_Park_School> wdt:P7086 <https://en.wikipedia.org/wiki/Year_1_(education)> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/School> ;
+ rdfs:label "Clendon Park School"@en ;
+ wdt:P856 <http://www.clendonpark.school.nz> ;
+ wdt:P7419 wd:Q70853302 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/State_school> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Manurewa> ;
+ wdt:P7095 <https://en.wikipedia.org/wiki/Year_6> ;
+ wdt:P2196 "648"^^xsd:decimal ;
+ wdt:P2196 "652"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P6375 "145 Rowandale Avenue, Manurewa, Auckland"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Primary_school> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Auckland> .
+
+<https://example.org/resource/Finlayson_Park_School> wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ rdfs:label "Manurewa"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Homai> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Manukau> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Wattle_Downs> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Alfriston,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Hillpark,_Auckland> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Manurewa%20First%20World%20War%20memorial%20344.JPG> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Clendon_Park> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Takanini> .
+
+<https://example.org/resource/Hillpark_School> wdt:P47 <https://en.wikipedia.org/wiki/Manurewa> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/HillPark.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Homai> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Manukau> ;
+ rdfs:label "Hillpark"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/The_Gardens,_Auckland> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Takanini> .
+---
+These are the labels of the properties:
+
+wdt:P7086 -> start grade
+wdt:P17 -> country
+wdt:P31 -> instance of
+wdt:P856 -> official website URL
+wdt:P7419 -> gender educated
+wdt:P276 -> location
+wdt:P7095 -> end grade
+wdt:P2196 -> students count
+wdt:P131 -> located in the administrative territorial entity
+wdt:P6375 -> street address
+wdt:P47 -> shares border with
+wdt:P18 -> image.
+---
+These are the labels of the objects:
+
+wd:Q70853302 -> all genders.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name ||  MOE || Years || Area || Authority || Opened || Roll ||  Website || Notes
+|-
+| [[Te Kura Akonga o Manurewa|Te Kura Ākonga o Manurewa]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=1619 1619]|| 1–8 || [[Randwick Park]] || State integrated || || {{NZ school roll data|1619|y}} ||  -  ||
+|-
+| [[The Gardens School]] ||  [https://www.educationcounts.govt.nz/find-school/school/profile?school=6947 6947]|| 1–8 || [[The Gardens, Auckland|The Gardens]] || State || 2002 || {{NZ school roll data|6947|y}} ||  [http://www.thegardens.school.nz]|| |}
+---

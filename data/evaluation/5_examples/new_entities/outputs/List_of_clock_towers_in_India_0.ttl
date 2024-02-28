@@ -1,0 +1,114 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Aberdeen_Clock_Tower> rdfs:label "Aberdeen Clock Tower"@en ;
+    wdt:P131 wd:Q203476 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Annamalai_University_Clock_Tower> rdfs:label "Annamalai University Clock Tower"@en ;
+    wdt:P131 wd:Q155332 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/BITS-Pilani_Clock_Tower> rdfs:label "BITS-Pilani Clock Tower"@en ;
+    wdt:P131 wd:Q1936947 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Bahraich_Clock_Tower> rdfs:label "Bahraich Clock Tower"@en ;
+    wdt:P131 wd:Q638621 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Chaura_Bazaar_clock_tower> rdfs:label "Chaura Bazaar clock tower"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Chennai_Clock_Tower> rdfs:label "Chennai Clock Tower"@en ;
+    wdt:P131 wd:Q1352 ;
+    wdt:P1619 "1948-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Clock_Tower_at_Christ_Church> rdfs:label "Clock Tower at Christ Church"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Clock_tower_Faizabad> rdfs:label "Clock tower"@en ;
+    wdt:P131 wd:Q842411 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Clock_tower_Kalimpong> rdfs:label "Clock tower"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Clock_tower_Nagercoil> rdfs:label "Clock tower"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Ghantaghar> rdfs:label "Ghantaghar"@en ;
+    wdt:P131 wd:Q199528 ;
+    wdt:P1619 "1953-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Ghantaghar_Delhi> rdfs:label "Ghantaghar"@en ;
+    wdt:P131 wd:Q1353 ;
+    wdt:P1619 "1870-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Ghantaghar_Gorakhpur> rdfs:label "Ghantaghar Gorakhpur"@en ;
+    wdt:P131 wd:Q5584396 ;
+    wdt:P1619 "1930-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Hari_Nagar_Ghantaghar> rdfs:label "Hari Nagar Ghantaghar"@en ;
+    wdt:P131 wd:Q1353 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Lake_Town_Clock_Tower> rdfs:label "Lake Town Clock Tower"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Lytton_Memorial_Clock_Tower> rdfs:label "Lytton Memorial Clock Tower"@en ;
+    wdt:P131 wd:Q781615 ;
+    wdt:P1619 "1877-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Mirzapur_Clock_Tower> rdfs:label "Mirzapur Clock Tower"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/NIT_Trichy_Clock_Tower> rdfs:label "NIT Trichy Clock Tower"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Ram_Narain_Periwal_Clock_Tower> rdfs:label "Ram Narain Periwal Clock Tower"@en ;
+    wdt:P131 wd:Q1525269 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Saifai_Clock_Tower> rdfs:label "Saifai Clock Tower"@en ;
+    wdt:P131 wd:Q21811972 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/Sundarbai_Khandelwal_Tower> rdfs:label "Sundarbai Khandelwal Tower"@en ;
+    wdt:P131 wd:Q213014 ;
+    wdt:P1619 "1962-02-12T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+
+<https://example.org/resource/TNAU_Clock_Tower> rdfs:label "TNAU Clock Tower"@en ;
+    wdt:P131 wd:Q9885 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q853854 .
+

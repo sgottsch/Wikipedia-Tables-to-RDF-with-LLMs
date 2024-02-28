@@ -1,0 +1,51 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Abu_Mena_Basilica_and_Complex> rdfs:label "Abu Mena Basilica and Complex"@en ;
+    wdt:P131 wd:Q87 ;
+    wdt:P17 wd:Q79 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "0265-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Church_of_Alexandria> rdfs:label "Church of Alexandria"@en ;
+    wdt:P131 wd:Q87 ;
+    wdt:P17 wd:Q79 ;
+    wdt:P31 wd:Q16970 ;
+    wdt:P571 "0049-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Monastery_of_Saint_John_the_Short> rdfs:label "Monastery of Saint John the Short"@en ;
+    wdt:P131 wd:Q1074945 ;
+    wdt:P17 wd:Q79 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Hosios_Loukas_(nave,_vault_over_south-west_bay)_-_John_Kolobos.jpg> ;
+    wdt:P31 wd:Q44613 ;
+    wdt:P571 "0301-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Monastery_of_Saint_Macarius_the_Great> rdfs:label "Monastery of Saint Macarius the Great"@en ;
+    wdt:P17 wd:Q79 ;
+    wdt:P31 wd:Q44613 ;
+    wdt:P571 "0360-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Monastery_of_Saint_Mary_Deipara> rdfs:label "Monastery of Saint Mary Deipara"@en ;
+    wdt:P17 wd:Q79 ;
+    wdt:P31 wd:Q44613 ;
+    wdt:P571 "0301-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Monastery_of_Saint_Moses_the_Strong> rdfs:label "Monastery of Saint Moses the Strong"@en ;
+    wdt:P131 wd:Q1074945 ;
+    wdt:P17 wd:Q79 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/MTBcrop.jpg> ;
+    wdt:P31 wd:Q44613 ;
+    wdt:P571 "0301-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Monastery_of_Saint_Pishoy> rdfs:label "Monastery of Saint Pishoy"@en ;
+    wdt:P17 wd:Q79 ;
+    wdt:P31 wd:Q44613 ;
+    wdt:P571 "0301-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Paromeos_Monastery> rdfs:label "Monastery of Paromeos"@en ;
+    wdt:P17 wd:Q79 ;
+    wdt:P31 wd:Q44613 ;
+    wdt:P571 "0335-01-01T00:00:00+00:00"^^xsd:dateTime .
+

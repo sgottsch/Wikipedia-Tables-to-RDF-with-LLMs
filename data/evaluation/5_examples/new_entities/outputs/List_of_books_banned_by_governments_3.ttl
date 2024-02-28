@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/A_Sneaking_Suspicion> rdfs:label "A Sneaking Suspicion"@en ;
+    wdt:P136 wd:Q179461 ;
+    wdt:P1476 "A Sneaking Suspicion"@en ;
+    wdt:P495 wd:Q3224 ;
+    wdt:P50 wd:Q6229413 ;
+    wdt:P577 "1995-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P747 wd:Q63979202 .
+
+<https://example.org/resource/How_to_make_disposable_silencers> rdfs:label "How to make disposable silencers"@en ;
+    wdt:P1476 "How to make disposable silencers"@en ;
+    wdt:P495 wd:Q408 ;
+    wdt:P577 "1984-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P747 wd:Q63979202 .
+
+<https://example.org/resource/Rowena_Goes_Too_Far> rdfs:label "Rowena Goes Too Far"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P1476 "Rowena Goes Too Far"@en ;
+    wdt:P495 wd:Q408 ;
+    wdt:P50 wd:Q5628105 ;
+    wdt:P577 "1931-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P747 wd:Q63979202 .
+
+<https://example.org/resource/You_An_Introduction> rdfs:label "You: An Introduction"@en ;
+    wdt:P136 wd:Q179461 ;
+    wdt:P1476 "You: An Introduction"@en ;
+    wdt:P495 wd:Q3224 ;
+    wdt:P50 wd:Q25184073 ;
+    wdt:P577 "2008-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P747 wd:Q63979202 .
+

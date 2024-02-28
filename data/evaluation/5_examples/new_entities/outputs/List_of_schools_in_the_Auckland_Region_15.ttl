@@ -1,0 +1,180 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Anchorage_Park_School> rdfs:label "Anchorage Park School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q7126082> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q9842> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.anchoragepark.school.nz/> .
+
+<https://example.org/resource/Baverstock_Oaks_School> rdfs:label "Baverstock Oaks School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q5457728> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3914> ;
+    ns1:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.baverstock.school.nz> .
+
+<https://example.org/resource/Botany_Downs_School> rdfs:label "Botany Downs School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q894673> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q9842> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.botanydowns.school.nz> .
+
+<https://example.org/resource/Bucklands_Beach_Primary_School> rdfs:label "Bucklands Beach Primary School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q4983300> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q9842> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.bbps.school.nz> .
+
+<https://example.org/resource/Chapel_Downs_School> rdfs:label "Chapel Downs School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q5072995> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q9842> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 "-" .
+
+<https://example.org/resource/Elm_Park_School> rdfs:label "Elm Park School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q7126085> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q9842> ;
+    ns1:P571 "1967-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.elmpark.school.nz> .
+
+<https://example.org/resource/Howick_Primary_School> rdfs:label "Howick Primary School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P2196 1319.0 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q1080794>,
+        <http://www.wikidata.org/entity/Q3914> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.howickprimary.school.nz> .
+
+<https://example.org/resource/Mission_Heights_Primary_School> rdfs:label "Mission Heights Primary School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P2196 570.0 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q115152302> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q1080794>,
+        <http://www.wikidata.org/entity/Q3914> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.mhp.school.nz/> .
+
+<https://example.org/resource/Ormiston_Primary_School> rdfs:label "Ormiston Primary School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P2196 688.0 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q5457728> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q1080794>,
+        <http://www.wikidata.org/entity/Q3914> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://ormistonprimary.school.nz/> .
+
+<https://example.org/resource/Owairoa_Primary_School> rdfs:label "Owairoa Primary School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P2196 1413.0 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q5921903> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q1080794>,
+        <http://www.wikidata.org/entity/Q3914> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.owairoa.school.nz> .
+
+<https://example.org/resource/Pakuranga_Heights_School> rdfs:label "Pakuranga Heights School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P2196 1416.0 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q7126085> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q1080794>,
+        <http://www.wikidata.org/entity/Q3914> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.pakurangaheights.school.nz/> .
+
+<https://example.org/resource/Pakuranga_Intermediate> rdfs:label "Pakuranga Intermediate"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P2196 1417.0 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q7126082> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q1080794>,
+        <http://www.wikidata.org/entity/Q3914> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.pakurangaint.school.nz> .
+
+<https://example.org/resource/Pigeon_Mountain_School> rdfs:label "Pigeon Mountain School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q37100>,
+        <http://www.wikidata.org/entity/Q4983300> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q9842> ;
+    ns1:P571 "1979-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.pigeon-mountain.school.nz> .
+
+<https://example.org/resource/Riverhills_School> rdfs:label "Riverhills School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q37100>,
+        <http://www.wikidata.org/entity/Q7126085> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q9842> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 "-" .
+
+<https://example.org/resource/Riverina_School> rdfs:label "Riverina School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q37100>,
+        <http://www.wikidata.org/entity/Q7126082> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q9842> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.riverina.school.nz> .
+
+<https://example.org/resource/Sancta_Maria_Catholic_Primary_School> rdfs:label "Sancta Maria Catholic Primary School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q37100>,
+        <http://www.wikidata.org/entity/Q5457728> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q9842> ;
+    ns1:P571 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.sanctamariaprimary.school.nz/> .
+
+<https://example.org/resource/St_Mark's_Catholic_School> rdfs:label "St Mark's Catholic School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q37100>,
+        <http://www.wikidata.org/entity/Q7640810> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q9842> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.stmarks.school.nz/> .
+
+<https://example.org/resource/Star_of_the_Sea_School> rdfs:label "Star of the Sea School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q104853836>,
+        <http://www.wikidata.org/entity/Q37100> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q9842> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.starofthesea.school.nz/> .
+
+<https://example.org/resource/Sunnyhills_School> rdfs:label "Sunnyhills School"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q726917> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q664> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q7640810> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3914> ;
+    ns1:P7419 <http://www.wikidata.org/entity/Q70853302> ;
+    ns1:P856 <http://www.sunnyhills.school.nz> .
+
+<https://example.org/resource/Te_Uho_O_Te_Nikau_Primary_School> rdfs:label "Te Uho O Te Nikau Primary School"@en ;
+    ns1:P856 "http://www.example.org" .
+

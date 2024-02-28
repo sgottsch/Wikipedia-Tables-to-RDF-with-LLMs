@@ -1,0 +1,77 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of charities accused of ties to terrorism" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! '''Name of Charity''' || '''Location of Charity''' || '''Accusers''' || '''Description'''
+|-
+| [[Al-Haramain Foundation]]<ref name=CsrtAlMari>[http://wid.ap.org/documents/detainees/jamalmari.pdf Dossier (.pdf)]{{Dead link|date=September 2023 |bot=InternetArchiveBot |fix-attempted=yes }} of [[Jamal Muhammad Alawi Mar'i]], ''[[Combatant Status Review Tribunal]]''</ref> || {{Flag|Saudi Arabia}}|| {{Flagicon image|Flag of the United States Department of State.svg}} [[United States Department of State|U.S. State Department]] || 
+* Suspicion fell on Guantanamo detainee [[Jamal Muhammad Alawi Mar'i]], in part, because he was a volunteer for Al Haramain
+|-
+| [[Al Kifah Refugee Center]]<ref name="Cnn021208"/> || {{Flag|United States}}|| {{Flagicon image|Flag of Spain.svg}} Spanish police ||
+* Alleged to have served as a covert funnel for US support of those resisting the [[Soviet–Afghan War]].<ref name="CoopResearch">[http://www.cooperativeresearch.org/timeline.jsp?timeline=complete_911_timeline Complete 911 Timeline] {{webarchive|url=https://web.archive.org/web/20060427080215/http://www.cooperativeresearch.org/timeline.jsp?timeline=complete_911_timeline|date=2006-04-27}}, ''[[Cooperative Research]]''</ref>
+* Alleged to have trained fighters destined to serve in [[Afghanistan]] under [[Osama bin Laden]].<ref name="CoopResearch"/>
+* Alleged to have provided military and demolition training to those who bombed the [[World Trade Center (1973–2001)|World Trade Center]] in 1993.<ref name="CoopResearch"/>
+|-
+| [[Al Wafa al Igatha al Islamia]]<ref name="CsrtAlMari"/> || {{Flag|Afghanistan}}|| {{Flagicon image|Flag of the United States Department of State.svg}} [[United States Department of State|U.S. State Department]] || 
+* Suspicion fell on Guantanamo detainee [[Jamal Muhammad Alawi Mar'i]], in part, because he was a volunteer for Al Wafa |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Al-Haramain_Foundation> wdt:P1454 <https://en.wikipedia.org/wiki/Foundation_(nonprofit)> ;
+ wdt:P3461 <https://en.wikipedia.org/wiki/Russia> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Riyadh> ;
+ wdt:P576 "2004-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Non-governmental_organization> ;
+ rdfs:label "al-Haramain Foundation"@en ;
+ wdt:P571 "1988-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P856 <http://alharamain.org> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Organization> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Foundation_(nonprofit)> .
+
+<https://example.org/resource/Al_Kifah_Refugee_Center> wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ rdfs:label "Al Kifah Refugee Center"@en .
+
+<https://example.org/resource/Al_Wafa_al_Igatha_al_Islamia> rdfs:label "Al Wafa al Igatha al Islamia"@en ;
+ rdfs:label "Al Wafa al Igatha al Islamia"@en .
+---
+These are the labels of the properties:
+
+wdt:P1454 -> legal form
+wdt:P3461 -> designated as terrorist by
+wdt:P159 -> headquarters location
+wdt:P576 -> dissolved, abolished or demolished date
+wdt:P17 -> country
+wdt:P31 -> instance of
+wdt:P571 -> inception
+wdt:P856 -> official website URL.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! '''Name of Charity''' || '''Location of Charity''' || '''Accusers''' || '''Description'''
+|-
+| [[Society of the Revival of Islamic Heritage]]<ref name=CsrtAlDaihaniPg25>[http://wid.ap.org/documents/detainees/fenaitelaldaihani.pdf Summary of Evidence (.pdf)] {{Webarchive|url=https://web.archive.org/web/20130504002031/http://wid.ap.org/documents/detainees/fenaitelaldaihani.pdf |date=2013-05-04 }} from pages 25-26 of [[Mohammed Fenaitel Mohamed Al Daihani]]'s [[Combatant Status Review Tribunal]] </ref>|| {{Flag|Kuwait}}|| {{Flagicon image|Flag of the United States Department of State.svg}} [[United States Department of State|U.S. State Department]]|| 
+* Appears on the [[United States State Department list of Foreign Terrorist Organizations]]
+|-
+|[[Popular Front of India]]
+|{{Flag|India}}
+|{{Flagicon image|Flag of India.svg}} [[Law enforcement in India|Various Indian authorities]]
+|
+* Accused of Radical Islamism, [[Islamic terrorism]]<ref>{{Cite web|url=https://www.thehindu.com/news/national/karnataka/state-has-begun-process-to-ban-pfi-sdpi-and-similar-outfits-bommai/article30591713.ece|title=PFI India's Number One Terrorist Organisation, Says Former Mumbai Police Officer|date=2015-11-28|website=HuffPost India|language=en|access-date=2019-08-17}}</ref><ref>{{Cite web|url=https://www.thehindu.com/news/national/karnataka/state-has-begun-process-to-ban-pfi-sdpi-and-similar-outfits-bommai/article30591713.ece|title=Ban PFI, India's no 1 terror organisation: Former Maharashtra cop|date=2016-02-23|website=Hindustan Times|language=en|access-date=2019-08-17}}</ref>
+|-
+| [[Tamils Rehabilitation Organisation]](TRO)<ref name=TRO>{{Cite news|title= 'Charities' back terror, Ottawa Sun }}</ref> || {{Flag|Canada}}|| {{Flagicon image|Flag of the Federal Bureau of Investigation.svg}} [[Federal Bureau of Investigation]]|| 
+* [[Liberation Tigers of Tamil Eelam]] |}
+---

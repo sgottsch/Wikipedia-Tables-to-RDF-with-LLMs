@@ -1,0 +1,170 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Archive_Team> wdt:P17 wd:Q8036765 ;
+    wdt:P2257 1.0,
+        "~100"^^xsd:decimal ;
+    wdt:P31 wd:Q15275719 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Bibliotheca_Alexandrina_Internet_Archive> wdt:P1547 wd:Q106507131 ;
+    wdt:P17 wd:Q79 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Bibliothèque_nationale_du_Luxembourg> wdt:P1416 wd:Q856651 ;
+    wdt:P17 wd:Q32 ;
+    wdt:P31 wd:Q15275719,
+        wd:Q170584,
+        wd:Q30047053 ;
+    wdt:P3712 wd:Q27031009 ;
+    wdt:P571 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6954 wd:Q232932 ;
+    wdt:P856 <https://www.webarchive.lu/> .
+
+<https://example.org/resource/Central_State_Electronic_Archives_of_Ukraine> wdt:P17 wd:Q212 ;
+    wdt:P2257 2.0 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Columbia_University_Libraries> rdfs:label "Columbia University Libraries"@en ;
+    wdt:P17 wd:Q30 ;
+    wdt:P2257 2.0 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Cornell_University_Library> wdt:P1416 wd:Q461 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P2257 1.0 ;
+    wdt:P31 wd:Q35127 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Internet_Archive> rdfs:label "Internet Archive (provides Archive-it service)"@en ;
+    wdt:P123 wd:Q461 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P2257 150.0 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "1996-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://archive.org/> .
+
+<https://example.org/resource/Israel_Web_Archive> wdt:P1416 wd:Q188915 ;
+    wdt:P1547 wd:Q1196945 ;
+    wdt:P17 wd:Q801 ;
+    wdt:P2257 1.0 ;
+    wdt:P31 wd:Q15275719,
+        wd:Q170584,
+        wd:Q30047053 ;
+    wdt:P3712 wd:Q27031009 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6954 wd:Q232932 ;
+    wdt:P856 <http://web.nli.org.il/sites/nli/english/Pages/default.aspx> .
+
+<https://example.org/resource/Koninklijke_Bibliotheek> wdt:P1416 wd:Q16801313 ;
+    wdt:P17 wd:Q55 ;
+    wdt:P2257 "~10"^^xsd:decimal ;
+    wdt:P31 wd:Q15275719,
+        wd:Q170584,
+        wd:Q30047053 ;
+    wdt:P3712 wd:Q27031009 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6954 wd:Q232932 ;
+    wdt:P856 <http://www.webarchiving.nl/> .
+
+<https://example.org/resource/National_Central_Library_of_Florence> wdt:P17 wd:Q38 ;
+    wdt:P31 wd:Q15275719,
+        wd:Q170584,
+        wd:Q30047053 ;
+    wdt:P3712 wd:Q27031009 ;
+    wdt:P6954 wd:Q232932 .
+
+<https://example.org/resource/National_Library_of_Korea> wdt:P1416 wd:Q495005 ;
+    wdt:P17 wd:Q18097 ;
+    wdt:P2257 3.0 ;
+    wdt:P31 wd:Q15275719,
+        wd:Q170584,
+        wd:Q30047053 ;
+    wdt:P3712 wd:Q27031009 ;
+    wdt:P571 "2001-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6954 wd:Q232932 ;
+    wdt:P856 <http://www.oasis.go.kr/intro_new/intro_overview_e.jsp> .
+
+<https://example.org/resource/National_Library_of_Latvia> wdt:P1416 wd:Q1133733 ;
+    wdt:P17 wd:Q211 ;
+    wdt:P2257 1.0 ;
+    wdt:P31 wd:Q15275719,
+        wd:Q170584,
+        wd:Q30047053 ;
+    wdt:P3712 wd:Q27031009 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6954 wd:Q232932 ;
+    wdt:P856 <http://webarhivs.lndb.lv/> .
+
+<https://example.org/resource/National_Library_of_Medicine> wdt:P1547 wd:Q132825 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P2257 8.0 ;
+    wdt:P31 wd:Q15275719,
+        wd:Q30047053 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/National_Library_of_Norway> rdfs:label "The National Library of Norway"@en ;
+    wdt:P17 wd:Q20 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2001-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.nb.no/samlingen/nettarkivet/> .
+
+<https://example.org/resource/Netherlands_Institute_for_Sound_and_Vision> wdt:P1547 wd:Q170855,
+        wd:Q3050461 ;
+    wdt:P17 wd:Q55 ;
+    wdt:P2257 7.0 ;
+    wdt:P31 wd:Q15275719,
+        wd:Q30047053 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/PADICAT_The_Web_Archive_of_Catalonia> rdfs:label "PADICAT: The Web Archive of Catalonia"@en ;
+    wdt:P1547 wd:Q106507131 ;
+    wdt:P17 wd:Q29 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.padicat.cat/en/> .
+
+<https://example.org/resource/Rhizome> wdt:P17 wd:Q30 ;
+    wdt:P2257 1.0,
+        3.0 ;
+    wdt:P31 wd:Q15275719,
+        wd:Q30047053 ;
+    wdt:P571 "1999-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Stanford_University_Libraries> rdfs:label "Stanford University Libraries"@en ;
+    wdt:P123 wd:Q7598806 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P2257 2.0 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://library.stanford.edu/projects/web-archiving> .
+
+<https://example.org/resource/UK_Government_Web_Archive> rdfs:label "UK Government Web Archive"@en ;
+    wdt:P123 wd:Q392703 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P2257 7.0 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.nationalarchives.gov.uk/webarchive/> .
+
+<https://example.org/resource/WikiTeam> wdt:P17 wd:Q8036765 ;
+    wdt:P2257 0.0 ;
+    wdt:P31 wd:Q15275719 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/York_University_Libraries_Wayback_Machine> wdt:P17 wd:Q16 ;
+    wdt:P2257 0.0,
+        1.0 ;
+    wdt:P31 wd:Q15275719,
+        wd:Q30047053 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://wayback.library.yorku.ca> .
+
+<https://example.org/resource/archive.today> wdt:P17 wd:Q8036765 ;
+    wdt:P2257 1.0 ;
+    wdt:P31 wd:Q35127 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+

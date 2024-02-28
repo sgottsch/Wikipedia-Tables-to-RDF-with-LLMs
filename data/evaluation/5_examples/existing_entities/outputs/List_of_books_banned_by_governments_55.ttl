@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Last_Exit_to_Brooklyn> rdfs:label "Last Exit to Brooklyn"@en ;
+    wdt:P1343 wd:Q1216893 ;
+    wdt:P136 wd:Q105420,
+        wd:Q49084,
+        wd:Q8253 ;
+    wdt:P1476 "Last Exit to Brooklyn"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Last_Exit_to_Brooklyn.jpg> ;
+    wdt:P31 wd:Q47461344 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P495 wd:Q124010 ;
+    wdt:P50 wd:Q551487 ;
+    wdt:P5008 wd:Q13382529 ;
+    wdt:P577 "1966-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P921 wd:Q543 .
+
+<https://example.org/resource/Spycatcher> rdfs:label "Spycatcher"@en ;
+    wdt:P1343 wd:Q43297 ;
+    wdt:P136 wd:Q4184 ;
+    wdt:P1476 "Spycatcher"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Spycatcher_book_cover.jpg> ;
+    wdt:P31 wd:Q47461344 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P50 wd:Q3124586 ;
+    wdt:P5008 wd:Q13382529 ;
+    wdt:P577 "1985-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P921 wd:Q210175 .
+
+<https://example.org/resource/The_Anarchist_Cookbook> rdfs:label "The Anarchist Cookbook"@en ;
+    wdt:P1476 "The Anarchist Cookbook"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The_Anarchist_Cookbook.jpg> ;
+    wdt:P31 wd:Q47461344 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P495 wd:Q146491 ;
+    wdt:P50 wd:Q17277707 ;
+    wdt:P5008 wd:Q13382529 ;
+    wdt:P577 "1971-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P921 wd:Q7283 .
+

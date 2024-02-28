@@ -1,0 +1,219 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Diario_Popular> rdfs:label "Diario Popular"@en ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1974-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.diariopopular.com.ar/> .
+
+<https://example.org/resource/El_Ancasti> rdfs:label "El Ancasti"@en ;
+    wdt:P159 wd:Q44162 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1988-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.elancasti.com.ar/> .
+
+<https://example.org/resource/El_Cronista> rdfs:label "El Cronista"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1908-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.cronista.com/> .
+
+<https://example.org/resource/El_Día> rdfs:label "El Día"@en ;
+    wdt:P159 wd:Q44059 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1884-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.eldia.com/> .
+
+<https://example.org/resource/El_Litoral> rdfs:label "El Litoral"@en ;
+    wdt:P159 wd:Q44244 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1918-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.ellitoral.com/> .
+
+<https://example.org/resource/El_Siglo> rdfs:label "El Siglo"@en ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1990-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.elsiglo.com.ar/> .
+
+<https://example.org/resource/El_Tribuno> rdfs:label "El Tribuno"@en ;
+    wdt:P159 wd:Q36307 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1949-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.eltribuno.com/salta> .
+
+<https://example.org/resource/Infobae> rdfs:label "Infobae"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1153191 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.infobae.com/> .
+
+<https://example.org/resource/L_Italiano> rdfs:label "L'Italiano"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P407 wd:Q652 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.litaliano.com.ar/> .
+
+<https://example.org/resource/La_Capital> rdfs:label "La Capital"@en ;
+    wdt:P159 wd:Q52535 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1867-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.lacapital.com.ar/> .
+
+<https://example.org/resource/La_Gaceta> rdfs:label "La Gaceta"@en ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1912-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.lagaceta.com.ar/> .
+
+<https://example.org/resource/La_Nación> rdfs:label "La Nación"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1870-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.lanacion.com.ar/> .
+
+<https://example.org/resource/La_Nueva_Provincia> rdfs:label "La Nueva Provincia"@en ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1898-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.lanueva.com/> .
+
+<https://example.org/resource/La_Prensa> rdfs:label "La Prensa"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1869-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.laprensa.com.ar/> .
+
+<https://example.org/resource/La_Razón> rdfs:label "La Razón"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1905-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.larazon.com.ar/> .
+
+<https://example.org/resource/La_Vanguardia> rdfs:label "La Vanguardia"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1894-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.lavanguardia.com.ar/> .
+
+<https://example.org/resource/La_Voz_del_Interior> rdfs:label "La Voz del Interior"@en ;
+    wdt:P17 wd:Q414 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1904-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.lavoz.com.ar/> .
+
+<https://example.org/resource/Los_Andes> rdfs:label "Los Andes"@en ;
+    wdt:P159 wd:Q44237 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1883-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.losandes.com.ar/> .
+
+<https://example.org/resource/Misiones_Online> rdfs:label "Misiones Online"@en ;
+    wdt:P159 wd:Q44238 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.misionesonline.net/> .
+
+<https://example.org/resource/Olé> rdfs:label "Olé"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1996-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.ole.com.ar/> .
+
+<https://example.org/resource/Perfil> rdfs:label "Perfil"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.perfil.com/> .
+
+<https://example.org/resource/Prensa_Obrera> rdfs:label "Prensa Obrera"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1982-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://po.org.ar/> .
+
+<https://example.org/resource/Página/12> rdfs:label "Página/12"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.pagina12.com.ar/> .
+
+<https://example.org/resource/Río_Negro> rdfs:label "Río Negro"@en ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1110794 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1912-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.rionegro.com.ar/> .
+
+<https://example.org/resource/The_Southern_Cross> rdfs:label "The Southern Cross"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q11032 ;
+    wdt:P407 wd:Q9142,
+        <https://en.wikipedia.org/wiki/Spanish_language> ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1875-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.thesoutherncross.com.ar/> .
+

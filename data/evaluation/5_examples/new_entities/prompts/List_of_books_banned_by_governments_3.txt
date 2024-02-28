@@ -1,0 +1,378 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of books banned by governments" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Title
+! Author(s)
+! Year published
+!Year Banned
+!Year Unbanned
+! Type
+! Notes
+|-
+| ''[[The Decameron]]''
+| [[Giovanni Boccaccio]]
+| 1353
+|1927
+|1936
+| Story collection
+| Banned in Australia from 1927 to 1936 and from 1938 to 1973.<ref>{{cite web |url=http://blog.naa.gov.au/banned/books/decameron/ |title=Decameron |publisher=National Archives of Australia |access-date=22 May 2017 |archive-date=March 19, 2018 |archive-url=https://web.archive.org/web/20180319231844/http://blog.naa.gov.au/banned/books/decameron/ }}</ref>
+|-
+| ''[[The 120 Days of Sodom]]'' (1789)
+| [[Marquis de Sade]]
+| 1789
+|1957
+|*Unknown*
+| Novel
+| Banned by the Australian Government in 1957 for obscenity.<ref>University of Melbourne (2013). ''Banned Books in Australia – A Special Collections-Art in the Library Exhibition." "[http://www.lib.unimelb.edu.au/collections/special/exhibitions/bannedbooks/exhibition/australia.html]", Retrieved June 12, 2014''</ref>
+|-
+| ''[[Les Cent Contes drolatiques|Droll Stories]]''
+| [[Honoré de Balzac]]
+| 1837
+|1901, 1928
+|1923, 1973 
+| Short stories
+| Banned for [[obscenity]] from 1901 to 1923 and 1928 to c.1973.<ref name="Droll Stories naa.gov.au">{{cite web |url=http://blog.naa.gov.au/banned/books/droll-stories/ |title=Droll Stories |website=National Archives of Australia |access-date=23 May 2017 |archive-date=August 3, 2017 |archive-url=https://web.archive.org/web/20170803205127/http://blog.naa.gov.au/banned/books/droll-stories/ }}</ref><ref name="sovasexual"/>
+|-
+| ''[[The Straits Impregnable]]''
+| Sydney Loch
+| 1916
+|1914
+|*Unknown*
+| Fictionalised Autobiography
+| First edition published as a novel, second edition banned by the military censor in Australia under regulations of the [[War Precautions Act 1914]].<ref>Susanna & Jake de Vries (2007). To Hell And Back. NSW : HarperCollins</ref>
+|-
+| ''[[Lady Chatterley's Lover]]'' (1928)
+| [[D. H. Lawrence]]
+| 1928
+|1929
+|1965
+| Novel
+| Banned from 1929 to 1965.<ref name="unimelb1"/><ref name="isbn0-06-097061-8">{{cite book |author1=Cleland, John |author2=Rembar, Charles |author3=Miller, Henry |title=The End of Obscenity: The Trials of Lady Chatterley, Tropic of Cancer and Fanny Hill |url=https://archive.org/details/endofobscenitytr0000remb |url-access=registration |publisher=Harper & Row |location=San Francisco |year=1986 |page=[https://archive.org/details/endofobscenitytr0000remb/page/528 528] |isbn=0-06-097061-8}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/The_Decameron> wdt:P2670 wd:Q43281973 ;
+ wdt:P674 wd:Q43256358 ;
+ wdt:P527 wd:Q43148644 ;
+ wdt:P527 wd:Q43148682 ;
+ wdt:P527 wd:Q43148695 ;
+ wdt:P527 wd:Q43250990 ;
+ wdt:P747 wd:Q43169292 ;
+ wdt:P527 wd:Q43282531 ;
+ wdt:P747 wd:Q43371966 ;
+ wdt:P747 wd:Q43371964 ;
+ wdt:P747 wd:Q43371965 ;
+ wdt:P747 wd:Q43372456 ;
+ wdt:P747 wd:Q43372498 ;
+ wdt:P747 wd:Q43372512 ;
+ wdt:P747 wd:Q43372535 ;
+ wdt:P747 wd:Q43374361 ;
+ wdt:P747 wd:Q43374414 ;
+ wdt:P747 wd:Q43374499 ;
+ wdt:P747 wd:Q43385014 ;
+ wdt:P747 wd:Q43473229 ;
+ wdt:P747 wd:Q43474239 ;
+ wdt:P747 wd:Q43474377 ;
+ wdt:P747 wd:Q43474812 ;
+ wdt:P747 wd:Q43475069 ;
+ wdt:P747 wd:Q43475969 ;
+ wdt:P747 wd:Q43516994 ;
+ wdt:P747 wd:Q43517456 ;
+ wdt:P747 wd:Q44082253 ;
+ wdt:P747 wd:Q44171388 ;
+ wdt:P747 wd:Q44172004 ;
+ wdt:P747 wd:Q43168448 ;
+ wdt:P747 wd:Q43168563 ;
+ wdt:P747 wd:Q43306113 ;
+ wdt:P747 wd:Q43387682 ;
+ wdt:P747 wd:Q43947778 ;
+ wdt:P747 wd:Q43168698 ;
+ wdt:P527 wd:Q43148678 ;
+ wdt:P527 wd:Q43148688 ;
+ wdt:P527 wd:Q43148666 ;
+ wdt:P527 wd:Q43148700 ;
+ wdt:P747 wd:Q50929361 ;
+ wdt:P747 wd:Q50929882 ;
+ wdt:P747 wd:Q50930183 ;
+ wdt:P747 wd:Q50930496 ;
+ wdt:P747 wd:Q41529369 ;
+ wdt:P747 wd:Q43169039 ;
+ wdt:P747 wd:Q43437721 ;
+ wdt:P747 wd:Q43475477 ;
+ wdt:P527 wd:Q43148690 ;
+ wdt:P747 wd:Q43149861 ;
+ wdt:P747 wd:Q43150110 ;
+ wdt:P747 wd:Q43306114 ;
+ wdt:P747 wd:Q43306115 ;
+ wdt:P747 wd:Q43431543 ;
+ wdt:P747 wd:Q43432002 ;
+ wdt:P747 wd:Q43472747 ;
+ wdt:P747 wd:Q43387689 ;
+ wdt:P747 wd:Q121819187 ;
+ wdt:P2670 wd:Q43148525 ;
+ wdt:P2670 wd:Q43303440 ;
+ wdt:P747 wd:Q80977948 ;
+ wdt:P747 wd:Q87442870 ;
+ wdt:P527 wd:Q43148668 ;
+ wdt:P674 wd:Q3900044 ;
+ wdt:P527 wd:Q43148675 ;
+ wdt:P674 wd:Q3833370 ;
+ wdt:P407 wd:Q21550769 ;
+ wdt:P571 "1351-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "The Decameron"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20del%20Castagno%20Giovanni%20Boccaccio%20c%201450.jpg> ;
+ wdt:P7937 wd:Q43334491 ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P2670 <https://en.wikipedia.org/wiki/Introduction_(writing)> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Agilulf> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Novella> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Italy> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Pope_Boniface_VIII> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Giotto> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Short_story_collection> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Holy_Roman_Empire> ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/The_Decameron_(film)> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:The_Decameron> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Decameron_Nights> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Wondrous_Boccaccio> ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Prose> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Republic_of_Florence> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Giovanni_Boccaccio> ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/The_Nuttall_Encyclop%C3%A6dia> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Decameron_(disambiguation)> ;
+ wdt:P2348 <https://en.wikipedia.org/wiki/Renaissance> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Florence> .
+
+<https://example.org/resource/The_120_Days_of_Sodom> wdt:P50 <https://en.wikipedia.org/wiki/Marquis_de_Sade> ;
+ wdt:P953 <https://github.com/MiMoText/roman18/blob/master/plain/files/Sade_120.txt> ;
+ wdt:P953 <https://github.com/MiMoText/roman18/blob/master/XML-TEI/files/Sade_120.xml> ;
+ wdt:P747 wd:Q63979202 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P31 wd:Q20225034 ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Sal%C3%B2,_or_the_120_Days_of_Sodom> ;
+ wdt:P747 wd:Q63979134 ;
+ wdt:P747 wd:Q63979334 ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ rdfs:label "The 120 Days of Sodom"@en ;
+ wdt:P407 <https://en.wikipedia.org/wiki/French_language> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Fiction> ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Novel> ;
+ wdt:P577 "1904-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sade%20-%20Les%20120%20Journ%C3%A9es%20de%20Sodome%2C%20%C3%A9d.%20D%C3%BChren%2C%201904%20%28page%206%20crop%29.jpg> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Sadomasochism> ;
+ wdt:P747 wd:Q111597131 ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Paris> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Erotica> ;
+ wdt:P571 "1785-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P136 wd:Q3328821 ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P4969 wd:Q20850729 .
+
+<https://example.org/resource/Droll_Stories> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/BalzacContesDrolatiques01.jpg> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P577 "1832-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P747 wd:Q19209663 ;
+ wdt:P31 wd:Q27560760 ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/French_language> ;
+ wdt:P953 <https://www.projekt-gutenberg.org/balzac/tolldrei/tolldrei.html> ;
+ wdt:P136 wd:Q17991521 ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Honor%C3%A9_de_Balzac> ;
+ rdfs:label "Les Cent Contes drolatiques"@en .
+
+<https://example.org/resource/The_Straits_Impregnable> wdt:P495 <https://en.wikipedia.org/wiki/Australia> ;
+ rdfs:label "The Straits Impregnable"@en ;
+ wdt:P31 wd:Q7725634 .
+
+<https://example.org/resource/Lady_Chatterley's_Lover> wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley_(TV_serial)> ;
+ wdt:P3893 "2024-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Erotic_novel> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Le_Monde%27s_100_Books_of_the_Century> ;
+ wdt:P953 <https://gutenberg.net.au/ebooks01/0100181h.html> ;
+ wdt:P1476 "Lady Chatterley's Lover"@en ;
+ wdt:P31 wd:Q47461344 ;
+ wdt:P577 "1928-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/England> ;
+ wdt:P4969 wd:Q104894540 ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley%27s_Lover_(1981_film)> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley%27s_Lover_(1955_film)> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley%27s_Lover_(2022_film)> ;
+ rdfs:label "Lady Chatterley's Lover"@en ;
+ wdt:P910 wd:Q15410319 ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley%27s_Lover_(2015_film)> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Lady%20chatterley%27s%20lover%201959%20US%20unexpurgated%20edition.jpg> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley_(film)> ;
+ wdt:P155 <https://en.wikipedia.org/wiki/John_Thomas_and_Lady_Jane> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/D._H._Lawrence> ;
+ wdt:P747 wd:Q56483003 .
+---
+These are the labels of the properties:
+
+wdt:P2670 -> has part(s) of the class
+wdt:P674 -> characters
+wdt:P527 -> has part(s)
+wdt:P747 -> has edition or translation
+wdt:P407 -> language of work or name
+wdt:P571 -> inception
+wdt:P18 -> image
+wdt:P7937 -> form of creative work
+wdt:P31 -> instance of
+wdt:P136 -> genre
+wdt:P495 -> country of origin
+wdt:P6216 -> copyright status
+wdt:P4969 -> derivative work
+wdt:P910 -> topic's main category
+wdt:P50 -> author
+wdt:P1343 -> described by source
+wdt:P1889 -> different from
+wdt:P2348 -> time period
+wdt:P840 -> narrative location
+wdt:P953 -> full work available at URL
+wdt:P577 -> publication date
+wdt:P921 -> main subject
+wdt:P3893 -> public domain date
+wdt:P166 -> award received
+wdt:P1476 -> title
+wdt:P155 -> follows.
+---
+These are the labels of the objects:
+
+wd:Q43281973 -> introduction to the day
+wd:Q43256358 -> brigata
+wd:Q43148644 -> Day 1
+wd:Q43148682 -> Day 6
+wd:Q43148695 -> Day 9
+wd:Q43250990 -> Proem
+wd:Q43169292 -> Q43169292
+wd:Q43282531 -> Conclusion
+wd:Q43371966 -> Q43371966
+wd:Q43371964 -> Q43371964
+wd:Q43371965 -> Q43371965
+wd:Q43372456 -> Q43372456
+wd:Q43372498 -> Q43372498
+wd:Q43372512 -> Q43372512
+wd:Q43372535 -> Q43372535
+wd:Q43374361 -> Q43374361
+wd:Q43374414 -> Q43374414
+wd:Q43374499 -> Q43374499
+wd:Q43385014 -> Q43385014
+wd:Q43473229 -> Q43473229
+wd:Q43474239 -> Q43474239
+wd:Q43474377 -> Q43474377
+wd:Q43474812 -> Q43474812
+wd:Q43475069 -> Q43475069
+wd:Q43475969 -> Q43475969
+wd:Q43516994 -> Q43516994
+wd:Q43517456 -> Q43517456
+wd:Q44082253 -> Q44082253
+wd:Q44171388 -> Q44171388
+wd:Q44172004 -> Q44172004
+wd:Q43168448 -> Decamerón
+wd:Q43168563 -> Decameron
+wd:Q43306113 -> Decameron
+wd:Q43387682 -> Decameron
+wd:Q43947778 -> Decameron
+wd:Q43168698 -> Dekameron
+wd:Q43148678 -> Day 5
+wd:Q43148688 -> Day 7
+wd:Q43148666 -> Day 2
+wd:Q43148700 -> Day 10
+wd:Q50929361 -> Dekameron
+wd:Q50929882 -> Dekameron
+wd:Q50930183 -> Dekameron
+wd:Q50930496 -> Dekameron
+wd:Q41529369 -> Le Décaméron
+wd:Q43169039 -> Декамерон
+wd:Q43437721 -> Decameron di Giovanni Boccaccio corretto ed illustrato con note
+wd:Q43475477 -> Декамерон
+wd:Q43148690 -> Day 8
+wd:Q43149861 -> The Decameron
+wd:Q43150110 -> The Decameron
+wd:Q43306114 -> Il Decamerone
+wd:Q43306115 -> The Decameron
+wd:Q43431543 -> Il Decameron
+wd:Q43432002 -> Il Decameron
+wd:Q43472747 -> Il Decameron
+wd:Q43387689 -> Decameron de Boccace - BNF Fr239
+wd:Q121819187 -> Libro de las ciento novelas
+wd:Q43148525 -> day of the Decameron
+wd:Q43303440 -> novella in the Decameron
+wd:Q80977948 -> Dekameron
+wd:Q87442870 -> Q87442870
+wd:Q43148668 -> Day 3
+wd:Q3900044 -> Peronella
+wd:Q43148675 -> Day 4
+wd:Q3833370 -> Lisabetta
+wd:Q21550769 -> Medieval Italian
+wd:Q43334491 -> novella
+wd:Q7725634 -> literary work
+wd:Q63979202 -> The 120 days of Sodom and other writings
+wd:Q20225034 -> unfinished novel
+wd:Q63979134 -> Q63979134
+wd:Q63979334 -> Q63979334
+wd:Q111597131 -> Q111597131
+wd:Q3328821 -> narration
+wd:Q20850729 -> Q20850729
+wd:Q19209663 -> Q19209663
+wd:Q27560760 -> collection of fairy tales
+wd:Q17991521 -> tale
+wd:Q47461344 -> written work
+wd:Q104894540 -> Q104894540
+wd:Q15410319 -> Category:Lady Chatterley's Lover
+wd:Q56483003 -> L'amante di Lady Chatterley.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Title
+! Author(s)
+! Year published
+!Year Banned
+!Year Unbanned
+! Type
+! Notes
+|-
+| ''Rowena Goes Too Far'' (1931)
+| [[H. C. Asterley]]
+| 1931
+|*Unknown*
+|*Unknown*
+| Novel
+| Banned in Australia because of customs belief that it "lacked sufficient claim to the literary to excuse the obscenity"<ref>[http://www.luciusbooks.com/product.php?p=7202]{{dead link|date=May 2017|bot=InternetArchiveBot|fix-attempted=yes}}. Luciusbooks.com. Retrieved on 2011-01-10.</ref>
+|-
+| ''How to make disposable silencers'' (1984)
+| Desert and Eliezer Flores
+| 1984
+|*Unknown*
+|*Unknown*
+| Instructional
+| An example of a class of books banned in Australia that "promote, incite or instruct in matters of crime or violence".<ref>[http://www.oflc.gov.au/www/cob/find.nsf/d853f429dd038ae1ca25759b0003557c/507ee7fcca76c71fca257671007b1e78!OpenDocument]{{dead link|date=August 2020}}</ref><ref name="oflc.gov.au">[https://web.archive.org/web/20091122231022/http://www.oflc.gov.au/www/cob/rwpattach.nsf/VAP/%28084A3429FD57AC0744737F8EA134BACB%29~989%2B-%2BDecision%2B7%2BFebruary%2B2007%2B-%2BThe%2BPeaceful%2BPill%2BHandbook.pdf/%24file/989%2B-%2BDecision%2B7%2BFebruary%2B2007%2B-%2BThe%2BPeaceful%2BPill%2BHandbook.pdf Classification Review Board]. Review meeting: February 7, 2007; Decision meeting: February 24, 2007. Australian Government</ref>
+|-
+| ''A Sneaking Suspicion'' (1995)
+| [[John Dickson (author)|John Dickson]]
+| 1995
+|2015
+|2015
+| Religious text
+| Banned by the [[New South Wales]] [[Department of Education and Communities (New South Wales)|Department of Education and Communities]] from state schools May 6, 2015, on the basis of a "potential risk to students in the delivery of this material, if not taught sensitively and in an age appropriate manner."<ref name=Piccoli>{{cite web|last1=Piccoli|first1=Adrian|author-link1=Adrian Piccoli|title=Letter to His Grace the Most Reverend Dr G Davies|url=http://sydneyanglicans.net/images/uploads/Letter_SRE_180515.pdf|access-date=6 December 2016}}</ref> The ban was lifted May 18, 2015.
+|-
+| ''You: An Introduction'' (2008)
+| [[Michael Jensen (theologian)|Michael Jensen]]
+| 2008
+|2015
+|2015
+| Religious text
+| Banned by the [[New South Wales]] [[Department of Education and Communities (New South Wales)|Department of Education and Communities]] from state schools May 6, 2015, on the basis of a "potential risk to students in the delivery of this material, if not taught sensitively and in an age appropriate manner."<ref name=Piccoli /> The ban was lifted May 18, 2015. |}
+---

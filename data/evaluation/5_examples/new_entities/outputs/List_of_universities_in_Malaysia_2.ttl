@@ -1,0 +1,77 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Asia_Metropolitan_University> rdfs:label "Asia Metropolitan University"@en ;
+    wdt:P131 wd:Q1087831 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.amu.edu.my> ;
+    wdt:P8687 0.0 .
+
+<https://example.org/resource/Binary_University> rdfs:label "Binary University"@en ;
+    wdt:P131 wd:Q7258228 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "1984-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://binary.edu.my/> .
+
+<https://example.org/resource/DRB-HICOM_University_of_Automotive_Malaysia> rdfs:label "DRB-HICOM University of Automotive Malaysia"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://dhuautomotive.edu.my/> .
+
+<https://example.org/resource/Jesselton_University_College> rdfs:label "Jesselton University College"@en ;
+    wdt:P131 wd:Q137271 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q15407956 ;
+    wdt:P571 "1988-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.jesselton.edu.my/> .
+
+<https://example.org/resource/Quest_International_University_Perak> rdfs:label "Quest International University Perak"@en ;
+    wdt:P131 wd:Q271619 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.qiup.edu.my/> .
+
+<https://example.org/resource/Saito_University_College> rdfs:label "Saito University College"@en ;
+    wdt:P131 wd:Q864965 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q15407956,
+        wd:Q189004 ;
+    wdt:P571 "1988-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.saito.edu.my/> ;
+    wdt:P8687 3225.0 .
+
+<https://example.org/resource/Universiti_Poly-Tech_Malaysia> rdfs:label "Universiti Poly-Tech Malaysia"@en ;
+    wdt:P131 wd:Q1087831 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2023-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.uptm.edu.my/> .
+
+<https://example.org/resource/University_College_Sabah_Foundation> rdfs:label "University College Sabah Foundation"@en ;
+    wdt:P131 wd:Q137271 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q15407956 ;
+    wdt:P571 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.ucsf.edu.my/> .
+
+<https://example.org/resource/University_College_of_Islam_Melaka> rdfs:label "University College of Islam Melaka"@en ;
+    wdt:P131 wd:Q185221 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q15407956 ;
+    wdt:P571 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://kuim.edu.my/> .
+
+<https://example.org/resource/University_Malaysia_of_Computer_Science_&_Engineering> rdfs:label "University Malaysia of Computer Science & Engineering"@en ;
+    wdt:P131 wd:Q1147163 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P571 "2013-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.unimy.edu.my/> .
+

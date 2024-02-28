@@ -1,0 +1,50 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Deutsche_La_Plata_Zeitung> rdfs:label "Deutsche La Plata Zeitung"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1002697 ;
+    wdt:P407 wd:Q188 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1874-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Diario_Sirio-Libanés> rdfs:label "Diario Sirio-Libanés"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1002697 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1929-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Diario_de_Argentina> rdfs:label "Diario de Argentina"@en ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1002697 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "2019-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/El_Economista> rdfs:label "El Economista"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q11032 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1951-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/La_Patria_degli_italiani> rdfs:label "La Patria degli italiani"@en ;
+    wdt:P159 wd:Q1486 ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1002697 ;
+    wdt:P407 wd:Q652 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "1877-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/MDZ_Online> rdfs:label "MDZ Online"@en ;
+    wdt:P17 wd:Q414 ;
+    wdt:P31 wd:Q1153191 ;
+    wdt:P407 wd:Q1321 ;
+    wdt:P495 wd:Q414 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+

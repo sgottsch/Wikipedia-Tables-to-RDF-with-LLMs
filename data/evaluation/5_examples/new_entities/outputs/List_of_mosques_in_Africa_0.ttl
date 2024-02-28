@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Egypt_Grand_Mosque> rdfs:label "Egypt Grand Mosque"@en ;
+    wdt:P131 wd:Q19588497 ;
+    wdt:P17 wd:Q79 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2023-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Great_Mosque_of_Saint-Louis> rdfs:label "Great Mosque of Saint-Louis"@en ;
+    wdt:P131 wd:Q273779 ;
+    wdt:P17 wd:Q1041 ;
+    wdt:P571 1847.0 .
+
+<https://example.org/resource/Jama_Mosque_Hargeisa> rdfs:label "Jama Mosque (Hargeisa)"@en ;
+    wdt:P131 wd:Q168652 ;
+    wdt:P17 wd:Q34754 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Hargeisamosque.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Juma'a_mosque_of_Zaria> rdfs:label "Juma'a mosque of Zaria"@en ;
+    wdt:P131 wd:Q147975 ;
+    wdt:P17 wd:Q1033 ;
+    wdt:P571 "19th century"^^xsd:string .
+
+<https://example.org/resource/Korijib_Masjid> rdfs:label "Korijib Masjid"@en ;
+    wdt:P131 wd:Q820972 ;
+    wdt:P17 wd:Q977 ;
+    wdt:P571 "6301-01-01T00:00:00+00:00"^^xsd:dateTime .
+

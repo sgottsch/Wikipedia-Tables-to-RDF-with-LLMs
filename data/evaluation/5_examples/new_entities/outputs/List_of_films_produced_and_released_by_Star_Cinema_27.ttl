@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/James_and_Pat_and_Dave> rdfs:label "James and Pat and Dave"@en ;
+    wdt:P136 wd:Q1054574 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q44216469 ;
+    wdt:P577 "2021-02-12T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/My_Lockdown_Romance> rdfs:label "My Lockdown Romance"@en ;
+    wdt:P136 wd:Q1054574 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "2020-11-13T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/U-Turn> rdfs:label "U-Turn"@en ;
+    wdt:P136 wd:Q200092 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "2020-10-30T00:00:00+00:00"^^xsd:dateTime .
+

@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Basin_City> rdfs:label "Justice League Watchtower"@en ;
+    wdt:P1441 wd:Q10318224 ;
+    wdt:P31 wd:Q13406463,
+        wd:Q18572946 ;
+    wdt:P360 wd:Q3895768 ;
+    wdt:P466 wd:Q373933 .
+
+<https://example.org/resource/Gotham_City> rdfs:label "Justice League Watchtower"@en ;
+    wdt:P1080 wd:Q1152150 ;
+    wdt:P1441 wd:Q10318224,
+        wd:Q2695156 ;
+    wdt:P31 wd:Q13406463,
+        wd:Q18572946 ;
+    wdt:P360 wd:Q3895768 ;
+    wdt:P466 wd:Q2924461 ;
+    wdt:P50 wd:Q313048,
+        wd:Q464282 .
+

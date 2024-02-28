@@ -1,0 +1,880 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/101_Ways_to_Die> rdfs:label "101 Ways to Die"@en ;
+    wdt:P178 wd:Q5475149 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2016-03-22T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P856 <https://www.gameinformer.com/b/news/archive/2016/09/26/2016-video-game-release-schedule.aspx> .
+
+<https://example.org/resource/20_Bunnies> rdfs:label "20 Bunnies"@en ;
+    wdt:P136 wd:Q13698,
+        wd:Q343542 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2021-11-18T00:00:00+00:00"^^xsd:dateTime,
+        "2021-11-19T00:00:00+00:00"^^xsd:dateTime,
+        "2022-05-02T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 <https://store.playstation.com/en-us/concept/10003781> .
+
+<https://example.org/resource/2urvive> rdfs:label "2urvive"@en ;
+    wdt:P136 wd:Q270948 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860,
+        wd:Q652 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P577 "2021-11-15T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.2badgames.com/> .
+
+<https://example.org/resource/39_Days_to_Mars> rdfs:label "39 Days to Mars"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q2762504 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850,
+        wd:Q6895044 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2019-10-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q60256879 ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <http://www.itsanecdotal.com/39-days-to-mars> .
+
+<https://example.org/resource/3D_Billiards> rdfs:label "3D Billiards"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q2762504 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850,
+        wd:Q6895044 ;
+    wdt:P407 wd:Q1321,
+        wd:Q1860 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q183 ;
+    wdt:P577 "2017-12-19T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q60256879 ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <http://www.z-software.com/> .
+
+<https://example.org/resource/3D_MiniGolf> rdfs:label "3D MiniGolf"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q2762504 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850,
+        wd:Q6895044 ;
+    wdt:P407 wd:Q1321,
+        wd:Q1860 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q183 ;
+    wdt:P577 "2017-08-15T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q60256879 ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <http://www.z-software.com/> .
+
+<https://example.org/resource/3_Minutes_to_Midnight> rdfs:label "3 Minutes to Midnight"@en ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.scarecrow-studio.com/3-minutes-to-midnight> .
+
+<https://example.org/resource/60_Parsecs!> rdfs:label "60 Parsecs!"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q2762504 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850,
+        wd:Q6895044 ;
+    wdt:P407 wd:Q1321,
+        wd:Q1860 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q36 ;
+    wdt:P577 "2020-12-18T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q106152664 ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <http://robotgentleman.com/60parsecs> .
+
+<https://example.org/resource/7th_Sector> wdt:P123 wd:Q100871863 ;
+    wdt:P136 wd:Q343568 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2020-02-05T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/8-bit_Adventure_Anthology:_Volume_I> wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2017-10-31T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/88_Heroes> wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q828322 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2017-03-24T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P852 wd:Q14864329 .
+
+<https://example.org/resource/8_to_Glory> wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q868217 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2018-07-31T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/9_-_Nine-> wdt:P123 wd:Q100871863 ;
+    wdt:P136 wd:Q689445 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2022-06-23T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/9th_Dawn_III> wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q1265717,
+        wd:Q1422746 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2020-10-06T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/AER_Memories_of_Old> rdfs:label "AER: Memories of Old"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q2762504 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860,
+        wd:Q188 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q183 ;
+    wdt:P577 "2017-10-25T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.daedalic.com/aer> .
+
+<https://example.org/resource/AI-Limit> rdfs:label "AI-Limit"@en ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/AIPD> rdfs:label "AIPD"@en ;
+    wdt:P136 wd:Q1044478 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2016-01-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/A_Fold_Apart> rdfs:label "A Fold Apart"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q54767 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2020-05-19T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://gameinformer.com/> .
+
+<https://example.org/resource/A_Healer_Only_Lives_Twice> rdfs:label "A Healer Only Lives Twice"@en ;
+    wdt:P123 wd:Q7202313 ;
+    wdt:P136 wd:Q1265717 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2017-07-25T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/A_Hole_New_World> rdfs:label "A Hole New World"@en ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2017-10-06T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/A_Jugglers_Tale> rdfs:label "A Juggler's Tale"@en ;
+    wdt:P136 wd:Q54767,
+        wd:Q828322 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2021-09-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Aaero> rdfs:label "Aaero"@en ;
+    wdt:P136 wd:Q1044478,
+        wd:Q2762504,
+        wd:Q4282636 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P179 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q13361286,
+        wd:Q1406,
+        wd:Q14116,
+        wd:Q19610114,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1321,
+        wd:Q150,
+        wd:Q1860,
+        wd:Q188,
+        wd:Q7737 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P4151 wd:Q115198281 ;
+    wdt:P437 wd:Q269415,
+        wd:Q54820071 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2017-04-11T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q135288,
+        wd:Q337535,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.madfellowsgames.com/> .
+
+<https://example.org/resource/Aaru's_Awakening> rdfs:label "Aaru's Awakening"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2015-04-07T00:00:00+00:00"^^xsd:dateTime,
+        "2015-04-08T00:00:00+00:00"^^xsd:dateTime,
+        "2015-08-05T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.lumenoxgames.com/> .
+
+<https://example.org/resource/Abyss:_The_Wraiths_of_Eden> rdfs:label "Abyss: The Wraiths of Eden"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2017-10-20T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.artifexmundi.com/page/abyss/> .
+
+<https://example.org/resource/Ace_of_Seafood> rdfs:label "Ace of Seafood"@en ;
+    wdt:P123 wd:Q17238705 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860,
+        wd:Q5287 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "2017-11-09T00:00:00+00:00"^^xsd:dateTime,
+        "2017-11-11T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.playism.com/ace-of-seafood/> .
+
+<https://example.org/resource/Aces_of_the_Luftwaffe> rdfs:label "Aces of the Luftwaffe"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q5647718 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860,
+        wd:Q188 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2015-02-25T00:00:00+00:00"^^xsd:dateTime,
+        "2018-05-19T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.handy-games.com/> .
+
+<https://example.org/resource/Act_It_Out!_A_Game_of_Charades> rdfs:label "Act It Out! A Game of Charades"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2016-01-05T00:00:00+00:00"^^xsd:dateTime,
+        "2016-01-12T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.snapfingerclick.com/> .
+
+<https://example.org/resource/Action_Henk> rdfs:label "Action Henk"@en ;
+    wdt:P123 wd:Q16988330 ;
+    wdt:P136 wd:Q54767 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P179 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q13361286,
+        wd:Q1406,
+        wd:Q188808,
+        wd:Q19610114,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1321,
+        wd:Q150,
+        wd:Q1860,
+        wd:Q188,
+        wd:Q7737 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P4151 wd:Q115198281 ;
+    wdt:P437 wd:Q269415,
+        wd:Q54820071 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2016-03-08T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q135288,
+        wd:Q337535,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.ragesquid.com/action-henk> .
+
+<https://example.org/resource/Active_Neurons> rdfs:label "Active Neurons"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q2762504 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2020-04-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://store.steampowered.com/app/1263170/Active_Neurons_2/> .
+
+<https://example.org/resource/Adventures_of_Scarlet_Curiosity> rdfs:label "Adventures of Scarlet Curiosity"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q1422746 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q5287 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "2016-09-27T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q15614041 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://mediascape.co.jp/scarlet-curiosity> .
+
+<https://example.org/resource/Aeon_Must_Die> rdfs:label "Aeon Must Die!"@en ;
+    wdt:P136 wd:Q401831,
+        wd:Q54767 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P179 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q13361286,
+        wd:Q1406,
+        wd:Q188808,
+        wd:Q19610114,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1321,
+        wd:Q150,
+        wd:Q1860,
+        wd:Q188,
+        wd:Q7737 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P4151 wd:Q115198281 ;
+    wdt:P437 wd:Q269415,
+        wd:Q54820071 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2021-10-14T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q135288,
+        wd:Q337535,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.focus-home.com/games/aeon-must-die> .
+
+<https://example.org/resource/Aeterna_Noctis> rdfs:label "Aeterna Noctis"@en ;
+    wdt:P123 wd:Q100871652 ;
+    wdt:P136 wd:Q19643088 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2021-12-15T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.gematsu.com/2021/09/aeterna-noctis-launches-december-15-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc> .
+
+<https://example.org/resource/AeternoBlade> rdfs:label "AeternoBlade"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2016-04-26T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://blog.us.playstation.com/2015/08/02/the-drop-new-playstation-games-for-842015/> .
+
+<https://example.org/resource/AeternoBlade_II> rdfs:label "AeternoBlade II"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2019-10-11T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.vg247.com/2019/09/30/video-game-release-dates-2019/> .
+
+<https://example.org/resource/Agatha_Christie_Hercule_Poirot_The_First_Cases> rdfs:label "Agatha Christie – Hercule Poirot: The First Cases"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2021-09-28T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Aggelos> rdfs:label "Aggelos"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q1422746 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2020-07-30T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.vg247.com/2019/09/30/video-game-release-dates-2019/> .
+
+<https://example.org/resource/Aikano:_Yukizora_no_Triangle> rdfs:label "Aikano: Yukizora no Triangle"@en ;
+    wdt:P136 wd:Q689445 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2020-10-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Aircraft_Evolution> rdfs:label "Aircraft Evolution"@en ;
+    wdt:P136 wd:Q343542 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2020-07-22T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Airship_Q> rdfs:label "Airship Q"@en ;
+    wdt:P136 wd:Q1422746 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2015-11-19T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Akita_Oga_Mystery_Guide_The_Frozen_Silverbell_Flower> rdfs:label "Akita Oga Mystery Guide: The Frozen Silverbell Flower"@en ;
+    wdt:P136 wd:Q23916 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2021-03-18T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Alaloth_Champions_of_The_Four_Kingdoms> rdfs:label "Alaloth: Champions of The Four Kingdoms"@en ;
+    wdt:P123 wd:Q687240 ;
+    wdt:P136 wd:Q1422746 ;
+    wdt:P178 wd:Q687240 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/All-Star_Fruit_Racing> rdfs:label "All-Star Fruit Racing"@en ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2018-07-13T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Amazing_Discoveries_in_Outer_Space> wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/140%20%28video%20game%29%20Logo.svg> ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q14116,
+        wd:Q19610114,
+        wd:Q388,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1321,
+        wd:Q13955,
+        wd:Q1412,
+        wd:Q150,
+        wd:Q1860,
+        wd:Q188,
+        wd:Q256,
+        wd:Q5146,
+        wd:Q5287,
+        wd:Q652,
+        wd:Q7411,
+        wd:Q750553,
+        wd:Q7737,
+        wd:Q7913,
+        wd:Q7918,
+        wd:Q809,
+        wd:Q8798,
+        wd:Q9027,
+        wd:Q9035,
+        wd:Q9043,
+        wd:Q9056,
+        wd:Q9067,
+        wd:Q9129,
+        wd:Q9176,
+        wd:Q9217 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P4151 wd:Q115198281 ;
+    wdt:P437 wd:Q269415,
+        wd:Q54820071 ;
+    wdt:P495 wd:Q34 ;
+    wdt:P577 "2016-02-02T00:00:00+00:00"^^xsd:dateTime,
+        "2016-02-03T00:00:00+00:00"^^xsd:dateTime,
+        "2016-08-30T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7294 <https://carlsenjeppe.itch.io/140> ;
+    wdt:P750 wd:Q1052025,
+        wd:Q107542665,
+        wd:Q135288,
+        wd:Q1486288,
+        wd:Q3070866,
+        wd:Q337535,
+        wd:Q42328566,
+        wd:Q59421242 ;
+    wdt:P852 wd:Q14864328 ;
+    wdt:P856 <http://cosmicpicnic.com/> .
+
+<https://example.org/resource/American_Fugitive> rdfs:label "American Fugitive"@en ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1321,
+        wd:Q1860,
+        wd:Q5287 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2020-01-30T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.americanfugitive.com/> .
+
+<https://example.org/resource/Amoeba_Battle:_Microscopic_RTS_Action> rdfs:label "Amoeba Battle: Microscopic RTS Action"@en ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1321,
+        wd:Q1860,
+        wd:Q5287 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2020-03-03T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://grab-games.com/amoeba-battle/> .
+
+<https://example.org/resource/Anarcute> wdt:P123 wd:Q100871652 ;
+    wdt:P136 wd:Q270948 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2018-02-20T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Anew:_The_Distant_Light> wdt:P123 wd:Q100871652 ;
+    wdt:P136 wd:Q270948,
+        wd:Q54767 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P750 wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/AngerForce:_Reloaded> wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q1044478 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850,
+        wd:Q6895044 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2019-04-02T00:00:00+00:00"^^xsd:dateTime,
+        "2019-08-08T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Anima:_Gate_of_Memories_-_The_Nameless_Chronicles> wdt:P123 wd:Q100871652 ;
+    wdt:P136 wd:Q1422746 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P750 wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Anime_Studio_Story> wdt:P123 wd:Q100871652 ;
+    wdt:P136 wd:Q1610017 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P750 wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Ankora:_Lost_Days> wdt:P123 wd:Q100871652 ;
+    wdt:P136 wd:Q21030988 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P750 wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Funtime> rdfs:label "#Funtime"@en ;
+    wdt:P136 wd:Q1044478 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2020-07-15T00:00:00+00:00"^^xsd:dateTime,
+        "2020-07-16T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.gamasutra.com/view/pressreleases/366542/Funtime_launches_today_for_Nintendo_Switch_Xbox_PlayStation_and_Steam_with_a_first_week_discount_of_25_off.php> .
+
+<https://example.org/resource/The_25th_Ward:_The_Silver_Case> rdfs:label "The 25th Ward: The Silver Case"@en ;
+    wdt:P136 wd:Q689445 ;
+    wdt:P178 wd:Q1191897 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2018-03-13T00:00:00+00:00"^^xsd:dateTime,
+        "2018-03-15T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 .
+
+<https://example.org/resource/The_Adventure_Pals> rdfs:label "The Adventure Pals"@en ;
+    wdt:P123 wd:Q688839 ;
+    wdt:P136 wd:Q54767,
+        wd:Q744038 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P179 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q13361286,
+        wd:Q1406,
+        wd:Q188808,
+        wd:Q19610114,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1321,
+        wd:Q150,
+        wd:Q1860,
+        wd:Q188,
+        wd:Q7737 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P4151 wd:Q115198281 ;
+    wdt:P437 wd:Q269415,
+        wd:Q54820071 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2018-04-03T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q135288,
+        wd:Q337535,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://massivemonster.co.uk/the-adventure-pals> .
+
+<https://example.org/resource/The_Alliance_Alive_HD_Remastered> rdfs:label "The Alliance Alive HD Remastered"@en ;
+    wdt:P123 wd:Q11333792 ;
+    wdt:P136 wd:Q744038 ;
+    wdt:P178 wd:Q11297168 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2019-10-10T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/The_Alto_Collection> rdfs:label "The Alto Collection"@en ;
+    wdt:P123 wd:Q28162866 ;
+    wdt:P136 wd:Q57775833 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P179 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q19610114,
+        wd:Q5014725,
+        wd:Q94 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1321,
+        wd:Q150,
+        wd:Q1860,
+        wd:Q188,
+        wd:Q7737 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P4151 wd:Q115198281 ;
+    wdt:P437 wd:Q269415,
+        wd:Q54820071 ;
+    wdt:P495 wd:Q16 ;
+    wdt:P577 "2020-08-13T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q337535,
+        wd:Q42328566,
+        wd:Q79576 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.altosadventure.com/> .
+
+<https://example.org/resource/The_Amazing_American_Circus> rdfs:label "The Amazing American Circus"@en ;
+    wdt:P136 wd:Q1143997 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q36 ;
+    wdt:P577 "2021-05-20T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.gamepressure.com/games/the-amazing-american-circus/z25d7b> .
+
+<https://example.org/resource/The_Amazing_Spider-Man_2> rdfs:label "The Amazing Spider-Man 2"@en ;
+    wdt:P123 wd:Q200491 ;
+    wdt:P136 wd:Q343568 ;
+    wdt:P178 wd:Q775346 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q269415 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2014-09-04T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.activision.com/games/the-amazing-spider-man-2> .
+
+<https://example.org/resource/killallzombies> rdfs:label "#killallzombies"@en ;
+    wdt:P123 wd:Q4877287 ;
+    wdt:P136 wd:Q4282636 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P577 "2014-10-28T00:00:00+00:00"^^xsd:dateTime,
+        "2014-11-12T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P856 <https://blog.playstation.com/2014/10/26/the-drop-new-playstation-games-for-10282014/> .
+

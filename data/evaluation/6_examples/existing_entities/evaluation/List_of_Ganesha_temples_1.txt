@@ -1,0 +1,175 @@
+In both
+<https://example.org/resource/Siddhivinayak_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1156> .
+<https://example.org/resource/Kasba_Ganapati> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Kottarakkara_Sree_Mahaganapathi_Kshethram> <http://www.w3.org/2000/01/rdf-schema#label> "Kottarakkara Sree Mahaganapathi Kshethram"@en .
+<https://example.org/resource/Kottarakkara_Sree_Mahaganapathi_Kshethram> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Varasiddhi_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Sree_Indilayappan_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Sree Indilayappan Temple"@en .
+<https://example.org/resource/Varasiddhi_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Kalamassery_Mahaganapathy_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Ganpatipule> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1771768> .
+<https://example.org/resource/Siddhivinayak_Mahaganapati_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Siddhivinayak Mahaganapati Temple"@en .
+<https://example.org/resource/Nandrudayan_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Padmalaya> <http://www.w3.org/2000/01/rdf-schema#label> "Padmalaya"@en .
+<https://example.org/resource/Uthrapathiswaraswamy_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Kanipakam_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q11055174> .
+<https://example.org/resource/Nandrudayan_Vinayaka_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Nandrudayan Vinayaka Temple"@en .
+<https://example.org/resource/Tarsod-Ganapati_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Madhur_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1419703> .
+<https://example.org/resource/Kumara_Swamy_Devasthana,_Bangalore> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Khajrana_Ganesh_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Khajrana Ganesh Temple"@en .
+<https://example.org/resource/Nandrudayan_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Kottarakkara_Sree_Mahaganapathi_Kshethram> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Kasba_Ganapati> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Mahavinayak_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Mahavinayak Temple"@en .
+<https://example.org/resource/Madhur_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Madhur Temple"@en .
+<https://example.org/resource/Ranjangaon_Ganpati> <http://www.w3.org/2000/01/rdf-schema#label> "Ranjangaon Ganpati"@en .
+<https://example.org/resource/Swetha_Vinayagar_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Swetha Vinayagar Temple"@en .
+<https://example.org/resource/Swayambhu_Sri_Abhista_Gnana_Ganapathi_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Thoondugai_vinayagar_temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Tarsod-Ganapati_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Tarsod-Ganapati Temple"@en .
+<https://example.org/resource/Madhur_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Kasba_Ganapati> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1538> .
+<https://example.org/resource/Ganpatipule> <http://www.w3.org/2000/01/rdf-schema#label> "Ganpatipule"@en .
+<https://example.org/resource/Uthrapathiswaraswamy_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Uthrapathiswaraswamy Temple"@en .
+<https://example.org/resource/Karpaka_Vinayakar_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Kalamassery_Mahaganapathy_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Kumara_Swamy_Devasthana,_Bangalore> <http://www.w3.org/2000/01/rdf-schema#label> "Kumara Swamy Devasthana, Bangalore"@en .
+<https://example.org/resource/Thoondugai_vinayagar_temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Siddhivinayak_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Kanipakam_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Khajrana_Ganesh_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Siddhivinayak_Mahaganapati_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Sree_Indilayappan_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Thoondugai_vinayagar_temple> <http://www.w3.org/2000/01/rdf-schema#label> "Thoondugai vinayagar temple"@en .
+<https://example.org/resource/Maha_Ganapathi_Mahammaya_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Maha Ganapathi Mahammaya Temple"@en .
+<https://example.org/resource/Kanipakam_Vinayaka_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Kanipakam Vinayaka Temple"@en .
+<https://example.org/resource/Karpaka_Vinayakar_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Maha_Ganapathi_Mahammaya_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/ShiraliMahaGanapathy.jpg> .
+<https://example.org/resource/Mahavinayak_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Pazhavangadi_Ganapathy_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q162612> .
+<https://example.org/resource/Varasiddhi_Vinayaka_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Varasiddhi Vinayaka Temple"@en .
+<https://example.org/resource/Ganpatipule> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Mahavinayak_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Tarsod-Ganapati_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Mahavinayak_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mahabinayak%20temple.jpg> .
+<https://example.org/resource/Mahavinayak_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2087771> .
+<https://example.org/resource/Swetha_Vinayagar_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Karpaka_Vinayakar_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Karpaka Vinayakar Temple"@en .
+<https://example.org/resource/Siddhivinayak_Mahaganapati_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Sree_Indilayappan_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Pazhavangadi_Ganapathy_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Maha_Ganapathi_Mahammaya_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Ranjangaon_Ganpati> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Kalamassery_Mahaganapathy_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Kalamassery Mahaganapathy Temple"@en .
+<https://example.org/resource/Siddhivinayak_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Swetha_Vinayagar_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Madhur_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Pazhavangadi_Ganapathy_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Uthrapathiswaraswamy_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Padmalaya> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Khajrana_Ganesh_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Swayambhu_Sri_Abhista_Gnana_Ganapathi_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Swayambhu Sri Abhista Gnana Ganapathi Temple"@en .
+<https://example.org/resource/Kumara_Swamy_Devasthana,_Bangalore> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+In ground only
+<https://example.org/resource/Ganesha_Temple,_Idagunji> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1185> .
+<https://example.org/resource/Kasba_Ganapati> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q6374070> .
+<https://example.org/resource/Ganpatipule> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q15135589> .
+<https://example.org/resource/Ganpatipule> <http://www.wikidata.org/prop/direct/P2044> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Thoondugai_vinayagar_temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1445> .
+<https://example.org/resource/Siddhivinayak_Mahaganapati_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Siddhivinayak%20Mahaganapati%20Temple%20Titwala.jpg> .
+<https://example.org/resource/Ucchi_Pillayar_Temple,_Rockfort> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/%E0%B4%A4%E0%B4%BF%E0%B4%B0%E0%B5%81%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%BF%E0%B4%AE%E0%B4%B2%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%8B%E0%B4%9F%E0%B5%8D%E0%B4%9F.jpg> .
+<https://example.org/resource/Swetha_Vinayagar_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q15194> .
+<https://example.org/resource/Ganesha_Temple,_Idagunji> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Entrance%20to%20Shri%20Ganesh%20Temple%20at%20Gokarna%20-%20panoramio.jpg> .
+<https://example.org/resource/Sree_Indilayappan_Temple> <http://www.wikidata.org/prop/direct/P443> <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q36236%20%28mal%29-Akhilan-%E0%B4%B6%E0%B5%8D%E0%B4%B0%E0%B5%80%20%E0%B4%87%E0%B4%A3%E0%B5%8D%E0%B4%9F%E0%B4%BF%E0%B4%B3%E0%B4%AF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%BB%20%E0%B4%95%E0%B5%8D%E0%B4%B7%E0%B5%87%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%82.wav> .
+<https://example.org/resource/Ucchi_Pillayar_Temple,_Rockfort> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1445> .
+<https://example.org/resource/Kanipakam_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q44539> .
+<https://example.org/resource/Karpaka_Vinayakar_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Pillayarpatti%20temple.jpg> .
+<https://example.org/resource/Ucchi_Pillayar_Temple,_Rockfort> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Kasba_Ganapati> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q73852346> .
+<https://example.org/resource/Kottarakkara_Sree_Mahaganapathi_Kshethram> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1356124> .
+<https://example.org/resource/Swayambhu_Sri_Abhista_Gnana_Ganapathi_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1159> .
+<https://example.org/resource/Karpaka_Vinayakar_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1445> .
+<https://example.org/resource/Siddhivinayak_Mahaganapati_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1191> .
+<https://example.org/resource/Swayambhu_Sri_Abhista_Gnana_Ganapathi_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q486972> .
+<https://example.org/resource/Kottarakkara_Sree_Mahaganapathi_Kshethram> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kottarakkara%20Temple%28HighResoluion%29.jpg> .
+<https://example.org/resource/Ganpatipule> <http://www.wikidata.org/prop/direct/P948> <http://commons.wikimedia.org/wiki/Special:FilePath/Ganpatipule%20Wikivoyage%20Banner.jpg> .
+<https://example.org/resource/Dashabhuja_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Siddhivinayak_Temple> <http://www.wikidata.org/prop/direct/P856> <http://siddhivinayak.org> .
+<https://example.org/resource/Ucchi_Pillayar_Temple,_Rockfort> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Pazhavangadi_Ganapathy_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Pazhavangadi Ganapathi Temple"@en .
+<https://example.org/resource/Kanipakam_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P856> <http://www.kanipakam.com/home.html> .
+<https://example.org/resource/Kalamassery_Mahaganapathy_Temple> <http://www.wikidata.org/prop/direct/P443> <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q36236%20%28mal%29-Adithyak1997-%E0%B4%95%E0%B4%B3%E0%B4%AE%E0%B4%B6%E0%B5%8D%E0%B4%B6%E0%B5%87%E0%B4%B0%E0%B4%BF%20%E0%B4%AE%E0%B4%B9%E0%B4%BE%E0%B4%97%E0%B4%A3%E0%B4%AA%E0%B4%A4%E0%B4%BF%20%E0%B4%95%E0%B5%8D%E0%B4%B7%E0%B5%87%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%82.wav> .
+<https://example.org/resource/Kasba_Ganapati> <http://www.w3.org/2000/01/rdf-schema#label> "Kasba Ganapati Temple"@en .
+<https://example.org/resource/Ganpatipule> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q486972> .
+<https://example.org/resource/Pazhavangadi_Ganapathy_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q167715> .
+<https://example.org/resource/Dashabhuja_Temple> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Sri_Vinayaka_Temple,_Guddattu> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Kalamassery_Mahaganapathy_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1186> .
+<https://example.org/resource/Ucchi_Pillayar_Temple,_Rockfort> <http://www.w3.org/2000/01/rdf-schema#label> "manikka vinagar"@en .
+<https://example.org/resource/Swayambhu_Sri_Abhista_Gnana_Ganapathi_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Knl-ganapathi.jpg> .
+<https://example.org/resource/Maha_Ganapathi_Mahammaya_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q44539> .
+<https://example.org/resource/Sree_Indilayappan_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1356124> .
+<https://example.org/resource/Siddhivinayak_Temple> <http://www.wikidata.org/prop/direct/P443> <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q1571%20%28mar%29-Neelima64-%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BE%E0%A4%AF%E0%A4%95%20%E0%A4%AE%E0%A4%82%E0%A4%A6%E0%A4%BF%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%81%E0%A4%82%E0%A4%AC%E0%A4%88.wav> .
+<https://example.org/resource/Pazhavangadi_Ganapathy_Temple> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q1579> .
+<https://example.org/resource/Dashabhuja_Temple> <http://www.wikidata.org/prop/direct/P856> <http://www.sdspune.in/html/dashabhuja_temple.html> .
+<https://example.org/resource/Ganesha_Temple,_Idagunji> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Ganpatipule> <http://www.wikidata.org/prop/direct/P421> <http://www.wikidata.org/entity/Q6828> .
+<https://example.org/resource/Ganesha_Temple,_Idagunji> <http://www.w3.org/2000/01/rdf-schema#label> "Ganesha Temple, Idagunji"@en .
+<https://example.org/resource/Uthrapathiswaraswamy_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q15185> .
+<https://example.org/resource/Kasba_Ganapati> <http://www.wikidata.org/prop/direct/P6375> "Ramganesh Gadkari Path, Chhatrapati Shivaji Maharaj Rd, Kasba Peth, Pune, Maharashtra 411011"@en .
+<https://example.org/resource/Padmalaya> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q30951> .
+<https://example.org/resource/Sri_Vinayaka_Temple,_Guddattu> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1483337> .
+<https://example.org/resource/Ranjangaon_Ganpati> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q44539> .
+<https://example.org/resource/Swetha_Vinayagar_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Thiruvalanchuzhi%20temple%20entrance.JPG> .
+<https://example.org/resource/Sri_Vinayaka_Temple,_Guddattu> <http://www.w3.org/2000/01/rdf-schema#label> "Sri Vinayaka Temple, Guddattu"@en .
+<https://example.org/resource/Ganesha_Temple,_Idagunji> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q44539> .
+<https://example.org/resource/Kasba_Ganapati> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kasba%20Ganpati%20Mandir%2001.JPG> .
+<https://example.org/resource/Dashabhuja_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Dashabhuja Temple"@en .
+<https://example.org/resource/Siddhivinayak_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Shree%20Siddhivinayak%20Temple%20Mumbai.jpg> .
+<https://example.org/resource/Sree_Indilayappan_Temple> <http://www.wikidata.org/prop/direct/P856> <http://marayikkodu.org> .
+<https://example.org/resource/Ranjangaon_Ganpati> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ranjangaon%20Mahaganapati%20Temple%20entrance%20view.jpg> .
+<https://example.org/resource/Pazhavangadi_Ganapathy_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Pazhavangadi%20ganapathi%20temple%2002.JPG> .
+<https://example.org/resource/Ganpatipule> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/A%20Beach%20at%20GanapatiPule.jpg> .
+<https://example.org/resource/Pazhavangadi_Ganapathy_Temple> <http://www.wikidata.org/prop/direct/P856> <http://pazhavangadiganapathy.com/Default.aspx> .
+<https://example.org/resource/Dashabhuja_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1191> .
+<https://example.org/resource/Sri_Vinayaka_Temple,_Guddattu> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Sree_Indilayappan_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/%E0%B4%87%E0%B4%A3%E0%B5%8D%E0%B4%9F%E0%B4%BF%E0%B4%B3%E0%B4%AF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B4%A8%E0%B5%8D%E2%80%8D%20%E0%B4%95%E0%B5%8D%E0%B4%B7%E0%B5%87%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%82.jpg> .
+<https://example.org/resource/Kanipakam_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kanipakam%20Temple.jpg> .
+<https://example.org/resource/Siddhivinayak_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Siddhivinayak Temple, Mumbai"@en .
+In predicted only
+<https://example.org/resource/Tarsod-Ganapati_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1797291> .
+<https://example.org/resource/Pazhavangadi_Ganapathy_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Pazhavangadi Ganapathy Temple"@en .
+<https://example.org/resource/Khajrana_Ganesh_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q66616> .
+<https://example.org/resource/Kanipakam_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kanipakam%20Temple%20Gopuram%20view.jpg> .
+<https://example.org/resource/Varasiddhi_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1352> .
+<https://example.org/resource/Ganpatipule> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ganpati%20Temple,%20Ganpatipule.JPG> .
+<https://example.org/resource/Kasba_Ganapati> <http://www.w3.org/2000/01/rdf-schema#label> "Kasba Ganapati"@en .
+<https://example.org/resource/Kottarakkara_Sree_Mahaganapathi_Kshethram> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kottarakkara%20Temple(HighResoluion).jpg> .
+<https://example.org/resource/Sree_Indilayappan_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/ഇണ്ടിളയപ്പന്‍%20ക്ഷേത്രം.jpg> .
+<https://example.org/resource/Ucchi_Pillayar_Temple_Rockfort> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q207754> .
+<https://example.org/resource/Swayambhu_Sri_Abhista_Gnana_Ganapathi_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Kumara_Swamy_Devasthana,_Bangalore> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1355> .
+<https://example.org/resource/Siddhivinayak_Temple> <http://www.w3.org/2000/01/rdf-schema#label> "Siddhivinayak Temple"@en .
+<https://example.org/resource/Uthrapathiswaraswamy_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q15197> .
+<https://example.org/resource/Sri_Vinayaka_Temple_Guddattu> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Nandrudayan_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q207754> .
+<https://example.org/resource/Maha_Ganapathi_Mahammaya_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Sri_Vinayaka_Temple_Guddattu> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Sri_Vinayaka_Temple_Guddattu> <http://www.w3.org/2000/01/rdf-schema#label> "Sri Vinayaka Temple, Guddattu"@en .
+<https://example.org/resource/Ucchi_Pillayar_Temple_Rockfort> <http://www.w3.org/2000/01/rdf-schema#label> "Ucchi Pillayar Temple, Rockfort"@en .
+<https://example.org/resource/Ranjangaon_Ganpati> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ranjangaon%20Mahaganapati%20Temple%20Viman.jpg> .
+<https://example.org/resource/Swayambhu_Sri_Abhista_Gnana_Ganapathi_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/knl-ganapathi.jpg> .
+<https://example.org/resource/Swayambhu_Sri_Abhista_Gnana_Ganapathi_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3635276> .
+<https://example.org/resource/Ucchi_Pillayar_Temple_Rockfort> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Ucchi_Pillayar_Temple_Rockfort> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Ranjangaon_Ganpati> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Kasba_Ganapati> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/KasbaganpatiMandir.JPG> .
+<https://example.org/resource/Kalamassery_Mahaganapathy_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2475675> .
+<https://example.org/resource/Ganpatipule> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Siddhivinayak_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Famous%20SiddhiVinayak%20Temple.jpg> .
+<https://example.org/resource/Madhur_Temple> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ananteshwara%20Vinayaka%20Temple.jpg> .
+<https://example.org/resource/Padmalaya> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Padmalaya%20temple.jpeg> .
+<https://example.org/resource/Sree_Indilayappan_Temple> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q6370488> .
+<https://example.org/resource/Kanipakam_Vinayaka_Temple> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .
+<https://example.org/resource/Padmalaya> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q842402> .

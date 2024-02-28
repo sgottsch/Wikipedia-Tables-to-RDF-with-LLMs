@@ -1,0 +1,294 @@
+In both
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Ruby_City> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Ruby_City> <http://www.w3.org/2000/01/rdf-schema#label> "Ruby City"@en .
+<https://example.org/resource/USAF_Airman_Heritage_Museum> <http://www.w3.org/2000/01/rdf-schema#label> "USAF Airman Heritage Museum"@en .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q207694> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q207694> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Yturriedmunds1.jpg> .
+<https://example.org/resource/O._Henry_House_Museum> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.w3.org/2000/01/rdf-schema#label> "United States Army Medical Department Museum"@en .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P6375> "401 King William St."@en .
+<https://example.org/resource/Witte_Museum> <http://www.w3.org/2000/01/rdf-schema#label> "Witte Museum"@en .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.w3.org/2000/01/rdf-schema#label> "San Antonio Museum of Art"@en .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.w3.org/2000/01/rdf-schema#label> "Spanish Governor's Palace"@en .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.w3.org/2000/01/rdf-schema#label> "San Antonio Missions National Historical Park"@en .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.w3.org/2000/01/rdf-schema#label> "Texas Transportation Museum"@en .
+<https://example.org/resource/Holocaust_Memorial_Museum_of_San_Antonio> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q624232> .
+<https://example.org/resource/O._Henry_House_Museum> <http://www.w3.org/2000/01/rdf-schema#label> "O. Henry House Museum"@en .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.w3.org/2000/01/rdf-schema#label> "McNay Art Museum"@en .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Norton%20polk%20mathis%20house%202014.jpg> .
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Holocaust_Memorial_Museum_of_San_Antonio> <http://www.w3.org/2000/01/rdf-schema#label> "Holocaust Memorial Museum of San Antonio"@en .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/San%20Antonio%20TX%20Spanish%20Govenors%20Palace.jpg> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+In ground only
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q2842325> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P571> "1749-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P30> <http://www.wikidata.org/entity/Q49> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P1128> "3654"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3947> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q107004788> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P30> <http://www.wikidata.org/entity/Q49> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P2872> <http://www.wikidata.org/entity/Q70494311> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P10225> <https://www.mcnayart.org/shop/> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q20650454> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q7302881> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P1454> <http://www.wikidata.org/entity/Q18325436> .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P856> <http://www.wittemuseum.org/> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P6375> "200 West Jones Avenue"@en .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P2795> "2 blocks west of Broadway"@en .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P2643> <http://www.wikidata.org/entity/Q23623483> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q10936680> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P856> <http://villafinale.org> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q107004691> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Texas%20at%20San%20Antonio%20wordmark.svg> .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q1129142> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P7867> <http://www.wikidata.org/entity/Q84050822> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q6765269> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P8687> "56707"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P355> <http://www.wikidata.org/entity/Q21016293> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P2643> <http://www.wikidata.org/entity/Q113624884> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P856> <https://www.samuseum.org/> .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/United%20States%20Army%20Medical%20Department%20Museum.jpg> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P2643> <http://www.wikidata.org/entity/Q23622707> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.w3.org/2000/01/rdf-schema#label> "Institute of Texan Cultures"@en .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q385378> .
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P2139> "13251857"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mcnay%20front1%20Nima.JPG> .
+<https://example.org/resource/Texas_Air_Museum> <http://www.w3.org/2000/01/rdf-schema#label> "Texas Air Museum"@en .
+<https://example.org/resource/UTSA> <http://www.w3.org/2000/01/rdf-schema#label> "University of Texas at San Antonio"@en .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P5514> <http://www.wikidata.org/entity/Q2842849> .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.wikidata.org/prop/direct/P8687> "1054"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P968> <mailto:info@samuseum.org> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P6375> "105 Military Plaza"@en .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q930314> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P3876> <http://www.wikidata.org/entity/Q8884695> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q19558910> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P571> "1950-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P6375> "128 Mission Road"@en .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q23002039> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q7302881> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P30> <http://www.wikidata.org/entity/Q49> .
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.wikidata.org/prop/direct/P571> "1964-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q115690216> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P2139> "9490609"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q107005410> .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q6269109> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P2139> "9369360"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q19558910> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/SAMA%20%281%29.JPG> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.wikidata.org/prop/direct/P856> <http://www.txtransportationmuseum.org> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q61791539> .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P571> "1926-10-08T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P137> <http://www.wikidata.org/entity/Q308439> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q90757979> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mission%20Concepcion%20San%20Antonio.JPG> .
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3947> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q15100118> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q5148367> .
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Texas%20Transportation%20museum%20sign.JPG> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P7153> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3947> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P1830> <http://www.wikidata.org/entity/Q7339622> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P2643> <http://www.wikidata.org/entity/Q23662768> .
+<https://example.org/resource/O._Henry_House_Museum> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/OHenry%20house%20san%20antonio.jpg> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P4195> <http://www.wikidata.org/entity/Q8884699> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P856> <http://www.utsa.edu/> .
+<https://example.org/resource/O._Henry_House_Museum> <http://www.wikidata.org/prop/direct/P571> "1999-05-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P2196> "34742"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P2872> <http://www.wikidata.org/entity/Q70495359> .
+<https://example.org/resource/O._Henry_House_Museum> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P2139> "11228035"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P856> <https://www.mcnayart.org/> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q5059850> .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P6375> "205 E. Guenther St."@en .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P814> <http://www.wikidata.org/entity/Q14545646> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q385378> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q107003719> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P8687> "15666"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P5822> "0.84"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q3645460> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P1705> "Yturri-Edmunds House"@en .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15243209> .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P856> <https://www.guentherhouse.com> .
+<https://example.org/resource/O._Henry_House_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.w3.org/2000/01/rdf-schema#label> "Yturri-Edmunds House"@en .
+<https://example.org/resource/O._Henry_House_Museum> <http://www.wikidata.org/prop/direct/P856> <http://ohenryhouse.org/> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Entrance%20to%20Witte%20Museum%2C%20San%20Antonio%2C%20TX%20IMG%203113.JPG> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P1448> "Marion Koogler McNay Art Museum"@en .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P8093> "8576656"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q12069738> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q7302881> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P6269> <https://sso.it.utsa.edu/idp/shibboleth> .
+<https://example.org/resource/The_Guenther_House> <http://www.w3.org/2000/01/rdf-schema#label> "Guenther House"@en .
+<https://example.org/resource/Holocaust_Memorial_Museum_of_San_Antonio> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P2139> "10272533"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P10588> <http://www.wikidata.org/entity/Q3955006> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P1174> "229237"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P571> "1981-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Texas_Air_Museum> <http://www.wikidata.org/prop/direct/P856> <https://www.texasairmuseum.org/> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P856> <https://www.nps.gov/saan/index.htm> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q5137944> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P8687> "2403"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P112> <http://www.wikidata.org/entity/Q18562902> .
+<https://example.org/resource/Ruby_City> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ruby%20city%20outside.jpg> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/ITC%202005.jpg> .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Carl%20guenther%20house%202012.jpg> .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P8687> "18474"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P968> <mailto:itcweb@utsa.edu> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P1448> "Marion Koogler McNay Art Institute"@en .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P856> <http://www.texancultures.com/> .
+<https://example.org/resource/Ruby_City> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P2139> "8734761"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P5514> <http://www.wikidata.org/entity/Q2842849> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86116675> .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q385378> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P1454> <http://www.wikidata.org/entity/Q18325436> .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P6375> "Mission and Espada Rds. and San Jose Dr."@en .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P2936> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q385378> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P749> <http://www.wikidata.org/entity/Q2140391> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P8687> "84885"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q20650454> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P6375> "105 Plaza de Armas"@en .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P1448> "McNay Art Museum"@en .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P571> "1859-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P2139> "12009568"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q4810015> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P856> <https://www.spanishgovernorspalace.org/> .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P968> <mailto:info@wittemuseum.org> .
+<https://example.org/resource/Holocaust_Memorial_Museum_of_San_Antonio> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4306024> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/Holocaust_Memorial_Museum_of_San_Antonio> <http://www.wikidata.org/prop/direct/P856> <http://hmmsa.org/> .
+<https://example.org/resource/Texas_Air_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4828724> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P6375> "257 Yellowstone St."@en .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P8093> "6962481"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P5514> <http://www.wikidata.org/entity/Q2842849> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q1129142> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Ruby_City> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P571> "1968-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P2643> <http://www.wikidata.org/entity/Q23662490> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15836337> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P968> <mailto:info@mcnayart.org> .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q5054396> .
+<https://example.org/resource/Villa_Finale> <http://www.w3.org/2000/01/rdf-schema#label> "Norton-Polk-Mathis House"@en .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P1619> "1981-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P6375> "One UTSA Circle, San Antonio, TX, 78249-1644"@en .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q21527223> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P571> "1969-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q17045168> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q96203864> .
+<https://example.org/resource/Texas_Air_Museum> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q2772772> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q121096186> .
+<https://example.org/resource/The_Guenther_House> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q19558910> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q5148367> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q100329005> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P8687> "17974"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P1619> "1954-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P10263> "0.3"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/UTSA> <http://www.wikidata.org/prop/direct/P2643> <http://www.wikidata.org/entity/Q23662431> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q16896163> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q1129142> .
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.wikidata.org/prop/direct/P1174> "13013"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q19558910> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P710> <http://www.wikidata.org/entity/Q107005185> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P571> "1983-04-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P6375> "105 Plaza De Armas, San Antonio, TX 78205"@en .
+In predicted only
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/1911%20Baldwin%202-8-0%20Steam%20at%20Texas%20Transportation%20museum%204.JPG> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Texas_Air_Museum_at_Stinson_Field> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Holocaust_Memorial_Museum_of_San_Antonio> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q16861> .
+<https://example.org/resource/O._Henry_House_Museum> <http://www.wikidata.org/prop/direct/P856> <https://www.tshaonline.org/handbook/entries/o-henry-museum> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P856> <https://www.tshaonline.org/handbook/entries/marion-koogler-mcnay-art-museum> .
+<https://example.org/resource/USAF_Airman_Heritage_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/McNay_Art_Museum> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q16861> .
+<https://example.org/resource/Texas_Air_Museum_at_Stinson_Field> <http://www.w3.org/2000/01/rdf-schema#label> "Texas Air Museum at Stinson Field"@en .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P856> <https://www.texancultures.com/> .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.wikidata.org/prop/direct/P856> <https://www.cs.amedd.army.mil/amedd_site/museum/museum.html> .
+<https://example.org/resource/Holocaust_Memorial_Museum_of_San_Antonio> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P6375> "3801 Broadway St."@en .
+<https://example.org/resource/UTSA_art_galleries> <http://www.wikidata.org/prop/direct/P856> <https://art.utsa.edu/main-gallery> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P856> <https://www.tshaonline.org/handbook/entries/san-antonio-museum-of-art> .
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/UTSA_art_galleries> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P856> <https://www.saconservation.org/what-we-do/tours/yturri-edmunds-house-museum/> .
+<https://example.org/resource/Villa_Finale> <http://www.w3.org/2000/01/rdf-schema#label> "Villa Finale"@en .
+<https://example.org/resource/Texas_Air_Museum_at_Stinson_Field> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Ruby_City> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q207694> .
+<https://example.org/resource/Ruby_City> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q16861> .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P856> <https://www.visitsanantonio.com/plan-your-trip/see-san-antonio/spanish-governors-palace/> .
+<https://example.org/resource/San_Antonio_Museum_of_Art> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q16861> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/HemisFair%20Park%20May%202018%2013%20(Institute%20of%20Texan%20Cultures).jpg> .
+<https://example.org/resource/Texas_Transportation_Museum> <http://www.wikidata.org/prop/direct/P856> <https://texastimetravel.com/directory/texas-transportation-museum/> .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P856> <https://www.wittemuseum.org/> .
+<https://example.org/resource/UTSA_art_galleries> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/Witte_Museum> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Witte%20Museum%20Acrocanthosaurus.jpg> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P6375> "128 Mission Rd."@en .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/UTSA_art_galleries> <http://www.wikidata.org/prop/direct/P6375> "Main Art Gallery UTSA Department of Art & Art History"@en .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q46169> .
+<https://example.org/resource/Holocaust_Memorial_Museum_of_San_Antonio> <http://www.wikidata.org/prop/direct/P856> <https://atlas.thc.state.tx.us/Details/4200001143> .
+<https://example.org/resource/Texas_Air_Museum_at_Stinson_Field> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.w3.org/2000/01/rdf-schema#label> "Yturri-Edmunds Historic Site"@en .
+<https://example.org/resource/Spanish_Governor's_Palace> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q2087181> .
+<https://example.org/resource/UTSA_art_galleries> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/USAF_Airman_Heritage_Museum> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P856> <https://atlas.thc.state.tx.us/Details/4200000368> .
+<https://example.org/resource/USAF_Airman_Heritage_Museum> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/201103-F-GY993-100.jpg> .
+<https://example.org/resource/USAF_Airman_Heritage_Museum> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q975> .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Brookearmy.jpg> .
+<https://example.org/resource/O._Henry_House_Museum> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q16861> .
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q16861> .
+<https://example.org/resource/Villa_Finale> <http://www.wikidata.org/prop/direct/P856> <https://www.villafinale.org/> .
+<https://example.org/resource/UTSA_art_galleries> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1007870> .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q624232> .
+<https://example.org/resource/Ruby_City> <http://www.wikidata.org/prop/direct/P856> <https://www.texasmonthly.com/arts-entertainment/ruby-city-linda-pace-tangible-nothing-san-antonio/> .
+<https://example.org/resource/USAF_Airman_Heritage_Museum> <http://www.wikidata.org/prop/direct/P856> <https://www.jbsa.mil/Home/USAF-Airman-Heritage-Museum/> .
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/UTSA_art_galleries> <http://www.w3.org/2000/01/rdf-schema#label> "UTSA art galleries"@en .
+<https://example.org/resource/Texas_Air_Museum_at_Stinson_Field> <http://www.wikidata.org/prop/direct/P856> <https://texastimetravel.com/directory/texas-air-museum-stinson-field/> .
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> <http://www.w3.org/2000/01/rdf-schema#label> "University of Texas Institute of Texan Cultures"@en .
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1081138> .
+<https://example.org/resource/USAF_Airman_Heritage_Museum> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q624232> .

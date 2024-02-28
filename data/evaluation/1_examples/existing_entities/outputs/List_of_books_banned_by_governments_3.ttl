@@ -1,0 +1,248 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/American_Psycho> wdt:P1889 wd:Q408976 ;
+    wdt:P2348 wd:Q186075 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P4969 wd:Q1405126 ;
+    wdt:P50 wd:Q131500,
+        wd:Q241583 ;
+    wdt:P571 "1991-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P674 wd:Q131500 ;
+    wdt:P747 wd:Q43168448,
+        wd:Q43168563,
+        wd:Q43168698,
+        wd:Q43306113,
+        wd:Q43371964,
+        wd:Q43371965,
+        wd:Q43371966,
+        wd:Q43372456,
+        wd:Q43372498,
+        wd:Q43372512,
+        wd:Q43372535,
+        wd:Q43374361,
+        wd:Q43374414,
+        wd:Q43374499,
+        wd:Q43385014,
+        wd:Q43387682,
+        wd:Q43473229,
+        wd:Q43474239,
+        wd:Q43474377,
+        wd:Q43474812,
+        wd:Q43475069,
+        wd:Q43475969,
+        wd:Q43516994,
+        wd:Q43517456,
+        wd:Q43947778,
+        wd:Q44082253,
+        wd:Q44171388,
+        wd:Q44172004 ;
+    wdt:P7937 wd:Q43334491,
+        wd:Q676 ;
+    wdt:P840 wd:Q30 ;
+    wdt:P910 wd:Q63429928 .
+
+<https://example.org/resource/Another_Country> wdt:P1343 wd:Q1684918 ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P2348 wd:Q48537 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P495 wd:Q408 ;
+    wdt:P50 wd:Q273210,
+        wd:Q43306113 ;
+    wdt:P571 "1962-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P7937 wd:Q43334491,
+        wd:Q8261 ;
+    wdt:P840 wd:Q30 .
+
+<https://example.org/resource/Borstal_Boy> wdt:P136 wd:Q7725634 ;
+    wdt:P1889 wd:Q4946694 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P4969 wd:Q4946695 ;
+    wdt:P50 wd:Q313063,
+        wd:Q43387682 ;
+    wdt:P571 "1958-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P7937 wd:Q3056541,
+        wd:Q43334491 ;
+    wdt:P840 wd:Q22890 .
+
+<https://example.org/resource/Ecstasy_and_Me> wdt:P1343 wd:Q319078 ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P2348 wd:Q35724 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P50 wd:Q43387682,
+        wd:Q49034 ;
+    wdt:P571 "1966-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P7937 wd:Q4184,
+        wd:Q43334491 ;
+    wdt:P840 wd:Q40 .
+
+<https://example.org/resource/Forever_Amber> wdt:P1343 wd:Q11149 ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P2348 wd:Q362 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P495 wd:Q38 ;
+    wdt:P4969 wd:Q456822 ;
+    wdt:P50 wd:Q2342652,
+        wd:Q43281973 ;
+    wdt:P571 "1944-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P7937 wd:Q43334491,
+        wd:Q8261 ;
+    wdt:P840 wd:Q21 .
+
+<https://example.org/resource/No_Game_No_Life> wdt:P2348 wd:Q186075 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P50 wd:Q131500,
+        wd:Q8977221 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P674 wd:Q131500 ;
+    wdt:P747 wd:Q43168448,
+        wd:Q43168563,
+        wd:Q43168698,
+        wd:Q43306113,
+        wd:Q43371964,
+        wd:Q43371965,
+        wd:Q43371966,
+        wd:Q43372456,
+        wd:Q43372498,
+        wd:Q43372512,
+        wd:Q43372535,
+        wd:Q43374361,
+        wd:Q43374414,
+        wd:Q43374499,
+        wd:Q43385014,
+        wd:Q43387682,
+        wd:Q43473229,
+        wd:Q43474239,
+        wd:Q43474377,
+        wd:Q43474812,
+        wd:Q43475069,
+        wd:Q43475969,
+        wd:Q43516994,
+        wd:Q43517456,
+        wd:Q43947778,
+        wd:Q44082253,
+        wd:Q44171388,
+        wd:Q44172004 ;
+    wdt:P7937 wd:Q43334491,
+        wd:Q676 ;
+    wdt:P840 wd:Q17 ;
+    wdt:P910 wd:Q65710891 .
+
+<https://example.org/resource/The_Anarchist_Cookbook> wdt:P2348 wd:Q186075 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P4969 wd:Q4366335 ;
+    wdt:P50 wd:Q131500,
+        wd:Q17277707 ;
+    wdt:P571 "1971-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P674 wd:Q131500 ;
+    wdt:P747 wd:Q43168448,
+        wd:Q43168563,
+        wd:Q43168698,
+        wd:Q43306113,
+        wd:Q43371964,
+        wd:Q43371965,
+        wd:Q43371966,
+        wd:Q43372456,
+        wd:Q43372498,
+        wd:Q43372512,
+        wd:Q43372535,
+        wd:Q43374361,
+        wd:Q43374414,
+        wd:Q43374499,
+        wd:Q43385014,
+        wd:Q43387682,
+        wd:Q43473229,
+        wd:Q43474239,
+        wd:Q43474377,
+        wd:Q43474812,
+        wd:Q43475069,
+        wd:Q43475969,
+        wd:Q43516994,
+        wd:Q43517456,
+        wd:Q43947778,
+        wd:Q44082253,
+        wd:Q44171388,
+        wd:Q44172004 ;
+    wdt:P7937 wd:Q43334491,
+        wd:Q676 ;
+    wdt:P840 wd:Q30 .
+
+<https://example.org/resource/The_Peaceful_Pill_Handbook> wdt:P2348 wd:Q186075 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P495 wd:Q408 ;
+    wdt:P50 wd:Q131500,
+        wd:Q21174012,
+        wd:Q3901471 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P674 wd:Q131500 ;
+    wdt:P747 wd:Q43168448,
+        wd:Q43168563,
+        wd:Q43168698,
+        wd:Q43306113,
+        wd:Q43371964,
+        wd:Q43371965,
+        wd:Q43371966,
+        wd:Q43372456,
+        wd:Q43372498,
+        wd:Q43372512,
+        wd:Q43372535,
+        wd:Q43374361,
+        wd:Q43374414,
+        wd:Q43374499,
+        wd:Q43385014,
+        wd:Q43387682,
+        wd:Q43473229,
+        wd:Q43474239,
+        wd:Q43474377,
+        wd:Q43474812,
+        wd:Q43475069,
+        wd:Q43475969,
+        wd:Q43516994,
+        wd:Q43517456,
+        wd:Q43947778,
+        wd:Q44082253,
+        wd:Q44171388,
+        wd:Q44172004 ;
+    wdt:P7937 wd:Q43334491,
+        wd:Q676 ;
+    wdt:P840 wd:Q408 .
+
+<https://example.org/resource/The_Stud> wdt:P1343 wd:Q319078 ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P2348 wd:Q35724 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P4969 wd:Q3490514 ;
+    wdt:P50 wd:Q1837775,
+        wd:Q43387682 ;
+    wdt:P571 "1969-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P7937 wd:Q43334491,
+        wd:Q8261 ;
+    wdt:P840 wd:Q21 .
+
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> wdt:P1343 wd:Q319078 ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P2348 wd:Q35724 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P495 wd:Q408 ;
+    wdt:P4969 wd:Q30610070 ;
+    wdt:P50 wd:Q1837775,
+        wd:Q43387682 ;
+    wdt:P571 "1968-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P7937 wd:Q43334491,
+        wd:Q8261 ;
+    wdt:P840 wd:Q21 .
+

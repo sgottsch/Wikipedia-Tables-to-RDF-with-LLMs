@@ -1,0 +1,237 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of books banned by governments" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Title
+! width=100pt|Author(s)
+! Year published
+! Type
+! Notes
+|-
+| ''[[Christianity not Mysterious]]''
+| [[John Toland]]
+| 1696
+| Non-fiction
+| Banned by the [[Parliament of Ireland|Irish Parliament]] for contradicting the teaching of the [[Church of England|Anglican Church]]. Copies of the book were burnt by the public hangman in Dublin.<ref>Gilbert, J.T., ''History of the City of Dublin'' (1854). Volume III, p. 66.</ref>
+|-
+| ''[[Les Cent Contes drolatiques|Droll Stories]]''
+| [[Honoré de Balzac]]
+| 1837
+| Short stories
+| Banned for [[obscenity]] in 1953. The ban was lifted in 1967.<ref name="sovasexual"/>
+|-
+| ''[[Married Love]]''
+| [[Marie Stopes]]
+| 1918
+| Non-fiction
+| Banned by the Irish Censorship Board for discussing [[birth control]].<ref name="sovasocial">{{cite book | last = Sova | first = Dawn B. | title = Banned Books: Literature Suppressed on Social Grounds | publisher = Facts on File | date = c. 2006 | location = New York | isbn = 0-8160-6271-4 | url-access = registration | url = https://archive.org/details/literaturesuppre0000sova }}</ref>
+|-
+| ''[[And Quiet Flows the Don]]''
+| [[Mikhail Sholokhov]]
+| 1928–1940
+| Novel Sequence
+| The English translations of Sholokhov's work were banned for "indecency".<ref name="hss">[[Hannah Sheehy Skeffington]], "Censorship in Eire". ''[[Saturday Review (U.S. magazine)|The Saturday Review]]'', March 18, 1939, p. 14</ref>
+|-
+| ''[[Elmer Gantry]]''
+| [[Sinclair Lewis]]
+| 1927
+| Novel
+| ''Elmer Gantry'' was banned in the [[Irish Free State]].<ref name="bbi" />
+|-
+| ''[[A Farewell to Arms]]''
+| [[Ernest Hemingway]]
+| 1929
+| Novel
+| Suppressed in the Irish Free State.<ref name="hss" /> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Christianity_not_Mysterious> wdt:P136 <https://en.wikipedia.org/wiki/Theology> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/John_Toland> ;
+ wdt:P1476 "Christianity not Mysterious"@en ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ rdfs:label "Christianity not Mysterious"@en ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Christianity> ;
+ wdt:P31 wd:Q7725634 .
+
+<https://example.org/resource/Droll_Stories> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/BalzacContesDrolatiques01.jpg> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P577 "1832-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P747 wd:Q19209663 ;
+ wdt:P31 wd:Q27560760 ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/French_language> ;
+ wdt:P953 <https://www.projekt-gutenberg.org/balzac/tolldrei/tolldrei.html> ;
+ wdt:P136 wd:Q17991521 ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Honor%C3%A9_de_Balzac> ;
+ rdfs:label "Les Cent Contes drolatiques"@en .
+
+<https://example.org/resource/Married_Love> wdt:P1476 "Married Love"@en ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P747 wd:Q120199206 ;
+ wdt:P747 wd:Q120199323 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Married%20Love%20Cover.jpg> ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P577 "1918-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P747 wd:Q119520546 ;
+ wdt:P747 wd:Q119520548 ;
+ wdt:P747 wd:Q119520593 ;
+ wdt:P747 wd:Q120199296 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Married%20Love%20-%20Title%20page%20Wellcome%20L0044312.jpg> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Married_Love_(film)> ;
+ rdfs:label "Married Love"@en ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Marie_Stopes> ;
+ wdt:P31 wd:Q7725634 .
+
+<https://example.org/resource/And_Quiet_Flows_the_Don> wdt:P4969 <https://en.wikipedia.org/wiki/And_Quiet_Flows_the_Don_(1958_film)> ;
+ wdt:P4969 wd:Q30112675 ;
+ wdt:P840 wd:Q2305208 ;
+ wdt:P571 "1925-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1889 wd:Q4458492 ;
+ wdt:P674 wd:Q4149088 ;
+ wdt:P910 wd:Q10856687 ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/And_Quiet_Flows_the_Don_(1930_film)> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Mikhail_Sholokhov> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0%20%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD-%D0%B3%D0%B0%D0%B7%D0%B5%D1%82%D1%8B%201928%20%D0%B3.jpg> ;
+ wdt:P577 "1928-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P4969 wd:Q4458491 ;
+ wdt:P4969 wd:Q4458493 ;
+ rdfs:label "And Quiet Flows the Don"@en ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Novel> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Russian_Empire> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Soviet_Union> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Russian_language> ;
+ wdt:P2635 "4"^^xsd:decimal ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Epic_(genre)> ;
+ wdt:P674 wd:Q105195040 ;
+ wdt:P747 wd:Q117280162 ;
+ wdt:P747 wd:Q117281206 ;
+ wdt:P2408 <https://en.wikipedia.org/wiki/20th_century> ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P4969 wd:Q19975545 .
+
+<https://example.org/resource/Elmer_Gantry> wdt:P1476 "Elmer Gantry"@en ;
+ wdt:P155 <https://en.wikipedia.org/wiki/Mantrap_(novel)> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Sinclair_Lewis> ;
+ wdt:P31 wd:Q47461344 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P577 "1927-03-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Harcourt_(publisher)> ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Novel> ;
+ rdfs:label "Elmer Gantry"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/ElmerGantry.jpg> .
+
+<https://example.org/resource/A_Farewell_to_Arms> wdt:P577 "1929-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ernest%20Hemingway%20-%20Addio%20alle%20armi%20%28A%20Farewell%20to%20Arms%29%20-%20Oscar%20Mondadori%2027%20aprile%201965.jpg> ;
+ wdt:P291 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P571 "1929-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/A_Farewell_to_Arms_(1957_film)> ;
+ wdt:P1476 "A Farewell to Arms"@en ;
+ wdt:P31 wd:Q47461344 ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/A_Farewell_to_Arms_(TV_series)> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/A_Farewell_to_Arms_(disambiguation)> ;
+ wdt:P953 <https://www.fadedpage.com/showbook.php?pid=20170312> ;
+ wdt:P674 wd:Q124031051 ;
+ rdfs:label "A Farewell to Arms"@en ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Charles_Scribner%27s_Sons> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/War_novel> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/World_War_I> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/A_Farewell_to_Arms_(1932_film)> ;
+ wdt:P1922 "In the late summer of that year we lived in a house in a village that looked across the river and the plain to the mountains."@en ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Ernest_Hemingway> ;
+ wdt:P3132 "After a while I went out and left the hospital and walked back to the hotel in the rain."@en .
+---
+These are the labels of the properties:
+
+wdt:P136 -> genre
+wdt:P50 -> author
+wdt:P1476 -> title
+wdt:P407 -> language of work or name
+wdt:P921 -> main subject
+wdt:P31 -> instance of
+wdt:P18 -> image
+wdt:P495 -> country of origin
+wdt:P577 -> publication date
+wdt:P747 -> has edition or translation
+wdt:P6216 -> copyright status
+wdt:P953 -> full work available at URL
+wdt:P4969 -> derivative work
+wdt:P840 -> narrative location
+wdt:P571 -> inception
+wdt:P1889 -> different from
+wdt:P674 -> characters
+wdt:P910 -> topic's main category
+wdt:P7937 -> form of creative work
+wdt:P2635 -> number of parts of this work
+wdt:P2408 -> set in period
+wdt:P155 -> follows
+wdt:P123 -> publisher
+wdt:P291 -> place of publication
+wdt:P1922 -> first line
+wdt:P3132 -> last line.
+---
+These are the labels of the objects:
+
+wd:Q7725634 -> literary work
+wd:Q19209663 -> Q19209663
+wd:Q27560760 -> collection of fairy tales
+wd:Q17991521 -> tale
+wd:Q120199206 -> Married love: a new contribution to the solution of sex difficulties
+wd:Q120199323 -> Married love: a new contribution to the solution of sex difficulties
+wd:Q119520546 -> Manželská láska: nový příspěvek k vysvětlení sexuálních nesnází
+wd:Q119520548 -> Manželská láska: nový příspěvek k vysvětlení sexuálních nesnází
+wd:Q119520593 -> Manželská láska: nový příspěvek k vysvětlení sexuálních nesnází
+wd:Q120199296 -> Married Love or Love in Marriage
+wd:Q30112675 -> Q30112675
+wd:Q2305208 -> Russian Socialist Federative Soviet Republic
+wd:Q4458492 -> Quiet Flows the Don
+wd:Q4149088 -> Grigori Melekhov
+wd:Q10856687 -> Category:And Quiet Flows the Don
+wd:Q4458491 -> Quiet Flows the Don
+wd:Q4458493 -> Quiet Flows the Don
+wd:Q105195040 -> Natalya Melekhova
+wd:Q117280162 -> Q117280162
+wd:Q117281206 -> Q117281206
+wd:Q19975545 -> And Quiet Flows the Don
+wd:Q47461344 -> written work
+wd:Q124031051 -> Q124031051.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Title
+! width=100pt|Author(s)
+! Year published
+! Type
+! Notes
+|-
+| ''[[Girl with Green Eyes|The Lonely Girl]]'' (1962)
+| [[Edna O'Brien]]
+| 1962
+| Novel
+| Banned in Ireland in 1962 after Archbishop [[John Charles McQuaid]] complained personally to Justice Minister [[Charles Haughey]] that it "was particularly bad".<ref name=dwyerexaminer/>
+|-
+| ''[[The Dark (McGahern novel)|The Dark]]''
+| [[John McGahern]]
+| 1965
+| Novel
+| Banned in Ireland for obscenity.<ref>{{cite news | last = Wroe | first = Nicholas | title = Ireland's rural elegist | work = The Guardian | date = January 5, 2002 | url = https://www.theguardian.com/books/2002/jan/05/fiction.books | access-date = 2012-07-01 | location=London}}</ref>
+|-
+| ''[[My Secret Garden]]''
+| [[Nancy Friday]]
+| 1973
+| Non-fiction
+| Banned in Ireland for its sexual content.<ref>"Banned Publications", ''The Irish Times'', Friday 19 November 1976 (pg. 4)</ref> |}
+---

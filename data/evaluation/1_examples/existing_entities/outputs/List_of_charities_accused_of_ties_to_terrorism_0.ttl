@@ -1,0 +1,74 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Internationale_Humanitäre_Hilfsorganisation_e.V.> rdfs:label "Internationale Humanitäre Hilfsorganisation e.V."@en ;
+    wdt:P1454 wd:Q79913 ;
+    wdt:P159 wd:Q183 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q43229,
+        wd:Q79913 ;
+    wdt:P3461 wd:Q183 ;
+    wdt:P856 <http://www.ihh.de> .
+
+<https://example.org/resource/Interpal> rdfs:label "Interpal"@en ;
+    wdt:P1454 wd:Q708676 ;
+    wdt:P159 wd:Q145 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q43229,
+        wd:Q708676,
+        wd:Q79913 ;
+    wdt:P3461 wd:Q648666 ;
+    wdt:P856 <http://www.interpal.org> .
+
+<https://example.org/resource/Islamic_Relief> rdfs:label "Islamic Relief"@en ;
+    wdt:P1454 wd:Q708676 ;
+    wdt:P159 wd:Q145 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q43229,
+        wd:Q79913 ;
+    wdt:P856 <http://www.islamic-relief.org> .
+
+<https://example.org/resource/Jamaat_al_Dawa_al_Quran> rdfs:label "Jamaat al Dawa al Quran"@en ;
+    wdt:P1454 wd:Q79913 ;
+    wdt:P159 wd:Q889 ;
+    wdt:P17 wd:Q889 ;
+    wdt:P31 wd:Q43229,
+        wd:Q79913 .
+
+<https://example.org/resource/Maktab_al-Khidamat> rdfs:label "Maktab al-Khidamat"@en ;
+    wdt:P1454 wd:Q79913 ;
+    wdt:P159 wd:Q889 ;
+    wdt:P17 wd:Q889 ;
+    wdt:P31 wd:Q43229,
+        wd:Q79913 .
+
+<https://example.org/resource/Muslim_Aid> rdfs:label "Muslim Aid"@en ;
+    wdt:P1454 wd:Q708676 ;
+    wdt:P159 wd:Q145 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q43229,
+        wd:Q79913 ;
+    wdt:P856 <http://www.muslimaid.org> .
+
+<https://example.org/resource/Popular_Front_of_India> rdfs:label "Popular Front of India"@en ;
+    wdt:P1454 wd:Q79913 ;
+    wdt:P159 wd:Q668 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q79913 ;
+    wdt:P856 wd:Q3595391 .
+
+<https://example.org/resource/Society_of_the_Revival_of_Islamic_Heritage> rdfs:label "Society of the Revival of Islamic Heritage"@en ;
+    wdt:P1454 wd:Q79913 ;
+    wdt:P159 wd:Q817 ;
+    wdt:P17 wd:Q817 ;
+    wdt:P31 wd:Q79913 ;
+    wdt:P856 wd:Q12205977 .
+
+<https://example.org/resource/Tamils_Rehabilitation_Organisation> rdfs:label "Tamils Rehabilitation Organisation"@en ;
+    wdt:P1454 wd:Q79913 ;
+    wdt:P159 wd:Q16 ;
+    wdt:P17 wd:Q16 ;
+    wdt:P31 wd:Q79913 ;
+    wdt:P856 wd:Q7681450 .
+

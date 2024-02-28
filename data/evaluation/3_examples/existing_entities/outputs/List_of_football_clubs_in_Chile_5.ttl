@@ -1,0 +1,75 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Luis_Cruz_Martínez> rdfs:label "Luis Cruz Martínez"@en ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1966-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1967-04-07T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Naval_de_Talcahuano> rdfs:label "Naval de Talcahuano"@en ;
+    wdt:P131 wd:Q41997 ;
+    wdt:P159 wd:Q41997 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1972-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1991-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/O'Higgins_Braden> rdfs:label "O'Higgins Braden"@en ;
+    wdt:P131 wd:Q4582 ;
+    wdt:P159 wd:Q4582 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1954-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1955-04-07T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Regional_Atacama> rdfs:label "Regional Atacama"@en ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1999-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Rodelindo_Román> rdfs:label "Rodelindo Román"@en ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "2023-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Santiago_National> rdfs:label "Santiago National"@en ;
+    wdt:P131 wd:Q2887 ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1955-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P576 "1956-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Thomas_Bata> rdfs:label "Thomas Bata"@en ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1990-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Universidad_Técnica> rdfs:label "Universidad Técnica del Estado"@en ;
+    wdt:P131 wd:Q2887 ;
+    wdt:P159 wd:Q2887 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "1969-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+
+<https://example.org/resource/Unión_Temuco> rdfs:label "Unión Temuco"@en ;
+    wdt:P131 wd:Q82128 ;
+    wdt:P159 wd:Q82128 ;
+    wdt:P17 wd:Q298 ;
+    wdt:P31 wd:Q112860999 ;
+    wdt:P571 "2013-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P641 wd:Q2736 .
+

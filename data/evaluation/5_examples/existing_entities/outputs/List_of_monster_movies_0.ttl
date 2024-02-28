@@ -1,0 +1,488 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Alien_Resurrection> wdt:P136 wd:Q471839 ;
+    wdt:P1476 "Alien Resurrection"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P674 wd:Q1270158 .
+
+<https://example.org/resource/Alien_vs_Predator> wdt:P136 wd:Q471839 ;
+    wdt:P1476 "Alien vs. Predator"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "2004-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P674 wd:Q1270158 .
+
+<https://example.org/resource/Aliens> wdt:P136 wd:Q471839 ;
+    wdt:P1476 "Aliens"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P674 wd:Q1270158 .
+
+<https://example.org/resource/Aliens_vs_Predator_Requiem> wdt:P136 wd:Q471839 ;
+    wdt:P1476 "Aliens vs. Predator: Requiem"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P674 wd:Q1270158 .
+
+<https://example.org/resource/All_Monsters_Attack> wdt:P136 wd:Q157394 ;
+    wdt:P1476 "All Monsters Attack"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "1969-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P674 wd:Q6567 .
+
+<https://example.org/resource/Alligator> wdt:P136 wd:Q200092 ;
+    wdt:P1476 "Alligator"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "1980-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P674 wd:Q530397 .
+
+<https://example.org/resource/An_American_Werewolf_in_London> rdfs:label "An American Werewolf in London"@en ;
+    wdt:P136 wd:Q1342372,
+        wd:Q200092,
+        wd:Q9410 ;
+    wdt:P1476 "An American Werewolf in London"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1980-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/An_American_Werewolf_in_Paris> rdfs:label "An American Werewolf in Paris"@en ;
+    wdt:P136 wd:Q1342372,
+        wd:Q200092,
+        wd:Q9410 ;
+    wdt:P1476 "An American Werewolf in Paris"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Anaconda> rdfs:label "Anaconda"@en ;
+    wdt:P136 wd:Q1342372,
+        wd:Q200092 ;
+    wdt:P1476 "Anaconda"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Anacondas:_The_Hunt_for_the_Blood_Orchid> rdfs:label "Anacondas: The Hunt for the Blood Orchid"@en ;
+    wdt:P136 wd:Q1342372,
+        wd:Q200092 ;
+    wdt:P1476 "Anacondas: The Hunt for the Blood Orchid"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2004-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Animal> rdfs:label "Animal"@en ;
+    wdt:P136 wd:Q1342372,
+        wd:Q200092,
+        wd:Q9410 ;
+    wdt:P1476 "Animal"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Another_WolfCop> rdfs:label "Another WolfCop"@en ;
+    wdt:P136 wd:Q1342372,
+        wd:Q200092,
+        wd:Q9410 ;
+    wdt:P1476 "Another WolfCop"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Atragon> wdt:P136 wd:Q1342372,
+        wd:Q471839 ;
+    wdt:P1476 "Atragon"@en ;
+    wdt:P344 wd:Q66909480 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1963-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Attack_of_the_50_Foot_Woman> wdt:P136 wd:Q1342372,
+        wd:Q319221,
+        wd:Q471839 ;
+    wdt:P1476 "Attack of the 50 Foot Woman"@en ;
+    wdt:P344 wd:Q23830577 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1958-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Attack_of_the_Crab_Monsters> wdt:P136 wd:Q1342372,
+        wd:Q471839 ;
+    wdt:P1476 "Attack of the Crab Monsters"@en ;
+    wdt:P344 wd:Q66909480 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1958-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Attack_of_the_Giant_Leeches> wdt:P136 wd:Q1342372,
+        wd:Q471839 ;
+    wdt:P1476 "Attack of the Giant Leeches"@en ;
+    wdt:P344 wd:Q23830577 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1959-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Attack_on_Titan> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Attack on Titan"@en ;
+    wdt:P162 wd:Q2852906,
+        wd:Q521135 ;
+    wdt:P1981 wd:Q20644796 ;
+    wdt:P344 wd:Q709558 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P57 wd:Q588246 ;
+    wdt:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q126399 .
+
+<https://example.org/resource/Attack_the_Block> wdt:P136 wd:Q1342372,
+        wd:Q471839 ;
+    wdt:P1476 "Attack the Block"@en ;
+    wdt:P344 wd:Q26678736 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2011-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Avenged> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Avenged"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2013-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q907311 .
+
+<https://example.org/resource/Barbarian> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Barbarian"@en ;
+    wdt:P1981 wd:Q20644796 ;
+    wdt:P344 wd:Q709558 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q126399 .
+
+<https://example.org/resource/Beauty_and_the_Beast> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Beauty and the Beast"@en ;
+    wdt:P1981 wd:Q20644796 ;
+    wdt:P344 wd:Q709558 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q126399 .
+
+<https://example.org/resource/Beowulf> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Beowulf"@en ;
+    wdt:P1981 wd:Q20644796 ;
+    wdt:P344 wd:Q709558 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q126399 .
+
+<https://example.org/resource/Big_Bad_Wolf> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Big Bad Wolf"@en ;
+    wdt:P344 wd:Q354579 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q5501189 .
+
+<https://example.org/resource/Blade> rdfs:label "Blade"@en ;
+    wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Blade"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1998-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Blade_II> rdfs:label "Blade II"@en ;
+    wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Blade II"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2002-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Blade_Trinity> rdfs:label "Blade Trinity"@en ;
+    wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Blade Trinity"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2004-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Blood_Ransom> rdfs:label "Blood Ransom"@en ;
+    wdt:P136 wd:Q46721 ;
+    wdt:P1476 "Blood Ransom"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Blood_of_the_Tribades> rdfs:label "Blood of the Tribades"@en ;
+    wdt:P136 wd:Q46721 ;
+    wdt:P1476 "Blood of the Tribades"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Bloodsuckers_from_Outer_Space> rdfs:label "Bloodsuckers from Outer Space"@en ;
+    wdt:P136 wd:Q46721 ;
+    wdt:P1476 "Bloodsuckers from Outer Space"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "1984-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Clash_of_the_Titans_1981> rdfs:label "Clash of the Titans (1981 film)"@en ;
+    wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Clash of the Titans"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "1981-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Clash_of_the_Titans_2010> rdfs:label "Clash of the Titans (2010 film)"@en ;
+    wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Clash of the Titans"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Cloverfield> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Cloverfield"@en ;
+    wdt:P161 wd:Q212173 ;
+    wdt:P344 wd:Q66909480 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Cold_Ground> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Cold Ground"@en ;
+    wdt:P161 wd:Q3641076 ;
+    wdt:P344 wd:Q66909480 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q25853 ;
+    wdt:P495 wd:Q142 ;
+    wdt:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Colossal> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Colossal"@en ;
+    wdt:P344 wd:Q66909480 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q105584 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Creature_from_the_Black_Lagoon> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "Creature from the Black Lagoon"@en ;
+    wdt:P344 wd:Q66909480 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1954-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Creepshow> wdt:P136 wd:Q1342372,
+        wd:Q200092 ;
+    wdt:P1476 "Creepshow"@en ;
+    wdt:P577 "1982-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Critters> wdt:P136 wd:Q1342372,
+        wd:Q471839 ;
+    wdt:P1476 "Critters"@en ;
+    wdt:P577 "1986-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Critters_2:_The_Main_Course> wdt:P136 wd:Q1342372,
+        wd:Q471839 ;
+    wdt:P1476 "Critters 2: The Main Course"@en ;
+    wdt:P577 "1988-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Crocodile> wdt:P136 wd:Q1342372,
+        wd:Q200092 ;
+    wdt:P1476 "Crocodile"@en ;
+    wdt:P577 "2000-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Cujo> wdt:P136 wd:Q1342372,
+        wd:Q200092 ;
+    wdt:P1476 "Cujo"@en ;
+    wdt:P577 "1983-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Cursed> wdt:P136 wd:Q1342372,
+        wd:Q200092,
+        wd:Q9410 ;
+    wdt:P1476 "Cursed"@en ;
+    wdt:P161 wd:Q219512 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2005-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dagon> wdt:P136 wd:Q1342372,
+        wd:Q200092,
+        wd:Q749859 ;
+    wdt:P1476 "Dagon"@en ;
+    wdt:P161 wd:Q1346651 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2001-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Daimajin> wdt:P136 wd:Q1165332,
+        wd:Q1342372,
+        wd:Q200092 ;
+    wdt:P1476 "Daimajin"@en ;
+    wdt:P161 wd:Q1394314 ;
+    wdt:P364 wd:Q5287 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "1966-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Darkness> wdt:P136 wd:Q1342372,
+        wd:Q200092,
+        wd:Q28425,
+        wd:Q46721 ;
+    wdt:P1476 "Darkness"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1993-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dawn_of_the_Beast> wdt:P136 wd:Q1342372,
+        wd:Q200092,
+        wd:Q370801,
+        wd:Q44810 ;
+    wdt:P1476 "Dawn of the Beast"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dead_Alive> wdt:P136 wd:Q1342372,
+        wd:Q200092,
+        wd:Q9406 ;
+    wdt:P1476 "Dead Alive"@en ;
+    wdt:P161 wd:Q4465 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q664 ;
+    wdt:P577 "1992-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dead_Meat> wdt:P136 wd:Q200092 ;
+    wdt:P1476 "Dead Meat"@en ;
+    wdt:P2047 90.0 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2004-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dear_God_No> wdt:P136 wd:Q200092 ;
+    wdt:P1476 "Dear God No!"@en ;
+    wdt:P2047 90.0 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2011-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/DeepStar_Six> wdt:P136 wd:Q471839 ;
+    wdt:P1476 "DeepStar Six"@en ;
+    wdt:P2047 99.0 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1989-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Deep_Rising> wdt:P136 wd:Q471839 ;
+    wdt:P1476 "Deep Rising"@en ;
+    wdt:P2047 106.0 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1998-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Destroy_All_Monsters> wdt:P136 wd:Q471839 ;
+    wdt:P1476 "Destroy All Monsters"@en ;
+    wdt:P2047 88.0 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1968-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Arctic_Giant> wdt:P136 wd:Q1342372,
+        wd:Q319221,
+        wd:Q471839 ;
+    wdt:P1476 "The Arctic Giant"@en ;
+    wdt:P344 wd:Q23830577 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1942-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Black_Scorpion> rdfs:label "The Black Scorpion"@en ;
+    wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "The Black Scorpion"@en ;
+    wdt:P344 wd:Q66909480 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1957-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Blob_1958> rdfs:label "The Blob"@en ;
+    wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "The Blob"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1958-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Blob_1988> rdfs:label "The Blob"@en ;
+    wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "The Blob"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1988-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Cave> rdfs:label "The Cave"@en ;
+    wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "The Cave"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P577 "2005-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Creature_Walks_Among_Us> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "The Creature Walks Among Us"@en ;
+    wdt:P161 wd:Q894444 ;
+    wdt:P344 wd:Q66909480 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q9684 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1956-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Creeping_Terror> wdt:P136 wd:Q1342372 ;
+    wdt:P1476 "The Creeping Terror"@en ;
+    wdt:P344 wd:Q26988721 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 <https://www.allmovie.com/movie/the-creeping-terror-vm1055905> ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1964-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Curse_of_the_Werewolf> wdt:P136 wd:Q1342372,
+        wd:Q200092 ;
+    wdt:P1476 "The Curse of the Werewolf"@en ;
+    wdt:P577 "1961-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Deadly_Mantis> wdt:P136 wd:Q471839 ;
+    wdt:P1476 "The Deadly Mantis"@en ;
+    wdt:P2047 79.0 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1957-01-01T00:00:00+00:00"^^xsd:dateTime .
+

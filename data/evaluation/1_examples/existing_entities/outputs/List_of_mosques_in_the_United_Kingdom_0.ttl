@@ -1,0 +1,32 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Leytonstone_Mosque> wdt:P1083 0.0 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Leytonstone%20Masjid.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/London_Islamic_Cultural_Society_&_Mosque> wdt:P1083 0.0 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Licsmasjid.png> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/North_London_Central_Mosque> wdt:P1083 0.0 ;
+    wdt:P131 wd:Q84 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Finsbury%20park%20mosque.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Ramadan_Masjid> wdt:P1083 0.0 ;
+    wdt:P131 wd:Q2499366 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Shacklewell%20Lane%20synagogue%20-%20mosque.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Suleymaniye_Mosque> wdt:P1083 0.0 ;
+    wdt:P131 wd:Q84 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Suleymaniye%20Mosque%20London,%20E2.jpg> ;
+    wdt:P31 wd:Q32815 .
+

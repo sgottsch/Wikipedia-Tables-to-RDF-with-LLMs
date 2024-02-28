@@ -1,0 +1,85 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of charities established by Australian athletes" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable |-
+!Name
+!Description
+|-
+|[[Shane Warne Foundation]]<ref name=warne>{{cite web|title=About Us|url=http://www.tswf.com.au/|website=Shane Warne Foundation|accessdate=30 January 2016}}</ref><ref name="abc.net.au">{{cite web|title=Shane Warne Foundation shuts down amid funding controversy|url=http://www.abc.net.au/news/2016-01-29/shane-warne-foundation-closes-amid-controversy/7125202|website=ABC News, 30 January 2016|accessdate=30 January 2016}}</ref>||Launched by cricketer [[Shane Warne]]  officially launched in 2004 to enrich the lives of seriously ill and underprivileged children and teenagers in Australia. In January 2016, it was announced that it was being shut-down due to "unwarranted speculation" about its distribution of funds.<ref name="abc.net.au"/>
+|-
+|[[McGrath Foundation]]<ref>{{cite web|title=About Us|url=http://www.mcgrathfoundation.com.au/AboutUs.aspx|website=McGrath Foundation|accessdate=31 January 2016}}</ref>||Established by in 2005 by cricket player, [[Glenn McGrath]], and his English-born wife, [[Jane McGrath]] to "raise money to place McGrath Breast Care Nurses in communities across Australia as well as to increase breast awareness in young people."
+|-
+|[[Men of League Foundation]]<ref>{{cite web|title=Welfare|url=https://www.menofleague.com/|website=Men of League website}}</ref>||Established in 2002 by rugby league greats Jim Hall, [[Max Brown (rugby league)|Max Brown]] and [[Ron Coote]], it has "provided support and assistance to rugby league players, coaches, referees, officials and administrators from all levels of the game and their families.'
+|-
+|[[Clontarf Foundation]]<ref>{{cite web|title=About|url=http://www.clontarf.org.au/about/|website=Clontarf Foundation|accessdate=31 January 2016}}</ref>||Established in 2000 by former coach of [[Fremantle Football Club]] [[Gerard Neesham]] to "exists to improve the education, discipline, life skills, self-esteem and employment prospects of young Aboriginal men and by doing so equips them to participate meaningfully in society".
+|-
+|[[Women in League]] |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Shane_Warne_Foundation> rdfs:label "Shane Warne Foundation"@en ;
+ wdt:P856 <http://www.tswf.com.au/> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Australia> ;
+ wdt:P571 "2004-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P159 <https://en.wikipedia.org/wiki/South_Yarra> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Organization> .
+
+<https://example.org/resource/McGrath_Foundation> wdt:P138 <https://en.wikipedia.org/wiki/Glenn_McGrath> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/St_Leonards,_New_South_Wales> ;
+ rdfs:label "McGrath Foundation"@en ;
+ wdt:P1454 <https://en.wikipedia.org/wiki/Foundation_(nonprofit)> ;
+ wdt:P856 <http://www.mcgrathfoundation.com.au/AboutUs.aspx> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Australia> ;
+ wdt:P8687 "60344"^^xsd:decimal ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Jane_McGrath> ;
+ wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/McGrathFoundation%20Master%20Logo%20.png> ;
+ wdt:P571 "2005-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Foundation_(nonprofit)> .
+
+<https://example.org/resource/Men_of_League_Foundation> wdt:P571 "2002-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Men of League Foundation"@en ;
+ wdt:P641 <https://en.wikipedia.org/wiki/Rugby_league> ;
+ wdt:P856 <https://www.menofleague.com/> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Australia> .
+
+<https://example.org/resource/Clontarf_Foundation> wdt:P1454 <https://en.wikipedia.org/wiki/Foundation_(nonprofit)> ;
+ rdfs:label "Clontarf Foundation"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Organization> .
+
+<https://example.org/resource/Women_in_League> wdt:P571 "2007-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Women in League"@en ;
+ wdt:P641 <https://en.wikipedia.org/wiki/Rugby_league> ;
+ wdt:P856 <http://womeninleague.nrl.com/> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Australia> .
+---
+These are the labels of the properties:
+
+wdt:P856 -> official website URL
+wdt:P17 -> country
+wdt:P571 -> inception
+wdt:P159 -> headquarters location
+wdt:P31 -> instance of
+wdt:P138 -> named after
+wdt:P1454 -> legal form
+wdt:P8687 -> social media followers
+wdt:P154 -> logo image
+wdt:P641 -> sport.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable |-
+!Name
+!Description
+|-
+|Dylan Alcott Foundation<ref>{{cite web|title=What we do|url=http://dylanalcottfoundation.com.au/|website=Dylan Alcott Foundation|accessdate=8 November 2017}}</ref>||Established in 2017 by Australian Paralympian [[Dylan Alcott]] to assist young Australians with disabilities gain self-esteem and respect through sport and study. |}
+---

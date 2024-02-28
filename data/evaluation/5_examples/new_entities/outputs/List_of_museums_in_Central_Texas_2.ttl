@@ -1,0 +1,88 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Benz_Gallery_of_Floral_Art> rdfs:label "Benz Gallery of Floral Art"@en ;
+    wdt:P131 wd:Q695511 ;
+    wdt:P31 wd:Q15836337 .
+
+<https://example.org/resource/Bosque_Museum> rdfs:label "Bosque Museum"@en ;
+    wdt:P131 wd:Q982843 ;
+    wdt:P31 wd:Q15836337 .
+
+<https://example.org/resource/Brazos_Valley_African_American_Museum> rdfs:label "Brazos Valley African American Museum"@en ;
+    wdt:P131 wd:Q695556 ;
+    wdt:P31 wd:Q15836337 .
+
+<https://example.org/resource/Buggy_Barn_Museum> rdfs:label "Buggy Barn Museum"@en ;
+    wdt:P131 wd:Q969730 ;
+    wdt:P31 wd:Q20856087 .
+
+<https://example.org/resource/Burleson_County_Czech_Heritage_Museum> rdfs:label "Burleson County Czech Heritage Museum"@en ;
+    wdt:P131 wd:Q982603 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Burleson%20co%20czech%20museum.jpg> ;
+    wdt:P276 wd:Q982603 ;
+    wdt:P856 <https://texastimetravel.com/directory/burleson-county-czech-heritage-museum/> .
+
+<https://example.org/resource/Burleson_County_Historical_Museum> rdfs:label "Burleson County Historical Museum"@en ;
+    wdt:P131 wd:Q982603 ;
+    wdt:P276 wd:Q982603 ;
+    wdt:P856 <https://texastimetravel.com/directory/burleson-county-museum/> .
+
+<https://example.org/resource/Caldwell_Visitors_Center_Museum> rdfs:label "Caldwell Visitors Center Museum"@en ;
+    wdt:P131 wd:Q982603 ;
+    wdt:P276 wd:Q982603 ;
+    wdt:P856 <https://texastimetravel.com/directory/caldwell-visitors-center-museum/> .
+
+<https://example.org/resource/Children's_Museum_of_the_Brazos_Valley> rdfs:label "Children's Museum of the Brazos Valley"@en ;
+    wdt:P131 wd:Q695556 ;
+    wdt:P31 wd:Q15836337 .
+
+<https://example.org/resource/Falls_on_the_Colorado_Museum> rdfs:label "Falls on the Colorado Museum"@en ;
+    wdt:P131 wd:Q167183 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Falls%20on%20the%20colorado%20museum%202014.jpg> ;
+    wdt:P276 wd:Q108784,
+        wd:Q167183 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://atlas.thc.state.tx.us/Details/4200000904> .
+
+<https://example.org/resource/Highland_Lakes_Squadron_CAF_Museum> rdfs:label "Highland Lakes Squadron CAF Museum"@en ;
+    wdt:P131 wd:Q108784 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Highlan%20lakes%20air%20museum%202014.jpg> ;
+    wdt:P276 wd:Q108784 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://atlas.thc.state.tx.us/Details/4200000914> .
+
+<https://example.org/resource/MSC_Forsyth_Center_Galleries> rdfs:label "MSC Forsyth Center Galleries"@en ;
+    wdt:P131 wd:Q695511 ;
+    wdt:P276 wd:Q695511 ;
+    wdt:P856 <https://texastimetravel.com/directory/msc-forsyth-center-galleries/> .
+
+<https://example.org/resource/Museo_Benini> rdfs:label "Museo Benini"@en ;
+    wdt:P131 wd:Q167183 ;
+    wdt:P276 wd:Q108784,
+        wd:Q167183 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://texastimetravel.com/directory/benini-galleries-sculpture-ranch/> .
+
+<https://example.org/resource/Museum_of_the_American_GI> rdfs:label "Museum of the American GI"@en ;
+    wdt:P131 wd:Q695511 ;
+    wdt:P276 wd:Q695511 ;
+    wdt:P856 <https://texastimetravel.com/directory/museum-american-gi/> .
+
+<https://example.org/resource/Somerville_Area_Museum> rdfs:label "Somerville Area Museum"@en ;
+    wdt:P131 wd:Q966480 ;
+    wdt:P276 wd:Q108821,
+        wd:Q966480 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://texastimetravel.com/directory/somerville-area-museum/> .
+
+<https://example.org/resource/The_Bosque_County_Collection> rdfs:label "The Bosque County Collection"@en ;
+    wdt:P131 wd:Q973084 ;
+    wdt:P31 wd:Q19558910 .
+
+<https://example.org/resource/Wright_Gallery> rdfs:label "Wright Gallery"@en ;
+    wdt:P131 wd:Q695511 ;
+    wdt:P276 wd:Q695511 ;
+    wdt:P856 <https://visit.cstx.gov/listing/wright-gallery/2094/> .
+

@@ -1,0 +1,12 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Rasheed_Mosque> rdfs:label "Rasheed Mosque"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1741> ;
+    ns1:P138 <http://www.wikidata.org/entity/Q117>,
+        <https://example.org/resource/Mosque_Bad_Vöslau> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q40> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q32815> ;
+    ns1:P571 2005 .
+

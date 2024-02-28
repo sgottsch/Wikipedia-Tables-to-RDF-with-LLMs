@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Anbu_Vinayagar_Temple> rdfs:label "Anbu Vinayagar Temple"@en ;
+    wdt:P17 wd:Q664 .
+
+<https://example.org/resource/Ganesh_Temple_Bang_Yai> rdfs:label "Ganesh Temple, Bang Yai"@en ;
+    wdt:P17 wd:Q869 .
+
+<https://example.org/resource/Ganesh_Temple_Huai_Khwang> rdfs:label "Ganesh Temple, Huai Khwang"@en ;
+    wdt:P17 wd:Q869 .
+
+<https://example.org/resource/Ganesh_Temple_inside_Devasathan> rdfs:label "Ganesh Temple inside Devasathan"@en ;
+    wdt:P17 wd:Q869 .
+
+<https://example.org/resource/Ganesha_Temple> rdfs:label "Ganesha Temple"@en ;
+    wdt:P17 wd:Q843 .
+
+<https://example.org/resource/Pikanesuandevalai> rdfs:label "Pikanesuandevalai"@en ;
+    wdt:P17 wd:Q869 ;
+    wdt:P31 wd:Q12932380 .
+
+<https://example.org/resource/Shri_Sitthi_Vinayagar_Temple> rdfs:label "Shri Sitthi Vinayagar Temple"@en ;
+    wdt:P17 wd:Q252 .
+
+<https://example.org/resource/Siddhi_Vinayak_Temple> rdfs:label "Siddhi Vinayak Temple"@en ;
+    wdt:P17 wd:Q843 .
+
+<https://example.org/resource/Sri_Ganesha_Hindu_Temple_of_Utah> rdfs:label "Sri Ganesha Hindu Temple of Utah"@en ;
+    wdt:P17 wd:Q30 .
+
+<https://example.org/resource/Sri_Ganesha_Tempel> rdfs:label "Sri Ganesha Tempel"@en ;
+    wdt:P17 wd:Q183 .
+
+<https://example.org/resource/Sri_Ganesha_Temple> rdfs:label "Sri Ganesha Temple"@en ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q44539 .
+
+<https://example.org/resource/Sri_Sithi_Vinayagar_Temple> rdfs:label "Sri Sithi Vinayagar Temple"@en ;
+    wdt:P17 wd:Q833 .
+
+<https://example.org/resource/Sri_Varatharajah_Selvavinayagar_Temple> rdfs:label "Sri Varatharajah Selvavinayagar Temple"@en ;
+    wdt:P17 wd:Q55 .
+

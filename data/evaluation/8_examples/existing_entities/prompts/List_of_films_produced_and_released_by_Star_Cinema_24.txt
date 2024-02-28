@@ -1,0 +1,213 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films produced and released by Star Cinema" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align: center;" | ''[[Extra Service]]''
+| style="text-align: center;" | January 11
+| style="text-align: center;" | [[Chris Martinez (director)|Chris Martinez]]
+| [[Arci Muñoz]], [[Coleen Garcia]] and [[Jessy Mendiola]] || [[Action film|Action]], [[Comedy]]
+| [[Skylight Films]]
+|-
+| style="text-align: center;" | ''[[My Ex and Whys]]''
+| style="text-align: center;" | February 15
+| style="text-align: center;" | [[Cathy Garcia-Molina]]
+| [[Enrique Gil]] and [[Liza Soberano]]
+| [[Romance film|Romance]], [[Comedy]], [[Drama]]
+| 
+|-
+| style="text-align: center;" | ''[[Northern Lights: A Journey to Love]]''
+| style="text-align: center;" | March 29
+| style="text-align: center;" | Dondon S. Santos
+| [[Piolo Pascual]], [[Raikko Mateo]] and [[Yen Santos]]
+| [[Drama film|Drama]]
+| [[Regal Entertainment]], [[Spring Films]]
+|-
+| style="text-align: center;" | ''[[Can't Help Falling in Love (film)|Can't Help Falling In Love]]''
+| style="text-align: center;" | April 15
+| style="text-align: center;" | Mae Cruz-Alviar
+| [[Kathryn Bernardo]] and [[Daniel Padilla]]
+| [[Romance film|Romance]], [[Comedy]], [[Drama]]
+|
+|-
+| style="text-align: center;" | ''[[Dear Other Self]]''
+| style="text-align: center;" | May 17
+| style="text-align: center;" | Veronica B. Velasco
+| [[Jodi Sta. Maria]], [[Xian Lim]] and [[Joseph Marco]]
+| [[Romance film|Romance]], [[Comedy]], [[Drama]]
+|
+|-
+| style="text-align: center;" | ''[[Bloody Crayons]]''
+| style="text-align: center;" | July 12
+| style="text-align: center;" | [[Topel Lee]]
+| [[Jane Oineza]], [[Maris Racal]], [[Sofia Andres]], [[Diego Loyzaga]], [[Elmo Magalona]], [[Yves Flores]], [[Ronnie Alonte]], [[Empoy Marquez]] and [[Janella Salvador]]
+| [[Horror film|Horror]], [[Suspense film|Suspense]], [[Thriller film|Thriller]]
+|
+|-
+| style="text-align: center;" | ''[[Finally Found Someone (film)|Finally Found Someone]]''
+| style="text-align: center;" | July 26
+| style="text-align: center;" | Theodore Boborol
+| [[John Lloyd Cruz]] and [[Sarah Geronimo]]
+| [[Romance film|Romance]], [[Drama]], [[Comedy]]
+| [[Viva Films]]
+|-
+| style="text-align: center;" | ''[[Love You to the Stars and Back]]''
+| style="text-align: center;" | August 30
+| style="text-align: center;" | [[Antoinette Jadaone]]
+| [[Julia Barretto]] and [[Joshua Garcia]]
+| [[Romance film|Romance]], [[Comedy]], [[Drama]]
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Extra_Service> wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P577 "2017-01-11T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ rdfs:label "Extra Service"@en ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Chris_Martinez_(director)> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Arci_Mu%C3%B1oz> .
+
+<https://example.org/resource/My_Ex_and_Whys> wdt:P162 <https://en.wikipedia.org/wiki/Charo_Santos-Concio> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P2629 wd:Q23301855 ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Romantic_comedy> ;
+ rdfs:label "My Ex and Whys"@en ;
+ wdt:P577 "2017-02-14T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P1476 "My Ex and Whys"@en ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Liza_Soberano> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Cathy_Garcia-Sampana> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P462 wd:Q22006653 .
+
+<https://example.org/resource/Northern_Lights:_A_Journey_to_Love> wdt:P2629 wd:Q23301855 ;
+ wdt:P57 wd:Q113206325 ;
+ wdt:P577 "2017-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ rdfs:label "Northern Lights: A Journey to Love"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Alaska> .
+
+<https://example.org/resource/Can't_Help_Falling_In_Love> wdt:P364 <https://en.wikipedia.org/wiki/Filipino_language> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P2629 wd:Q23301855 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Romantic_comedy> ;
+ wdt:P2047 "119"^^xsd:decimal ;
+ wdt:P577 "2017-04-15T00:00:00Z"^^xsd:dateTime ;
+ wdt:P57 wd:Q22277455 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ rdfs:label "Can't Help Falling in Love"@en .
+
+<https://example.org/resource/Dear_Other_Self> wdt:P57 wd:Q113586866 ;
+ wdt:P577 "2017-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ rdfs:label "Dear Other Self"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> .
+
+<https://example.org/resource/Bloody_Crayons> wdt:P161 <https://en.wikipedia.org/wiki/Jane_Oineza> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Charo_Santos-Concio> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ rdfs:label "Bloody Crayons"@en ;
+ wdt:P577 "2017-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Thriller_film> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Topel_Lee> .
+
+<https://example.org/resource/Finally_Found_Someone> wdt:P272 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Romantic_comedy> ;
+ rdfs:label "Finally Found Someone"@en ;
+ wdt:P2047 "125"^^xsd:decimal ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sarah_Geronimo> ;
+ wdt:P577 "2017-07-26T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Theodore_Boborol> .
+
+<https://example.org/resource/Love_You_to_the_Stars_and_Back> wdt:P272 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Charo_Santos-Concio> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Romantic_comedy> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Antoinette_Jadaone> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Joshua_Garcia> ;
+ wdt:P2047 "111"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P577 "2017-08-30T00:00:00Z"^^xsd:dateTime ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Antoinette_Jadaone> ;
+ rdfs:label "Love You to the Stars and Back"@en ;
+ wdt:P437 wd:Q54820071 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Julia_Barretto> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/ITunes> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> .
+---
+These are the labels of the properties:
+
+wdt:P437 -> distribution format
+wdt:P577 -> publication date
+wdt:P31 -> instance of
+wdt:P57 -> director
+wdt:P495 -> country of origin
+wdt:P161 -> cast member
+wdt:P162 -> producer
+wdt:P2629 -> BBFC rating
+wdt:P364 -> original language of film or TV show
+wdt:P136 -> genre
+wdt:P1476 -> title
+wdt:P750 -> distributed by
+wdt:P462 -> color
+wdt:P915 -> filming location
+wdt:P840 -> narrative location
+wdt:P2047 -> duration
+wdt:P272 -> production company
+wdt:P58 -> screenwriter.
+---
+These are the labels of the objects:
+
+wd:Q23301855 -> 12A certificate
+wd:Q22006653 -> color
+wd:Q113206325 -> Dondon S. Santos
+wd:Q22277455 -> Mae Czarina Cruz-Alviar
+wd:Q113586866 -> Veronica Velasco
+wd:Q54820071 -> digital download.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align: center;" | ''[[Gandarrapiddo: The Revenger Squad]]''
+| style="text-align: center;" | December 25
+| style="text-align: center;" | [[Joyce Bernal]]
+| [[Vice Ganda]] [[Daniel Padilla]] and [[Pia Wurtzbach]]
+| [[Superhero film|Superhero]], [[Comedy film|Comedy]]
+| [[Viva Films]] |}
+---

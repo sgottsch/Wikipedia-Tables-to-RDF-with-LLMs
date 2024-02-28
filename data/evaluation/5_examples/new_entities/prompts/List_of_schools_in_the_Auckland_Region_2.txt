@@ -1,0 +1,153 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of schools in the Auckland Region" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Area || Authority || Opened || Roll || class="unsortable"|Website || Notes
+|-
+| [[Albany School, New Zealand|Albany School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1202 1202] || 1–6 || [[Albany, New Zealand|Albany]] || State || 1866 || {{NZ school roll data|1202|y}} ||  [http://www.albany.school.nz/]||
+|-
+| [[City Impact Church School]] (Primary) || [https://www.educationcounts.govt.nz/find-school/school/profile?school=481 481]  || 1–8 || [[Oteha]] || Private || 2005<ref name="new-close-merge" /> || {{NZ school roll data|481|y}} || [http://www:cityimpactchurch.school.nz/]||
+|-
+| [[Greenhithe School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1299 1299] || 1–6 || [[Greenhithe, New Zealand|Greenhithe]] || State || || {{NZ school roll data|1299|y}} || [http://www.greenhithe.school.nz/]||
+|-
+| [[Oteha Valley School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=6946 6946] || 1–6 || [[Oteha]] || State || 2004<ref name="new-close-merge" /> || {{NZ school roll data|6946|y}} ||  [http://www.oteha.school.nz/]||
+|-
+| [[Pinehill School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=6932 6932] || 1–6 || [[Pinehill, New Zealand|Pinehill]] || State || || {{NZ school roll data|6932|y}}  ||  [http://www.pinehill.school.nz/]|| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Albany_School> wdt:P2044 "56"^^xsd:decimal ;
+ wdt:P1082 "8250"^^xsd:decimal ;
+ wdt:P1082 "10850"^^xsd:decimal ;
+ wdt:P1082 "7245"^^xsd:decimal ;
+ wdt:P1082 "9894"^^xsd:decimal ;
+ wdt:P10622 "31800"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Lucas_Heights,_New_Zealand> ;
+ wdt:P206 <https://en.wikipedia.org/wiki/Lucas_Creek> ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B13:00> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P1448 "Albany"@en ;
+ wdt:P1705 "Albany"@en ;
+ wdt:P571 "1840-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P2046 "9.86"^^xsd:decimal ;
+ wdt:P1538 "3240"^^xsd:decimal ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Albany,_Western_Australia> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Fairview_Heights,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Pinehill,_New_Zealand> ;
+ rdfs:label "Albany"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Westfield%20Albany%20Being%20Built%2001.jpg> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Rosedale,_Auckland> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Schnapper_Rock> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Oteha> ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B12:00> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P47 wd:Q25660304 .
+
+<https://example.org/resource/City_Impact_Church_School> wdt:P1889 <https://en.wikipedia.org/wiki/Pine_Hill,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Windsor_Park,_New_Zealand> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ rdfs:label "Pinehill"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Rosedale,_Auckland> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Rothesay_Bay> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Oteha> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Albany,_New_Zealand> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Greenhithe_School> wdt:P1082 "40"^^xsd:decimal ;
+ wdt:P1082 "45"^^xsd:decimal ;
+ wdt:P1082 "49"^^xsd:decimal ;
+ wdt:P1082 "55"^^xsd:decimal ;
+ wdt:P1082 "89"^^xsd:decimal ;
+ wdt:P1082 "134"^^xsd:decimal ;
+ wdt:P1082 "213"^^xsd:decimal ;
+ wdt:P1082 "471"^^xsd:decimal ;
+ wdt:P1082 "567"^^xsd:decimal ;
+ wdt:P1082 "794"^^xsd:decimal ;
+ wdt:P1082 "1076"^^xsd:decimal ;
+ wdt:P1082 "1389"^^xsd:decimal ;
+ wdt:P1082 "1578"^^xsd:decimal ;
+ wdt:P1082 "3318"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Suburb> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/P%C4%81remoremo> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Hobsonville> ;
+ rdfs:label "Greenhithe"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Bayview,_New_Zealand> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Greenhithe.jpg> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Schnapper_Rock> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> .
+
+<https://example.org/resource/Oteha_Valley_School> wdt:P1889 <https://en.wikipedia.org/wiki/Pine_Hill,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Windsor_Park,_New_Zealand> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ rdfs:label "Pinehill"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Rosedale,_Auckland> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Rothesay_Bay> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Oteha> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Albany,_New_Zealand> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Pinehill_School> wdt:P1889 <https://en.wikipedia.org/wiki/Pine_Hill,_New_Zealand> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Windsor_Park,_New_Zealand> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ rdfs:label "Pinehill"@en ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Rosedale,_Auckland> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Rothesay_Bay> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Oteha> ;
+ wdt:P47 <https://en.wikipedia.org/wiki/Albany,_New_Zealand> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 wd:Q3257686 .
+---
+These are the labels of the properties:
+
+wdt:P2044 -> elevation above sea level
+wdt:P1082 -> population
+wdt:P10622 -> per capita income
+wdt:P31 -> instance of
+wdt:P47 -> shares border with
+wdt:P206 -> located in or next to body of water
+wdt:P421 -> located in time zone
+wdt:P17 -> country
+wdt:P1448 -> official name
+wdt:P1705 -> native label
+wdt:P571 -> inception
+wdt:P2046 -> area
+wdt:P1538 -> number of households
+wdt:P138 -> named after
+wdt:P18 -> image
+wdt:P131 -> located in the administrative territorial entity
+wdt:P1889 -> different from.
+---
+These are the labels of the objects:
+
+wd:Q25660304 -> Albany Heights
+wd:Q3257686 -> locality.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name || MOE || Years || Area || Authority || Opened || Roll || class="unsortable"|Website || Notes
+|-
+| Hobsonville School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1314 1314] || 1–8 || [[Hobsonville]] || State || || {{NZ school roll data|1314|y}} ||  [http://www.hobsonville.school.nz/]||
+|-
+| Hobsonville Point Primary School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=6788 6788] || 1–8 || [[Hobsonville]] || State || 2013<ref name="new-close-merge" /> || {{NZ school roll data|6788|y}} || [http://www.hobsonvillepoint.school.nz/]||
+|-
+| Marina View School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1592 1592] || 1–8 || [[West Harbour, Auckland|West Harbour]] || State || || {{NZ school roll data|1592|y}} ||  [http://www.marinav.school.nz/]||
+|-
+| Scott Point Primary School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=725 725] || 1–8 || [[Hobsonville]] || State || 2021 || {{NZ school roll data|725|y}} || [https://www.scottpointschool.nz/]||
+|-
+| Timatanga Community School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=4146 4146] || 1–8 || [[Whenuapai]] || State integrated || || {{NZ school roll data|4146|y}} ||  -  || 
+|-
+| Whenuapai School || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1572 1572] || 1–8 || [[Whenuapai]] || State || 1957 || {{NZ school roll data|1572|y}} ||  [http://www.whenuapai.school.nz/]|| |}
+---

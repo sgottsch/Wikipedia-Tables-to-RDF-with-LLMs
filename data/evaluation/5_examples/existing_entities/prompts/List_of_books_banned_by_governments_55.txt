@@ -1,0 +1,373 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of books banned by governments" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! width=170pt|Title
+! width=120pt|Author(s)
+! Year published
+!Year Banned
+!Year Unbanned 
+! Type
+! Notes
+|-
+| ''[[Areopagitica]]''
+| [[John Milton]]
+| 1644
+|1644
+|1695
+| Essay
+| Banned in the [[Kingdom of England]] for political reasons.<ref>Karolides et al., pp. 16–20</ref>
+|-
+|''[[Fanny Hill]]'' or ''Memoirs of a Woman of Pleasure''
+|[[John Cleland]]
+|1748
+|1749
+|1970
+|Novel
+|Banned in the UK till after the Second World War.<ref>{{Cite web |last=Little |first=Becky |date=23 January 2019 |title=When the Supreme Court Had to Read an 18th-Century Erotic Novel |url=https://www.history.com/news/fanny-hill-banned-book-supreme-court-case |website=The History Channel}}</ref>
+|-
+| ''[[Rights of Man]]''
+| [[Thomas Paine]]
+| 1791
+|1792
+|Pre-1990 *Unknown*
+| Political theory
+| Banned in the UK and author charged with treason for supporting the [[French Revolution]].<ref name=b2/>
+|-
+| ''[[Ulysses (novel)|Ulysses]]'' (1922)
+| [[James Joyce]]
+| 1922
+|
+|1936
+| Novel
+| Banned in the UK until 1936.<ref>{{cite book | last = McCourt | first = John | title = James Joyce: A Passionate Exile | page = 98 | publisher = Orion Books Ltd | year = 2000 | location = London | isbn = 0-7528-1829-5 }}</ref><ref>{{cite web |url=http://www.historyguide.org/europe/lecture8.html |title=Lecture 8: The Age of Anxiety: Europe in the 1920s |last=Kreis |first=Steven |publisher=The History Guide |date=June 25, 2014 |access-date=April 9, 2015}}</ref>
+|-
+| ''[[Lady Chatterley's Lover]]'' (1928)
+| [[D. H. Lawrence]]
+| 1928
+|
+|1960
+| Novel
+| Banned in the United Kingdom for violation of obscenity laws; the ban was lifted in 1960.{{clarify|date=May 2020}}<ref name="sovasexual">{{cite book
+ | last = Sova
+ | first = Dawn B.
+ | title = Banned Books: Literature Suppressed on Sexual Grounds
+ | publisher = [[Facts on File]]
+ | date = c. 2006
+ | location = New York, NY
+ | isbn = 0-8160-6272-2
+ | url-access = registration
+ | url = https://archive.org/details/literaturesuppre0000sova_r9r5
+ }}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Areopagitica> wdt:P50 <https://en.wikipedia.org/wiki/John_Milton> ;
+ wdt:P1476 "Areopagitica"@en ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Pamphlet> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Polemic> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Kingdom_of_England> ;
+ rdfs:label "Areopagitica"@en ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Human_rights> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Areopagitica%201644bw%20gobeirne.png> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Censorship> ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/The_Nuttall_Encyclop%C3%A6dia> ;
+ wdt:P577 "1644-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 wd:Q7725634 .
+
+<https://example.org/resource/Fanny_Hill> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Memoirs%20of%20a%20Woman%20of%20Pleasure%20Fanny%20Hill%201749%20edition%20title%20page.jpg> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/John_Cleland> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Fanny_Hill_(1983_film)> ;
+ wdt:P136 wd:Q10318944 ;
+ wdt:P577 "1748-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1476 "Memoirs of a Woman of Pleasure"@en ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Fanny_Hill_(1968_film)> ;
+ rdfs:label "Fanny Hill"@en ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Novel> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Erotica> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/London> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/England> ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P953 <https://gutenberg.org/ebooks/25305> .
+
+<https://example.org/resource/Rights_of_Man> wdt:P1476 "Rights of Man"@en ;
+ wdt:P747 wd:Q107407415 ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P577 "1791-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P275 <https://en.wikipedia.org/wiki/Public_domain> ;
+ rdfs:label "Rights of Man"@en ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Polemical_lampoon> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/PaineRightsOfMan.png> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/French_Revolution> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Thomas_Paine> ;
+ wdt:P31 wd:Q7725634 .
+
+<https://example.org/resource/Ulysses> wdt:P527 wd:Q56103091 ;
+ wdt:P840 <https://en.wikipedia.org/wiki/O%27Connell_Bridge> ;
+ wdt:P674 wd:Q28602262 ;
+ wdt:P674 wd:Q28602472 ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Jack_Power_(Ulysses)> ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P674 <https://en.wikipedia.org/wiki/John_Hooper_(Irish_politician)> ;
+ wdt:P156 <https://en.wikipedia.org/wiki/Finnegans_Wake> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Dalkey> ;
+ wdt:P1476 "Ulysses"@en ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Dublin> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/James_Joyce_Tower_and_Museum> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Sandymount_Strand> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Serial_(literature)> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Metafiction> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/National_Library_of_Ireland> ;
+ wdt:P793 <https://en.wikipedia.org/wiki/Bloomsday> ;
+ wdt:P3132 "I said yes I will Yes."@en ;
+ wdt:P747 wd:Q104191512 ;
+ wdt:P793 <https://en.wikipedia.org/wiki/United_States_v._One_Book_Called_Ulysses> ;
+ wdt:P840 wd:Q28601860 ;
+ wdt:P166 <https://en.wikipedia.org/wiki/20th_Century%27s_Greatest_Hits:_100_English-Language_Books_of_Fiction> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Le_Monde%27s_100_Books_of_the_Century> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/JoyceUlysses2.jpg> ;
+ wdt:P747 wd:Q15996608 ;
+ wdt:P747 wd:Q19020726 ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Nelson%27s_Pillar> ;
+ wdt:P527 wd:Q28601624 ;
+ wdt:P527 wd:Q28601800 ;
+ wdt:P527 wd:Q28602572 ;
+ wdt:P527 wd:Q28602745 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/UlyssesCover.jpg> ;
+ wdt:P1343 wd:Q121485273 ;
+ wdt:P527 wd:Q28601581 ;
+ wdt:P527 wd:Q28657069 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/French_Third_Republic> ;
+ wdt:P527 wd:Q28709812 ;
+ wdt:P840 <https://en.wikipedia.org/wiki/National_Maternity_Hospital,_Dublin> ;
+ wdt:P527 wd:Q28601724 ;
+ wdt:P2408 <https://en.wikipedia.org/wiki/June_1904> ;
+ wdt:P527 wd:Q38138028 ;
+ wdt:P747 wd:Q28599480 ;
+ wdt:P747 wd:Q28599531 ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Michael_Cusack_(Gaelic_Athletic_Association)> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Corny_Kelleher> ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)> ;
+ wdt:P527 wd:Q28602222 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_Kingdom_of_Great_Britain_and_Ireland> ;
+ wdt:P793 <https://en.wikipedia.org/wiki/Obscenity_trial_of_Ulysses_in_The_Little_Review> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P747 wd:Q28599525 ;
+ wdt:P674 <https://en.wikipedia.org/wiki/George_William_Russell> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Simon_Dedalus> ;
+ wdt:P747 wd:Q33182025 ;
+ wdt:P527 wd:Q56103050 ;
+ wdt:P527 wd:Q56103127 ;
+ wdt:P527 wd:Q56103204 ;
+ wdt:P527 wd:Q56103019 ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Ulysses_(1967_film)> ;
+ wdt:P527 wd:Q56102932 ;
+ wdt:P527 wd:Q56103151 ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/James_Joyce> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Joseph_Nannetti> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/David_Sheehy> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:Ulysses_(novel)> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Stephen_Dedalus> ;
+ wdt:P953 <https://gutenberg.org/ebooks/4300> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Martin_Cunningham_(character)> ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/William_Kirkpatrick_Magee> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Cabra,_Dublin> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/May_Golding_Dedalus> ;
+ rdfs:label "Ulysses"@en ;
+ wdt:P571 "1914-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Literary_fiction> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Experimental_literature> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Freeman%27s_Journal> ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Sylvia_Beach> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Grafton_Street> ;
+ wdt:P155 <https://en.wikipedia.org/wiki/A_Portrait_of_the_Artist_as_a_Young_Man> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Buck_Mulligan> ;
+ wdt:P577 "1922-02-02T00:00:00Z"^^xsd:dateTime ;
+ wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q9610%20%28ben%29-Tahmid-%E0%A6%87%E0%A6%89%E0%A6%B2%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A6%B8.wav> ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Novel> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Molly_Bloom> ;
+ wdt:P747 wd:Q28599849 ;
+ wdt:P1433 <https://en.wikipedia.org/wiki/The_Little_Review> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Bloom_(2003_film)> ;
+ wdt:P747 wd:Q28599496 ;
+ wdt:P747 wd:Q28599523 ;
+ wdt:P747 wd:Q28599520 ;
+ wdt:P747 wd:Q28599521 ;
+ wdt:P941 <https://en.wikipedia.org/wiki/Odyssey> ;
+ wdt:P2635 "18"^^xsd:decimal ;
+ wdt:P527 wd:Q28647765 ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Thomas_William_Lyster> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Leopold_Bloom> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Glasnevin_Cemetery> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Richard_Irvine_Best> ;
+ wdt:P1922 "Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of lather on which a mirror and a razor lay crossed."@en ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Milly_Bloom> ;
+ wdt:P674 wd:Q28601692 ;
+ wdt:P144 <https://en.wikipedia.org/wiki/Odyssey> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Literary_modernism> ;
+ wdt:P674 wd:Q28575591 ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Davy_Byrne%27s_pub> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Autobiography> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Garrett_Deasy> .
+
+<https://example.org/resource/Lady_Chatterley's_Lover> wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley_(TV_serial)> ;
+ wdt:P3893 "2024-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Erotic_novel> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Le_Monde%27s_100_Books_of_the_Century> ;
+ wdt:P953 <https://gutenberg.net.au/ebooks01/0100181h.html> ;
+ wdt:P1476 "Lady Chatterley's Lover"@en ;
+ wdt:P31 wd:Q47461344 ;
+ wdt:P577 "1928-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/England> ;
+ wdt:P4969 wd:Q104894540 ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley%27s_Lover_(1981_film)> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley%27s_Lover_(1955_film)> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley%27s_Lover_(2022_film)> ;
+ rdfs:label "Lady Chatterley's Lover"@en ;
+ wdt:P910 wd:Q15410319 ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley%27s_Lover_(2015_film)> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Lady%20chatterley%27s%20lover%201959%20US%20unexpurgated%20edition.jpg> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lady_Chatterley_(film)> ;
+ wdt:P155 <https://en.wikipedia.org/wiki/John_Thomas_and_Lady_Jane> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/D._H._Lawrence> ;
+ wdt:P747 wd:Q56483003 .
+---
+These are the labels of the properties:
+
+wdt:P50 -> author
+wdt:P1476 -> title
+wdt:P136 -> genre
+wdt:P407 -> language of work or name
+wdt:P6216 -> copyright status
+wdt:P495 -> country of origin
+wdt:P5008 -> on focus list of Wikimedia project
+wdt:P18 -> image
+wdt:P921 -> main subject
+wdt:P1343 -> described by source
+wdt:P577 -> publication date
+wdt:P31 -> instance of
+wdt:P4969 -> derivative work
+wdt:P7937 -> form of creative work
+wdt:P840 -> narrative location
+wdt:P953 -> full work available at URL
+wdt:P747 -> has edition or translation
+wdt:P275 -> copyright license
+wdt:P527 -> has part(s)
+wdt:P674 -> characters
+wdt:P156 -> followed by
+wdt:P793 -> significant event
+wdt:P3132 -> last line
+wdt:P166 -> award received
+wdt:P2408 -> set in period
+wdt:P123 -> publisher
+wdt:P910 -> topic's main category
+wdt:P571 -> inception
+wdt:P155 -> follows
+wdt:P443 -> pronunciation audio
+wdt:P1433 -> published in
+wdt:P941 -> inspired by
+wdt:P2635 -> number of parts of this work
+wdt:P1922 -> first line
+wdt:P144 -> based on
+wdt:P3893 -> public domain date.
+---
+These are the labels of the objects:
+
+wd:Q7725634 -> literary work
+wd:Q10318944 -> LGBT literature
+wd:Q107407415 -> Rights of Man
+wd:Q56103091 -> Oxen of the Sun
+wd:Q28602262 -> Martha Clifford
+wd:Q28602472 -> C. P. M'Coy
+wd:Q104191512 -> Ulysses (1935)
+wd:Q28601860 -> #7 Eccles street
+wd:Q15996608 -> Ulysses (2004 German translation)
+wd:Q19020726 -> Ulysses
+wd:Q28601624 -> Nestor
+wd:Q28601800 -> Calypso
+wd:Q28602572 -> Hades
+wd:Q28602745 -> Aeolus
+wd:Q121485273 -> The Cast of Characters: A Reading of "Ulysses"
+wd:Q28601581 -> Telemachus
+wd:Q28657069 -> Scylla and Charybdis
+wd:Q28709812 -> Wandering Rocks
+wd:Q28601724 -> Proteus
+wd:Q38138028 -> Penelope
+wd:Q28599480 -> Ulysses (1986)
+wd:Q28599531 -> Ulysses (1984)
+wd:Q28602222 -> Lotus-eaters
+wd:Q28599525 -> Ulysses (1961)
+wd:Q33182025 -> Iliada
+wd:Q56103050 -> Circe
+wd:Q56103127 -> Nausikaa
+wd:Q56103204 -> Sirens
+wd:Q56103019 -> Eumaeus
+wd:Q56102932 -> Ithaca
+wd:Q56103151 -> Cyclops
+wd:Q28599849 -> Ulysses (2004)
+wd:Q28599496 -> Ulysses (1932)
+wd:Q28599523 -> Ulysses (1960)
+wd:Q28599520 -> Ulysses (1934)
+wd:Q28599521 -> Ulysses (1936)
+wd:Q28647765 -> Lestrygonians
+wd:Q28601692 -> Haines
+wd:Q28575591 -> Tisdall Farrell
+wd:Q47461344 -> written work
+wd:Q104894540 -> Q104894540
+wd:Q15410319 -> Category:Lady Chatterley's Lover
+wd:Q56483003 -> L'amante di Lady Chatterley.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! width=170pt|Title
+! width=120pt|Author(s)
+! Year published
+!Year Banned
+!Year Unbanned 
+! Type
+! Notes
+|-
+| ''[[Last Exit to Brooklyn]]''
+| [[Hubert Selby Jr.]]
+| 1966 (in the UK)
+|1967
+|1968
+| Anthology of short stories
+| Banned in [[Soho]] for frank depictions of taboo subjects, such as drug use, street violence, homosexuality, gender identity and domestic violence.<ref>{{Cite news|url=https://www.telegraph.co.uk/obituaries/2021/01/29/david-britton-maverick-published-last-novel-britain-banned-obscenity/ |archive-url=https://ghostarchive.org/archive/20220112/https://www.telegraph.co.uk/obituaries/2021/01/29/david-britton-maverick-published-last-novel-britain-banned-obscenity/ |archive-date=January 12, 2022 |url-access=subscription |url-status=live |title=david Britton, maverick who published last novel in Britain to be banned for obscenity – obituary |newspaper=The Telegraph |date=29 January 2021|last1=Obituaries |first1=Telegraph }}{{cbignore}}</ref>
+|-
+| ''[[Spycatcher]]''
+| [[Peter Wright (MI5 officer)|Peter Wright]]
+| 1985
+|1985
+|1988
+| Autobiography
+| Banned in the UK 1985–1988 for revealing secrets. Wright was a former [[MI5]] intelligence officer and his book was banned before it was even published in 1987.<ref name="Spycatcher_time_Zuckerman">{{cite magazine |url=http://www.time.com/time/magazine/article/0,9171,965233,00.html |archive-url=https://web.archive.org/web/20070930093808/http://www.time.com/time/magazine/article/0,9171,965233,00.html |archive-date=September 30, 2007 |title=How Not to Silence a Spy |access-date=2008-01-20 |last=Zuckerman |first=Laurence |date=August 17, 1987 |magazine=[[Time (magazine)|Time]] |publisher=[[Time Warner]]}}</ref><ref name="Spycatcher_bbc2">[http://news.bbc.co.uk/onthisday/hi/dates/stories/september/23/newsid_2528000/2528695.stm 1987: Ban lifted on MI5 man's memoirs]. BBC News. Retrieved on 2012-01-21.</ref>
+|-
+| ''[[The Anarchist Cookbook]]''
+| [[William Powell (author)|William Powell]]
+| 1971
+|*Unknown*
+|*Unknown*
+| Instructional
+| Criminal due to containing information useful to terrorists.<ref name="jewish_times_2021-03-23">{{Cite web|url=https://jewishnews.timesofisrael.com/nazi-sympathiser-facing-jail-after-conviction-for-downloading-terror-manuals/ |title=Nazi sympathizer facing jail after conviction for downloading terror manuals |date=23 March 2021|website=Jewish News|language=en}}</ref><ref name="bbc_news-2021-03-23">{{Cite web|url=https://www.bbc.com/news/uk-england-berkshire-56499185 |title=Maidenhead far-right sympathizer guilty of terrorism offences |date=23 March 2021|website=BBC News|language=en}}</ref> |}
+---

@@ -1,0 +1,48 @@
+In both
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q5026674> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q3545292> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11424> .
+<https://example.org/resource/Hiling> <http://www.w3.org/2000/01/rdf-schema#label> "Hiling"@en .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q6118150> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q928> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.w3.org/2000/01/rdf-schema#label> "Puso ng Pasko"@en .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q3348165> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q7336471> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q7453114> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q468456> .
+In ground only
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q5880927> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P1476> "Puso ng Pasko"@en .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P161> <http://www.wikidata.org/entity/Q5092442> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P577> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q34057> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q287617> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P272> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q34057> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P9215> <http://www.wikidata.org/entity/Q3517772> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P1476> "Hiling"@en .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P162> <http://www.wikidata.org/entity/Q5880927> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q28026639> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P462> <http://www.wikidata.org/entity/Q22006653> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P364> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P58> <http://www.wikidata.org/entity/Q6292560> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P272> <http://www.wikidata.org/entity/Q7600659> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q6292560> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q7166568> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P86> <http://www.wikidata.org/entity/Q12965139> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q113196817> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P577> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+In predicted only
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q130232> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q130232> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P577> "1998-11-18T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q17198119> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q157394> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q113206347> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P57> <http://www.wikidata.org/entity/Q110732743> .
+<https://example.org/resource/Hiling> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q157394> .
+<https://example.org/resource/Puso_ng_Pasko> <http://www.wikidata.org/prop/direct/P577> "1998-12-25T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .

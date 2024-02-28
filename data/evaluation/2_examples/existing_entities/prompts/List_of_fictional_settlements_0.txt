@@ -1,0 +1,80 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of fictional settlements" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+! Name !! Debut !! Creator(s) !! Publisher !! class=unsortable|Notes
+|-
+|[[Blüdhaven]]
+|''[[Nightwing]]'' Vol 1 #1
+|[[Chuck Dixon]], [[Scott McDaniel]]
+|[[DC Comics]]
+|A fictional American city located in [[New Jersey]]. A former whaling town, which was officially incorporated as a "Commonwealth" in 1912. The town had a generally poor socio-economic populace, owing in part to failed efforts to transform itself into a manufacturing and shipping center. In modern times, it became more dangerous than Gotham, ruled by gangs and a corrupt police department. [[Nightwing]] is the most common heroic presence. 
+|-
+|[[Coast City]]
+|''[[Showcase (comics)|Showcase]]'' #22 (October 1959)
+|[[John Broome (writer)|John Broome]]
+|[[DC Comics]]
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Blüdhaven> wdt:P360 <https://en.wikipedia.org/wiki/Fictional_location> ;
+ wdt:P31 wd:Q18572946 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/JLA_(comic_book)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ rdfs:label "Justice League Watchtower"@en ;
+ wdt:P1441 wd:Q10318224 ;
+ wdt:P466 <https://en.wikipedia.org/wiki/Justice_League> ;
+ wdt:P1080 <https://en.wikipedia.org/wiki/DC_Universe> .
+
+<https://example.org/resource/Coast_City> wdt:P360 <https://en.wikipedia.org/wiki/Fictional_location> ;
+ wdt:P31 wd:Q18572946 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/JLA_(comic_book)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ rdfs:label "Justice League Watchtower"@en ;
+ wdt:P1441 wd:Q10318224 ;
+ wdt:P466 <https://en.wikipedia.org/wiki/Justice_League> ;
+ wdt:P1080 <https://en.wikipedia.org/wiki/DC_Universe> .
+---
+These are the labels of the properties:
+
+wdt:P360 -> is a list of
+wdt:P31 -> instance of
+wdt:P1441 -> present in work
+wdt:P466 -> occupant
+wdt:P1080 -> from narrative universe.
+---
+These are the labels of the objects:
+
+wd:Q18572946 -> fictional space station
+wd:Q10318224 -> Justice League of America.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+! Name !! Debut !! Creator(s) !! Publisher !! class=unsortable|Notes
+|-
+|[[Star City (comics)|Star City]]
+|Green Arrow
+|[[George Papp]], [[Mort Weisinger]]
+|[[DC comics]]
+|Home of the fictional vigilantes [[Green Arrow]], [[Black Canary]], Spartan, and Overwatch. They fight crime in this city. 
+|-
+|[[Kamar-Taj]]
+|''[[Strange Tales]]'' #110 (July 1963) 
+|[[Stan Lee]], [[Steve Ditko]]
+|[[Marvel Comics]]
+|A village hidden high in the [[Himalayan mountains|Himalayas]], where [[Doctor Strange]] learns magic from the [[Ancient One]].
+|-
+|[[Fawcett City]]
+|Whiz Comics #2 (February 1940)
+|
+|[[Fawcett Comics]], [[DC Comics]]
+| |}
+---

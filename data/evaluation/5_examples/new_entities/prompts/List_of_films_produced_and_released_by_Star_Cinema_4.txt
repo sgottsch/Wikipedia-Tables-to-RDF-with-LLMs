@@ -1,0 +1,130 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films produced and released by Star Cinema" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" |''[[Paano ang Puso Ko?]]''|| February 12 || [[Rory Quintos]]||[[Judy Ann Santos]], [[Wowie de Guzman]], [[Rico Yan]] ||[[Drama (film and television)|Drama]], [[Romance film|romance]] ||
+|-
+| style="text-align:center;" | ''[[I Do? I Die! (D'yos Ko Day!)]]''|| April 16 ||Efren Jarlego || [[Edu Manzano]], [[Agot Isidro]], [[Babalu (comedian)|Babalu]], [[Paula Peralejo]], [[Paolo Contis]] [[Redford White]] ||[[Comedy film|Comedy]] ||
+|-
+| style="text-align:center;" | ''[[Batang PX|Batang PX/Phil-American Boy]]''|| May 7 || [[Jose Javier Reyes]]||[[Patrick Garcia]], [[Zsa Zsa Padilla]], [[Edu Manzano]], [[Anna Larrucea]] ||[[Drama (film and television)|Drama]] || Available Light Production
+|-
+| style="text-align:center;" | ''[[Goodbye America]]''||August 20 || Thierry Notz ||[[Wolfgang Bodison]], [[Corin Nemec]], [[John Haymes Newton]], [[Angel Aquino]], [[Raymond Bagatsing]], [[Alexis Arquette]] ||[[Action film|Action]], [[Drama (film and television)|drama]] || Quantum Entertainment
+|-
+| style="text-align:center;" | ''[[Kokey (film)|Kokey]]''|| November 26 ||Romy Suzara ||[[Carlo Aquino]], [[Cherry Pie Picache]], Ani Pearl Alonso, [[Ricky Davao]] ||[[Comedy film|Comedy]], family || |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Paano_ang_Puso_Ko?> wdt:P856 <http://starcinema.abs-cbn.com/movies/paano-ang-puso-ko> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1476 "Paano Ang Puso Ko?"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Rory_Quintos> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P577 "1997-02-12T00:00:00Z"^^xsd:dateTime ;
+ wdt:P462 wd:Q22006653 ;
+ rdfs:label "Paano Ang Puso Ko?"@en .
+
+<https://example.org/resource/I_Do?_I_Die!_(D'yos_Ko_Day!)> wdt:P364 <https://en.wikipedia.org/wiki/Filipino_language> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Edu_Manzano> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P577 "1997-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P462 wd:Q22006653 ;
+ rdfs:label "I Do, I Die! Dyos Ko Day"@en .
+
+<https://example.org/resource/Batang_PX/Phil-American_Boy> wdt:P364 <https://en.wikipedia.org/wiki/Filipino_language> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ rdfs:label "Batang PX"@en ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Edu_Manzano> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Patrick_Garcia> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Jose_Javier_Reyes> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Zsa_Zsa_Padilla> ;
+ wdt:P577 "1997-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Jose_Javier_Reyes> .
+
+<https://example.org/resource/Goodbye_America> wdt:P162 <https://en.wikipedia.org/wiki/Charo_Santos-Concio> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Drama_(film_and_television)> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Roy_Hay_(musician)> ;
+ wdt:P1476 "Goodbye America"@en ;
+ wdt:P57 wd:Q113351893 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Thriller_film> ;
+ wdt:P577 "1997-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Romance_film> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ rdfs:label "Goodbye America"@en .
+
+<https://example.org/resource/Kokey> wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P2047 "96"^^xsd:decimal ;
+ rdfs:label "Kokey"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 wd:Q113206291 ;
+ wdt:P577 "1997-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Star_Cinema> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_film> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Carlo_Aquino> .
+---
+These are the labels of the properties:
+
+wdt:P856 -> official website URL
+wdt:P364 -> original language of film or TV show
+wdt:P1476 -> title
+wdt:P31 -> instance of
+wdt:P57 -> director
+wdt:P495 -> country of origin
+wdt:P577 -> publication date
+wdt:P462 -> color
+wdt:P161 -> cast member
+wdt:P750 -> distributed by
+wdt:P437 -> distribution format
+wdt:P58 -> screenwriter
+wdt:P162 -> producer
+wdt:P136 -> genre
+wdt:P840 -> narrative location
+wdt:P86 -> composer
+wdt:P2047 -> duration.
+---
+These are the labels of the objects:
+
+wd:Q22006653 -> color
+wd:Q113351893 -> Thierry Notz
+wd:Q113206291 -> Romy Suzara.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align:center;" | ''Kapag May Katwiran.. Ipaglaban Mo! The Movie 2''|| November 5 || [[Rory Quintos]]|| [[Wowie de Guzman]], [[Carmina Villarroel]], [[Angelika Dela Cruz]], Aljon Jimenez, [[Chat Silayan]], [[Charito Solis]] || [[Crime film|Crime]], [[Drama (film and television)|drama]]||
+|-
+| style="text-align:center;" | ''Ikaw Pala ang Mahal Ko'' || November 19 || [[Jose Javier Reyes]] || [[Gelli de Belen]], [[Ariel Rivera]], [[Chin-Chin Gutierrez]], [[Eula Valdez]], [[John Lloyd Cruz]], [[Ronaldo Valdez]] || [[Drama (film and television)|Drama]], [[Romance film|romance]] || |}
+---

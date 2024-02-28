@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/118_Mall> rdfs:label "118 Mall"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/Coliseum_Theatre> rdfs:label "Coliseum Theatre"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "1921-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/Pavilion_Bukit_Jalil> rdfs:label "Pavilion Bukit Jalil"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2021-11-20T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/Pavilion_KL> rdfs:label "Pavilion KL"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2007-09-20T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/Sunway_Putra_Mall> rdfs:label "Sunway Putra Mall"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2012-09-19T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+
+<https://example.org/resource/Sunway_Velocity_Mall> rdfs:label "Sunway Velocity Mall"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2016-11-15T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86108806 .
+

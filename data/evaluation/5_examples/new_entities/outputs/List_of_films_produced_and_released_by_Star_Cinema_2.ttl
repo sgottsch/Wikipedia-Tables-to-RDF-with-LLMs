@@ -1,0 +1,56 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Asero> rdfs:label "Asero"@en ;
+    wdt:P136 wd:Q188473 ;
+    wdt:P161 wd:Q961732 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P577 "1990-08-30T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Bukas,_Bibitayin_si_Itay_–_The_Elmo_Sandoval_Story> rdfs:label "Bukas, Bibitayin si Itay – The Elmo Sandoval Story"@en ;
+    wdt:P136 wd:Q5937792 ;
+    wdt:P161 wd:Q12965377 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P577 "1990-05-10T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Hataw_Na> rdfs:label "Hataw Na"@en ;
+    wdt:P136 wd:Q842256 ;
+    wdt:P161 wd:Q3550458 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q6292560 ;
+    wdt:P577 "1990-09-13T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Home_Sic_Home> rdfs:label "Home Sic Home"@en ;
+    wdt:P136 wd:Q157443 ;
+    wdt:P161 wd:Q3241481 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P577 "1990-06-21T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Kapag_May_Katwiran.._Ipaglaban_Mo!_The_Movie> rdfs:label "Kapag May Katwiran.. Ipaglaban Mo! The Movie"@en ;
+    wdt:P136 wd:Q5937792 ;
+    wdt:P161 wd:Q2311526 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P57 wd:Q630268 ;
+    wdt:P577 "1990-03-29T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Mangarap_Ka> rdfs:label "Mangarap Ka"@en ;
+    wdt:P136 wd:Q1054574,
+        wd:Q130232,
+        wd:Q1339864 ;
+    wdt:P161 wd:Q16210413,
+        wd:Q3543546,
+        wd:Q5999469 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q7366943 ;
+    wdt:P577 "1995-11-22T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q7600659 .
+
+<https://example.org/resource/Matimbang_Pa_Sa_Dugo> rdfs:label "Matimbang Pa Sa Dugo"@en ;
+    wdt:P136 wd:Q188473 ;
+    wdt:P161 wd:Q2754080 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P577 "1990-09-27T00:00:00+00:00"^^xsd:dateTime .
+

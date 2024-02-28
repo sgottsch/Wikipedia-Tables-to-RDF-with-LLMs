@@ -1,0 +1,170 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of museums in Central Texas" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable plainrowheaders"
+|+{{sronly|List of museums in Kendall - Kimble counties, Texas}}
+|-
+!scope="col" |Museum name 
+!scope="col"  class="unsortable" |Image
+!scope="col"  |City
+!scope="col"  |County
+!scope="col"  |Notes
+!scope="col" class="unsortable" |Refs
+|-
+!scope="row"|[[Fort Martin Scott]]
+||[[File:Fort martin scott 2008.jpg|125px|Fort Martin Scott]]
+|[[Fredericksburg, Texas|Fredericksburg]]
+|Gillespie
+|Recorded Texas Historic Landmark, National Register of Historic Places
+|align="center"|<ref>{{cite web |title=Details - Fort Martin Scott - Atlas Number 4200000725 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000725 |website=atlas.thc.state.tx.us |access-date=18 August 2022}}</ref>
+|-
+!scope="row"|[[Lyndon B. Johnson State Park and Historic Site]]
+|[[File:Kitchen rural 1918.jpg|125px|Lyndon B. Johnson State Park and Historic Site]]
+|[[Stonewall, Texas|Stonewall]]
+|Gillespie 
+|Visitor center with memorabilia from President Johnson's presidency, the 1870s-period Behrens Cabin, and the 1918-period Sauer-Beckmann Farmstead, a living history farmstead
+|align="center"|<ref>{{cite web |title=Details - Lyndon B. Johnson State Park and Historic Site - Atlas Number 4200000474 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000474 |website=atlas.thc.state.tx.us |access-date=18 August 2022}}</ref>
+|-
+!scope="row"|[[National Museum of the Pacific War]]
+|[[File:Nmpw-front-left-flags.jpg|125px|National Museum of the Pacific War]]
+|Fredericksburg
+|Gillespie
+|Recorded Texas Historic Landmark, history of the [[Asiatic-Pacific Theater|Pacific Theater of Operations]] during [[World War II]], part of  [[Fleet Admiral (United States)|Fleet Admiral]] [[Chester W. Nimitz]] State Historic Site
+|align="center"|<ref>{{cite web |title=Details - National Museum of the Pacific War - Atlas Number 4200000162 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000162 |website=atlas.thc.state.tx.us |access-date=18 August 2022}}</ref>
+|-
+!scope="row"|[[Fanthorp Inn State Historic Site]]
+|[[File:Fanthorp inn texas 2008.jpg|125px|Fanthorp Inn State Historic Site]]
+|[[Anderson, Texas|Anderson]]
+|Grimes
+|Restored 1850s period family home and stagecoach stop
+|align="center"|<ref>{{cite web |title=Details - Fanthorp Inn - Atlas Number 5185008573 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/5185008573 |website=atlas.thc.state.tx.us |access-date=19 August 2022}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Fort_Martin_Scott> wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Martin_Scott_(military_officer)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Fort> ;
+ wdt:P1343 wd:Q112756208 ;
+ rdfs:label "Fort Martin Scott"@en ;
+ wdt:P1435 wd:Q19558910 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20martin%20scott%202008.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Fredericksburg,_Texas> .
+
+<https://example.org/resource/Lyndon_B._Johnson_State_Park_and_Historic_Site> rdfs:label "Lyndon B. Johnson State Park and Historic Site"@en ;
+ wdt:P856 <https://tpwd.texas.gov/state-parks/lyndon-b-johnson> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Gillespie_County,_Texas> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Lyndon%20B.%20Johnson%20State%20Park%20and%20Historic%20Site%20July%202017.jpg> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Lyndon_B._Johnson> ;
+ wdt:P2872 wd:Q72810063 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P31 wd:Q38001316 ;
+ wdt:P571 "1970-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 wd:Q52063464 ;
+ wdt:P1766 <http://commons.wikimedia.org/wiki/Special:FilePath/LBJ%20State%20Park%20sign%2C%20TX%20IMG%201466.JPG> ;
+ wdt:P7153 <https://en.wikipedia.org/wiki/Stonewall,_Texas> .
+
+<https://example.org/resource/National_Museum_of_the_Pacific_War> wdt:P1435 wd:Q52063464 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ rdfs:label "National Museum of the Pacific War"@en ;
+ wdt:P856 <http://www.pacificwarmuseum.org> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Nimitz%20Museum%2C%20Fredericksburg%2C%20Texas.JPG> ;
+ wdt:P463 wd:Q123527204 ;
+ wdt:P5514 <https://en.wikipedia.org/wiki/American_Alliance_of_Museums> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Texas> ;
+ wdt:P31 wd:Q2772772 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Maritime_museum> ;
+ wdt:P571 "1969-02-24T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Fanthorp_Inn_State_Historic_Site> rdfs:label "Fanthorp Inn State Historic Site"@en ;
+ wdt:P856 <https://tpwd.texas.gov/state-parks/fanthorp-inn> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fanthorp%20inn%20texas%202008.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Texas> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Rustic_architecture> ;
+ wdt:P31 wd:Q52063464 ;
+ wdt:P793 wd:Q385378 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Hotel> .
+---
+These are the labels of the properties:
+
+wdt:P17 -> country
+wdt:P138 -> named after
+wdt:P31 -> instance of
+wdt:P1343 -> described by source
+wdt:P1435 -> heritage designation
+wdt:P18 -> image
+wdt:P131 -> located in the administrative territorial entity
+wdt:P856 -> official website URL
+wdt:P2872 -> visitor center
+wdt:P571 -> inception
+wdt:P1766 -> place name sign
+wdt:P7153 -> significant place
+wdt:P463 -> member of
+wdt:P5514 -> accredited by
+wdt:P149 -> architectural style
+wdt:P793 -> significant event.
+---
+These are the labels of the objects:
+
+wd:Q112756208 -> FortWiki
+wd:Q19558910 -> National Register of Historic Places listed place
+wd:Q72810063 -> LBJ State Park and Historic Site Visitor Center
+wd:Q38001316 -> Texas state park
+wd:Q52063464 -> Texas State Historic Site
+wd:Q123527204 -> Association for Living History, Farm and Agricultural Museums
+wd:Q2772772 -> military museum
+wd:Q385378 -> construction.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable plainrowheaders"
+|+{{sronly|List of museums in Kendall - Kimble counties, Texas}}
+|-
+!scope="col" |Museum name 
+!scope="col"  class="unsortable" |Image
+!scope="col"  |City
+!scope="col"  |County
+!scope="col"  |Notes
+!scope="col" class="unsortable" |Refs
+|-
+!scope="row"|[[Texas Rangers Heritage Center]]
+|
+|Fredericksburg
+|Gillespie
+|History of the [[Texas Ranger Division|Texas Rangers]]
+|align="center"|<ref>{{cite web |title=Details - Texas Rangers Heritage Center - Atlas Number 4200001134 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200001134 |website=atlas.thc.state.tx.us |access-date=19 August 2022}}</ref>
+|-
+!scope="row"|Vereins Kirche
+|[[File:Vereins Kirche July 2017 5.jpg|125px|Vereins Kirche]]
+|Fredericksburg
+|Gillespie
+|The first public building in Fredericksburg. Because of its unique octagon structure, it is known locally as "Kaffeemühle", the German term for "coffee mill"
+|align="center"|<ref>{{cite web |title=Details - Vereins Kirche - Atlas Number 4200000165 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000165 |website=atlas.thc.state.tx.us |access-date=19 August 2022}}; {{cite web |title=TSHA {{!}} Vereins-Kirche |url=https://www.tshaonline.org/handbook/entries/vereins-kirche |website=www.tshaonline.org |access-date=19 August 2022}}</ref>
+|-
+!scope="row"|Bedias Museum and Library
+|
+|Bedias
+|Grimes
+|
+|align="center"|<ref>{{cite web |title=Details - Bedias Museum and Library - Atlas Number 4200000982 - Atlas: Texas Historical Commission |url=https://atlas.thc.state.tx.us/Details/4200000982 |website=atlas.thc.state.tx.us |access-date=19 August 2022}}</ref>
+|-
+!scope="row"|Blues Alley museum
+|
+|[[Navasota, Texas|Navasota]]
+|Grimes 
+|Part of Navasota Blues Alley, shops and museum
+|align="center"|<ref>{{cite web |title=Navasota |url=https://texastimetravel.com/cities/navasota/ |website=Texas Time Travel |access-date=19 August 2022}}</ref>
+|-
+!scope="row"|Horlock House Art Gallery and History Museum
+|
+|[[Navasota, Texas|Navasota]]
+|Grimes
+|
+|align="center"|<ref>{{cite web |title=Horlock House Art Gallery and History Museum |url=https://texastimetravel.com/directory/horlock-house-art-gallery-and-history-museum/ |website=Texas Time Travel |access-date=19 August 2022}}</ref> |}
+---

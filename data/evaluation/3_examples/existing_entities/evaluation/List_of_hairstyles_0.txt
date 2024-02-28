@@ -1,0 +1,201 @@
+In both
+<https://example.org/resource/Conk> <http://www.w3.org/2000/01/rdf-schema#label> "conk"@en .
+<https://example.org/resource/Ivy_League> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Flattop> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Pageboy> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Induction_Cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Tonsure> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Undercut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Edgar_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Curtained_hair> <http://www.w3.org/2000/01/rdf-schema#label> "curtained hair"@en .
+<https://example.org/resource/Hi-top_fade> <http://www.w3.org/2000/01/rdf-schema#label> "hi-top fade"@en .
+<https://example.org/resource/Conk> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Nat%20King%20Cole%20Show%20premiere%201956.JPG> .
+<https://example.org/resource/High_and_tight> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Ducktail> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Induction_Cut> <http://www.w3.org/2000/01/rdf-schema#label> "induction cut"@en .
+<https://example.org/resource/Pageboy> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Flattop> <http://www.w3.org/2000/01/rdf-schema#label> "flattop"@en .
+<https://example.org/resource/Crew_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Conk> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Curtained_hair> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/High_and_tight> <http://www.w3.org/2000/01/rdf-schema#label> "high and tight"@en .
+<https://example.org/resource/Hi-top_fade> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Tonsure> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Tonsure%20fx%20tr.png> .
+<https://example.org/resource/Ducktail> <http://www.w3.org/2000/01/rdf-schema#label> "ducktail"@en .
+<https://example.org/resource/Pixie_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Fauxhawk> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Eton_crop> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Curtained_hair> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Crew_cut> <http://www.w3.org/2000/01/rdf-schema#label> "crew cut"@en .
+In ground only
+<https://example.org/resource/Fauxhawk> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Duke.JPG> .
+<https://example.org/resource/Flattop> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q6099884> .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q116971> .
+<https://example.org/resource/Buzz_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q2660870> .
+<https://example.org/resource/Chonmage> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q705033> .
+<https://example.org/resource/Caesar_cut> <http://www.wikidata.org/prop/direct/P1269> <http://www.wikidata.org/entity/Q1216276> .
+<https://example.org/resource/Chonmage> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q17> .
+<https://example.org/resource/Caesar_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Painting%20of%20Napoleon%20Bonaparte%20by%20Jacques-Louis%20David%2C%201813.jpg> .
+<https://example.org/resource/Comb_over> <http://www.w3.org/2000/01/rdf-schema#label> "comb over"@en .
+<https://example.org/resource/Curtained_hair> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Blanche%20Beardsley.jpg> .
+<https://example.org/resource/Chonmage> <http://www.w3.org/2000/01/rdf-schema#label> "chonmage"@en .
+<https://example.org/resource/Hi-top_fade> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Caesar_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q5383806> .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q6542211> .
+<https://example.org/resource/Tonsure> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111032730> .
+<https://example.org/resource/Buzz_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Ivy_League> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q49113> .
+<https://example.org/resource/Comb_over> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Buzz_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q6027268> .
+<https://example.org/resource/Crew_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q6099884> .
+<https://example.org/resource/Flattop> <http://www.wikidata.org/prop/direct/P2561> "flattop"@en .
+<https://example.org/resource/Pixie_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Michelle%20Williams%287587128222%29.jpg> .
+<https://example.org/resource/Buzz_cut> <http://www.w3.org/2000/01/rdf-schema#label> "buzz cut"@en .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mohawk%20-%20Millennium%20Park.jpg> .
+<https://example.org/resource/High_and_tight> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q863338> .
+<https://example.org/resource/Pageboy> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q2095299> .
+<https://example.org/resource/Caesar_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Duke.JPG> .
+<https://example.org/resource/Ivy_League> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Crew_cut> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q1640574> .
+<https://example.org/resource/Induction_Cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1640574> .
+<https://example.org/resource/Buzz_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Male%20buzzcut.jpg> .
+<https://example.org/resource/Pageboy> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Jacometto%20Veneziano%20005.jpg> .
+<https://example.org/resource/Flattop> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20von%20Hindenburg%20Berliner%20Verlag%20c.%201914.jpg> .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q111353747> .
+<https://example.org/resource/Caesar_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Hi-top_fade> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/High%20top%20fade.jpg> .
+<https://example.org/resource/Fauxhawk> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111032730> .
+<https://example.org/resource/Hi-top_fade> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1427424> .
+<https://example.org/resource/Butch_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1640574> .
+<https://example.org/resource/Dido_flip> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q7461136> .
+<https://example.org/resource/Fauxhawk> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mohawk%20-%20Millennium%20Park.jpg> .
+<https://example.org/resource/Ivy_League> <http://www.w3.org/2000/01/rdf-schema#label> "Ivy League haircut"@en .
+<https://example.org/resource/Pageboy> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q370366> .
+<https://example.org/resource/Buzz_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Dido_flip> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Dido_flip> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q5383806> .
+<https://example.org/resource/Buzz_cut> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q863338> .
+<https://example.org/resource/Butch_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/IMasc.jpg> .
+<https://example.org/resource/Fauxhawk> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q116971> .
+<https://example.org/resource/Comb_over> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Combover%20patent.jpg> .
+<https://example.org/resource/Crew_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Jensen%20Ackles%202015.jpg> .
+<https://example.org/resource/Induction_Cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Wallace%20Huo%20image%20taken%20in%20November%202016.png> .
+<https://example.org/resource/Flattop> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Walter%20Cunningham.jpg> .
+<https://example.org/resource/Curtained_hair> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/%EC%9D%B4%EB%8F%99%EC%9A%B1%2C%20%22%EC%A1%B0%EA%B0%81%20%EB%B9%84%EC%A3%BC%EC%96%BC%22.jpg> .
+<https://example.org/resource/Comb_over> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Carl%20Levin%20%28cropped%29.jpg> .
+<https://example.org/resource/Undercut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q30898216> .
+<https://example.org/resource/Flattop> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Chonmage> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111032730> .
+<https://example.org/resource/Chonmage> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q5362194> .
+<https://example.org/resource/Tonsure> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q602358> .
+<https://example.org/resource/Undercut> <http://www.w3.org/2000/01/rdf-schema#label> "undercut"@en .
+<https://example.org/resource/High_and_tight> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Ivy_League> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q863338> .
+<https://example.org/resource/Crew_cut> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q3740435> .
+<https://example.org/resource/Buzz_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/After%20casting%20their%20stones%20the%20first%20day%2C%20pilgrims%20trim%20%28or%20shave%20if%20they%20are%20men%29%20their%20hair%20and%20remove%20their%20ihram%20clothes.%20-%20Flickr%20-%20Al%20Jazeera%20English.jpg> .
+<https://example.org/resource/Hi-top_fade> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q56122972> .
+<https://example.org/resource/Fauxhawk> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q6542211> .
+<https://example.org/resource/Edgar_cut> <http://www.w3.org/2000/01/rdf-schema#label> "Edgar cut"@en .
+<https://example.org/resource/Pixie_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mia%20Wasikowska%202010.jpg> .
+<https://example.org/resource/Eton_crop> <http://www.w3.org/2000/01/rdf-schema#label> "Eton crop"@en .
+<https://example.org/resource/Chonmage> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Eton_crop> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q732399> .
+<https://example.org/resource/Crew_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q3565608> .
+<https://example.org/resource/High_and_tight> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q111353747> .
+<https://example.org/resource/Caesar_cut> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q1048> .
+<https://example.org/resource/Comb_over> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q181391> .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q62010418> .
+<https://example.org/resource/Crew_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Tonsure> <http://www.w3.org/2000/01/rdf-schema#label> "tonsure"@en .
+<https://example.org/resource/Induction_Cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Ivy_League> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q1427424> .
+<https://example.org/resource/Pageboy> <http://www.w3.org/2000/01/rdf-schema#label> "pageboy"@en .
+<https://example.org/resource/Hi-top_fade> <http://www.wikidata.org/prop/direct/P461> <http://www.wikidata.org/entity/Q7698539> .
+<https://example.org/resource/Curtained_hair> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q17126303> .
+<https://example.org/resource/Ducktail> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ducktail1.jpg> .
+<https://example.org/resource/High_and_tight> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Soldier%20running%20in%20water%20%28cropped%29.jpg> .
+<https://example.org/resource/Butch_cut> <http://www.wikidata.org/prop/direct/P2561> "butch cut"@en .
+<https://example.org/resource/Tonsure> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Pietro%20Perugino%20-%20Don%20Baldassare%20di%20Antonio%20di%20Angelo%20-%20WGA17351.jpg> .
+<https://example.org/resource/Undercut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Harajuku%20Fashion%20Street%20Snap%20%28October%2009%2C%202017%29%20%2839684708573%29.jpg> .
+<https://example.org/resource/Undercut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111032730> .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111032730> .
+<https://example.org/resource/Fauxhawk> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q68518> .
+<https://example.org/resource/Caesar_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mgr.%20Dalibor%20Mlejnsk%C3%BD%20-%202010-10-08.jpg> .
+<https://example.org/resource/Buzz_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q16828628> .
+<https://example.org/resource/Butch_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Butch_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Tonsure> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q2041543> .
+<https://example.org/resource/Fauxhawk> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q111353747> .
+<https://example.org/resource/Fauxhawk> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q62010418> .
+<https://example.org/resource/Dido_flip> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q202550> .
+<https://example.org/resource/Curtained_hair> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q153126> .
+<https://example.org/resource/Butch_cut> <http://www.w3.org/2000/01/rdf-schema#label> "brush cut"@en .
+<https://example.org/resource/Flattop> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Hurley%20Douglas.jpg> .
+<https://example.org/resource/Tonsure> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q4532138> .
+<https://example.org/resource/Pixie_cut> <http://www.w3.org/2000/01/rdf-schema#label> "pixie cut"@en .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q68518> .
+<https://example.org/resource/Chonmage> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Stillfried%20-%20Samurai.jpg> .
+<https://example.org/resource/Mohawk> <http://www.w3.org/2000/01/rdf-schema#label> "Mohawk hairstyle"@en .
+<https://example.org/resource/Chonmage> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Samurai%20hand%20colored%20c1890.jpg> .
+<https://example.org/resource/Curtained_hair> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q3041932> .
+<https://example.org/resource/Pageboy> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q855855> .
+<https://example.org/resource/Caesar_cut> <http://www.w3.org/2000/01/rdf-schema#label> "Caesar cut"@en .
+<https://example.org/resource/Pixie_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q732399> .
+<https://example.org/resource/Induction_Cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111032730> .
+<https://example.org/resource/Undercut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q111151539> .
+<https://example.org/resource/Dido_flip> <http://www.w3.org/2000/01/rdf-schema#label> "Dido flip"@en .
+<https://example.org/resource/Crew_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Jesse%20Metcalfe.jpg> .
+<https://example.org/resource/Eton_crop> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q192088> .
+<https://example.org/resource/Fauxhawk> <http://www.w3.org/2000/01/rdf-schema#label> "Mohawk hairstyle"@en .
+<https://example.org/resource/Conk> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1566524> .
+<https://example.org/resource/Pixie_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q17126303> .
+In predicted only
+<https://example.org/resource/Edgar_cut> <http://www.w3.org/2000/01/rdf-schema#label> "edgar cut"@en .
+<https://example.org/resource/Flattop> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/High_and_tight> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Soldier%20running%20in%20water%20original.jpg> .
+<https://example.org/resource/Induction_Cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Crew_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Crew%20Cut%2C%20Jack%20Kerouac%2C%201943.jpg> .
+<https://example.org/resource/Fauxhawk> <http://www.w3.org/2000/01/rdf-schema#label> "fauxhawk"@en .
+<https://example.org/resource/Fauxhawk> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Pixie_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Ivy_League> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Hi-top_fade> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Hi-top%20fade.jpg> .
+<https://example.org/resource/Hi-top_fade> <http://www.wikidata.org/prop/direct/P460> <http://www.wikidata.org/entity/Q111204199> .
+<https://example.org/resource/Pixie_cut> <http://www.w3.org/2000/01/rdf-schema#label> "Pixie cut"@en .
+<https://example.org/resource/Ivy_League> <http://www.w3.org/2000/01/rdf-schema#label> "Ivy League"@en .
+<https://example.org/resource/Undercut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q3041932> .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/User-Ich%20with%20Mohawk.jpg> .
+<https://example.org/resource/Ducktail> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Fauxhawk> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/David%20Beckham.jpg> .
+<https://example.org/resource/Pageboy> <http://www.w3.org/2000/01/rdf-schema#label> "Pageboy"@en .
+<https://example.org/resource/Undercut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20De%20La%20Cruz%20pauldlc%20undercut%20hair%20style.PNG> .
+<https://example.org/resource/Undercut> <http://www.w3.org/2000/01/rdf-schema#label> "Undercut"@en .
+<https://example.org/resource/Tonsure> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Mohawk> <http://www.w3.org/2000/01/rdf-schema#label> "Mohawk"@en .
+<https://example.org/resource/Eton_crop> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q111204199> .
+<https://example.org/resource/Edgar_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Ivy_League> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q111204199> .
+<https://example.org/resource/Ivy_League> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/MattDamonBU.jpg> .
+<https://example.org/resource/High_and_tight> <http://www.wikidata.org/prop/direct/P460> <http://www.wikidata.org/entity/Q111204199> .
+<https://example.org/resource/Induction_Cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Induction%20Day%20hair%20cut%20150701-N-TO519-054.jpg> .
+<https://example.org/resource/Flattop> <http://www.wikidata.org/prop/direct/P460> <http://www.wikidata.org/entity/Q111204199> .
+<https://example.org/resource/Pageboy> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/English%20Country%20Cottage%20(2364756846)%20crop.jpg> .
+<https://example.org/resource/Eton_crop> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Induction_Cut> <http://www.wikidata.org/prop/direct/P460> <http://www.wikidata.org/entity/Q111204199> .
+<https://example.org/resource/High_and_tight> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Conk> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q2942968> .
+<https://example.org/resource/Tonsure> <http://www.w3.org/2000/01/rdf-schema#label> "Tonsure"@en .
+<https://example.org/resource/Flattop> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Trabert%20Large.JPG> .
+<https://example.org/resource/Mohawk> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Crew_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Curtained_hair> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Jonathan%20Brandis%20Wiki.jpg> .
+<https://example.org/resource/Pixie_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Morena%20Baccarin%20by%20Gage%20Skidmore.jpg> .
+<https://example.org/resource/Hi-top_fade> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Eton_crop> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Bessielove.jpg> .
+<https://example.org/resource/Undercut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Ducktail> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ducktail.jpg> .
+<https://example.org/resource/Eton_crop> <http://www.w3.org/2000/01/rdf-schema#label> "eton crop"@en .
+<https://example.org/resource/Pageboy> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q370366> .

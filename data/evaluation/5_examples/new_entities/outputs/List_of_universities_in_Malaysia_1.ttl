@@ -1,0 +1,205 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Politeknik_Balik_Pulau> rdfs:label "Politeknik Balik Pulau"@en ;
+    wdt:P131 wd:Q61092 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.pbu.edu.my/> .
+
+<https://example.org/resource/Politeknik_Banting> rdfs:label "Politeknik Banting"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.polibanting.edu.my/> .
+
+<https://example.org/resource/Politeknik_Hulu_Terengganu> rdfs:label "Politeknik Hulu Terengganu"@en ;
+    wdt:P131 wd:Q4204589 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.pht.edu.my/> .
+
+<https://example.org/resource/Politeknik_Jeli> rdfs:label "Politeknik Jeli"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.pjk.edu.my/> .
+
+<https://example.org/resource/Politeknik_Kota_Bharu> rdfs:label "Politeknik Kota Bharu"@en ;
+    wdt:P131 wd:Q6395379 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "1985-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.pkb.edu.my/> .
+
+<https://example.org/resource/Politeknik_Kota_Kinabalu> rdfs:label "Politeknik Kota Kinabalu"@en ;
+    wdt:P131 wd:Q137271 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "1996-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.polikk.edu.my/> .
+
+<https://example.org/resource/Politeknik_Kuala_Terengganu> rdfs:label "Politeknik Kuala Terengganu"@en ;
+    wdt:P131 wd:Q846502 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "1999-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.pkt.edu.my/> .
+
+<https://example.org/resource/Politeknik_Kuching_Sarawak> rdfs:label "Politeknik Kuching Sarawak"@en ;
+    wdt:P131 wd:Q220445 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.poliku.edu.my/> .
+
+<https://example.org/resource/Politeknik_METrO_Betong> rdfs:label "Politeknik METrO Betong"@en ;
+    wdt:P131 wd:Q4898172 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.pmbs.edu.my/> .
+
+<https://example.org/resource/Politeknik_METrO_Johor_Bahru> rdfs:label "Politeknik METrO Johor Bahru"@en ;
+    wdt:P131 wd:Q231318 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://web.archive.org/web/20141220001703/http://www.pmjb.edu.my/> .
+
+<https://example.org/resource/Politeknik_METrO_Kuala_Lumpur> rdfs:label "Politeknik METrO Kuala Lumpur"@en ;
+    wdt:P131 wd:Q7456703 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://web.archive.org/web/20160312232727/http://www.pmkl.edu.my/> .
+
+<https://example.org/resource/Politeknik_METrO_Kuantan> rdfs:label "Politeknik METrO Kuantan"@en ;
+    wdt:P131 wd:Q817578 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.pmku.edu.my/> .
+
+<https://example.org/resource/Politeknik_METrO_Tasek_Gelugor> rdfs:label "Politeknik METrO Tasek Gelugor"@en ;
+    wdt:P131 wd:Q1861984 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.pmtg.edu.my/> .
+
+<https://example.org/resource/Politeknik_Melaka> rdfs:label "Politeknik Melaka"@en ;
+    wdt:P131 wd:Q185221 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "1999-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.polimelaka.edu.my/> .
+
+<https://example.org/resource/Politeknik_Merlimau> rdfs:label "Politeknik Merlimau"@en ;
+    wdt:P131 wd:Q12697724 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://web.archive.org/web/20050313061954/http://www.pmm.edu.my/> .
+
+<https://example.org/resource/Politeknik_Mersing> rdfs:label "Politeknik Mersing"@en ;
+    wdt:P131 wd:Q1344433 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://web.archive.org/web/20160713131000/http://www.pmj.edu.my/> .
+
+<https://example.org/resource/Politeknik_Muadzam_Shah> rdfs:label "Politeknik Muadzam Shah"@en ;
+    wdt:P131 wd:Q4854406 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.pms.edu.my/> .
+
+<https://example.org/resource/Politeknik_Nilai> rdfs:label "Politeknik Nilai"@en ;
+    wdt:P17 wd:Q213893 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.polinilai.edu.my/> .
+
+<https://example.org/resource/Politeknik_Port_Dickson> rdfs:label "Politeknik Port Dickson"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "1990-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://web.archive.org/web/20100915115134/http://www.polipd.edu.my/> .
+
+<https://example.org/resource/Politeknik_Sandakan> rdfs:label "Politeknik Sandakan"@en ;
+    wdt:P131 wd:Q137203 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.pss.edu.my/> .
+
+<https://example.org/resource/Politeknik_Seberang_Perai> rdfs:label "Politeknik Seberang Perai"@en ;
+    wdt:P131 wd:Q1861984 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.psp.edu.my/> .
+
+<https://example.org/resource/Politeknik_Sultan_Abdul_Halim_Muadzam_Shah> rdfs:label "Politeknik Sultan Abdul Halim Muadzam Shah"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "1984-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.polimas.edu.my/> .
+
+<https://example.org/resource/Politeknik_Sultan_Azlan_Shah> rdfs:label "Politeknik Sultan Azlan Shah"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.psas.edu.my/> .
+
+<https://example.org/resource/Politeknik_Sultan_Haji_Ahmad_Shah> rdfs:label "Politeknik Sultan Haji Ahmad Shah"@en ;
+    wdt:P131 wd:Q817578 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "1976-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.polisas.edu.my/> .
+
+<https://example.org/resource/Politeknik_Sultan_Idris_Shah> rdfs:label "Politeknik Sultan Idris Shah"@en ;
+    wdt:P131 wd:Q25246516 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.psis.edu.my/> .
+
+<https://example.org/resource/Politeknik_Sultan_Mizan_Zainal_Abidin> rdfs:label "Politeknik Sultan Mizan Zainal Abidin"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2001-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.psmza.edu.my/> .
+
+<https://example.org/resource/Politeknik_Sultan_Salahuddin_Abdul_Aziz_Shah> rdfs:label "Politeknik Sultan Salahuddin Abdul Aziz Shah"@en ;
+    wdt:P131 wd:Q500033 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.psa.edu.my/> .
+
+<https://example.org/resource/Politeknik_Tuanku_Sultanah_Bahiyah> rdfs:label "Politeknik Tuanku Sultanah Bahiyah"@en ;
+    wdt:P131 wd:Q2272953 ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.ptsb.edu.my/> .
+
+<https://example.org/resource/Politeknik_Tuanku_Syed_Sirajuddin> rdfs:label "Politeknik Tuanku Syed Sirajuddin"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P31 wd:Q845392 ;
+    wdt:P571 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.ptss.edu.my/> .
+
+<https://example.org/resource/Politeknik_Tun_Syed_Nasir_Syed_Ismail> rdfs:label "Politeknik Tun Syed Nasir Syed Ismail"@en ;
+    wdt:P17 wd:Q833 ;
+    wdt:P571 "2013-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.ptsn.edu.my/> .
+

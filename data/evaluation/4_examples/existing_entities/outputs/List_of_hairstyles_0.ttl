@@ -1,0 +1,89 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Conk> rdfs:label "conk"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Nat%20King%20Cole%20Show%20premiere%201956.JPG> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Crew_cut> rdfs:label "crew cut"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Crew%20Cut%2C%20Jack%20Kerouac%2C%201943.jpg> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Curtained_hair> rdfs:label "curtained hair"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Jonathan%20Brandis%20Wiki.jpg> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Ducktail> rdfs:label "ducktail"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ducktail.jpg> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Edgar_cut> rdfs:label "edgar cut"@en ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Eton_crop> rdfs:label "eton crop"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bessielove.jpg> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Fauxhawk> rdfs:label "fauxhawk"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/David%20Beckham.jpg> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Flattop> rdfs:label "flattop"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Trabert%20Large.JPG> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Hi-top_fade> rdfs:label "hi-top fade"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Hi-top%20fade.jpg> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/High_and_tight> rdfs:label "high and tight"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Soldier%20running%20in%20water%20original.jpg> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Induction_Cut> rdfs:label "induction cut"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Induction%20Day%20hair%20cut%20150701-N-TO519-054.jpg> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Ivy_League> rdfs:label "Ivy League"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/MattDamonBU.jpg> ;
+    wdt:P279 wd:Q111082186 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Mohawk> rdfs:label "Mohawk"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/User-Ich%20with%20Mohawk.jpg> ;
+    wdt:P279 wd:Q111082186 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Pageboy> rdfs:label "Pageboy"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/English%20Country%20Cottage%20(2364756846)%20crop.jpg> ;
+    wdt:P279 wd:Q111204199 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Pixie_cut> rdfs:label "Pixie cut"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Morena%20Baccarin%20by%20Gage%20Skidmore.jpg> ;
+    wdt:P279 wd:Q111082186 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Tonsure> rdfs:label "Tonsure"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tonsure%20fx%20tr.png> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Undercut> rdfs:label "Undercut"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20De%20La%20Cruz%20pauldlc%20undercut%20hair%20style.PNG> ;
+    wdt:P279 wd:Q111082186 ;
+    wdt:P31 wd:Q327496 ;
+    wdt:P527 wd:Q3041932 .
+

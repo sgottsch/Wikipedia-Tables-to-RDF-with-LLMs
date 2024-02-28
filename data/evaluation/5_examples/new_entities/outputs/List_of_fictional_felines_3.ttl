@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Filby> rdfs:label "Filby"@en ;
+    wdt:P1441 wd:Q1434995 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Jake> rdfs:label "Jake"@en ;
+    wdt:P1441 wd:Q1213779 ;
+    wdt:P31 wd:Q27303706 .
+
+<https://example.org/resource/Pyewacket> rdfs:label "Pyewacket"@en ;
+    wdt:P1441 wd:Q1731060 ;
+    wdt:P31 wd:Q27303706 .
+

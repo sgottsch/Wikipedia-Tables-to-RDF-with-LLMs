@@ -1,0 +1,221 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of mosques in Europe" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+!Name
+!class=unsortable|Images
+!Country
+!City
+!Year
+!Group
+!class=unsortable|Remarks
+|- valign=top
+| [[List of mosques in Albania]]
+| 
+| [[Albania]]
+| 
+| 
+| 
+|
+|- valign=top
+| [[List of mosques in Armenia]]
+| 
+| [[Armenia]]
+| 
+| 
+| 
+|
+|- valign=top
+| [[List of mosques in Azerbaijan]]
+| 
+| [[Azerbaijan]]
+| 
+| 
+| 
+|
+|- valign=top id="Austria"
+| [[Telfs mosque]]
+| [[File:Telfs-Moschee.jpg|120px]]
+| [[Austria]]
+| [[Telfs]]
+| 1998
+| DITIB
+| Minaret later built in 2006
+|- valign=top
+| [[Vienna Islamic Centre]]
+| [[File:Bruckhaufen (Wien) - Moschee (4).JPG|120px]]
+| [[Austria]]
+| [[Vienna]]
+| 1977
+| U
+| Built in order of rey [[Faisal of Saudi Arabia|Faisal ibn Abd al-Aziz]].
+|- valign=top id="Belgium"
+| [[Great Mosque of Brussels]]
+| [[File:Bruxelles (Cinquantenaire) la grande Mosquée.JPG|120px]]
+| [[Belgium]]
+| [[Brussels]]
+| 1879, 1978
+| SA
+| The original building was built to form the East Pavilion of the National Exhibition in Brussels in 1880.
+|- valign=top id="Bosnia and Herzegovina"
+| [[List of mosques in Bosnia and Herzegovina]]
+| 
+| [[Bosnia and Herzegovina]]
+| 
+| 
+| 
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/List_of_mosques_in_Albania> wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ wdt:P360 <https://en.wikipedia.org/wiki/Mosque> ;
+ rdfs:label "list of Mosques in Albania"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Albania> .
+
+<https://example.org/resource/List_of_mosques_in_Armenia> wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Armenia> ;
+ wdt:P360 <https://en.wikipedia.org/wiki/Mosque> ;
+ rdfs:label "list of mosques in Armenia"@en .
+
+<https://example.org/resource/List_of_mosques_in_Azerbaijan> wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Azerbaijan> ;
+ rdfs:label "list of mosques in Azerbaijan"@en ;
+ wdt:P360 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Shakh%20Abbas%20Mosque.jpg> ;
+ wdt:P1754 <https://en.wikipedia.org/wiki/Category:Mosques_in_Azerbaijan> .
+
+<https://example.org/resource/Telfs_mosque> wdt:P131 <https://en.wikipedia.org/wiki/Telfs> ;
+ rdfs:label "Telfs Mosque"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Austria> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Telfs-Moschee.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Abu_Ayyub_al-Ansari> .
+
+<https://example.org/resource/Vienna_Islamic_Centre> rdfs:label "Vienna Islamic Centre"@en ;
+ wdt:P856 <https://www.izwien.at/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bruckhaufen%20%28Wien%29%20-%20Moschee%2C%20Hauptportal.JPG> ;
+ wdt:P2048 "32"^^xsd:decimal ;
+ wdt:P2046 "8300"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Vienna> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Architectural_structure> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Austria> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Islamic_architecture> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P571 "1979-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1619 "1979-11-20T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Great_Mosque_of_Brussels> wdt:P127 <https://en.wikipedia.org/wiki/Belgium> ;
+ wdt:P793 <https://en.wikipedia.org/wiki/Construction> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Congregational_mosque> ;
+ rdfs:label "Great Mosque of Brussels"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bruxelles%20%28Cinquantenaire%29%20la%20grande%20Mosqu%C3%A9e.JPG> ;
+ wdt:P571 "1897-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P84 wd:Q3057196 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Belgium> ;
+ wdt:P706 <https://en.wikipedia.org/wiki/Cinquantenaire> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/City_of_Brussels> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Moorish_architecture> ;
+ wdt:P793 <https://en.wikipedia.org/wiki/Renovation> ;
+ wdt:P276 wd:Q60685355 ;
+ wdt:P140 <https://en.wikipedia.org/wiki/Sunni_Islam> .
+
+<https://example.org/resource/List_of_mosques_in_Bosnia_and_Herzegovina> wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ rdfs:label "list of mosques in Bosnia and Herzegovina"@en ;
+ wdt:P360 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P1754 <https://en.wikipedia.org/wiki/Category:Mosques_in_Bosnia_and_Herzegovina> .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P360 -> is a list of
+wdt:P17 -> country
+wdt:P18 -> image
+wdt:P1754 -> category related to list
+wdt:P131 -> located in the administrative territorial entity
+wdt:P138 -> named after
+wdt:P856 -> official website URL
+wdt:P2048 -> height
+wdt:P2046 -> area
+wdt:P149 -> architectural style
+wdt:P571 -> inception
+wdt:P1619 -> date of official opening
+wdt:P127 -> owned by
+wdt:P793 -> significant event
+wdt:P84 -> architect
+wdt:P706 -> located in/on physical feature
+wdt:P276 -> location
+wdt:P140 -> religion or worldview.
+---
+These are the labels of the objects:
+
+wd:Q3057196 -> Ernest Van Humbeeck
+wd:Q60685355 -> European Quarter.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+!Name
+!class=unsortable|Images
+!Country
+!City
+!Year
+!Group
+!class=unsortable|Remarks
+|- valign=top
+| [[Luhansk Cathedral Mosque]]
+| [[File:Mosque - panoramio (10).jpg|120px]]
+| [[Ukraine]] 
+| [[Luhansk]]
+| 2010
+| U
+|
+|- valign=top
+| [[Sultan Suleiman Mosque]]
+| [[File:Mosque in Mariupol.jpg|120px]]
+| [[Ukraine]]
+| [[Mariupol]]
+| 2007
+| U
+|
+|- valign=top
+| [[Al-Salam Mosque, Odessa|Al-Salam Mosque]]
+| [[File:Arabskiy-kulturny-tzentr.jpg|120px]]
+| [[Ukraine]]
+| [[Odesa]]
+| 2000
+| U
+|
+|- valign=top
+| [[Kyiv Islamic Cultural Center]]
+| [[File:Kyiv Islamic Cultural Center.jpg|120px]]
+| [[Ukraine]]
+| [[Kyiv]]
+| 2001
+| U
+|
+|- valign=top
+| [[Kebir-Jami Mosque, Simferopol|Kebir-Jami Mosque]]
+| [[File:Мечеть Кебір-Джамі.jpg|120px]]
+| [[Ukraine]]
+| [[Simferopol]]
+| 1508
+| SDMC
+|
+|- valign=top
+| [[Kokkoz Jami Mosque]]
+| [[File:Мечеть кінець XVIII ст. Соколиное 4.jpg|120px]]
+| [[Ukraine]]
+| [[Sokolyne]]
+| 1910
+| U
+| |}
+---

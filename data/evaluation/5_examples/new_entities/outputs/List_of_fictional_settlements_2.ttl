@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Hawkins,_Indiana> rdfs:label "Hawkins, Indiana"@en ;
+    wdt:P1476 "Stranger Things"@en ;
+    wdt:P31 wd:Q1964689 ;
+    wdt:P449 wd:Q907311 .
+
+<https://example.org/resource/Lanford,_IL> rdfs:label "Lanford, IL"@en ;
+    wdt:P1476 "Roseanne"@en ;
+    wdt:P31 wd:Q1964689 ;
+    wdt:P449 wd:Q286874 .
+
+<https://example.org/resource/Sparta,_Mississippi> rdfs:label "Sparta, Mississippi"@en ;
+    wdt:P1476 "In the Heat of the Night"@en ;
+    wdt:P31 wd:Q1964689 ;
+    wdt:P449 wd:Q13974,
+        wd:Q43380 ;
+    wdt:P915 wd:Q1193960,
+        wd:Q856860 .
+

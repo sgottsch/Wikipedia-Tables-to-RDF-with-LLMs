@@ -1,0 +1,132 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of fictional settlements" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+! Town Name
+! Origin
+! Network
+! class=unsortable|Notes
+|-
+|[[Bedrock (The Flintstones)|Bedrock]] 
+|''[[The Flintstones]]''
+|[[American Broadcasting Company|ABC]]
+|'''Bedrock''' is the [[fictional city|fictional]] [[prehistoric]] city, which is home to the characters of the [[animation|animated]] [[television series]], ''[[The Flintstones]]'' (1960).<ref>{{cite news|title= The Flintstones' 50th anniversary: 15 things you don't know|work= Daily Telegraph |date=30 September 2010|url= https://www.telegraph.co.uk/culture/tvandradio/8034627/The-Flintstones-50th-anniversary-15-things-you-dont-know.html|access-date=2010-10-01|location=London|first=Heidi|last=Blake}}</ref>
+|-
+|[[Springfield (The Simpsons)|Springfield]] 
+| ''[[The Simpsons]]''
+|[[Fox Broadcasting Company|FOX]]
+|'''Springfield''' is the [[List of fictional towns in animation|fictional town]] in which the [[United States|American]] [[Animation|animated]] [[sitcom]] ''[[The Simpsons]]'' is set. A mid-sized town in an undetermined state of the [[United States]], Springfield acts as a complete universe in which characters can explore the issues faced by modern society.<ref>Turner, p. 55</ref> The geography of the town and its surroundings are flexible, changing to address whatever an episode's plot calls for.<ref>Turner, p. 30</ref> Springfield's location is impossible to determine; the show is deliberately evasive on the subject, providing contradictory clues and impossible information about an actual geographic location. The town was founded by [[Jebediah Springfield]]. <!--Please do not add examples of the "clues" about Springfield's location here. It is important to emphasize in the summary that Springfield *cannot be located* due to the creators' intentions. And yes, we saw the "Behind the Music" episode too.-->
+|-
+|[[Quahog (Family Guy)|Quahog]], Rhode Island
+|[[Family Guy]]
+|[[Fox Broadcasting Company|Fox]]
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Bedrock> rdfs:label "Bedrock"@en ;
+ wdt:P376 wd:Q124605675 ;
+ wdt:P4584 wd:Q62129451 ;
+ wdt:P1080 wd:Q108528616 ;
+ wdt:P31 wd:Q1964689 ;
+ wdt:P8345 wd:Q106612969 .
+
+<https://example.org/resource/Springfield> wdt:P2044 "482"^^xsd:decimal ;
+ wdt:P4584 <https://en.wikipedia.org/wiki/Good_Night_(The_Simpsons)> ;
+ wdt:P6 <https://en.wikipedia.org/wiki/Mayor_Quimby> ;
+ wdt:P1080 wd:Q61468436 ;
+ wdt:P131 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P112 <https://en.wikipedia.org/wiki/Jebediah_Springfield> ;
+ wdt:P571 "1796-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Springfield"@en ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Jebediah_Springfield> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Springfield_(Universal_Studios_Hollywood)> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/The_Simpsons> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Springfield_(Universal_Studios_Florida)> ;
+ wdt:P2354 wd:Q12118351 ;
+ wdt:P8345 <https://en.wikipedia.org/wiki/The_Simpsons_(franchise)> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Springfield> ;
+ wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Quahog> rdfs:label "Quahog"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P144 <https://en.wikipedia.org/wiki/Providence,_Rhode_Island> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Rhode_Island> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Family_Guy> ;
+ wdt:P1080 wd:Q64861227 ;
+ wdt:P31 wd:Q1964689 ;
+ wdt:P6 <https://en.wikipedia.org/wiki/Adam_West_(Family_Guy)> ;
+ wdt:P8345 <https://en.wikipedia.org/wiki/Family_Guy_(franchise)> ;
+ wdt:P4584 <https://en.wikipedia.org/wiki/Death_Has_a_Shadow> .
+---
+These are the labels of the properties:
+
+wdt:P376 -> located on astronomical body
+wdt:P4584 -> first appearance
+wdt:P1080 -> from narrative universe
+wdt:P31 -> instance of
+wdt:P8345 -> media franchise
+wdt:P2044 -> elevation above sea level
+wdt:P6 -> head of government
+wdt:P131 -> located in the administrative territorial entity
+wdt:P17 -> country
+wdt:P112 -> founded by
+wdt:P571 -> inception
+wdt:P138 -> named after
+wdt:P4969 -> derivative work
+wdt:P1441 -> present in work
+wdt:P2354 -> has list
+wdt:P1889 -> different from
+wdt:P144 -> based on.
+---
+These are the labels of the objects:
+
+wd:Q124605675 -> Earth
+wd:Q62129451 -> The Flintstone Flyer
+wd:Q108528616 -> The Flintstones universe
+wd:Q1964689 -> fictional city
+wd:Q106612969 -> The Flintstones
+wd:Q61468436 -> The Simpsons universe
+wd:Q12118351 -> list of Springfield locations
+wd:Q64861227 -> Family Guy universe.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+! Town Name
+! Origin
+! Network
+! class=unsortable|Notes
+|-
+|Konohagakure
+| ''[[Naruto]]''
+|[[Viz Media]]
+|Fictional village featured in the ''[[Naruto]]'' media franchise. It's a hidden village located in the Land of Fire. As the village of one of the Five Great Shinobi Countries, Konohagakure has a Kage as its leader known as the Hokage, of which there have been seven in its history.
+|-
+|Musutafu
+| ''[[My Hero Academia]]''
+|[[Funimation]]
+|Fictional city in the ''[[My Hero Academia]]'' franchise where Izuku Midoriya and other characters takes place. It is located somewhere near [[Shizuoka Prefecture]].
+|-
+|Townsville
+|[[The Powerpuff Girls|Powerpuff Girls]]
+|[[Cartoon Network]]
+|Although it shares the same name as the Australian city, it does not appear to have any other connection to [[Townsville, Queensland]].
+|-
+|New Helic City
+|''[[Zoids: Chaotic Century]]''
+|[[Japan News Network|JNN]]
+|
+|-
+|Paradigm City
+|[[The Big O]]
+|[[Wowow]]
+| |}
+---

@@ -1,0 +1,54 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Rutherford_School> rdfs:label "Rutherford School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1478.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "2 Matipo Road, Te Atatū Peninsula, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.rutherfordprimary.school.nz> .
+
+<https://example.org/resource/Summerland_Primary> rdfs:label "Summerland Primary"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 6937.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P47 wd:Q7987895 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "95 Summerland Drive, Western Heights, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.summerland.school.nz> .
+
+<https://example.org/resource/Tirimoana_School> rdfs:label "Tirimoana School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1536.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "2 Seabrook Avenue, Te Atatū South, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.tirimoana.school.nz> .
+
+<https://example.org/resource/Waitakere_Seventh-day_Adventist_School> rdfs:label "Waitakere Seventh-day Adventist School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 4151.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q3914 ;
+    wdt:P47 wd:Q6802076 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "2 Montel Avenue, McLaren Park, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <https://www.waitakeresda.school.nz/> .
+

@@ -1,0 +1,101 @@
+In both
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20McKavett%20State%20Historic%20Site.jpg> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q112756208> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q111821> .
+In ground only
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Presidio%20de%20San%20Sab%C3%A1%20in%20Menard%20%2810549348075%29.jpg> .
+<https://example.org/resource/Texas_Ranger_Hall_of_Fame_and_Museum> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/Red_Men_Museum_and_Library> <http://www.w3.org/2000/01/rdf-schema#label> "Red Men Museum and Library"@en .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P750> <http://www.wikidata.org/entity/Q1254149> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q52063464> .
+<https://example.org/resource/Texas_Ranger_Hall_of_Fame_and_Museum> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q102231485> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q116869244> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.w3.org/2000/01/rdf-schema#label> "Dr Pepper"@en .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q147538> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q19558910> .
+<https://example.org/resource/Texas_Ranger_Hall_of_Fame_and_Museum> <http://www.w3.org/2000/01/rdf-schema#label> "Texas Ranger Hall of Fame and Museum"@en .
+<https://example.org/resource/Red_Men_Museum_and_Library> <http://www.wikidata.org/prop/direct/P571> "1991-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Mayborn_Museum_Complex> <http://www.wikidata.org/prop/direct/P571> "2004-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P571> "1885-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Texas_Ranger_Hall_of_Fame_and_Museum> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q128244> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Waco%20mammoth%20site%20QRT.jpg> .
+<https://example.org/resource/Red_Men_Museum_and_Library> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Red%20men%20museum%202012.jpg> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q893775> .
+<https://example.org/resource/Texas_Sports_Hall_of_Fame> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q42245028> .
+<https://example.org/resource/Texas_Ranger_Hall_of_Fame_and_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16735822> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P856> <https://www.drpepper.com/en> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P176> <http://www.wikidata.org/entity/Q112193291> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15243209> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q431289> .
+<https://example.org/resource/Mayborn_Museum_Complex> <http://www.w3.org/2000/01/rdf-schema#label> "Mayborn Museum Complex"@en .
+<https://example.org/resource/Mayborn_Museum_Complex> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q812573> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P1174> "69510"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P973> <https://www.facebook.com/groups/fortmckavettvolunteers/> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q30304302> .
+<https://example.org/resource/Texas_Ranger_Hall_of_Fame_and_Museum> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Texas%20Rangers%20Museum.jpg> .
+<https://example.org/resource/Red_Men_Museum_and_Library> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q5082829> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1785071> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.w3.org/2000/01/rdf-schema#label> "Fort McKavett"@en .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P856> <https://www.nps.gov/waco/index.htm> .
+<https://example.org/resource/Mayborn_Museum_Complex> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q124445904> .
+<https://example.org/resource/Mayborn_Museum_Complex> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P2872> <http://www.wikidata.org/entity/Q68455394> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P2044> "135"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P1174> "20551"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P1990> <http://www.wikidata.org/entity/Q1698713> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P6375> "S bank of the San Saba River"@en .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P176> <http://www.wikidata.org/entity/Q1254149> .
+<https://example.org/resource/Red_Men_Museum_and_Library> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q128244> .
+<https://example.org/resource/Red_Men_Museum_and_Library> <http://www.wikidata.org/prop/direct/P856> <http://redmen.org/museum/> .
+<https://example.org/resource/Texas_Sports_Hall_of_Fame> <http://www.wikidata.org/prop/direct/P571> "1951-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Texas_Ranger_Hall_of_Fame_and_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Mayborn_Museum_Complex> <http://www.wikidata.org/prop/direct/P5514> <http://www.wikidata.org/entity/Q2842849> .
+<https://example.org/resource/Mayborn_Museum_Complex> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Texas_Sports_Hall_of_Fame> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P2046> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P1174> "101792"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P137> <http://www.wikidata.org/entity/Q812573> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P8687> "461950"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Texas_Sports_Hall_of_Fame> <http://www.w3.org/2000/01/rdf-schema#label> "Texas Sports Hall of Fame"@en .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q5471633> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q128244> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P856> <https://www.thc.texas.gov/historic-sites/fort-mckavett-state-historic-site> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P30> <http://www.wikidata.org/entity/Q49> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P571> "2015-07-10T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P137> <http://www.wikidata.org/entity/Q308439> .
+<https://example.org/resource/Mayborn_Museum_Complex> <http://www.wikidata.org/prop/direct/P856> <https://www.baylor.edu/mayborn/> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Texas_Sports_Hall_of_Fame> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Texas%20sports%20hall%20of%20fame%202008.jpg> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P137> <http://www.wikidata.org/entity/Q128244> .
+<https://example.org/resource/Texas_Ranger_Hall_of_Fame_and_Museum> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Mayborn_Museum_Complex> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Texas_Sports_Hall_of_Fame> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q8844975> .
+<https://example.org/resource/Texas_Ranger_Hall_of_Fame_and_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1046088> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q40357> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/DrPepper%200.5l%20PET.jpg> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q893745> .
+<https://example.org/resource/Texas_Sports_Hall_of_Fame> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Red_Men_Museum_and_Library> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q385378> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Waco Mammoth National Monument"@en .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q128244> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q14208553> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.w3.org/2000/01/rdf-schema#label> "Presidio of San Sabá"@en .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/Dr%20Pepper%20trade%20mark%201910.jpg> .
+<https://example.org/resource/Waco_Mammoth_National_Monument> <http://www.wikidata.org/prop/direct/P1705> "Waco Mammoth National Monument"@en .
+<https://example.org/resource/Mayborn_Museum_Complex> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mayborn%20Museum.jpg> .
+<https://example.org/resource/Dr_Pepper_Museum> <http://www.wikidata.org/prop/direct/P61> <http://www.wikidata.org/entity/Q24004555> .
+In predicted only
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.w3.org/2000/01/rdf-schema#label> "Fort McKavett State Historic Site"@en .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.w3.org/2000/01/rdf-schema#label> "Presidio de San Saba"@en .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q111821> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q112756208> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Presidio%20de%20San%20Saba%20in%20Menard%20(10549348075).jpg> .

@@ -1,0 +1,9 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Fishtail_hair> rdfs:label "fishtail hair"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fishtail%20hairstyle%2001.jpg> ;
+    wdt:P279 wd:Q111236957 ;
+    wdt:P31 wd:Q327496 .
+

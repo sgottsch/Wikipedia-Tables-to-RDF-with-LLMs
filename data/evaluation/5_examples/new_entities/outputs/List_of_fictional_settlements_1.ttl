@@ -1,0 +1,12 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Toontown> rdfs:label "Toontown"@en ;
+    wdt:P1080 wd:Q19786052 ;
+    wdt:P1441 wd:Q379873 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q1964689 ;
+    wdt:P8345 wd:Q19786052 ;
+    wdt:P915 wd:Q39561 .
+

@@ -1,0 +1,58 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/How_the_Steel_Was_Tempered> rdfs:label "How the Steel Was Tempered"@en ;
+    wdt:P136 wd:Q571 ;
+    wdt:P31 wd:Q8261 ;
+    wdt:P50 wd:Q271853 ;
+    wdt:P577 "1936-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Imperialism,_the_Highest_Stage_of_Capitalism> rdfs:label "Imperialism, the Highest Stage of Capitalism"@en ;
+    wdt:P136 wd:Q35760 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P50 wd:Q1394 ;
+    wdt:P577 "1917-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Left-Wing_Communism:_An_Infantile_Disorder> rdfs:label "Left-Wing Communism: An Infantile Disorder"@en ;
+    wdt:P136 wd:Q35760 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P50 wd:Q1394 ;
+    wdt:P577 "1920-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Marxism_and_the_National_and_Colonial_Question> rdfs:label "Marxism and the National and Colonial Question"@en ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P31 wd:Q8261 ;
+    wdt:P50 wd:Q855 ;
+    wdt:P577 "1937-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/On_Cooperation> rdfs:label "On Cooperation"@en ;
+    wdt:P136 wd:Q35760 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P50 wd:Q1394 ;
+    wdt:P577 "1923-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/State_and_Revolution> rdfs:label "State and Revolution"@en ;
+    wdt:P136 wd:Q35760 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P50 wd:Q1394 ;
+    wdt:P577 "1917-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Proletarian_Revolution_and_the_Renegade_Kautsky> rdfs:label "The Proletarian Revolution and the Renegade Kautsky"@en ;
+    wdt:P136 wd:Q35760 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P50 wd:Q1394 ;
+    wdt:P577 "1918-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Satanic_Verses> rdfs:label "The Satanic Verses"@en ;
+    wdt:P136 wd:Q571 ;
+    wdt:P31 wd:Q8261 ;
+    wdt:P50 wd:Q44306 ;
+    wdt:P577 "1988-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Time,_Forward!> rdfs:label "Time, Forward!"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P577 "1932-01-01T00:00:00+00:00"^^xsd:dateTime .
+

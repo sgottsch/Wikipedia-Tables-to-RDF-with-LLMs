@@ -1,0 +1,393 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/(King)_Cerdic_of_Wessex> rdfs:label "(King) Cerdic of Wessex"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q212746 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/(King)_Constans_son_of_Constantine> rdfs:label "(King) Constans son of Constantine"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q238693 ;
+    wdt:P31 wd:Q4271324 ;
+    wdt:P3373 wd:Q657200 .
+
+<https://example.org/resource/(King)_Constantine_II_of_Britain> rdfs:label "(King) Constantine II of Britain"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q238693 ;
+    wdt:P31 wd:Q4271324 ;
+    wdt:P3373 wd:Q657200 .
+
+<https://example.org/resource/(King)_Cynric_of_Wessex> rdfs:label "(King) Cynric of Wessex"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q212746 ;
+    wdt:P31 wd:Q4271324 .
+
+<https://example.org/resource/Balan> rdfs:label "Balan"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q3179725 ;
+    wdt:P31 wd:Q3658341 .
+
+<https://example.org/resource/Balin> rdfs:label "Balin"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q3179725 ;
+    wdt:P31 wd:Q3658341 .
+
+<https://example.org/resource/Bedivere> rdfs:label "Bedivere"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q1889720,
+        wd:Q2044985,
+        wd:Q238693,
+        wd:Q2542444,
+        wd:Q279810,
+        wd:Q389906 ;
+    wdt:P25 wd:Q1627592 ;
+    wdt:P31 wd:Q3658341 .
+
+<https://example.org/resource/Black_Knight> rdfs:label "Black Knight"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q4271324 .
+
+<https://example.org/resource/Blanchefleur> rdfs:label "Blanchefleur"@en ;
+    wdt:P1441 wd:Q1335337 ;
+    wdt:P31 wd:Q4271324 .
+
+<https://example.org/resource/Bors_the_Elder> rdfs:label "Bors the Elder"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1195086,
+        wd:Q1467333 ;
+    wdt:P25 wd:Q426969 ;
+    wdt:P31 wd:Q3658341 .
+
+<https://example.org/resource/Bors_the_Younger> rdfs:label "Bors the Younger"@en ;
+    wdt:P31 wd:Q15632617,
+        wd:Q3658341 ;
+    wdt:P3373 wd:Q16227762 .
+
+<https://example.org/resource/Brangaine> rdfs:label "Brangaine"@en ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q3179725,
+        wd:Q954012 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q3658341 .
+
+<https://example.org/resource/Breunor_le_Noir> rdfs:label "Breunor le Noir"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q3658341 .
+
+<https://example.org/resource/Brutus_of_Britain> rdfs:label "Brutus of Britain"@en ;
+    wdt:P1441 wd:Q740004 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q3658341 .
+
+<https://example.org/resource/Cador> rdfs:label "Cador"@en ;
+    wdt:P1441 wd:Q238693,
+        wd:Q911120 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q3658341 ;
+    wdt:P3373 wd:Q272054 .
+
+<https://example.org/resource/Caelia> rdfs:label "Caelia"@en ;
+    wdt:P1441 wd:Q1813771,
+        wd:Q3530935 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q3658341 .
+
+<https://example.org/resource/Calogrenant> rdfs:label "Calogrenant"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q1928169 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Caradoc> rdfs:label "Caradoc"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1335337,
+        wd:Q815523 ;
+    wdt:P31 wd:Q42962623 .
+
+<https://example.org/resource/Catigern> rdfs:label "Catigern"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q238693,
+        wd:Q33246053,
+        wd:Q740004 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Claudas> rdfs:label "Claudas"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q1467333,
+        wd:Q2071412,
+        wd:Q3179725 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Claudin> rdfs:label "Claudin"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q1467333 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Constantine> rdfs:label "Constantine"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q238693 ;
+    wdt:P31 wd:Q4271324 ;
+    wdt:P3373 wd:Q1778168 .
+
+<https://example.org/resource/Culhwch> rdfs:label "Culhwch"@en ;
+    wdt:P31 wd:Q4271324 .
+
+<https://example.org/resource/Dagonet> rdfs:label "Dagonet"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q2227196 ;
+    wdt:P31 wd:Q4271324 .
+
+<https://example.org/resource/Daniel_von_Blumenthal> rdfs:label "Daniel von Blumenthal"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q3658341 .
+
+<https://example.org/resource/Dinadan> rdfs:label "Knights of the Round Table"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1343 wd:Q19180675,
+        wd:Q602358 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q945160 ;
+    wdt:P31 wd:Q16887380,
+        wd:Q42962623 ;
+    wdt:P910 wd:Q8575217 .
+
+<https://example.org/resource/Dindrane> rdfs:label "Dindrane"@en ;
+    wdt:P31 wd:Q8436 .
+
+<https://example.org/resource/Ector> rdfs:label "Ector"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q1467333 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q657200 ;
+    wdt:P25 wd:Q188044 ;
+    wdt:P31 wd:Q13002315 ;
+    wdt:P3373 wd:Q1052725 ;
+    wdt:P97 wd:Q28468092 .
+
+<https://example.org/resource/Edern_ap_Nudd> rdfs:label "Edern ap Nudd"@en ;
+    wdt:P106 wd:Q102083 ;
+    wdt:P1317 "1100-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P1343 wd:Q15987216 ;
+    wdt:P1441 wd:Q2303441 ;
+    wdt:P170 wd:Q389906 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/History%20of%20the%20Kings%20%28f.66%29%20Emrys%20Wledig.jpg> ;
+    wdt:P1889 wd:Q109740466 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P27 wd:Q25 ;
+    wdt:P31 wd:Q21070568 ;
+    wdt:P3373 wd:Q1557938,
+        wd:Q1778168,
+        wd:Q2093405 .
+
+<https://example.org/resource/Elaine_of_Astolat> rdfs:label "Elaine of Astolat"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q2091538 ;
+    wdt:P31 wd:Q13002315 .
+
+<https://example.org/resource/Elaine_of_Benoic> rdfs:label "Elaine of Benoic"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P26 wd:Q104245482 ;
+    wdt:P31 wd:Q13002315,
+        wd:Q21070568 ;
+    wdt:P40 wd:Q215681 .
+
+<https://example.org/resource/Elaine_of_Corbenic> rdfs:label "Elaine of Corbenic"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P26 wd:Q215681 ;
+    wdt:P31 wd:Q13002315,
+        wd:Q21070568 ;
+    wdt:P40 wd:Q831462 .
+
+<https://example.org/resource/Elaine_of_Garlot> rdfs:label "Elaine of Garlot"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q13002315 .
+
+<https://example.org/resource/Elaine_of_Listenoise> rdfs:label "Elaine of Listenoise"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P26 wd:Q104245482 ;
+    wdt:P31 wd:Q13002315 .
+
+<https://example.org/resource/Elaine_the_Peerless> rdfs:label "Elaine the Peerless"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q13002315 .
+
+<https://example.org/resource/Eliwlod> rdfs:label "Eliwlod"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P26 wd:Q6728331 ;
+    wdt:P31 wd:Q13002315,
+        wd:Q21070568 .
+
+<https://example.org/resource/Elyan_the_White> rdfs:label "Elyan the White"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q215681 ;
+    wdt:P31 wd:Q13002315 .
+
+<https://example.org/resource/Enide> rdfs:label "Enide"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1349671,
+        wd:Q2227196 ;
+    wdt:P31 wd:Q3658341 .
+
+<https://example.org/resource/Erec> rdfs:label "Erec"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1349671 ;
+    wdt:P22 wd:Q15112450 ;
+    wdt:P31 wd:Q16887380 .
+
+<https://example.org/resource/Esclabor> rdfs:label "Esclabor"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q13002315 .
+
+<https://example.org/resource/Esclados> rdfs:label "Esclados"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1928169 ;
+    wdt:P31 wd:Q3658341 .
+
+<https://example.org/resource/Evaine> rdfs:label "Evaine"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1467333 ;
+    wdt:P31 wd:Q16887380 ;
+    wdt:P3373 wd:Q215681 .
+
+<https://example.org/resource/Faerie_Knight> rdfs:label "Faerie Knight"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q2932816,
+        wd:Q3530935 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q3658341 ;
+    wdt:P3373 wd:Q401028 .
+
+<https://example.org/resource/Feirefiz> rdfs:label "Feirefiz"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1247232 ;
+    wdt:P31 wd:Q13002315,
+        wd:Q15632617 .
+
+<https://example.org/resource/Fisher_King> rdfs:label "Fisher King"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1335337,
+        wd:Q2478041,
+        wd:Q945160 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q3658341 .
+
+<https://example.org/resource/Gaheris> rdfs:label "Gaheris"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q1195086 ;
+    wdt:P22 wd:Q1584977 ;
+    wdt:P31 wd:Q13002315,
+        wd:Q15632617 ;
+    wdt:P3373 wd:Q1413003,
+        wd:Q369139,
+        wd:Q831685 .
+
+<https://example.org/resource/Galahad> rdfs:label "Galahad"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q1195086,
+        wd:Q1467333,
+        wd:Q2478041,
+        wd:Q3179725 ;
+    wdt:P22 wd:Q215681 ;
+    wdt:P31 wd:Q13002315,
+        wd:Q15632617 .
+
+<https://example.org/resource/Galehault> rdfs:label "Galehault"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1467333 ;
+    wdt:P31 wd:Q13002315,
+        wd:Q15632617 .
+
+<https://example.org/resource/Galeschin> rdfs:label "Galeschin"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q3658341 ;
+    wdt:P3373 wd:Q1778168 .
+
+<https://example.org/resource/Gareth> rdfs:label "Gareth"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104,
+        wd:Q1195086,
+        wd:Q2227196 ;
+    wdt:P22 wd:Q369139 ;
+    wdt:P31 wd:Q3658341 ;
+    wdt:P3373 wd:Q508541 .
+
+<https://example.org/resource/Gawain> rdfs:label "Gawain"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1195086,
+        wd:Q1335337,
+        wd:Q1467333,
+        wd:Q389906,
+        wd:Q756715,
+        wd:Q945160 ;
+    wdt:P22 wd:Q369139 ;
+    wdt:P31 wd:Q3658341 ;
+    wdt:P3373 wd:Q2453590 .
+
+<https://example.org/resource/Geraint> rdfs:label "Geraint"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q3658341 .
+
+<https://example.org/resource/Gingalain> rdfs:label "Gingalain"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q3658341 ;
+    wdt:P3373 wd:Q831685 .
+
+<https://example.org/resource/Gorlois> rdfs:label "Gorlois"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q238693 ;
+    wdt:P22 wd:Q657200 ;
+    wdt:P25 wd:Q675705 ;
+    wdt:P31 wd:Q3658341 ;
+    wdt:P3373 wd:Q321305,
+        wd:Q369139 .
+
+<https://example.org/resource/Gornemant> rdfs:label "Gornemant"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1335337,
+        wd:Q1349671 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Griflet> rdfs:label "Griflet"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Gringolet> rdfs:label "Gringolet"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1349671,
+        wd:Q756715 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Guinevak> rdfs:label "Guinevak"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q2542444,
+        wd:Q389906 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Guiron_le_Courtois> rdfs:label "Guiron le Courtois"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q410508 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/The_Green_Knight> rdfs:label "The Green Knight"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q3521158,
+        wd:Q756715 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P25 wd:Q321305 ;
+    wdt:P31 wd:Q4271324 ;
+    wdt:P3373 wd:Q831685 .
+

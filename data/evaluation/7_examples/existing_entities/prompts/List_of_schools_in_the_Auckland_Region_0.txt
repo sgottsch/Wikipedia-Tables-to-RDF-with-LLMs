@@ -1,0 +1,108 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of schools in the Auckland Region" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Name  || MOE  || Years || Area || Authority || Opened || Roll ||  class="unsortable"|Website !! class="unsortable"|Notes
+|-
+| [[Ahuroa School]]  || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1200 1200] || 1–8 || [[Ahuroa]] || State || 1888 || {{NZ school roll data|1200|y}} ||  [https://www.ahuroa.school.nz/]||
+|-
+| [[Coatesville School]]  || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1252 1252] || 1–6 || [[Coatesville, New Zealand|Coatesville]] || State || 1916 || {{NZ school roll data|1252|y}} ||  [http://www.coatesville.school.nz/]||
+|-
+| [[Dairy Flat School]]  || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1258 1258] || 1–8 || [[Dairy Flat]] || State || || {{NZ school roll data|1258|y}} || [http://www.dairyflat.school.nz/]||
+|-
+| [[Hare Krishna School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=4204 4204] || 1–8 || [[Kumeū]] || State integrated || || {{NZ school roll data|4204|y}} ||  [http://www.harekrishna.school.nz/]||
+|-
+| [[Helensville Primary School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1306 1306] || 1–8 || [[Helensville]] || State || || {{NZ school roll data|1306|y}} ||  [http://www.helensville.school.nz/]||
+|-
+| [[Huapai District School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1320 1320] || 1–8 || [[Huapai]] || State || 1919 || {{NZ school roll data|1320|y}} || [http://huapaidistrict.school.nz/]||
+|-
+| [[Kaipara Flats School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1324 1324] || 1–6 || [[Kaipara Flats]] || State || || {{NZ school roll data|1324|y}} || [http://www.kaiparaflats.school.nz/]|| |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Ahuroa_School> rdfs:label "Ahuroa"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ex%27s%20NZGR%20Da1431%20%2833705296156%29.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Coatesville_School> rdfs:label "Coatesville"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Coatesville%20North%20of%20Auckland%20FL25454063%20%28cropped%29.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Dairy_Flat_School> wdt:P131 <https://en.wikipedia.org/wiki/Rodney_District> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ rdfs:label "Dairy Flat"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Hare_Krishna_School> rdfs:label "ISKCON schools"@en ;
+ rdfs:label "ISKCON schools"@en .
+
+<https://example.org/resource/Helensville_Primary_School> wdt:P1082 "3070"^^xsd:decimal ;
+ wdt:P1082 "3150"^^xsd:decimal ;
+ wdt:P1082 "2787"^^xsd:decimal ;
+ rdfs:label "Helensville"@en ;
+ wdt:P6802 <http://commons.wikimedia.org/wiki/Special:FilePath/Post%20Office%20Built%20in%201911%20at%20Helensville%2CAuckland%20New%20Zealand.%20%2811661510934%29.jpg> ;
+ wdt:P6802 <http://commons.wikimedia.org/wiki/Special:FilePath/Steam%20locomotive%20Helensville%20station.jpg> ;
+ wdt:P6802 <http://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Helensville%20and%20the%20river.%20Ships%20SS%20Aotea%2C%20and%20Hazel%20Craig%20moored%20at%20the%20wharf.%20ATLIB%20337875.png> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Town> ;
+ wdt:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/Helensville%20banner%20Rail%20Station.jpg> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Helensville%20-%20Commercial%20Road.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> .
+
+<https://example.org/resource/Huapai_District_School> wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Huapai%2020220710%20160516%20%28cropped%29.jpg> ;
+ rdfs:label "Huapai"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Kaipara_Flats_School> wdt:P1082 "180"^^xsd:decimal ;
+ wdt:P1082 "168"^^xsd:decimal ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Rodney_District> ;
+ rdfs:label "Kaipara Flats"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/New_Zealand> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/20230101%20143744%20McKinney%20Hall.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Auckland_Region> ;
+ wdt:P31 wd:Q3257686 .
+---
+These are the labels of the properties:
+
+wdt:P17 -> country
+wdt:P18 -> image
+wdt:P131 -> located in the administrative territorial entity
+wdt:P31 -> instance of
+wdt:P1082 -> population
+wdt:P6802 -> related image
+wdt:P948 -> page banner.
+---
+These are the labels of the objects:
+
+wd:Q3257686 -> locality.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Name  || MOE  || Years || Area || Authority || Opened || Roll ||  class="unsortable"|Website !! class="unsortable"|Notes
+|-
+| [[Waioneke School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1553 1553] || 1–8 || [[Waioneke]] || State || 1930 || {{NZ school roll data|1553|y}} ||  [http://www.waioneke.school.nz]||
+|-
+| [[Waitoki School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1558 1558] || 1–8 || [[Waitoki]] || State || 1924||{{NZ school roll data|1558|y}} ||  [http://www.waitoki.school.nz/]||
+|-
+| [[Warkworth Primary School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1561 1561] || 1–6 || [[Warkworth, New Zealand|Warkworth]] || State || || {{NZ school roll data|1561|y}} ||  [http://www.warkworth.school.nz/]||
+|-
+| [[Wellsford School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1126 1126]  || 1–8 || [[Wellsford]] || State || || {{NZ school roll data|1126|y}} ||  [http://www.wellsford.school.nz/]||
+|-
+| [[Woodhill School]] || [https://www.educationcounts.govt.nz/find-school/school/profile?school=1577 1577] || 1–8 || [[Woodhill, Auckland|Woodhill]] || State || 1877 || {{NZ school roll data|1577|y}} ||  [http://www.woodhill.school.nz/]|| |}
+---

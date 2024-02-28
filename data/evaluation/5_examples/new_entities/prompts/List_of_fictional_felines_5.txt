@@ -1,0 +1,142 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of fictional felines" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+!Character
+!Origin
+!Notes
+|-
+|[[MC Skat Kat]]
+|''[[Opposites Attract]]''
+|Anthropomorphic cat rapper and leader of the [[MC Skat Kat|Stray Mob]] that sings and dances with [[Paula Abdul]].
+|-
+|[[Sylvester (Looney Tunes)|Sylvester]]
+|''[[Looney Tunes]]''
+|Black and white cat who commonly carries out predatory schemes on [[Tweety]] and [[Speedy Gonzales]].
+|-
+|[[Tom Cat|Tom]]
+|''[[Tom and Jerry]]''
+|A gray/blue cat who has a love-hate relationship with [[Jerry Mouse]]. |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/MC_Skat_Kat> wdt:P2031 "1989-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 wd:Q27120684 ;
+ rdfs:label "MC Skat Kat"@en .
+
+<https://example.org/resource/Sylvester> wdt:P7047 <https://en.wikipedia.org/wiki/Slowpoke_Rodriguez> ;
+ wdt:P31 wd:Q27303706 ;
+ wdt:P40 <https://en.wikipedia.org/wiki/Sylvester_Jr.> ;
+ wdt:P7047 wd:Q24950470 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/2010-96-1%20Plaque%2C%20Ship%2C%20USS%20Alameda%20County%2C%20AVB-1%20%285062505993%29.jpg> ;
+ wdt:P170 <https://en.wikipedia.org/wiki/Friz_Freleng> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Animated_character> ;
+ wdt:P910 wd:Q6225773 ;
+ wdt:P361 wd:Q3529557 ;
+ wdt:P7047 <https://en.wikipedia.org/wiki/Tweety> ;
+ wdt:P1080 wd:Q109322855 ;
+ wdt:P1559 "Sylvester the Cat"@en ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ rdfs:label "Sylvester"@en ;
+ wdt:P31 wd:Q111847304 ;
+ wdt:P54 wd:Q56850085 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Looney_Tunes> .
+
+<https://example.org/resource/Tom> wdt:P1080 wd:Q109464881 ;
+ wdt:P5800 <https://en.wikipedia.org/wiki/Protagonist> ;
+ wdt:P31 wd:Q15773347 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Tom_and_Jerry:_The_Movie> ;
+ wdt:P7047 <https://en.wikipedia.org/wiki/Nibbles_(Tom_and_Jerry)> ;
+ wdt:P7047 <https://en.wikipedia.org/wiki/Jerry_Mouse> ;
+ wdt:P106 wd:Q66125178 ;
+ wdt:P170 <https://en.wikipedia.org/wiki/Joseph_Barbera> ;
+ wdt:P31 wd:Q27120684 ;
+ wdt:P9071 wd:Q116586998 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Animated_character> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Tom_and_Jerry> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Tom_%26_Jerry_(2021_film)> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Caprice_(2015_film)> ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P4743 <https://en.wikipedia.org/wiki/Domestic_short-haired_cat> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Tom_%26_Jerry_Kids> ;
+ wdt:P735 <https://en.wikipedia.org/wiki/Thomas_(name)> ;
+ rdfs:label "Tom Cat"@en ;
+ wdt:P106 wd:Q104551794 ;
+ wdt:P170 <https://en.wikipedia.org/wiki/William_Hanna> ;
+ wdt:P127 <https://en.wikipedia.org/wiki/Clint_Clobber> .
+---
+These are the labels of the properties:
+
+wdt:P2031 -> work period (start)
+wdt:P31 -> instance of
+wdt:P7047 -> enemy
+wdt:P40 -> child
+wdt:P18 -> image
+wdt:P170 -> creator
+wdt:P910 -> topic's main category
+wdt:P361 -> part of
+wdt:P1080 -> from narrative universe
+wdt:P1559 -> name in native language
+wdt:P21 -> sex or gender
+wdt:P54 -> member of sports team
+wdt:P1441 -> present in work
+wdt:P5800 -> narrative role
+wdt:P106 -> occupation
+wdt:P9071 -> character type
+wdt:P4743 -> animal breed
+wdt:P735 -> given name
+wdt:P127 -> owned by.
+---
+These are the labels of the objects:
+
+wd:Q27120684 -> fictional cat
+wd:Q27303706 -> anthropomorphic cat
+wd:Q24950470 -> Spike the Bulldog
+wd:Q6225773 -> Category:Sylvester
+wd:Q3529557 -> Sylvester and Tweety
+wd:Q109322855 -> Looney Tunes universe
+wd:Q111847304 -> Looney Tunes character
+wd:Q56850085 -> Tune Squad
+wd:Q109464881 -> Tom & Jerry universe
+wd:Q15773347 -> film character
+wd:Q66125178 -> stalker
+wd:Q116586998 -> evil protagonist
+wd:Q104551794 -> mouser.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+!Character
+!Origin
+!Notes
+|-
+|"Baby Puss"
+|''[[The Flintstones]]''
+| A saber tooth tiger housecat that is seen in the beginning of the episodes going with the Flintstones and Dino to the movies; a running gag is at the end of the episode Fred puts the cat out, who runs back inside and puts Fred out. Rarely seen outside this role in the series except three episodes.
+|-
+|Cake
+|''[[Adventure Time]]''
+|A gender/species swapped version of "Jake the dog" from the Cartoon Network show ''Adventure Time''
+|-
+|Felix
+|''[[Felix the Cat]]''
+|A black cat and "one of the most recognized cartoon characters in film history."<ref>{{cite web |last1=Cart |first1=Michael |title=The Cat With the Killer Personality |url=https://www.nytimes.com/1991/03/31/books/the-cat-with-the-killer-personality.html?scp=10&sq=Felix%20the%20Cat&st=cse |website=The New York Times |access-date=30 November 2019 |date=31 March 1991}}</ref>
+|-
+|Leo
+|''[[Blinky Bill’s Extraordinary Balloon Adventure]]''
+|
+|-
+|Susie McCallister
+|''[[Summer Camp Island]]''
+|
+|-
+| Stimpy
+|''[[The Ren & Stimpy Show]]''
+| A dimwitted and happy-go-lucky rotund [[Manx cat]] with red and white fur, white gloves, a large blue nose. |}
+---

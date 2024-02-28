@@ -1,0 +1,132 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/INTI_International_University> rdfs:label "INTI International University"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q179029>,
+        <http://www.wikidata.org/entity/Q1865>,
+        <http://www.wikidata.org/entity/Q2701093>,
+        <http://www.wikidata.org/entity/Q61092>,
+        <http://www.wikidata.org/entity/Q876876> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://newinti.edu.my/> .
+
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> rdfs:label "Limkokwing University of Creative Technology"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1147163> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "1992-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <https://www.limkokwing.net/> .
+
+<https://example.org/resource/MAHSA_University> rdfs:label "MAHSA University"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q5211977>,
+        <http://www.wikidata.org/entity/Q864965> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.mahsa.edu.my/> .
+
+<https://example.org/resource/Malaysia_University_of_Science_&_Technology> rdfs:label "Malaysia University of Science and Technology"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q864965> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.must.edu.my/> .
+
+<https://example.org/resource/Management_and_Science_University> rdfs:label "Management and Science University"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q137271>,
+        <http://www.wikidata.org/entity/Q220445>,
+        <http://www.wikidata.org/entity/Q231318>,
+        <http://www.wikidata.org/entity/Q271619>,
+        <http://www.wikidata.org/entity/Q500033>,
+        <http://www.wikidata.org/entity/Q61092>,
+        <http://www.wikidata.org/entity/Q651131>,
+        <http://www.wikidata.org/entity/Q846502>,
+        <http://www.wikidata.org/entity/Q847610>,
+        <http://www.wikidata.org/entity/Q939738> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "2001-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.msu.edu.my/> .
+
+<https://example.org/resource/Manipal_International_University> rdfs:label "Manipal International University"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q2701093> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <https://www.miu.edu.my/> .
+
+<https://example.org/resource/Monash_University_Malaysia_Campus> rdfs:label "Monash University Malaysia Campus"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q876876> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q209465>,
+        <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.monash.edu.my/> ;
+    ns1:P8687 0.0 .
+
+<https://example.org/resource/Multimedia_University> rdfs:label "Multimedia University"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1147163> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P749 <http://www.wikidata.org/entity/Q1421182> ;
+    ns1:P856 <https://www.mmu.edu.my/> .
+
+<https://example.org/resource/Nilai_University> rdfs:label "Nilai University"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q2701093> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.nilai.edu.my/> .
+
+<https://example.org/resource/Open_University_Malaysia> rdfs:label "Open University Malaysia"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.oum.edu.my/> .
+
+<https://example.org/resource/Perdana_University> rdfs:label "Perdana University"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q4986889> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://perdanauniversity.edu.my/> .
+
+<https://example.org/resource/Royal_College_of_Surgeons_in_Ireland_and_University_College_Dublin_Malaysia_Campus> rdfs:label "Royal College of Surgeons in Ireland and University College Dublin Malaysia Campus"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q61092> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "1996-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.pmc.edu.my> .
+
+<https://example.org/resource/SEGi_University> rdfs:label "SEGi University"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q6433791> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q233324>,
+        <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "1977-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <https://www.segi.edu.my/> ;
+    ns1:P8687 1977.0 .
+
+<https://example.org/resource/Sunway_University> rdfs:label "Sunway University"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q876876> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.sunway.edu.my/> .
+
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> rdfs:label "Swinburne University of Technology Sarawak Campus"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q220445> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.swinburne.edu.my/> .
+
+<https://example.org/resource/Taylor's_University> rdfs:label "Taylor's University"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q876876> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "1969-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.taylors.edu.my/> .
+
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> ns1:P131 rdfs:label,
+        <http://www.wikidata.org/entity/Q7456354> .
+

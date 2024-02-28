@@ -1,0 +1,55 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of newspapers in Argentina" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+! Newspaper !! Headquarters !! Founded !! Language !! Category 
+|-
+| ''[[Ámbito Financiero]]'' || [[Buenos Aires]] || 1976 || [[Spanish language|Spanish]] || Printed |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Ámbito_Financiero> wdt:P17 <https://en.wikipedia.org/wiki/Argentina> ;
+ rdfs:label "Ámbito Financiero"@en ;
+ wdt:P463 <https://en.wikipedia.org/wiki/Inter_American_Press_Association> ;
+ wdt:P856 <http://www.ambito.com/> ;
+ wdt:P571 "1976-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Diario%20%C3%81mbito%20Financiero%20%285479749575%29.jpg> ;
+ wdt:P112 <https://en.wikipedia.org/wiki/Julio_Ramos> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Spanish_language> ;
+ wdt:P1830 <https://en.wikipedia.org/wiki/Buenos_Aires_Herald> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Daily_newspaper> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Buenos_Aires> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Argentina> .
+---
+These are the labels of the properties:
+
+wdt:P17 -> country
+wdt:P463 -> member of
+wdt:P856 -> official website URL
+wdt:P571 -> inception
+wdt:P18 -> image
+wdt:P112 -> founded by
+wdt:P407 -> language of work or name
+wdt:P1830 -> owner of
+wdt:P31 -> instance of
+wdt:P159 -> headquarters location
+wdt:P495 -> country of origin.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+! Newspaper !! Headquarters !! Founded !! Language !! Category 
+|-
+| ''[[The Southern Cross (Argentina)|The Southern Cross]]'' || [[Buenos Aires]] || 1875 
+| style="background:#bbeebb;" | [[Irish language|Irish]], [[Spanish language|Spanish]] || Printed |}
+---

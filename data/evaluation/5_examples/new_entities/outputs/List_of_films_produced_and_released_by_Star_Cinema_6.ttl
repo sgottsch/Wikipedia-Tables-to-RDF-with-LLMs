@@ -1,0 +1,75 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Abel_Villarama:_Armado> rdfs:label "Abel Villarama: Armado"@en ;
+    wdt:P136 wd:Q188473 ;
+    wdt:P161 wd:Q3543348,
+        wd:Q3545086,
+        wd:Q4673019,
+        wd:Q6013213 ;
+    wdt:P272 wd:Q928 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P577 "1999-04-14T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Di_Puwedeng_Hindi_Pwede!> rdfs:label "Di Puwedeng Hindi Pwede!"@en ;
+    wdt:P136 wd:Q188473 ;
+    wdt:P161 wd:Q3543654,
+        wd:Q3544809,
+        wd:Q3545086 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "1999-05-12T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Isprikitik,_Walastik_Kung_Pumitik> rdfs:label "Isprikitik, Walastik Kung Pumitik"@en ;
+    wdt:P136 wd:Q157443 ;
+    wdt:P161 wd:Q4941712,
+        wd:Q5038682,
+        wd:Q7305871 ;
+    wdt:P272 wd:Q928 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P577 "1999-07-14T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Suspek> rdfs:label "Suspek"@en ;
+    wdt:P136 wd:Q188473 ;
+    wdt:P161 wd:Q20586272,
+        wd:Q7489913 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "1999-09-08T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Tar-San> rdfs:label "Tar-San"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q12964911 ;
+    wdt:P577 "1999-10-13T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Tik_Tak_Toys,_My_Kolokotoys> rdfs:label "Tik Tak Toys, My Kolokotoys"@en ;
+    wdt:P136 wd:Q157443 ;
+    wdt:P161 wd:Q5038682,
+        wd:Q7305871,
+        wd:Q7453114 ;
+    wdt:P272 wd:Q928 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P577 "1999-02-24T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Type_Kita,_Walang_Kokontra> rdfs:label "Type Kita, Walang Kokontra"@en ;
+    wdt:P136 wd:Q1054574,
+        wd:Q157443,
+        wd:Q188473 ;
+    wdt:P161 wd:Q1530593,
+        wd:Q3545086,
+        wd:Q961732 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "1999-01-27T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Weder-Weder_Lang_'Yan> rdfs:label "Weder-Weder Lang 'Yan"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q4944040 ;
+    wdt:P577 "1999-11-24T00:00:00+00:00"^^xsd:dateTime .
+

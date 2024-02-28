@@ -1,0 +1,23 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/INTI_International_University> rdfs:label "INTI International University"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q2701093> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q233324>,
+        <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://newinti.edu.my/> ;
+    ns1:P8687 3225.0 .
+
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> rdfs:label "Limkokwing University of Creative Technology"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1147163> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q3918> ;
+    ns1:P571 "1992-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <https://www.limkokwing.net/> .
+
+<https://example.org/resource/MAHSA_University> ns1:P131 rdfs:label,
+        <http://www.wikidata.org/entity/Q864965> .
+

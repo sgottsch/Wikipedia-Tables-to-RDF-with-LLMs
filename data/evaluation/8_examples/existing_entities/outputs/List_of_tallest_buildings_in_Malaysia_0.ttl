@@ -1,0 +1,245 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix ns2: <https://example.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns2:AmBank_Tower rdfs:label "AmBank Tower"@en ;
+    ns1:P1101 50.0 ;
+    ns1:P1139 0.0 ;
+    ns1:P127 <http://www.wikidata.org/entity/Q4132947> ;
+    ns1:P1301 87.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/AmBank%20Tower%202023-08-20.jpg> ;
+    ns1:P2048 210.0 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q17049670> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11303> ;
+    ns1:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/AmBank%20Tower%202019-11-30%2020-54-46.jpg> ;
+    ns1:P366 <http://www.wikidata.org/entity/Q182060> ;
+    ns1:P571 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P6375 "Kuala Lumpur"@en ;
+    ns1:P793 <http://www.wikidata.org/entity/Q1075723>,
+        <http://www.wikidata.org/entity/Q27136782> ;
+    ns1:P84 <http://www.wikidata.org/entity/Q5443251> ;
+    ns1:P856 <https://ambanktower.com> .
+
+ns2:Komtar rdfs:label "Komtar"@en ;
+    ns1:P1101 68.0 ;
+    ns1:P1139 5.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q61092> ;
+    ns1:P1619 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 248.7 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11303> ;
+    ns1:P366 <http://www.wikidata.org/entity/Q182060> ;
+    ns1:P571 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P793 <http://www.wikidata.org/entity/Q27136782> ;
+    ns1:P856 <https://www.skyscrapercenter.com/building/menara-komtar/46758> .
+
+ns2:Marriott_Residences_Penang rdfs:label "Marriott Residences Penang"@en ;
+    ns1:P1101 56.0 ;
+    ns1:P1139 0.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q61092> ;
+    ns1:P1619 "2023-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 223.5 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11303> ;
+    ns1:P571 "2023-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P6375 "George Town, Penang"@en .
+
+ns2:Maxis_Tower rdfs:label "Maxis Tower"@en ;
+    ns1:P1101 49.0 ;
+    ns1:P1139 0.0 ;
+    ns1:P127 <http://www.wikidata.org/entity/Q220317> ;
+    ns1:P1301 87.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Maxis%20Tower%202023-08-20.jpg> ;
+    ns1:P2048 212.0 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q17049670> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11303> ;
+    ns1:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/Maxis%20Tower%202019-11-30%2020-54-46.jpg> ;
+    ns1:P366 <http://www.wikidata.org/entity/Q182060> ;
+    ns1:P571 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P6375 "Kuala Lumpur"@en ;
+    ns1:P793 <http://www.wikidata.org/entity/Q1075723>,
+        <http://www.wikidata.org/entity/Q27136782> ;
+    ns1:P84 <http://www.wikidata.org/entity/Q5443251> ;
+    ns1:P856 <https://maxistower.com> .
+
+ns2:Maybank_Tower rdfs:label "Maybank Tower"@en ;
+    ns1:P1101 50.0 ;
+    ns1:P1139 5.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 243.5 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q17049670> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q41176> ;
+    ns1:P366 <http://www.wikidata.org/entity/Q182060> ;
+    ns1:P571 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P793 <http://www.wikidata.org/entity/Q27136782> ;
+    ns1:P856 <https://www.skyscrapercenter.com/building/menara-maybank/946> .
+
+ns2:Muze rdfs:label "Muze"@en ;
+    ns1:P1101 58.0 ;
+    ns1:P2048 205.5 ;
+    ns1:P366 <http://www.wikidata.org/entity/Q1007870>,
+        <http://www.wikidata.org/entity/Q1060829>,
+        <http://www.wikidata.org/entity/Q1065656>,
+        <http://www.wikidata.org/entity/Q11707>,
+        <http://www.wikidata.org/entity/Q133215>,
+        <http://www.wikidata.org/entity/Q1341387>,
+        <http://www.wikidata.org/entity/Q1378975>,
+        <http://www.wikidata.org/entity/Q148319>,
+        <http://www.wikidata.org/entity/Q1501>,
+        <http://www.wikidata.org/entity/Q166118>,
+        <http://www.wikidata.org/entity/Q16917>,
+        <http://www.wikidata.org/entity/Q183503>,
+        <http://www.wikidata.org/entity/Q189004>,
+        <http://www.wikidata.org/entity/Q194195>,
+        <http://www.wikidata.org/entity/Q2400020>,
+        <http://www.wikidata.org/entity/Q27686>,
+        <http://www.wikidata.org/entity/Q2980362>,
+        <http://www.wikidata.org/entity/Q31374404>,
+        <http://www.wikidata.org/entity/Q31855>,
+        <http://www.wikidata.org/entity/Q32815>,
+        <http://www.wikidata.org/entity/Q33506>,
+        <http://www.wikidata.org/entity/Q34627>,
+        <http://www.wikidata.org/entity/Q3499307>,
+        <http://www.wikidata.org/entity/Q3914>,
+        <http://www.wikidata.org/entity/Q3918>,
+        <http://www.wikidata.org/entity/Q43501>,
+        <http://www.wikidata.org/entity/Q44539>,
+        <http://www.wikidata.org/entity/Q45782>,
+        <http://www.wikidata.org/entity/Q483242>,
+        <http://www.wikidata.org/entity/Q567053>,
+        <http://www.wikidata.org/entity/Q605315>,
+        <http://www.wikidata.org/entity/Q622425>,
+        <http://www.wikidata.org/entity/Q7075> ;
+    ns2:Grand_Seasons_Hotel ns1:P31 .
+
+ns2:Permata_Sapura_Tower rdfs:label "Permata Sapura Tower"@en ;
+    ns1:P1101 53.0 ;
+    ns1:P1139 5.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2020-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 252.5 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q17049670> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q41176> ;
+    ns1:P366 <http://www.wikidata.org/entity/Q182060> ;
+    ns1:P571 "2020-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P793 <http://www.wikidata.org/entity/Q27136782> ;
+    ns1:P856 <https://www.skyscrapercenter.com/building/permata-sapura-tower/23868> .
+
+ns2:Petronas_Tower_3 rdfs:label "Petronas Tower 3"@en ;
+    ns1:P1101 60.0 ;
+    ns1:P1139 5.0 ;
+    ns1:P1301 87.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 267.0 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q17049670> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11303> ;
+    ns1:P366 <http://www.wikidata.org/entity/Q182060> ;
+    ns1:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P793 <http://www.wikidata.org/entity/Q1075723>,
+        <http://www.wikidata.org/entity/Q27136782> ;
+    ns1:P856 <https://www.skyscrapercenter.com/building/petronas-tower-3/700> .
+
+ns2:Star_Residences_ONE rdfs:label "Star Residences ONE"@en ;
+    ns1:P1101 58.0 ;
+    ns1:P1139 6.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2019-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 264.9 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q41176> ;
+    ns1:P571 "2019-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P793 <http://www.wikidata.org/entity/Q27136782> ;
+    ns1:P856 <https://www.skyscrapercenter.com/building/star-residences-rt2/18044> .
+
+ns2:The_Astaka_Tower_B rdfs:label "The Astaka Tower B"@en ;
+    ns1:P1101 67.0 ;
+    ns1:P1139 5.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q231318> ;
+    ns1:P1619 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 255.6 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11303> ;
+    ns1:P571 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P793 <http://www.wikidata.org/entity/Q27136782> ;
+    ns1:P856 <https://www.skyscrapercenter.com/building/the-astaka-tower-b/15219> .
+
+ns2:The_Stride rdfs:label "The Stride"@en ;
+    ns1:P1101 48.0 ;
+    ns1:P1139 0.0 ;
+    ns1:P127 <http://www.wikidata.org/entity/Q12684392> ;
+    ns1:P1301 87.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Stride%202023-08-20.jpg> ;
+    ns1:P2048 209.0 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q17049670> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11303> ;
+    ns1:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Stride%202019-11-30%2020-54-46.jpg> ;
+    ns1:P571 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P6375 "Kuala Lumpur"@en ;
+    ns1:P793 <http://www.wikidata.org/entity/Q1075723>,
+        <http://www.wikidata.org/entity/Q27136782> ;
+    ns1:P84 <http://www.wikidata.org/entity/Q5443251> ;
+    ns1:P856 <https://thestride.com> .
+
+ns2:Vista_Tower rdfs:label "Vista Tower"@en ;
+    ns1:P1101 62.0 ;
+    ns1:P1139 5.0 ;
+    ns1:P127 <http://www.wikidata.org/entity/Q4206786> ;
+    ns1:P1301 87.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Vista%20Tower%202023-08-20.jpg> ;
+    ns1:P2048 238.0 ;
+    ns1:P276 <http://www.wikidata.org/entity/Q17049670> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11303> ;
+    ns1:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/Vista%20Tower%202019-11-30%2020-54-46.jpg> ;
+    ns1:P366 <http://www.wikidata.org/entity/Q182060> ;
+    ns1:P571 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P6375 "Kuala Lumpur"@en ;
+    ns1:P793 <http://www.wikidata.org/entity/Q1075723>,
+        <http://www.wikidata.org/entity/Q27136782> ;
+    ns1:P84 <http://www.wikidata.org/entity/Q5443251> ;
+    ns1:P856 <https://vistatower.com> .
+
+ns2:Vortex_Tower rdfs:label "Vortex Tower"@en ;
+    ns1:P1101 58.0 ;
+    ns1:P1139 6.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q1865> ;
+    ns1:P1619 "2016-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P17 <http://www.wikidata.org/entity/Q833> ;
+    ns1:P2048 235.0 ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11303> ;
+    ns1:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/Vortex%20Tower%20skyline%20Nov%20of%202021.jpg> ;
+    ns1:P366 <http://www.wikidata.org/entity/Q182060> ;
+    ns1:P571 "2016-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P631 <http://www.wikidata.org/entity/Q716737> ;
+    ns1:P6375 "Kuala Lumpur"@en ;
+    ns1:P84 <http://www.wikidata.org/entity/Q5443251> ;
+    ns1:P856 <https://vortextower.com> .
+

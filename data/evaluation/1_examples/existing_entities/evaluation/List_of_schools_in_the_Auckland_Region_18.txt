@@ -1,0 +1,233 @@
+In both
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Manurewa_West_School> <http://www.w3.org/2000/01/rdf-schema#label> "Manurewa West School"@en .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P856> <http://www.manurewawest.school.nz> .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q9842> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P856> <http://www.reremoana.school.nz> .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q6753177> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.w3.org/2000/01/rdf-schema#label> "Reremoana Primary School"@en .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q9842> .
+In ground only
+<https://example.org/resource/Manurewa_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6753139> .
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Manurewa_South_School> <http://www.w3.org/2000/01/rdf-schema#label> "Manurewa"@en .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q4723908> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q9842> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q4723908> .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P2196> "448"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Leabank_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P2196> "427"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P6375> "Hill Road, Manurewa, Auckland"@en .
+<https://example.org/resource/Finlayson_Park_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Roscommon_School> <http://www.w3.org/2000/01/rdf-schema#label> "Clendon Park"@en .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6753177> .
+<https://example.org/resource/Manurewa_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q4723908> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Manurewa%20First%20World%20War%20memorial%20344.JPG> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q8026945> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.w3.org/2000/01/rdf-schema#label> "Manurewa Central School"@en .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P2196> "360"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q4723908> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Manurewa%20First%20World%20War%20memorial%20344.JPG> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5887422> .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P6375> "76 Russell Road, Manurewa, Auckland"@en .
+<https://example.org/resource/Manurewa_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7677177> .
+<https://example.org/resource/Hillpark_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5887422> .
+<https://example.org/resource/Leabank_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7974975> .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P6375> "Mckean Avenue, Manurewa, Auckland"@en .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7974975> .
+<https://example.org/resource/Hillpark_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6753139> .
+<https://example.org/resource/Hillpark_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6753177> .
+<https://example.org/resource/Leabank_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Manurewa%20First%20World%20War%20memorial%20344.JPG> .
+<https://example.org/resource/Finlayson_Park_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q4723908> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P2196> "578"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Hillpark_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/HillPark.jpg> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q28180683> .
+<https://example.org/resource/Hillpark_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P856> <http://www.mancent.school.nz> .
+<https://example.org/resource/Manurewa_South_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Finlayson_Park_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7974975> .
+<https://example.org/resource/Manurewa_South_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Manurewa%20First%20World%20War%20memorial%20344.JPG> .
+<https://example.org/resource/Manurewa_East_School> <http://www.w3.org/2000/01/rdf-schema#label> "Manurewa East School"@en .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7974975> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P571> "2006-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7677177> .
+<https://example.org/resource/Hillpark_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7735863> .
+<https://example.org/resource/Manurewa_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5887422> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5887422> .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+<https://example.org/resource/Te_Kura_Ākonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P2196> "523"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5131609> .
+<https://example.org/resource/Te_Kura_Ākonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7677177> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.w3.org/2000/01/rdf-schema#label> "Manurewa Intermediate"@en .
+<https://example.org/resource/Hillpark_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P571> "1961-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Randwick_Park_School> <http://www.w3.org/2000/01/rdf-schema#label> "Randwick Park"@en .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q6753177> .
+<https://example.org/resource/Leabank_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5131609> .
+<https://example.org/resource/Leabank_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5887422> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Rowandale_School> <http://www.w3.org/2000/01/rdf-schema#label> "Manurewa"@en .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q1891869> .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q9842> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Hillpark_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7677177> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7974975> .
+<https://example.org/resource/Finlayson_Park_School> <http://www.w3.org/2000/01/rdf-schema#label> "Manurewa"@en .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Finlayson_Park_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5131609> .
+<https://example.org/resource/Finlayson_Park_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6753139> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Manurewa%20First%20World%20War%20memorial%20344.JPG> .
+<https://example.org/resource/Manurewa_South_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P2196> "926"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P2196> "325"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5887422> .
+<https://example.org/resource/Leabank_School> <http://www.w3.org/2000/01/rdf-schema#label> "Manurewa"@en .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5131609> .
+<https://example.org/resource/Te_Kura_Ākonga_o_Manurewa> <http://www.w3.org/2000/01/rdf-schema#label> "Randwick Park"@en .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P856> <http://manurewaint.school.nz/> .
+<https://example.org/resource/Finlayson_Park_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5887422> .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P856> <http://www.manurewaeast.school.nz> .
+<https://example.org/resource/Manurewa_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7974975> .
+<https://example.org/resource/Finlayson_Park_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q28180683> .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P2196> "515"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P6375> "Scotts Road, Manurewa, Auckland"@en .
+<https://example.org/resource/Finlayson_Park_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q28180683> .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.w3.org/2000/01/rdf-schema#label> "Manurewa"@en .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Te_Kura_Ākonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5131609> .
+<https://example.org/resource/Leabank_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q4723908> .
+<https://example.org/resource/Leabank_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7677177> .
+<https://example.org/resource/Leabank_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q6753177> .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Finlayson_Park_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Clendon%20Park%20Reserve%20Path.jpg> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q149566> .
+<https://example.org/resource/Hillpark_School> <http://www.w3.org/2000/01/rdf-schema#label> "Hillpark"@en .
+<https://example.org/resource/Finlayson_Park_School> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Manurewa%20First%20World%20War%20memorial%20344.JPG> .
+<https://example.org/resource/Finlayson_Park_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7677177> .
+<https://example.org/resource/Manurewa_East_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5887422> .
+<https://example.org/resource/Manurewa_South_School> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Manurewa_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5131609> .
+<https://example.org/resource/Leabank_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q28180683> .
+<https://example.org/resource/Leabank_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6753139> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q6753177> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q28180683> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6753139> .
+<https://example.org/resource/The_Gardens_School> <http://www.w3.org/2000/01/rdf-schema#label> "Manurewa"@en .
+<https://example.org/resource/Leabank_School> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6753139> .
+<https://example.org/resource/Manurewa_South_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q28180683> .
+<https://example.org/resource/Hillpark_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q188509> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7677177> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q7974975> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P2196> "463"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q6753139> .
+<https://example.org/resource/Manurewa_Central_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Manurewa_Intermediate> <http://www.wikidata.org/prop/direct/P2196> "844"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q85815210> .
+In predicted only
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P2196> "6947"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q7735863> .
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q664> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q99485115> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q9842> .
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q9842> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P856> <http://www.thegardens.school.nz> .
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P2196> "6944"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P2196> "1474"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P6375> "101 Charles Prevost Drive, Randwick Park, Auckland"@en .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P6375> "56 Browns Road, Manurewa, Auckland"@en .
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P2196> "1619"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P856> <http://www.roscommon.school.nz> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P6375> "14 Rowandale Avenue, Manurewa, Auckland"@en .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q99485115> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P2196> "6978"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P856> <http://www.rowandale.school.nz/> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q5131609> .
+<https://example.org/resource/Roscommon_School> <http://www.w3.org/2000/01/rdf-schema#label> "Roscommon School"@en .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P6375> "26 Cole Crescent, Manurewa, Auckland"@en .
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P2196> "1470"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q7974975> .
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q9842> .
+<https://example.org/resource/The_Gardens_School> <http://www.w3.org/2000/01/rdf-schema#label> "The Gardens School"@en .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Manurewa_West_School> <http://www.wikidata.org/prop/direct/P2196> "1356"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Randwick_Park_School> <http://www.w3.org/2000/01/rdf-schema#label> "Randwick Park School"@en .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q9842> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q6753177> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q37100> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> <http://www.w3.org/2000/01/rdf-schema#label> "Te Kura Ākonga o Manurewa"@en .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q9842> .
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q726917> .
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P856> <http://www.stanne.school.nz> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q6753177> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.w3.org/2000/01/rdf-schema#label> "St Anne's Catholic School"@en .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q9842> .
+<https://example.org/resource/Rowandale_School> <http://www.w3.org/2000/01/rdf-schema#label> "Rowandale School"@en .
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P856> <http://www.thegardens.school.nz> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P6375> "36-38 Barlow Road, Clendon Park, Auckland"@en .
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P856> <http://www.randwickpark.school.nz/> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P6375> "101 Charles Prevost Drive, The Gardens, Auckland"@en .
+<https://example.org/resource/Rowandale_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/The_Gardens_School> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/Te_Kura_Akonga_o_Manurewa> <http://www.wikidata.org/prop/direct/P7419> <http://www.wikidata.org/entity/Q70853302> .
+<https://example.org/resource/St_Anne's_Catholic_School> <http://www.wikidata.org/prop/direct/P2196> "1486"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Randwick_Park_School> <http://www.wikidata.org/prop/direct/P6375> "180 Shifnal Drive, Randwick Park, Manurewa, Auckland"@en .
+<https://example.org/resource/Reremoana_Primary_School> <http://www.wikidata.org/prop/direct/P6375> "2 Reremoana Road, Wattle Downs, Auckland"@en .
+<https://example.org/resource/Roscommon_School> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1080794> .

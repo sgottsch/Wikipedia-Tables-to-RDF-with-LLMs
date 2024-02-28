@@ -1,0 +1,363 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Ahat_Jami_Mosque> rdfs:label "Ahat Jami Mosque"@en ;
+    wdt:P131 "Donetsk" ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P571 1993 .
+
+<https://example.org/resource/Al-Andalus_Mosque> rdfs:label "Al-Andalus Mosque"@en ;
+    wdt:P131 "Málaga" ;
+    wdt:P17 wd:Q29 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P402 "SA" ;
+    wdt:P571 2009 .
+
+<https://example.org/resource/Al-Salam_Mosque_Odessa> rdfs:label "Al-Salam Mosque"@en ;
+    wdt:P131 wd:Q1874 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2000 .
+
+<https://example.org/resource/Al_Morabito_Mosque> rdfs:label "Al-Morabito Mosque"@en ;
+    wdt:P1448 "Constructed by the Nationalists for the Regulares at the Spanish Civil War" ;
+    wdt:P17 wd:Q29 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1936 ;
+    wdt:P793 "U" .
+
+<https://example.org/resource/Almonaster_Mosque> rdfs:label "Almonaster Mosque"@en ;
+    wdt:P131 wd:Q533277 ;
+    wdt:P17 wd:Q29 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "9-10th century" .
+
+<https://example.org/resource/Ar-Rahma_Mosque_Kyiv> rdfs:label "Ar-Rahma Mosque, Kyiv"@en ;
+    wdt:P131 "Kyiv" ;
+    wdt:P1647 "SDMU" ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P571 2000 .
+
+<https://example.org/resource/Bajrakli_Mosque_Belgrade> rdfs:label "Bajrakli Mosque"@en ;
+    wdt:P131 wd:Q3711 ;
+    wdt:P1448 "Built around 1575" ;
+    wdt:P17 wd:Q403 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1575 ;
+    wdt:P793 "U" .
+
+<https://example.org/resource/Banya_Bashi_Mosque> rdfs:label "Banya Bashi Mosque"@en ;
+    wdt:P17 wd:Q219 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P360 wd:Q1297 .
+
+<https://example.org/resource/Bohoniki_Mosque> rdfs:label "Bohoniki Mosque"@en ;
+    wdt:P131 "Bohoniki" ;
+    wdt:P17 wd:Q36 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "19/20"^^xsd:integer .
+
+<https://example.org/resource/Dublin_Mosque> rdfs:label "Dublin Mosque"@en ;
+    wdt:P131 wd:Q1761 ;
+    wdt:P17 wd:Q22890 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1976 .
+
+<https://example.org/resource/Esmahan_Sultan_Mosque> rdfs:label "Esmahan Sultan Mosque"@en ;
+    wdt:P131 "Mangalia" ;
+    wdt:P17 wd:Q218 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 1575 .
+
+<https://example.org/resource/Fuengirola_Mosque> rdfs:label "Fuengirola Mosque"@en ;
+    wdt:P131 "Fuengirola" ;
+    wdt:P17 wd:Q29 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P402 "SA" ;
+    wdt:P571 1994 .
+
+<https://example.org/resource/Grand_Mosque_of_Constanța> rdfs:label "Grand Mosque of Constanța"@en ;
+    wdt:P131 "Constanţa" ;
+    wdt:P17 wd:Q218 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 1912 .
+
+<https://example.org/resource/Hadum_Mosque> rdfs:label "Hadum Mosque"@en ;
+    wdt:P17 wd:Q1246 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1594 .
+
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> rdfs:label "Ibrahim-al-Ibrahim Mosque"@en ;
+    wdt:P131 wd:Q1410 ;
+    wdt:P17 wd:Q1410 ;
+    wdt:P31 wd:Q55488 ;
+    wdt:P361 wd:Q1860 ;
+    wdt:P571 1997 ;
+    wdt:P580 "August 8, 1997"^^xsd:dateTime .
+
+<https://example.org/resource/Ibrahim_Pasha_Mosque> rdfs:label "Ibrahim Pasha Mosque"@en ;
+    wdt:P17 wd:Q219 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P360 wd:Q1297 .
+
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> rdfs:label "Ismi Khan Jami Mosque"@en ;
+    wdt:P131 wd:Q158604 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P170 wd:Q9747 ;
+    wdt:P31 wd:Q55488 ;
+    wdt:P571 17 .
+
+<https://example.org/resource/Işak_Bey_Mosque> rdfs:label "Işak Bey Mosque"@en ;
+    wdt:P131 "Skopje" ;
+    wdt:P17 wd:Q221 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P463 "U" .
+
+<https://example.org/resource/Järvenpää_Mosque> rdfs:label "Järvenpää Mosque"@en ;
+    wdt:P17 wd:Q33 ;
+    wdt:P31 wd:Q55488 ;
+    wdt:P361 wd:Q1860 ;
+    wdt:P571 1942 .
+
+<https://example.org/resource/Kebir-Jami_Mosque_Simferopol> rdfs:label "Kebir-Jami Mosque"@en ;
+    wdt:P131 wd:Q19566 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1508 .
+
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> rdfs:label "Kharkiv Cathedral Mosque"@en ;
+    wdt:P131 "Kharkiv" ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P571 1993 .
+
+<https://example.org/resource/King_Abdelaziz_Mosque> rdfs:label "King Abdelaziz Mosque"@en ;
+    wdt:P131 "Marbella" ;
+    wdt:P17 wd:Q29 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P402 "SA" ;
+    wdt:P571 1981 .
+
+<https://example.org/resource/Kokkoz_Jami_Mosque> rdfs:label "Kokkoz Jami Mosque"@en ;
+    wdt:P131 wd:Q1107226 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1910 .
+
+<https://example.org/resource/Kruszyniany_Mosque> rdfs:label "Kruszyniany Mosque"@en ;
+    wdt:P131 "Kruszyniany" ;
+    wdt:P17 wd:Q36 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "18/19"^^xsd:integer .
+
+<https://example.org/resource/Kyiv_Islamic_Cultural_Center> rdfs:label "Kyiv Islamic Cultural Center"@en ;
+    wdt:P131 wd:Q1899 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2001 .
+
+<https://example.org/resource/Lisbon_Mosque> rdfs:label "Lisbon Mosque"@en ;
+    wdt:P131 "Lisbon" ;
+    wdt:P17 wd:Q45 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 1988 .
+
+<https://example.org/resource/List_of_mosques_in_Cyprus> rdfs:label "List of mosques in Cyprus"@en ;
+    wdt:P17 wd:Q229 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q1297 .
+
+<https://example.org/resource/List_of_mosques_in_Denmark> rdfs:label "List of mosques in Denmark"@en ;
+    wdt:P17 wd:Q35 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q1297 .
+
+<https://example.org/resource/List_of_mosques_in_France> rdfs:label "list of Mosques in France"@en ;
+    wdt:P17 wd:Q142 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 .
+
+<https://example.org/resource/List_of_mosques_in_Russia> rdfs:label "list of Mosques in Russia"@en ;
+    wdt:P17 wd:Q159 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 .
+
+<https://example.org/resource/List_of_mosques_in_Sweden> rdfs:label "list of Mosques in Sweden"@en ;
+    wdt:P17 wd:Q34 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 .
+
+<https://example.org/resource/List_of_mosques_in_the_Netherlands> rdfs:label "List of mosques in the Netherlands"@en ;
+    wdt:P17 wd:Q55 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 .
+
+<https://example.org/resource/Ljubljana_Mosque> rdfs:label "Ljubljana Mosque"@en ;
+    wdt:P131 wd:Q437 ;
+    wdt:P17 wd:Q215 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2020 .
+
+<https://example.org/resource/Luhansk_Cathedral_Mosque> rdfs:label "Luhansk Cathedral Mosque"@en ;
+    wdt:P131 wd:Q134279 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2010 .
+
+<https://example.org/resource/Madrid_Central_Mosque> rdfs:label "Madrid Central Mosque"@en ;
+    wdt:P131 "Madrid" ;
+    wdt:P17 wd:Q29 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P402 "UCIDE" ;
+    wdt:P571 1988 .
+
+<https://example.org/resource/Mariam_Al-Batool_Mosque> rdfs:label "Mariam Al-Batool Mosque"@en ;
+    wdt:P131 wd:Q846589 ;
+    wdt:P17 wd:Q233 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1978 .
+
+<https://example.org/resource/Maryam_Mosque> rdfs:label "Maryam Mosque"@en ;
+    wdt:P131 "Bâra|Rediu" ;
+    wdt:P17 wd:Q218 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 2014 .
+
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> rdfs:label "Molla-Mustafa Jami Mosque"@en ;
+    wdt:P131 wd:Q158604 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P170 wd:Q9747 ;
+    wdt:P31 wd:Q55488 .
+
+<https://example.org/resource/Mosque_Cathedral_of_Cordoba> rdfs:label "Mosque–Cathedral of Córdoba"@en ;
+    wdt:P1448 "“Great Mosque of Cordoba”, now a Catholic cathedral" ;
+    wdt:P17 wd:Q29 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 784 ;
+    wdt:P793 "U" .
+
+<https://example.org/resource/Mosque_of_Cristo_de_la_Luz> rdfs:label "Mosque of Cristo de la Luz"@en ;
+    wdt:P131 "Toledo, Spain" ;
+    wdt:P17 wd:Q29 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P402 "U" ;
+    wdt:P571 999 .
+
+<https://example.org/resource/Mosque_of_Rome> rdfs:label "Mosque of Rome"@en ;
+    wdt:P131 wd:Q220 ;
+    wdt:P17 wd:Q38 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1995 .
+
+<https://example.org/resource/Mosque_of_Segrate> rdfs:label "Mosque of Segrate"@en ;
+    wdt:P131 wd:Q42902 ;
+    wdt:P17 wd:Q38 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1988 .
+
+<https://example.org/resource/Mufti-Jami_Mosque> rdfs:label "Mufti-Jami Mosque"@en ;
+    wdt:P131 "Feodosiya" ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P571 1637 .
+
+<https://example.org/resource/Mustapha_Pasha_Mosque> rdfs:label "Mustapha Pasha Mosque"@en ;
+    wdt:P131 "Skopje" ;
+    wdt:P17 wd:Q221 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P463 "U" ;
+    wdt:P571 1492 .
+
+<https://example.org/resource/Orta_Juma_Jami> rdfs:label "Orta Juma Jami"@en ;
+    wdt:P131 "Bakhchysarai" ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P571 1674 .
+
+<https://example.org/resource/Reykjavík_Mosque> rdfs:label "Reykjavík Mosque"@en ;
+    wdt:P17 wd:Q189 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2002 .
+
+<https://example.org/resource/Sailors_Mosque> rdfs:label "Sailors' Mosque"@en ;
+    wdt:P131 "Ulcinj" ;
+    wdt:P1448 "Destroyed in 1931, rebuilt between 2008 and 2012" ;
+    wdt:P17 wd:Q236 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P463 "U" ;
+    wdt:P571 1798 .
+
+<https://example.org/resource/Sultan_Suleiman_Mosque> rdfs:label "Sultan Suleiman Mosque"@en ;
+    wdt:P131 wd:Q37133 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2007 .
+
+<https://example.org/resource/Tahtali-Jami_Mosque> rdfs:label "Tahtali-Jami Mosque"@en ;
+    wdt:P131 "Bakhchysarai" ;
+    wdt:P17 wd:Q212 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P571 1707 .
+
+<https://example.org/resource/Tombul_Mosque> rdfs:label "Tombul Mosque"@en ;
+    wdt:P17 wd:Q219 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P360 wd:Q1297 .
+
+<https://example.org/resource/Tornerías_Mosque> rdfs:label "Tornerías Mosque"@en ;
+    wdt:P131 "Toledo, Spain" ;
+    wdt:P17 wd:Q29 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 ;
+    wdt:P402 "U" ;
+    wdt:P571 "Middle of the 11th century" .
+
+<https://example.org/resource/Zagreb_Mosque> rdfs:label "Zagreb Mosque"@en ;
+    wdt:P17 wd:Q224 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P360 wd:Q1297 .
+
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> rdfs:label "Çelebi Sultan Mehmed Mosque"@en ;
+    wdt:P131 wd:Q932648 ;
+    wdt:P17 wd:Q41 ;
+    wdt:P31 wd:Q55488 ;
+    wdt:P361 wd:Q1860 ;
+    wdt:P571 15 .
+
+<https://example.org/resource/Geneva_Mosque> rdfs:label "Geneva Mosque"@en ;
+    wdt:P131 wd:Q71 ;
+    wdt:P1448 "Inaugurated by Khalid ibn Abd al-Aziz."@en ;
+    wdt:P17 wd:Q39 ;
+    wdt:P170 wd:Q9747 ;
+    wdt:P195 <https://example.org/resource/Geneva_Mosque> ;
+    wdt:P31 wd:Q55488 ;
+    wdt:P571 1978 ;
+    wdt:P580 "1978-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Mahmood_Mosque> rdfs:label "Mahmood Mosque"@en ;
+    wdt:P1448 "First mosque in Switzerland."@en ;
+    wdt:P17 wd:Q39 ;
+    wdt:P170 wd:Q295185 ;
+    wdt:P195 <https://example.org/resource/Mahmood_Mosque> ;
+    wdt:P31 wd:Q55488 ;
+    wdt:P571 1963 ;
+    wdt:P580 "1963-01-01T00:00:00+00:00"^^xsd:dateTime .
+

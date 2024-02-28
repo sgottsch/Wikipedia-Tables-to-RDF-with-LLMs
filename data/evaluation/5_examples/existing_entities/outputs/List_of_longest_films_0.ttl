@@ -1,0 +1,241 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/A_Lullaby_to_the_Sorrowful_Mystery> rdfs:label "A Lullaby to the Sorrowful Mystery"@en ;
+    wdt:P161 wd:Q129619 ;
+    wdt:P2047 485.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q129619 ;
+    wdt:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Batang_West_Side> rdfs:label "Batang West Side"@en ;
+    wdt:P136 wd:Q959790 ;
+    wdt:P161 wd:Q129619,
+        wd:Q2093592 ;
+    wdt:P162 wd:Q129619 ;
+    wdt:P2047 315.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q1075 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q129619 ;
+    wdt:P577 "2001-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q129619 .
+
+<https://example.org/resource/Carlos> rdfs:label "Carlos"@en ;
+    wdt:P136 wd:Q2484376 ;
+    wdt:P161 wd:Q2093592,
+        wd:Q550717 ;
+    wdt:P162 wd:Q550717 ;
+    wdt:P2047 339.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q1075 ;
+    wdt:P495 wd:Q142 ;
+    wdt:P57 wd:Q550717 ;
+    wdt:P577 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q550717 .
+
+<https://example.org/resource/CzechMate_In_Search_of_Jiří_Menzel> rdfs:label "CzechMate: In Search of Jiří Menzel"@en ;
+    wdt:P161 wd:Q7499375 ;
+    wdt:P2047 448.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q668 ;
+    wdt:P57 wd:Q7499375 ;
+    wdt:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dead_Souls> rdfs:label "Dead Souls"@en ;
+    wdt:P161 wd:Q3566046 ;
+    wdt:P2047 495.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q148 ;
+    wdt:P57 wd:Q3566046 ;
+    wdt:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Fanny_and_Alexander> rdfs:label "Fanny and Alexander"@en ;
+    wdt:P1040 wd:Q106243109 ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q106189215,
+        wd:Q28001335,
+        wd:Q5696453,
+        wd:Q7546 ;
+    wdt:P162 wd:Q39616170 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fanny_and_Alexander_poster.jpg> ;
+    wdt:P2047 314.0 ;
+    wdt:P2635 6.0 ;
+    wdt:P2758 wd:Q23817729 ;
+    wdt:P31 wd:Q336144 ;
+    wdt:P364 wd:Q9027 ;
+    wdt:P437 wd:Q723685 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q34 ;
+    wdt:P5028 wd:Q106281630 ;
+    wdt:P5150 wd:Q52692412 ;
+    wdt:P527 wd:Q106097509,
+        wd:Q106097512,
+        wd:Q106097514,
+        wd:Q106097516,
+        wd:Q106097519 ;
+    wdt:P57 wd:Q7546 ;
+    wdt:P577 "1982-01-01T00:00:00+00:00"^^xsd:dateTime,
+        "2019-07-25T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q7546 ;
+    wdt:P856 <https://www.svenskfilmdatabas.se/en/item/?type=film&itemid=16184> ;
+    wdt:P86 wd:Q106243603 ;
+    wdt:P921 wd:Q3328821 ;
+    wdt:P973 <https://mubi.com/de/notebook/posts/experiencing-mariano-llinas-s-la-flor>,
+        <https://mubi.com/de/notebook/posts/la-flor-seven-propositions>,
+        <https://mubi.com/de/notebook/posts/nyff-what-is-one-to-do-with-mariano-llinas-s-14-hour-la-flor>,
+        <https://mubi.com/films/the-deluge-1974> .
+
+<https://example.org/resource/From_What_Is_Before> rdfs:label "From What Is Before"@en ;
+    wdt:P161 wd:Q129619,
+        wd:Q2093592 ;
+    wdt:P162 wd:Q129619 ;
+    wdt:P2047 338.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q129619 ;
+    wdt:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q129619 .
+
+<https://example.org/resource/Happy_Hour> rdfs:label "Happy Hour"@en ;
+    wdt:P161 wd:Q17220313,
+        wd:Q2093592 ;
+    wdt:P162 wd:Q17220313 ;
+    wdt:P2047 317.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q1075 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P57 wd:Q17220313 ;
+    wdt:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q17220313 .
+
+<https://example.org/resource/Karamay> rdfs:label "Karamay"@en ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q2093592,
+        wd:Q97278370 ;
+    wdt:P162 wd:Q97278370 ;
+    wdt:P2047 356.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q148 ;
+    wdt:P57 wd:Q97278370 ;
+    wdt:P577 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q97278370 .
+
+<https://example.org/resource/La_Commune> rdfs:label "La Commune (Paris, 1871)"@en ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q1339491,
+        wd:Q2093592 ;
+    wdt:P162 wd:Q1339491 ;
+    wdt:P2047 345.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q142 ;
+    wdt:P57 wd:Q1339491 ;
+    wdt:P577 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q1339491 .
+
+<https://example.org/resource/La_Roue> rdfs:label "La Roue"@en ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q2093592,
+        wd:Q313572 ;
+    wdt:P162 wd:Q313572 ;
+    wdt:P2047 413.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q142 ;
+    wdt:P57 wd:Q313572 ;
+    wdt:P577 "2019-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q313572 .
+
+<https://example.org/resource/Little_Dorrit> rdfs:label "Little Dorrit"@en ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q2093592,
+        wd:Q4476057 ;
+    wdt:P162 wd:Q4476057 ;
+    wdt:P2047 350.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P57 wd:Q4476057 ;
+    wdt:P577 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q4476057 .
+
+<https://example.org/resource/Melancholia> rdfs:label "Melancholia"@en ;
+    wdt:P161 wd:Q129619 ;
+    wdt:P2047 450.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q129619 ;
+    wdt:P577 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Napoléon> rdfs:label "Napoléon"@en ;
+    wdt:P136 wd:Q645928 ;
+    wdt:P161 wd:Q2093592,
+        wd:Q313572 ;
+    wdt:P162 wd:Q313572 ;
+    wdt:P2047 332.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q142 ;
+    wdt:P57 wd:Q313572 ;
+    wdt:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q313572 .
+
+<https://example.org/resource/Novecento> rdfs:label "Novecento"@en ;
+    wdt:P161 wd:Q2093592,
+        wd:Q53009 ;
+    wdt:P162 wd:Q53009 ;
+    wdt:P2047 317.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q1075 ;
+    wdt:P495 wd:Q38 ;
+    wdt:P57 wd:Q53009 ;
+    wdt:P577 "1976-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q53009 .
+
+<https://example.org/resource/O.J._Made_in_America> rdfs:label "O.J.: Made in America"@en ;
+    wdt:P161 wd:Q5423349 ;
+    wdt:P2047 463.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P57 wd:Q5423349 ;
+    wdt:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/S%C3%A1t%C3%A1ntang%C3%B3> rdfs:label "Sátántangó"@en ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q2093592 ;
+    wdt:P2047 439.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q28 ;
+    wdt:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Best_of_Youth> rdfs:label "The Best of Youth"@en ;
+    wdt:P136 wd:Q130232 ;
+    wdt:P161 wd:Q1229038,
+        wd:Q2093592 ;
+    wdt:P162 wd:Q1229038 ;
+    wdt:P2047 366.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q38 ;
+    wdt:P57 wd:Q1229038 ;
+    wdt:P577 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q1229038 .
+
+<https://example.org/resource/The_Deluge> rdfs:label "The Deluge"@en ;
+    wdt:P136 wd:Q17013749 ;
+    wdt:P161 wd:Q2093592,
+        wd:Q551704 ;
+    wdt:P162 wd:Q551704 ;
+    wdt:P2047 315.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q1075 ;
+    wdt:P495 wd:Q36 ;
+    wdt:P57 wd:Q551704 ;
+    wdt:P577 "1974-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q551704 .
+
+<https://example.org/resource/The_Works_and_Days> rdfs:label "The Works and Days (of Tayoko Shiojiri in the Shiotani Basin)"@en ;
+    wdt:P2047 480.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2020-01-01T00:00:00+00:00"^^xsd:dateTime .
+

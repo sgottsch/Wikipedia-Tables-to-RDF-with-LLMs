@@ -1,0 +1,327 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Alor_Setar_Tower> rdfs:label "Alor Setar Tower"@en ;
+    wdt:P1101 6.0 ;
+    wdt:P131 wd:Q474868 ;
+    wdt:P1619 "1996-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 165.5 ;
+    wdt:P276 wd:Q1584276 ;
+    wdt:P366 wd:Q182060 .
+
+<https://example.org/resource/AmBank_Tower> rdfs:label "AmBank Tower"@en ;
+    wdt:P1101 50.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 210.0 ;
+    wdt:P366 wd:Q182060 ;
+    wdt:P631 wd:Q716737 .
+
+<https://example.org/resource/Arte_S_Tower_1> rdfs:label "Arte S Tower 1"@en ;
+    wdt:P1101 51.0 ;
+    wdt:P131 wd:Q61092 ;
+    wdt:P1619 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Arte%20S%20Tower%201.jpg> ;
+    wdt:P2048 186.0 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Berjaya_Times_Square_Tower_A> rdfs:label "Berjaya Times Square Tower A"@en ;
+    wdt:P1101 48.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berjaya%20Times%20Square%20Tower%20A.jpg> ;
+    wdt:P2048 203.1 ;
+    wdt:P571 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7561 wd:Q86117935 ;
+    wdt:P84 wd:Q716737 .
+
+<https://example.org/resource/Citibank_Tower> rdfs:label "Citibank Tower"@en ;
+    wdt:P1101 50.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "1995-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Citibank%20Tower.jpg> ;
+    wdt:P2048 190.2 ;
+    wdt:P571 "1995-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dayabumi_Complex> rdfs:label "Dayabumi Complex"@en ;
+    wdt:P1101 36.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "1984-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 157.0 ;
+    wdt:P276 wd:Q5243009 ;
+    wdt:P366 wd:Q182060 ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P856 <https://www.dayabumi.com> .
+
+<https://example.org/resource/Grand_Seasons_Hotel> rdfs:label "Grand Seasons Hotel"@en ;
+    wdt:P1101 46.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 184.0 ;
+    wdt:P276 wd:Q17050977 ;
+    wdt:P366 wd:Q182060,
+        wd:Q27686 ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P856 <https://www.grandseasonshotel.com.my> .
+
+<https://example.org/resource/Gurney_Paragon_East_Tower> rdfs:label "Gurney Paragon East Tower"@en ;
+    wdt:P1101 43.0 ;
+    wdt:P131 wd:Q61092 ;
+    wdt:P1619 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 155.0 ;
+    wdt:P366 wd:Q182060 ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P856 <https://www.gurneyparagon.com> .
+
+<https://example.org/resource/Gurney_Paragon_West_Tower> rdfs:label "Gurney Paragon West Tower"@en ;
+    wdt:P1101 43.0 ;
+    wdt:P131 wd:Q61092 ;
+    wdt:P1619 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 155.0 ;
+    wdt:P366 wd:Q182060 ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P856 <https://www.gurneyparagon.com> .
+
+<https://example.org/resource/Hilton_Kuala_Lumpur> rdfs:label "Hilton Kuala Lumpur"@en ;
+    wdt:P1101 37.0 ;
+    wdt:P1139 0.0 ;
+    wdt:P127 wd:Q598884 ;
+    wdt:P1301 8.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "2004-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Hilton%20Kuala%20Lumpur%20Hotel%20and%20Residences%20-%20panoramio.jpg> ;
+    wdt:P2048 154.0 ;
+    wdt:P31 wd:Q11303 ;
+    wdt:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/Kuala%20Lumpur.%20Hilton%20Kuala%20Lumpur%20Hotel%20and%20Residences%20-%20panoramio.jpg> ;
+    wdt:P366 wd:Q182060,
+        wd:Q27686 ;
+    wdt:P571 "2004-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P6375 "3 Jalan Stesen Sentral, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"@en ;
+    wdt:P793 wd:Q1075723,
+        wd:Q27136782 ;
+    wdt:P84 wd:Q1208016 ;
+    wdt:P856 <https://www.skyscrapercenter.com/building/hilton-kuala-lumpur/3740> .
+
+<https://example.org/resource/KH_Tower> rdfs:label "KH Tower"@en ;
+    wdt:P1101 36.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "1983-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Menara%20KH%20KL.jpg> ;
+    wdt:P2048 152.0 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "1983-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Komtar> rdfs:label "Komtar"@en ;
+    wdt:P1101 68.0 ;
+    wdt:P1139 5.0 ;
+    wdt:P1301 87.0 ;
+    wdt:P131 wd:Q61092 ;
+    wdt:P1619 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 248.7 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P366 wd:Q182060 ;
+    wdt:P571 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P793 wd:Q27136782 ;
+    wdt:P856 <https://komtar.com> .
+
+<https://example.org/resource/Marriott_Residences_Penang> rdfs:label "Marriott Residences Penang"@en ;
+    wdt:P1101 56.0 ;
+    wdt:P131 wd:Q61092 ;
+    wdt:P1619 "2023-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 223.5 ;
+    wdt:P631 wd:Q716737 .
+
+<https://example.org/resource/Maxis_Tower> rdfs:label "Maxis Tower"@en ;
+    wdt:P1101 49.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Maxis%20Tower%20KL.jpg> ;
+    wdt:P2048 212.0 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "1998-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Maybank_Tower> rdfs:label "Maybank Tower"@en ;
+    wdt:P1101 50.0 ;
+    wdt:P1139 5.0 ;
+    wdt:P1301 87.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 243.5 ;
+    wdt:P276 wd:Q17049670 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P366 wd:Q182060 ;
+    wdt:P571 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P793 wd:Q27136782 ;
+    wdt:P856 <https://maybanktower.com> .
+
+<https://example.org/resource/Multi_Purpose_Tower> rdfs:label "Multi Purpose Tower"@en ;
+    wdt:P1101 40.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Multi%20Purpose%20Tower.jpg> ;
+    wdt:P2048 198.2 ;
+    wdt:P31 wd:Q11303 ;
+    wdt:P571 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Muze_Block_B> rdfs:label "Muze Block B"@en ;
+    wdt:P1101 58.0 ;
+    wdt:P1139 0.0 ;
+    wdt:P1301 87.0 ;
+    wdt:P131 wd:Q61092 ;
+    wdt:P1619 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 205.5 ;
+    wdt:P276 wd:Q61092 ;
+    wdt:P31 wd:Q11303 ;
+    wdt:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/George%20Town%2C%20Penang.jpg> ;
+    wdt:P571 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P6375 "George Town, Penang"@en ;
+    wdt:P793 wd:Q1075723,
+        wd:Q27136782 ;
+    wdt:P84 wd:Q716737 ;
+    wdt:P856 <https://www.thestar.com.my/metro/metro-news/2022/08/20/developer-treats-media-reps-to-evening-of-food-and-music> .
+
+<https://example.org/resource/Permata_Sapura_Tower> rdfs:label "Permata Sapura Tower"@en ;
+    wdt:P1101 53.0 ;
+    wdt:P1139 5.0 ;
+    wdt:P1301 87.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "2020-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 252.5 ;
+    wdt:P276 wd:Q17049670 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P366 wd:Q182060 ;
+    wdt:P571 "2020-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P793 wd:Q27136782 ;
+    wdt:P856 <https://permatasapura.com> .
+
+<https://example.org/resource/Petronas_Tower_3> rdfs:label "Petronas Tower 3"@en ;
+    wdt:P1101 60.0 ;
+    wdt:P1139 5.0 ;
+    wdt:P1301 87.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 267.0 ;
+    wdt:P276 wd:Q17049670 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P366 wd:Q182060 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P793 wd:Q27136782 ;
+    wdt:P856 <https://petronastwintowers.com> .
+
+<https://example.org/resource/Setia_V_Residences_Tower_A> rdfs:label "Setia V Residences Tower A"@en ;
+    wdt:P1101 48.0 ;
+    wdt:P131 wd:Q61092 ;
+    wdt:P1619 "2017-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 164.0 ;
+    wdt:P366 wd:Q182060 ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P856 <https://www.setiavresidences.com> .
+
+<https://example.org/resource/Star_Residences_ONE> rdfs:label "Star Residences ONE"@en ;
+    wdt:P1101 58.0 ;
+    wdt:P1139 5.0 ;
+    wdt:P1301 87.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "2019-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 264.9 ;
+    wdt:P276 wd:Q17049670 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2019-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P793 wd:Q27136782 ;
+    wdt:P856 <https://starresidences.com> .
+
+<https://example.org/resource/The_Astaka_Tower_B> rdfs:label "The Astaka Tower B"@en ;
+    wdt:P1101 67.0 ;
+    wdt:P1139 5.0 ;
+    wdt:P1301 87.0 ;
+    wdt:P131 wd:Q231318 ;
+    wdt:P1619 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 255.6 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P793 wd:Q27136782 ;
+    wdt:P856 <https://theastaka.com> .
+
+<https://example.org/resource/The_Stride> rdfs:label "The Stride"@en ;
+    wdt:P1101 48.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 209.0 ;
+    wdt:P631 wd:Q716737 .
+
+<https://example.org/resource/The_Troika_Tower_3> rdfs:label "The Troika Tower 3"@en ;
+    wdt:P1101 50.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Troika%20Tower%203.jpg> ;
+    wdt:P2048 204.0 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Vista_Tower> rdfs:label "Vista Tower"@en ;
+    wdt:P1101 62.0 ;
+    wdt:P1139 5.0 ;
+    wdt:P127 wd:Q4206786 ;
+    wdt:P1301 87.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Vista%20Tower%202023-08-20.jpg> ;
+    wdt:P2048 238.0 ;
+    wdt:P276 wd:Q17049670 ;
+    wdt:P31 wd:Q11303 ;
+    wdt:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/Kuala%20Lumpur.%20Vista%20Tower.%202019-11-30%2020-54-46.jpg> ;
+    wdt:P366 wd:Q182060 ;
+    wdt:P571 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P631 wd:Q716737 ;
+    wdt:P6375 "Cangkat Stadium, City Centre, 50150 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"@en ;
+    wdt:P793 wd:Q1075723,
+        wd:Q27136782 ;
+    wdt:P84 wd:Q5443251 ;
+    wdt:P856 <https://vistatower.com> .
+
+<https://example.org/resource/Vortex_Tower> rdfs:label "Vortex Tower"@en ;
+    wdt:P1101 58.0 ;
+    wdt:P131 wd:Q1865 ;
+    wdt:P1619 "2016-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Vortex%20Tower%20skyline%20Nov%20of%202021.jpg> ;
+    wdt:P2048 235.0 ;
+    wdt:P31 wd:Q41176 ;
+    wdt:P571 "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
+

@@ -1,0 +1,377 @@
+In both
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P1101> "49"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P1101> "50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P1101> "62"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Vortex_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Vortex Tower"@en .
+<https://example.org/resource/Petronas_Tower_3> <http://www.w3.org/2000/01/rdf-schema#label> "Petronas Tower 3"@en .
+<https://example.org/resource/Vista_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Vista Tower"@en .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Permata Sapura Tower"@en .
+<https://example.org/resource/Maybank_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Maybank Tower"@en .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P571> "1987-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P571> "1994-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P571> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P571> "1986-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P1101> "50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.w3.org/2000/01/rdf-schema#label> "Marriott Residences Penang"@en .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q61092> .
+<https://example.org/resource/Maxis_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Maxis Tower"@en .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P1139> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+In ground only
+<https://example.org/resource/Alor_Setar_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Menara%20as.jpg> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kuala%20Lumpur%20Malaysia%20Menara-AmBank-01.jpg> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q27686> .
+<https://example.org/resource/The_Troika> <http://www.wikidata.org/prop/direct/P1101> "50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P968> <mailto:kuala-lumpur@hilton.com> .
+<https://example.org/resource/Alor_Setar_Tower> <http://www.wikidata.org/prop/direct/P571> "1997-08-14T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Dayabumi_Complex> <http://www.wikidata.org/prop/direct/P1101> "35"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Gurney_Paragon> <http://www.w3.org/2000/01/rdf-schema#label> "Gurney Paragon"@en .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q26712362> .
+<https://example.org/resource/The_Astaka> <http://www.w3.org/2000/01/rdf-schema#label> "The Astaka"@en .
+<https://example.org/resource/Gurney_Paragon> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q61092> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11315> .
+<https://example.org/resource/The_Troika> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P571> "2011-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Setia_V_Residences> <http://www.wikidata.org/prop/direct/P571> "2017-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P10290> <http://www.wikidata.org/entity/Q109248725> .
+<https://example.org/resource/AmBank_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Menara AmBank"@en .
+<https://example.org/resource/Dayabumi_Complex> <http://www.wikidata.org/prop/direct/P1619> "1984-05-05T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.w3.org/2000/01/rdf-schema#label> "Hilton Kuala Lumpur"@en .
+<https://example.org/resource/Arte_S> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P1716> <http://www.wikidata.org/entity/Q115794873> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q91013214> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P1619> "2004-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Citibank_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Citibank%20Tower%2C%20Kuala%20Lumpur.jpg> .
+<https://example.org/resource/The_Troika> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q1208016> .
+<https://example.org/resource/Citibank_Tower> <http://www.wikidata.org/prop/direct/P1101> "50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Dayabumi_Complex> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Gurney_Paragon> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Gurney%20Paragon%2C%20George%20Town%2C%20Penang.jpg> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P8746> <http://www.wikidata.org/entity/Q55812521> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Maxis%20Tower%2C%20Kuala%20Lumpur.jpg> .
+<https://example.org/resource/Dayabumi_Complex> <http://www.w3.org/2000/01/rdf-schema#label> "Dayabumi Complex"@en .
+<https://example.org/resource/Gurney_Paragon> <http://www.wikidata.org/prop/direct/P571> "2013-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Alor_Setar_Tower> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q54290287> .
+<https://example.org/resource/Arte_S> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q61092> .
+<https://example.org/resource/Alor_Setar_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P1101> "58"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Citibank_Tower> <http://www.wikidata.org/prop/direct/P571> "1995-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20Bintang%20City%20Centre%20%28BBCC%29%20in%20May%202020.jpg> .
+<https://example.org/resource/Dayabumi_Complex> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q17049670> .
+<https://example.org/resource/KH_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/The_Astaka> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q1057464> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1297> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q726870> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q7353829> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.w3.org/2000/01/rdf-schema#label> "Berjaya Times Square"@en .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/The_Stride> <http://www.w3.org/2000/01/rdf-schema#label> "Bukit Bintang City Centre"@en .
+<https://example.org/resource/Multi_Purpose_Tower> <http://www.wikidata.org/prop/direct/P1101> "40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Setia_V_Residences> <http://www.w3.org/2000/01/rdf-schema#label> "Setia V Residences"@en .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q245188> .
+<https://example.org/resource/The_Troika> <http://www.wikidata.org/prop/direct/P1139> "4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Dayabumi_Complex> <http://www.wikidata.org/prop/direct/P571> "1984-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/KL%20-%20Menara%20Carigali%2C%20KLCC.JPG> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q2825503> .
+<https://example.org/resource/Dayabumi_Complex> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P571> "1997-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Astaka> <http://www.wikidata.org/prop/direct/P856> <http://theastakajohorbahru.com> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P1301> "18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P856> <https://bbcckl.com/> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P856> <https://berjayatimessquarekl.com/> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P8745> <http://www.wikidata.org/entity/Q55811778> .
+<https://example.org/resource/KH_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "KH Tower"@en .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/KH_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Star_Residences> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Dayabumi_Complex> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86107012> .
+<https://example.org/resource/Setia_V_Residences> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q7392709> .
+<https://example.org/resource/Grand_Seasons_Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Grand Seasons Hotel"@en .
+<https://example.org/resource/The_Troika> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1497364> .
+<https://example.org/resource/The_Troika> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/KL%20-%20The%20Troika2.JPG> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/KL-EmpireTower.JPG> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P1301> "9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Setia_V_Residences> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Citibank_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Setia_V_Residences> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q61092> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q114109565> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Maybank%20Tower%20Kuala%20Lumpur.jpg> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Berjaya%20Times%20Square%20from%20BBCC%20%28220121%29%2002.jpg> .
+<https://example.org/resource/Alor_Setar_Tower> <http://www.wikidata.org/prop/direct/P1101> "4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Alor_Setar_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Menara Alor Setar"@en .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P856> <https://www.hilton.com/en/hotels/kulhihi-hilton-kuala-lumpur/> .
+<https://example.org/resource/The_Troika> <http://www.w3.org/2000/01/rdf-schema#label> "The Troika"@en .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kuala%20Lumpur%20%284448826574%29.jpg> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Setia_V_Residences> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Gurney_Paragon> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P1101> "26"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Multi_Purpose_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Menara Multi Purpose"@en .
+<https://example.org/resource/Dayabumi_Complex> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Dayabumi%2C%20Kuala%20Lumpur%20%28February%202007%29.jpg> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q2144402> .
+<https://example.org/resource/Multi_Purpose_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Menara%20Multi%20Purpose%20%2801%29%206%20Sep%202013.JPG> .
+<https://example.org/resource/Citibank_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Menara Citibank"@en .
+<https://example.org/resource/Multi_Purpose_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/The_Troika> <http://www.wikidata.org/prop/direct/P571> "2010-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P973> <http://www.wikidata.org/entity/Q3135691> .
+<https://example.org/resource/Alor_Setar_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q474868> .
+<https://example.org/resource/The_Astaka> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q231318> .
+<https://example.org/resource/KH_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P571> "2003-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P1101> "38"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Citibank_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q54290287> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P193> <http://www.wikidata.org/entity/Q321772> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q5205972> .
+<https://example.org/resource/The_Astaka> <http://www.wikidata.org/prop/direct/P856> <http://astakapadu.com.my/> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P1619> "2003-10-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Star_Residences> <http://www.w3.org/2000/01/rdf-schema#label> "list of tallest buildings in Kuala Lumpur"@en .
+<https://example.org/resource/The_Astaka> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P973> <http://newsroom.hilton.com/hhr/property/246> .
+<https://example.org/resource/Gurney_Paragon> <http://www.wikidata.org/prop/direct/P856> <http://www.gurneyparagon.com/index.php/home> .
+<https://example.org/resource/Multi_Purpose_Tower> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q764692> .
+<https://example.org/resource/Gurney_Paragon> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Komtar%20at%20dusk%2C%20George%20Town%2C%20Penang.jpg> .
+<https://example.org/resource/Grand_Seasons_Hotel> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Multi_Purpose_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/The_Astaka> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/THEASTAKAJB.jpg> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P8733> "512"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Citibank_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Arte_S> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Muze> <http://www.w3.org/2000/01/rdf-schema#label> "Muze @ PICC"@en .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q591717> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P1301> "28"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Arte_S> <http://www.w3.org/2000/01/rdf-schema#label> "Arte S"@en .
+<https://example.org/resource/Komtar> <http://www.w3.org/2000/01/rdf-schema#label> "KOMTAR"@en .
+<https://example.org/resource/Alor_Setar_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q113327930> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q7796559> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P1101> "65"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Setia_V_Residences> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Setia%20V%2C%20George%20Town%2C%20Penang.jpg> .
+<https://example.org/resource/Multi_Purpose_Tower> <http://www.wikidata.org/prop/direct/P571> "1994-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Multi_Purpose_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Grand_Seasons_Hotel> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q27686> .
+<https://example.org/resource/Alor_Setar_Tower> <http://www.wikidata.org/prop/direct/P1301> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Arte_S> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Arte%20S%2C%20Gelugor%2C%20Penang.jpg> .
+<https://example.org/resource/Hilton_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P571> "2004-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Alor_Setar_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Star_Residences> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q6332463> .
+<https://example.org/resource/Berjaya_Times_Square> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q4891936> .
+<https://example.org/resource/The_Troika> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+In predicted only
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P1101> "48"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P571> "2016-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q17049670> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P2048> "209.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.wikidata.org/prop/direct/P1101> "67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P856> <https://www.skyscrapercenter.com/building/petronas-tower-3/700> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P2048> "235.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q16917> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Stride%202023-08-20.jpg> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.wikidata.org/prop/direct/P2048> "264.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q194195> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q182060> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P1619> "1994-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P571> "2012-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P1101> "60"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P1301> "87"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/AmBank%20Tower%202023-08-20.jpg> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q182060> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P1619> "2022-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q4132947> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q166118> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P1301> "87"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q17049670> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P1301> "87"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q34627> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P1101> "58"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P2048> "212.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q17049670> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P856> <https://vistatower.com> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P6375> "Kuala Lumpur"@en .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P1139> "6"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.wikidata.org/prop/direct/P6375> "George Town, Penang"@en .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P2048> "252.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P2048> "210.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P571> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P3451> <http://commons.wikimedia.org/wiki/Special:FilePath/Vista%20Tower%202019-11-30%2020-54-46.jpg> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P6375> "Kuala Lumpur"@en .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q1501> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q1075723> .
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.wikidata.org/prop/direct/P1139> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q605315> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q31374404> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q183503> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P1619> "1986-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.wikidata.org/prop/direct/P856> <https://www.skyscrapercenter.com/building/the-astaka-tower-b/15219> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q44539> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q45782> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P1619> "1987-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q27136782> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P856> <https://www.skyscrapercenter.com/building/menara-maybank/946> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Vista%20Tower%202023-08-20.jpg> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q1341387> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q567053> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q483242> .
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.wikidata.org/prop/direct/P1619> "2018-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.wikidata.org/prop/direct/P2048> "223.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P3451> <http://commons.wikimedia.org/wiki/Special:FilePath/Vortex%20Tower%20skyline%20Nov%20of%202021.jpg> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P1619> "2020-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q182060> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q17049670> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P571> "2022-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q182060> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q17049670> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q7075> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q3499307> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P3451> <http://commons.wikimedia.org/wiki/Special:FilePath/AmBank%20Tower%202019-11-30%2020-54-46.jpg> .
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.wikidata.org/prop/direct/P2048> "255.6"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muze> <http://www.w3.org/2000/01/rdf-schema#label> "Muze"@en .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P856> <https://thestride.com> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q5443251> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P856> <https://maxistower.com> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q1007870> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q5443251> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q5443251> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q182060> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q61092> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q31855> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P1139> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P1139> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P1139> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P1301> "87"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P6375> "Kuala Lumpur"@en .
+<https://example.org/resource/The_Stride> <http://www.w3.org/2000/01/rdf-schema#label> "The Stride"@en .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q182060> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q1075723> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q17049670> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P1619> "2016-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P6375> "Kuala Lumpur"@en .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q27136782> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.w3.org/2000/01/rdf-schema#label> "Star Residences ONE"@en .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q133215> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P3451> <http://commons.wikimedia.org/wiki/Special:FilePath/Maxis%20Tower%202019-11-30%2020-54-46.jpg> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P856> <https://www.skyscrapercenter.com/building/permata-sapura-tower/23868> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q1075723> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P1101> "68"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.wikidata.org/prop/direct/P571> "2019-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P856> <https://vortextower.com> .
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.w3.org/2000/01/rdf-schema#label> "The Astaka Tower B"@en .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P856> <https://ambanktower.com> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P1139> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q27136782> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P1139> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P6375> "Kuala Lumpur"@en .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q12684392> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q27136782> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q17049670> .
+<https://example.org/resource/Vortex_Tower> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q27136782> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q43501> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q2980362> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q1060829> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.wikidata.org/prop/direct/P1619> "2019-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P1301> "87"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.wikidata.org/prop/direct/P1101> "56"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q622425> .
+<https://example.org/resource/AmBank_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "AmBank Tower"@en .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P1101> "53"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q182060> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q1065656> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P2048> "205.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P1139> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P2048> "238.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P1101> "58"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muze> <https://example.org/resource/Grand_Seasons_Hotel> <http://www.wikidata.org/prop/direct/P31> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q27136782> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q27136782> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q5443251> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.wikidata.org/prop/direct/P571> "2023-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q27686> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P1619> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q5443251> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P1139> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q4206786> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q11707> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P2048> "248.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q231318> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/The_Astaka_Tower_B> <http://www.wikidata.org/prop/direct/P571> "2018-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.wikidata.org/prop/direct/P856> <https://www.skyscrapercenter.com/building/star-residences-rt2/18044> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.wikidata.org/prop/direct/P1619> "2023-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Stride> <http://www.wikidata.org/prop/direct/P3451> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Stride%202019-11-30%2020-54-46.jpg> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P1619> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q2400020> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q1075723> .
+<https://example.org/resource/Permata_Sapura_Tower> <http://www.wikidata.org/prop/direct/P571> "2020-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q27136782> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Maxis%20Tower%202023-08-20.jpg> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P1619> "2012-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Komtar> <http://www.w3.org/2000/01/rdf-schema#label> "Komtar"@en .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P2048> "243.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q148319> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.wikidata.org/prop/direct/P1139> "6"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q182060> .
+<https://example.org/resource/AmBank_Tower> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q27136782> .
+<https://example.org/resource/Maxis_Tower> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q220317> .
+<https://example.org/resource/Muze> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q1378975> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P856> <https://www.skyscrapercenter.com/building/menara-komtar/46758> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.wikidata.org/prop/direct/P1101> "58"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Vista_Tower> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q1075723> .
+<https://example.org/resource/Petronas_Tower_3> <http://www.wikidata.org/prop/direct/P2048> "267.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Star_Residences_ONE> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q27136782> .
+<https://example.org/resource/Marriott_Residences_Penang> <http://www.wikidata.org/prop/direct/P1139> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .

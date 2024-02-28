@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Alicante> rdfs:label "Alicante"@en ;
+    wdt:P1080 wd:Q20714890 ;
+    wdt:P1441 wd:Q478151 ;
+    wdt:P170 wd:Q235364 ;
+    wdt:P1705 "Alicante"@en ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Ankh-Morpork> rdfs:label "Ankh-Morpork"@en ;
+    wdt:P1080 wd:Q20714890 ;
+    wdt:P1441 wd:Q3257270 ;
+    wdt:P170 wd:Q46248 ;
+    wdt:P1705 "Ankh-Morpork"@en ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Lankhmar> rdfs:label "Lankhmar"@en ;
+    wdt:P1080 wd:Q20714890 ;
+    wdt:P1441 wd:Q638565 ;
+    wdt:P170 wd:Q313185 ;
+    wdt:P1705 "Lankhmar"@en ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Malgudi> rdfs:label "Malgudi"@en ;
+    wdt:P1080 wd:Q20714890 ;
+    wdt:P1441 wd:Q7653285 ;
+    wdt:P170 wd:Q334252 ;
+    wdt:P1705 "Malgudi"@en ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Ulthar> rdfs:label "Ulthar"@en ;
+    wdt:P1080 wd:Q20714890 ;
+    wdt:P1441 wd:Q2317161 ;
+    wdt:P170 wd:Q169566 ;
+    wdt:P1705 "Ulthar"@en ;
+    wdt:P31 wd:Q1964689 .
+

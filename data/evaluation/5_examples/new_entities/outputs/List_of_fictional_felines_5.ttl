@@ -1,0 +1,22 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Baby_Puss> rdfs:label "Baby Puss"@en ;
+    wdt:P31 wd:Q27120684 .
+
+<https://example.org/resource/Cake> rdfs:label "Cake"@en ;
+    wdt:P31 wd:Q27120684 .
+
+<https://example.org/resource/Felix> rdfs:label "Felix"@en ;
+    wdt:P31 wd:Q27120684 .
+
+<https://example.org/resource/Leo> rdfs:label "Leo"@en ;
+    wdt:P31 wd:Q27120684 .
+
+<https://example.org/resource/Stimpy> rdfs:label "Stimpy"@en ;
+    wdt:P31 wd:Q27120684 .
+
+<https://example.org/resource/Susie_McCallister> rdfs:label "Susie McCallister"@en ;
+    wdt:P31 wd:Q27120684 .
+

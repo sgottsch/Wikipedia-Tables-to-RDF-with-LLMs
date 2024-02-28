@@ -1,0 +1,135 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of mosques in the United Kingdom" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|- valign=top
+| [[Dundee Central Mosque]]
+| [[File:Dundee Central Mosque.jpg|120px|center]]
+| [[Dundee]]
+| 2000
+| D<ref name= "Jamaa Masjid">{{cite web|url=http://mosques.muslimsinbritain.org/maps.php#/mosque/742 |title=Jamaa Masjid|work = Muslims in Britain |date =25 April 2015| access-date = 4 June 2017}}</ref>
+| Also known as the ''Jamia Mosque''
+|- valign=top
+| [[Edinburgh Central Mosque]]
+| [[File:Edinburgh central mosque edit.jpg|120px|center]]
+| [[Edinburgh]]
+| 1998
+| W
+| Officially known as the ''King Fahd Mosque'' and ''Islamic Centre of Edinburgh''
+|- valign=top
+| [[Glasgow Central Mosque]]
+| [[File:Wfm glasgow central mosque front.jpg|120px|center]]
+| [[Glasgow]]
+| 1983
+| D<ref name= "Glasgow Central Mosque1">{{cite web|url=http://mosques.muslimsinbritain.org/maps.php#/mosque/790  |title=Glasgow Central Mosque|work = Muslims in Britain |date =25 April 2015| access-date = 4 June 2017}}</ref>
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Dundee_Central_Mosque> rdfs:label "Dundee Central Mosque"@en ;
+ wdt:P856 <http://www.dundeeislamicsociety.com/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Dundee%20Central%20Mosque.jpg> ;
+ wdt:P131 wd:Q2357511 ;
+ wdt:P7959 wd:Q67387310 ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Dundee> ;
+ wdt:P571 "2000-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1083 "1000"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Edinburgh_Central_Mosque> wdt:P5775 <http://commons.wikimedia.org/wiki/Special:FilePath/Contrast%20pic.JPG> ;
+ wdt:P571 "1998-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1705 "Edinburgh Central Mosque"@en ;
+ rdfs:label "Edinburgh Central Mosque"@en ;
+ wdt:P856 <http://www.edmosque.org/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mosque%2C%20central%20Edinburgh%20-%20geograph.org.uk%20-%201575285.jpg> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Edinburgh> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P131 wd:Q2379199 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P7959 <https://en.wikipedia.org/wiki/Edinburghshire> .
+
+<https://example.org/resource/Glasgow_Central_Mosque> wdt:P276 <https://en.wikipedia.org/wiki/Glasgow> ;
+ rdfs:label "Glasgow Central Mosque"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Wfm%20glasgow%20central%20mosque%20front.jpg> ;
+ wdt:P131 wd:Q55934339 ;
+ wdt:P1083 "2500"^^xsd:decimal ;
+ wdt:P571 "1983-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P7959 <https://en.wikipedia.org/wiki/Lanarkshire> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+---
+These are the labels of the properties:
+
+wdt:P856 -> official website URL
+wdt:P18 -> image
+wdt:P131 -> located in the administrative territorial entity
+wdt:P7959 -> historic county
+wdt:P276 -> location
+wdt:P571 -> inception
+wdt:P1083 -> maximum capacity
+wdt:P31 -> instance of
+wdt:P17 -> country
+wdt:P5775 -> image of interior
+wdt:P1705 -> native label.
+---
+These are the labels of the objects:
+
+wd:Q2357511 -> Dundee City
+wd:Q67387310 -> Angus
+wd:Q2379199 -> City of Edinburgh
+wd:Q55934339 -> Glasgow City.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|-
+|Bait Ur Rahman Mosque<ref>{{Cite web|url=https://ahmadiyya.uk/mosques/baitur-rahman-mosque-glasgow/|title=Baitur Rahman Mosque - Glasgow |website=Ahmadiyya Muslim Association UK}}</ref>
+|[[File:Bait Ur Rahman Mosque.jpg|center|120px]]
+|[[Glasgow]]
+|1984
+|AMJ<ref>{{Cite web|date=2017-11-06|title=🇬🇧 United Kingdom|url=https://ahmadiyyatmosques.wordpress.com/united-kingdom/|access-date=2020-06-23|website=Ahmadiyya Mosques|language=en}}</ref>
+|Designed by Sinclair and Ballantine and completed in 1904, as Masonic Halls
+|-
+|Falkirk Islamic Centre<ref>{{cite web |title=Falkirk Islamic Centre |url=https://falkirkislamiccentre.org/}}</ref>
+|
+|[[Falkirk]]
+|1992
+|[[Sunni Muslim]]
+|
+|- valign=top
+| Masjid Noor
+|
+| [[Glasgow]]
+| 1998
+| TJ/D
+| Also known as ''Glasgow Markaz''
+|
+|- valign=top
+| Zia-ul-Quran Mosque
+| 
+| [[Glasgow]]
+| 200
+| B
+| Also known as ''Kenmure St Masjid'' |}
+---

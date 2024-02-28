@@ -1,0 +1,65 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Art_Center_Waco> rdfs:label "Art Center Waco"@en ;
+    wdt:P131 wd:Q111368 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P854 <https://texastimetravel.com/directory/art-center-waco/> .
+
+<https://example.org/resource/Earle-Napier-Kinnard_House> rdfs:label "Earle-Napier-Kinnard House"@en ;
+    wdt:P131 wd:Q111368 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Earle%20napier%20kinnard%20house%202009.jpg> ;
+    wdt:P31 wd:Q2087181 .
+
+<https://example.org/resource/East_Terrace_House_Museum> rdfs:label "East Terrace House Museum"@en ;
+    wdt:P131 wd:Q111368 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/John%20wesley%20mann%20house.jpg> ;
+    wdt:P31 wd:Q2087181 .
+
+<https://example.org/resource/Fort_House_Waco> rdfs:label "Fort House"@en ;
+    wdt:P131 wd:Q111368 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20house%20waco%202009.jpg> ;
+    wdt:P31 wd:Q2087181 .
+
+<https://example.org/resource/History_of_West_Museum> rdfs:label "History of West Museum"@en ;
+    wdt:P131 wd:Q111368 ;
+    wdt:P31 wd:Q33506 .
+
+<https://example.org/resource/Lee_Lockwood_Library_and_Museum> rdfs:label "Lee Lockwood Library and Museum"@en ;
+    wdt:P131 wd:Q111368 ;
+    wdt:P31 wd:Q33506 .
+
+<https://example.org/resource/Madison_County_Museum> rdfs:label "Madison County Museum"@en ;
+    wdt:P131 wd:Q113117 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Madison%20county%20tx%20museum.jpg> ;
+    wdt:P31 wd:Q33506 .
+
+<https://example.org/resource/Martin_Museum_of_Art> rdfs:label "Martin Museum of Art"@en ;
+    wdt:P131 wd:Q111368 ;
+    wdt:P361 wd:Q812573 ;
+    wdt:P856 <https://www.baylor.edu/martinmuseum/> .
+
+<https://example.org/resource/Mason_County_Museum> rdfs:label "Mason County Museum"@en ;
+    wdt:P131 wd:Q111374 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P854 <https://texastimetravel.com/directory/mason-county-museum/> .
+
+<https://example.org/resource/Masonic_Grand_Lodge_Library_and_Museum_of_Texas> rdfs:label "Masonic Grand Lodge Library & Museum of Texas"@en ;
+    wdt:P131 wd:Q111368 ;
+    wdt:P31 wd:Q33506 .
+
+<https://example.org/resource/McCulloch_House> rdfs:label "McCulloch House"@en ;
+    wdt:P131 wd:Q111368 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mcculloch%20house%20waco%202009.jpg> ;
+    wdt:P31 wd:Q33506 .
+
+<https://example.org/resource/Milam_County_Museum> rdfs:label "Milam County Museum"@en ;
+    wdt:P131 wd:Q26716 ;
+    wdt:P31 wd:Q33506 .
+
+<https://example.org/resource/Mills_County_Historical_Museum> rdfs:label "Mills County Historical Museum"@en ;
+    wdt:P131 wd:Q156463 ;
+    wdt:P18 "No image available" ;
+    wdt:P31 wd:Q33506 .
+

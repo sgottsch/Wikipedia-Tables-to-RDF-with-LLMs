@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Hiling> rdfs:label "Hiling"@en ;
+    wdt:P136 wd:Q130232,
+        wd:Q157394 ;
+    wdt:P161 wd:Q3545292,
+        wd:Q5026674,
+        wd:Q7453114 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q110732743 ;
+    wdt:P577 "1998-11-18T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Puso_ng_Pasko> rdfs:label "Puso ng Pasko"@en ;
+    wdt:P136 wd:Q130232,
+        wd:Q157394 ;
+    wdt:P161 wd:Q3348165,
+        wd:Q468456,
+        wd:Q6118150,
+        wd:Q7336471 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q113206347,
+        wd:Q17198119 ;
+    wdt:P577 "1998-12-25T00:00:00+00:00"^^xsd:dateTime .
+

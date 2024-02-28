@@ -1,0 +1,47 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Ganpatyar_Temple> rdfs:label "Ganpatyar Temple"@en ;
+    wdt:P131 wd:Q170115 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Jai_Vinayak_temple> rdfs:label "Jai Vinayak temple"@en ;
+    wdt:P131 wd:Q1191 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Kurudumale_Ganesha_Temple> rdfs:label "Kurudumale Ganesha Temple"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Lord_Ganesh_Temple_Boha_Pahar> rdfs:label "Lord Ganesh Temple Boha Pahar"@en ;
+    wdt:P131 wd:Q6797609 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/POURNAMIKAVU_TEMPLE> rdfs:label "POURNAMIKAVU TEMPLE"@en ;
+    wdt:P131 wd:Q1186 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Potali_wale_Ganesh_Temple> rdfs:label "Potali wale Ganesh Temple"@en ;
+    wdt:P131 wd:Q66616 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Shree_Navshya_Ganpati_Mandir> rdfs:label "Shree Navshya Ganpati Mandir"@en ;
+    wdt:P131 wd:Q1191 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Shri_Ganesh_Mandir> rdfs:label "Shri Ganesh Mandir"@en ;
+    wdt:P131 wd:Q1912057 ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+
+<https://example.org/resource/Trinetra_Ganesha_Temple> rdfs:label "Trinetra Ganesha Temple"@en ;
+    wdt:P17 wd:Q668 ;
+    wdt:P31 wd:Q842402 .
+

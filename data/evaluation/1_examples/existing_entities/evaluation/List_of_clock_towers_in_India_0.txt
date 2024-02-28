@@ -1,0 +1,149 @@
+In both
+<https://example.org/resource/Ghanta_Ghar> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Chinnakada_Clock_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Chimnabai_Clock_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Golden_Rock_Railway_Workshop> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Shah_Ali_Banda_Clock_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Shah Ali Banda Clock Tower"@en .
+<https://example.org/resource/Husainabad_Clock_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Ghanta_Ghar> <http://www.w3.org/2000/01/rdf-schema#label> "Ghanta Ghar"@en .
+<https://example.org/resource/Sultan_Bazar_Clock_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Sultan Bazar Clock Tower"@en .
+<https://example.org/resource/Shah_Ali_Banda_Clock_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Ghari_Ghar> <http://www.w3.org/2000/01/rdf-schema#label> "Clock Tower of Murshidabad"@en .
+<https://example.org/resource/Ghari_Ghar> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Mohamedally_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Mohamedally Tower"@en .
+<https://example.org/resource/Shah_Ali_Banda_Clock_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Husainabad_Clock_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Husainabad Clock Tower"@en .
+<https://example.org/resource/Chimnabai_Clock_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Chimnabai Clock Tower"@en .
+<https://example.org/resource/Sultan_Bazar_Clock_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Ghanta_Ghar> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Chinnakada_Clock_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Husainabad_Clock_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Golden_Rock_Railway_Workshop> <http://www.w3.org/2000/01/rdf-schema#label> "Golden Rock Railway Workshop"@en .
+<https://example.org/resource/Sultan_Bazar_Clock_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Ghari_Ghar> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Chimnabai_Clock_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Chinnakada_Clock_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Chinnakada Clock Tower"@en .
+In ground only
+<https://example.org/resource/Secunderabad_Clock_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Ghanta_Ghar> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q200019> .
+<https://example.org/resource/IIEST_Shibpur> <http://www.wikidata.org/prop/direct/P571> "1856-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Ripon_Building> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1352> .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q5588842> .
+<https://example.org/resource/Husainabad_Clock_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Picture%20Gallary%20and%20Clock%20Tower.jpg> .
+<https://example.org/resource/King_George_Hospital> <http://www.wikidata.org/prop/direct/P571> "1845-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Mahboob_Chowk_Clock_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q8357723> .
+<https://example.org/resource/Clock_Tower,_Erode> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Secunderabad_Clock_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Clock%20Tower%20Secunderabad.jpg> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P571> "1878-11-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Secunderabad_Clock_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Secunderabad Clock Tower"@en .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q55488> .
+<https://example.org/resource/Chimnabai_Clock_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Raopura%20Tower%20Vadodara.jpg> .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P197> <http://www.wikidata.org/entity/Q4867482> .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.w3.org/2000/01/rdf-schema#label> "Chennai Central railway station"@en .
+<https://example.org/resource/Lawrence_School,_Lovedale> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q34658066> .
+<https://example.org/resource/Ghanta_Ghar> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Jodhpur%20Bazaar.jpg> .
+<https://example.org/resource/Ghari_Ghar> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1017175> .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q819425> .
+<https://example.org/resource/King_George_Hospital> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q16917> .
+<https://example.org/resource/King_George_Hospital> <http://www.wikidata.org/prop/direct/P6855> <http://www.wikidata.org/entity/Q64678853> .
+<https://example.org/resource/Husainabad_Clock_Tower> <http://www.wikidata.org/prop/direct/P571> "1881-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P859> <http://www.wikidata.org/entity/Q7240244> .
+<https://example.org/resource/IIEST_Shibpur> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Institute%20of%20Engineering%20Science%20and%20Technology%2C%20Shibpur%20Logo.png> .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q75738052> .
+<https://example.org/resource/Secunderabad_Clock_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Ghadi_Chowk,_Raipur> <http://www.w3.org/2000/01/rdf-schema#label> "Ghadi Chowk, Raipur"@en .
+<https://example.org/resource/Ripon_Building> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Clock_Tower_of_Haridwar> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/King_George_Hospital> <http://www.wikidata.org/prop/direct/P856> <http://kghvisakhapatnam.org> .
+<https://example.org/resource/Husainabad_Clock_Tower> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q73852346> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q681007> .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P88> <http://www.wikidata.org/entity/Q85762367> .
+<https://example.org/resource/Clock_Tower,_Meerut> <http://www.w3.org/2000/01/rdf-schema#label> "Clock Tower, Meerut"@en .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P421> <http://www.wikidata.org/entity/Q604055> .
+<https://example.org/resource/Lawrence_School,_Lovedale> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/IIEST_Shibpur> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Ripon_Building> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q5589327> .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q3374557> .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P571> "1915-04-04T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Chimnabai_Clock_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q7908340> .
+<https://example.org/resource/Lawrence_School,_Lovedale> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3914> .
+<https://example.org/resource/Rajabai_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Rajabai Clock Tower"@en .
+<https://example.org/resource/Ripon_Building> <http://www.w3.org/2000/01/rdf-schema#label> "Ripon Building"@en .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Clock%20Tower%20Siddhpur%2006.jpg> .
+<https://example.org/resource/IIEST_Shibpur> <http://www.w3.org/2000/01/rdf-schema#label> "Indian Institute of Engineering Science and Technology, Shibpur"@en .
+<https://example.org/resource/Lawrence_School,_Lovedale> <http://www.wikidata.org/prop/direct/P856> <https://www.thelawrenceschool.org/> .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Clock_Tower,_Erode> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q12945817> .
+<https://example.org/resource/Lawrence_School,_Lovedale> <http://www.w3.org/2000/01/rdf-schema#label> "Lawrence School, Lovedale"@en .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2341660> .
+<https://example.org/resource/King_George_Hospital> <http://www.wikidata.org/prop/direct/P1416> <http://www.wikidata.org/entity/Q4754352> .
+<https://example.org/resource/Lawrence_School,_Lovedale> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1445> .
+<https://example.org/resource/King_George_Hospital> <http://www.wikidata.org/prop/direct/P6801> "1237"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P2130> "15000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P1619> "1873-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q5470698> .
+<https://example.org/resource/King_George_Hospital> <http://www.w3.org/2000/01/rdf-schema#label> "King George Hospital, Visakhapatnam"@en .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P2048> "60"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/IIEST_Shibpur> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1663017> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P443> <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q1571%20%28mar%29-Neelima64-%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%BE%E0%A4%AC%E0%A4%BE%E0%A4%88%20%E0%A4%9F%E0%A5%89%E0%A4%B5%E0%A4%B0.wav> .
+<https://example.org/resource/IIEST_Shibpur> <http://www.wikidata.org/prop/direct/P6375> "Botanic Garden, Dist: Howrah, West Bengal, India - 711103"@en .
+<https://example.org/resource/Chinnakada_Clock_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Chinnakada%20Clock%20Tower.jpg> .
+<https://example.org/resource/Golden_Rock_Railway_Workshop> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6138323> .
+<https://example.org/resource/Ghari_Ghar> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Clock%20Tower%20at%20Hazarduari%20Palace%20grounds.jpg> .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Chennai%20Central%20D.jpg> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P2048> "280"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Mahboob_Chowk_Clock_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Ripon_Building> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q54111> .
+<https://example.org/resource/Ripon_Building> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ripon%20Building%20Chennai.JPG> .
+<https://example.org/resource/IIEST_Shibpur> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q205697> .
+<https://example.org/resource/Chimnabai_Clock_Tower> <http://www.wikidata.org/prop/direct/P571> "1896-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Lawrence_School,_Lovedale> <http://www.wikidata.org/prop/direct/P571> "1858-09-06T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/King_George_Hospital> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q73852346> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Rajabai%20Clock%20Tower%2C%20Mumbai%20%2831%20August%202008%29.jpg> .
+<https://example.org/resource/King_George_Hospital> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q200016> .
+<https://example.org/resource/Mahboob_Chowk_Clock_Tower> <http://www.wikidata.org/prop/direct/P443> <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q8097%20%28tel%29-V%20Bhavya-%E0%B0%AE%E0%B0%B9%E0%B0%AC%E0%B1%82%E0%B0%AC%E0%B1%8D%20%E0%B0%9A%E0%B1%8C%E0%B0%95%E0%B1%8D%20%E0%B0%95%E0%B1%8D%E0%B0%B2%E0%B0%BE%E0%B0%95%E0%B1%8D%20%E0%B0%9F%E0%B0%B5%E0%B0%B0%E0%B1%8D.wav> .
+<https://example.org/resource/Husainabad_Clock_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q47916> .
+<https://example.org/resource/Mahboob_Chowk_Clock_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Mahboob Chowk Clock Tower"@en .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1352> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q97175288> .
+<https://example.org/resource/Ripon_Building> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/King_George_Hospital> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/King%20george%20hospital.jpg> .
+<https://example.org/resource/IIEST_Shibpur> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q7496073> .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q73852346> .
+<https://example.org/resource/Husainabad_Clock_Tower> <http://www.wikidata.org/prop/direct/P2048> "67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Clock_Tower_of_Haridwar> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q2572203> .
+<https://example.org/resource/Chennai_Central_railway_station> <http://www.wikidata.org/prop/direct/P137> <http://www.wikidata.org/entity/Q17508802> .
+<https://example.org/resource/IIEST_Shibpur> <http://www.wikidata.org/prop/direct/P856> <https://www.iiests.ac.in/> .
+<https://example.org/resource/Clock_Tower_of_Haridwar> <http://www.w3.org/2000/01/rdf-schema#label> "Clock Tower of Haridwar"@en .
+<https://example.org/resource/Clock_Tower,_Erode> <http://www.w3.org/2000/01/rdf-schema#label> "Clock Tower, Erode"@en .
+In predicted only
+<https://example.org/resource/Ghari_Ghar> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1356> .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P571> "1915-04-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.org/resource/King_George_Hospital_Clock_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P571> "1878"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.org/resource/Ghadi_Chowk_Raipur> <http://www.wikidata.org/prop/direct/P571> "1995-12-19"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.org/resource/Ghadi_Chowk_Raipur> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/King_George_Hospital_Clock_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Lawrence_School_Lovedale_Clock_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Ghadi_Chowk_Raipur> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1168> .
+<https://example.org/resource/Lawrence_School_Lovedale_Clock_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Clock_Tower_Meerut> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Lawrence_School_Lovedale_Clock_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Lawrence School, Lovedale Clock Tower"@en .
+<https://example.org/resource/Ghadi_Chowk_Raipur> <http://www.w3.org/2000/01/rdf-schema#label> "Ghadi Chowk, Raipur"@en .
+<https://example.org/resource/Mohamedally_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1061> .
+<https://example.org/resource/Rajabai_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1191> .
+<https://example.org/resource/Clock_Tower_Meerut> <http://www.w3.org/2000/01/rdf-schema#label> "Clock Tower, Meerut"@en .
+<https://example.org/resource/Golden_Rock_Railway_Workshop> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Rajabai_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Rajabai Tower"@en .
+<https://example.org/resource/Ghadi_Chowk_Raipur> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/Golden_Rock_Railway_Workshop> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1445> .
+<https://example.org/resource/Clock_Tower_Meerut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q853854> .
+<https://example.org/resource/King_George_Hospital_Clock_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "King George Hospital Clock Tower"@en .

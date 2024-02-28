@@ -1,0 +1,107 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Brown,_Candy_Gunther> ns1:P101 <http://www.wikidata.org/entity/Q188504> ;
+    ns1:P1559 "Brown, Candy Gunther"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q217595>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2013-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P6886 <http://www.wikidata.org/entity/Q1860> .
+
+<https://example.org/resource/Cranshaw-Williams_Rupert> ns1:P101 <http://www.wikidata.org/entity/Q929771> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "1947-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P7763 <http://www.wikidata.org/entity/Q71887839> ;
+    ns1:P800 "The Comforts Of Unreason: A Study of the Motives Behind Irrational Thought"@en .
+
+<https://example.org/resource/McAfee,_David_2010> ns1:P106 <http://www.wikidata.org/entity/Q3359185> ;
+    ns1:P1559 "David McAfee"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/McAfee,_David_2011> ns1:P106 <http://www.wikidata.org/entity/Q3359185> ;
+    ns1:P1559 "David McAfee"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2011-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/McAfee,_David_2012> ns1:P106 <http://www.wikidata.org/entity/Q3359185> ;
+    ns1:P1559 "David McAfee"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/McAfee,_David_2015> ns1:P1559 "David McAfee"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Mervine_Barbara> ns1:P463 <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P7763 <http://www.wikidata.org/entity/Q71887839> ;
+    ns1:P800 "Fairy Tales Fairly Told"@en .
+
+<https://example.org/resource/OReilly_Patrick> ns1:P101 <http://www.wikidata.org/entity/Q929771> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2013-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P7763 <http://www.wikidata.org/entity/Q71887839> ;
+    ns1:P800 "Undue Influence: Cons, Scams and Mind Control"@en .
+
+<https://example.org/resource/Sanders_Kyle> ns1:P101 <http://www.wikidata.org/entity/Q929771> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P7763 <http://www.wikidata.org/entity/Q71887839> ;
+    ns1:P800 "Sounds Sciencey: A Comic Strip Collection About Science, Pseudoscience, and Geeky Relationships"@en .
+
+<https://example.org/resource/Selman_Jeffrey> ns1:P101 <http://www.wikidata.org/entity/Q130352> ;
+    ns1:P463 <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P7763 <http://www.wikidata.org/entity/Q71887839> ;
+    ns1:P800 "God Sent Me: A Textbook Case on Evolution vs. Creation"@en .
+
+<https://example.org/resource/Shelton_Jay> ns1:P463 <http://www.wikidata.org/entity/Q15987216>,
+        <http://www.wikidata.org/entity/Q1643655>,
+        <http://www.wikidata.org/entity/Q1871370>,
+        <http://www.wikidata.org/entity/Q19047539>,
+        <http://www.wikidata.org/entity/Q19098835>,
+        <http://www.wikidata.org/entity/Q19180675>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P7763 <http://www.wikidata.org/entity/Q71887839> ;
+    ns1:P800 "Homeopathy: How It Really Works"@en .
+
+<https://example.org/resource/Sloan,_Richard_P.> ns1:P106 <http://www.wikidata.org/entity/Q929771> ;
+    ns1:P1559 "Richard P. Sloan"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Waldron,_David_and_Simon_Townsend> ns1:P106 <http://www.wikidata.org/entity/Q180933> ;
+    ns1:P108 <http://www.wikidata.org/entity/Q4785161> ;
+    ns1:P1343 <http://www.wikidata.org/entity/Q4785161> ;
+    ns1:P1559 "David Waldron and Simon Townsend"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q4785161>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns1:P569 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+

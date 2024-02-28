@@ -1,0 +1,7 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Air_Taxi> wdt:P31 wd:Q46970 ;
+    wdt:P571 "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+

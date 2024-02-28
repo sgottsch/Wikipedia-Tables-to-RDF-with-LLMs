@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/testis_unus_testis_nullus> rdfs:label "Unus testis, nullus testis"@en ;
+    wdt:P1343 wd:Q19219752 ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/textus_receptus> rdfs:label "textus receptus"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/timeo_Danaos_et_dona_ferentes> rdfs:label "timeo Danaos et dona ferentes"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/timor_mortis_conturbat_me> rdfs:label "timor mortis conturbat me"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/traditionis_custodes> rdfs:label "traditionis custodes"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/translatio_imperii> rdfs:label "translatio imperii"@en ;
+    wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tu_quoque> rdfs:label "tu quoque"@en ;
+    wdt:P1343 wd:Q3062294 ;
+    wdt:P31 wd:Q3062294 .
+

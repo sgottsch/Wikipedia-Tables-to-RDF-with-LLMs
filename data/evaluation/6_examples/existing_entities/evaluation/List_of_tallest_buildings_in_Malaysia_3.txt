@@ -1,0 +1,95 @@
+In both
+<https://example.org/resource/The_Exchange_106> <http://www.wikidata.org/prop/direct/P571> "2019-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q221692> .
+<https://example.org/resource/The_Exchange_106> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q4206786> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/The_Exchange_106> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/The_Exchange_106> <http://www.w3.org/2000/01/rdf-schema#label> "The Exchange 106"@en .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P1101> "88"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/The_Exchange_106> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P1101> "118"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Merdeka_118> <http://www.w3.org/2000/01/rdf-schema#label> "Merdeka 118"@en .
+In ground only
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P1101> "50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P3451> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Twins%20SE%20Asia%202019%20%2849171985716%29.jpg> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P2048> "678.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P571> "1996-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q5443251> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q570116> .
+<https://example.org/resource/Maybank_Tower> <http://www.w3.org/2000/01/rdf-schema#label> "Maybank Tower"@en .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q27136782> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P1801> <http://commons.wikimedia.org/wiki/Special:FilePath/Kuala%20Lumpur%20Malaysia%20Petronas-Administration-01.jpg> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P5282> <https://360stories.com/kuala-lumpur/story/petronas-twin-towers> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q26712362> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P1301> "39"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P8933> <http://www.wikidata.org/entity/Q104233986> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q54290287> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P5817> <http://www.wikidata.org/entity/Q55654238> .
+<https://example.org/resource/The_Exchange_106> <http://www.wikidata.org/prop/direct/P1139> "6"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P193> <http://www.wikidata.org/entity/Q499194> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q7796559> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q17049670> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q27686> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P571> "1987-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Maybank%20Tower%20Kuala%20Lumpur.jpg> .
+<https://example.org/resource/The_Exchange_106> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Exchange%20106%20skyline%20Nov%20of%202021.jpg> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Komtar%20at%20dusk%2C%20George%20Town%2C%20Penang.jpg> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P571> "2023-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q25658657> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.w3.org/2000/01/rdf-schema#label> "Petronas Towers"@en .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P6375> "Cangkat Stadium, City Centre, 50150 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"@en .
+<https://example.org/resource/The_Exchange_106> <http://www.wikidata.org/prop/direct/P2048> "445.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P2048> "451.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Petronas%20Panorama%20II.jpg> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P1619> "1998-08-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q595448> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P631> <http://www.wikidata.org/entity/Q716737> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P193> <http://www.wikidata.org/entity/Q4410214> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Merdeka%20118%202023-08-20.jpg> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P3451> <http://commons.wikimedia.org/wiki/Special:FilePath/Kuala%20Lumpur.%20Merdeka%20118.%202019-11-30%2020-54-46.jpg> .
+<https://example.org/resource/The_Exchange_106> <http://www.wikidata.org/prop/direct/P1619> "2019-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P571> "1986-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Komtar> <http://www.w3.org/2000/01/rdf-schema#label> "KOMTAR"@en .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P856> <https://merdeka118.com> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q182060> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P1301> "87"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q221692> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q91013214> .
+<https://example.org/resource/Maybank_Tower> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86117935> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q111668384> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P1101> "65"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P1619> "2023-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P193> <http://www.wikidata.org/entity/Q16169758> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q1075723> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q1306924> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P2046> "395000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/Petronas%20Towers%20Logo.svg> .
+<https://example.org/resource/The_Exchange_106> <http://www.wikidata.org/prop/direct/P1101> "106"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q55325752> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Foyer%20of%20the%20Petronas%20Towers%20%2818357838373%29.jpg> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P1139> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Komtar> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q61092> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P8517> <http://commons.wikimedia.org/wiki/Special:FilePath/From%20Bridge%20of%20KLCC%20-%20panoramio%20-%20Roman%20Suzuki.jpg> .
+In predicted only
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P1619> "2021-08-31T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P571> "2021-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Petronas%20Panorama%20II%20%284to3%29.jpg> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.w3.org/2000/01/rdf-schema#label> "Petronas Twin Towers"@en .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P571> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Merdeka_118> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Merdeka%20118%2020230317.jpg> .
+<https://example.org/resource/The_Exchange_106> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Exchange%20106%2020230317.jpg> .
+<https://example.org/resource/The_Exchange_106> <http://www.wikidata.org/prop/direct/P1101> "95"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41176> .
+<https://example.org/resource/Petronas_Twin_Towers> <http://www.wikidata.org/prop/direct/P1619> "1998-08-31T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .

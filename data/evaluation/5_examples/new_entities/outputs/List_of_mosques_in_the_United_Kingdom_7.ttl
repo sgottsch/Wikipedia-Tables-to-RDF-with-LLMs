@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Baitul_Ata_Mosque> rdfs:label "Baitul Ata Mosque"@en ;
+    wdt:P131 wd:Q126269 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67575123 .
+
+<https://example.org/resource/Baitul_Ehsan_Mosque> rdfs:label "Baitul Ehsan Mosque"@en ;
+    wdt:P131 wd:Q546635 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67575123 .
+
+<https://example.org/resource/Baitul_Ghafoor_Mosque> rdfs:label "Baitul Ghafoor Mosque"@en ;
+    wdt:P1083 600.0 ;
+    wdt:P131 wd:Q612260 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67575123 .
+
+<https://example.org/resource/Baitul_Muqeet_Mosque> rdfs:label "Baitul Muqeet Mosque"@en ;
+    wdt:P131 wd:Q504530 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67575123 .
+

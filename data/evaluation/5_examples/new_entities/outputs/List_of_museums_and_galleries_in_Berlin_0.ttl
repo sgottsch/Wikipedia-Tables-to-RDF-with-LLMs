@@ -1,0 +1,361 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Abguss-Sammlung_Antiker_Plastik> rdfs:label "Abguss-Sammlung Antiker Plastik"@en ;
+    wdt:P131 wd:Q158095 ;
+    wdt:P31 wd:Q207694 .
+
+<https://example.org/resource/Alice_-_Museum_for_Children> rdfs:label "Alice - Museum for Children"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Eingangsbereich%20und%20Schwimmhalle%20FEZ.JPG> ;
+    wdt:P31 wd:Q842478 ;
+    wdt:P856 <http://fez-berlin.de/> .
+
+<https://example.org/resource/Anna_Seghers_Museum> rdfs:label "Anna Seghers Museum"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Adlershof%20Anna-Seghers-Gedenkst%C3%A4tte.jpg> ;
+    wdt:P31 wd:Q10624527 ;
+    wdt:P856 <http://www.adk.de/en/archive/memorial-centres/annaseghers-memorial-centres.htm> .
+
+<https://example.org/resource/Anti-War_Museum> rdfs:label "Anti-War Museum"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Anti%20Kriegs%20Museum%20Berlin.jpg> ;
+    wdt:P856 <http://www.anti-kriegs-museum.de/> .
+
+<https://example.org/resource/BcmA_Berlin> rdfs:label "BcmA Berlin"@en ;
+    wdt:P131 wd:Q158893 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Schermafbeelding-2014-04-28-om-17.33.19.webp> ;
+    wdt:P31 wd:Q207694 ;
+    wdt:P856 <https://bcma.gallery> .
+
+<https://example.org/resource/Berlin-Marzahn_Windmill> rdfs:label "Berlin-Marzahn Windmill"@en ;
+    wdt:P131 wd:Q105045058 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Nahaufnahme%20der%20Bockwindm%C3%BChle%20Marzahn.jpg> ;
+    wdt:P276 wd:Q105045058 ;
+    wdt:P31 wd:Q123504001 ;
+    wdt:P856 <http://www.marzahner-muehle.de/> .
+
+<https://example.org/resource/Berlin_Energy_Museum> rdfs:label "Berlin Energy Museum"@en ;
+    wdt:P131 wd:Q158064 ;
+    wdt:P1454 wd:Q9299236 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q2398990 .
+
+<https://example.org/resource/Berlin_Museum_of_Medical_History_at_the_Charité> rdfs:label "Berlin Museum of Medical History at the Charité"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P1454 wd:Q9299236 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q3329663 .
+
+<https://example.org/resource/Berlin_Story_Museum> rdfs:label "Berlin Story Museum"@en ;
+    wdt:P131 wd:Q158893 ;
+    wdt:P1454 wd:Q9299236 ;
+    wdt:P17 wd:Q183 .
+
+<https://example.org/resource/Berlin_U-Bahn_Museum> rdfs:label "Berlin U-Bahn Museum"@en ;
+    wdt:P131 wd:Q158095 ;
+    wdt:P1454 wd:Q9299236 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q2516357 .
+
+<https://example.org/resource/Berlin_Underworlds_Museum> rdfs:label "Berlin Underworlds Museum"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P1454 wd:Q9299236 ;
+    wdt:P17 wd:Q183 .
+
+<https://example.org/resource/Berliner_DDR-Motorradmuseum> rdfs:label "Berliner DDR-Motorradmuseum"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P1454 wd:Q9299236 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q2516357 .
+
+<https://example.org/resource/Bezirksmuseum_Marzahn-Hellersdorf> rdfs:label "Bezirksmuseum Marzahn-Hellersdorf"@en ;
+    wdt:P131 wd:Q105045058 ;
+    wdt:P1454 wd:Q28739601 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bezirksmuseum%20Marzahn-Hellersdorf%20Haus%201.jpg> ;
+    wdt:P276 wd:Q105045058 ;
+    wdt:P856 <http://www.museum-marzahn-hellersdorf.de> .
+
+<https://example.org/resource/BlackBox_Cold_War> rdfs:label "BlackBox Cold War"@en ;
+    wdt:P131 wd:Q114729953 ;
+    wdt:P1454 wd:Q2772772 ;
+    wdt:P276 wd:Q105045058 ;
+    wdt:P856 <http://blackbox-kalter-krieg.de/index.html> .
+
+<https://example.org/resource/Body_Worlds> rdfs:label "Body Worlds"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q1970365 ;
+    wdt:P856 <https://bodyworlds.com/city/berlin/> .
+
+<https://example.org/resource/Braun-Sammlung_Ettel,_Museum_für_Design> rdfs:label "Braun-Sammlung Ettel, Museum für Design"@en ;
+    wdt:P131 wd:Q105045058 ;
+    wdt:P1454 wd:Q123504001 ;
+    wdt:P276 wd:Q105045058 ;
+    wdt:P856 <http://braundesignsammlung.de/> .
+
+<https://example.org/resource/Brecht_Weigel_Museum> rdfs:label "Brecht Weigel Museum"@en ;
+    wdt:P131 wd:Q105045058 ;
+    wdt:P1454 wd:Q15649796 ;
+    wdt:P276 wd:Q105045058 ;
+    wdt:P856 <https://www.adk.de/en/archives/museums/brecht-weigel-museum/> .
+
+<https://example.org/resource/Britz_Windmill> rdfs:label "Britz Windmill"@en ;
+    wdt:P131 wd:Q114729953 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Britzer-muehle.jpg> ;
+    wdt:P276 wd:Q114729953 ;
+    wdt:P31 wd:Q123504001 ;
+    wdt:P856 <https://britzer-muellerei.de/wordpress/> .
+
+<https://example.org/resource/Daimler_Contemporary_Berlin> rdfs:label "Daimler Contemporary Berlin"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P159 wd:Q163966 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin-Tiergarten%20-%20Haus%20Huth,%20Linkstra%C3%9Fe.jpg> ;
+    wdt:P31 wd:Q207694 ;
+    wdt:P856 <http://art.daimler.com/en/sammlung-2/daimler-contemporary/> .
+
+<https://example.org/resource/Die_Mauer-Asisi_Panorama_Berlin> rdfs:label "Die Mauer-Asisi Panorama Berlin"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P159 wd:Q163966 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Asisi%20Panorama%20Berlin-%20Au%C3%9Fenansicht,%20Foto%20N.Michalke%20%C2%A9%20asisi.jpg> ;
+    wdt:P856 <https://www.asisi.de/en/panorama/the-wall/> .
+
+<https://example.org/resource/Forum_Willy_Brandt_Exhibition> rdfs:label "Forum Willy Brandt Exhibition"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P159 wd:Q163966 ;
+    wdt:P31 wd:Q10624527 ;
+    wdt:P856 <https://willy-brandt.de/en/exhibitions/exhibitions/forum-berlin/> .
+
+<https://example.org/resource/German_Museum_for_the_Blind> rdfs:label "German Museum for the Blind"@en ;
+    wdt:P131 wd:Q158064 ;
+    wdt:P1454 wd:Q9299236 ;
+    wdt:P276 wd:Q700541 ;
+    wdt:P856 <http://www.blindenmuseum-berlin.de/> .
+
+<https://example.org/resource/Gipsformerei> rdfs:label "Gipsformerei"@en ;
+    wdt:P131 wd:Q158095 ;
+    wdt:P276 wd:Q162049 ;
+    wdt:P706 wd:Q162049 ;
+    wdt:P856 <https://www.smb.museum/en/museums-institutions/gipsformerei/home.html> .
+
+<https://example.org/resource/Gothic_House> rdfs:label "Gothic House"@en ;
+    wdt:P131 wd:Q158083 ;
+    wdt:P1454 wd:Q9299236 ;
+    wdt:P276 wd:Q569827 ;
+    wdt:P856 <http://www.gotischeshaus.de/> .
+
+<https://example.org/resource/Grunewald_Forest_Museum> rdfs:label "Grunewald Forest Museum"@en ;
+    wdt:P131 wd:Q2874431 ;
+    wdt:P159 wd:Q158095 ;
+    wdt:P31 wd:Q1970365 ;
+    wdt:P856 <http://www.waldmuseum-waldschule.de/> .
+
+<https://example.org/resource/Grünau_Water_Sports_Museum> rdfs:label "Grünau Water Sports Museum"@en ;
+    wdt:P1454 wd:Q9299236 ;
+    wdt:P856 <http://www.wassersportmuseum-gruenau.de/> .
+
+<https://example.org/resource/Gründerzeitmuseum_at_Gutshaus_Mahlsdorf> rdfs:label "Gründerzeitmuseum at Gutshaus Mahlsdorf"@en ;
+    wdt:P131 wd:Q119284 ;
+    wdt:P1454 wd:Q9299236 ;
+    wdt:P276 wd:Q563837 ;
+    wdt:P856 <https://web.archive.org/web/20120717081207/http://www.gruenderzeitmuseum.de/> .
+
+<https://example.org/resource/Haus_am_Lützowplatz> rdfs:label "Haus am Lützowplatz"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P706 wd:Q342979 ;
+    wdt:P856 <http://www.hausamluetzowplatz-berlin.de/> .
+
+<https://example.org/resource/Haus_am_Waldsee> rdfs:label "Haus am Waldsee"@en ;
+    wdt:P131 wd:Q158064 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Haus%20am%20Waldsee%20Internationale%20Kunst%20in%20Berlin,%202019,%20Foto%20Bernd%20Borchardt.jpg> ;
+    wdt:P31 wd:Q1007870 ;
+    wdt:P856 <http://www.hausamwaldsee.de/index.php/en/> .
+
+<https://example.org/resource/Herzberge_Boiler_House_Museum> rdfs:label "Herzberge Boiler House Museum"@en ;
+    wdt:P131 wd:Q9169094 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <http://www.museumkesselhaus.de//> .
+
+<https://example.org/resource/Huguenot_Museum> rdfs:label "Huguenot Museum"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Gandarmenmarkt%20franzoesischer%20dom%20ds%20hochkant%20wv%2010%202007.jpg> ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <http://www.museumsportal-berlin.de/en/museums/hugenottenmuseum/> .
+
+<https://example.org/resource/Industriesalon_Schöneweide> rdfs:label "Industriesalon Schöneweide"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Industriesalon%20Schoeneweide,%202021-10-11%20ama%20fec.JPG> ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <http://www.industriesalon.de/> .
+
+<https://example.org/resource/Jugend_Museum> rdfs:label "Jugend Museum"@en ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://www.museen-tempelhof-schoeneberg.de/jugendmuseum.html> .
+
+<https://example.org/resource/Knoblauchhaus> rdfs:label "Knoblauchhaus"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Museum%20Knoblauchhaus%202016.jpg> ;
+    wdt:P31 wd:Q2087181 ;
+    wdt:P856 <http://knoblauchhaus.de/> .
+
+<https://example.org/resource/Kunsthaus_Dahlem> rdfs:label "Kunsthaus Dahlem"@en ;
+    wdt:P131 wd:Q158064 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/BrekerAtelier.jpg> ;
+    wdt:P31 wd:Q16735822 ;
+    wdt:P856 <http://kunsthaus-dahlem.de/en/home/> .
+
+<https://example.org/resource/Kunstraum_Kreuzberg_Bethanien> rdfs:label "Kunstraum Kreuzberg/Bethanien"@en ;
+    wdt:P131 wd:Q158893 ;
+    wdt:P31 wd:Q16735822 ;
+    wdt:P856 <http://www.kunstraumkreuzberg.de/> .
+
+<https://example.org/resource/Köpenick_City_Hall> rdfs:label "Köpenick City Hall"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin-Köpenick%20-%20Rathaus%201.jpg> ;
+    wdt:P31 wd:Q16735822 ;
+    wdt:P856 <https://www.berlin.de/museum-treptow-koepenick/museen/hauptmannausstellung/> .
+
+<https://example.org/resource/Köpenick_Museum> rdfs:label "Köpenick Museum"@en ;
+    wdt:P31 wd:Q16735822 ;
+    wdt:P856 <https://www.berlin.de/museum-treptow-koepenick/museen/museum-koepenick/> .
+
+<https://example.org/resource/Labyrinth_Childrens_Museum> rdfs:label "Labyrinth Children's Museum"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Labyrinth-Kindermuseum-Berlin-Eingangsschild.jpg> ;
+    wdt:P31 wd:Q114729953 ;
+    wdt:P856 <http://www.labyrinth-kindermuseum.de/de/> .
+
+<https://example.org/resource/Lipstick_Museum_René_Koch> rdfs:label "Lipstick Museum René Koch"@en ;
+    wdt:P131 wd:Q158095 ;
+    wdt:P31 wd:Q114729953 ;
+    wdt:P856 <http://www.lippenstiftmuseum.de/> .
+
+<https://example.org/resource/Luisa_Catucci_Gallery> rdfs:label "Luisa Catucci Gallery"@en ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q1007870,
+        wd:Q3152824 ;
+    wdt:P856 <http://luisacatucci.com/> .
+
+<https://example.org/resource/MACHmit!_Museum_for_kids> rdfs:label "MACHmit! Museum for kids"@en ;
+    wdt:P131 wd:Q313186 ;
+    wdt:P159 wd:Q163012 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P276 wd:Q313186 ;
+    wdt:P31 wd:Q3152824,
+        wd:Q842478 ;
+    wdt:P856 <http://www.machmitmuseum.de/> .
+
+<https://example.org/resource/MAGICUM_-_Berlin_Magic_Museum> rdfs:label "MAGICUM - Berlin Magic Museum"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P159 wd:Q163966 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P276 wd:Q163966 ;
+    wdt:P31 wd:Q3152824 ;
+    wdt:P856 <http://www.magicum-berlin.de/?lang=en> .
+
+<https://example.org/resource/Madame_Tussauds_Berlin> rdfs:label "Madame Tussauds Berlin"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P159 wd:Q163966 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P276 wd:Q163966 ;
+    wdt:P31 wd:Q3152824,
+        wd:Q667018 .
+
+<https://example.org/resource/Marienfelde_Refugee_Center_Museum> rdfs:label "Marienfelde Refugee Center Museum"@en ;
+    wdt:P131 wd:Q695777 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P276 wd:Q695777 ;
+    wdt:P31 wd:Q3152824 ;
+    wdt:P856 <http://www.notaufnahmelager-berlin.de/en/> .
+
+<https://example.org/resource/Mendelssohn-Remise> rdfs:label "Mendelssohn-Remise"@en ;
+    wdt:P131 wd:Q706005 ;
+    wdt:P159 wd:Q163966 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mendelssohn-Remise.Hof.1.jpg> ;
+    wdt:P276 wd:Q706005 ;
+    wdt:P31 wd:Q10624527,
+        wd:Q3152824 ;
+    wdt:P856 <http://www.jaegerstrasse.de> .
+
+<https://example.org/resource/Mitte_Museum> rdfs:label "Mitte Museum"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q1595639 ;
+    wdt:P856 <http://www.mittemuseum.de/> .
+
+<https://example.org/resource/Mori_Ôgai_Memorial_Site> rdfs:label "Mori Ôgai Memorial Site"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q10624527 ;
+    wdt:P856 <https://www.iaaw.hu-berlin.de/de/region/ostasien/seminar/mori> .
+
+<https://example.org/resource/Museum_Blindenwerkstatt_Otto_Weidt> rdfs:label "Museum Blindenwerkstatt Otto Weidt"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P856 <http://www.museum-blindenwerkstatt.de/> .
+
+<https://example.org/resource/Museum_Flat_WBS_70> rdfs:label "Museum Flat WBS 70"@en ;
+    wdt:P131 wd:Q119284 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q2087181 ;
+    wdt:P856 <http://www.stadtundland.de/125_Museumswohnung.htm> .
+
+<https://example.org/resource/Museum_Lichtenberg> rdfs:label "Museum Lichtenberg"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Museum%20Lichtenberg%20im%20Stadthaus%202021.jpg> ;
+    wdt:P276 wd:Q561880 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <http://www.museum-lichtenberg.de/> .
+
+<https://example.org/resource/Museum_Neukölln> rdfs:label "Museum Neukölln"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Britz%20Gutspark%20asv2021-03%20img1.jpg> ;
+    wdt:P276 wd:Q428846 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <http://www.museum-neukoelln.de> .
+
+<https://example.org/resource/Museum_for_Communication_Berlin> rdfs:label "Museum for Communication Berlin"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Museum%20fuer%20Kommunikation%20asv2019-07.jpg> ;
+    wdt:P276 wd:Q2013767 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://www.museumsstiftung.de/berlin/> .
+
+<https://example.org/resource/Museum_in_the_Old_Waterworks> rdfs:label "Museum in the Old Waterworks"@en ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q2398990 ;
+    wdt:P856 <http://berliner-unterwelten.de/museum-im-alten-wasserwerk.1863.0.html> .
+
+<https://example.org/resource/Museum_of_Architecture_of_the_Technical_University_of_Berlin> rdfs:label "Museum of Architecture of the Technical University of Berlin"@en ;
+    wdt:P131 wd:Q162049 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fassade%20Architekturmuseum.JPG> ;
+    wdt:P276 wd:Q158095 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <http://architekturmuseum.ub.tu-berlin.de/> .
+
+<https://example.org/resource/Museum_of_Illusions> rdfs:label "Museum of Illusions"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P276 wd:Q2013767 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://berlin.museumderillusionen.de/en/> .
+
+<https://example.org/resource/Museum_of_Letters> rdfs:label "Museum of Letters"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P276 wd:Q427582 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <http://www.buchstabenmuseum.de/> .
+
+<https://example.org/resource/Palais_Populaire> rdfs:label "Palais Populaire"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P159 wd:Q163966 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Prinzessinnenpalais%202018.jpg> ;
+    wdt:P856 <https://palaispopulaire.db.com/> .
+
+<https://example.org/resource/The_Feuerle_Collection> rdfs:label "The Feuerle Collection"@en ;
+    wdt:P131 wd:Q308928 ;
+    wdt:P159 wd:Q308928 ;
+    wdt:P31 wd:Q207694 ;
+    wdt:P856 <http://www.thefeuerlecollection.org/> .
+
+<https://example.org/resource/Veterinary_Anatomy_Theater> rdfs:label "Veterinary Anatomy Theater"@en ;
+    wdt:P131 wd:Q163966 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin,%20Tierarzneischule,%20Anatomisches%20Theater,%20Langhans,%20Seitenansicht.jpg> ;
+    wdt:P31 wd:Q3329663 ;
+    wdt:P856 <https://www.hu-berlin.de/de/ueberblick/geschichte/orte/medizin> .
+

@@ -1,0 +1,45 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Papatoetoe_West_School> rdfs:label "Papatoetoe West School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1431.0 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P571 "YEAR-01-01T00:00:00Z"^^xsd:dateTime ;
+    wdt:P856 <http://www.pap-west.school.nz> .
+
+<https://example.org/resource/Puhinui_School> rdfs:label "Puhinui School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1448.0 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P571 "YEAR-01-01T00:00:00Z"^^xsd:dateTime ;
+    wdt:P856 <http://www.puhinui.school.nz/> .
+
+<https://example.org/resource/Sir_Edmund_Hillary_Collegiate_Junior_School> rdfs:label "Sir Edmund Hillary Collegiate Junior School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1251.0 ;
+    wdt:P31 wd:Q9842 ;
+    wdt:P571 "YEAR-01-01T00:00:00Z"^^xsd:dateTime ;
+    wdt:P856 <http://www.sehc.school.nz> .
+
+<https://example.org/resource/Sir_Edmund_Hillary_Collegiate_Middle_School> rdfs:label "Sir Edmund Hillary Collegiate Middle School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1217.0 ;
+    wdt:P31 wd:Q149566 ;
+    wdt:P571 "YEAR-01-01T00:00:00Z"^^xsd:dateTime ;
+    wdt:P856 <http://www.sehc.school.nz> .
+
+<https://example.org/resource/South_Auckland_Seventh-day_Adventist_School> rdfs:label "South Auckland Seventh-day Adventist School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 4140.0 ;
+    wdt:P31 wd:Q3914 ;
+    wdt:P571 "YEAR-01-01T00:00:00Z"^^xsd:dateTime ;
+    wdt:P856 <http://www.sasda.school.nz> .
+

@@ -1,0 +1,123 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Amanos_Patas_Na_ang_Laban> rdfs:label "Amanos: Patas Na ang Laban"@en ;
+    wdt:P1476 "Amanos: Patas Na ang Laban"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "1997-04-23T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ang_Pulubi_at_ang_Prinsesa> rdfs:label "Ang Pulubi at ang Prinsesa"@en ;
+    wdt:P1476 "Ang Pulubi at ang Prinsesa"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "1997-01-10T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Biyudo_si_Daddy,_Biyuda_si_Mommy> rdfs:label "Biyudo si Daddy, Biyuda si Mommy"@en ;
+    wdt:P1476 "Biyudo si Daddy, Biyuda si Mommy"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "1997-07-23T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Hanggang_Kailan_Kita_Mamahalin?> rdfs:label "Hanggang Kailan Kita Mamahalin?"@en ;
+    wdt:P1476 "Hanggang Kailan Kita Mamahalin?"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q7088065 ;
+    wdt:P577 "1997-08-13T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Home_Along_Da_Riles_2> rdfs:label "Home Along Da Riles 2"@en ;
+    wdt:P1476 "Home Along Da Riles 2"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "1997-05-28T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ikaw_Pala_ang_Mahal_Ko> rdfs:label "Ikaw Pala ang Mahal Ko"@en ;
+    wdt:P136 wd:Q1054574,
+        wd:Q130232 ;
+    wdt:P1476 "Ikaw Pala ang Mahal Ko"@en ;
+    wdt:P161 wd:Q12970124,
+        wd:Q195156,
+        wd:Q2311526,
+        wd:Q2884878,
+        wd:Q3550232,
+        wd:Q5530466 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q6292560 ;
+    wdt:P577 "1997-11-19T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Iskalawag_Ang_Batas_Ay_Batas> rdfs:label "Iskalawag: Ang Batas Ay Batas"@en ;
+    wdt:P1476 "Iskalawag: Ang Batas Ay Batas"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "1997-01-22T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Kapag_May_Katwiran.._Ipaglaban_Mo!_The_Movie_2> rdfs:label "Kapag May Katwiran.. Ipaglaban Mo! The Movie 2"@en ;
+    wdt:P136 wd:Q130232,
+        wd:Q959790 ;
+    wdt:P1476 "Kapag May Katwiran.. Ipaglaban Mo! The Movie 2"@en ;
+    wdt:P161 wd:Q12972635,
+        wd:Q3543757,
+        wd:Q4762719,
+        wd:Q5043677 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q7366943 ;
+    wdt:P577 "1997-11-05T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Lahar_Paraisong_Abo> rdfs:label "Lahar (Paraisong Abo)"@en ;
+    wdt:P1476 "Lahar (Paraisong Abo)"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q68098810 ;
+    wdt:P577 "1997-03-12T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/NBI_The_Mariano_Mison_Story> rdfs:label "NBI: The Mariano Mison Story"@en ;
+    wdt:P1476 "NBI: The Mariano Mison Story"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "1997-02-26T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Sabi_Mo,_Mahal_Mo_Ako,_Walang_Bawian> rdfs:label "Sabi Mo, Mahal Mo Ako, Walang Bawian"@en ;
+    wdt:P1476 "Sabi Mo, Mahal Mo Ako, Walang Bawian"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "1997-09-10T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Tapang_sa_Tapang> rdfs:label "Tapang sa Tapang"@en ;
+    wdt:P1476 "Tapang sa Tapang"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Wala_Ka_Nang_Puwang_Sa_Mundo> rdfs:label "Wala Ka Nang Puwang Sa Mundo"@en ;
+    wdt:P1476 "Wala Ka Nang Puwang Sa Mundo"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q7365968 ;
+    wdt:P577 "1997-10-22T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Wanted_Perfect_Murder> rdfs:label "Wanted Perfect Murder"@en ;
+    wdt:P1476 "Wanted Perfect Murder"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q928 ;
+    wdt:P57 wd:Q4944040 ;
+    wdt:P577 "1997-06-11T00:00:00+00:00"^^xsd:dateTime .
+

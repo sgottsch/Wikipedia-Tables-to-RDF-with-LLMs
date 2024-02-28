@@ -1,0 +1,156 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of football clubs in Chile" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|- 
+!Club
+!City
+!Last season{{efn|in the [[Chilean football league system]]}}
+|-
+|[[C.D. América de Rancagua|América de Rancagua]]
+|[[Rancagua]]
+|[[1954 Segunda División de Chile|1954]]
+|-
+|[[C.D. Aviación|Aviación]]
+|Santiago
+|[[1981 Segunda División de Chile|1981]]
+|-
+|[[Bádminton F.C.|Bádminton]]{{efn|'''Santiago Bádminton''' (1933)}}
+|Santiago
+|[[1949 Primera División de Chile|1949]]
+|-
+|[[Bádminton F.C.|Bádminton Curicó]]
+|Curicó
+|[[1971 Segunda División de Chile|1971]]
+|-
+|[[Deportes Ovalle]]{{efn|'''Ovalle Ferroviarios''' (1963–1964)}}
+|[[Ovalle]]
+|[[2015–16 Segunda División Profesional de Chile|2015–16]]
+|-
+|[[Deportes Pintana]]{{efn|'''Municipal La Pintana''' (2009–2013), '''Deportes La Pintana''' (2013–2014)}}
+|Santiago ([[La Pintana]])
+|{{ill|lt=2017|2017 Segunda División Profesional de Chile (Transición)|es|Torneo Transición de la Segunda División Profesional de Chile 2017|vertical-align=sup}} |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/América_de_Rancagua> wdt:P159 <https://en.wikipedia.org/wiki/Rancagua> ;
+ wdt:P576 "1955-04-07T00:00:00Z"^^xsd:dateTime ;
+ wdt:P641 <https://en.wikipedia.org/wiki/Association_football> ;
+ rdfs:label "América de Rancagua"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Rancagua> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Football_club_(association_football)> ;
+ wdt:P571 "1914-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Chile> .
+
+<https://example.org/resource/Aviación> wdt:P118 <https://en.wikipedia.org/wiki/Primera_B_de_Chile> ;
+ wdt:P641 <https://en.wikipedia.org/wiki/Association_football> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/El_Bosque,_Chile> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Football_club_(association_football)> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Chile> ;
+ wdt:P576 "1982-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P115 wd:Q20014928 ;
+ wdt:P910 wd:Q39808286 ;
+ wdt:P571 "1957-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Deportes Aviación"@en ;
+ wdt:P1424 wd:Q25898028 ;
+ wdt:P6112 <https://en.wikipedia.org/wiki/Category:C.D._Aviaci%C3%B3n_footballers> .
+
+<https://example.org/resource/Bádminton> wdt:P571 "1912-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P118 <https://en.wikipedia.org/wiki/Primera_B_de_Chile> ;
+ wdt:P641 <https://en.wikipedia.org/wiki/Association_football> ;
+ wdt:P115 <https://en.wikipedia.org/wiki/Estadio_La_Granja> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Football_club_(association_football)> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Chile> ;
+ wdt:P576 "1973-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Santiago Badminton Football Club"@en ;
+ wdt:P6112 <https://en.wikipedia.org/wiki/Category:B%C3%A1dminton_F.C._footballers> .
+
+<https://example.org/resource/Bádminton_Curicó> wdt:P571 "1912-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P118 <https://en.wikipedia.org/wiki/Primera_B_de_Chile> ;
+ wdt:P641 <https://en.wikipedia.org/wiki/Association_football> ;
+ wdt:P115 <https://en.wikipedia.org/wiki/Estadio_La_Granja> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Football_club_(association_football)> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Chile> ;
+ wdt:P576 "1973-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Santiago Badminton Football Club"@en ;
+ wdt:P6112 <https://en.wikipedia.org/wiki/Category:B%C3%A1dminton_F.C._footballers> .
+
+<https://example.org/resource/Deportes_Ovalle> rdfs:label "Deportes Ovalle"@en ;
+ wdt:P856 <http://www.cdovalle.cl/> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Ovalle> ;
+ wdt:P641 <https://en.wikipedia.org/wiki/Association_football> ;
+ wdt:P571 "1963-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P118 <https://en.wikipedia.org/wiki/Tercera_A_(Chile)> ;
+ wdt:P6112 <https://en.wikipedia.org/wiki/Category:Deportes_Ovalle_footballers> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Football_club_(association_football)> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Chile> ;
+ wdt:P910 wd:Q38017106 ;
+ wdt:P115 wd:Q35755559 ;
+ wdt:P1424 wd:Q25904517 .
+
+<https://example.org/resource/Deportes_Pintana> wdt:P115 <https://en.wikipedia.org/wiki/Estadio_Municipal_de_La_Pintana> ;
+ wdt:P6112 <https://en.wikipedia.org/wiki/Category:Deportes_Pintana_footballers> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/La_Pintana> ;
+ wdt:P641 <https://en.wikipedia.org/wiki/Association_football> ;
+ wdt:P118 <https://en.wikipedia.org/wiki/Tercera_A_(Chile)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Football_club_(association_football)> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Chile> ;
+ wdt:P571 "2009-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P910 wd:Q38497937 ;
+ wdt:P1424 wd:Q25904521 ;
+ rdfs:label "Municipal La Pintana"@en ;
+ wdt:P856 <https://www.deportespintana.cl/> .
+---
+These are the labels of the properties:
+
+wdt:P159 -> headquarters location
+wdt:P576 -> dissolved, abolished or demolished date
+wdt:P641 -> sport
+wdt:P131 -> located in the administrative territorial entity
+wdt:P31 -> instance of
+wdt:P571 -> inception
+wdt:P17 -> country
+wdt:P118 -> league
+wdt:P115 -> home venue
+wdt:P910 -> topic's main category
+wdt:P1424 -> topic's main template
+wdt:P6112 -> category for members of a team
+wdt:P856 -> official website URL.
+---
+These are the labels of the objects:
+
+wd:Q20014928 -> Q20014928
+wd:Q39808286 -> Q39808286
+wd:Q25898028 -> Q25898028
+wd:Q38017106 -> Q38017106
+wd:Q35755559 -> Q35755559
+wd:Q25904517 -> Q25904517
+wd:Q38497937 -> Q38497937
+wd:Q25904521 -> Q25904521.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|- 
+!Club
+!City
+!Last season{{efn|in the [[Chilean football league system]]}}
+|-
+|[[Deportivo Thomas Bata|Thomas Bata]]
+|Peñaflor
+|{{ill|lt=1990|1990 Tercera División de Chile|es|Tercera División de Chile 1990|vertical-align=sup}}
+|-
+|[[Unión Temuco]]
+|[[Temuco]]
+|[[2013 Torneo Transición (Primera B de Chile)|2013]]
+|-
+|[[Club Deportivo Universidad Técnica del Estado|Universidad Técnica]]{{efn|a.k.a. '''UTE'''}}
+|Santiago
+|[[1969 Segunda División de Chile|1969]] |}
+---

@@ -1,0 +1,517 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of books banned by governments" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Title
+! Author(s)
+! Year published
+! Type
+! Notes
+|-
+| ''[[Frankenstein]]'' (1818)
+| [[Mary Shelley]]
+| 1818
+| Novel
+| Banned in apartheid South Africa in 1955 for containing "obscene" or "indecent" material.<ref name=b2/>
+|-
+| ''[[Lolita]]'' (1955)
+| [[Vladimir Nabokov]]
+| 1955
+| Novel
+| Banned for being "obscene".<ref name=time />
+|-
+| ''[[A World of Strangers]]''
+| [[Nadine Gordimer]]
+| 1958
+| Novel
+| Banned in [[South Africa]] because of its criticism of [[Apartheid]].<ref>{{Cite news| issn = 0362-4331| last = Verongos| first = Helen T.| title = Nadine Gordimer, Novelist Who Took On Apartheid, Is Dead at 90| work = The New York Times| date = 2014-07-14| url = https://www.nytimes.com/2014/07/15/books/nadine-gordimer-novelist-and-apartheid-foe-dies-at-90.html}}</ref>
+|-
+| ''[[Why We Can't Wait]]''
+| [[Martin Luther King Jr.]]
+| 1964
+| Non-fiction
+| Banned in [[South Africa]] because of its criticism of [[white supremacy]].<ref name="dj">Jones, Derek, ''Censorship : A World Encyclopedia''. London : Routledge, 2015. {{ISBN|9781136798634}} (p. 2008)</ref>
+|-
+| ''[[The Autobiography of Malcolm X]]''
+| [[Malcolm X]] with [[Alex Haley]]
+| 1965
+| Non-fiction
+| Banned in South Africa because of its criticism of white supremacy.<ref name="dj" />
+|-
+| ''[[Black Power: The Politics of Liberation]]''
+| [[Stokely Carmichael]] and [[Charles V. Hamilton]]
+| 1967
+| Non-fiction
+| Banned in South Africa because of its criticism of white supremacy.<ref name="dj" /> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Frankenstein> wdt:P8371 <https://en.wikipedia.org/wiki/Philosopher%27s_stone> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Mary_Shelley%27s_Frankenstein_(film)> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Doctor_Waldman> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Victor_Frankenstein_(film)> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Il_mostro_di_Frankenstein> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Frankenstein%201818%20edition%20title%20page.jpg> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Albertus_Magnus> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein:_The_True_Story> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein_(2004_film)> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/My_Name_Is_Bruce> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein_(1992_film)> ;
+ wdt:P527 <https://en.wikipedia.org/wiki/Mary_Shelley> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:Frankenstein> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Paracelsus> ;
+ wdt:P571 "1810-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P8371 wd:Q42195215 ;
+ wdt:P4969 wd:Q3082883 ;
+ wdt:P4969 wd:Q63885075 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_Kingdom_of_Great_Britain_and_Ireland> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Julius_Caesar> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Epistolary_novel> ;
+ wdt:P577 "1818-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Paradise_Lost> ;
+ wdt:P4969 wd:Q70080431 ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Sorrows_of_Young_Werther> ;
+ wdt:P291 <https://en.wikipedia.org/wiki/London> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein_(2011_play)> ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/The_Curse_of_Frankenstein> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P155 <https://en.wikipedia.org/wiki/History_of_a_Six_Weeks%27_Tour> ;
+ wdt:P166 wd:Q20899118 ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Rime_of_the_Ancient_Mariner> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein:_Day_of_the_Beast> ;
+ wdt:P953 <https://standardebooks.org/ebooks/mary-shelley/frankenstein> ;
+ wdt:P747 wd:Q55239420 ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Elizabeth_Lavenza> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein_(1910_film)> ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P747 <https://en.wikipedia.org/wiki/Bernie_Wrightson%27s_Frankenstein> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Young_Frankenstein> ;
+ wdt:P1424 <https://en.wikipedia.org/wiki/Template:Frankenstein> ;
+ wdt:P747 wd:Q51434118 ;
+ wdt:P747 wd:Q51435158 ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Heinrich_Cornelius_Agrippa> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Fantasy> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein_(upcoming_film)> ;
+ wdt:P4969 wd:Q37743414 ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Adam> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Terror_of_Frankenstein> ;
+ wdt:P1922 "You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings."@en ;
+ wdt:P1680 "The Modern Prometheus"@en ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Frankenstein%27s_monster> ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Novel> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Son_of_Frankenstein> ;
+ wdt:P3132 "He was soon borne away by the waves, and lost in darkness and distance."@en ;
+ rdfs:label "Frankenstein; or, The Modern Prometheus"@en ;
+ wdt:P4969 wd:Q114767471 ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein_(2015_film)> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Scientist> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Victor_Frankenstein> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein_vs._Baragon> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Homer> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Gothic_fiction> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Life_Without_Soul> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction> ;
+ wdt:P136 wd:Q102260654 ;
+ wdt:P747 wd:Q102292880 ;
+ wdt:P5940 wd:Q3082891 ;
+ wdt:P747 wd:Q51613242 ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Bikini_Frankenstein> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein_90> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Parallel_Lives> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Flesh_for_Frankenstein> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Edition_(book)> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Science_fiction> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Frankenstein_(disambiguation)> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/The_Frankenstein_Syndrome> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Vicar_of_Wakefield> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein_(1973_film)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/William_Shakespeare> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Mutability_(poem)> ;
+ wdt:P4969 wd:Q11969941 ;
+ wdt:P948 <http://commons.wikimedia.org/wiki/Special:FilePath/Editions%20of%20Frankenstein%20%28cropped%29.jpg> ;
+ wdt:P156 <https://en.wikipedia.org/wiki/Valperga_(novel)> ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P7150 "Did I request thee, Maker, from my clay<br>To mould me Man, did I solicit thee<br>From darkness to promote me?"@en ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/The_Bride_(1985_film)> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Frankenstein_(1931_film)> ;
+ wdt:P1476 "Frankenstein"@en ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Mary_Shelley> ;
+ wdt:P135 <https://en.wikipedia.org/wiki/Romanticism> .
+
+<https://example.org/resource/Lolita> wdt:P674 wd:Q47488838 ;
+ wdt:P8371 wd:Q47461229 ;
+ wdt:P8371 wd:Q47462341 ;
+ wdt:P8371 wd:Q47461220 ;
+ wdt:P8371 wd:Q47462304 ;
+ wdt:P8371 wd:Q47459665 ;
+ wdt:P577 "1955-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1343 wd:Q116876043 ;
+ wdt:P737 wd:Q27134782 ;
+ wdt:P2438 wd:Q47492656 ;
+ wdt:P8371 wd:Q47459585 ;
+ wdt:P674 wd:Q47482727 ;
+ wdt:P674 wd:Q47488866 ;
+ wdt:P674 wd:Q47492656 ;
+ wdt:P8371 wd:Q47457597 ;
+ wdt:P8371 wd:Q47459626 ;
+ wdt:P674 wd:Q47471703 ;
+ wdt:P8371 wd:Q42887925 ;
+ wdt:P674 wd:Q47486170 ;
+ wdt:P571 "1950-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P8371 wd:Q47450787 ;
+ wdt:P8371 wd:Q47461256 ;
+ wdt:P674 wd:Q47486671 ;
+ wdt:P674 wd:Q47488848 ;
+ wdt:P921 wd:Q47407603 ;
+ wdt:P8371 wd:Q47457563 ;
+ wdt:P747 wd:Q46710463 ;
+ wdt:P1922 "Lolita, light of my life, fire of my loins."@en ;
+ wdt:P674 wd:Q47486723 ;
+ wdt:P674 wd:Q47492694 ;
+ wdt:P3132 "And this is the only immortality you and I may share, my Lolita"@en ;
+ rdfs:label "Lolita"@en ;
+ wdt:P6216 wd:Q50423863 ;
+ wdt:P138 wd:Q47471703 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Lolita%201955.JPG> ;
+ wdt:P136 wd:Q47472667 ;
+ wdt:P747 wd:Q47007804 ;
+ wdt:P8371 wd:Q47462398 ;
+ wdt:P737 wd:Q21530858 ;
+ wdt:P2438 wd:Q5904834 ;
+ wdt:P8371 wd:Q16653632 ;
+ wdt:P910 wd:Q15508379 ;
+ wdt:P674 wd:Q5904834 ;
+ wdt:P8371 wd:Q19968966 ;
+ wdt:P136 wd:Q1557877 ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P8371 wd:Q17357164 ;
+ wdt:P674 wd:Q47488906 ;
+ wdt:P674 wd:Q47488793 ;
+ wdt:P1476 "Lolita"@en ;
+ wdt:P6962 <https://en.wikipedia.org/wiki/Metamorphosis> ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Weidenfeld_%26_Nicolson> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Romeo_and_Juliet> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Erotica> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Alice_Adams_(novel)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Pierre;_or,_The_Ambiguities> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lolita_(play)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Hamlet> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Lolita_fashion> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Little_Mermaid> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Justine_(de_Sade_novel)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/A_Girl_of_the_Limberlost_(novel)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Possessed_(1947_film)> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Pedophilia> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Gypsies_(poem)> ;
+ wdt:P291 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Fawcett_Publications> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Tyger> ;
+ wdt:P2283 <https://en.wikipedia.org/wiki/Grotesque> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Finnegans_Wake> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Emperor%27s_New_Clothes> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Psychoanalysis> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Le_roi_s%27amuse> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lolita_(1997_film)> ;
+ wdt:P6962 <https://en.wikipedia.org/wiki/Destiny> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/A_Portrait_of_the_Artist_as_a_Young_Man> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Metafiction> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/La_Belle_Dame_sans_Merci> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Hebephilia> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Melmoth_the_Wanderer> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Kubla_Khan> ;
+ wdt:P737 <https://en.wikipedia.org/wiki/The_Little_Mermaid> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Deserted_Village> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/20th_Century%27s_Greatest_Hits:_100_English-Language_Books_of_Fiction> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Tartuffe> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Brute_Force_(1947_film)> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Le_Monde%27s_100_Books_of_the_Century> ;
+ wdt:P2408 <https://en.wikipedia.org/wiki/1940s> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Trees_(poem)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Mr._Pim_Passes_By> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/King_Lear> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Doctor_Faustus_(play)> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Detective_fiction> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Gerontion> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/A_Murder_Is_Announced> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Double_(Dostoevsky_novel)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Pippa_Passes> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Atala_(novella)> ;
+ wdt:P737 <https://en.wikipedia.org/wiki/Edgar_Allan_Poe> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/A_Sentimental_Journey_Through_France_and_Italy> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Cherry_Orchard> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_School_for_Scandal> ;
+ wdt:P737 <https://en.wikipedia.org/wiki/Fyodor_Dostoevsky> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Canon_of_Sherlock_Holmes> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Bluebeard> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Ash_Wednesday_(poem)> ;
+ wdt:P737 <https://en.wikipedia.org/wiki/Eugene_Onegin> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Child_abuse> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lolita_(opera)> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Lolita_(1962_film)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Acharnians> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Lenore_(ballad)> ;
+ wdt:P180 <https://en.wikipedia.org/wiki/Consumer_culture> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/In_Search_of_Lost_Time> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Strange_Case_of_Dr_Jekyll_and_Mr_Hyde> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Sorrows_of_Young_Werther> ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Olympia_Press> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/L%27Arl%C3%A9sienne_(painting)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Le_Bateau_ivre> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Penny_(comic_strip)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Whistler%27s_Mother> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Lolita_(disambiguation)> ;
+ wdt:P2283 <https://en.wikipedia.org/wiki/Parody> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Tragicomedy> ;
+ wdt:P2408 <https://en.wikipedia.org/wiki/1950s> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Hansel_and_Gretel> ;
+ wdt:P6962 <https://en.wikipedia.org/wiki/Doppelg%C3%A4nger> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Erlk%C3%B6nig> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Narrative_of_Arthur_Gordon_Pym_of_Nantucket> ;
+ wdt:P2283 <https://en.wikipedia.org/wiki/Foreshadowing> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Age_of_Innocence_(painting)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Betrothed_(poem)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Don_Quixote> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Ulysses_(novel)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Treasure_Island> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Madame_Bovary> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Macbeth> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Solipsism> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/To_an_Athlete_Dying_Young> ;
+ wdt:P180 <https://en.wikipedia.org/wiki/Daimonic> ;
+ wdt:P6962 <https://en.wikipedia.org/wiki/Game> ;
+ wdt:P2283 <https://en.wikipedia.org/wiki/Quest> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Childe_Harold%27s_Pilgrimage> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Blue_Bird_(play)> ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Novel> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Soliloquy_of_the_Spanish_Cloister> ;
+ wdt:P2283 <https://en.wikipedia.org/wiki/Word_play> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Little_Women> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Morality> ;
+ wdt:P737 <https://en.wikipedia.org/wiki/A_Gentle_Creature> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Taming_of_the_Shrew> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Jean-Christophe> ;
+ wdt:P123 <https://en.wikipedia.org/wiki/G._P._Putnam%27s_Sons> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/The_Birth_of_Venus> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Vladimir_Nabokov> ;
+ wdt:P180 <https://en.wikipedia.org/wiki/Insanity> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Hedda_Gabler> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Sleeping_Beauty> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P6962 <https://en.wikipedia.org/wiki/Fairy_tale> ;
+ wdt:P6962 <https://en.wikipedia.org/wiki/Lepidoptera> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Carmen_(novella)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Home_of_the_Gentry> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Dick_Tracy> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Desire_Under_the_Elms> ;
+ wdt:P2283 <https://en.wikipedia.org/wiki/Story_within_a_story> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Beauty_and_the_Beast> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Annabel_Lee> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Candida_(play)> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/New_England> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/London_(William_Blake_poem)> ;
+ wdt:P8371 <https://en.wikipedia.org/wiki/Rubaiyat_of_Omar_Khayyam> .
+
+<https://example.org/resource/A_World_of_Strangers> rdfs:label "A World of Strangers"@en ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Nadine_Gordimer> ;
+ wdt:P1476 "A world of strangers"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P577 "1958-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Novel> ;
+ wdt:P31 wd:Q7725634 .
+
+<https://example.org/resource/Why_We_Can't_Wait> wdt:P577 "1964-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.> ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Human_rights> ;
+ rdfs:label "Why We Can't Wait"@en ;
+ wdt:P31 wd:Q7725634 .
+
+<https://example.org/resource/The_Autobiography_of_Malcolm_X> wdt:P1476 "The Autobiography of Malcolm X"@en ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Grove_Press> ;
+ wdt:P31 wd:Q47461344 ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:WikiProject_African_diaspora> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Malcolm_X> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Alex_Haley> ;
+ rdfs:label "The Autobiography of Malcolm X"@en ;
+ wdt:P840 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P577 "1965-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Malcolm_X_(1992_film)> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Autobiography> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Autobiography%20of%20Malcolm%20X%20%281st%20ed%20dust%20jacket%20cover%29.jpg> .
+
+<https://example.org/resource/Black_Power:_The_Politics_of_Liberation> rdfs:label "Black Power: The Politics of Liberation"@en ;
+ wdt:P577 "1967-10-23T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 wd:Q47461344 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Black%20power.jpg> ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:WikiProject_African_diaspora> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1680 "The Politics of Liberation"@en ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Charles_V._Hamilton> ;
+ wdt:P1476 "Black Power"@en ;
+ wdt:P840 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Black_power> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Stokely_Carmichael> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Civil_rights_movement> .
+---
+These are the labels of the properties:
+
+wdt:P8371 -> references work, tradition or theory
+wdt:P4969 -> derivative work
+wdt:P674 -> characters
+wdt:P18 -> image
+wdt:P527 -> has part(s)
+wdt:P910 -> topic's main category
+wdt:P571 -> inception
+wdt:P495 -> country of origin
+wdt:P136 -> genre
+wdt:P577 -> publication date
+wdt:P291 -> place of publication
+wdt:P5008 -> on focus list of Wikimedia project
+wdt:P407 -> language of work or name
+wdt:P155 -> follows
+wdt:P166 -> award received
+wdt:P953 -> full work available at URL
+wdt:P747 -> has edition or translation
+wdt:P6216 -> copyright status
+wdt:P1424 -> topic's main template
+wdt:P1922 -> first line
+wdt:P1680 -> subtitle
+wdt:P7937 -> form of creative work
+wdt:P3132 -> last line
+wdt:P106 -> occupation
+wdt:P5940 -> plot expanded in
+wdt:P31 -> instance of
+wdt:P1889 -> different from
+wdt:P948 -> page banner
+wdt:P156 -> followed by
+wdt:P7150 -> epigraph
+wdt:P1476 -> title
+wdt:P50 -> author
+wdt:P135 -> movement
+wdt:P1343 -> described by source
+wdt:P737 -> influenced by
+wdt:P2438 -> narrator
+wdt:P921 -> main subject
+wdt:P138 -> named after
+wdt:P6962 -> narrative motif
+wdt:P123 -> publisher
+wdt:P2283 -> uses
+wdt:P2408 -> set in period
+wdt:P180 -> depicts
+wdt:P840 -> narrative location.
+---
+These are the labels of the objects:
+
+wd:Q42195215 -> The Ruins: or a Survey of the Revolutions of Empires
+wd:Q3082883 -> Frankenstein General Hospital
+wd:Q63885075 -> Frankenstein
+wd:Q70080431 -> Frankenstein
+wd:Q20899118 -> NPR Top 100 Science Fiction and Fantasy Books
+wd:Q55239420 -> Frankenstein; or, the Modern Prometheus
+wd:Q51434118 -> Frankenstein, ou le Prométhée moderne
+wd:Q51435158 -> Frankenstein, ou le Prométhée moderne
+wd:Q37743414 -> Frankenstein-project
+wd:Q114767471 -> Frankenstein
+wd:Q102260654 -> body horror literature
+wd:Q102292880 -> Frankenstein
+wd:Q3082891 -> Frankenstein Unbound
+wd:Q51613242 -> Frankenstein, or the Modern Prometheus
+wd:Q11969941 -> Frankenstein
+wd:Q7725634 -> literary work
+wd:Q47488838 -> John Farlow
+wd:Q47461229 -> Q47461229
+wd:Q47462341 -> Q47462341
+wd:Q47461220 -> Noon
+wd:Q47462304 -> Nevermore
+wd:Q47459665 -> Tarantella
+wd:Q116876043 -> Girl Culture: An Encyclopedia
+wd:Q27134782 -> The Beauty Sleeping in the Wood
+wd:Q47492656 -> John Ray, Jr
+wd:Q47459585 -> Impuissance
+wd:Q47482727 -> Clare Quilty
+wd:Q47488866 -> Gaston Godin
+wd:Q47457597 -> L.M.F.
+wd:Q47459626 -> Catullus 58
+wd:Q47471703 -> Dolores Haze
+wd:Q42887925 -> See the conqu'ring hero comes!
+wd:Q47486170 -> Charlotte Haze
+wd:Q47450787 -> Letters to Benjamin Bailey
+wd:Q47461256 -> Arsène Lupin literary series
+wd:Q47486671 -> Annabel Leigh
+wd:Q47488848 -> Jean Farlow
+wd:Q47407603 -> artistic creation
+wd:Q47457563 -> A Concent of Scripture
+wd:Q46710463 -> Lolita (2010 Penguin Classics ed.)
+wd:Q47486723 -> Valeria Zborovski
+wd:Q47492694 -> Vivian Darkbloom
+wd:Q50423863 -> copyrighted
+wd:Q47472667 -> confessional fiction
+wd:Q47007804 -> The Annotated Lolita (1991 Vintage Books ed.)
+wd:Q47462398 -> Læti et Errabundi
+wd:Q21530858 -> Rusalka
+wd:Q5904834 -> Humbert Humbert
+wd:Q16653632 -> Q16653632
+wd:Q15508379 -> Category:Lolita (book)
+wd:Q19968966 -> The Kreutzer Sonata
+wd:Q1557877 -> editorial fiction
+wd:Q17357164 -> Au lecteur
+wd:Q47488906 -> Rita
+wd:Q47488793 -> Richard Schiller
+wd:Q47461344 -> written work.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Title
+! Author(s)
+! Year published
+! Type
+! Notes
+|-
+| ''[[Burger's Daughter]]''
+| [[Nadine Gordimer]]
+| 1979
+| Novel
+| Banned in South Africa in July 1979 for going against the government's racial policies; the ban was reversed in October of the same year.<ref name="karolides"/>
+|-
+| ''[[July's People]]'' (1981)
+| [[Nadine Gordimer]]
+| 1981
+| Novel
+| Banned during the Apartheid-era in South Africa.<ref>{{cite web
+ | title = Nadine Gordimer
+ | publisher = South African History Online
+ | url = http://www.sahistory.org.za/pages/people/bios/gordimer-n.htm
+ | access-date = November 16, 2009
+ | archive-url = https://web.archive.org/web/20091220005957/http://www.sahistory.org.za/pages/people/bios/gordimer-n.htm
+ | archive-date = December 20, 2009
+ }}</ref> ''July's People'' is now included in the South African school curriculum.<ref>{{cite web
+ |last=South African Government Online 
+ |title=Asmal comments on Gauteng matriculation set works 
+ |work=Speeches and Statements 
+ |publisher=Ministry of Education 
+ |date=April 19, 2001 
+ |url=http://www.info.gov.za/speeches/2001/010420945a1006.htm 
+ |access-date=November 16, 2009 
+ |archive-url=https://web.archive.org/web/20110629042708/http://www.info.gov.za/speeches/2001/010420945a1006.htm 
+ |archive-date=June 29, 2011 
+}}</ref> |}
+---

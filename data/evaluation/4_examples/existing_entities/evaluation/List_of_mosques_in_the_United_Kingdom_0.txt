@@ -1,0 +1,103 @@
+In both
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Finsbury%20park%20mosque.jpg> .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Suleymaniye Mosque"@en .
+<https://example.org/resource/Ramadan_Masjid> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Ramadan_Masjid> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Shacklewell%20Lane%20synagogue%20-%20mosque.jpg> .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Ramadan_Masjid> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+In ground only
+<https://example.org/resource/East_London_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "East London Mosque"@en .
+<https://example.org/resource/Brixton_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Brixton%20Mosque%2C%20Gresham%20Road.jpg> .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/ELM%20and%20LMC%20Angled%20View%201.jpg> .
+<https://example.org/resource/Harrow_Central_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P485> <http://www.wikidata.org/entity/Q81165723> .
+<https://example.org/resource/Brixton_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3492335> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q210563> .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Suleymaniye%20Mosque%20London%2C%20E2.jpg> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "The London Mosque"@en .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q2146341> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Finsbury%20Park%20Mosque%201.jpg> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q19186> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Finsbury Park Mosque"@en .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q208152> .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P571> "1999-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Harrow_Central_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Harrow Central Mosque"@en .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q19186> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P1083> "2000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Harrow_Central_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q205679> .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://www.eastlondonmosque.org.uk/> .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Leytonstone_Masjid> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q67442940> .
+<https://example.org/resource/Ramadan_Masjid> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q19186> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://www.ahmadiyya.org.uk> .
+<https://example.org/resource/Brixton_Mosque> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q67443130> .
+<https://example.org/resource/Brixton_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q212940> .
+<https://example.org/resource/Brixton_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q202059> .
+<https://example.org/resource/Leytonstone_Masjid> <http://www.wikidata.org/prop/direct/P571> "1976-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q81165723> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P571> "1926-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Brixton_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Brixton Mosque"@en .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://www.suleymaniye.org/> .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q19186> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q15700834> .
+<https://example.org/resource/Leytonstone_Masjid> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/London_Islamic_Cultural_Society_&_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "London Islamic Cultural Society"@en .
+<https://example.org/resource/Brixton_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://www.masjidit.co.uk/> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Fazl%20Moschee.JPG> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P84> <http://www.wikidata.org/entity/Q7790531> .
+<https://example.org/resource/Leytonstone_Masjid> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Leytonstone%20Masjid.jpg> .
+<https://example.org/resource/Brixton_Mosque> <http://www.wikidata.org/prop/direct/P571> "1990-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Leytonstone_Masjid> <http://www.w3.org/2000/01/rdf-schema#label> "Leytonstone Mosque"@en .
+<https://example.org/resource/Harrow_Central_Mosque> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q19186> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q16920491> .
+<https://example.org/resource/Leytonstone_Masjid> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P1083> "150"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P6375> "16 Gressenhall Road, London SW18 5QL"@en .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q67443130> .
+<https://example.org/resource/Fazl_Mosque_/_The_London_Mosque> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q32504> .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/East%20London%20Mosque%20Front%20View.jpg> .
+<https://example.org/resource/Harrow_Central_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Harrow%20Central%20Mosque.jpg> .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P1083> "7000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Harrow_Central_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q210476> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P6375> "7-11 St Thomas's Rd, London N4 2QH, Velká Británie"@en .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P140> <http://www.wikidata.org/entity/Q432> .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/Brixton_Mosque> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q146690> .
+<https://example.org/resource/Ramadan_Masjid> <http://www.w3.org/2000/01/rdf-schema#label> "Shacklewell Lane Mosque"@en .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P856> <http://www.finsburyparkmosque.org> .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P571> "1990-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Leytonstone_Masjid> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q40608> .
+<https://example.org/resource/East_London_Mosque> <http://www.wikidata.org/prop/direct/P571> "1910-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q205817> .
+In predicted only
+<https://example.org/resource/London_Islamic_Cultural_Society> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/London_Islamic_Cultural_Society> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Licsmasjid.png> .
+<https://example.org/resource/Leytonstone_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1368969> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "North London Central Mosque"@en .
+<https://example.org/resource/Leytonstone_Mosque> <http://www.wikidata.org/prop/direct/P1083> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/London_Islamic_Cultural_Society> <http://www.w3.org/2000/01/rdf-schema#label> "London Islamic Cultural Society & Mosque"@en .
+<https://example.org/resource/Leytonstone_Mosque> <http://www.w3.org/2000/01/rdf-schema#label> "Leytonstone Masjid"@en .
+<https://example.org/resource/Ramadan_Masjid> <http://www.w3.org/2000/01/rdf-schema#label> "Ramadan Masjid"@en .
+<https://example.org/resource/Leytonstone_Mosque> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/London_Islamic_Cultural_Society> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2454407> .
+<https://example.org/resource/London_Islamic_Cultural_Society> <http://www.wikidata.org/prop/direct/P1083> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P1083> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Ramadan_Masjid> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2499366> .
+<https://example.org/resource/Leytonstone_Mosque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/London_Islamic_Cultural_Society> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q32815> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P1083> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Leytonstone_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Leytonstone%20Masjid.jpg> .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Suleymaniye%20Mosque%20London,%20E2.jpg> .
+<https://example.org/resource/Suleymaniye_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q84> .
+<https://example.org/resource/Ramadan_Masjid> <http://www.wikidata.org/prop/direct/P1083> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/North_London_Central_Mosque> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q84> .

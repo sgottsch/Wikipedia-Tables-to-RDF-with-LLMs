@@ -1,0 +1,128 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Baitul_Ahad_Mosque> rdfs:label "Baitul Ahad Mosque"@en ;
+    wdt:P131 wd:Q208139 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P856 <https://ahmadiyya.uk/mosques/baitul-ahad-mosque-newham/> .
+
+<https://example.org/resource/Baitul_Aman_Mosque> rdfs:label "Baitul Aman Mosque"@en ;
+    wdt:P131 wd:Q205690 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P856 <https://ahmadiyya.uk/mosques/baitul-aman-mosque-hayes/> .
+
+<https://example.org/resource/Baitul_Ehsan_Mosque> rdfs:label "Baitul Ehsan Mosque"@en ;
+    wdt:P131 wd:Q32504 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2017-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P856 <https://ahmadiyya.uk/mosques/baitul-ehsan-mosque-mitcham/> .
+
+<https://example.org/resource/Baitul_Wahid_Mosque> rdfs:label "Baitul Wahid Mosque"@en ;
+    wdt:P1083 700.0 ;
+    wdt:P131 wd:Q214162 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P856 <https://ahmadiyya.uk/mosques/baitul-wahid-mosque-feltham/> .
+
+<https://example.org/resource/Baitus_Subhan_Mosque> rdfs:label "Baitus Subhan Mosque"@en ;
+    wdt:P131 wd:Q26888 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P856 <https://ahmadiyya.uk/mosques/baitus-subhan-croydon/> .
+
+<https://example.org/resource/Darul_Amaan_Mosque> rdfs:label "Darul Amaan Mosque"@en ;
+    wdt:P131 wd:Q677762 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1978-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Darus_Salaam_Mosque> rdfs:label "Darus Salaam Mosque"@en ;
+    wdt:P131 wd:Q207218 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2020-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7959 wd:Q67442940 ;
+    wdt:P856 <https://ahmadiyya.uk/mosques/darus-salaam-mosque-southall/> .
+
+<https://example.org/resource/Madina_Mosque_Trust> rdfs:label "Madina Mosque Trust"@en ;
+    wdt:P1083 2500.0 ;
+    wdt:P131 wd:Q84 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Madina%20Mosque%20Trust%20-%20Western%20View.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Mevlana_Rumi_Mosque> rdfs:label "Mevlana Rumi Mosque"@en ;
+    wdt:P131 wd:Q210531 ;
+    wdt:P140 wd:Q432 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.rumimosque.org.uk/about-us/> .
+
+<https://example.org/resource/Muslim_Welfare_House> rdfs:label "Muslim Welfare House"@en ;
+    wdt:P131 wd:Q734547 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1976-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Palmers_Green_Mosque> rdfs:label "Palmers Green Mosque"@en ;
+    wdt:P1083 2500.0 ;
+    wdt:P131 wd:Q210531 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Shapps%20-%20MCEC-2.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Tahir_Mosque> rdfs:label "Tahir Mosque"@en ;
+    wdt:P131 wd:Q215030 ;
+    wdt:P140 wd:Q432 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://ahmadiyya.uk/mosques/tahir-mosque-catford/> .
+
+<https://example.org/resource/Waltham_Forest_Islamic_Association> rdfs:label "Waltham Forest Islamic Association"@en ;
+    wdt:P131 wd:Q2750829 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1966-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Wapping_Noorani_Masjid_&_Cultural_Centre> rdfs:label "Wapping Noorani Masjid & Cultural Centre"@en ;
+    wdt:P131 wd:Q124046 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/White_City_Mosque> rdfs:label "White City Mosque"@en ;
+    wdt:P131 wd:Q1774507 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/White%20City%20Mosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Wimbledon_Mosque> rdfs:label "Wimbledon Mosque"@en ;
+    wdt:P131 wd:Q206375 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1976-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Masjid_Abdul_Aziz_bin_Baz> rdfs:label "Masjid Abdul Aziz bin Baz"@en ;
+    wdt:P131 wd:Q676136 ;
+    wdt:P140 wd:Q432 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://example.org/resource/Masjid_Abdul_Aziz_bin_Baz> .
+

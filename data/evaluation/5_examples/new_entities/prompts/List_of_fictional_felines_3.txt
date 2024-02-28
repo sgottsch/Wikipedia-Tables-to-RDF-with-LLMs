@@ -1,0 +1,214 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of fictional felines" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+!Character
+!Origin
+!Notes
+|-
+|[[Mr. Bigglesworth]]
+|''[[Austin Powers (film series)|Austin Powers]]''
+|A parody of Blofeld's cat from James Bond films
+|-
+|[[Puss in Boots (Shrek)|Puss in Boots]]
+|''[[Shrek 2]]''
+|A cat from the [[Shrek (franchise)|''Shrek'' franchise]], voiced by [[List of Antonio Banderas performances|Antonio Banderas]] in English, Italian, and Spanish in the following films:&nbsp; ''[[Shrek 2]]'' and ''Far Far Away Idol'' in 2004, ''[[Shrek the Third]]'' (2007), ''[[Shrek Forever After]]'' (2010), ''[[Puss in Boots (2011 film)|Puss in Boots]]'' (2011), ''[[Puss in Boots: The Three Diablos]]'' (2012), and ''[[Puss in Boots: The Last Wish]]'' (2022). Puss was voiced by Eric Bauza in the six-season series ''The Adventures of Puss in Boots'', and by [[André Sogliuzzo|Andé Sogliuzzo]] and Christian Lanz in the video games. Sogliuzzo also voiced Puss in the series of one-minute web videos by DreamWorks in which Puss gives advice to viewers.  
+|-
+|[[Smarf]]
+|''[[Too Many Cooks (short)|Too Many Cooks]]''
+|An anthropomorphic cat puppet used in the short, a parody of various other puppets used in sitcoms. |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Mr._Bigglesworth> wdt:P1441 <https://en.wikipedia.org/wiki/Austin_Powers:_International_Man_of_Mystery> ;
+ wdt:P31 wd:Q15773347 ;
+ wdt:P27 <https://en.wikipedia.org/wiki/Belgium> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Dr.Evil3.jpg> ;
+ wdt:P26 <https://en.wikipedia.org/wiki/Frau_Farbissina> ;
+ wdt:P734 wd:Q28800766 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Austin_Powers:_The_Spy_Who_Shagged_Me> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Space_Jam:_A_New_Legacy> ;
+ wdt:P735 <https://en.wikipedia.org/wiki/Douglas_(given_name)> ;
+ wdt:P170 <https://en.wikipedia.org/wiki/Mike_Myers> ;
+ wdt:P144 <https://en.wikipedia.org/wiki/Ernst_Stavro_Blofeld> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Austin_Powers_in_Goldmember> ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P40 wd:Q7436303 ;
+ wdt:P4584 <https://en.wikipedia.org/wiki/Austin_Powers:_International_Man_of_Mystery> ;
+ wdt:P22 wd:Q7032601 ;
+ wdt:P3373 <https://en.wikipedia.org/wiki/Austin_Powers_(character)> ;
+ rdfs:label "Dr. Evil"@en ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Physician> ;
+ wdt:P5800 <https://en.wikipedia.org/wiki/Antagonist> ;
+ wdt:P973 <https://www.urbandictionary.com/define.php?term=Dr.%20Evil> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Supervillain> ;
+ wdt:P175 <https://en.wikipedia.org/wiki/Mike_Myers> ;
+ wdt:P571 "1997-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Austin_Powers> ;
+ wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Puss_in_Boots> wdt:P1441 <https://en.wikipedia.org/wiki/Shrek_Forever_After> ;
+ wdt:P170 <https://en.wikipedia.org/wiki/Andrew_Adamson> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Shrek_2> ;
+ wdt:P31 wd:Q27303706 ;
+ wdt:P1441 wd:Q29962131 ;
+ wdt:P989 <http://commons.wikimedia.org/wiki/Special:FilePath/Ru-Puss%20in%20Boots%20%28Shrek%29%20%28intro%29.ogg> ;
+ wdt:P5800 <https://en.wikipedia.org/wiki/Protagonist> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Shrek_n%27_Roll> ;
+ wdt:P175 <https://en.wikipedia.org/wiki/Eric_Bauza> ;
+ wdt:P106 wd:Q11397897 ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Puss_in_Boots_(disambiguation)> ;
+ wdt:P144 wd:Q120669954 ;
+ wdt:P1441 wd:Q52508891 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Shrek_the_Third> ;
+ wdt:P1340 wd:Q78374938 ;
+ wdt:P1441 wd:Q4049421 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Shrek_the_Third_(video_game)> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/The_Adventures_of_Puss_in_Boots> ;
+ wdt:P175 <https://en.wikipedia.org/wiki/Antonio_Banderas> ;
+ wdt:P2546 <https://en.wikipedia.org/wiki/Donkey_(Shrek)> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Puss_in_Boots_(2011_film)> ;
+ wdt:P1449 "Pickles"@en ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Fruit_Ninja:_Puss_in_Boots> ;
+ wdt:P1441 wd:Q123403984 ;
+ wdt:P31 wd:Q117289741 ;
+ wdt:P577 "2004-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Shrek_Smash_n%27_Crash_Racing> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Animated_character> ;
+ wdt:P1441 wd:Q21401874 ;
+ wdt:P1441 wd:Q21418988 ;
+ wdt:P460 wd:Q120669954 ;
+ wdt:P1441 wd:Q21533257 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Shrek_Forever_After_(video_game)> ;
+ wdt:P103 <https://en.wikipedia.org/wiki/Spanish_language> ;
+ wdt:P451 wd:Q110527461 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Shrek_(franchise)> ;
+ wdt:P1449 "The Furry Lover"@en ;
+ wdt:P1449 "Frisky Two Times"@en ;
+ wdt:P1449 "The Ginger Hit Man"@en ;
+ wdt:P1449 "The Stabby Tabby"@en ;
+ wdt:P1449 "The Leche Whisperer"@en ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Chat%20pott%C3%A9.jpg> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Scared_Shrekless> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Shrek_the_Halls> ;
+ wdt:P1412 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Shrek_SuperSlam> ;
+ rdfs:label "Puss in Boots"@en ;
+ wdt:P4584 <https://en.wikipedia.org/wiki/Shrek_2> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Puss_in_Boots:_The_Three_Diablos> ;
+ wdt:P1412 <https://en.wikipedia.org/wiki/Spanish_language> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Shrek_2_(video_game)> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Puss_in_Boots:_The_Last_Wish> ;
+ wdt:P2546 <https://en.wikipedia.org/wiki/Shrek_(character)> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Puss_in_Boots_(video_game)> ;
+ wdt:P5800 <https://en.wikipedia.org/wiki/Title_character> ;
+ wdt:P1080 <https://en.wikipedia.org/wiki/Shrek_(franchise)> ;
+ wdt:P1441 wd:Q3959793 .
+
+<https://example.org/resource/Smarf> rdfs:label "Too Many Cooks"@en ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Casper_Kelly> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Television_comedy> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P449 <https://en.wikipedia.org/wiki/Adult_Swim> ;
+ wdt:P1476 "Too Many Cooks"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Television_film> ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Casper_Kelly> ;
+ wdt:P577 "2014-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Short_film> ;
+ wdt:P856 <https://www.adultswim.com/videos/infomercials/too-many-cooks/> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Horror_film> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Tara_Ochs> ;
+ wdt:P1431 <https://en.wikipedia.org/wiki/Mike_Lazzo> .
+---
+These are the labels of the properties:
+
+wdt:P1441 -> present in work
+wdt:P31 -> instance of
+wdt:P27 -> country of citizenship
+wdt:P18 -> image
+wdt:P26 -> spouse
+wdt:P734 -> family name
+wdt:P735 -> given name
+wdt:P170 -> creator
+wdt:P144 -> based on
+wdt:P21 -> sex or gender
+wdt:P40 -> child
+wdt:P4584 -> first appearance
+wdt:P22 -> father
+wdt:P3373 -> sibling
+wdt:P106 -> occupation
+wdt:P5800 -> narrative role
+wdt:P973 -> described at URL
+wdt:P175 -> performer
+wdt:P571 -> inception
+wdt:P989 -> spoken text audio
+wdt:P1889 -> different from
+wdt:P1340 -> eye color
+wdt:P2546 -> sidekick of
+wdt:P1449 -> nickname
+wdt:P577 -> publication date
+wdt:P460 -> said to be the same as
+wdt:P103 -> native language
+wdt:P451 -> unmarried partner
+wdt:P1412 -> languages spoken, written or signed
+wdt:P1080 -> from narrative universe
+wdt:P57 -> director
+wdt:P364 -> original language of film or TV show
+wdt:P136 -> genre
+wdt:P495 -> country of origin
+wdt:P449 -> original broadcaster
+wdt:P1476 -> title
+wdt:P58 -> screenwriter
+wdt:P856 -> official website URL
+wdt:P161 -> cast member
+wdt:P1431 -> executive producer.
+---
+These are the labels of the objects:
+
+wd:Q15773347 -> film character
+wd:Q28800766 -> Powers
+wd:Q7436303 -> Scott Evil
+wd:Q7032601 -> Nigel Powers
+wd:Q15632617 -> fictional human
+wd:Q27303706 -> anthropomorphic cat
+wd:Q29962131 -> Shrek 2: Beg for Mercy
+wd:Q11397897 -> swordfighter
+wd:Q120669954 -> Puss in Boots
+wd:Q52508891 -> Puss in Book: Trapped in an Epic Tale
+wd:Q78374938 -> light green
+wd:Q4049421 -> Shrek 2: Team Action
+wd:Q123403984 -> DreamWorks All-Star Kart Racing
+wd:Q117289741 -> fantasy film character
+wd:Q21401874 -> Thriller Night
+wd:Q21418988 -> Donkey's Christmas Shrektacular
+wd:Q21533257 -> Far Far Away Idol
+wd:Q110527461 -> Kitty Softpaws
+wd:Q3959793 -> Shrek's Carnival Craze.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+!Character
+!Origin
+!Notes
+|-
+|Filby
+|''[[Primer (film)|Primer]]''
+|Aaron’s cat. When missing, called by name by Aaron and Abe during the fountain scene.<ref name=universe >{{cite web|author1=Tim S|title=The Primer Universe: The Time Machine|url=http://theprimeruniverse.blogspot.com/2009/05/thw-time-machine-2002.html|website=The Primer Universe|access-date=9 July 2015|date=5 May 2009}}</ref>  Filby is most likely named after a character in the science fiction novel, ''[[The Time Machine]]'', written by H.G. Wells in 1894.<ref name=universe /><ref>{{cite web|title=Free Study Guide for The Time Machine by H. G. Wells-Book Summary (Characters)|url=http://thebestnotes.com/booknotes/Time_Machine/Time_Machine02.html|access-date=11 August 2016}}</ref>
+|-
+|Jake
+|''[[The Cat from Outer Space]]''
+|A cat-like alien. His real name is Zunar-J-5/9 Doric-4-7.
+|-
+|Pyewacket
+|''[[Bell, Book and Candle]]''
+|Siamese cat and [[familiar spirit|familiar]] of Gillian Holroyd ([[Kim Novak]]), who is a witch |}
+---

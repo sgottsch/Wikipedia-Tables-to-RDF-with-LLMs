@@ -1,0 +1,104 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of mosques in Europe" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+!Name
+!class=unsortable|Images
+!Country
+!City
+!Year
+!Group
+!class=unsortable|Remarks
+|- valign=top
+| [[List of mosques in Albania]]
+| 
+| [[Albania]]
+| 
+| 
+| 
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/List_of_mosques_in_Albania> wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ wdt:P360 <https://en.wikipedia.org/wiki/Mosque> ;
+ rdfs:label "list of Mosques in Albania"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Albania> .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P360 -> is a list of
+wdt:P17 -> country.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+!Name
+!class=unsortable|Images
+!Country
+!City
+!Year
+!Group
+!class=unsortable|Remarks
+|- valign=top
+| [[Luhansk Cathedral Mosque]]
+| [[File:Mosque - panoramio (10).jpg|120px]]
+| [[Ukraine]] 
+| [[Luhansk]]
+| 2010
+| U
+|
+|- valign=top
+| [[Sultan Suleiman Mosque]]
+| [[File:Mosque in Mariupol.jpg|120px]]
+| [[Ukraine]]
+| [[Mariupol]]
+| 2007
+| U
+|
+|- valign=top
+| [[Al-Salam Mosque, Odessa|Al-Salam Mosque]]
+| [[File:Arabskiy-kulturny-tzentr.jpg|120px]]
+| [[Ukraine]]
+| [[Odesa]]
+| 2000
+| U
+|
+|- valign=top
+| [[Kyiv Islamic Cultural Center]]
+| [[File:Kyiv Islamic Cultural Center.jpg|120px]]
+| [[Ukraine]]
+| [[Kyiv]]
+| 2001
+| U
+|
+|- valign=top
+| [[Kebir-Jami Mosque, Simferopol|Kebir-Jami Mosque]]
+| [[File:Мечеть Кебір-Джамі.jpg|120px]]
+| [[Ukraine]]
+| [[Simferopol]]
+| 1508
+| SDMC
+|
+|- valign=top
+| [[Kokkoz Jami Mosque]]
+| [[File:Мечеть кінець XVIII ст. Соколиное 4.jpg|120px]]
+| [[Ukraine]]
+| [[Sokolyne]]
+| 1910
+| U
+| |}
+---

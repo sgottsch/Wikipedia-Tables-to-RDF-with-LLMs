@@ -1,0 +1,246 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of Arthurian characters" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|+King Arthur characters
+|-
+!Name
+!Other names
+!Earliest appearance
+!Works featured in
+!Description
+|-
+| [[Accolon]]
+|
+| [[Post-Vulgate Cycle]], 1230s
+|
+| [[Morgan le Fay]]'s love
+|-
+| [[Aglovale]]{{dagger}}
+| Agloval, Sir Aglovale de Galis
+|
+| ''The Life of Sir Aglovale de Galis'', ''[[The Once and Future King]]''
+| [[King Pellinore]]'s eldest son
+|-
+| [[Agravain]]{{dagger}}
+| Agravaine
+|
+| [[Lancelot-Grail]], ''[[Le Morte D'Arthur]]'', ''[[The Once and Future King]]''
+| Second son of [[King Lot]] and [[Morgause]], joins [[Mordred]]'s rebellion
+|-
+| [[Amhar|Amr]]
+| Amhar, Amir, Anir
+| ''[[Historia Brittonum]]'', {{circa}} 820
+| ''[[Geraint and Enid]]''
+| Son of [[King Arthur]]
+|-
+| [[King Arthur|(King) Arthur]]{{dagger}}
+| Arthur Pendragon
+| ''[[Y Gododdin]]'', {{circa}} 7th century
+| Many
+| [[List of legendary kings of Britain|High King of Britain]], ruler of [[Logres]] and lord of [[Camelot]] |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Accolon> wdt:P451 <https://en.wikipedia.org/wiki/Morgan_le_Fay> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Knight> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Le_Morte_d%27Arthur> ;
+ rdfs:label "Accolon"@en ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/And%20grasped%20of%20both%20wild%20hands%2C%20swung%20trenchant.png> ;
+ wdt:P1080 wd:Q18176971 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Post-Vulgate_Cycle> ;
+ wdt:P31 wd:Q3658341 ;
+ wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Aglovale> wdt:P31 wd:Q16887380 ;
+ rdfs:label "Knights of the Round Table"@en ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Brockhaus_and_Efron_Encyclopedic_Dictionary> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Erec_and_Enide> ;
+ wdt:P31 wd:Q42962623 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Roman_de_Brut> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Round_Table> ;
+ wdt:P1080 wd:Q18176971 ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/The_Nuttall_Encyclop%C3%A6dia> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:Knights_of_the_Round_Table> ;
+ wdt:P1343 wd:Q19180675 .
+
+<https://example.org/resource/Agravain> wdt:P25 <https://en.wikipedia.org/wiki/Morgause> ;
+ wdt:P3373 <https://en.wikipedia.org/wiki/Gawain> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Le_Morte_d%27Arthur> ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Lancelot-Grail> ;
+ wdt:P22 <https://en.wikipedia.org/wiki/King_Lot> ;
+ wdt:P3373 <https://en.wikipedia.org/wiki/Gareth> ;
+ wdt:P7047 <https://en.wikipedia.org/wiki/Lancelot> ;
+ wdt:P3373 <https://en.wikipedia.org/wiki/Gaheris> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Murderer> ;
+ wdt:P1080 wd:Q18176971 ;
+ rdfs:label "Agravain"@en ;
+ wdt:P97 wd:Q28468092 ;
+ wdt:P31 wd:Q13002315 .
+
+<https://example.org/resource/Amr> rdfs:label "King Arthur's family"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Family> .
+
+<https://example.org/resource/(King)_Arthur> wdt:P1317 "0500-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1343 wd:Q19219752 ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Britannica_Eleventh_Edition> ;
+ wdt:P1343 wd:Q20961706 ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Brockhaus_and_Efron_Encyclopedic_Dictionary> ;
+ wdt:P175 <https://en.wikipedia.org/wiki/Clive_Owen> ;
+ wdt:P3373 <https://en.wikipedia.org/wiki/Morgan_le_Fay> ;
+ wdt:P735 <https://en.wikipedia.org/wiki/Arthur_(Name)> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Excalibur_(film)> ;
+ wdt:P175 <https://en.wikipedia.org/wiki/Sean_Connery> ;
+ wdt:P175 <https://en.wikipedia.org/wiki/Kenneth_More> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/King_Arthur_(disambiguation)> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Camelot_(film)> ;
+ wdt:P237 wd:Q112647262 ;
+ wdt:P1830 wd:Q56342770 ;
+ wdt:P3373 <https://en.wikipedia.org/wiki/Madoc_ap_Uthyr> ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/The_New_International_Encyclopedia> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Unidentified_Flying_Oddball> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Le_Morte_d%27Arthur> ;
+ rdfs:label "King Arthur"@en ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/Merlin> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Ernest%20Butler%20-%20King%20Arthur.jpg> ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P31 wd:Q21070568 ;
+ wdt:P1151 wd:Q12886357 ;
+ wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Blason%20imaginaire%20Arthur.svg> ;
+ wdt:P175 <https://en.wikipedia.org/wiki/Nigel_Terry> ;
+ wdt:P3373 <https://en.wikipedia.org/wiki/Morgause> ;
+ wdt:P1343 wd:Q15987216 ;
+ wdt:P1343 wd:Q19085957 ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Iwein> ;
+ wdt:P25 <https://en.wikipedia.org/wiki/Igraine> ;
+ wdt:P175 <https://en.wikipedia.org/wiki/Jamie_Campbell_Bower> ;
+ wdt:P1080 wd:Q18176971 ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/The_Nuttall_Encyclop%C3%A6dia> ;
+ wdt:P26 <https://en.wikipedia.org/wiki/Guinevere> ;
+ wdt:P1830 <https://en.wikipedia.org/wiki/Excalibur> ;
+ wdt:P175 <https://en.wikipedia.org/wiki/Charlie_Hunnam> ;
+ wdt:P7047 <https://en.wikipedia.org/wiki/Mordred> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:King_Arthur> ;
+ wdt:P140 <https://en.wikipedia.org/wiki/Celtic_Christianity> ;
+ wdt:P40 <https://en.wikipedia.org/wiki/Mordred> ;
+ wdt:P3373 wd:Q3586230 ;
+ wdt:P1343 wd:Q16082057 ;
+ wdt:P31 wd:Q4271324 ;
+ wdt:P175 <https://en.wikipedia.org/wiki/Bradley_James> ;
+ wdt:P22 <https://en.wikipedia.org/wiki/Uther_Pendragon> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Monarch> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Historia_Regum_Britanniae> ;
+ wdt:P1343 wd:Q4173137 ;
+ wdt:P551 <https://en.wikipedia.org/wiki/Camelot> ;
+ wdt:P31 wd:Q13002315 ;
+ wdt:P1343 wd:Q19047539 ;
+ wdt:P39 <https://en.wikipedia.org/wiki/King> ;
+ wdt:P1343 wd:Q19180675 ;
+ wdt:P1343 wd:Q19538713 .
+---
+These are the labels of the properties:
+
+wdt:P451 -> unmarried partner
+wdt:P106 -> occupation
+wdt:P1441 -> present in work
+wdt:P21 -> sex or gender
+wdt:P18 -> image
+wdt:P1080 -> from narrative universe
+wdt:P31 -> instance of
+wdt:P1343 -> described by source
+wdt:P138 -> named after
+wdt:P910 -> topic's main category
+wdt:P25 -> mother
+wdt:P3373 -> sibling
+wdt:P22 -> father
+wdt:P7047 -> enemy
+wdt:P97 -> noble title
+wdt:P1317 -> floruit
+wdt:P175 -> performer
+wdt:P735 -> given name
+wdt:P1889 -> different from
+wdt:P237 -> coat of arms
+wdt:P1830 -> owner of
+wdt:P3342 -> significant person
+wdt:P1151 -> topic's main Wikimedia portal
+wdt:P94 -> coat of arms image
+wdt:P26 -> spouse
+wdt:P140 -> religion or worldview
+wdt:P40 -> child
+wdt:P551 -> residence
+wdt:P39 -> position held.
+---
+These are the labels of the objects:
+
+wd:Q18176971 -> Arthurian universe
+wd:Q3658341 -> literary character
+wd:Q15632617 -> fictional human
+wd:Q16887380 -> group
+wd:Q42962623 -> fictional order of chivalry
+wd:Q19180675 -> Small Brockhaus and Efron Encyclopedic Dictionary
+wd:Q28468092 -> fictional prince
+wd:Q13002315 -> legendary figure
+wd:Q19219752 -> Meyers Konversations-Lexikon, 4th edition (1885–1890)
+wd:Q20961706 -> Infernal Dictionary, 6th ed.
+wd:Q112647262 -> coat of arms of Arthur Pendragon
+wd:Q56342770 -> Clarent
+wd:Q21070568 -> human whose existence is disputed
+wd:Q12886357 -> Portal:King Arthur
+wd:Q15987216 -> Dictionary of National Biography, 1885–1900
+wd:Q19085957 -> The Encyclopedia Americana
+wd:Q3586230 -> Élaine
+wd:Q16082057 -> The New Student's Reference Work
+wd:Q4271324 -> mythical character
+wd:Q4173137 -> Jewish Encyclopedia of Brockhaus and Efron
+wd:Q19047539 -> Collier's New Encyclopedia, 1921
+wd:Q19538713 -> Vlastenský slovník historický.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|+King Arthur characters
+|-
+!Name
+!Other names
+!Earliest appearance
+!Works featured in
+!Description
+|-
+| Geneir Gwystyl
+|
+| 
+|
+| One of [[King Arthur]]'s knights in the [[Medieval Welsh literature|Welsh]] [[Arthurian legend]]<ref>{{cite web |author=Thomas, Peter Wynn, D. Mark Smith and Diana Luft |year=2007 |publisher=[[Cardiff University]] |title=''Rhyddiaith Gymraeg'' 1350-1425 |url=http://www.rhyddiaithganoloesol.caerdydd.ac.uk/en/ms-page.php?ms=Jesus111&page=161v&col=656&line=14&word=geneir |access-date=1 January 2013}} "Welsh Prose" project (search within transcription of the Jesus 111 (''[[Red Book of Hergest|Llyfr Coch Hergest]]'') manuscript).</ref>
+|-
+| ([[Iseult|Queen) Iseult]]
+| Isolde, Yseult, Isode, Isoude, Isotta
+|
+| [[Tristan and Iseult]]
+| Iseult of Ireland's mother
+|-
+|Parcenet
+|
+|
+|''[[The Story of King Arthur and His Knights]]''
+|A maid from Queen Ettarre's court who helps Sir Pelleas
+|-
+| {{anchor|Penpingion}}Penpingion<ref name="Penpingion">{{cite encyclopaedia | article=Penpingion| encyclopaedia=The Oxford Companion to the Literature of Wales| author1-first=Meic| author1-last=Stephens| publisher=Oxford University Press| year=1986| isbn=9780192115867}}</ref>
+| 
+| 
+| ''[[Culhwch ac Olwen]]'', ''[[Three Welsh Romances|Geraint fab Erbin]]''
+| A comic character; one of the gatekeepers at [[King Arthur|Arthur's]] court, subservient to [[Glewlwyd Gafaelfawr]].<ref name="Penpingion"/>  Killed in the hunt for [[Twrch Trwyth]].<ref>{{Cite web|title=Culhwch ac Olwen Part Three |series=Celtic Literature Collective|url=http://www.maryjones.us/ctexts/culhwch3.html|access-date=2023-01-02|website=www.maryjones.us}}</ref>
+|-
+| (Lady) Ragnell
+|
+|
+|
+|[[Sir Gawain]]'s wife, in some legends mother of [[Percival]] |}
+---

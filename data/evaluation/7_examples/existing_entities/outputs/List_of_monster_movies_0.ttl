@@ -1,0 +1,171 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Alien_Resurrection> ns1:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P674 <http://www.wikidata.org/entity/Q26995734> .
+
+<https://example.org/resource/Alien_vs_Predator> ns1:P577 "2004-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P674 <http://www.wikidata.org/entity/Q26995724>,
+        <http://www.wikidata.org/entity/Q26995734> .
+
+<https://example.org/resource/Aliens> ns1:P577 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P674 <http://www.wikidata.org/entity/Q26995734> .
+
+<https://example.org/resource/Aliens_vs_Predator_Requiem> ns1:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P674 <http://www.wikidata.org/entity/Q26995724>,
+        <http://www.wikidata.org/entity/Q26995734> .
+
+<https://example.org/resource/All_Monsters_Attack> ns1:P577 "1969-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P674 <http://www.wikidata.org/entity/Q26988721> .
+
+<https://example.org/resource/Alligator> ns1:P577 "1980-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P674 <http://www.wikidata.org/entity/Q26995724> .
+
+<https://example.org/resource/An_American_Werewolf_in_London> ns1:P136 <http://www.wikidata.org/entity/Q26988721> ;
+    ns1:P1476 "An American Werewolf in London"@en ;
+    ns1:P437 <https://www.empireonline.com/movies/empire-essay-american-werewolf-london/review/> ;
+    ns1:P577 "1980-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/An_American_Werewolf_in_Paris> ns1:P136 <http://www.wikidata.org/entity/Q26988721> ;
+    ns1:P1476 "An American Werewolf in Paris"@en ;
+    ns1:P437 <http://preview.reelviews.net/movies/a/american_werewolf.html> ;
+    ns1:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Anaconda> ns1:P136 <http://www.wikidata.org/entity/Q26988721> ;
+    ns1:P1476 "Anaconda"@en ;
+    ns1:P437 <http://www.rogerebert.suntimes.com/apps/pbcs.dll/article?AID=/19970411/REVIEWS/704110301/1023> ;
+    ns1:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Anacondas:_The_Hunt_for_the_Blood_Orchid> ns1:P136 <http://www.wikidata.org/entity/Q26988721> ;
+    ns1:P1476 "Anacondas: The Hunt for the Blood Orchid"@en ;
+    ns1:P577 "2004-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Animal> ns1:P136 <http://www.wikidata.org/entity/Q26988721> ;
+    ns1:P1476 "Animal"@en ;
+    ns1:P437 <http://www.fangoria.com/new/animal-blu-ray-review/> ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Another_WolfCop> ns1:P136 <http://www.wikidata.org/entity/Q26988721> ;
+    ns1:P1476 "Another WolfCop"@en ;
+    ns1:P437 <https://www.rogerebert.com/reviews/another-wolfcop-2017> ;
+    ns1:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Atragon> ns1:P1476 "Atragon"@en ;
+    ns1:P577 "1963-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Attack_of_the_50_Foot_Woman> ns1:P1476 "Attack of the 50 Foot Woman"@en ;
+    ns1:P577 "1958-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Attack_of_the_Crab_Monsters> ns1:P1476 "Attack of the Crab Monsters"@en ;
+    ns1:P577 "1958-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Attack_of_the_Giant_Leeches> ns1:P1476 "Attack of the Giant Leeches"@en ;
+    ns1:P577 "1959-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Attack_on_Titan> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Attack on Titan"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Attack_the_Block> ns1:P1476 "Attack the Block"@en ;
+    ns1:P577 "2011-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Avenged> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Avenged"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2013-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Barbarian> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Barbarian"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Beauty_and_the_Beast> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Beauty and the Beast"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2005-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Beowulf> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Beowulf"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Big_Bad_Wolf> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Big Bad Wolf"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Blade> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Blade"@en ;
+    ns1:P577 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P674 <http://www.wikidata.org/entity/Q5797488>,
+        <http://www.wikidata.org/entity/Q881024> ;
+    ns1:P750 <http://www.wikidata.org/entity/Q907311> .
+
+<https://example.org/resource/Blade_II> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Blade II"@en ;
+    ns1:P577 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P674 <http://www.wikidata.org/entity/Q46721>,
+        <http://www.wikidata.org/entity/Q881024> ;
+    ns1:P750 <http://www.wikidata.org/entity/Q907311> .
+
+<https://example.org/resource/Blade_Trinity> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Blade Trinity"@en ;
+    ns1:P577 "2004-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P674 <http://www.wikidata.org/entity/Q1131724>,
+        <http://www.wikidata.org/entity/Q5797488>,
+        <http://www.wikidata.org/entity/Q881024> ;
+    ns1:P750 <http://www.wikidata.org/entity/Q907311> .
+
+<https://example.org/resource/Blood_Ransom> ns1:P136 <http://www.wikidata.org/entity/Q46721> ;
+    ns1:P1476 "Blood Ransom"@en ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Blood_of_the_Tribades> ns1:P136 <http://www.wikidata.org/entity/Q46721> ;
+    ns1:P1476 "Blood of the Tribades"@en ;
+    ns1:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Bloodsuckers_from_Outer_Space> ns1:P136 <http://www.wikidata.org/entity/Q46721> ;
+    ns1:P1476 "Bloodsuckers from Outer Space"@en ;
+    ns1:P577 "1984-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Clash_of_the_Titans_1981_film> ns1:P136 <http://www.wikidata.org/entity/Q193165>,
+        <https://example.org/resource/Clash_of_the_Titans_2010_film> ;
+    ns1:P1476 "Clash of the Titans"@en ;
+    ns1:P577 "1981-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Arctic_Giant> ns1:P1476 "The Arctic Giant"@en ;
+    ns1:P577 "1942-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Black_Scorpion> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "The Black Scorpion"@en ;
+    ns1:P577 "1957-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P750 <http://www.wikidata.org/entity/Q907311> .
+
+<https://example.org/resource/The_Blob> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "The Blob"@en ;
+    ns1:P577 "1958-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P674 <http://www.wikidata.org/entity/Q297076> ;
+    ns1:P750 <http://www.wikidata.org/entity/Q907311> .
+
+<https://example.org/resource/The_Blob_1988> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "The Blob"@en ;
+    ns1:P577 "1988-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P674 <http://www.wikidata.org/entity/Q297076> ;
+    ns1:P750 <http://www.wikidata.org/entity/Q907311> .
+
+<https://example.org/resource/The_Cave> ns1:P1476 "The Cave"@en ;
+    ns1:P577 "2005-01-01T00:00:00+00:00"^^xsd:dateTime .
+

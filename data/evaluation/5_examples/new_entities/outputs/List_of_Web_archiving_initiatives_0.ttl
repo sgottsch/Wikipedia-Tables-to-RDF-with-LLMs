@@ -1,0 +1,418 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/AUEB_Web_Archive> rdfs:label "AUEB Web Archive"@en ;
+    wdt:P1128 1.0 ;
+    wdt:P123 wd:Q1474656 ;
+    wdt:P1547 wd:Q3097891 ;
+    wdt:P17 wd:Q41 ;
+    wdt:P31 wd:Q30047053,
+        wd:Q35127 ;
+    wdt:P571 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://archive.aueb.gr/> .
+
+<https://example.org/resource/Alabama_State_Government_and_Politics_Web_Site_and_Social_Media_Archives> rdfs:label "Alabama State Government and Politics Web Site and Social Media Archives"@en ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://digital.archives.alabama.gov/> .
+
+<https://example.org/resource/Aleph_Archives> rdfs:label "Aleph Archives"@en ;
+    wdt:P17 wd:Q30,
+        wd:Q39 ;
+    wdt:P2257 10.0 ;
+    wdt:P571 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://aleph-archives.com/> .
+
+<https://example.org/resource/Archive.st> rdfs:label "Archive.st"@en ;
+    wdt:P1128 0.0,
+        1.0 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2017-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://archive.st/> .
+
+<https://example.org/resource/Archivo_de_la_Web_Española> rdfs:label "Archivo de la Web Española"@en ;
+    wdt:P1547 <http://lucene.apache.org/solr/> ;
+    wdt:P17 wd:Q29 ;
+    wdt:P2257 4.0 ;
+    wdt:P3712 wd:Q27031009 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.bne.es/es/LaBNE/ArchivoWeb/> .
+
+<https://example.org/resource/Arquivo.pt> wdt:P1547 wd:Q106507131 ;
+    wdt:P17 wd:Q45 ;
+    wdt:P2257 5.0 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://arquivo.pt/?l=en> .
+
+<https://example.org/resource/Bentley_Historical_Library_(University_of_Michigan)_Web_Archives> rdfs:label "Bentley Historical Library (University of Michigan) Web Archives"@en ;
+    wdt:P1128 2.0 ;
+    wdt:P123 wd:Q230492 ;
+    wdt:P1547 wd:Q383267 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053,
+        wd:Q35127 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://bentley.umich.edu/dchome/webarchives/index.php> .
+
+<https://example.org/resource/Bibliotheksservice-Zentrum_Baden-Württemberg> wdt:P1128 0.5 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P571 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.bsz-bw.de/index.html> .
+
+<https://example.org/resource/DILIMAG> rdfs:label "DILIMAG (Digital Literature Magazines)"@en ;
+    wdt:P1128 2.0 ;
+    wdt:P1547 <https://webcuratortool.org/> ;
+    wdt:P17 wd:Q40 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://dilimag.literature.at/> .
+
+<https://example.org/resource/Deutsche_Nationalbibliothek> rdfs:label "Deutsche Nationalbibliothek"@en ;
+    wdt:P1128 6.0 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.dnb.de/EN/Netzpublikationen/Webarchiv/webarchiv_node.html> .
+
+<https://example.org/resource/Digital_Resources_ULIB> wdt:P1128 1.0,
+        4.0 ;
+    wdt:P1547 wd:Q106507131 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.webdepozit.sk/?lang=en> .
+
+<https://example.org/resource/EU_Exit_Web_Archive> rdfs:label "EU Exit Web Archive"@en ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q30047053,
+        wd:Q35127 ;
+    wdt:P571 "2020-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://webarchive.nationalarchives.gov.uk/eu-exit/> .
+
+<https://example.org/resource/EU_Web_Archive> rdfs:label "EU Web Archive"@en ;
+    wdt:P1128 1.0 ;
+    wdt:P17 wd:Q458 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2013-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://archive-it.org/collections/12090> .
+
+<https://example.org/resource/Estonian_Web_Archive> rdfs:label "Estonian Web Archive"@en ;
+    wdt:P1128 1.0,
+        3.0 ;
+    wdt:P1547 <https://github.com/N0taN3rd/Squidwarc> ;
+    wdt:P17 wd:Q191 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.nlib.ee/index.php?id=21581> .
+
+<https://example.org/resource/Expatriate_Archive_Centre_Blog_Archive> rdfs:label "Expatriate Archive Centre Blog Archive"@en ;
+    wdt:P17 wd:Q36600,
+        wd:Q55 ;
+    wdt:P571 "2019-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Finnish_Web_Archive> wdt:P123 wd:Q420747 ;
+    wdt:P1547 wd:Q106507131 ;
+    wdt:P17 wd:Q33 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/National_Library_of_Finland_2010.jpg> ;
+    wdt:P2257 3.0 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2006-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://verkkoarkisto.kansalliskirjasto.fi> .
+
+<https://example.org/resource/Harvard_Library> wdt:P1128 ">10"^^xsd:decimal ;
+    wdt:P123 wd:Q3232931 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2006-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://preservation.library.harvard.edu/web-archives-collections> .
+
+<https://example.org/resource/KADOC-KU_Leuven> rdfs:label "KADOC-KU Leuven"@en ;
+    wdt:P101 wd:Q1786705 ;
+    wdt:P1128 1.0 ;
+    wdt:P123 <https://kadoc.kuleuven.be/> ;
+    wdt:P1547 wd:Q106507131,
+        <https://archiveweb.page/>,
+        <https://github.com/webrecorder/replayweb.page> ;
+    wdt:P17 wd:Q31 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://kadoc.kuleuven.be/8_projecten/2020/2020_01_social_media> .
+
+<https://example.org/resource/KBR_web_archive> rdfs:label "KBR web archive"@en ;
+    wdt:P1128 1.0 ;
+    wdt:P17 wd:Q31 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2020-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.kbr.be/> .
+
+<https://example.org/resource/Latin_American_Web_Archiving_Project> wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Library_of_Congress_Web_Archives> wdt:P1128 6.0 ;
+    wdt:P123 wd:Q131454 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P8687 80.0 .
+
+<https://example.org/resource/MT.GOV_Connect> rdfs:label "MT.GOV Connect"@en ;
+    wdt:P1128 1.0 ;
+    wdt:P123 <https://archive-it.org/organizations/139>,
+        <https://archive.org/details/MontanaStateLibrary>,
+        <https://www.leg.mt.gov/bills/mca/title_0220/chapter_0010/part_0020/section_0120/0220-0010-0020-0120.html> ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/MirrorWeb> rdfs:label "MirrorWeb"@en ;
+    wdt:P1128 40.0 ;
+    wdt:P1547 wd:Q3097891 ;
+    wdt:P31 wd:Q30047053,
+        wd:Q35127 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.mirrorweb.com> .
+
+<https://example.org/resource/NTU_Web_Archiving_System> rdfs:label "NTU Web Archiving System, NTUWAS"@en ;
+    wdt:P1128 3.0 ;
+    wdt:P17 wd:Q865 ;
+    wdt:P31 wd:Q30047053,
+        wd:Q35127 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://webarchive.lib.ntu.edu.tw/eng/default.asp> .
+
+<https://example.org/resource/National_Széchényi_Library_Web_Archive> wdt:P17 wd:Q28 ;
+    wdt:P2257 3.0 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2017-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://webarchivum.oszk.hu/> .
+
+<https://example.org/resource/Netarkivet_The_Danish_web_archive_Royal_Danish_Library> rdfs:label "Netarkivet/The Danish web archive (Royal Danish Library)"@en ;
+    wdt:P1128 1.0,
+        5.5 ;
+    wdt:P17 wd:Q35 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://netarkivet.dk/in-english/> .
+
+<https://example.org/resource/New_York_Art_Resources_Consortium_(NYARC)> wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.nyarc.org/content/web-archiving/> .
+
+<https://example.org/resource/New_Zealand_Web_Archive> wdt:P123 wd:Q390375 ;
+    wdt:P1547 wd:Q106507131 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2257 5.0 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "1999-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://natlib.govt.nz/collections/a-z/new-zealand-web-archive> ;
+    wdt:P8687 10.0 .
+
+<https://example.org/resource/North_Carolina_State_Government_Web_Site_Archives> wdt:P1128 3.0 ;
+    wdt:P123 wd:Q7054474 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://webarchives.ncdcr.gov/> .
+
+<https://example.org/resource/ONDARENET_-_Basque_Digital_Heritage_Archive> rdfs:label "ONDARENET - Basque Digital Heritage Archive"@en ;
+    wdt:P123 wd:Q697497 ;
+    wdt:P17 wd:Q29 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/OoCities> rdfs:label "OoCities - Geocities Archive / Geocities Mirror"@en ;
+    wdt:P123 <https://www.oocities.org/> ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/PROMISE_project> rdfs:label "PROMISE project"@en ;
+    wdt:P1128 7.0 ;
+    wdt:P17 wd:Q31 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2017-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.kbr.be/en/projects/promise-project/> .
+
+<https://example.org/resource/Preservica> wdt:P17 wd:Q8036765 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://preservica.com/preservica-works/> .
+
+<https://example.org/resource/Russian_National_Digital_Archive> wdt:P17 wd:Q159 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://ruarxive.org> .
+
+<https://example.org/resource/SAPERION> rdfs:label "SAPERION"@en ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q35127 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.saperion.com> .
+
+<https://example.org/resource/Slovenian_Web_Archive> wdt:P1128 1.0 ;
+    wdt:P1547 wd:Q106507131 ;
+    wdt:P17 wd:Q215 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://arhiv.nuk.uni-lj.si/> .
+
+<https://example.org/resource/Stillio> rdfs:label "Stillio"@en ;
+    wdt:P101 wd:Q202833 ;
+    wdt:P1128 4.0 ;
+    wdt:P123 <https://www.stillio.com/> ;
+    wdt:P1547 <https://www.stillio.com/> ;
+    wdt:P17 wd:Q8036765 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.stillio.com/> .
+
+<https://example.org/resource/Tamiment_Library_and_Robert_F_Wagner_Labor_Archives_at_New_York_University> wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.nyu.edu/library/bobst/research/tam/> .
+
+<https://example.org/resource/UK_Parliament_Web_Archive> rdfs:label "UK Parliament Web Archive"@en ;
+    wdt:P1128 1.0 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q30047053,
+        wd:Q35127 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://webarchive.parliament.uk> ;
+    wdt:P8687 2.0 .
+
+<https://example.org/resource/UK_Web_Archive> rdfs:label "The UK Web Archive"@en ;
+    wdt:P123 wd:Q23308 ;
+    wdt:P1547 wd:Q3097891 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q30047053,
+        wd:Q35127 ;
+    wdt:P571 "2004-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.webarchive.org.uk/ukwa/> .
+
+<https://example.org/resource/University_of_North_Texas_CyberCemetery> wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "1997-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://govinfo.library.unt.edu/> .
+
+<https://example.org/resource/University_of_Texas_at_Austin_Libraries_Human_Rights_Documentation_Initiative> wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.lib.utexas.edu/hrdi/> .
+
+<https://example.org/resource/University_of_Texas_at_San_Antonio_Web_Archives> rdfs:label "University of Texas at San Antonio Web Archives"@en ;
+    wdt:P1128 3.0 ;
+    wdt:P123 wd:Q183170 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053,
+        wd:Q35127 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.archive-it.org/public/partner.html?id=318> .
+
+<https://example.org/resource/WebPreserver.com> rdfs:label "WebPreserver.com"@en ;
+    wdt:P123 <http://www.webpreserver.com/> ;
+    wdt:P17 wd:Q8036765 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.webpreserver.com/> .
+
+<https://example.org/resource/Web_Archive_Singapore> wdt:P1128 3.0 ;
+    wdt:P1547 wd:Q106507131 ;
+    wdt:P17 wd:Q334 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2006-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://eresources.nlb.gov.sg/webarchives> .
+
+<https://example.org/resource/Web_Archive_Switzerland> rdfs:label "Web Archive Switzerland"@en ;
+    wdt:P17 wd:Q39 ;
+    wdt:P2257 6.0 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Web_Archive_Taiwan> rdfs:label "Web Archive Taiwan"@en ;
+    wdt:P123 wd:Q618340 ;
+    wdt:P17 wd:Q865 ;
+    wdt:P31 wd:Q30047053,
+        wd:Q35127 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://webarchive.ncl.edu.tw/nclwa98Front/> .
+
+<https://example.org/resource/Web_Archiving_Bucket> rdfs:label "Web Archiving Bucket"@en ;
+    wdt:P17 wd:Q16,
+        wd:Q30,
+        wd:Q39 ;
+    wdt:P571 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Web_Archiving_Program_at_Library_and_Archives_Canada> rdfs:label "Web Archiving Program at Library and Archives Canada"@en ;
+    wdt:P1128 3.0,
+        4.0 ;
+    wdt:P123 wd:Q913250 ;
+    wdt:P17 wd:Q16 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://library-archives.canada.ca/eng> .
+
+<https://example.org/resource/Web_Archiving_Project_WARP_The_National_Diet_Library_Japan> wdt:P123 wd:Q477675 ;
+    wdt:P17 wd:Q17 ;
+    wdt:P2257 4.0 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2002-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://warp.da.ndl.go.jp> .
+
+<https://example.org/resource/Web_Archiving_Project_for_the_Pacific_Islands> wdt:P1128 4.0 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://guides.library.manoa.hawaii.edu/pacificwebarchive> .
+
+<https://example.org/resource/Web_Archiving_Service_from_California_Digital_Library> wdt:P1128 4.0 ;
+    wdt:P123 wd:Q5020447 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2005-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://webarchives.cdlib.org/> ;
+    wdt:P8687 ">1"^^xsd:decimal .
+
+<https://example.org/resource/Web_Information_Collection_and_Preservation_WICP_Chinese_Web_Archive> rdfs:label "Web Information Collection and Preservation - WICP (Chinese Web Archive)"@en ;
+    wdt:P1547 <http://archive-access.sourceforge.net/projects/nutchwax/> ;
+    wdt:P17 wd:Q148 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://web.archive.org/web/20110810171906/http://210.82.118.162:9090/webarchive/> .
+
+<https://example.org/resource/Web_archive_of_Cacak> wdt:P1128 1.0 ;
+    wdt:P1547 wd:Q106507131 ;
+    wdt:P17 wd:Q403 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2009-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://digital.cacak.dis.rs/english/web-archive-of-cacak/> .
+
+<https://example.org/resource/Webarchive_Austria> rdfs:label "Webarchive Austria"@en ;
+    wdt:P1128 1.0 ;
+    wdt:P123 <https://webarchiv.onb.ac.at> ;
+    wdt:P1547 <https://github.com/internetarchive/heritrix3>,
+        <https://github.com/netarchivesuite/netarchivesuite> ;
+    wdt:P17 wd:Q40 ;
+    wdt:P31 wd:Q30047053 ;
+    wdt:P571 "2008-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/World_Bank_Web_Archives> rdfs:label "World Bank Web Archives"@en ;
+    wdt:P1128 0.0,
+        3.0 ;
+    wdt:P123 wd:Q7164 ;
+    wdt:P1547 wd:Q383267 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q30047053,
+        wd:Q35127 ;
+    wdt:P571 "2007-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://go.worldbank.org/67KZ5AH4Y0> .
+
+<https://example.org/resource/qumram> rdfs:label "qumram"@en ;
+    wdt:P17 wd:Q39 ;
+    wdt:P31 wd:Q35127 ;
+    wdt:P571 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <http://www.qumram.com> .
+

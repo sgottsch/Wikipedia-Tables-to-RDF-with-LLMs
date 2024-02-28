@@ -1,0 +1,161 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of airlines of India" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable sticky-header"
+|-
+!Airline
+!Image
+![[IATA]]
+![[ICAO]]
+![[Airline call sign|Callsign]]
+!Founded
+!Hubs
+!Fleet Size
+!Orders
+!Notes
+|-
+| [[Alliance Air (India)|Alliance Air]]
+| [[File:VT-RKE VOBL (38675264715).jpg|100px]]
+| align="center" | 9I
+| align="center" | LLR
+| align="center" | ALLIED
+| align="center" | 1996
+| align="center" | [[Delhi]]
+| align="center" | 21
+| align="center" | 1
+| align="center" | Formerly [[Air India Regional]]
+|-
+| [[FlyBig]]
+| [[File:FlyBig Aircraft landed at Raipur Airport dec 2020.png|100px]]
+| align="center" | S9
+| align="center" | FLG
+| align="center" | KRIS
+| align="center" | 2021
+| align="center" | [[Guwahati]]
+| align="center" | 2
+| align="center" | 10
+|
+|-
+| [[IndiaOne Air]]
+| [[File:VT-HJS (side).jpg|border|center|frameless|100px]]
+| align="center" | I7
+| align="center" | IOA
+| align="center" | INDIA FIRST
+| align="center" | 2020
+| align="center" | [[Bhubaneswar Airport|Bhubaneswar]]
+| align="center" | 3
+| align="center" | &mdash;
+|
+|-
+| [[Star Air (India)|Star Air]]
+| [[File:Star_Air_Aircraft.jpg|100px]]
+| align="center" | S5
+| align="center" | SDG
+| align="center" | HISTAR
+| align="center" | 2019
+| align="center" | [[Bengaluru]]
+| align="center" | 8
+| align="center" | —
+|
+|-
+|[[Zooom Air]]
+|
+|<blockquote>ZO</blockquote>
+| align="center" | ZOM
+| align="center" | ZOOM
+| align="center" | 2013
+| align="center" | [[Delhi Airport|Delhi]]
+| align="center" | 4
+| align="center" | &mdash;
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Alliance_Air> wdt:P31 <https://en.wikipedia.org/wiki/Airline> ;
+ wdt:P113 <https://en.wikipedia.org/wiki/Indira_Gandhi_International_Airport> ;
+ wdt:P856 <http://www.allianceair.in> ;
+ wdt:P114 <https://en.wikipedia.org/wiki/Star_Alliance> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Alliance%20Air%20aircraft%20landing%20in%20New%20Delhi.JPG> ;
+ rdfs:label "Alliance Air"@en ;
+ wdt:P571 "1996-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> ;
+ wdt:P740 <https://en.wikipedia.org/wiki/Delhi> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Delhi> .
+
+<https://example.org/resource/FlyBig> rdfs:label "FlyBig"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/FlyBig%20Aircraft%20landed%20at%20Raipur%20Airport%20dec%202020.png> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Airline> ;
+ wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Flybig.png> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> .
+
+<https://example.org/resource/IndiaOne_Air> wdt:P31 <https://en.wikipedia.org/wiki/Regional_airline> ;
+ rdfs:label "IndiaOne Air"@en ;
+ wdt:P856 <https://indiaoneair.com/> ;
+ wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/IndiaOne%20Air%20Logo.jpg> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Ahmedabad> .
+
+<https://example.org/resource/Star_Air> rdfs:label "Star Air"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Star%20Air%20Aircraft.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Airline> ;
+ wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Star%20Air%20India%20logo.png> ;
+ wdt:P8687 "9182"^^xsd:decimal ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> .
+
+<https://example.org/resource/Zooom_Air> rdfs:label "Zoom Air"@en ;
+ wdt:P856 <http://www.zoomair.in/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ak%20Bars%20Aero%2C%20VQ-BHI%2C%20Canadair%20CRJ-200ER%20%2816268790150%29.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Airline> ;
+ wdt:P571 "2013-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Gurgaon> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/India> .
+---
+These are the labels of the properties:
+
+wdt:P31 -> instance of
+wdt:P113 -> airline hub
+wdt:P856 -> official website URL
+wdt:P114 -> airline alliance
+wdt:P18 -> image
+wdt:P571 -> inception
+wdt:P17 -> country
+wdt:P740 -> location of formation
+wdt:P159 -> headquarters location
+wdt:P154 -> logo image
+wdt:P8687 -> social media followers.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable sticky-header"
+|-
+!Airline
+!Image
+![[IATA]]
+![[ICAO]]
+![[Airline call sign|Callsign]]
+!Founded
+!Hubs
+!Fleet Size
+!Orders
+!Notes
+|-
+| Air Taxi<ref>{{Cite web |url=https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf |title=List of scheduled/scheduled commuter operators |date=31 January 2023 |website=dgca.gov.in |access-date=2 June 2023 |archive-date=2 June 2023 |archive-url=https://web.archive.org/web/20230602080644/https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/airOperation/certification/scheduled/sch-oper.pdf |url-status=live }}</ref><!--Do not wikilink-->
+|
+| align="center" | &mdash;
+| align="center" | &mdash;
+| align="center" | &mdash;
+| align="center" | 2021
+| align="center" | &mdash;
+| align="center" | 1
+| align="center" | &mdash;
+| |}
+---

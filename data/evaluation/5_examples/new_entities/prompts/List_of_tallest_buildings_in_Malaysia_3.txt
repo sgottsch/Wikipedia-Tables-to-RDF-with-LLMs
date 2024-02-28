@@ -1,0 +1,206 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of tallest buildings in Malaysia" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " 
+|-
+! Name
+! class="unsortable"| Image
+! class="unsortable"| City
+! Years as Tallest 
+! Years
+! Architectural height<br /><small>m (ft)</small>
+! Roof height<br /><small>m (ft)</small>
+! Floors
+! Coordinates
+! class="unsortable"| Notes
+|-
+| [[Sultan Abdul Samad Building]]
+| [[File:Kuala Lumpur Sultan Abdul Building.jpg|100px]]
+| [[Kuala Lumpur]]
+| 1897–1942
+| align=center | 45 years
+| align=center | 40 (131)
+| align=center | 40 (131)
+| align=center | 3
+| {{Coord|3|08|55.2|N|101|41|39.8|E}}
+| Formerly known simply as Government Offices in its early years<ref>{{Cite web|url=https://www.emporis.com/buildings/105756/sultan-abdul-samad-building-kuala-lumpur-malaysia|archive-url=https://web.archive.org/web/20191014033552/https://www.emporis.com/buildings/105756/sultan-abdul-samad-building-kuala-lumpur-malaysia|url-status=dead|archive-date=14 October 2019|title=Sultan Abdul Samad Building|website=Emporis.com|access-date=14 October 2019}}</ref>
+|-
+| [[Sultan Ibrahim Building]]
+| [[File:Perspective View of Sultan Ibrahim Building.jpg|100px]]
+| [[Johor Bahru]]
+| 1942–1960
+| align=center | 18 years
+| align=center | 60 (196)
+| align=center | 60 (196)
+| align=center | 5
+| {{Coord|1|27|28.2|N|103|45|40.3|E}}
+|<ref>{{Cite web|url=http://www.arkib.gov.my/en/web/guest/bangunan-sultan-ibrahim|website=Official Portal of Malaysia National Archives|access-date=14 October 2019|title=Archived copy|archive-url=https://web.archive.org/web/20190830210055/http://www.arkib.gov.my/en/web/guest/bangunan-sultan-ibrahim|archive-date=30 August 2019|url-status=dead}}</ref><ref>{{Cite web|url=https://eresources.nlb.gov.sg/newspapers/Digitised/Article/straitstimes19400310-1.2.85#searchBar|title=Johore's New Government Offices Foundation Stone To Be Laid To-day|website=Singapore National Archives|publisher=[[The Straits Times]]|date=10 March 1940|access-date=11 September 2018}}</ref> 
+|-
+| [[Lee Yan Lian Building]]
+| 
+| [[Kuala Lumpur]]
+| 1960–1963
+| align=center | 3 years
+| align=center | 73 (239)
+| align=center | 73 (239)
+| align=center | 18
+| {{Coord|3|08|52.4|N|101|41|52.7|E}}
+| The first high-rise building<ref>{{Cite web|url=https://www.acccim.org.my/en/tan-sri-lee-yan-lian/|title=Tan Sri Lee Yan Lian|website=accim.org.my|access-date=14 October 2019}}</ref>
+|-
+| [[Malaysian Houses of Parliament]]
+| [[File:Kuala Lumpur Malaysia Bangunan Parlimen Malaysia-02.jpg|100px]]
+| [[Kuala Lumpur]]
+| 1963–1971
+| align=center | 8 years
+| align=center | 77 (252)
+| align=center | 77 (252)
+| align=center | 20
+| {{Coord|3|08|57.8|N|101|40|45.8|E}}
+| The first high-rise building, which was built after independence<ref>The Straits Times: [http://newspapers.nl.sg/Digitised/Article.aspx?articleid=straitstimes19631102-1.2.13 ''Architect who has evolved own style over the years''], 2 November 1963, page 1; accessed 23 February 2014</ref><ref>The Straits Times: [https://eresources.nlb.gov.sg/newspapers/Digitised/Article/straitstimes19631102-1.2.133 ''The big step forward''], 2 November 1963, page 1; accessed 23 February 2014</ref>
+|-
+| [[KH Tower]]
+| [[File:KH Tower, Kuala Lumpur.jpg|100px]]
+| [[Kuala Lumpur]]
+| 1983–1984
+| align=center | 1 years
+| align=center | 152 (499)
+| align=center | 152 (499)
+| align=center | 36
+| {{Coord|3|09|04.4|N|101|42|35.7|E}}
+| Formerly known as Promet Tower, also the first all-glass curtain wall building in Malaysia.<ref>{{Cite web|url=https://www.skyscrapercenter.com/building/menara-kh/3851|title=Menara KH|website=skyscrapercenter.com|access-date=11 September 2018}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Sultan_Abdul_Samad_Building> rdfs:label "Sultan Abdul Samad Building"@en ;
+ wdt:P466 <https://en.wikipedia.org/wiki/Ministry_of_Communications_and_Digital> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/20190822%20Sultan%20Abdul%20Samad%20Building-10.jpg> ;
+ wdt:P571 "1897-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Architectural_structure> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Abdul_Samad_of_Selangor> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/Dataran%20Merdeka%20-%20panoramio.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Islamic_architecture> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Arthur_Charles_Alfred_Norman> .
+
+<https://example.org/resource/Sultan_Ibrahim_Building> wdt:P31 <https://en.wikipedia.org/wiki/Building> ;
+ wdt:P571 "1942-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P462 <https://en.wikipedia.org/wiki/Grey> ;
+ rdfs:label "Sultan Ibrahim Building"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sultan%20Ibrahim%20Building%20-%20JB.jpg> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Architecture_of_the_United_Kingdom> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Johor_Bahru> .
+
+<https://example.org/resource/Lee_Yan_Lian_Building> wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ rdfs:label "Lee Yan Lian Building"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Tower_block> .
+
+<https://example.org/resource/Malaysian_Houses_of_Parliament> wdt:P571 "1963-09-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Malaysian_Public_Works_Department> ;
+ rdfs:label "Malaysian Houses of Parliament"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Architectural_structure> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kuala%20Lumpur%20Malaysia%20Bangunan%20Parlimen%20Malaysia-02.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> .
+
+<https://example.org/resource/KH_Tower> wdt:P31 <https://en.wikipedia.org/wiki/Building> ;
+ rdfs:label "KH Tower"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> .
+---
+These are the labels of the properties:
+
+wdt:P466 -> occupant
+wdt:P18 -> image
+wdt:P571 -> inception
+wdt:P31 -> instance of
+wdt:P138 -> named after
+wdt:P17 -> country
+wdt:P3451 -> nighttime view
+wdt:P131 -> located in the administrative territorial entity
+wdt:P149 -> architectural style
+wdt:P84 -> architect
+wdt:P462 -> color.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " 
+|-
+! Name
+! class="unsortable"| Image
+! class="unsortable"| City
+! Years as Tallest 
+! Years
+! Architectural height<br /><small>m (ft)</small>
+! Roof height<br /><small>m (ft)</small>
+! Floors
+! Coordinates
+! class="unsortable"| Notes
+|-
+| Takaful Tower
+| 
+| [[Kuala Lumpur]]
+| 1971–1973
+| align=center | 2 years
+| align=center | 110 (361)
+| align=center | 110 (361)
+| align=center | 28
+| {{Coord|3|08|21.5|N|101|41|45.5|E}}
+| Formerly known as Bangunan Sime Bank. The first high-rise building over 100&nbsp;m (328&nbsp;ft)<ref>{{Cite web|url=https://en.phorio.com/menara_takaful,_kuala_lumpur,_malaysia|title=Menara Takaful|website=en.phorio.com|access-date=23 September 2019}}</ref>
+|-
+| Crowne Plaza Mutiara KL*
+| 
+| [[Kuala Lumpur]]
+| 1973–1978
+| align=center | 5 years
+| align=center | 130 (427)
+| align=center | 130 (427)
+| align=center | 36
+| {{Coord|3|09|05.8|N|101|42|39.3|E}}
+| Formerly known as KL Hilton. Demolished in 2013<ref>{{Cite news|url=https://www.thestar.com.my/news/community/2012/10/19/former-kl-hilton-an-iconic-landmark-in-the-city|title=Former KL Hilton an iconic landmark in the city – The Star Online|date=19 October 2012|work=The Star Online|access-date=14 October 2019|language=en-US}}</ref><ref>{{Cite web|url=https://www.skyscrapercenter.com/building/crowne-plaza-mutiara-kl/20081|title=Crowne Plaza Mutiara KL|website=skyscrapercenter.com|access-date=11 September 2018}}</ref>
+|-
+| Bumiputra Commerce Tower
+| 
+| [[Kuala Lumpur]]
+| 1978–1980
+| align=center | 2 years
+| align=center | 150.5 (493)
+| align=center | 150.5 (493)
+| align=center | 34
+| {{Coord|3|09|01.7|N|101|41|49.1|E}}
+| Also known as Menara Bank Muamalat. The first skyscraper in Malaysia<ref>{{Cite web|url=https://en.phorio.com/menara_bank_muamalat,_kuala_lumpur,_malaysia|title=Menara Bank Muamalat|website=en.phorio.com|access-date=11 September 2019}}</ref>
+|-
+| DBKL Tower 1
+| [[File:Kuala Lumpur Malaysia Dewan-Bandaraya-Kuala-Lumpur-01.jpg|100px]]
+| [[Kuala Lumpur]]
+| 1980–1983
+| align=center | 3 years
+| align=center | {{convert|151|m|ft|0|abbr=values}}
+| align=center | {{cvt|151|m}}
+| align=center | 35
+| {{Coord|3|09|07.7|N|101|41|38.7|E}}
+| Also known as Menara DBKL 1<ref>{{Cite web|url=https://en.phorio.com/bangunan_dewan_bandaraya,_kuala_lumpur,_malaysia|title=Bangunan Dewan Bandaraya|website=en.phorio.com|access-date=11 September 2019}}</ref>
+|-
+| Dato' Onn Tower
+| [[File:Menara Dato' Onn (27 Mei 2023).jpg|frameless|100px]]
+| [[Kuala Lumpur]]
+| 1985–1986
+| align=center | 1 years
+| align=center | 175 (574)
+| align=center | 175 (574)
+| align=center | 40 
+| {{Coord|3|10|09.5|N|101|41|27.2|E}}
+|<ref>{{cite web |title=Menara Dato'Onn |url=http://skyscraperpage.com/cities/?buildingID=5255 |publisher=SkyscraperPage.com |access-date=19 April 2009 }}</ref><ref>{{cite web |title=Menara Dato'Onn |url=http://www.emporis.com/en/wm/bu/?id=menaradatoonn-kualalumpur-malaysia |archive-url=https://web.archive.org/web/20061206015549/http://www.emporis.com/en/wm/bu/?id=menaradatoonn-kualalumpur-malaysia |url-status=dead |archive-date=6 December 2006 |publisher=Emporis.com |access-date=19 April 2009 }}</ref> |}
+---

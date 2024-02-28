@@ -1,0 +1,208 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of tallest buildings in Malaysia" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " 
+|-
+! Name
+! class="unsortable"| Image
+! class="unsortable"| City
+! Years as Tallest 
+! Years
+! Architectural height<br /><small>m (ft)</small>
+! Roof height<br /><small>m (ft)</small>
+! Floors
+! Coordinates
+! class="unsortable"| Notes
+|-
+| [[Sultan Abdul Samad Building]]
+| [[File:Kuala Lumpur Sultan Abdul Building.jpg|100px]]
+| [[Kuala Lumpur]]
+| 1897–1942
+| align=center | 45 years
+| align=center | 40 (131)
+| align=center | 40 (131)
+| align=center | 3
+| {{Coord|3|08|55.2|N|101|41|39.8|E}}
+| Formerly known simply as Government Offices in its early years<ref>{{Cite web|url=https://www.emporis.com/buildings/105756/sultan-abdul-samad-building-kuala-lumpur-malaysia|archive-url=https://web.archive.org/web/20191014033552/https://www.emporis.com/buildings/105756/sultan-abdul-samad-building-kuala-lumpur-malaysia|url-status=dead|archive-date=14 October 2019|title=Sultan Abdul Samad Building|website=Emporis.com|access-date=14 October 2019}}</ref>
+|-
+| [[Sultan Ibrahim Building]]
+| [[File:Perspective View of Sultan Ibrahim Building.jpg|100px]]
+| [[Johor Bahru]]
+| 1942–1960
+| align=center | 18 years
+| align=center | 60 (196)
+| align=center | 60 (196)
+| align=center | 5
+| {{Coord|1|27|28.2|N|103|45|40.3|E}}
+|<ref>{{Cite web|url=http://www.arkib.gov.my/en/web/guest/bangunan-sultan-ibrahim|website=Official Portal of Malaysia National Archives|access-date=14 October 2019|title=Archived copy|archive-url=https://web.archive.org/web/20190830210055/http://www.arkib.gov.my/en/web/guest/bangunan-sultan-ibrahim|archive-date=30 August 2019|url-status=dead}}</ref><ref>{{Cite web|url=https://eresources.nlb.gov.sg/newspapers/Digitised/Article/straitstimes19400310-1.2.85#searchBar|title=Johore's New Government Offices Foundation Stone To Be Laid To-day|website=Singapore National Archives|publisher=[[The Straits Times]]|date=10 March 1940|access-date=11 September 2018}}</ref> 
+|-
+| [[Lee Yan Lian Building]]
+| 
+| [[Kuala Lumpur]]
+| 1960–1963
+| align=center | 3 years
+| align=center | 73 (239)
+| align=center | 73 (239)
+| align=center | 18
+| {{Coord|3|08|52.4|N|101|41|52.7|E}}
+| The first high-rise building<ref>{{Cite web|url=https://www.acccim.org.my/en/tan-sri-lee-yan-lian/|title=Tan Sri Lee Yan Lian|website=accim.org.my|access-date=14 October 2019}}</ref>
+|-
+| [[Malaysian Houses of Parliament]]
+| [[File:Kuala Lumpur Malaysia Bangunan Parlimen Malaysia-02.jpg|100px]]
+| [[Kuala Lumpur]]
+| 1963–1971
+| align=center | 8 years
+| align=center | 77 (252)
+| align=center | 77 (252)
+| align=center | 20
+| {{Coord|3|08|57.8|N|101|40|45.8|E}}
+| The first high-rise building, which was built after independence<ref>The Straits Times: [http://newspapers.nl.sg/Digitised/Article.aspx?articleid=straitstimes19631102-1.2.13 ''Architect who has evolved own style over the years''], 2 November 1963, page 1; accessed 23 February 2014</ref><ref>The Straits Times: [https://eresources.nlb.gov.sg/newspapers/Digitised/Article/straitstimes19631102-1.2.133 ''The big step forward''], 2 November 1963, page 1; accessed 23 February 2014</ref>
+|-
+| [[KH Tower]]
+| [[File:KH Tower, Kuala Lumpur.jpg|100px]]
+| [[Kuala Lumpur]]
+| 1983–1984
+| align=center | 1 years
+| align=center | 152 (499)
+| align=center | 152 (499)
+| align=center | 36
+| {{Coord|3|09|04.4|N|101|42|35.7|E}}
+| Formerly known as Promet Tower, also the first all-glass curtain wall building in Malaysia.<ref>{{Cite web|url=https://www.skyscrapercenter.com/building/menara-kh/3851|title=Menara KH|website=skyscrapercenter.com|access-date=11 September 2018}}</ref>
+|-
+| [[Dayabumi Complex]]
+| [[File:Dayabumi, Kuala Lumpur (February 2007).jpg|100px]]
+| [[Kuala Lumpur]]
+| 1984–1985
+| align=center | 1 years
+| align=center | 157 (515)
+| align=center | 157 (515)
+| align=center | 35
+| {{Coord|3|08|41.8|N|101|41|37.7|E}}
+|<ref>{{cite web |title=Kompleks Dayabumi |url=http://skyscraperpage.com/cities/?buildingID=610 |publisher=SkyscraperPage.com |access-date=19 April 2009 }}</ref><ref>{{cite web |title=Kompleks Dayabumi |url=http://www.emporis.com/en/wm/bu/?id=kompleksdayabumi-kualalumpur-malaysia |archive-url=https://web.archive.org/web/20061206015904/http://www.emporis.com/en/wm/bu/?id=kompleksdayabumi-kualalumpur-malaysia |url-status=dead |archive-date=6 December 2006 |publisher=Emporis.com |access-date=19 April 2009 }}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Sultan_Abdul_Samad_Building> rdfs:label "Sultan Abdul Samad Building"@en ;
+ wdt:P466 <https://en.wikipedia.org/wiki/Ministry_of_Communications_and_Digital> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/20190822%20Sultan%20Abdul%20Samad%20Building-10.jpg> ;
+ wdt:P571 "1897-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Architectural_structure> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Abdul_Samad_of_Selangor> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/Dataran%20Merdeka%20-%20panoramio.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Islamic_architecture> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Arthur_Charles_Alfred_Norman> .
+
+<https://example.org/resource/Sultan_Ibrahim_Building> wdt:P31 <https://en.wikipedia.org/wiki/Building> ;
+ wdt:P571 "1942-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P462 <https://en.wikipedia.org/wiki/Grey> ;
+ rdfs:label "Sultan Ibrahim Building"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sultan%20Ibrahim%20Building%20-%20JB.jpg> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Architecture_of_the_United_Kingdom> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Johor_Bahru> .
+
+<https://example.org/resource/Lee_Yan_Lian_Building> wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ rdfs:label "Lee Yan Lian Building"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Tower_block> .
+
+<https://example.org/resource/Malaysian_Houses_of_Parliament> wdt:P571 "1963-09-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Malaysian_Public_Works_Department> ;
+ rdfs:label "Malaysian Houses of Parliament"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Architectural_structure> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kuala%20Lumpur%20Malaysia%20Bangunan%20Parlimen%20Malaysia-02.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> .
+
+<https://example.org/resource/KH_Tower> wdt:P31 <https://en.wikipedia.org/wiki/Building> ;
+ rdfs:label "KH Tower"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> .
+
+<https://example.org/resource/Dayabumi_Complex> wdt:P1101 "35"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Skyscraper> ;
+ wdt:P127 <https://en.wikipedia.org/wiki/Kuala_Lumpur_City_Centre> ;
+ rdfs:label "Dayabumi Complex"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Dayabumi%2C%20Kuala%20Lumpur%20%28February%202007%29.jpg> ;
+ wdt:P571 "1984-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1619 "1984-05-05T00:00:00Z"^^xsd:dateTime .
+---
+These are the labels of the properties:
+
+wdt:P466 -> occupant
+wdt:P18 -> image
+wdt:P571 -> inception
+wdt:P31 -> instance of
+wdt:P138 -> named after
+wdt:P17 -> country
+wdt:P3451 -> nighttime view
+wdt:P131 -> located in the administrative territorial entity
+wdt:P149 -> architectural style
+wdt:P84 -> architect
+wdt:P462 -> color
+wdt:P1101 -> floors above ground
+wdt:P127 -> owned by
+wdt:P1619 -> date of official opening.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " 
+|-
+! Name
+! class="unsortable"| Image
+! class="unsortable"| City
+! Years as Tallest 
+! Years
+! Architectural height<br /><small>m (ft)</small>
+! Roof height<br /><small>m (ft)</small>
+! Floors
+! Coordinates
+! class="unsortable"| Notes
+|-
+| [[Petronas Twin Towers]]
+| [[File:Petronas Panorama II (4to3).jpg|100px]]
+| [[Kuala Lumpur]]
+| 1998–2019
+| align=center | 20 years
+| align=center | {{cvt|451.9|m}}
+| align=center | {{cvt|405.9|m}}
+| align=center | 88
+| {{Coord|3|09|28|N|101|42|42.9|E}}
+| The tallest building in the world from 1998 to 2004 and remain the tallest twin towers in the world<ref>{{cite web | publisher = Skyscrapercenter.com | title = Petronas Tower 1 | url = https://www.skyscrapercenter.com/building/petronas-twin-tower-1/149 | access-date = 24 September 2019 }}</ref><ref>{{cite web | publisher = Skyscrapercenter.com | title = Petronas Tower 2 | url = https://www.skyscrapercenter.com/building/petronas-twin-tower-2/150 | access-date = 24 September 2019 }}</ref>
+|-
+| [[The Exchange 106]] 
+| [[File:The Exchange 106 20230317.jpg|100px]]
+| [[Kuala Lumpur]]
+| 2019–2021
+| align=center | 2 years
+| align=center | {{cvt|453.6|m}}
+| align=center | {{cvt|387.6|m}}
+| align=center | 95
+| 
+| Centerpiece of [[Tun Razak Exchange]] development.
+|-
+| [[Merdeka 118]]
+| [[File:Merdeka 118 20230317.jpg|100px]]
+| [[Kuala Lumpur]]
+| 2021–present
+| align=center | 3 years
+| align=center | {{cvt|678.9|m}}
+| align=center | {{cvt|518.9|m}}
+| align=center | 118 
+| {{coord|3.141335|N|101.700659|E}}
+| The second-tallest building in the world and tallest in Southeast Asia, The first skyscraper exceeding 500 m and 600 m in Kuala Lumpur and Malaysia.<ref>{{cite web | publisher = Skyscrapercenter.com | title = Merdeka PNB118 | url = https://www.skyscrapercenter.com/building/merdeka-pnb118/10115 | access-date = 14 October 2019 }}</ref> |}
+---

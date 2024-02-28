@@ -1,0 +1,181 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/A_Flintstones_Christmas_Carol> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaur> ns1:P1476 "Dinosaur"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1980-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinotopia:_Quest_for_the_Ruby_Sunstone> ns1:P1476 "Dinotopia: Quest for the Ruby Sunstone"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2005-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Doraemon:_Nobita's_Dinosaur> ns1:P1476 "Doraemon: Nobita's Dinosaur"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "1980-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Doraemon:_Nobita's_Dinosaur_2006> ns1:P1476 "Doraemon: Nobita's Dinosaur 2006"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Doraemon:_Nobita_and_the_Knights_of_Dinosaurs> ns1:P1476 "Doraemon: Nobita and the Knights of Dinosaurs"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "1987-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Doraemon:_Nobitas_New_Dinosaur> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "2020-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Early_Man> ns1:P495 <http://www.wikidata.org/entity/Q145> ;
+    ns1:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Epic> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q408> ;
+    ns1:P577 "1984-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Fantasia_-_Rite_of_Spring> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1940-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Gertie_the_Dinosaur> ns1:P136 <http://www.wikidata.org/entity/Q157443> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1914-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Hollyrock-a-Bye_Baby> ns1:P136 <http://www.wikidata.org/entity/Q157443> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1993-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ice_Age> ns1:P136 <http://www.wikidata.org/entity/Q319221> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2002-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ice_Age:_Collision_Course> ns1:P136 <http://www.wikidata.org/entity/Q319221> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q29168811> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ice_Age:_Continental_Drift> ns1:P136 <http://www.wikidata.org/entity/Q319221> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q29168811> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ice_Age:_Dawn_of_the_Dinosaurs> ns1:P136 <http://www.wikidata.org/entity/Q319221> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2009-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ice_Age:_The_Meltdown> ns1:P136 <http://www.wikidata.org/entity/Q319221> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Little_Nemo:_Adventures_in_Slumberland> ns1:P495 <http://www.wikidata.org/entity/Q17>,
+        <https://example.org/resource/The_Man_Called_Flintstone> ;
+    ns1:P577 "1989-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Dinosaur_and_the_Missing_Link:_A_Prehistoric_Tragedy> ns1:P1476 "The Dinosaur and the Missing Link: A Prehistoric Tragedy"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1915-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Flintstones:_On_the_Rocks> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2001-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Good_Dinosaur> ns1:P136 <http://www.wikidata.org/entity/Q319221> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Ice_Age_Adventures_of_Buck_Wild> ns1:P136 <http://www.wikidata.org/entity/Q319221> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q29168811> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Jetsons_Meet_the_Flintstones> ns1:P136 <http://www.wikidata.org/entity/Q157443> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q29168811> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1987-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time> ns1:P136 <http://www.wikidata.org/entity/Q319221> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q29168811> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q22890>,
+        <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1988-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_II:_The_Great_Valley_Adventure> ns1:P136 <http://www.wikidata.org/entity/Q319221> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q29168811> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_III:_The_Time_of_the_Great_Giving> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time III: The Time of the Great Giving"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1995-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_IV:_Journey_Through_the_Mists> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time IV: Journey Through the Mists"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1996-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_IX:_Journey_to_Big_Water> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time IX: Journey to Big Water"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2002-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_V:_The_Mysterious_Island> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time V: The Mysterious Island"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_VI:_The_Secret_of_Saurus_Rock> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time VI: The Secret of Saurus Rock"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1998-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_VII:_The_Stone_of_Cold_Fire> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time VII: The Stone of Cold Fire"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2000-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_VIII:_The_Big_Freeze> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time VIII: The Big Freeze"@en ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2001-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_X:_The_Great_Longneck_Migration> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time X: The Great Longneck Migration"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2003-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_XI:_Invasion_of_the_Tinysauruses> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time XI: Invasion of the Tinysauruses"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2005-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_XII:_The_Great_Day_of_the_Flyers> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time XII: The Great Day of the Flyers"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_XIII:_The_Wisdom_of_Friends> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time XIII: The Wisdom of Friends"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_XIV:_Journey_of_the_Brave> ns1:P136 <http://www.wikidata.org/entity/Q202866> ;
+    ns1:P1476 "The Land Before Time XIV: Journey of the Brave"@en ;
+    ns1:P31 <http://www.wikidata.org/entity/Q11424> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Lego_Batman_Movie> ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2017-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Lego_Movie_2:_The_Second_Part> ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2019-01-01T00:00:00+00:00"^^xsd:dateTime .
+

@@ -1,0 +1,383 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/A_Flintstones_Christmas_Carol> rdfs:label "A Flintstones Christmas Carol"@en ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinosaur> rdfs:label "Dinosaur"@en ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1980-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dinotopia:_Quest_for_the_Ruby_Sunstone> rdfs:label "Dinotopia: Quest for the Ruby Sunstone"@en ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2005-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Doraemon:_Nobita's_Dinosaur> rdfs:label "Doraemon: Nobita's Dinosaur"@en ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "1980-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Doraemon:_Nobita's_Dinosaur_2006> rdfs:label "Doraemon: Nobita's Dinosaur 2006"@en ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Doraemon:_Nobita's_New_Dinosaur> rdfs:label "Doraemon: Nobita's New Dinosaur"@en ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P364 wd:Q5287 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "2020-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Doraemon:_Nobita_and_the_Knights_of_Dinosaurs> rdfs:label "Doraemon: Nobita and the Knights of Dinosaurs"@en ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "1987-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Early_Man> rdfs:label "Early Man"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Epic> rdfs:label "Epic"@en ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q408 ;
+    wdt:P577 "1984-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Fantasia_-_Rite_of_Spring> rdfs:label "Fantasia - Rite of Spring"@en ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1940-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Gertie_the_Dinosaur> rdfs:label "Gertie the Dinosaur"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1914-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Hollyrock-a-Bye_Baby> rdfs:label "Hollyrock-a-Bye Baby"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1993-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ice_Age> rdfs:label "Ice Age"@en ;
+    wdt:P2079 wd:Q1401416 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2002-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ice_Age:_Collision_Course> rdfs:label "Ice Age: Collision Course"@en ;
+    wdt:P31 wd:Q29168811 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ice_Age:_Continental_Drift> rdfs:label "Ice Age: Continental Drift"@en ;
+    wdt:P31 wd:Q29168811 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ice_Age:_Dawn_of_the_Dinosaurs> rdfs:label "Ice Age: Dawn of the Dinosaurs"@en ;
+    wdt:P2079 wd:Q1401416 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2009-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Ice_Age:_The_Meltdown> rdfs:label "Ice Age: The Meltdown"@en ;
+    wdt:P2079 wd:Q1401416 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Little_Nemo:_Adventures_in_Slumberland> rdfs:label "Little Nemo: Adventures in Slumberland"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q17,
+        wd:Q30 ;
+    wdt:P577 "1989-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Marco_Polo_Junior_Versus_the_Red_Dragon> rdfs:label "Marco Polo Junior Versus the Red Dragon"@en ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q408 ;
+    wdt:P577 "1972-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Meet_the_Robinsons> rdfs:label "Meet the Robinsons"@en ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Minions> rdfs:label "Minions"@en ;
+    wdt:P1476 "Minions"@en ;
+    wdt:P2047 91.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P57 wd:Q20666333,
+        wd:Q3384479 ;
+    wdt:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q4964545 .
+
+<https://example.org/resource/Playmobil:_The_Movie> rdfs:label "Playmobil: The Movie"@en ;
+    wdt:P1476 "Playmobil: The Movie"@en ;
+    wdt:P2047 93.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q150 ;
+    wdt:P495 wd:Q142 ;
+    wdt:P57 wd:Q23409740 ;
+    wdt:P577 "2019-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q23409740 .
+
+<https://example.org/resource/Ralph_Breaks_the_Internet> rdfs:label "Ralph Breaks the Internet"@en ;
+    wdt:P1476 "Ralph Breaks the Internet"@en ;
+    wdt:P2047 94.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P57 wd:Q2499079,
+        wd:Q27868114 ;
+    wdt:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q27868114 .
+
+<https://example.org/resource/Scooby-Doo!_Legend_of_the_Phantosaur> rdfs:label "Scooby-Doo! Legend of the Phantosaur"@en ;
+    wdt:P136 wd:Q157443 ;
+    wdt:P2047 85.0 ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2011-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Scooby-Doo_and_the_Cyber_Chase> rdfs:label "Scooby-Doo and the Cyber Chase"@en ;
+    wdt:P1476 "Scooby-Doo and the Cyber Chase"@en ;
+    wdt:P2047 95.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P57 wd:Q4356246 ;
+    wdt:P577 "2001-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q343373 .
+
+<https://example.org/resource/Speckles:_The_Tarbosaurus> rdfs:label "Speckles: The Tarbosaurus"@en ;
+    wdt:P136 wd:Q319221 ;
+    wdt:P2047 85.0 ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q884 ;
+    wdt:P577 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Spider-Man:_Across_the_Spider-Verse> rdfs:label "Spider-Man: Across the Spider-Verse"@en ;
+    wdt:P136 wd:Q188473 ;
+    wdt:P2047 85.0 ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2023-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Tarzan> rdfs:label "Tarzan"@en ;
+    wdt:P136 wd:Q319221 ;
+    wdt:P2047 85.0 ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q183 ;
+    wdt:P577 "2013-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Tekken:_The_Motion_Picture> rdfs:label "Tekken: The Motion Picture"@en ;
+    wdt:P136 wd:Q188473 ;
+    wdt:P2047 85.0 ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "1998-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Dinosaur_and_the_Missing_Link:_A_Prehistoric_Tragedy> rdfs:label "The Dinosaur and the Missing Link: A Prehistoric Tragedy"@en ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1915-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Flintstones:_On_the_Rocks> rdfs:label "The Flintstones: On the Rocks"@en ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2001-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Good_Dinosaur> rdfs:label "The Good Dinosaur"@en ;
+    wdt:P2079 wd:Q1401416 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Ice_Age_Adventures_of_Buck_Wild> rdfs:label "The Ice Age Adventures of Buck Wild"@en ;
+    wdt:P31 wd:Q29168811 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2022-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Jetsons_Meet_the_Flintstones> rdfs:label "The Jetsons Meet the Flintstones"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1987-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time> rdfs:label "The Land Before Time"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1988-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_II:_The_Great_Valley_Adventure> rdfs:label "The Land Before Time II: The Great Valley Adventure"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_III:_The_Time_of_the_Great_Giving> wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time III: The Time of the Great Giving"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1995-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_IV:_Journey_Through_the_Mists> wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time IV: Journey Through the Mists"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1996-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_IX:_Journey_to_Big_Water> rdfs:label "The Land Before Time IX: Journey to Big Water"@en ;
+    wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time IX: Journey to Big Water"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2002-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_V:_The_Mysterious_Island> wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time V: The Mysterious Island"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_VI:_The_Secret_of_Saurus_Rock> wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time VI: The Secret of Saurus Rock"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1998-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_VII:_The_Stone_of_Cold_Fire> wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time VII: The Stone of Cold Fire"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2000-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_VIII:_The_Big_Freeze> wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time VIII: The Big Freeze"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2001-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_X:_The_Great_Longneck_Migration> rdfs:label "The Land Before Time X: The Great Longneck Migration"@en ;
+    wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time X: The Great Longneck Migration"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2003-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_XI:_Invasion_of_the_Tinysauruses> rdfs:label "The Land Before Time XI: Invasion of the Tinysauruses"@en ;
+    wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time XI: Invasion of the Tinysauruses"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2005-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_XII:_The_Great_Day_of_the_Flyers> rdfs:label "The Land Before Time XII: The Great Day of the Flyers"@en ;
+    wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time XII: The Great Day of the Flyers"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_XIII:_The_Wisdom_of_Friends> rdfs:label "The Land Before Time XIII: The Wisdom of Friends"@en ;
+    wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time XIII: The Wisdom of Friends"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Land_Before_Time_XIV:_Journey_of_the_Brave> rdfs:label "The Land Before Time XIV: Journey of the Brave"@en ;
+    wdt:P136 wd:Q202866 ;
+    wdt:P1476 "The Land Before Time XIV: Journey of the Brave"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q1860 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Lego_Batman_Movie> rdfs:label "The Lego Batman Movie"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2017-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Lego_Movie_2:_The_Second_Part> rdfs:label "The Lego Movie 2: The Second Part"@en ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2019-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Man_Called_Flintstone> rdfs:label "The Man Called Flintstone"@en ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1966-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Mighty_Kong> rdfs:label "The Mighty Kong"@en ;
+    wdt:P1476 "The Mighty Kong"@en ;
+    wdt:P2047 90.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q150 ;
+    wdt:P495 wd:Q31,
+        wd:Q884 ;
+    wdt:P577 "1998-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Missing_Link> rdfs:label "The Missing Link"@en ;
+    wdt:P1476 "The Missing Link"@en ;
+    wdt:P2047 92.0 ;
+    wdt:P31 wd:Q11424 ;
+    wdt:P364 wd:Q150 ;
+    wdt:P495 wd:Q31 ;
+    wdt:P57 wd:Q687659 ;
+    wdt:P577 "1980-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P58 wd:Q687659 .
+
+<https://example.org/resource/The_Super_Mario_Bros._Movie> rdfs:label "The Super Mario Bros. Movie"@en ;
+    wdt:P136 wd:Q157394 ;
+    wdt:P2047 85.0 ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P462 wd:Q22006653 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2023-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Tom_and_Jerry_and_the_Wizard_of_Oz> rdfs:label "Tom and Jerry and the Wizard of Oz"@en ;
+    wdt:P2047 0.0 ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2011-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Toy_Story> rdfs:label "Toy Story"@en ;
+    wdt:P2047 0.0 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1995-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Toy_Story_2> rdfs:label "Toy Story 2"@en ;
+    wdt:P2047 0.0 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1999-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Toy_Story_3> rdfs:label "Toy Story 3"@en ;
+    wdt:P2047 0.0 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Toy_Story_4> rdfs:label "Toy Story 4"@en ;
+    wdt:P2047 0.0 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2019-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Transformers:_The_Movie> rdfs:label "Transformers: The Movie"@en ;
+    wdt:P2047 0.0 ;
+    wdt:P31 wd:Q202866 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "1986-01-01T00:00:00+00:00"^^xsd:dateTime .
+

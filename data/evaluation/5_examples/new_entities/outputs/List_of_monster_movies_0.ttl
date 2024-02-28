@@ -1,0 +1,411 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/20_Million_Miles_to_Earth> ns1:P136 <http://www.wikidata.org/entity/Q1342372>,
+        <http://www.wikidata.org/entity/Q471839> ;
+    ns1:P1476 "20 Million Miles to Earth"@en ;
+    ns1:P577 "1957-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P915 <http://www.wikidata.org/entity/Q313> .
+
+<https://example.org/resource/Achoura> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Achoura"@en ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Bigfoot_The_Movie> ns1:P1476 "Bigfoot: The Movie"@en ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Blood_Redd> ns1:P1476 "Blood Redd"@en ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Cats_Eye> ns1:P1476 "Cat's Eye"@en ;
+    ns1:P577 "1985-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Creature_Feature> ns1:P1476 "Creature Feature"@en ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Crying_Wolf_3D> ns1:P1476 "Crying Wolf 3D"@en ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Cute_Little_Buggers_3D> ns1:P1476 "Cute Little Buggers 3D"@en ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/D-War> ns1:P136 <http://www.wikidata.org/entity/Q1342372>,
+        <http://www.wikidata.org/entity/Q157394>,
+        <http://www.wikidata.org/entity/Q188473> ;
+    ns1:P1476 "D-War"@en ;
+    ns1:P161 <http://www.wikidata.org/entity/Q5489431> ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577>,
+        <http://www.wikidata.org/entity/Q66909480> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Dreadtime_Stories> ns1:P136 <http://www.wikidata.org/entity/Q1342372>,
+        <http://www.wikidata.org/entity/Q200092> ;
+    ns1:P1476 "Dreadtime Stories"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Earth_vs_the_Spider> ns1:P136 <http://www.wikidata.org/entity/Q1342372>,
+        <http://www.wikidata.org/entity/Q471839> ;
+    ns1:P1476 "Earth vs. the Spider"@en ;
+    ns1:P161 <http://www.wikidata.org/entity/Q2657609> ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1958-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Extinction> ns1:P136 <http://www.wikidata.org/entity/Q1342372>,
+        <http://www.wikidata.org/entity/Q471839> ;
+    ns1:P1476 "Extinction"@en ;
+    ns1:P161 <http://www.wikidata.org/entity/Q16927792> ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q145> ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Frankenstein_Created_Bikers> rdfs:label "Frankenstein Created Bikers"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Frankenstein Created Bikers"@en ;
+    ns1:P161 <http://www.wikidata.org/entity/Q22675724> ;
+    ns1:P344 <http://www.wikidata.org/entity/Q66909480> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P750 <http://www.wikidata.org/entity/Q16927792> .
+
+<https://example.org/resource/From_the_Dark> rdfs:label "From the Dark"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "From the Dark"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P750 <http://www.wikidata.org/entity/Q3641076> .
+
+<https://example.org/resource/Gamera> rdfs:label "Gamera"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Gamera"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P577 "1965-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P750 <http://www.wikidata.org/entity/Q477809> .
+
+<https://example.org/resource/Gehenna> rdfs:label "Gehenna"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Gehenna"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q354579> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P577 "2016-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P750 <http://www.wikidata.org/entity/Q16927792> .
+
+<https://example.org/resource/Ghoul> rdfs:label "Ghoul"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Ghoul"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q354579> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P750 <http://www.wikidata.org/entity/Q16927792> .
+
+<https://example.org/resource/Half_Human> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Half Human"@en ;
+    ns1:P161 <http://www.wikidata.org/entity/Q636593> ;
+    ns1:P344 <http://www.wikidata.org/entity/Q66909480> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q5287> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "1955-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Helen_Keller_vs_Nightwolves> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Helen Keller vs. Nightwolves"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q66909480> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/I_am_Legend> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "I am Legend"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q66909480> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2007-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Infernal> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Infernal"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q66909480> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Insectula> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Insectula"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q66909480> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/It_Came_From_the_Desert> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "It Came From the Desert"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Jack_Frost> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Jack Frost"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Khooni_Panja> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Khooni Panja"@en ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q668> ;
+    ns1:P577 "1991-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Lake_Effect> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Lake Effect"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Night_of_the_Living_Dead> ns1:P136 <http://www.wikidata.org/entity/Q200092> ;
+    ns1:P1476 "Night of the Living Dead"@en ;
+    ns1:P161 <http://www.wikidata.org/entity/Q51511> ;
+    ns1:P1981 <http://www.wikidata.org/entity/Q20644797> ;
+    ns1:P344 <http://www.wikidata.org/entity/Q51511> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1968-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P750 <http://www.wikidata.org/entity/Q907311> .
+
+<https://example.org/resource/Orochi_the_Eight_Headed_Dragon> ns1:P136 <http://www.wikidata.org/entity/Q157394> ;
+    ns1:P1476 "Orochi, the Eight-Headed Dragon"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q5287> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "1994-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/P-51_Dragon_Fighter> ns1:P136 <http://www.wikidata.org/entity/Q188473> ;
+    ns1:P1476 "P-51 Dragon Fighter"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Q> ns1:P136 <http://www.wikidata.org/entity/Q200092> ;
+    ns1:P1476 "Q"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1982-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Rampage> ns1:P136 <http://www.wikidata.org/entity/Q188473> ;
+    ns1:P1476 "Rampage"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2018-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/S.S._Doomtrooper> rdfs:label "S.S. Doomtrooper"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "S.S. Doomtrooper"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Sexcula> rdfs:label "Sexcula"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Sexcula"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Sharp_Fangs_in_the_Forest> rdfs:label "Sharp Fangs in the Forest"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Sharp Fangs in the Forest"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q928> ;
+    ns1:P577 "1986-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/SilverHide> rdfs:label "SilverHide"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "SilverHide"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q145> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Tarantula> rdfs:label "Tarantula"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Tarantula"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1955-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_ABCs_of_Death> ns1:P136 <http://www.wikidata.org/entity/Q1342372>,
+        <http://www.wikidata.org/entity/Q200092> ;
+    ns1:P1476 "The ABCs of Death"@en ;
+    ns1:P577 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Babadook> ns1:P136 <http://www.wikidata.org/entity/Q1342372>,
+        <http://www.wikidata.org/entity/Q200092> ;
+    ns1:P1476 "The Babadook"@en ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Beast_From_20000_Fathoms> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "The Beast From 20,000 Fathoms"@en ;
+    ns1:P577 "1953-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Beast_of_Hollow_Mountain> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "The Beast of Hollow Mountain"@en ;
+    ns1:P577 "1956-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Dooms_Chapel_Horror> ns1:P136 <http://www.wikidata.org/entity/Q1342372>,
+        <http://www.wikidata.org/entity/Q200092> ;
+    ns1:P1476 "The Dooms Chapel Horror"@en ;
+    ns1:P161 <http://www.wikidata.org/entity/Q5489431> ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Fiancé> ns1:P136 <http://www.wikidata.org/entity/Q1342372>,
+        <http://www.wikidata.org/entity/Q200092> ;
+    ns1:P1476 "The Fiancé"@en ;
+    ns1:P161 <http://www.wikidata.org/entity/Q16927792> ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Giant_Claw> rdfs:label "The Giant Claw"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "The Giant Claw"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P577 "1957-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P750 <http://www.wikidata.org/entity/Q3641076> .
+
+<https://example.org/resource/The_Giant_Gila_Monster> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "The Giant Gila Monster"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1959-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Leviathan> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "The Leviathan"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Mad_Monster> ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "The Mad Monster"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "1942-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Return_of_Godzilla> ns1:P136 <http://www.wikidata.org/entity/Q471839> ;
+    ns1:P1476 "The Return of Godzilla"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q5287> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "1984-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_War_of_the_Gargantuas> rdfs:label "The War of the Gargantuas"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "The War of the Gargantuas"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q5287> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "1966-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_X_from_Outer_Space> rdfs:label "The X from Outer Space"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "The X from Outer Space"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q5287> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q17> ;
+    ns1:P577 "1966-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Underwater> rdfs:label "Underwater"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Underwater"@en ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2020-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Unnatural> rdfs:label "Unnatural"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q200092> ;
+    ns1:P1476 "Unnatural"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/V_H_S> rdfs:label "V/H/S"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q200092> ;
+    ns1:P1476 "V/H/S"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2012-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Wind_Walkers> rdfs:label "Wind Walkers"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q200092> ;
+    ns1:P1476 "Wind Walkers"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2015-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Yongary_Monster_from_the_Deep> rdfs:label "Yongary, Monster from the Deep"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q1342372> ;
+    ns1:P1476 "Yongary, Monster from the Deep"@en ;
+    ns1:P344 <http://www.wikidata.org/entity/Q23830577> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q9176> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q884> ;
+    ns1:P577 "1967-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Zombeavers> rdfs:label "Zombeavers"@en ;
+    ns1:P136 <http://www.wikidata.org/entity/Q200092> ;
+    ns1:P1476 "Zombeavers"@en ;
+    ns1:P2047 90.0 ;
+    ns1:P344 <http://www.wikidata.org/entity/Q66909480> ;
+    ns1:P364 <http://www.wikidata.org/entity/Q1860> ;
+    ns1:P437 <http://www.wikidata.org/entity/Q723685> ;
+    ns1:P495 <http://www.wikidata.org/entity/Q30> ;
+    ns1:P577 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+

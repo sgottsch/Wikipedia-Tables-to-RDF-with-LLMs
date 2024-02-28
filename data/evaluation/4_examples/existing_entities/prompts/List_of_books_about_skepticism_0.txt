@@ -1,0 +1,386 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of books about skepticism" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " 
+|-
+! Author(s)/Editor(s)
+! Category 
+! Title
+! ISBN or WorldCat
+! Publisher 
+! Edition 
+! Year
+|-
+|[[John William Draper]]
+|[[Religious skepticism]]
+|[[c:File:History of the conflict between religion and science (IA b24856800).pdf|History of the conflict between religion and science]]
+| -
+|[[Routledge|Kegan Paul, Trench, Trübner & Company]]
+|21st
+|1890
+|-
+|[[Ernst Haeckel|Haeckel, Ernst]]
+|[[Religious skepticism]]
+|[[c:The answer of Ernst Haeckel to the falsehoods of the Jesuits, Catholic and Protestant, from the German pamphlet "Sandalion," and "My church departure".pdf|''The answer of Ernst Haeckel to the falsehoods of the Jesuits, Catholic and Protestant, from the German pamphlet "Sandalion," and "My church departure"'']]
+| -
+|[[The Truth Seeker Company]]
+|1st
+|1911
+|-
+|[[Joseph McCabe|McCabe, Joseph]] 
+|[[Religious skepticism]]
+|[[wikisource:From Rome to Rationalism|''From Rome to Rationalism: or Why I Left the Church'']]
+| -
+|[[Watts & Co]]
+|1st
+|1896
+|-
+|[[Robert P. Crease|Crease, Robert P.]]
+|[[Skeptical movement|Scientific skepticism]]
+|[https://books.google.com/books?id=bIxgDwAAQBAJ ''The Workshop and the World: What Ten Thinkers Can Teach Us About Science and Authority'']
+|{{ISBNT|978-0393292442}}
+|[[W. W. Norton & Company]]
+|1st
+|2019 |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/John_William_Draper> wdt:P69 <https://en.wikipedia.org/wiki/Perelman_School_of_Medicine_at_the_University_of_Pennsylvania> ;
+ wdt:P69 <https://en.wikipedia.org/wiki/Woodhouse_Grove_School> ;
+ wdt:P569 "1811-05-05T00:00:00Z"^^xsd:dateTime ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Chemist> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Philosopher> ;
+ wdt:P19 <https://en.wikipedia.org/wiki/St_Helens,_Merseyside> ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Brockhaus_and_Efron_Encyclopedic_Dictionary> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Historian> ;
+ wdt:P108 <https://en.wikipedia.org/wiki/New_York_University> ;
+ wdt:P463 wd:Q12759592 ;
+ wdt:P40 <https://en.wikipedia.org/wiki/John_Christopher_Draper> ;
+ wdt:P101 <https://en.wikipedia.org/wiki/Physiology> ;
+ wdt:P101 <https://en.wikipedia.org/wiki/Photography> ;
+ wdt:P1559 "John William Draper"@en ;
+ wdt:P101 <https://en.wikipedia.org/wiki/Philosophy> ;
+ wdt:P101 <https://en.wikipedia.org/wiki/Chemistry> ;
+ wdt:P735 <https://en.wikipedia.org/wiki/John_(given_name)> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Human> ;
+ wdt:P69 <https://en.wikipedia.org/wiki/University_College_London> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Physiologist> ;
+ wdt:P570 "1882-01-04T00:00:00Z"^^xsd:dateTime ;
+ wdt:P800 wd:Q25456175 ;
+ wdt:P40 wd:Q88471988 ;
+ wdt:P6379 wd:Q105026832 ;
+ wdt:P1343 wd:Q67311526 ;
+ wdt:P40 <https://en.wikipedia.org/wiki/Daniel_Draper_(meteorologist)> ;
+ wdt:P463 <https://en.wikipedia.org/wiki/American_Academy_of_Arts_and_Sciences> ;
+ wdt:P3919 <https://en.wikipedia.org/wiki/Popular_Science> ;
+ wdt:P7763 wd:Q71887839 ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Nordisk_familjebok> ;
+ wdt:P3373 <https://en.wikipedia.org/wiki/Dorothy_Catherine_Draper> ;
+ wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/John%20William%20Draper%20-%20signature.png> ;
+ wdt:P119 <https://en.wikipedia.org/wiki/Green-Wood_Cemetery> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Writer> ;
+ wdt:P106 wd:Q1622272 ;
+ wdt:P40 <https://en.wikipedia.org/wiki/Henry_Draper> ;
+ wdt:P101 <https://en.wikipedia.org/wiki/Astrophotography> ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P463 <https://en.wikipedia.org/wiki/American_Philosophical_Society> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Photographer> ;
+ wdt:P1412 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1343 wd:Q15987216 ;
+ wdt:P101 wd:Q115160290 ;
+ wdt:P1343 wd:Q19098835 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/John%20William%20Draper.jpg> ;
+ wdt:P20 <https://en.wikipedia.org/wiki/Hastings-on-Hudson,_New_York> ;
+ rdfs:label "John William Draper"@en ;
+ wdt:P101 <https://en.wikipedia.org/wiki/History_of_religion> ;
+ wdt:P101 <https://en.wikipedia.org/wiki/Photochemistry> ;
+ wdt:P1317 "1840-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/The_Nuttall_Encyclop%C3%A6dia> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Rumford_Prize> ;
+ wdt:P6886 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Physicist> ;
+ wdt:P734 <https://en.wikipedia.org/wiki/Draper_(surname)> ;
+ wdt:P937 <https://en.wikipedia.org/wiki/New_York_City> ;
+ wdt:P101 <https://en.wikipedia.org/wiki/Physics> ;
+ wdt:P463 <https://en.wikipedia.org/wiki/National_Academy_of_Sciences> ;
+ wdt:P27 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P910 wd:Q60527532 .
+
+<https://example.org/resource/Haeckel,_Ernst> wdt:P1343 wd:Q20078554 ;
+ wdt:P735 wd:Q18145728 ;
+ wdt:P22 wd:Q26196602 ;
+ wdt:P1411 <https://en.wikipedia.org/wiki/Nobel_Prize_in_Physiology_or_Medicine> ;
+ wdt:P20 <https://en.wikipedia.org/wiki/Jena> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Philosopher> ;
+ wdt:P1343 wd:Q19219752 ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Britannica_Eleventh_Edition> ;
+ wdt:P11146 <https://en.wikipedia.org/wiki/Universalmuseum_Joanneum> ;
+ wdt:P27 <https://en.wikipedia.org/wiki/German_Empire> ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Brockhaus_and_Efron_Encyclopedic_Dictionary> ;
+ wdt:P69 wd:Q20266330 ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Biologist> ;
+ wdt:P40 wd:Q68772997 ;
+ wdt:P910 wd:Q15862775 ;
+ wdt:P463 <https://en.wikipedia.org/wiki/German_National_Academy_of_Sciences_Leopoldina> ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Granat_Encyclopedic_Dictionary> ;
+ wdt:P1066 <https://en.wikipedia.org/wiki/Franz_Leydig> ;
+ wdt:P1343 wd:Q2041543 ;
+ wdt:P39 wd:Q109119401 ;
+ wdt:P1343 wd:Q124316207 ;
+ wdt:P802 <https://en.wikipedia.org/wiki/Oscar_Hertwig> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Human> ;
+ wdt:P101 <https://en.wikipedia.org/wiki/Common_descent> ;
+ wdt:P1412 <https://en.wikipedia.org/wiki/German_language> ;
+ wdt:P512 <https://en.wikipedia.org/wiki/Doctorate> ;
+ wdt:P69 <https://en.wikipedia.org/wiki/Humboldt_University_of_Berlin> ;
+ wdt:P108 <https://en.wikipedia.org/wiki/University_of_Jena> ;
+ wdt:P734 wd:Q37549995 ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Linnean_Medal> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Darwin%E2%80%93Wallace_Medal> ;
+ wdt:P11146 <https://en.wikipedia.org/wiki/University_of_Jena> ;
+ wdt:P802 <https://en.wikipedia.org/wiki/Nicholas_Miklouho-Maclay> ;
+ wdt:P27 <https://en.wikipedia.org/wiki/Kingdom_of_Prussia> ;
+ wdt:P5008 <https://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/4> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Zoologist> ;
+ wdt:P1343 wd:Q51955019 ;
+ wdt:P463 <https://en.wikipedia.org/wiki/Bavarian_Academy_of_Sciences_and_Humanities> ;
+ wdt:P1066 <https://en.wikipedia.org/wiki/Albert_von_K%C3%B6lliker> ;
+ wdt:P6886 <https://en.wikipedia.org/wiki/German_language> ;
+ wdt:P1343 wd:Q67311526 ;
+ wdt:P3919 <https://en.wikipedia.org/wiki/Popular_Science> ;
+ wdt:P1066 <https://en.wikipedia.org/wiki/Rudolf_Virchow> ;
+ wdt:P26 wd:Q108674101 ;
+ wdt:P463 wd:Q2822396 ;
+ wdt:P7763 wd:Q71887839 ;
+ wdt:P735 <https://en.wikipedia.org/wiki/Heinrich_(given_name)> ;
+ rdfs:label "Ernst Haeckel"@en ;
+ wdt:P735 <https://en.wikipedia.org/wiki/Ernst> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Writer> ;
+ wdt:P106 wd:Q1622272 ;
+ wdt:P166 wd:Q96382318 ;
+ wdt:P106 wd:Q1225716 ;
+ wdt:P106 wd:Q4205432 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ernst%20Haeckel%201860.jpg> ;
+ wdt:P463 <https://en.wikipedia.org/wiki/Zoological_Society_of_London> ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P184 <https://en.wikipedia.org/wiki/Johannes_Peter_M%C3%BCller> ;
+ wdt:P463 <https://en.wikipedia.org/wiki/American_Philosophical_Society> ;
+ wdt:P106 wd:Q11900058 ;
+ wdt:P185 <https://en.wikipedia.org/wiki/Hans_Driesch> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Photographer> ;
+ wdt:P106 wd:Q15839134 ;
+ wdt:P27 <https://en.wikipedia.org/wiki/Weimar_Republic> ;
+ wdt:P26 wd:Q563248 ;
+ wdt:P463 <https://en.wikipedia.org/wiki/Royal_Swedish_Academy_of_Sciences> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Botanist> ;
+ wdt:P1412 <https://en.wikipedia.org/wiki/Latin> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Darwin_Medal> ;
+ wdt:P1343 wd:Q19098835 ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Cothenius_Medal> ;
+ wdt:P463 <https://en.wikipedia.org/wiki/Accademia_dei_Lincei> ;
+ wdt:P570 "1919-08-09T00:00:00Z"^^xsd:dateTime ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Physician> ;
+ wdt:P40 wd:Q55851121 ;
+ wdt:P1343 wd:Q99413897 ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/The_Nuttall_Encyclop%C3%A6dia> ;
+ wdt:P19 <https://en.wikipedia.org/wiki/Potsdam> ;
+ wdt:P569 "1834-02-16T00:00:00Z"^^xsd:dateTime ;
+ wdt:P463 wd:Q1643655 ;
+ wdt:P735 <https://en.wikipedia.org/wiki/August_(name)> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Naturalist> ;
+ wdt:P802 wd:Q12729910 ;
+ wdt:P1343 wd:Q19180675 ;
+ wdt:P185 <https://en.wikipedia.org/wiki/Arnold_Lang> .
+
+<https://example.org/resource/McCabe,_Joseph> wdt:P106 <https://en.wikipedia.org/wiki/Pastor> ;
+ wdt:P569 "1867-11-12T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Human> ;
+ wdt:P1343 wd:Q51955019 ;
+ wdt:P1343 wd:Q67311526 ;
+ wdt:P27 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P140 <https://en.wikipedia.org/wiki/Atheism> ;
+ wdt:P69 <https://en.wikipedia.org/wiki/St_Bonaventure%27s> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Joseph-mccabe-1910.jpg> ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P570 "1955-01-10T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1412 <https://en.wikipedia.org/wiki/English_language> ;
+ rdfs:label "Joseph McCabe"@en ;
+ wdt:P6886 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P734 <https://en.wikipedia.org/wiki/McCabe_(surname)> ;
+ wdt:P135 <https://en.wikipedia.org/wiki/Atheism> ;
+ wdt:P19 <https://en.wikipedia.org/wiki/Macclesfield> ;
+ wdt:P27 <https://en.wikipedia.org/wiki/United_Kingdom_of_Great_Britain_and_Ireland> ;
+ wdt:P735 <https://en.wikipedia.org/wiki/Joseph> .
+
+<https://example.org/resource/Crease,_Robert_P.> wdt:P463 <https://en.wikipedia.org/wiki/American_Physical_Society> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Philosopher> ;
+ wdt:P735 <https://en.wikipedia.org/wiki/Robert> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Human> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Kelvin_Medal_and_Prize> ;
+ rdfs:label "Robert P. Crease"@en ;
+ wdt:P856 <http://www.robertpcrease.com/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/USA%20080727%20122-1.jpg> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Fellow_of_the_Institute_of_Physics> ;
+ wdt:P569 "1953-10-22T00:00:00Z"^^xsd:dateTime ;
+ wdt:P69 <https://en.wikipedia.org/wiki/Amherst_College> ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Male_gender> ;
+ wdt:P69 <https://en.wikipedia.org/wiki/Columbia_University> ;
+ wdt:P106 wd:Q16063546 ;
+ wdt:P108 <https://en.wikipedia.org/wiki/Stony_Brook_University> ;
+ wdt:P166 wd:Q41955909 .
+---
+These are the labels of the properties:
+
+wdt:P69 -> educated at
+wdt:P569 -> date of birth
+wdt:P106 -> occupation
+wdt:P19 -> place of birth
+wdt:P1343 -> described by source
+wdt:P108 -> employer
+wdt:P463 -> member of
+wdt:P40 -> child
+wdt:P101 -> field of work
+wdt:P1559 -> name in native language
+wdt:P735 -> given name
+wdt:P31 -> instance of
+wdt:P570 -> date of death
+wdt:P800 -> notable work
+wdt:P6379 -> has works in the collection
+wdt:P3919 -> contributed to creative work
+wdt:P7763 -> copyright status as a creator
+wdt:P3373 -> sibling
+wdt:P109 -> signature
+wdt:P119 -> place of burial
+wdt:P21 -> sex or gender
+wdt:P1412 -> languages spoken, written or signed
+wdt:P18 -> image
+wdt:P20 -> place of death
+wdt:P1317 -> floruit
+wdt:P166 -> award received
+wdt:P6886 -> writing language
+wdt:P734 -> family name
+wdt:P937 -> work location
+wdt:P27 -> country of citizenship
+wdt:P910 -> topic's main category
+wdt:P22 -> father
+wdt:P1411 -> nominated for
+wdt:P11146 -> collection items at
+wdt:P1066 -> student of
+wdt:P39 -> position held
+wdt:P802 -> student
+wdt:P512 -> academic degree
+wdt:P5008 -> on focus list of Wikimedia project
+wdt:P26 -> spouse
+wdt:P184 -> doctoral advisor
+wdt:P185 -> doctoral student
+wdt:P140 -> religion or worldview
+wdt:P135 -> movement
+wdt:P856 -> official website URL.
+---
+These are the labels of the objects:
+
+wd:Q12759592 -> Serbian Learned Society
+wd:Q25456175 -> The earliest surviving daguerreotype of the Moon
+wd:Q88471988 -> Virginia Draper
+wd:Q105026832 -> Photography Collection
+wd:Q67311526 -> Obalky knih.cz
+wd:Q71887839 -> copyrights on works have expired
+wd:Q1622272 -> university teacher
+wd:Q15987216 -> Dictionary of National Biography, 1885–1900
+wd:Q115160290 -> literary activity
+wd:Q19098835 -> Library of the World's Best Literature
+wd:Q60527532 -> Category:John William Draper
+wd:Q20078554 -> Great Soviet Encyclopedia (1926–1947)
+wd:Q18145728 -> Philipp
+wd:Q26196602 -> Carl Haeckel
+wd:Q19219752 -> Meyers Konversations-Lexikon, 4th edition (1885–1890)
+wd:Q20266330 -> Frederick William University Berlin
+wd:Q68772997 -> Elisabeth Haeckel
+wd:Q15862775 -> Category:Ernst Haeckel
+wd:Q2041543 -> Ottův slovník naučný
+wd:Q109119401 -> rector of the University of Jena
+wd:Q124316207 -> Pioneers and Milestones of Indonesian Geology 3. Paleontologists and Other Specialists
+wd:Q37549995 -> Haeckel
+wd:Q51955019 -> BEIC Digital Library
+wd:Q108674101 -> Agnes Huschke
+wd:Q2822396 -> Academy of Sciences of Turin
+wd:Q96382318 -> Bressa Prize
+wd:Q1225716 -> ornithologist
+wd:Q4205432 -> ichthyologist
+wd:Q11900058 -> explorer
+wd:Q15839134 -> ecologist
+wd:Q563248 -> Anna Sethe
+wd:Q55851121 -> Walter Haeckel
+wd:Q99413897 -> Medvik
+wd:Q1643655 -> Deutscher Monistenbund
+wd:Q12729910 -> Heinrich Höhr
+wd:Q19180675 -> Small Brockhaus and Efron Encyclopedic Dictionary
+wd:Q16063546 -> historian of science
+wd:Q41955909 -> Fellow of the American Physical Society.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " 
+|-
+! Author(s)/Editor(s)
+! Category 
+! Title
+! ISBN or WorldCat
+! Publisher 
+! Edition 
+! Year
+|-
+| [[David Aaronovitch|Aaronovitch, David]]
+| [[Conspiracy theory]]
+| ''Voodoo Histories: The Role of the Conspiracy Theory in Shaping Modern History''
+| {{ISBNT|978-1594484988}}
+| [[Riverhead Books]]
+| Paperback
+| 2010
+|-
+| [[Vincent Bugliosi|Bugliosi, Vincent]]
+| [[Conspiracy theory]]
+| ''[[Reclaiming History]]: The Assassination of President John F. Kennedy''
+| {{ISBNT|978-0393045253}}
+| [[W. W. Norton & Company]]
+| Hardcover
+| 2007
+|-
+| [[Darryl Cunningham|Cunningham, Darryl]]
+| Young Skeptics
+| ''How to Fake a Moon Landing: Exposing the Myths of Science Denial''
+| {{ISBNT|978-1419706899}}
+| [[Abrams Books]]
+| Hardcover
+| 2013
+|-
+| [[Yes! (U.S. magazine)]]
+| Young Skeptics
+| ''Hoaxed!: Fakes and Mistakes in the World of Science''
+| {{ISBNT|978-1554532070}}
+| [[Kids Can Press]]
+| Paperback
+| 2009
+|-
+| [[Yes! (U.S. magazine)]]
+| Young Skeptics
+| ''Science Detectives: How Scientists Solved Six Real-Life Mysteries''
+| {{ISBNT|978-1553379959}}
+| [[Kids Can Press]]
+| Paperback
+| 2006
+|-
+| [[Jesse Bering|Bering, Jesse]]
+| [[Scientific skepticism]]
+| ''The Belief Instinct: The Psychology of Souls, Destiny, and the Meaning of Life''
+| {{ISBNT|978-0393341263}}
+| [[W. W. Norton & Company]]
+| Paperback
+| 2012 |}
+---

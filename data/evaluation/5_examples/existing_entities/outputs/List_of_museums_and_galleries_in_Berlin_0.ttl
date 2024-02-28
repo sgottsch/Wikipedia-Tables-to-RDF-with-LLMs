@@ -1,0 +1,634 @@
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Berggruen_Museum> rdfs:label "Berggruen Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158095> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin2008-MuseumBerggruen1.JPG> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q162049> ;
+    ns1:P856 <https://www.smb.museum/museen-und-einrichtungen/museum-berggruen/home.html> .
+
+<https://example.org/resource/Berlin-Dahlem_Botanical_Garden_and_Botanical_Museum> rdfs:label "Berlin-Dahlem Botanical Garden and Botanical Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158064> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Botanischer%20Garten%20Berlin-Dahlem%2010-2014%20photo05%20footbridge.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q1970365> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q294874> ;
+    ns1:P856 <https://www.botanischer-garten-berlin.de/en/> .
+
+<https://example.org/resource/Berlin-Hohenschönhausen_Memorial> rdfs:label "Berlin-Hohenschönhausen Memorial"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q329609> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/HSH%20Fence-Stannik.JPG> ;
+    ns1:P856 <https://www.stiftung-hsh.de/> .
+
+<https://example.org/resource/Berlin_Fire_Brigade> rdfs:label "Berlin Fire Brigade"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q114798196> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q28739601> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Feuerwehrmuseum%20Berlin.JPG> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q105045058>,
+        <http://www.wikidata.org/entity/Q700055> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q123504001>,
+        <http://www.wikidata.org/entity/Q28739601> ;
+    ns1:P421 <http://www.wikidata.org/entity/Q6655> ;
+    ns1:P571 "1953-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P669 <http://www.wikidata.org/entity/Q95674761> ;
+    ns1:P856 <https://www.museumsportal-berlin.de/en/museums/feuerwehrmuseum-berlin/> .
+
+<https://example.org/resource/Berlin_Musical_Instrument_Museum> rdfs:label "Berlin Musical Instrument Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Musikinstrumentenmuseum%2001.jpg> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q342979> ;
+    ns1:P856 <https://www.smb.museum/museen-und-einrichtungen/museum-fuer-musikinstrumente/home.html> .
+
+<https://example.org/resource/Berlin_Wall_Memorial_and_Documentation_Centre> rdfs:label "Berlin Wall Memorial and Documentation Centre"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mauer-Gedenkst%C3%A4tte.jpg> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P856 <https://www.berliner-mauer-gedenkstaette.de/en/> .
+
+<https://example.org/resource/Berlinische_Galerie> rdfs:label "Berlinische Galerie"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158893> ;
+    ns1:P159 <http://www.wikidata.org/entity/Q64> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlinische%20Galerie%20aussen.JPG> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q1007870> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q308928> ;
+    ns1:P856 <https://www.berlinischegalerie.de/en/> .
+
+<https://example.org/resource/Bode_Museum> rdfs:label "Bode Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P159 <http://www.wikidata.org/entity/Q64> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Museumsinsel%20Fernsehturm.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q151963> ;
+    ns1:P856 <https://www.smb.museum/en/museums-institutions/bode-museum/home.html> .
+
+<https://example.org/resource/Boros_Collection> rdfs:label "Boros Collection"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P159 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bunker%20Berlin.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q1007870> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q2013767> ;
+    ns1:P856 <https://www.sammlung-boros.de/> .
+
+<https://example.org/resource/Bröhan_Museum> rdfs:label "Bröhan Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158095> ;
+    ns1:P159 <http://www.wikidata.org/entity/Q64> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Br%C3%B6han%20Museum,%202015.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q162049> ;
+    ns1:P856 <https://www.broehan-museum.de/> .
+
+<https://example.org/resource/Brücke_Museum> rdfs:label "Brücke Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158064> ;
+    ns1:P159 <http://www.wikidata.org/entity/Q64> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Br%C3%BCcke-Museum.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q294874> ;
+    ns1:P856 <https://www.bruecke-museum.de/> .
+
+<https://example.org/resource/C_O_Berlin> rdfs:label "C/O Berlin"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158095> ;
+    ns1:P159 <http://www.wikidata.org/entity/Q64> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/C-O%20Berlin%20im%20Amerika%20Haus-2577.jpg> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q162049> ;
+    ns1:P856 <http://www.co-berlin.org/> .
+
+<https://example.org/resource/Charlottenburg_Palace> rdfs:label "Charlottenburg Palace"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158095> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q531772> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Charlottenburg%20Hohenzollern%202.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q162049> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q5773747> ;
+    ns1:P856 <https://www.spsg.de/en/palaces-gardens/objects/charlottenburg-palace/> .
+
+<https://example.org/resource/Checkpoint_Charlie_Museum> rdfs:label "Checkpoint Charlie Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158893> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin-Mauermuseum%20am%20Checkpoint%20Charlie.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q308928> ;
+    ns1:P856 <https://www.mauermuseum.de/en/> .
+
+<https://example.org/resource/Computerspielemuseum_Berlin> rdfs:label "Computerspielemuseum Berlin"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158893> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ausstellung%20Computerspielemuseum%202.JPG> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q317056> ;
+    ns1:P856 <https://www.computerspielemuseum.de/en> .
+
+<https://example.org/resource/DDR_Museum> rdfs:label "DDR Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20-%20DDR-Museum.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P856 <https://www.ddr-museum.de/en> .
+
+<https://example.org/resource/Dahlem_Manor> rdfs:label "Dahlem Manor"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q73357989> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q28739601> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Dom%C3%A4ne%20Dahlem%20HDR.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q158064>,
+        <http://www.wikidata.org/entity/Q47046631> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q123504001>,
+        <http://www.wikidata.org/entity/Q28739601> ;
+    ns1:P421 <http://www.wikidata.org/entity/Q6723> ;
+    ns1:P571 "1920-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P669 <http://www.wikidata.org/entity/Q95674790> ;
+    ns1:P856 <http://www.domaene-dahlem.de/home/> .
+
+<https://example.org/resource/Designpanoptikum> rdfs:label "Designpanoptikum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/2014-03-26%20Designpanoptikum%20Berlin%2001%20anagoria.JPG> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P856 <https://www.designpanoptikum.com/> .
+
+<https://example.org/resource/Deutsches_Historisches_Museum> rdfs:label "Deutsches Historisches Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fassade%20der%20Stiftung%20Deutsches%20Historisches%20Museum%20(ehem.%20Zeughaus)%20-%20Berlin.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P856 <https://www.dhm.de/en.html> .
+
+<https://example.org/resource/East_Side_Gallery> rdfs:label "East Side Gallery"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q114798196> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q811165> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/East%20Side%20Gallery,%20Berlin%20(47772996082).jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q105045058>,
+        <http://www.wikidata.org/entity/Q317056> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q123504001>,
+        <http://www.wikidata.org/entity/Q811165> ;
+    ns1:P421 <http://www.wikidata.org/entity/Q6655> ;
+    ns1:P571 "1990-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P669 <http://www.wikidata.org/entity/Q95674761> ;
+    ns1:P856 <https://www.eastsidegallery-berlin.de/> .
+
+<https://example.org/resource/Ephraim_Palais> rdfs:label "Ephraim Palais"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q114798196> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q28739601> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Museum%20Ephraim-Palais%20im%20Sommer.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q105045058>,
+        <http://www.wikidata.org/entity/Q703927> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q123504001>,
+        <http://www.wikidata.org/entity/Q28739601> ;
+    ns1:P421 <http://www.wikidata.org/entity/Q6723> ;
+    ns1:P571 "1762-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P669 <http://www.wikidata.org/entity/Q95674790> ;
+    ns1:P856 <http://www.en.stadtmuseum.de/> .
+
+<https://example.org/resource/Ethnological_Museum_of_Berlin> rdfs:label "Ethnological Museum of Berlin"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q114798196> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q123504001> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Humboldt%20Forum-9147.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q105045058>,
+        <http://www.wikidata.org/entity/Q151963> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q123504001> ;
+    ns1:P421 <http://www.wikidata.org/entity/Q6655> ;
+    ns1:P571 "1873-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P669 <http://www.wikidata.org/entity/Q95674761> ;
+    ns1:P856 <https://www.smb.museum/en/museums-institutions/ethnologisches-museum/home.html> .
+
+<https://example.org/resource/Friedrichsfelde_Palace> rdfs:label "Friedrichsfelde Palace"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q105045058> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q28739601> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Tierpark%20Friedrichsfelde%2012-2015%20Schloss%20img1.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q47046631> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q123504001> ;
+    ns1:P571 "1800-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.schlossfriedrichsfelde.de/> .
+
+<https://example.org/resource/Friedrichshain-Kreuzberg_Museum> rdfs:label "Friedrichshain-Kreuzberg Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q114798196> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q28739601> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bezirksmuseum%20Friedrichshain-Kreuzberg.JPG> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q114798196>,
+        <http://www.wikidata.org/entity/Q308928> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q123504001>,
+        <http://www.wikidata.org/entity/Q28739601> ;
+    ns1:P421 <http://www.wikidata.org/entity/Q6655> ;
+    ns1:P571 "1963-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P669 <http://www.wikidata.org/entity/Q95674761> ;
+    ns1:P856 <http://www.fhxb-museum.de/> .
+
+<https://example.org/resource/Friedrichswerder_Church> rdfs:label "Friedrichswerder Church"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q105045058> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Friedrichswerdersche%20Kirche%20a.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q105045058> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q2772772> ;
+    ns1:P856 <https://www.smb.museum/museen-und-einrichtungen/friedrichswerdersche-kirche/home.html> .
+
+<https://example.org/resource/Futurium> rdfs:label "Futurium"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q105045058> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mitte%20Kapelle-Ufer%20Futurium-001.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q105045058> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q123504001> ;
+    ns1:P856 "No official website provided" .
+
+<https://example.org/resource/Gaslaternen-Freilichtmuseum_Berlin> rdfs:label "Gaslaternen-Freilichtmuseum Berlin"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q47046631> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q811165> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Freilichtmuseum%20Berlin%20Gaslaterne%20Nr%2014.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q47046631> ;
+    ns1:P856 "No official website provided" .
+
+<https://example.org/resource/Gemäldegalerie> rdfs:label "Gemäldegalerie"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q105045058> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Kulturforum%202002a.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q105045058> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q16735822> ;
+    ns1:P856 <http://www.smb.museum/museen-und-einrichtungen/gemaeldegalerie/home.html> .
+
+<https://example.org/resource/Georg-Kolbe-Museum> rdfs:label "Georg-Kolbe-Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q47046631> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q47046631> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q16735822> ;
+    ns1:P856 "No official website provided" .
+
+<https://example.org/resource/German-Russian_Museum> rdfs:label "German-Russian Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q329609> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q2772772> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Exterior_of_the_German-Russian_Museum_Berlin-Karlshorst_October_2015.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q703218> ;
+    ns1:P571 "1995-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <https://www.museum-karlshorst.de/> .
+
+<https://example.org/resource/German_Museum_of_Technology> rdfs:label "German Museum of Technology"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158893> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q28739601> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/0106-01b_DTMB.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q308928> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q31855> ;
+    ns1:P571 "1982-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <https://sdtb.de/en/german-museum-of-technology.html> .
+
+<https://example.org/resource/Glienicke_Palace> rdfs:label "Glienicke Palace"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158064> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q123504001> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Schloss_Glienicke_S%C3%BCden.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q1949> ;
+    ns1:P571 "1826-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <https://www.spsg.de/en/palaces-gardens/object/glienicke-palace/> .
+
+<https://example.org/resource/Günter_Litfin_Memorial> rdfs:label "Günter Litfin Memorial"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q28739601> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Gedenkst%C3%A4tte_G%C3%BCnter_Litfin_Berlin.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q2013767> ;
+    ns1:P571 "2001-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <https://www.gedenkstaette-guenter-litfin.de/en/> .
+
+<https://example.org/resource/Hamburger_Bahnhof> rdfs:label "Hamburger Bahnhof: Museum of the Present"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q123504001> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/InvalidenstrBerlin_12-2017_img1.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q699800> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q33506> ;
+    ns1:P571 "1996-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <https://www.smb.museum/en/museums-institutions/hamburger-bahnhof/home.html> .
+
+<https://example.org/resource/Haus_der_Kulturen_der_Welt> rdfs:label "Haus der Kulturen der Welt"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Haus%20der%20Kulturen%20der%20Welt,%20Blaue%20Stunde,%20Berlin,%20160521,%20ako.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P856 <https://www.hkw.de/en/index.php> .
+
+<https://example.org/resource/Hemp_Museum> rdfs:label "Hemp Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P1454 <http://www.wikidata.org/entity/Q29968526> ;
+    ns1:P17 <http://www.wikidata.org/entity/Q183> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Hanfmuseum1.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q703927> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q737498> ;
+    ns1:P571 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P856 <http://www.hanfmuseum.de/> .
+
+<https://example.org/resource/Hohenschönhausen_Castle> rdfs:label "Hohenschönhausen Castle"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q329609> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Schloss%20Hohenschönhausen%2002.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> .
+
+<https://example.org/resource/House_of_the_Wannsee_Conference> rdfs:label "House of the Wannsee Conference"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158064> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Haus%20der%20Wannsee-Konferenz%2002-2014.jpg> .
+
+<https://example.org/resource/Hošek_Contemporary> rdfs:label "Hošek Contemporary"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P856 <https://www.hosekcontemporary.com/> .
+
+<https://example.org/resource/Jagdschloss_Grunewald> rdfs:label "Jagdschloss Grunewald"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158095> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Jagdschloß%20Grunewald-2.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q5773747> .
+
+<https://example.org/resource/Jewish_Museum_Berlin> rdfs:label "Jewish Museum Berlin"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158893> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Jüdisches%20Museum%20und%20der%20Libeskind-Bau%20(cropped).jpg> .
+
+<https://example.org/resource/KPM_World> rdfs:label "KPM World"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/KPM_Berlin_alter_Betriebshof.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q25964553> ;
+    ns1:P856 <https://kpm-berlin.com/erlebniswelt/kpm-welt/> .
+
+<https://example.org/resource/Keramik-Museum_Berlin> rdfs:label "Keramik-Museum Berlin"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158095> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Keramik-Museum_Berlin.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P856 <https://www.keramik-museum-berlin.de/> .
+
+<https://example.org/resource/Kulturforum> rdfs:label "Kulturforum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin_Philharmonie_asv2018-05_img2.jpg> ;
+    ns1:P856 <https://www.smb.museum/museen-und-einrichtungen/kulturforum/home.html> .
+
+<https://example.org/resource/Kunstbibliothek_Berlin> rdfs:label "Kunstbibliothek (Museum collections)"@en ;
+    ns1:P1174 150000.0,
+        180000.0,
+        200000.0,
+        220000.0,
+        250000.0,
+        280000.0,
+        300000.0,
+        320000.0,
+        350000.0,
+        400000.0,
+        450000.0,
+        500000.0,
+        550000.0,
+        600000.0,
+        650000.0,
+        700000.0,
+        750000.0,
+        800000.0,
+        850000.0,
+        900000.0,
+        950000.0,
+        1000000.0,
+        1050000.0,
+        1100000.0,
+        1150000.0,
+        1200000.0,
+        1250000.0,
+        1300000.0,
+        1350000.0,
+        1400000.0,
+        1450000.0,
+        1500000.0,
+        1550000.0,
+        1600000.0,
+        1650000.0,
+        1700000.0,
+        1750000.0,
+        1800000.0,
+        1850000.0,
+        1900000.0,
+        1950000.0,
+        2000000.0,
+        2050000.0,
+        2100000.0,
+        2150000.0,
+        2200000.0,
+        2250000.0,
+        2300000.0,
+        2350000.0,
+        2400000.0,
+        2450000.0,
+        2500000.0,
+        2550000.0,
+        2600000.0,
+        2650000.0,
+        2700000.0,
+        2750000.0,
+        2800000.0,
+        2850000.0,
+        2900000.0,
+        2950000.0,
+        3000000.0,
+        3050000.0,
+        3100000.0,
+        3150000.0,
+        3200000.0,
+        3250000.0,
+        3300000.0,
+        3350000.0,
+        3400000.0,
+        3450000.0,
+        3500000.0,
+        3550000.0,
+        3600000.0,
+        3650000.0,
+        3700000.0,
+        3750000.0,
+        3800000.0,
+        3850000.0,
+        3900000.0,
+        3950000.0,
+        4000000.0,
+        4050000.0,
+        4100000.0,
+        4150000.0,
+        4200000.0,
+        4250000.0,
+        4300000.0,
+        4350000.0,
+        4400000.0,
+        4450000.0,
+        4500000.0,
+        4550000.0,
+        4600000.0,
+        4650000.0,
+        4700000.0,
+        4750000.0,
+        4800000.0,
+        4850000.0,
+        4900000.0,
+        4950000.0,
+        5000000.0,
+        5050000.0,
+        5100000.0,
+        5150000.0,
+        5200000.0,
+        5250000.0,
+        5300000.0,
+        5350000.0,
+        5400000.0,
+        5450000.0,
+        5500000.0,
+        5550000.0,
+        5600000.0,
+        5650000.0,
+        5700000.0,
+        5750000.0,
+        5800000.0,
+        5850000.0,
+        5900000.0,
+        5950000.0,
+        6000000.0,
+        6050000.0,
+        6100000.0,
+        6150000.0,
+        6200000.0,
+        6250000.0,
+        6300000.0,
+        6350000.0,
+        6400000.0,
+        6450000.0,
+        6500000.0,
+        6550000.0,
+        6600000.0,
+        6650000.0,
+        6700000.0,
+        6750000.0,
+        6800000.0,
+        6850000.0,
+        6900000.0,
+        6950000.0,
+        7000000.0,
+        7050000.0,
+        7100000.0,
+        7150000.0,
+        7200000.0,
+        7250000.0,
+        7300000.0,
+        7350000.0,
+        7400000.0,
+        7450000.0,
+        7500000.0,
+        7550000.0,
+        7600000.0,
+        7650000.0,
+        7700000.0,
+        7750000.0,
+        7800000.0,
+        7850000.0,
+        7900000.0,
+        7950000.0,
+        8000000.0,
+        8050000.0,
+        8100000.0,
+        8150000.0,
+        8200000.0,
+        8250000.0,
+        8300000.0,
+        8350000.0,
+        8400000.0,
+        8450000.0,
+        8500000.0,
+        8550000.0,
+        8600000.0,
+        8650000.0,
+        8700000.0,
+        8750000.0,
+        8800000.0,
+        8850000.0,
+        8900000.0,
+        8950000.0,
+        9000000.0,
+        9050000.0,
+        9100000.0,
+        9150000.0,
+        9200000.0,
+        9250000.0,
+        9300000.0,
+        9350000.0,
+        9400000.0,
+        9450000.0,
+        9500000.0,
+        9550000.0,
+        9600000.0,
+        9650000.0,
+        9700000.0,
+        9750000.0,
+        9800000.0,
+        9850000.0,
+        9900000.0,
+        9950000.0,
+        10000000.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P1619 "1904-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Kulturforum%20Kunstbibliothek%20und%20Kupferstichkabinett.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q328672> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q386482> ;
+    ns1:P856 <https://www.smb.museum/museen-und-einrichtungen/kunstbibliothek/home.html> .
+
+<https://example.org/resource/Kunstgewerbemuseum_Berlin> rdfs:label "Kunstgewerbemuseum Berlin"@en ;
+    ns1:P1174 2000000.0,
+        2500000.0,
+        3000000.0,
+        3500000.0,
+        4000000.0,
+        4500000.0,
+        5000000.0,
+        5500000.0,
+        6000000.0,
+        6500000.0,
+        7000000.0,
+        7500000.0,
+        8000000.0,
+        8500000.0,
+        9000000.0,
+        9500000.0,
+        10000000.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P1619 "1867-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kunstgewerbemuseum%20Berlin%20Kulturforum%20entrance.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q328672> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q631931> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q386482> ;
+    ns1:P856 <https://www.smb.museum/museen-und-einrichtungen/kunstgewerbemuseum/home.html> .
+
+<https://example.org/resource/Kupferstichkabinett_Berlin> rdfs:label "Kupferstichkabinett Berlin"@en ;
+    ns1:P1174 1500000.0,
+        2000000.0,
+        2500000.0,
+        3000000.0,
+        3500000.0,
+        4000000.0,
+        4500000.0,
+        5000000.0,
+        5500000.0,
+        6000000.0,
+        6500000.0,
+        7000000.0,
+        7500000.0,
+        8000000.0,
+        8500000.0 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P1619 "1831-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kupferstichkabinett%20Berlin%201.jpg> ;
+    ns1:P276 <http://www.wikidata.org/entity/Q328672> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q386482> ;
+    ns1:P856 <https://www.smb.museum/museen-und-einrichtungen/kupferstichkabinett/home.html> .
+
+<https://example.org/resource/Käthe_Kollwitz_Museum> rdfs:label "Käthe Kollwitz Museum"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158095> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Käthe-Kollwitz-Museum.Berlin.JPG> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P856 <https://www.kaethe-kollwitz.de/> .
+
+<https://example.org/resource/Köpenick_Palace> rdfs:label "Köpenick Palace"@en ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin-Koepenick_Schloss1_05-2014.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q207694> ;
+    ns1:P856 <https://www.smb.museum/museen-und-einrichtungen/schloss-koepenick/home.html> .
+
+<https://example.org/resource/Staatliche_Münze_Berlin> rdfs:label "Staatliche Münze Berlin"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q158876> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Staatliche%20M%C3%BCnze%20Berlin.jpg> ;
+    ns1:P706 <http://www.wikidata.org/entity/Q158876> ;
+    ns1:P856 <https://www.muenze-berlin.de/museum.htm> .
+
+<https://example.org/resource/The_Kennedys> rdfs:label "The Kennedys"@en ;
+    ns1:P131 <http://www.wikidata.org/entity/Q163966> ;
+    ns1:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ehemalige_Jüdische_Mädchenschule_Berlin.jpg> ;
+    ns1:P31 <http://www.wikidata.org/entity/Q10624527> ;
+    ns1:P856 <https://www.thekennedys.de/> .
+

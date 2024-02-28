@@ -1,0 +1,161 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of mosques in the United Kingdom" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|- 
+| [[Al Mahdi Mosque, Bradford|Al Mahdi Mosque]]
+| [[File:Bradford Mosque.jpg|alt=|center|120px]]
+| [[Bradford]] <!-- Rees Way, Undercliffe -->
+| 2008
+| AMJ
+| Holds 1,000 worshippers<ref>Bradford: [http://www.thetelegraphandargus.co.uk/news/3830347.Mosque_is_opened_by_spiritual_leader/ Mosque is opened by spiritual leader]; [http://www.ahmadiyya.org.uk/mosques/almahdi.php Ahmadiyya Muslim Community UK – Al Mahdi Mosque]</ref>
+|-
+|[[Baitus Salaam Mosque]]
+|
+|[[Scunthorpe|Scunthorpe<!-- Cliff Closes Road, Scunthorpe -->]]
+|2002 {{Small|(officially inaugurated in 2023)}}
+|AMJ
+|Capacity of 250-300 worshippers
+|- valign="top"
+| [[Bradford Grand Mosque]]
+|[[File:Mosque, Bradford (7080761569).jpg|120px|center]]
+|[[Bradford]]<!-- Horton Park Avenue -->
+| 2013
+|[[Sunni Muslim]]
+| Mosque nearing completion with a capacity of 8,000 worshippers and also known as Al-Jamia Suffa-Tul-Islam Grand Mosque
+|- valign=top
+| [[Leeds Grand Mosque]]
+| [[File:LeedsGrandMosque01.JPG|120px|center]]
+| [[Leeds]]
+| 
+| [[Sunni Muslim]]{{citation needed|date=June 2016}} 
+|
+|- valign="top"
+|[[Madina Mosque (Sheffield)|Madina Mosque]]
+|[[File:Medina Mosque 09-12-06.jpg|120px|center]]
+|[[Sheffield]]
+| 2006
+| B
+| Also known as the ''Wolseley Road Mosque'' |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Al_Mahdi_Mosque> rdfs:label "Al-Mahdi Mosque"@en ;
+ wdt:P571 "2008-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bradford%20Mosque.jpg> ;
+ wdt:P1083 "2000"^^xsd:decimal ;
+ wdt:P7959 <https://en.wikipedia.org/wiki/Yorkshire> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Baitus_Salaam_Mosque> wdt:P571 "2002-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P7959 wd:Q67533486 ;
+ wdt:P1083 "250"^^xsd:decimal ;
+ wdt:P1705 "Baitus Salaam Mosque"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Scunthorpe> ;
+ wdt:P140 <https://en.wikipedia.org/wiki/Islam> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P1619 "2023-06-17T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Baitus Salaam Mosque"@en .
+
+<https://example.org/resource/Bradford_Grand_Mosque> rdfs:label "Bradford Grand Mosque"@en ;
+ wdt:P7959 <https://en.wikipedia.org/wiki/Yorkshire> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Bradford> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Leeds_Grand_Mosque> rdfs:label "Leeds Grand Mosque"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/City_of_Leeds> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/LeedsGrandMosque01.JPG> ;
+ wdt:P7959 <https://en.wikipedia.org/wiki/Yorkshire> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Madina_Mosque> rdfs:label "Madina Mosque"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/City_of_Sheffield> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Architectural_structure> ;
+ wdt:P856 <http://www.madinamasjid.org.uk/> ;
+ wdt:P1083 "2500"^^xsd:decimal ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Medina%20Mosque%2009-12-06.jpg> ;
+ wdt:P7959 <https://en.wikipedia.org/wiki/Yorkshire> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P571 "2006-01-01T00:00:00Z"^^xsd:dateTime .
+---
+These are the labels of the properties:
+
+wdt:P571 -> inception
+wdt:P18 -> image
+wdt:P1083 -> maximum capacity
+wdt:P7959 -> historic county
+wdt:P31 -> instance of
+wdt:P17 -> country
+wdt:P1705 -> native label
+wdt:P131 -> located in the administrative territorial entity
+wdt:P140 -> religion or worldview
+wdt:P1619 -> date of official opening
+wdt:P856 -> official website URL.
+---
+These are the labels of the objects:
+
+wd:Q67533486 -> Lincolnshire.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|-
+|Baitul Afiyat Mosque<ref>{{Cite web|url=https://ahmadiyya.uk/mosques/baitul-afiyat-mosque-sheffield/|title=Baitul Afiyat Mosque - Sheffield |website=Ahmadiyya Muslim Association UK}}</ref>
+|
+|[[Sheffield]]
+|2008
+|AMJ
+|
+|-
+|Baitul Hamd Mosque
+|
+|[[Bradford]]
+|1980
+|AMJ
+|
+|-
+|Baitul Tauhid Mosque
+|
+|[[Huddersfield]]
+|2008
+|AMJ
+|This mosque was converted from a cricket club.
+|- valign=top
+| [[Makkah Masjid, Leeds|Makkah Masjid]]
+| [[File:Makkah Masjid - Brudenell Road - geograph.org.uk - 579135.jpg|120px|center]]
+| [[Hyde Park, Leeds]]
+| 
+| 
+|
+|- valign=top
+| York Mosque and Islamic Centre
+| 
+| [[York]]
+| 
+| JI
+| |}
+---

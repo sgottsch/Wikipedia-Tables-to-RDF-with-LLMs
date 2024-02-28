@@ -1,0 +1,237 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Birdwood_School> rdfs:label "Birdwood School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q149566,
+        wd:Q3914 ;
+    wdt:P571 "1979-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "45 Birdwood Road, Ranui, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.birdwood.school.nz> .
+
+<https://example.org/resource/Colwill_School> rdfs:label "Colwill School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q149566,
+        wd:Q3914 ;
+    wdt:P571 "1979-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "100 Colwill Road, Royal Heights, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.colwill.school.nz> .
+
+<https://example.org/resource/Don_Buck_School> rdfs:label "Don Buck School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q149566,
+        wd:Q3914 ;
+    wdt:P6375 "360 Don Buck Road, Massey West, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.donbuck.school.nz> .
+
+<https://example.org/resource/Edmonton_School> rdfs:label "Edmonton School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "3 School Road, Te Atatu South, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.edmonton-primary.school.nz> .
+
+<https://example.org/resource/Flanshaw_Road_School> rdfs:label "Flanshaw Road School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "79 Flanshaw Road, Te Atatu South, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.flanshawroad.school.nz> .
+
+<https://example.org/resource/Freyberg_Community_School> rdfs:label "Freyberg Community School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "120 Edmonton Road, Te Atatu South, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://freyberg.school.nz> .
+
+<https://example.org/resource/Lincoln_Heights_School> rdfs:label "Lincoln Heights School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q149566,
+        wd:Q3914 ;
+    wdt:P6375 "1 Lincoln Heights, Massey West, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.lincolnheights.school.nz> .
+
+<https://example.org/resource/Massey_Primary_School> rdfs:label "Massey Primary School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q149566,
+        wd:Q3914 ;
+    wdt:P6375 "38 Royal Road, Massey West, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.masseyprimary.school.nz> .
+
+<https://example.org/resource/Matipo_Road_School> rdfs:label "Matipo Road School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "63 Matipo Road, Te Atatū Peninsula, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.matipo.school.nz> .
+
+<https://example.org/resource/Peninsula_Primary_School> rdfs:label "Peninsula Primary School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "22a Waitemata Drive, Te Atatū Peninsula, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.peninsulaprimary.school.nz> .
+
+<https://example.org/resource/Pomaria_Primary_School> rdfs:label "Pomaria Primary School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "35 Pomaria Road, Lincoln, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.pomaria.school.nz> .
+
+<https://example.org/resource/Royal_Road_School> rdfs:label "Royal Road School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q149566,
+        wd:Q3914 ;
+    wdt:P571 "1971-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "Royal Road, Massey North, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.royalroad.school.nz> .
+
+<https://example.org/resource/Rānui_School> rdfs:label "Rānui School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 302.0,
+        324.0 ;
+    wdt:P276 wd:Q37100 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "35 Pomaria Road, Lincoln, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.ranui.school.nz> .
+
+<https://example.org/resource/St_Paul's_School> rdfs:label "St Paul's School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/St_Paul%27s_Catholic_School%2C_Massey%2C_Auckland.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q12858484,
+        wd:Q57420936,
+        wd:Q7640919 .
+
+<https://example.org/resource/Sunnyvale_School> rdfs:label "Sunnyvale School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sunnyvale%20School%2C%20Auckland.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q15262068,
+        wd:Q5568403,
+        wd:Q5713175,
+        wd:Q6386562,
+        wd:Q7099917,
+        wd:Q7640919 .
+
+<https://example.org/resource/Te_Atatū_Intermediate> rdfs:label "Te Atatū Intermediate"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Te%20Atatu%20Intermediate%20School%2C%20Auckland.jpg> ;
+    wdt:P31 wd:Q188509 .
+
+<https://example.org/resource/Te_Kura_Kaupapa_Māori_o_Te_Kotuku> rdfs:label "Te Kura Kaupapa Māori o Te Kotuku"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Te_Kura_Kaupapa_M%C4%81ori_o_Te_Kotuku.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q7099917,
+        wd:Q7640919 .
+
+<https://example.org/resource/West_Harbour_School> rdfs:label "West Harbour School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P138 wd:Q7985299 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/West_Harbour_School%2C_Auckland.jpg> ;
+    wdt:P31 wd:Q188509 ;
+    wdt:P47 wd:Q12858484,
+        wd:Q57420936,
+        wd:Q7099917,
+        wd:Q7640919,
+        wd:Q7985301 .
+
+<https://example.org/resource/Western_Heights_School> rdfs:label "Western Heights School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Western_Heights_Primary_School.jpg> ;
+    wdt:P2196 500.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q7987895 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P571 "1971-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "126 Sturges Road, Henderson, Auckland"@en ;
+    wdt:P856 <https://www.westernheightsprimary.com/> .
+

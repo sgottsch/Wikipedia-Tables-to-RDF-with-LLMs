@@ -1,0 +1,72 @@
+In both
+<https://example.org/resource/tu_quoque> <http://www.w3.org/2000/01/rdf-schema#label> "tu quoque"@en .
+<https://example.org/resource/timor_mortis_conturbat_me> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3062294> .
+<https://example.org/resource/tu_quoque> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3062294> .
+<https://example.org/resource/timeo_Danaos_et_dona_ferentes> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3062294> .
+In ground only
+<https://example.org/resource/timeo_Danaos_et_dona_ferentes> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q602358> .
+<https://example.org/resource/terra_nullius> <http://www.wikidata.org/prop/direct/P460> <http://www.wikidata.org/entity/Q773403> .
+<https://example.org/resource/traditionis_custodes> <http://www.w3.org/2000/01/rdf-schema#label> "Traditionis custodes"@en .
+<https://example.org/resource/terra_incognita> <http://www.wikidata.org/prop/direct/P443> <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q150%20%28fra%29-GeoMechain-terra%20incognita.wav> .
+<https://example.org/resource/terra_nullius> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q2628882> .
+<https://example.org/resource/tertium_non_datur> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q2110857> .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q18643> .
+<https://example.org/resource/textus_receptus> <http://www.w3.org/2000/01/rdf-schema#label> "Textus Receptus"@en .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q824202> .
+<https://example.org/resource/translatio_imperii> <http://www.w3.org/2000/01/rdf-schema#label> "translatio imperii"@en .
+<https://example.org/resource/tu_quoque> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q912820> .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q2731728> .
+<https://example.org/resource/timor_mortis_conturbat_me> <http://www.wikidata.org/prop/direct/P2441> "Fear of death disturbs me"@en .
+<https://example.org/resource/testis_unus,_testis_nullus> <http://www.w3.org/2000/01/rdf-schema#label> "Unus testis, nullus testis"@en .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P155> <http://www.wikidata.org/entity/Q106809678> .
+<https://example.org/resource/terra_nullius> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3062294> .
+<https://example.org/resource/textus_receptus> <http://www.wikidata.org/prop/direct/P629> <http://www.wikidata.org/entity/Q18813> .
+<https://example.org/resource/tertium_quid> <http://www.w3.org/2000/01/rdf-schema#label> "Tertium quid"@en .
+<https://example.org/resource/tu_quoque> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q189183> .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P953> <https://www.vatican.va/content/francesco/es/motu_proprio/documents/20210716-motu-proprio-traditionis-custodes.html> .
+<https://example.org/resource/tertium_non_datur> <http://www.wikidata.org/prop/direct/P989> <http://commons.wikimedia.org/wiki/Special:FilePath/Nl-Wet%20van%20de%20uitgesloten%20derde-article.ogg> .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P577> "2021-07-16T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/tu_quoque> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q737677> .
+<https://example.org/resource/timeo_Danaos_et_dona_ferentes> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q34726> .
+<https://example.org/resource/tertium_non_datur> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q19219752> .
+<https://example.org/resource/terra_incognita> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q187931> .
+<https://example.org/resource/testis_unus,_testis_nullus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3062294> .
+<https://example.org/resource/tertium_non_datur> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q17736> .
+<https://example.org/resource/terra_nullius> <http://www.w3.org/2000/01/rdf-schema#label> "terra nullius"@en .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P953> <https://www.vatican.va/content/francesco/en/motu_proprio/documents/20210716-motu-proprio-traditionis-custodes.html> .
+<https://example.org/resource/tertium_non_datur> <http://www.wikidata.org/prop/direct/P6104> <http://www.wikidata.org/entity/Q8487137> .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q450675> .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q1144278> .
+<https://example.org/resource/timeo_Danaos_et_dona_ferentes> <http://www.w3.org/2000/01/rdf-schema#label> "Timeo Danaos et dona ferentes"@en .
+<https://example.org/resource/tertium_non_datur> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q65943> .
+<https://example.org/resource/timeo_Danaos_et_dona_ferentes> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q19180675> .
+<https://example.org/resource/translatio_imperii> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q49447> .
+<https://example.org/resource/timeo_Danaos_et_dona_ferentes> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q184890> .
+<https://example.org/resource/tu_quoque> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q186150> .
+<https://example.org/resource/timor_mortis_conturbat_me> <http://www.w3.org/2000/01/rdf-schema#label> "Timor mortis conturbat me"@en .
+<https://example.org/resource/tertium_non_datur> <http://www.w3.org/2000/01/rdf-schema#label> "principle of excluded middle"@en .
+<https://example.org/resource/tertium_non_datur> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q9471> .
+<https://example.org/resource/terra_nullius> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q183366> .
+<https://example.org/resource/tertium_non_datur> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q868437> .
+<https://example.org/resource/tertium_non_datur> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q236975> .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q670146> .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P953> <https://www.vatican.va/content/francesco/it/motu_proprio/documents/20210716-motu-proprio-traditionis-custodes.html> .
+<https://example.org/resource/terra_incognita> <http://www.w3.org/2000/01/rdf-schema#label> "terra incognita"@en .
+In predicted only
+<https://example.org/resource/testis_unus_testis_nullus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3062294> .
+<https://example.org/resource/timeo_Danaos_et_dona_ferentes> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q19219752> .
+<https://example.org/resource/textus_receptus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3062294> .
+<https://example.org/resource/timor_mortis_conturbat_me> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q19219752> .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q19219752> .
+<https://example.org/resource/tu_quoque> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q3062294> .
+<https://example.org/resource/traditionis_custodes> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3062294> .
+<https://example.org/resource/traditionis_custodes> <http://www.w3.org/2000/01/rdf-schema#label> "guardians of tradition"@en .
+<https://example.org/resource/timeo_Danaos_et_dona_ferentes> <http://www.w3.org/2000/01/rdf-schema#label> "I fear Greeks even if they bring gifts"@en .
+<https://example.org/resource/translatio_imperii> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3062294> .
+<https://example.org/resource/testis_unus_testis_nullus> <http://www.w3.org/2000/01/rdf-schema#label> "testis unus, testis nullus"@en .
+<https://example.org/resource/textus_receptus> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q2041543> .
+<https://example.org/resource/textus_receptus> <http://www.w3.org/2000/01/rdf-schema#label> "received text"@en .
+<https://example.org/resource/translatio_imperii> <http://www.w3.org/2000/01/rdf-schema#label> "transfer of rule"@en .
+<https://example.org/resource/translatio_imperii> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q19219752> .
+<https://example.org/resource/timor_mortis_conturbat_me> <http://www.w3.org/2000/01/rdf-schema#label> "the fear of death confounds me"@en .
+<https://example.org/resource/testis_unus_testis_nullus> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q19219752> .

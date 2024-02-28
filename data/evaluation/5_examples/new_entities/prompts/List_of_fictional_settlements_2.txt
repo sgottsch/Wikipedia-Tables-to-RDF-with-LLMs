@@ -1,0 +1,592 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of fictional settlements" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+
+! Town Name
+! Origin
+! Network
+! class=unsortable|Notes
+|-
+|[[Cabot Cove]]
+|''[[Murder, She Wrote]]''
+|[[CBS]]
+|'''Cabot Cove''', [[Maine]], is the small, fictional fishing village in which [[Jessica Fletcher]] lives in the television series ''[[Murder, She Wrote]]''. Many episodes of ''Murder, She Wrote'' used Cabot Cove as a location because the show's producers were contractually obliged to deliver five Cabot Cove episodes a year.<ref name=nyt>Barron, James, 1996-04-14, [https://query.nytimes.com/gst/fullpage.html?res=9C00E3DA1139F937A25757C0A960958260 Whodunit? That Under-40 Crowd], ''New York Times''.</ref> Despite the town's population of 3,560,<ref name=nyt/> Cabot Cove became notable as a place where a large number of murders took place. The ''New York Times'' calculated that almost 2% of Cabot Cove's residents died during the show's run. More visitors to Cabot Cove died than residents.<ref name=nyt/>
+
+Cabot Cove is named after the town's founder, Winfred Cabot. Perhaps setting the stage for the town's reputation for murders, Cabot was killed in a murder-suicide situation with his wife Hepzibah. It has an architectural heritage of Victorian houses. Given the village's rich history, coastal location and close proximity to eastern U.S. cities, Cabot Cove was transformed from a small, sleepy fishing village to a tourist destination for the people coming from [[New York City]].
+|-
+|[[Hazzard County, Georgia]] 
+|''[[The Dukes of Hazzard]]''
+|[[CBS]]
+|Hazzard County is a fictional county in Georgia that was the setting for the 1980s television series ''[[The Dukes of Hazzard]]'' and its 2005 [[The Dukes of Hazzard (film)|film of the same name]]. 
+|-
+|[[Mayberry, North Carolina|Mayberry]] 
+|''[[Andy Griffith Show]]''
+|[[CBS]]
+|'''Mayberry''' is a fictional community in [[North Carolina]] that was the setting for two [[United States|American]] [[television]] sitcoms, ''[[The Andy Griffith Show]]'' and ''[[Mayberry R.F.D.]]'' Mayberry was also the setting for a 1986 reunion [[television movie]] titled ''[[Return to Mayberry]]''. It is said to be based on Andy Griffith's hometown, [[Mount Airy, North Carolina]].
+|-
+|[[Pawnee (Parks and Recreation)|Pawnee, Indiana]]
+|''[[Parks and Recreation]]''
+|NBC
+|Pawnee is a fictional town in the U.S. television show, Parks and Rec. It is said to be based on Muncie, Indiana. (Also fake town: Eagleton) It is also claimed that it is based on Evansville. It is claimed that Eagleton is based on Carmel.
+|- 
+|[[Sunnydale, California]] 
+|[[Buffy the Vampire Slayer (TV series)|''Buffy the Vampire Slayer'']]
+|[[The WB Television Network|The WB]]
+|'''Sunnydale, California''' is the fictional setting for the U.S. television drama ''[[Buffy the Vampire Slayer (TV series)|Buffy the Vampire Slayer]]''. Series creator [[Joss Whedon]] conceived the town as a representation of a generic [[California]] city, as well as a narrative parody of the all-too-serene towns typical in traditional horror movies.
+
+Sunnydale is located on a "Hellmouth"; a portal "between this reality and the next", and convergence point of mystical energies.<ref>''[[Welcome to the Hellmouth]]'' (1.01) introduces the Hellmouth, which is referred to numerous times throughout the series. The entrance to the Hellmouth is seen under the school in ''[[The Zeppo]]'', ''[[Doomed (Buffy the Vampire Slayer episode)|Doomed]]'', ''[[Conversations with Dead People]]'', and throughout the second half of season seven.</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Cabot_Cove> wdt:P161 <https://en.wikipedia.org/wiki/Tom_Bosley> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Stephen_Elliott_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Laurence_Luckinbill> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Richard_Levinson> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Robert_Walker_(actor,_born_1940)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Pat_Harrington_Jr.> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/David_Bradley_(American_actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jennifer_Runyon> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sonny_Bono> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Gregg_Henry> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Glenn_Taranto> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/David_Huddleston> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Nanette_Fabray> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sheb_Wooley> ;
+ wdt:P449 <https://en.wikipedia.org/wiki/CBS> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Golden_Globe_Award_for_Best_Actress_%E2%80%93_Television_Series_Drama> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Charles_Rocket> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Gordon_Thomson_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/William_Prince_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Paul_Burke_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Conrad_Janis> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jackie_Earle_Haley> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Mason_Adams> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Rosanna_DeSoto> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lisa_Darr> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Elizabeth_Sung> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Derrick_O%27Connor> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jon_Cypher> ;
+ wdt:P527 <https://en.wikipedia.org/wiki/Murder,_She_Wrote_(season_5)> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Procedural_drama> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Joy_Garrett> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Kimberley_Kates> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sally_Kirkland> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ruth_Roman> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Golden_Globe_Award_for_Best_Television_Series_%E2%80%93_Drama> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Don_Galloway> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Claude_Akins> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Julie_Adams> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Michael_Ansara> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jeri_Ryan> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Michael_Fairman> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Vanessa_Brown> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Kerry_Armstrong> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Reiner_Sch%C3%B6ne> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Randee_Heller> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Vivian_Blaine> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/George_Coe> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Shaun_Cassidy> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Arthur_Hill_(Canadian_actor)> ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Universal_Television> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Tom_Schanley> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ren%C3%A9_Auberjonois> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Cliff_Osmond> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Daniel_Pilon> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lisa_Langlois> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Candice_Azzara> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Erin_Moran> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Bibi_Besch> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dennis_Christopher> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Anthony_Geary> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Charles_Haid> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Alan_Fudge> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Richard_Libertini> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Eileen_Seeley> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_Kapelos> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Mary_Jo_Catlett> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dwier_Brown> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Paul_Carafotes> ;
+ wdt:P1431 <https://en.wikipedia.org/wiki/Angela_Lansbury> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Elaine_Giftos> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Kerry_Sherman> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/James_Warwick_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Cameron_Dye> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Taina_Elg> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Connie_Sawyer> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/George_Murdock_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Eddie_Velez> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Arte_Johnson> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ellen_Bry> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Season_Hubley> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Joe_Santos> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Caitlyn_Jenner> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ned_Beatty> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Denis_Arndt> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Norman_Fell> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Garrett_Morris> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Norman_Alden> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Candace_Kita> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_McLiam> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Don_Brodie> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Television_series> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ralph_Waite> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Garry_Walberg> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/David_Doyle> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Fritz_Weaver> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Robert_Sterling> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/George_Takei> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Thom_Bierdz> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/William_Edward_Phipps> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Yuji_Okumoto> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Scott_Lawrence> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Louis_Herthum> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/David_Groh> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Gregg_Binkley> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Paul_Mantee> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Erich_Anderson> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Mary_Beth_Evans> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Valerie_Wildman> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jayne_Meadows> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Angela_Lansbury> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Cesare_Danova> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Gloria_Loring> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/George_Clooney> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Hurd_Hatfield> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Aaron_Lustig> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Angela_Lansbury> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Brynn_Thayer> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Robin_Gammell> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sean_McClory> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Wayne_Rogers> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Pat_Crowley> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Simon_Jones_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Byron_Mann> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Miriam_Flynn> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jack_Colvin> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Timothy_Williams_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Robin_Riker> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dody_Goodman> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/David_Clennon> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Allan_Miller> ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Corymore_Productions> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Michael_Swan> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dakin_Matthews> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Donna_Pescow> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Peter_S._Fischer> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Joseph_Ruskin> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lila_Kaye> ;
+ wdt:P170 <https://en.wikipedia.org/wiki/Peter_S._Fischer> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lee_de_Broux> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_Dennis_Johnston> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Fredric_Lehne> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/NBCUniversal_Syndication_Studios> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Victor_Mohica> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Michael_Horton_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/R._D._Call> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sheldon_Leonard> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Florence_Henderson> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Francis_Guinan> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sam_Anderson> ;
+ wdt:P86 <https://en.wikipedia.org/wiki/John_Addison> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Molly_Hagan> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jerry_Orbach> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jan_Hoag> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Morgan_Brittany> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Barbara_Bosson> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lurene_Tuttle> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ruta_Lee> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Primetime_Emmy_Award_for_Outstanding_Music_Composition_for_a_Series> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Amy_Stoch> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_Karlen> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dick_Sargent> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Nancy_Lee_Grahn> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Eve_Plumb> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lisa_Eichhorn> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Peter_J._Lucas> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_Alvin_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Judith_Chapman> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Julian_Christopher> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Richard_Kline> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lance_LeGault> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Robert_Jayne> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Gregory_Sierra> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/George_Furth> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Joel_Fabiani> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sam_Hennings> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jamie_Rose> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ken_Olandt> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Guy_Stockwell> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/France_Nuyen> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Maryann_Plunkett> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Hallie_Todd> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Richard_Herd> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dinah_Manoff> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_Davis_Chandler> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jon_Cedar> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Len_Cariou> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Penelope_Windust> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Henry_Brandon_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Peter_White_(actor)> ;
+ wdt:P166 <https://en.wikipedia.org/wiki/Primetime_Emmy_Award_for_Outstanding_Costumes_for_a_Series> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Bobby_Di_Cicco> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Anne-Marie_Johnson> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_Livingston_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lucie_Arnaz> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Herschel_Bernardi> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Paul_Benedict> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Miles_Chapin> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Paul_Sorvino> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Faith_Minton> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Robin_Curtis> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ann_Cusack> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Beth_Howland> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Constance_Towers> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Max_Gail> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Robert_F._Lyons_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Audrey_Meadows> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Madlyn_Rhue> ;
+ wdt:P1811 <https://en.wikipedia.org/wiki/List_of_Murder,_She_Wrote_episodes> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jack_Kehoe> ;
+ wdt:P161 wd:Q16739247 ;
+ wdt:P582 "1996-05-19T00:00:00Z"^^xsd:dateTime ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Mills_Watson> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Tom_Mason_(actor,_born_1949)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Bruce_Gray> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/William_Windom_(actor)> ;
+ wdt:P161 wd:Q23927006 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jay_Robinson> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Stephanie_Faracy> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Raymond_St._Jacques> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Randolph_Mantooth> ;
+ wdt:P161 wd:Q16204407 ;
+ wdt:P527 wd:Q3727331 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Edson_Stroll> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Marina_Suma> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Barry_Dennen> ;
+ wdt:P527 wd:Q3727340 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Geoffrey_Lewis_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Dee_Wallace> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Gavin_MacLeod> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Phyllis_Thaxter> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Keith_Michell> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Richard_Erdman> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Robert_Hogan_(actor)> ;
+ wdt:P1476 "Murder, She Wrote"@en ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Trevor_St._John> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Steven_Ford> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Alan_Oppenheimer> ;
+ wdt:P527 wd:Q3727333 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Richard_Cox_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lynne_Moody> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ted_Markland> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Julius_Harris> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Belinda_Montgomery> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Rosemary_DeCamp> ;
+ wdt:P2408 <https://en.wikipedia.org/wiki/1984> ;
+ wdt:P1113 "264"^^xsd:decimal ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Alan_Hale_Jr.> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Arlene_Golonka> ;
+ wdt:P527 wd:Q3727345 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Patience_Cleveland> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Bernard_White_(actor)> ;
+ wdt:P580 "1984-09-30T00:00:00Z"^^xsd:dateTime ;
+ wdt:P840 wd:Q618050 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Deborah_Adair> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Joel_Brooks> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Bruce_Kirby_(actor)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ron_Masak> ;
+ wdt:P161 wd:Q3809514 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_Bennett_Perry> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Basil_Hoffman> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Teri_Austin> ;
+ wdt:P527 wd:Q3727338 ;
+ wdt:P527 wd:Q3727339 ;
+ wdt:P527 wd:Q3727342 ;
+ wdt:P2047 "45"^^xsd:decimal ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Joey_Aresco> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Elaine_Joyce> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Elvia_Allman> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Fran_Ryan> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Julia_Campbell> ;
+ wdt:P161 wd:Q2260984 ;
+ wdt:P2437 "12"^^xsd:decimal ;
+ wdt:P527 wd:Q3727343 ;
+ wdt:P527 wd:Q3727347 ;
+ wdt:P527 wd:Q3727344 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sam_Behrens> ;
+ wdt:P161 wd:Q15447245 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Julie_St._Claire> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jack_Bannon> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/William_Lucking> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Christopher_Allport> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Barry_Pearl> ;
+ wdt:P527 wd:Q3727335 ;
+ wdt:P910 wd:Q9206325 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Cherie_Currie> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Anne_Schedeen> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sandahl_Bergman> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Talia_Balsam> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Louise_Latham> ;
+ wdt:P136 wd:Q56878968 ;
+ wdt:P161 wd:Q3299549 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Gregory_Walcott> ;
+ wdt:P161 wd:Q3469430 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Richard_Davalos> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Daphne_Maxwell_Reid> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Marj_Dusay> ;
+ wdt:P161 wd:Q16990200 ;
+ wdt:P161 wd:Q19721513 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Richard_Paul> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lloyd_Bochner> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Nicholas_Pryor> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/George_Cheung> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Johnny_Crawford> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lenore_Kasdorf> ;
+ rdfs:label "Murder, She Wrote"@en ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Harold_Sylvester> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Stefan_Gierasch> ;
+ wdt:P161 wd:Q23932052 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Tim_O%27Connor_(actor)> ;
+ wdt:P161 wd:Q23891047 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Lauren_Tewes> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ron_Glass> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Carol_Lawrence> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Joseph_Cali> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Liz_Sheridan> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Jessica_Tuck> ;
+ wdt:P161 wd:Q2828104 ;
+ wdt:P161 wd:Q3566393 ;
+ wdt:P161 wd:Q15492466 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Gail_Strickland> ;
+ wdt:P161 wd:Q588664 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Darlene_Conley> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Melinda_Culea> .
+
+<https://example.org/resource/Hazzard_County,_Georgia> wdt:P1889 <https://en.wikipedia.org/wiki/Are_You_Afraid_of_the_Dark%3F> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Denver_Pyle> ;
+ wdt:P170 <https://en.wikipedia.org/wiki/Gy_Waldron> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/James_Best> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P527 wd:Q15074374 ;
+ wdt:P156 <https://en.wikipedia.org/wiki/The_Dukes_of_Hazzard_(film)> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Christopher_Mayer_(American_actor)> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Boss_Hogg> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ben_Jones_(American_actor_and_politician)> ;
+ wdt:P1113 "147"^^xsd:decimal ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Catherine_Bach> ;
+ wdt:P527 wd:Q15074373 ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Luke_Duke> ;
+ wdt:P1476 "The Dukes of Hazzard"@en ;
+ wdt:P156 <https://en.wikipedia.org/wiki/The_Dukes_of_Hazzard:_The_Beginning> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "50"^^xsd:decimal ;
+ wdt:P856 <http://www.warnervideo.com/dukesofhazzarddvd/> ;
+ wdt:P2670 wd:Q21664088 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Television_series> ;
+ wdt:P582 "1985-02-08T00:00:00Z"^^xsd:dateTime ;
+ wdt:P4312 <https://en.wikipedia.org/wiki/Single-camera_setup> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/General%20lee.jpg> ;
+ wdt:P2437 "7"^^xsd:decimal ;
+ wdt:P156 <https://en.wikipedia.org/wiki/The_Dukes_of_Hazzard:_Hazzard_in_Hollywood> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/John_Schneider_(screen_actor)> ;
+ wdt:P527 wd:Q15074367 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sorrell_Booke> ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Waylon_Jennings> ;
+ wdt:P361 wd:Q123708142 ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Bo_Duke> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Cooter_Davenport> ;
+ wdt:P527 wd:Q15074369 ;
+ wdt:P527 wd:Q15074372 ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Enos_Strate> ;
+ wdt:P527 wd:Q15074368 ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Sheriff_Rosco_P._Coltrane> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:The_Dukes_of_Hazzard> ;
+ wdt:P156 <https://en.wikipedia.org/wiki/The_Dukes_(TV_series)> ;
+ wdt:P527 wd:Q15074370 ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Vance_Duke> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Sonny_Shroyer> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Warner_Bros._Television_Studios> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Tom_Wopat> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Coy_Duke> ;
+ wdt:P1811 <https://en.wikipedia.org/wiki/List_of_The_Dukes_of_Hazzard_episodes> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Byron_Cherry> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Comedy_drama> ;
+ rdfs:label "The Dukes of Hazzard"@en ;
+ wdt:P156 <https://en.wikipedia.org/wiki/The_Dukes_of_Hazzard:_Reunion!> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Conyers,_Georgia> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Daisy_Duke> ;
+ wdt:P449 <https://en.wikipedia.org/wiki/CBS> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Rick_Hurst> ;
+ wdt:P674 wd:Q3177609 ;
+ wdt:P406 <https://en.wikipedia.org/wiki/The_Dukes_of_Hazzard_(soundtrack)> ;
+ wdt:P580 "1979-01-26T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Mayberry> rdfs:label "Mayberry"@en ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Mayberry_R.F.D.> ;
+ wdt:P915 wd:Q56254959 ;
+ wdt:P31 wd:Q1964689 ;
+ wdt:P1424 <https://en.wikipedia.org/wiki/Template:Mayberry> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/The_Andy_Griffith_Show> .
+
+<https://example.org/resource/Pawnee,_Indiana> wdt:P3342 <https://en.wikipedia.org/wiki/Mark_Brendanawicz> ;
+ wdt:P1082 "65000"^^xsd:decimal ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/April_Ludgate> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/Parks_and_Recreation> ;
+ wdt:P122 <https://en.wikipedia.org/wiki/Council%E2%80%93manager_government> ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/Jean-Ralphio_Saperstein> ;
+ wdt:P190 wd:Q66692141 ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/Ben_Wyatt_(Parks_and_Recreation)> ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/Ann_Perkins> ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/Jerry_Gergich> ;
+ rdfs:label "Pawnee"@en ;
+ wdt:P194 <https://en.wikipedia.org/wiki/Indiana%27s_10th_congressional_district> ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/Chris_Traeger> ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/Donna_Meagle> ;
+ wdt:P421 <https://en.wikipedia.org/wiki/Central_Time_Zone> ;
+ wdt:P131 wd:Q66692121 ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/Ron_Swanson> ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/Leslie_Knope> ;
+ wdt:P31 wd:Q1964689 ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/Andy_Dwyer> ;
+ wdt:P1549 "Pawneean"@en ;
+ wdt:P3342 <https://en.wikipedia.org/wiki/Tom_Haverford> .
+
+<https://example.org/resource/Sunnydale,_California> wdt:P571 "1841-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Sunnydale"@en ;
+ wdt:P170 <https://en.wikipedia.org/wiki/Joss_Whedon> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P1080 <https://en.wikipedia.org/wiki/Buffyverse> ;
+ wdt:P31 wd:Q1964689 ;
+ wdt:P131 <https://en.wikipedia.org/wiki/California> .
+---
+These are the labels of the properties:
+
+wdt:P161 -> cast member
+wdt:P162 -> producer
+wdt:P449 -> original broadcaster
+wdt:P166 -> award received
+wdt:P527 -> has part(s)
+wdt:P136 -> genre
+wdt:P272 -> production company
+wdt:P364 -> original language of film or TV show
+wdt:P1431 -> executive producer
+wdt:P495 -> country of origin
+wdt:P31 -> instance of
+wdt:P170 -> creator
+wdt:P750 -> distributed by
+wdt:P86 -> composer
+wdt:P1811 -> list of episodes
+wdt:P582 -> end time
+wdt:P1476 -> title
+wdt:P2408 -> set in period
+wdt:P1113 -> number of episodes
+wdt:P580 -> start time
+wdt:P840 -> narrative location
+wdt:P2047 -> duration
+wdt:P2437 -> number of seasons
+wdt:P910 -> topic's main category
+wdt:P1889 -> different from
+wdt:P156 -> followed by
+wdt:P674 -> characters
+wdt:P856 -> official website URL
+wdt:P2670 -> has part(s) of the class
+wdt:P4312 -> camera setup
+wdt:P18 -> image
+wdt:P361 -> part of
+wdt:P915 -> filming location
+wdt:P406 -> soundtrack release
+wdt:P1441 -> present in work
+wdt:P1424 -> topic's main template
+wdt:P3342 -> significant person
+wdt:P1082 -> population
+wdt:P122 -> basic form of government
+wdt:P190 -> twinned administrative body
+wdt:P17 -> country
+wdt:P194 -> legislative body
+wdt:P421 -> located in time zone
+wdt:P131 -> located in the administrative territorial entity
+wdt:P1549 -> demonym
+wdt:P571 -> inception
+wdt:P1080 -> from narrative universe.
+---
+These are the labels of the objects:
+
+wd:Q16739247 -> Renata Scott
+wd:Q23927006 -> Charles C. Stevenson Jr.
+wd:Q16204407 -> J. Downing
+wd:Q3727331 -> Murder, She Wrote, season 10
+wd:Q3727340 -> Murder, She Wrote, season 4
+wd:Q3727333 -> Murder, She Wrote, season 12
+wd:Q3727345 -> Murder, She Wrote, season 3
+wd:Q618050 -> Cabot Cove
+wd:Q3809514 -> John O'Leary
+wd:Q3727338 -> Murder, She Wrote, season 8
+wd:Q3727339 -> Murder, She Wrote, season 1
+wd:Q3727342 -> Murder, She Wrote, season 6
+wd:Q2260984 -> Scott McGinnis
+wd:Q3727343 -> Murder, She Wrote, season 2
+wd:Q3727347 -> Murder, She Wrote, season 11
+wd:Q3727344 -> Murder, She Wrote, season 7
+wd:Q15447245 -> Robert Lipton
+wd:Q3727335 -> Murder, She Wrote, season 9
+wd:Q9206325 -> Q9206325
+wd:Q56878968 -> detective television series
+wd:Q3299549 -> Matt Roe
+wd:Q3469430 -> Sal Landi
+wd:Q16990200 -> Pamela Roylance
+wd:Q19721513 -> Arlen Dean Snyder
+wd:Q23932052 -> James Ingersoll
+wd:Q23891047 -> John Apicella
+wd:Q2828104 -> Aimée Eccles
+wd:Q3566393 -> Warren J. Kemmerling
+wd:Q15492466 -> Joe Dorsey
+wd:Q588664 -> Time Winters
+wd:Q15074374 -> The Dukes of Hazzard, season 7
+wd:Q15074373 -> The Dukes of Hazzard, season 6
+wd:Q21664088 -> two-part episode
+wd:Q15074367 -> The Dukes of Hazzard, season 1
+wd:Q123708142 -> The Dukes of Hazzard
+wd:Q15074369 -> The Dukes of Hazzard, season 3
+wd:Q15074372 -> The Dukes of Hazzard, season 5
+wd:Q15074368 -> The Dukes of Hazzard, season 2
+wd:Q15074370 -> The Dukes of Hazzard, season 4
+wd:Q3177609 -> Jesse Duke
+wd:Q56254959 -> Mayberry set
+wd:Q1964689 -> fictional city
+wd:Q66692141 -> Eagleton
+wd:Q66692121 -> Wamapoke County.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+
+! Town Name
+! Origin
+! Network
+! class=unsortable|Notes
+|-
+|Hawkins, Indiana
+|[[Stranger Things|''Stranger Things'']] 
+|[[Netflix]]
+|
+|-
+|Sparta, Mississippi 
+|''[[In the Heat of the Night (TV series)|In the Heat of the Night]]''
+|CBS, NBC
+|Sparta is a fictional town in Mississippi. It was filmed in Hammond, Indiana and also Covington, Georgia. 
+|-
+|Lanford, IL
+|''[[Roseanne]]''
+|ABC
+|Lanford is the town that the show takes place in. (based in Elgin, IL) |}
+---

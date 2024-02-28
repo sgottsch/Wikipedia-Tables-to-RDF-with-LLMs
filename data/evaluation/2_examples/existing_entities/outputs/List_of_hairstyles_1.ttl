@@ -1,0 +1,208 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Croydon_facelift> rdfs:label "Croydon facelift"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Croydon%20facelift%202012.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Devilock> rdfs:label "Devilock"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Devilock.png> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Feathered_hair> rdfs:label "Feathered hair"@en ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Fontange> rdfs:label "Fontange"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fontange%20Kneller%20-%20cropped.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/French_braid> rdfs:label "French braid"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Classic%20French%20Braid.JPG> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/French_twist> rdfs:label "French twist"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Frenchtwist.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Fringe> rdfs:label "fringe (hair)"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bangsfringe.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Frosted_tips> rdfs:label "frosted tips"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Guy%20Fieri%20at%20Guantanamo%202.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Hime_cut> rdfs:label "hime cut"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Hime%20cut.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Ivy_League> rdfs:label "princeton"@en ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Jewfro> rdfs:label "jewfro"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Jewfro%202.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Jheri_curl> rdfs:label "jheri curl"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Jheri%20Curl%20Smile%20(395044434).jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Layered_hair> rdfs:label "layered hair"@en ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Liberty_spikes> rdfs:label "liberty spikes"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Spikesfront.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Lob> rdfs:label "lob"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Stone%202014.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Marcel_waves> rdfs:label "marcel waves"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Francois%20Marcel%201922.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Mod_cut> rdfs:label "mod cut"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/180612%20Harry%20Styles%20Live%20On%20Tour%20in%20Nashville.png> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Mullet> rdfs:label "mullet"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mulletman.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Odango> rdfs:label "odango"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Usagi%20Tsukino%20Sailor%20Moon%20Crystal.png> ;
+    wdt:P279 wd:Q102247646,
+        wd:Q111143758 ;
+    wdt:P31 wd:Q327496 ;
+    wdt:P5008 wd:Q7098843 ;
+    wdt:P527 wd:Q1643098 .
+
+<https://example.org/resource/Oseledets> rdfs:label "oseledets"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ilja%20Jefimowitsch%20Repin%20-%20Zaporozhian%20Cossacks%20(image%20detail)%202.jpg> ;
+    wdt:P1889 wd:Q47805 ;
+    wdt:P279 wd:Q102247646,
+        wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Payot> rdfs:label "payot"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Payot%20on%20young%20Hasid%20man%2001.jpg> ;
+    wdt:P1889 wd:Q80970 ;
+    wdt:P279 wd:Q102247646,
+        wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Perm> rdfs:label "perm"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/IcallPlasticDressing.jpg> ;
+    wdt:P1889 wd:Q869880 ;
+    wdt:P279 wd:Q102247646,
+        wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Pigtails> rdfs:label "pigtails"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Pigtails.jpg> ;
+    wdt:P1889 wd:Q839734 ;
+    wdt:P279 wd:Q102247646,
+        wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Pompadour> rdfs:label "pompadour"@en ;
+    wdt:P138 wd:Q188965 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/PresleyPromo1954PhotoOnly.jpg> ;
+    wdt:P1889 wd:Q14776796 ;
+    wdt:P279 wd:Q102247646,
+        wd:Q111143758 ;
+    wdt:P31 wd:Q327496 ;
+    wdt:P5008 wd:Q15181203 .
+
+<https://example.org/resource/Ponyhawk> rdfs:label "ponyhawk"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mohawk%201951.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Ponytail> rdfs:label "ponytail"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20ponytail%20still%20intact.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Psychobilly_Wedge> rdfs:label "psychobilly wedge"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kim%20Nekroman%20live.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Queue> rdfs:label "queue"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Curley%20bear.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Quiff> rdfs:label "quiff"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Elly%20Jackson.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Rattail> rdfs:label "Rattail"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Rattail.jpeg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Razor_cut> rdfs:label "Razor cut"@en ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Ringlets> rdfs:label "Ringlets"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Hannah_Fry_(by_Andrew_Geddes).jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Shag_cut> rdfs:label "Shag cut"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Shag_hairstyle_01.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Shape-Up> rdfs:label "Shape-Up"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/D-Wade_in_Chicago_-_cropped_version.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Shingle_bob> rdfs:label "shingle bob"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Louise%20Brooks%20in%20Diary%20of%20a%20Lost%20Girl.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Short_brush_cut> rdfs:label "short brush cut"@en ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Short_hair> rdfs:label "short hair"@en ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Spiky_hair> rdfs:label "spiky hair"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Spiky%20hair%2001.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Step_cut> rdfs:label "step cut"@en ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Surfer_hair> rdfs:label "surfer hair"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Surfer%20hair.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Taper_cut> rdfs:label "Regular haircut"@en,
+        "taper cut"@en ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/The_Rachel> rdfs:label "The Rachel"@en ;
+    wdt:P138 wd:Q32522,
+        wd:Q581353,
+        wd:Q79784 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Jennifer_Aniston_at_2009_GLAAD_Media_Awards.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Updo> rdfs:label "updo"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Updo1.jpg> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Waves> rdfs:label "waves"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/SpinnazForWiki.jpg> ;
+    wdt:P279 wd:Q111143758 ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Weave> rdfs:label "weave"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Premium%20hair.JPG> ;
+    wdt:P31 wd:Q327496 .
+
+<https://example.org/resource/Wings> rdfs:label "Wings"@en,
+        "wings"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Chace%20Crawford.jpg> ;
+    wdt:P31 wd:Q327496 .
+

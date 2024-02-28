@@ -1,0 +1,106 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Holocaust_Memorial_Museum_of_San_Antonio> rdfs:label "Holocaust Memorial Museum of San Antonio"@en ;
+    wdt:P131 wd:Q16861 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://www.jfsatx.org/holocaust-memorial-museum> .
+
+<https://example.org/resource/McNay_Art_Museum> rdfs:label "McNay Art Museum"@en ;
+    wdt:P131 wd:Q16861 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P31 wd:Q207694 ;
+    wdt:P856 <https://www.mcnayart.org/> .
+
+<https://example.org/resource/O._Henry_House_Museum> rdfs:label "O. Henry House Museum"@en ;
+    wdt:P131 wd:Q16861 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P31 wd:Q2087181 ;
+    wdt:P856 <https://www.theohehnryhouse.org/> .
+
+<https://example.org/resource/Ruby_City> rdfs:label "Ruby City"@en ;
+    wdt:P131 wd:Q16861 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P31 wd:Q207694 ;
+    wdt:P856 <https://rubycity.org/> .
+
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> rdfs:label "San Antonio Missions National Historical Park"@en ;
+    wdt:P131 wd:Q16861 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P856 <https://www.nps.gov/saan/index.htm> .
+
+<https://example.org/resource/San_Antonio_Museum_of_Art> rdfs:label "San Antonio Museum of Art"@en ;
+    wdt:P131 wd:Q16861 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P31 wd:Q207694 ;
+    wdt:P856 <https://www.samuseum.org/> .
+
+<https://example.org/resource/Spanish_Governor's_Palace> rdfs:label "Spanish Governor's Palace"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P1343 wd:Q2397965 ;
+    wdt:P1435 wd:Q3719 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P1705 "Spanish Governor's Palace"@en ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/San%20Antonio%20TX%20Spanish%20Govenors%20Palace.jpg> ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://www.visitsanantonio.com/> .
+
+<https://example.org/resource/Texas_Air_Museum> rdfs:label "Texas Air Museum"@en ;
+    wdt:P131 wd:Q7617473 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/1911%20Baldwin%202-8-0%20Steam%20at%20Texas%20Transportation%20museum%204.JPG> ;
+    wdt:P276 wd:Q975 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://texastimetravel.com/> .
+
+<https://example.org/resource/Texas_Transportation_Museum> rdfs:label "Texas Transportation Museum"@en ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/1911%20Baldwin%202-8-0%20Steam%20at%20Texas%20Transportation%20museum%204.JPG> ;
+    wdt:P276 wd:Q975 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://texastimetravel.com/> .
+
+<https://example.org/resource/USAF_Airman_Heritage_Museum> rdfs:label "USAF Airman Heritage Museum"@en ;
+    wdt:P131 wd:Q1416857 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://www.jbsa.mil/> .
+
+<https://example.org/resource/UTSA_art_galleries> rdfs:label "UTSA art galleries"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P276 wd:Q975 .
+
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> rdfs:label "United States Army Medical Department Museum"@en ;
+    wdt:P131 wd:Q1438706 ;
+    wdt:P1435 wd:Q3719 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://www.bamc.amedd.army.mil/> .
+
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> rdfs:label "University of Texas Institute of Texan Cultures"@en ;
+    wdt:P131 wd:Q183170 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/HemisFair%20Park%20May%202018%2013%20(Institute%20of%20Texan%20Cultures).jpg> ;
+    wdt:P276 wd:Q975 ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P856 <https://www.texancultures.com/> .
+
+<https://example.org/resource/Villa_Finale> rdfs:label "Villa Finale"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Norton%20polk%20mathis%20house%202014.jpg> ;
+    wdt:P276 wd:Q975 .
+
+<https://example.org/resource/Witte_Museum> rdfs:label "Witte Museum"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Witte%20Museum%20Acrocanthosaurus.jpg> ;
+    wdt:P276 wd:Q975 .
+
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> rdfs:label "Yturri-Edmunds Historic Site"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Yturriedmunds1.jpg> ;
+    wdt:P276 wd:Q975 .
+

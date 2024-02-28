@@ -1,0 +1,301 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of tallest buildings in Malaysia" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="line-height:1.4em; font-size:100% "
+|-
+! rowspan="2" style="width:29%" |Name of skyscraper
+! colspan="2" |Height
+! rowspan="2" style="width:8%" |Flr.
+! rowspan="2" style="width:8%" |Year
+! colspan="2" |Location
+! rowspan="2" style="width:5%" class="unsortable" |Ref.
+|-
+| style="background-color:#ffff99" |[[Merdeka 118]]
+| style="text-align:right;" |678.9 m
+| style="text-align:right;" |2,227&nbsp;ft
+| style="text-align:right;" |118
+| style="text-align:right;" |2023
+| style="text-align:center;" |[[Kuala Lumpur]]
+| style="text-align:center;" |{{nowrap|{{coord|3.1413|N|101.7007|E}}}}
+|<ref name=":2">{{Cite web |title=Merdeka 118 – The Skyscraper Center |url=https://www.skyscrapercenter.com/building/merdeka-118/10115 |access-date=2023-12-05 |website=SkyscraperCenter |publisher=[[Council on Tall Buildings and Urban Habitat]]}}</ref>
+|-
+| style="background-color:#ffff99" |[[The Exchange 106]]
+| style="text-align:right;" |453.6 m
+| style="text-align:right;" |1,488&nbsp;ft
+| style="text-align:right;" |95
+| style="text-align:right;" |2019
+| style="text-align:center;" |[[Kuala Lumpur]]
+| style="text-align:center;" |{{nowrap|{{coord|3.1420|N|101.7187|E}}}}
+|<ref name=":3">{{Cite web |title=The Exchange 106 – The Skyscraper Center |url=https://www.skyscrapercenter.com/building/the-exchange-106/24971 |access-date=2023-12-05 |website=SkyscraperCenter |publisher=[[Council on Tall Buildings and Urban Habitat]]}}</ref>
+|-
+| style="background-color:#ffff99" |[[Petronas Towers|Petronas Tower 1]]
+| style="text-align:right;" |451.9 m
+| style="text-align:right;" |1,483&nbsp;ft
+| style="text-align:right;" |88
+| rowspan="2" style="text-align:right;" |1998
+| rowspan="2" style="text-align:center;" |[[Kuala Lumpur]]
+| rowspan="2" style="text-align:center;" |{{nowrap|{{coord|3.1580|N|101.7118|E}}}}
+|<ref name=":4">{{Cite web |title=Petronas Twin Tower 1 – The Skyscraper Center |url=https://www.skyscrapercenter.com/building/petronas-twin-tower-1/149 |access-date=2023-12-05 |website=SkyscraperCenter |publisher=[[Council on Tall Buildings and Urban Habitat]]}}</ref>
+|-
+|[[Kuala Lumpur Tower]]
+| style="text-align:right;" |421.0 m
+| style="text-align:right;" |1,381&nbsp;ft
+| style="text-align:right;" |{{Ndash}}
+| style="text-align:right;" |1994
+| style="text-align:center;" |[[Kuala Lumpur]]
+| style="text-align:center;" |{{nowrap|{{coord|3.1528|N|101.7033|E}}}}
+|<ref name=":7">{{Cite web |title=Four Seasons Place – The Skyscraper Center |url=https://www.skyscrapercenter.com/building/four-seasons-place/5211 |access-date=2023-12-05 |website=SkyscraperCenter |publisher=[[Council on Tall Buildings and Urban Habitat]]}}</ref>
+|-
+|[[Four Seasons Place Kuala Lumpur|Four Seasons Place]]
+| style="text-align:right;" |342.5 m
+| style="text-align:right;" |1,124&nbsp;ft
+| style="text-align:right;" |75
+| style="text-align:right;" |2018
+| style="text-align:center;" |[[Kuala Lumpur]]
+| style="text-align:center;" |{{nowrap|{{coord|3.1579|N|101.7138|E}}}}
+|<ref name=":7"/>
+|-
+|[[Telekom Tower]]
+| style="text-align:right;" |310.0 m
+| style="text-align:right;" |1,017&nbsp;ft
+| style="text-align:right;" |55
+| style="text-align:right;" |2001
+| style="text-align:center;" |[[Kuala Lumpur]]
+| style="text-align:center;" |{{nowrap|{{coord|3.1162|N|101.6659|E}}}}
+|<ref name=":10">{{Cite web |title=Menara TM – The Skyscraper Center |url=https://www.skyscrapercenter.com/building/menara-tm/453 |access-date=2023-12-05 |website=SkyscraperCenter |publisher=[[Council on Tall Buildings and Urban Habitat]]}}</ref>
+|-
+|[[The Astaka]] Tower A
+| style="text-align:right;" |278.8 m
+| style="text-align:right;" |915&nbsp;ft
+| style="text-align:right;" |72
+| style="text-align:right;" |2018
+| style="text-align:center;" |[[Johor Bahru]]
+| style="text-align:center;" |{{nowrap|{{coord|1.4733|N|103.7636|E}}}}
+|<ref name=":12">{{Cite web |title=The Astaka Tower A – The Skyscraper Center |url=https://www.skyscrapercenter.com/building/the-astaka-tower-a/15218 |access-date=2023-12-05 |website=SkyscraperCenter |publisher=[[Council on Tall Buildings and Urban Habitat]]}}</ref>
+|-
+|[[Ilham Tower]]
+| style="text-align:right;" |274.0 m
+| style="text-align:right;" |899&nbsp;ft
+| style="text-align:right;" |58
+| style="text-align:right;" |2016
+| style="text-align:center;" |[[Kuala Lumpur]]
+| style="text-align:center;" |{{nowrap|{{coord|3.1593|N|101.7186|E}}}}
+|<ref name=":14">{{Cite web |title=Ilham Tower – The Skyscraper Center |url=https://www.skyscrapercenter.com/building/ilham-tower/9344 |access-date=2023-12-05 |website=SkyscraperCenter |publisher=[[Council on Tall Buildings and Urban Habitat]]}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Merdeka_118> wdt:P366 <https://en.wikipedia.org/wiki/Hotel> ;
+ rdfs:label "Merdeka 118"@en ;
+ wdt:P2048 "678.9"^^xsd:decimal ;
+ wdt:P1101 "118"^^xsd:decimal ;
+ wdt:P366 <https://en.wikipedia.org/wiki/Office> ;
+ wdt:P631 <https://en.wikipedia.org/wiki/Arup_Group> ;
+ wdt:P1139 "5"^^xsd:decimal ;
+ wdt:P856 <https://merdeka118.com> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Fender_Katsalidis> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Skyscraper> ;
+ wdt:P6375 "Cangkat Stadium, City Centre, 50150 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/Kuala%20Lumpur.%20Merdeka%20118.%202019-11-30%2020-54-46.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P793 wd:Q27136782 ;
+ wdt:P1619 "2023-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P127 <https://en.wikipedia.org/wiki/Permodalan_Nasional_Berhad> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Merdeka%20118%202023-08-20.jpg> ;
+ wdt:P571 "2023-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1301 "87"^^xsd:decimal ;
+ wdt:P793 <https://en.wikipedia.org/wiki/Topping_out> ;
+ wdt:P276 <https://en.wikipedia.org/wiki/Kuala_Lumpur_City_Centre> .
+
+<https://example.org/resource/The_Exchange_106> wdt:P31 <https://en.wikipedia.org/wiki/Building> ;
+ wdt:P2048 "445.5"^^xsd:decimal ;
+ wdt:P1101 "106"^^xsd:decimal ;
+ wdt:P1139 "6"^^xsd:decimal ;
+ rdfs:label "The Exchange 106"@en ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Exchange%20106%20skyline%20Nov%20of%202021.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P1619 "2019-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P571 "2019-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Petronas_Tower_1> wdt:P84 <https://en.wikipedia.org/wiki/C%C3%A9sar_Pelli> ;
+ wdt:P5817 wd:Q55654238 ;
+ rdfs:label "Petronas Towers"@en ;
+ wdt:P7561 wd:Q86117935 ;
+ wdt:P2048 "451.9"^^xsd:decimal ;
+ wdt:P527 wd:Q111668384 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Petronas%20Panorama%20II.jpg> ;
+ wdt:P8933 wd:Q104233986 ;
+ wdt:P1101 "88"^^xsd:decimal ;
+ wdt:P1619 "1998-08-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Postmodern_architecture> ;
+ wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Petronas%20Towers%20Logo.svg> ;
+ wdt:P910 wd:Q55325752 ;
+ wdt:P193 <https://en.wikipedia.org/wiki/Hazama_Ando> ;
+ wdt:P127 <https://en.wikipedia.org/wiki/Petronas> ;
+ wdt:P5282 <https://360stories.com/kuala-lumpur/story/petronas-twin-towers> ;
+ wdt:P2046 "395000"^^xsd:decimal ;
+ wdt:P527 wd:Q25658657 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Skyscraper> ;
+ wdt:P8517 <http://commons.wikimedia.org/wiki/Special:FilePath/From%20Bridge%20of%20KLCC%20-%20panoramio%20-%20Roman%20Suzuki.jpg> ;
+ wdt:P5775 <http://commons.wikimedia.org/wiki/Special:FilePath/Foyer%20of%20the%20Petronas%20Towers%20%2818357838373%29.jpg> ;
+ wdt:P3451 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Twins%20SE%20Asia%202019%20%2849171985716%29.jpg> ;
+ wdt:P193 wd:Q16169758 ;
+ wdt:P193 <https://en.wikipedia.org/wiki/Samsung_C%26T_Corporation> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P571 "1996-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P631 <https://en.wikipedia.org/wiki/Thornton_Tomasetti> ;
+ wdt:P138 <https://en.wikipedia.org/wiki/Petronas> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Tourist_attraction> ;
+ wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/Kuala%20Lumpur%20Malaysia%20Petronas-Administration-01.jpg> ;
+ wdt:P1301 "39"^^xsd:decimal ;
+ wdt:P361 <https://en.wikipedia.org/wiki/Suria_KLCC> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Twin_towers_(architecture)> .
+
+<https://example.org/resource/Kuala_Lumpur_Tower> wdt:P2048 "421"^^xsd:decimal ;
+ wdt:P1101 "15"^^xsd:decimal ;
+ wdt:P571 "1994-09-13T00:00:00Z"^^xsd:dateTime ;
+ wdt:P8933 wd:Q105741076 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Skyscraper> ;
+ rdfs:label "Kuala Lumpur Tower"@en ;
+ wdt:P856 <https://www.menarakl.com.my/> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/KL%20tower1.JPG> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P1619 "1996-07-23T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 wd:Q113327930 ;
+ wdt:P1301 "4"^^xsd:decimal .
+
+<https://example.org/resource/Four_Seasons_Place> wdt:P31 <https://en.wikipedia.org/wiki/Building> ;
+ wdt:P10290 wd:Q109248725 ;
+ rdfs:label "Four Seasons Place Kuala Lumpur"@en ;
+ wdt:P1889 wd:Q111446065 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Four%20Seasons%20Place%20KL.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P127 <https://en.wikipedia.org/wiki/Four_Seasons_Hotels_and_Resorts> ;
+ wdt:P571 "2018-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1619 "2018-11-18T00:00:00Z"^^xsd:dateTime ;
+ wdt:P137 <https://en.wikipedia.org/wiki/Four_Seasons_Hotels_and_Resorts> .
+
+<https://example.org/resource/Telekom_Tower> wdt:P2048 "310"^^xsd:decimal ;
+ wdt:P1101 "77"^^xsd:decimal ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Postmodern_architecture> ;
+ rdfs:label "Telekom Tower"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Skyscraper> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Hijjas_Kasturi> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Menara%20telekom.jpg> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> ;
+ wdt:P571 "2001-01-01T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/The_Astaka> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/THEASTAKAJB.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Skyscraper> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Johor_Bahru> ;
+ rdfs:label "The Astaka"@en ;
+ wdt:P856 <http://astakapadu.com.my/> ;
+ wdt:P856 <http://theastakajohorbahru.com> .
+
+<https://example.org/resource/Ilham_Tower> rdfs:label "Ilham Tower"@en ;
+ wdt:P856 <http://www.ibtower.com/index.html> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ilham%20Tower%2C%20Kuala%20Lumpur%20in%20April%202020.jpg> ;
+ wdt:P1101 "58"^^xsd:decimal ;
+ wdt:P1139 "4"^^xsd:decimal ;
+ wdt:P193 <https://en.wikipedia.org/wiki/Daewoo_E%26C> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Skyscraper> ;
+ wdt:P84 <https://en.wikipedia.org/wiki/Foster_and_Partners> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Kuala_Lumpur> .
+---
+These are the labels of the properties:
+
+wdt:P366 -> has use
+wdt:P2048 -> height
+wdt:P1101 -> floors above ground
+wdt:P631 -> structural engineer
+wdt:P1139 -> floors below ground
+wdt:P856 -> official website URL
+wdt:P84 -> architect
+wdt:P31 -> instance of
+wdt:P6375 -> street address
+wdt:P17 -> country
+wdt:P3451 -> nighttime view
+wdt:P131 -> located in the administrative territorial entity
+wdt:P793 -> significant event
+wdt:P1619 -> date of official opening
+wdt:P127 -> owned by
+wdt:P18 -> image
+wdt:P571 -> inception
+wdt:P1301 -> number of elevators
+wdt:P276 -> location
+wdt:P5817 -> state of use
+wdt:P7561 -> category for the interior of the item
+wdt:P527 -> has part(s)
+wdt:P8933 -> category for the view from the item
+wdt:P149 -> architectural style
+wdt:P154 -> logo image
+wdt:P910 -> topic's main category
+wdt:P193 -> main building contractor
+wdt:P5282 -> ground level 360 degree view URL
+wdt:P2046 -> area
+wdt:P8517 -> view
+wdt:P5775 -> image of interior
+wdt:P138 -> named after
+wdt:P1801 -> plaque image
+wdt:P361 -> part of
+wdt:P10290 -> hotel rating
+wdt:P1889 -> different from
+wdt:P137 -> operator.
+---
+These are the labels of the objects:
+
+wd:Q27136782 -> start of manufacturing
+wd:Q55654238 -> in use
+wd:Q86117935 -> Category:Interior of the Petronas Towers
+wd:Q111668384 -> Petronas Tower 1
+wd:Q104233986 -> Category:Views from the Petronas Towers
+wd:Q55325752 -> Category:Petronas Towers
+wd:Q25658657 -> Petronas Tower 2
+wd:Q16169758 -> Q16169758
+wd:Q105741076 -> Category:Views from Kuala Lumpur Tower
+wd:Q113327930 -> Islamic falak location spots in Malaysia
+wd:Q109248725 -> 5-star hotel rating
+wd:Q111446065 -> Four Seasons Hotel Kuala Lumpur.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="line-height:1.4em; font-size:100% "
+|-
+! rowspan="2" style="width:29%" |Name of skyscraper
+! colspan="2" |Height
+! rowspan="2" style="width:8%" |Flr.
+! rowspan="2" style="width:8%" |Year
+! colspan="2" |Location
+! rowspan="2" style="width:5%" class="unsortable" |Ref.
+|-
+|[[Hilton Kuala Lumpur]]
+| style="text-align:right;" |154.0 m
+| style="text-align:right;" |505&nbsp;ft
+| style="text-align:right;" |37
+| style="text-align:right;" |2004
+| style="text-align:center;" |[[Kuala Lumpur]]
+| style="text-align:center;" |{{nowrap|{{coord|3.1354|N|101.6859|E}}}}
+|<ref>{{Cite web |title=Hilton Kuala Lumpur – The Skyscraper Center |url=https://www.skyscrapercenter.com/building/hilton-kuala-lumpur/3740 |access-date=2023-12-06 |website=www.skyscrapercenter.com}}</ref>
+|-
+| style="background-color:#ffff99" |[[KH Tower]]
+| style="text-align:right;" |152.0 m
+| style="text-align:right;" |499&nbsp;ft
+| style="text-align:right;" |36
+| style="text-align:right;" |1983
+| style="text-align:center;" |[[Kuala Lumpur]]
+| style="text-align:center;" |{{nowrap|{{coord|3.1512|N|101.7100|E}}}}
+|<ref>{{Cite web |title=Menara KH – The Skyscraper Center |url=https://www.skyscrapercenter.com/building/menara-kh/3851 |access-date=2023-12-06 |website=www.skyscrapercenter.com}}</ref> |}
+---

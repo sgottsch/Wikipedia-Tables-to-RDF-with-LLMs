@@ -1,0 +1,742 @@
+In both
+<https://example.org/resource/Berjaya_University_College> <http://www.wikidata.org/prop/direct/P856> <http://www.berjaya.edu.my/> .
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.w3.org/2000/01/rdf-schema#label> "Han Chiang University College of Communication"@en .
+<https://example.org/resource/MAHSA_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/First_City_University_College> <http://www.wikidata.org/prop/direct/P571> "1990-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Nilai_University> <http://www.wikidata.org/prop/direct/P571> "1997-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Cyberjaya> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/UNITAR_International_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q864965> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P571> "1999-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Royal_College_of_Surgeons_in_Ireland_and_University_College_Dublin_Malaysia_Campus> <http://www.w3.org/2000/01/rdf-schema#label> "Royal College of Surgeons in Ireland and University College Dublin Malaysia Campus"@en .
+<https://example.org/resource/Xiamen_University_Malaysia> <http://www.wikidata.org/prop/direct/P856> <http://www.xmu.edu.my/> .
+<https://example.org/resource/University_of_Selangor> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "Tunku Abdul Rahman University of Management and Technology"@en .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q864965> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1946482> .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Royal_College_of_Surgeons_in_Ireland_and_University_College_Dublin_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q61092> .
+<https://example.org/resource/MAHSA_University> <http://www.wikidata.org/prop/direct/P856> <http://www.mahsa.edu.my/> .
+<https://example.org/resource/SEGi_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P571> "1969-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Selangor> <http://www.w3.org/2000/01/rdf-schema#label> "University of Selangor"@en .
+<https://example.org/resource/University_of_Selangor> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Wawasan_Open_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q61092> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Wawasan_Open_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_of_Cyberjaya> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q737705> .
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Open_University_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Xiamen_University_Malaysia> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_of_Selangor> <http://www.wikidata.org/prop/direct/P571> "1999-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P571> "2002-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P856> <http://www.taylors.edu.my/> .
+<https://example.org/resource/Nilai_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P856> <http://www.uniten.edu.my/> .
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P571> "2002-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Southern_University_College> <http://www.w3.org/2000/01/rdf-schema#label> "Southern University College"@en .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "Limkokwing University of Creative Technology"@en .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/First_City_University_College> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Nilai_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Wawasan_Open_University> <http://www.w3.org/2000/01/rdf-schema#label> "Wawasan Open University"@en .
+<https://example.org/resource/Widad_University_College> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q817578> .
+<https://example.org/resource/SEGi_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Wawasan_Open_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P571> "1969-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Berjaya_University_College> <http://www.wikidata.org/prop/direct/P571> "2009-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.wikidata.org/prop/direct/P571> "1994-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Selangor> <http://www.wikidata.org/prop/direct/P856> <http://www.unisel.edu.my/> .
+<https://example.org/resource/Multimedia_University> <http://www.w3.org/2000/01/rdf-schema#label> "Multimedia University"@en .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P571> "1990-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Berjaya_University_College> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Royal_College_of_Surgeons_in_Ireland_and_University_College_Dublin_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P571> "1996-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Perdana_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/INTI_International_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P571> "2000-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q220445> .
+<https://example.org/resource/University_of_Cyberjaya> <http://www.w3.org/2000/01/rdf-schema#label> "University of Cyberjaya"@en .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.w3.org/2000/01/rdf-schema#label> "University of Kuala Lumpur"@en .
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q864965> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P856> <http://www.sunway.edu.my/> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P856> <http://www.nottingham.edu.my/> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/First_City_University_College> <http://www.w3.org/2000/01/rdf-schema#label> "First City University College"@en .
+<https://example.org/resource/Open_University_Malaysia> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/INTI_International_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/New_Era_University_College> <http://www.w3.org/2000/01/rdf-schema#label> "New Era University College"@en .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q5254191> .
+<https://example.org/resource/MAHSA_University> <http://www.wikidata.org/prop/direct/P571> "2005-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Manipal_International_University> <http://www.wikidata.org/prop/direct/P571> "2011-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Perdana_University> <http://www.w3.org/2000/01/rdf-schema#label> "Perdana University"@en .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P571> "1997-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> <http://www.wikidata.org/prop/direct/P571> "1991-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Royal_College_of_Surgeons_in_Ireland_and_University_College_Dublin_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Manipal_International_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> <http://www.wikidata.org/prop/direct/P571> "2000-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> <http://www.wikidata.org/prop/direct/P856> <http://www.must.edu.my/> .
+<https://example.org/resource/UNITAR_International_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Open_University_Malaysia> <http://www.wikidata.org/prop/direct/P571> "2000-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P571> "1987-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Taylor's_University> <http://www.w3.org/2000/01/rdf-schema#label> "Taylor's University"@en .
+<https://example.org/resource/Xiamen_University_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Sunway_University> <http://www.w3.org/2000/01/rdf-schema#label> "Sunway University"@en .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P571> "1986-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> <http://www.wikidata.org/prop/direct/P571> "2000-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Widad_University_College> <http://www.wikidata.org/prop/direct/P571> "1997-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_Technology_of_Sarawak> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.wikidata.org/prop/direct/P571> "1983-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q61092> .
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> <http://www.w3.org/2000/01/rdf-schema#label> "Swinburne University of Technology Sarawak Campus"@en .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.w3.org/2000/01/rdf-schema#label> "University of Nottingham Malaysia Campus"@en .
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> <http://www.w3.org/2000/01/rdf-schema#label> "Kuala Lumpur Metropolitan University College"@en .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/INTI_International_University> <http://www.w3.org/2000/01/rdf-schema#label> "INTI International University"@en .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P856> <http://www.unikl.edu.my/> .
+<https://example.org/resource/INTI_International_University> <http://www.wikidata.org/prop/direct/P571> "1986-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Open_University_Malaysia> <http://www.w3.org/2000/01/rdf-schema#label> "Open University Malaysia"@en .
+<https://example.org/resource/Xiamen_University_Malaysia> <http://www.w3.org/2000/01/rdf-schema#label> "Xiamen University Malaysia"@en .
+<https://example.org/resource/SEGi_University> <http://www.wikidata.org/prop/direct/P571> "1977-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Widad_University_College> <http://www.w3.org/2000/01/rdf-schema#label> "Widad University College"@en .
+<https://example.org/resource/Islamic_University_of_Malaysia> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P856> <https://www.newera.edu.my/> .
+<https://example.org/resource/UCSI_University> <http://www.w3.org/2000/01/rdf-schema#label> "UCSI University"@en .
+<https://example.org/resource/Wawasan_Open_University> <http://www.wikidata.org/prop/direct/P571> "2006-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_Technology_of_Sarawak> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Manipal_International_University> <http://www.w3.org/2000/01/rdf-schema#label> "Manipal International University"@en .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P571> "1997-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/UNITAR_International_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+In ground only
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15407956> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q81165364> .
+<https://example.org/resource/Asia_e_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Curtin_University,_Malaysia> <http://www.wikidata.org/prop/direct/P749> <http://www.wikidata.org/entity/Q1145497> .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q30697568> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q21683230> .
+<https://example.org/resource/University_College_TATI> <http://www.w3.org/2000/01/rdf-schema#label> "TATI University College"@en .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q897403> .
+<https://example.org/resource/Asia_Pacific_University_of_Technology_&_Innovation> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Open_University_Malaysia> <http://www.wikidata.org/prop/direct/P8687> "2168"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q79848> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1143635> .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P856> <http://www.ucsiuniversity.edu.my/index.aspx> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q2860136> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P856> <http://www.tarc.edu.my> .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P8687> "12840"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/INTI_International_University> <http://www.wikidata.org/prop/direct/P856> <https://newinti.edu.my/> .
+<https://example.org/resource/Berjaya_University_College> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Widad_University_College> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q252> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q16725802> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q8884324> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P8687> "5069"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P3876> <http://www.wikidata.org/entity/Q59938898> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Tunku%20Abdul%20Rahman%20University%20College.jpg> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q1143635> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q67284726> .
+<https://example.org/resource/Open_University_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1143635> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3267302> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P669> <http://www.wikidata.org/entity/Q123914094> .
+<https://example.org/resource/Sultan_Azlan_Shah_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q45400320> .
+<https://example.org/resource/MAHSA_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q11573537> .
+<https://example.org/resource/University_of_Cyberjaya> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3267302> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P6269> <https://reading.ac.uk/oala/metadata> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q322563> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q6359147> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P355> <http://www.wikidata.org/entity/Q6940847> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q5275956> .
+<https://example.org/resource/Curtin_University,_Malaysia> <http://www.wikidata.org/prop/direct/P571> "1999-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/City_University> <http://www.wikidata.org/prop/direct/P856> <https://www.city.edu.my/> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P3876> <http://www.wikidata.org/entity/Q8237374> .
+<https://example.org/resource/International_Medical_University> <http://www.wikidata.org/prop/direct/P856> <http://www.imu.edu.my/> .
+<https://example.org/resource/University_of_Selangor> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q111922937> .
+<https://example.org/resource/Curtin_University,_Malaysia> <http://www.wikidata.org/prop/direct/P1813> "Curtin Malaysia"@en .
+<https://example.org/resource/University_Technology_of_Sarawak> <http://www.w3.org/2000/01/rdf-schema#label> "University College of Technology Sarawak"@en .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5420001> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P485> <http://www.wikidata.org/entity/Q81165014> .
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> <http://www.wikidata.org/prop/direct/P571> "1997-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Xiamen_University_Malaysia> <http://www.wikidata.org/prop/direct/P571> "2012-10-30T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P2888> <https://findthatcharity.uk/orgid/XI-ROR-01ryk1543> .
+<https://example.org/resource/UNITAR_International_University> <http://www.w3.org/2000/01/rdf-schema#label> "Universiti Tun Abdul Razak"@en .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P1416> <http://www.wikidata.org/entity/Q23023626> .
+<https://example.org/resource/Lincoln_University_College> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/Sunway%20logo.jpg> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P3876> <http://www.wikidata.org/entity/Q7694098> .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Nilai_University> <http://www.wikidata.org/prop/direct/P571> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P8687> "63723"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Asia_Pacific_University_of_Technology_&_Innovation> <http://www.wikidata.org/prop/direct/P749> <http://www.wikidata.org/entity/Q4653315> .
+<https://example.org/resource/MAHSA_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4671277> .
+<https://example.org/resource/National_Energy_University> <http://www.w3.org/2000/01/rdf-schema#label> "Universiti Tenaga Nasional"@en .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Multimedia%20University.JPG> .
+<https://example.org/resource/Monash_University_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P1416> <http://www.wikidata.org/entity/Q744144> .
+<https://example.org/resource/University_College_TATI> <http://www.wikidata.org/prop/direct/P571> "1993-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Reading%20arms.svg> .
+<https://example.org/resource/Management_&_Science_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q500033> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q383092> .
+<https://example.org/resource/Infrastructure_University_Kuala_Lumpur> <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure University Kuala Lumpur (IUKL)"@en .
+<https://example.org/resource/International_Islamic_University_College_Selangor> <http://www.wikidata.org/prop/direct/P571> "1995-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/HartleyLibraryFront.JPG> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q15957531> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q1663017> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P355> <http://www.wikidata.org/entity/Q111444734> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P571> "1892-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P8687> "4388"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_University_of_Malaysia> <http://www.w3.org/2000/01/rdf-schema#label> "Universiti Islam Malaysia"@en .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q6269240> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P1830> <http://www.wikidata.org/entity/Q111444734> .
+<https://example.org/resource/Manipal_International_University> <http://www.wikidata.org/prop/direct/P856> <https://www.miu.edu.my> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P571> "1996-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P856> <https://www.southern.edu.my/> .
+<https://example.org/resource/Royal_College_of_Surgeons_in_Ireland_and_University_College_Dublin_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P856> <https://www.rcsiucd.edu.my/> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q79848> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q115682002> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/Limkokwing%20Large%20Banner%20Logo.jpg> .
+<https://example.org/resource/MAHSA_University> <http://www.w3.org/2000/01/rdf-schema#label> "Mahsa University"@en .
+<https://example.org/resource/Monash_University_Malaysia> <http://www.w3.org/2000/01/rdf-schema#label> "Monash University Malaysia"@en .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P3876> <http://www.wikidata.org/entity/Q49796985> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q21540699> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P1416> <http://www.wikidata.org/entity/Q104398481> .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.wikidata.org/prop/direct/P571> "1997-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q60810246> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q868940> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P571> "1991-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Management_&_Science_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Open_University_Malaysia> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q19861084> .
+<https://example.org/resource/Infrastructure_University_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Infrastructure%20University%20Kuala%20Lumpur.JPG> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.wikidata.org/prop/direct/P856> <http://www.iuctt.edu.my/> .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.w3.org/2000/01/rdf-schema#label> "UOW Malaysia KDU"@en .
+<https://example.org/resource/Monash_University_Malaysia> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q37033> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q61092> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q141212> .
+<https://example.org/resource/Curtin_University,_Malaysia> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q986803> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q383092> .
+<https://example.org/resource/Monash_University_Malaysia> <http://www.wikidata.org/prop/direct/P8687> "4123"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_of_Selangor> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q500033> .
+<https://example.org/resource/GlobalNxt_University> <http://www.w3.org/2000/01/rdf-schema#label> "Universitas 21 Global"@en .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P2936> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1143635> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.w3.org/2000/01/rdf-schema#label> "Universiti Tunku Abdul Rahman"@en .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15407956> .
+<https://example.org/resource/University_College_TATI> <http://www.wikidata.org/prop/direct/P571> "1993-06-11T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/International_Medical_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P1416> <http://www.wikidata.org/entity/Q590631> .
+<https://example.org/resource/Management_&_Science_University> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/938%20380%20MSU.jpg> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15936437> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P3876> <http://www.wikidata.org/entity/Q31076671> .
+<https://example.org/resource/GlobalNxt_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4671277> .
+<https://example.org/resource/Sultan_Abdul_Halim_Mu'adzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P571> "1995-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P2196> "5000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P5775> <http://commons.wikimedia.org/wiki/Special:FilePath/Cosart%202017.jpg> .
+<https://example.org/resource/Sultan_Abdul_Halim_Mu'adzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Curtin_University,_Malaysia> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q986803> .
+<https://example.org/resource/Asia_Pacific_University_of_Technology_&_Innovation> <http://www.wikidata.org/prop/direct/P571> "1993-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P8687> "12533"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q118398> .
+<https://example.org/resource/University_of_Selangor> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/Universiti%20Selangor.svg> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q38723> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P571> "1862-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Universiti%20Teknologi%20Petronas.jpg> .
+<https://example.org/resource/INTI_International_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q33450412> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1143635> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q897403> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P2936> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Sultan_Azlan_Shah_University> <http://www.w3.org/2000/01/rdf-schema#label> "Universiti Sultan Azlan Shah"@en .
+<https://example.org/resource/Monash_University_Malaysia> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3267302> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P856> <https://www.limkokwing.net> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q19861084> .
+<https://example.org/resource/First_City_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4671277> .
+<https://example.org/resource/International_Islamic_University_College_Selangor> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q141212> .
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Infrastructure_University_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P571> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q2860136> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q38723> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/HanChiangLogo-02-01.svg> .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/UCSI%20University%20logo.png> .
+<https://example.org/resource/University_of_Cyberjaya> <http://www.wikidata.org/prop/direct/P856> <http://cybermed.edu.my/> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15407956> .
+<https://example.org/resource/Perdana_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q2385804> .
+<https://example.org/resource/Curtin_University,_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q209465> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Limkokwing%202115370038%2004337c1d65.jpg> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P856> <https://www.utar.edu.my/> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P856> <http://www.utp.edu.my/> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1143635> .
+<https://example.org/resource/International_Medical_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P749> <http://www.wikidata.org/entity/Q1584297> .
+<https://example.org/resource/International_Medical_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/New%20Era%20University%20College%20%28220709%29%2001.jpg> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q352102> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P856> <https://www.southampton.ac.uk/> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20University%20of%20Reading.jpg> .
+<https://example.org/resource/International_Medical_University> <http://www.wikidata.org/prop/direct/P6269> <https://idp.imu.edu.my/idp/shibboleth> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q141212> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q6325898> .
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> <http://www.wikidata.org/prop/direct/P856> <http://www.klmu.edu.my> .
+<https://example.org/resource/International_Islamic_University_College_Selangor> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15407956> .
+<https://example.org/resource/Management_&_Science_University> <http://www.w3.org/2000/01/rdf-schema#label> "Management and Science University"@en .
+<https://example.org/resource/Curtin_University,_Malaysia> <http://www.wikidata.org/prop/direct/P1448> "Curtin University, Malaysia"@en .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P856> <http://www.hcu.edu.my/> .
+<https://example.org/resource/Xiamen_University_Malaysia> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/XMUM%20entrance%20%28211127%29.jpg> .
+<https://example.org/resource/Sultan_Azlan_Shah_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Manipal_International_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4671277> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q161491> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q3267302> .
+<https://example.org/resource/Open_University_Malaysia> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Open%20University%20Malaysia%20%28Melaka%29.jpg> .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.wikidata.org/prop/direct/P856> <http://www.unirazak.edu.my> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q383092> .
+<https://example.org/resource/Nilai_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q33450412> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P355> <http://www.wikidata.org/entity/Q111444394> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P856> <http://www.rdg.ac.uk/> .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P8687> "3975"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q6269240> .
+<https://example.org/resource/Asia_e_University> <http://www.wikidata.org/prop/direct/P856> <https://aeu.edu.my> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/UNITAR_International_University> <http://www.wikidata.org/prop/direct/P571> "1997-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P355> <http://www.wikidata.org/entity/Q83371852> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P2196> "21335"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q494230> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P856> <http://www.southern.edu.my/sra/> .
+<https://example.org/resource/Sultan_Azlan_Shah_University> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q561319> .
+<https://example.org/resource/International_Islamic_University_College_Selangor> <http://www.wikidata.org/prop/direct/P856> <http://www.kuis.edu.my> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q11573537> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15407956> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q875538> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P856> <https://university.sunway.edu.my/> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Nottinghamunimalaysia.JPG> .
+<https://example.org/resource/City_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P8687> "2246"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Lincoln_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q2860136> .
+<https://example.org/resource/Lincoln_University_College> <http://www.wikidata.org/prop/direct/P571> "2002-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q31099077> .
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "Malaysia University of Science & Technology"@en .
+<https://example.org/resource/Management_&_Science_University> <http://www.wikidata.org/prop/direct/P8687> "19300"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/MAHSA_University> <http://www.wikidata.org/prop/direct/P856> <https://mahsa.edu.my/> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Southern%20University%20College.JPG> .
+<https://example.org/resource/Berjaya_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1143635> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P749> <http://www.wikidata.org/entity/Q472316> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q6359147> .
+<https://example.org/resource/Infrastructure_University_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P856> <http://58.26.33.170/kliuc/> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P571> "1969-02-24T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P8687> "2326"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Lincoln_University_College> <http://www.w3.org/2000/01/rdf-schema#label> "Lincoln University College, Malaysia"@en .
+<https://example.org/resource/City_University> <http://www.w3.org/2000/01/rdf-schema#label> "City University, Malaysia"@en .
+<https://example.org/resource/Sultan_Abdul_Halim_Mu'adzam_Shah_International_Islamic_University> <http://www.w3.org/2000/01/rdf-schema#label> "Kolej Universiti Insaniah"@en .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.w3.org/2000/01/rdf-schema#label> "University of Southampton"@en .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q117222928> .
+<https://example.org/resource/Monash_University_Malaysia> <http://www.wikidata.org/prop/direct/P856> <https://www.monash.edu.my/> .
+<https://example.org/resource/University_College_TATI> <http://www.wikidata.org/prop/direct/P856> <http://www.tatiuc.edu.my/> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q897403> .
+<https://example.org/resource/Islamic_University_of_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4671277> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1663017> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q81165014> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.w3.org/2000/01/rdf-schema#label> "University of Reading"@en .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P488> <http://www.wikidata.org/entity/Q86534451> .
+<https://example.org/resource/Monash_University_Malaysia> <http://www.wikidata.org/prop/direct/P571> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q352102> .
+<https://example.org/resource/Curtin_University,_Malaysia> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Widad_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4671277> .
+<https://example.org/resource/Sultan_Azlan_Shah_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4671277> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q864965> .
+<https://example.org/resource/Wawasan_Open_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1143635> .
+<https://example.org/resource/Management_&_Science_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q21540699> .
+<https://example.org/resource/Asia_Pacific_University_of_Technology_&_Innovation> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Lincoln_University_College> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q743769> .
+<https://example.org/resource/Sultan_Azlan_Shah_University> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q117222928> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Sunway%20University%20%28New%20Building%29%20-%202015.jpg> .
+<https://example.org/resource/UNITAR_International_University> <http://www.wikidata.org/prop/direct/P856> <http://www.unirazak.edu.my> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q322563> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P3876> <http://www.wikidata.org/entity/Q31076672> .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q45400320> .
+<https://example.org/resource/Monash_University_Malaysia> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q4810071> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Tunku%20Abdul%20Rahman%20University.JPG> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P8687> "2119"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P8687> "60226"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q61089> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q21540699> .
+<https://example.org/resource/Infrastructure_University_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3267302> .
+<https://example.org/resource/International_Medical_University> <http://www.wikidata.org/prop/direct/P8687> "1061"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.w3.org/2000/01/rdf-schema#label> "Universiti Teknologi Petronas"@en .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q141212> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q10273077> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q65085275> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q383092> .
+<https://example.org/resource/International_Medical_University> <http://www.wikidata.org/prop/direct/P571> "1992-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Monash_University_Malaysia> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Bandar%20Sunway%20aerial.jpg> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q21540699> .
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q38723> .
+<https://example.org/resource/Sultan_Abdul_Halim_Mu'adzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q474868> .
+<https://example.org/resource/Sultan_Azlan_Shah_University> <http://www.wikidata.org/prop/direct/P571> "1999-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3267302> .
+<https://example.org/resource/Open_University_Malaysia> <http://www.wikidata.org/prop/direct/P856> <https://www.oum.edu.my> .
+<https://example.org/resource/University_Technology_of_Sarawak> <http://www.wikidata.org/prop/direct/P856> <http://www.ucts.edu.my> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q352102> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P355> <http://www.wikidata.org/entity/Q125328> .
+<https://example.org/resource/GlobalNxt_University> <http://www.wikidata.org/prop/direct/P571> "2001-06-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/City_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q4671277> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P1416> <http://www.wikidata.org/entity/Q593768> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P166> <http://www.wikidata.org/entity/Q1422253> .
+<https://example.org/resource/International_Medical_University> <http://www.w3.org/2000/01/rdf-schema#label> "International Medical University"@en .
+<https://example.org/resource/Sultan_Abdul_Halim_Mu'adzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Wawasan_Open_University> <http://www.wikidata.org/prop/direct/P856> <https://www.wou.edu.my> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q352102> .
+<https://example.org/resource/International_Medical_University> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q24917995> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P4195> <http://www.wikidata.org/entity/Q8219130> .
+<https://example.org/resource/GlobalNxt_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Asia_e_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q494230> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P1830> <http://www.wikidata.org/entity/Q7568553> .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.wikidata.org/prop/direct/P856> <https://www.uowmkdu.edu.my/> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "International University College Of Technology Twintech"@en .
+<https://example.org/resource/Nilai_University> <http://www.w3.org/2000/01/rdf-schema#label> "Nilai University College"@en .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P2652> <http://www.wikidata.org/entity/Q1032719> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Southampton%20Logo.svg> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P8687> "859765"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Asia_Pacific_University_of_Technology_&_Innovation> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/International_Islamic_University_College_Selangor> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q189710> .
+<https://example.org/resource/Curtin_University,_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P463> <http://www.wikidata.org/entity/Q590631> .
+<https://example.org/resource/GlobalNxt_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q7853255> .
+<https://example.org/resource/Curtin_University,_Malaysia> <http://www.w3.org/2000/01/rdf-schema#label> "Curtin University, Malaysia"@en .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P3876> <http://www.wikidata.org/entity/Q31072865> .
+<https://example.org/resource/City_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q189710> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q1472221> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q10273077> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q383092> .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Universiti%20kuala%20lumpur%20city%20campus%20front.JPG> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q1143635> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P94> <http://commons.wikimedia.org/wiki/Special:FilePath/Shield%20of%20the%20University%20of%20Southampton.svg> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q1663017> .
+<https://example.org/resource/INTI_International_University> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/INTI%20Nilai%20Student%20Centre.png> .
+<https://example.org/resource/Perdana_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q137271> .
+<https://example.org/resource/Curtin_University,_Malaysia> <http://www.wikidata.org/prop/direct/P856> <https://www.curtin.edu.my/> .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P355> <http://www.wikidata.org/entity/Q45133564> .
+<https://example.org/resource/University_College_TATI> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Management_&_Science_University> <http://www.wikidata.org/prop/direct/P856> <http://www.msu.edu.my/> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P112> <http://www.wikidata.org/entity/Q12695973> .
+<https://example.org/resource/Asia_Pacific_University_of_Technology_&_Innovation> <http://www.w3.org/2000/01/rdf-schema#label> "Asia Pacific University College of Technology & Innovation"@en .
+<https://example.org/resource/Berjaya_University_College> <http://www.w3.org/2000/01/rdf-schema#label> "Berjaya University College of Hospitality"@en .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P488> <http://www.wikidata.org/entity/Q2977854> .
+<https://example.org/resource/Management_&_Science_University> <http://www.wikidata.org/prop/direct/P571> "2008-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Asia_e_University> <http://www.w3.org/2000/01/rdf-schema#label> "Asia e University"@en .
+<https://example.org/resource/Royal_College_of_Surgeons_in_Ireland_and_University_College_Dublin_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q494230> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P1830> <http://www.wikidata.org/entity/Q111444394> .
+<https://example.org/resource/Asia_Pacific_University_of_Technology_&_Innovation> <http://www.wikidata.org/prop/direct/P856> <http://www.ucti.edu.my/> .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.w3.org/2000/01/rdf-schema#label> "Universiti Tun Abdul Razak"@en .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5341295> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P6269> <https://idp.nottingham.edu.my/idp/shibboleth> .
+<https://example.org/resource/Sultan_Abdul_Halim_Mu'adzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P856> <http://www.kuin.edu.my/> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P1416> <http://www.wikidata.org/entity/Q593768> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1143635> .
+<https://example.org/resource/University_of_Cyberjaya> <http://www.wikidata.org/prop/direct/P571> "2005-10-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P856> <https://www.reading.ac.uk/> .
+<https://example.org/resource/University_Technology_of_Sarawak> <http://www.wikidata.org/prop/direct/P571> "1991-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/GlobalNxt_University> <http://www.wikidata.org/prop/direct/P856> <http://www.globalnxt.edu.my/> .
+<https://example.org/resource/Infrastructure_University_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P7959> <http://www.wikidata.org/entity/Q67531563> .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/Uni10.jpg> .
+<https://example.org/resource/International_Medical_University> <http://www.wikidata.org/prop/direct/P749> <http://www.wikidata.org/entity/Q18342621> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1758432> .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q864965> .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P571> "1999-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P2888> <https://findthatcharity.uk/orgid/XI-ROR-05v62cm79> .
+<https://example.org/resource/Asia_Pacific_University_of_Technology_&_Innovation> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/UCTI%20Interior.jpg> .
+<https://example.org/resource/University_College_TATI> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/SEGi_University> <http://www.wikidata.org/prop/direct/P1416> <http://www.wikidata.org/entity/Q1506755> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P355> <http://www.wikidata.org/entity/Q61897123> .
+<https://example.org/resource/Infrastructure_University_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/City_University> <http://www.wikidata.org/prop/direct/P571> "1984-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> <http://www.wikidata.org/prop/direct/P856> <https://www.swinburne.edu.my/> .
+<https://example.org/resource/SEGi_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q864965> .
+<https://example.org/resource/University_College_TATI> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2546441> .
+<https://example.org/resource/Asia_e_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P1416> <http://www.wikidata.org/entity/Q23023626> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P485> <http://www.wikidata.org/entity/Q81165364> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P856> <http://www.reading.ac.uk/> .
+<https://example.org/resource/MAHSA_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q2385804> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P1830> <http://www.wikidata.org/entity/Q28447499> .
+<https://example.org/resource/International_Islamic_University_College_Selangor> <http://www.w3.org/2000/01/rdf-schema#label> "Kolej Universiti Islam Antarabangsa Selangor"@en .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P749> <http://www.wikidata.org/entity/Q4263028> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q33652710> .
+<https://example.org/resource/Asia_e_University> <http://www.wikidata.org/prop/direct/P571> "2002-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5341295> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P856> <http://www.mmu.edu.my/> .
+<https://example.org/resource/SEGi_University> <http://www.w3.org/2000/01/rdf-schema#label> "SEGi University and Colleges"@en .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P3876> <http://www.wikidata.org/entity/Q8883483> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15407956> .
+In predicted only
+<https://example.org/resource/TATI_University_College> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P8687> "1999"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/UNITAR_International_University> <http://www.w3.org/2000/01/rdf-schema#label> "UNITAR International University"@en .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.w3.org/2000/01/rdf-schema#label> "University of Reading Malaysia Campus"@en .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/MAHSA_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Universiti_Sultan_Azlan_Shah> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24841029> .
+<https://example.org/resource/Perdana_University> <http://www.wikidata.org/prop/direct/P856> <http://perdanauniversity.edu.my/> .
+<https://example.org/resource/University_of_Selangor> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/MAHSA_University> <http://www.w3.org/2000/01/rdf-schema#label> "MAHSA University"@en .
+<https://example.org/resource/TATI_University_College> <http://www.wikidata.org/prop/direct/P8687> "1993"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/Swinburne_University.jpg> .
+<https://example.org/resource/University_of_Cyberjaya> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1147163> .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/UNITAR_International_University> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_University_of_Malaysia> <http://www.wikidata.org/prop/direct/P856> <http://www.uim.edu.my/> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Perdana_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Universiti_Sultan_Azlan_Shah> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/University_Technology_of_Sarawak> <http://www.wikidata.org/prop/direct/P856> <http://www.uts.edu.my/> .
+<https://example.org/resource/Sultan_Abdul_Halim_Muadzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P856> <http://unishams.edu.my/portal/> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.wikidata.org/prop/direct/P856> <http://iuctt.edu.my/> .
+<https://example.org/resource/SEGi_University> <http://www.wikidata.org/prop/direct/P856> <https://www.segi.edu.my/> .
+<https://example.org/resource/Sultan_Abdul_Halim_Muadzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q6440978> .
+<https://example.org/resource/Open_University_Malaysia> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_University_of_Malaysia> <http://www.wikidata.org/prop/direct/P571> "2014-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Management_and_Science_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q500033> .
+<https://example.org/resource/University_of_Cyberjaya> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/Lincoln_University_College_Malaysia> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q864965> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P856> <http://www.southampton.ac.uk/my> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q651131> .
+<https://example.org/resource/Lincoln_University_College_Malaysia> <http://www.w3.org/2000/01/rdf-schema#label> "Lincoln University College"@en .
+<https://example.org/resource/Kolej_Universiti_Islam_Antarabangsa_Selangor> <http://www.wikidata.org/prop/direct/P856> <http://www.kuis.edu.my/> .
+<https://example.org/resource/University_of_Cyberjaya> <http://www.wikidata.org/prop/direct/P571> "2005-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/UNIRAZAK_University.jpg> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.w3.org/2000/01/rdf-schema#label> "Universiti Teknologi PETRONAS"@en .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Sultan_Abdul_Halim_Muadzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_Technology_of_Sarawak> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1087831> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Nilai_University> <http://www.w3.org/2000/01/rdf-schema#label> "Nilai University"@en .
+<https://example.org/resource/Kolej_Universiti_Islam_Antarabangsa_Selangor> <http://www.wikidata.org/prop/direct/P8687> "1995"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/SEGi_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Sultan_Abdul_Halim_Muadzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/INTI_International_University> <http://www.wikidata.org/prop/direct/P856> <http://newinti.edu.my/> .
+<https://example.org/resource/University_of_Cyberjaya> <http://www.wikidata.org/prop/direct/P856> <https://cyberjaya.edu.my/> .
+<https://example.org/resource/Xiamen_University_Malaysia> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/First_City_University_College> <http://www.wikidata.org/prop/direct/P856> <https://firstcity.edu.my/en/> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1147163> .
+<https://example.org/resource/Berjaya_University_College> <http://www.wikidata.org/prop/direct/P8687> "2009"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P856> <https://www.limkokwing.net/> .
+<https://example.org/resource/Widad_University_College> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Sultan_Abdul_Halim_Muadzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Han_Chiang_University_College_of_Communication> <http://www.wikidata.org/prop/direct/P856> <http://www.hcu.edu.my> .
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P856> <http://www.ucsi.edu.my/> .
+<https://example.org/resource/First_City_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/Wawasan_Open_University> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/SEGi_University> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/SEGi_University.jpg> .
+<https://example.org/resource/Universiti_Sultan_Azlan_Shah> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q876876> .
+<https://example.org/resource/Sultan_Abdul_Halim_Muadzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P571> "1995-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/INTI_International_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2701093> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P571> "1994-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/SEGi_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q6433791> .
+<https://example.org/resource/Manipal_International_University> <http://www.wikidata.org/prop/direct/P856> <https://www.miu.edu.my/> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "Twintech International University College of Technology"@en .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Perdana_University> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Wawasan_Open_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Monash_University_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q876876> .
+<https://example.org/resource/Berjaya_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/MAHSA_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P856> <https://www.utp.edu.my/> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P571> "1992-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Widad_University_College> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P856> <http://www.southern.edu.my/> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P856> <http://www.reading.edu.my> .
+<https://example.org/resource/Nilai_University> <http://www.wikidata.org/prop/direct/P856> <http://www.nilai.edu.my/> .
+<https://example.org/resource/Management_and_Science_University> <http://www.wikidata.org/prop/direct/P571> "2001-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Kolej_Universiti_Islam_Antarabangsa_Selangor> <http://www.wikidata.org/prop/direct/P571> "1995-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> <http://www.wikidata.org/prop/direct/P8687> "1991"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Widad_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_of_Cyberjaya> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_University_of_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Manipal_International_University> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/UNITAR_International_University> <http://www.wikidata.org/prop/direct/P856> <http://www.unitar.my/> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Universiti_Sultan_Azlan_Shah> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/MAHSA_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q864965> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Manipal_International_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P856> <https://www.mmu.edu.my/> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/Sunway_University.jpg> .
+<https://example.org/resource/Lincoln_University_College_Malaysia> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Management_and_Science_University> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_Technology_of_Sarawak> <http://www.wikidata.org/prop/direct/P571> "2013-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q7454630> .
+<https://example.org/resource/Management_and_Science_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Universiti_Sultan_Azlan_Shah> <http://www.wikidata.org/prop/direct/P856> <http://www.usas.edu.my/> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/TARUMT_University.jpg> .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.wikidata.org/prop/direct/P856> <http://www.kdu.edu.my/> .
+<https://example.org/resource/Widad_University_College> <http://www.wikidata.org/prop/direct/P856> <http://www.widad.edu.my/> .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/UNITAR_International_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Islamic_University_of_Malaysia> <http://www.w3.org/2000/01/rdf-schema#label> "Islamic University of Malaysia"@en .
+<https://example.org/resource/National_Energy_University> <http://www.w3.org/2000/01/rdf-schema#label> "National Energy University"@en .
+<https://example.org/resource/Sultan_Abdul_Halim_Muadzam_Shah_International_Islamic_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Widad_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.wikidata.org/prop/direct/P571> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Kolej_Universiti_Islam_Antarabangsa_Selangor> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Universiti_Sultan_Azlan_Shah> <http://www.w3.org/2000/01/rdf-schema#label> "Sultan Azlan Shah University"@en .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q4650216> .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.w3.org/2000/01/rdf-schema#label> "University of Wollongong Malaysia"@en .
+<https://example.org/resource/Xiamen_University_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/INTI_International_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Lincoln_University_College_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/TATI_University_College> <http://www.wikidata.org/prop/direct/P856> <https://www.tatiuc.edu.my/> .
+<https://example.org/resource/Islamic_University_of_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/University_Technology_of_Sarawak> <http://www.w3.org/2000/01/rdf-schema#label> "University Technology of Sarawak"@en .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q22694790> .
+<https://example.org/resource/Lincoln_University_College_Malaysia> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_of_Nottingham_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/TATI_University_College> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q189701> .
+<https://example.org/resource/Taylor's_University> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/Taylor's_University.jpg> .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q182378> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P571> "2012-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Nilai_University> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Perdana_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q4986889> .
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q6126444> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1147163> .
+<https://example.org/resource/UCSI_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/University_Technology_of_Sarawak> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1048700> .
+<https://example.org/resource/Manipal_International_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2701093> .
+<https://example.org/resource/Kolej_Universiti_Islam_Antarabangsa_Selangor> <http://www.w3.org/2000/01/rdf-schema#label> "International Islamic University College Selangor"@en .
+<https://example.org/resource/Monash_University_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P571> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/SEGi_University> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P571> "2013-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/INTI_International_University> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/University_of_Selangor> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Xiamen_University_Malaysia> <http://www.wikidata.org/prop/direct/P571> "2015-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/TATI_University_College> <http://www.w3.org/2000/01/rdf-schema#label> "University College TATI"@en .
+<https://example.org/resource/First_City_University_College> <http://www.wikidata.org/prop/direct/P8687> "1990"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Royal_College_of_Surgeons_in_Ireland_and_University_College_Dublin_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/University_of_Wollongong_Malaysia> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q500033> .
+<https://example.org/resource/Perdana_University> <http://www.wikidata.org/prop/direct/P571> "2011-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Management_and_Science_University> <http://www.wikidata.org/prop/direct/P856> <http://www.msu.edu.my/> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/Monash_University_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P856> <http://www.monash.edu.my/> .
+<https://example.org/resource/Islamic_University_of_Malaysia> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q7456354> .
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "Malaysia University of Science and Technology"@en .
+<https://example.org/resource/TATI_University_College> <http://www.wikidata.org/prop/direct/P571> "1993-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Nilai_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2701093> .
+<https://example.org/resource/Islamic_University_of_Malaysia> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1147163> .
+<https://example.org/resource/Royal_College_of_Surgeons_in_Ireland_and_University_College_Dublin_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P856> <http://www.pmc.edu.my> .
+<https://example.org/resource/Lincoln_University_College_Malaysia> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> <http://www.wikidata.org/prop/direct/P856> <http://klmuc.edu.my/> .
+<https://example.org/resource/Royal_College_of_Surgeons_in_Ireland_and_University_College_Dublin_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Twintech_International_University_College_of_Technology> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q4854422> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.wikidata.org/prop/direct/P856> <http://www.utar.edu.my/> .
+<https://example.org/resource/Management_and_Science_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Multimedia_University> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/MAHSA_University> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Southern_University_College> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Open_University_Malaysia> <http://www.wikidata.org/prop/direct/P856> <http://www.oum.edu.my/> .
+<https://example.org/resource/Wawasan_Open_University> <http://www.wikidata.org/prop/direct/P856> <http://www.wou.edu.my/> .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.w3.org/2000/01/rdf-schema#label> "Tun Abdul Razak University"@en .
+<https://example.org/resource/University_of_Selangor> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2998743> .
+<https://example.org/resource/Berjaya_University_College> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q3524186> .
+<https://example.org/resource/University_of_Kuala_Lumpur> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Tun_Abdul_Razak_University> <http://www.wikidata.org/prop/direct/P856> <http://www.unirazak.edu.my/> .
+<https://example.org/resource/Lincoln_University_College_Malaysia> <http://www.wikidata.org/prop/direct/P571> "2002-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Monash_University_Malaysia_Campus> <http://www.w3.org/2000/01/rdf-schema#label> "Monash University Malaysia Campus"@en .
+<https://example.org/resource/Berjaya_University_College> <http://www.w3.org/2000/01/rdf-schema#label> "Berjaya University College"@en .
+<https://example.org/resource/Tunku_Abdul_Rahman_University_of_Management_and_Technology> <http://www.wikidata.org/prop/direct/P856> <http://www.tarc.edu.my/> .
+<https://example.org/resource/Malaysia_University_of_Science_and_Technology> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Kuala_Lumpur_Metropolitan_University_College> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q7456354> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P8687> "3225"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/First_City_University_College> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q4854438> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Sunway_University> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q876876> .
+<https://example.org/resource/Monash_University_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/TATI_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/Universiti_Sultan_Azlan_Shah> <http://www.wikidata.org/prop/direct/P571> "1999-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/University_Tunku_Abdul_Rahman> <http://www.w3.org/2000/01/rdf-schema#label> "University Tunku Abdul Rahman"@en .
+<https://example.org/resource/Swinburne_University_of_Technology_Sarawak_Campus> <http://www.wikidata.org/prop/direct/P856> <http://www.swinburne.edu.my/> .
+<https://example.org/resource/Limkokwing_University_of_Creative_Technology> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Xiamen_University_Malaysia> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1853191> .
+<https://example.org/resource/SEGi_University> <http://www.w3.org/2000/01/rdf-schema#label> "SEGi University"@en .
+<https://example.org/resource/Universiti_Sultan_Azlan_Shah> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Management_and_Science_University> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Sultan_Abdul_Halim_Muadzam_Shah_International_Islamic_University> <http://www.w3.org/2000/01/rdf-schema#label> "Sultan Abdul Halim Mu'adzam Shah International Islamic University"@en .
+<https://example.org/resource/University_Technology_of_Sarawak> <http://www.wikidata.org/prop/direct/P8687> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Universiti_Teknologi_PETRONAS> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Manipal_International_University> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q233324> .
+<https://example.org/resource/Monash_University_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q3918> .
+<https://example.org/resource/Lincoln_University_College_Malaysia> <http://www.wikidata.org/prop/direct/P856> <http://www.lincoln.edu.my/> .
+<https://example.org/resource/Management_and_Science_University> <http://www.w3.org/2000/01/rdf-schema#label> "Management and Science University"@en .
+<https://example.org/resource/University_of_Reading_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q4650216> .
+<https://example.org/resource/UNITAR_International_University> <http://www.wikidata.org/prop/direct/P571> "2011-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/National_Energy_University> <http://www.wikidata.org/prop/direct/P571> "1976-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Kolej_Universiti_Islam_Antarabangsa_Selangor> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/Monash_University_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/New_Era_University_College> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q189004> .
+<https://example.org/resource/University_of_Southampton_Malaysia_Campus> <http://www.w3.org/2000/01/rdf-schema#label> "University of Southampton Malaysia Campus"@en .

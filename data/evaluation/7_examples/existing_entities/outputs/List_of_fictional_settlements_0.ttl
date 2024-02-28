@@ -1,0 +1,35 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Fawcett_City> rdfs:label "Justice League Watchtower"@en ;
+    wdt:P1080 wd:Q1152150 ;
+    wdt:P1441 wd:Q10318224,
+        wd:Q2924461,
+        wd:Q933317 ;
+    wdt:P31 wd:Q13406463,
+        wd:Q18572946 ;
+    wdt:P360 wd:Q3895768 ;
+    wdt:P466 wd:Q933317 .
+
+<https://example.org/resource/Kamar-Taj> rdfs:label "Justice League Watchtower"@en ;
+    wdt:P1080 wd:Q931597 ;
+    wdt:P1441 wd:Q10318224,
+        wd:Q2365240,
+        wd:Q907767 ;
+    wdt:P31 wd:Q13406463,
+        wd:Q18572946 ;
+    wdt:P360 wd:Q3895768 ;
+    wdt:P466 wd:Q907767 .
+
+<https://example.org/resource/Star_City> rdfs:label "Justice League Watchtower"@en ;
+    wdt:P1080 wd:Q1152150 ;
+    wdt:P1441 wd:Q10318224,
+        wd:Q3492738,
+        wd:Q599124,
+        wd:Q611993 ;
+    wdt:P31 wd:Q13406463,
+        wd:Q18572946 ;
+    wdt:P360 wd:Q3895768 ;
+    wdt:P466 wd:Q611993 .
+

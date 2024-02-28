@@ -1,0 +1,70 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of clock towers in India" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+!Name
+!City/Town
+!State/Province
+!Built
+!Image
+!Notes
+|-
+|[[Aligarh Clock Tower]]
+|[[Aligarh]]
+|[[Uttar Pradesh]]
+|
+|[[File:Aligarh clock house.jpg|100px]]
+|<ref name=Singh2021.1>{{cite book |last1=Singh |first1=Dr Yatindra Pal |title=Clock towers of India |date=2021 |publisher=Blue Rose Publishers |isbn=978-9-35427-256-1 |pages=6–7 |chapter-url=https://books.google.com/books?id=MI0TEAAAQBAJ&pg=PA6 |language=en |chapter=1. Aligarh }}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Aligarh_Clock_Tower> wdt:P17 <https://en.wikipedia.org/wiki/India> ;
+ rdfs:label "Aligarh Clock Tower"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Clock_tower> .
+---
+These are the labels of the properties:
+
+wdt:P17 -> country
+wdt:P31 -> instance of.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+!Name
+!City/Town
+!State/Province
+!Built
+!Image
+!Notes
+|-
+|[[King George Hospital, Visakhapatnam|King George Hospital]] Clock Tower
+|[[Visakhapatnam]]
+|[[Andhra Pradesh]]
+|1923
+|[[File:King_george_hospital.jpg|120x120px]]
+|
+|-
+|[[Mohamedally Tower]]
+|[[Siddhpur]]
+|[[Gujarat]]
+|4 April 1915
+|[[File:Clock Tower Siddhpur 06.jpg|120x120px]]
+|
+|-
+| [[Chimnabai Clock Tower]]
+| [[Vadodara]]
+| [[Gujarat]]
+| 1896
+| [[File:Raopura Tower Vadodara.jpg|120x120px]]
+| It was constructed from the funds raised by the citizens of Baroda State and named after [[Chimnabai I]] (1864–1885), a queen and the first wife of [[Sayajirao Gaekwad III]] of [[Baroda State]].<ref name="Gazetteer Volume II">{{cite book |title=Gazetteer of the Baroda State: Volume II,Administration |date=1923 |publisher=G. H. Desai |location=Baroda |page= 465 |url=https://archive.org/details/in.ernet.dli.2015.94278/page/n481/mode/1up?view=theater |access-date=22 June 2023}}</ref><ref name="Gujarat Tourism">{{cite web |title=Raopura Tower |url=https://www.gujarattourism.com/central-zone/vadodara/raopura-tower.html |website=gujarattourism.com |publisher=Gujarat Tourism |access-date=21 June 2023}}</ref> |}
+---

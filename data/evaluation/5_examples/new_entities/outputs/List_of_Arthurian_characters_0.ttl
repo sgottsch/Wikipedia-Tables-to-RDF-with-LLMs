@@ -1,0 +1,54 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/(Lady)_Ragnell> rdfs:label "(Lady) Ragnell"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q4271324 .
+
+<https://example.org/resource/(Queen)_Iseult> rdfs:label "(Queen) Iseult"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q335367 ;
+    wdt:P31 wd:Q4271324 .
+
+<https://example.org/resource/Andred> rdfs:label "Andred"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1136104 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Bruin> rdfs:label "Bruin"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q42962623 .
+
+<https://example.org/resource/Durnure> rdfs:label "Durnure"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q42962623 .
+
+<https://example.org/resource/Epinogres> rdfs:label "Epinogres"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q42962623 .
+
+<https://example.org/resource/Escanor_the_Handsome> rdfs:label "Escanor the Handsome"@en .
+
+<https://example.org/resource/Escanor_the_Large> rdfs:label "Escanor the Large"@en .
+
+<https://example.org/resource/Geneir_Gwystyl> rdfs:label "Geneir Gwystyl"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q1486590,
+        wd:Q3204104 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q4271324 .
+
+<https://example.org/resource/Parcenet> rdfs:label "Parcenet"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P1441 wd:Q18643772 ;
+    wdt:P31 wd:Q15632617 .
+
+<https://example.org/resource/Penpingion> rdfs:label "Penpingion"@en ;
+    wdt:P1080 wd:Q18176971 ;
+    wdt:P31 wd:Q15632617,
+        wd:Q4271324 .
+

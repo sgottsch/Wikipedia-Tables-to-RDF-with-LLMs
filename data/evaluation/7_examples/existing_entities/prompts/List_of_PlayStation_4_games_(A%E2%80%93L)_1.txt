@@ -1,0 +1,496 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of PlayStation 4 games (A%E2%80%93L)" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="width:100%; font-size:86%;" id="softwarelist"
+|-
+! rowspan="2" style="width:31%;"|Title
+! rowspan="2" style="width:17%;"|Genre(s)
+! rowspan="2" style="width:15%;"|Developer(s)
+! rowspan="2" style="width:15%;"|Publisher(s)
+! colspan="3"|Release date
+! rowspan="2" style="width:4%;"|Addons
+! rowspan="2" class="unsortable"|{{abbr|Ref.|References}}
+|-
+| ''[[10 Second Ninja X]]''
+| [[Platform game|Platform]]
+| Four Circle Interactive
+| [[Curve Digital]]
+| {{Unreleased}}
+| {{dts|2016|Jul|19}}
+| {{dts|2016|Jul|19}}
+|
+|
+|-
+| ''[[100ft Robot Golf]]''
+| [[Sports game|Sports]]
+| No Goblin
+| No Goblin
+| {{Unreleased}}
+| {{dts|2016|Oct|10}}
+| {{dts|2016|Oct|10}}
+| align=center | <span style="background:#fff; font-size:10px; margin:1px; padding:2px; border:1px solid #aab;">&nbsp;VR&nbsp;</span>
+|
+|-
+| ''[[11-11: Memories Retold]]''
+| [[Adventure video game|Adventure]]
+| {{hlist|Aardman|[[DigixArt]]}}
+| [[Bandai Namco Entertainment]]
+| {{dts|2018|Nov|09}}
+| {{dts|2018|Nov|09}}
+| {{dts|2018|Nov|09}}
+|
+|
+|-
+| ''[[13 Sentinels: Aegis Rim]]''
+| {{hlist|Adventure|[[real-time strategy]]}}
+| [[Vanillaware]]
+| [[Atlus]]
+| {{dts|2019|Nov|28}}
+| {{dts|2020|Sep|22}}
+| {{dts|2020|Sep|22}}
+|
+|
+|-
+| ''[[140 (video game)|140]]''
+| Platform
+| [[Double Fine Productions]]
+| Abstraction Games
+| {{Unreleased}}
+| {{dts|2016|Sep|01}}
+| {{dts|2016|Sep|01}}
+|
+|
+|-
+| ''[[198X]]''
+| [[Arcade game|Arcade]]
+| Hi-Bit Studios
+| Reset Media
+| {{dts|2020|Dec|14}}
+| {{dts|2019|Jun|16}}
+| {{dts|2019|Jun|20}}
+|
+|
+|-
+| ''[[1001 Spikes]]''
+| Platform
+| 8bits Fanatics
+| [[Nicalis]]
+| {{dts|2015|Nov|27}}
+| {{dts|2014|Jun|03}}
+| {{dts|2015|Oct|07}}
+|
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/10_Second_Ninja_X> wdt:P400 <https://en.wikipedia.org/wiki/PlayStation_4> ;
+ wdt:P852 wd:Q14864330 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Action_game> ;
+ wdt:P577 "2016-07-19T00:00:00Z"^^xsd:dateTime ;
+ wdt:P400 <https://en.wikipedia.org/wiki/MacOS> ;
+ rdfs:label "10 Second Ninja X"@en ;
+ wdt:P856 <http://www.10second.ninja/> ;
+ wdt:P408 <https://en.wikipedia.org/wiki/GameMaker> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Xbox_One> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P404 <https://en.wikipedia.org/wiki/Single-player_video_game> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/French_language> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Platformer> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Spanish_language> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Nintendo_eShop> ;
+ wdt:P4151 wd:Q115198281 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Puzzle_video_game> ;
+ wdt:P750 wd:Q42328566 ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Nintendo_Switch> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Digital_distribution> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Russian_language> ;
+ wdt:P178 wd:Q100871863 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Video_game> ;
+ wdt:P437 wd:Q54820071 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Microsoft_Store> ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Curve_Games> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/PlayStation_Vita> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P179 wd:Q100871652 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/PlayStation_Store> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Microsoft_Windows> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/German_language> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Steam_(service)> .
+
+<https://example.org/resource/100ft_Robot_Golf> wdt:P123 wd:Q33438189 ;
+ wdt:P400 <https://en.wikipedia.org/wiki/PlayStation_4> ;
+ wdt:P852 wd:Q14864329 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P577 "2017-03-16T00:00:00Z"^^xsd:dateTime ;
+ wdt:P404 <https://en.wikipedia.org/wiki/Single-player_video_game> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Simplified_Chinese> ;
+ wdt:P5196 <https://en.wikipedia.org/wiki/PlayStation_VR> ;
+ wdt:P641 <https://en.wikipedia.org/wiki/Golf> ;
+ wdt:P136 wd:Q60256879 ;
+ wdt:P750 wd:Q42328566 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/PlayStation_Now> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Digital_distribution> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Video_game> ;
+ wdt:P404 <https://en.wikipedia.org/wiki/Multiplayer_video_game> ;
+ wdt:P178 wd:Q33438189 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Indie_game> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/PlayStation_Store> ;
+ rdfs:label "100ft Robot Golf"@en ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Microsoft_Windows> ;
+ wdt:P856 <http://100ftrobot.golf> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Steam_(service)> .
+
+<https://example.org/resource/11-11:_Memories_Retold> wdt:P86 <https://en.wikipedia.org/wiki/Olivier_Deriviere> ;
+ wdt:P287 wd:Q122206435 ;
+ wdt:P58 wd:Q62619406 ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Japanese_language> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/PlayStation_4> ;
+ wdt:P408 <https://en.wikipedia.org/wiki/Unity_(game_engine)> ;
+ wdt:P852 wd:Q14864330 ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Bandai_Namco_Entertainment> ;
+ wdt:P914 wd:Q14920392 ;
+ wdt:P178 <https://en.wikipedia.org/wiki/DigixArt> ;
+ wdt:P407 wd:Q56649449 ;
+ wdt:P57 wd:Q62619406 ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Xbox_One> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ rdfs:label "11-11 Memories Retold"@en ;
+ wdt:P943 wd:Q122206437 ;
+ wdt:P856 <https://www.bandainamcoent.com/games/11-11-memories-retold> ;
+ wdt:P404 <https://en.wikipedia.org/wiki/Single-player_video_game> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Italian_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/French_language> ;
+ wdt:P8687 "1523"^^xsd:decimal ;
+ wdt:P58 wd:Q51874739 ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Spanish_language> ;
+ wdt:P943 wd:Q122206438 ;
+ wdt:P943 wd:Q122206436 ;
+ wdt:P750 wd:Q42328566 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/PlayStation_Now> ;
+ wdt:P1411 wd:Q104117229 ;
+ wdt:P908 wd:Q14915515 ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Digital_distribution> ;
+ wdt:P8956 <https://en.wikipedia.org/wiki/Steam_Deck> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Russian_language> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Video_game> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Microsoft_Store> ;
+ wdt:P178 <https://en.wikipedia.org/wiki/Aardman_Animations> ;
+ wdt:P162 wd:Q62619567 ;
+ wdt:P577 "2018-11-08T00:00:00Z"^^xsd:dateTime ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P1476 "11-11 Memories Retold"@en ;
+ wdt:P750 <https://en.wikipedia.org/wiki/PlayStation_Store> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Brazilian_Portuguese> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Microsoft_Windows> ;
+ wdt:P2408 <https://en.wikipedia.org/wiki/World_War_I> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/German_language> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Steam_(service)> .
+
+<https://example.org/resource/13_Sentinels:_Aegis_Rim> wdt:P136 wd:Q107542272 ;
+ wdt:P577 "2019-11-28T00:00:00Z"^^xsd:dateTime ;
+ wdt:P577 "2020-03-19T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "13 Sentinels: Aegis Rim"@en ;
+ wdt:P400 <https://en.wikipedia.org/wiki/PlayStation_4> ;
+ wdt:P852 wd:Q14864330 ;
+ wdt:P856 <http://atlus-vanillaware.jp/13/> ;
+ wdt:P856 <https://atlus.com/13sentinels/> ;
+ wdt:P674 wd:Q119317544 ;
+ wdt:P674 wd:Q119123909 ;
+ wdt:P577 "2020-09-22T00:00:00Z"^^xsd:dateTime ;
+ wdt:P178 <https://en.wikipedia.org/wiki/Vanillaware> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Japan> ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Atlus> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Blu-ray> ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Hitoshi_Sakimoto> ;
+ wdt:P166 wd:Q106152664 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_video_game> ;
+ wdt:P404 <https://en.wikipedia.org/wiki/Single-player_video_game> ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Sega> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Nintendo_eShop> ;
+ wdt:P577 "2022-04-12T00:00:00Z"^^xsd:dateTime ;
+ wdt:P577 "2022-04-14T00:00:00Z"^^xsd:dateTime ;
+ wdt:P2664 "1000000"^^xsd:decimal ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Japan> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Nintendo_Switch> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Video_game> ;
+ wdt:P437 wd:Q54820071 ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Nintendo_Game_Card> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/PlayStation_Store> ;
+ wdt:P1411 wd:Q104117223 .
+
+<https://example.org/resource/140> wdt:P852 wd:Q14864328 ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Finnish_language> ;
+ wdt:P577 "2020-01-09T00:00:00Z"^^xsd:dateTime ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Japanese_language> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/PlayStation_4> ;
+ wdt:P408 <https://en.wikipedia.org/wiki/Unity_(game_engine)> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Turkish_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Danish_language> ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Double_Fine> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Polish_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Ukrainian_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Norwegian_language> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/MacOS> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Hungarian_language> ;
+ wdt:P577 "2016-08-30T00:00:00Z"^^xsd:dateTime ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Itch.io> ;
+ wdt:P577 "2016-09-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "140"@en ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Portuguese_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Bulgarian_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Dutch_language> ;
+ wdt:P404 <https://en.wikipedia.org/wiki/Single-player_video_game> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Czech_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Simplified_Chinese> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Italian_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Thai_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/French_language> ;
+ wdt:P856 <http://game140.com/> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Platformer> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Spanish_language> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Denmark> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Nintendo_eShop> ;
+ wdt:P4151 wd:Q115198281 ;
+ wdt:P577 "2013-10-16T00:00:00Z"^^xsd:dateTime ;
+ wdt:P750 wd:Q42328566 ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Nintendo_Switch> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Linux> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Digital_distribution> ;
+ wdt:P8956 <https://en.wikipedia.org/wiki/Steam_Deck> ;
+ wdt:P7294 <https://carlsenjeppe.itch.io/140> ;
+ wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/140%20%28video%20game%29%20Logo.svg> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Russian_language> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Video_game> ;
+ wdt:P437 wd:Q54820071 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Microsoft_Store> ;
+ wdt:P750 wd:Q59421242 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/GOG.com> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Romanian_language> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/PlayStation_Store> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Brazilian_Portuguese> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Microsoft_Windows> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Traditional_Chinese> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Greek_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Korean_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/German_language> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Arabic> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Swedish_language> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Steam_(service)> .
+
+<https://example.org/resource/198X> wdt:P577 "2020-01-23T00:00:00Z"^^xsd:dateTime ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Japanese_language> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/PlayStation_4> ;
+ wdt:P852 wd:Q14864330 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Action_game> ;
+ wdt:P123 wd:Q96177142 ;
+ wdt:P4151 wd:Q115207305 ;
+ wdt:P136 wd:Q15613992 ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P404 <https://en.wikipedia.org/wiki/Single-player_video_game> ;
+ rdfs:label "198X"@en ;
+ wdt:P856 <https://198x.jp/> ;
+ wdt:P856 <https://198xthegame.com/> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Nintendo_eShop> ;
+ wdt:P4151 wd:Q115198281 ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Nintendo_Switch> ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Digital_distribution> ;
+ wdt:P8956 <https://en.wikipedia.org/wiki/Steam_Deck> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Video_game> ;
+ wdt:P6195 <https://en.wikipedia.org/wiki/Crowdfunding> ;
+ wdt:P437 wd:Q54820071 ;
+ wdt:P178 wd:Q96177138 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/GOG.com> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Indie_game> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/PlayStation_Store> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Sweden> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Microsoft_Windows> ;
+ wdt:P1476 "198X"@en ;
+ wdt:P577 "2019-06-16T00:00:00Z"^^xsd:dateTime ;
+ wdt:P577 "2019-06-20T00:00:00Z"^^xsd:dateTime ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Steam_(service)> ;
+ wdt:P123 wd:Q96177138 .
+
+<https://example.org/resource/1001_Spikes> wdt:P400 <https://en.wikipedia.org/wiki/PlayStation_4> ;
+ wdt:P852 wd:Q14864330 ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Wii_U> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/MacOS> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P577 "2016-11-27T00:00:00Z"^^xsd:dateTime ;
+ wdt:P123 <https://en.wikipedia.org/wiki/Nicalis> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Xbox_One> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P404 <https://en.wikipedia.org/wiki/Single-player_video_game> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Platformer> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Nintendo_eShop> ;
+ wdt:P4151 wd:Q115198281 ;
+ wdt:P856 <http://www.nicalis.com> ;
+ wdt:P750 wd:Q42328566 ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Digital_distribution> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Video_game> ;
+ wdt:P404 <https://en.wikipedia.org/wiki/Multiplayer_video_game> ;
+ wdt:P437 wd:Q54820071 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Microsoft_Store> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/PlayStation_Vita> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Indie_game> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/PlayStation_Store> ;
+ wdt:P400 <https://en.wikipedia.org/wiki/Microsoft_Windows> ;
+ wdt:P178 <https://en.wikipedia.org/wiki/Nicalis> ;
+ rdfs:label "1001 Spikes"@en ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Steam_(service)> .
+---
+These are the labels of the properties:
+
+wdt:P400 -> platform
+wdt:P852 -> ESRB rating
+wdt:P136 -> genre
+wdt:P577 -> publication date
+wdt:P856 -> official website URL
+wdt:P408 -> software engine
+wdt:P407 -> language of work or name
+wdt:P404 -> game mode
+wdt:P750 -> distributed by
+wdt:P4151 -> game mechanics
+wdt:P437 -> distribution format
+wdt:P178 -> developer
+wdt:P31 -> instance of
+wdt:P123 -> publisher
+wdt:P495 -> country of origin
+wdt:P179 -> part of the series
+wdt:P5196 -> output device
+wdt:P641 -> sport
+wdt:P86 -> composer
+wdt:P287 -> designed by
+wdt:P58 -> screenwriter
+wdt:P914 -> USK rating
+wdt:P57 -> director
+wdt:P943 -> programmer
+wdt:P8687 -> social media followers
+wdt:P1411 -> nominated for
+wdt:P908 -> PEGI rating
+wdt:P8956 -> compatible with
+wdt:P162 -> producer
+wdt:P1476 -> title
+wdt:P2408 -> set in period
+wdt:P674 -> characters
+wdt:P166 -> award received
+wdt:P2664 -> units sold
+wdt:P840 -> narrative location
+wdt:P7294 -> itch.io URL
+wdt:P154 -> logo image
+wdt:P6195 -> funding scheme.
+---
+These are the labels of the objects:
+
+wd:Q14864330 -> Teen
+wd:Q115198281 -> side view
+wd:Q42328566 -> Humble Store
+wd:Q100871863 -> Q100871863
+wd:Q54820071 -> digital download
+wd:Q100871652 -> 10 Second Ninja
+wd:Q33438189 -> No Goblin
+wd:Q14864329 -> Everyone 10+
+wd:Q60256879 -> golf video game
+wd:Q122206435 -> François Rizzo
+wd:Q62619406 -> Yoan Fanise
+wd:Q14920392 -> USK 12
+wd:Q56649449 -> Latin American Spanish
+wd:Q122206437 -> Alexander Birke
+wd:Q51874739 -> Wolfgang Walk
+wd:Q122206438 -> Maxime Demaille
+wd:Q122206436 -> Bastien Giafferi
+wd:Q104117229 -> The Game Awards − Games for Impact
+wd:Q14915515 -> PEGI 12
+wd:Q62619567 -> Anne-Laure Fanise
+wd:Q107542272 -> science fantasy video game
+wd:Q119317544 -> Takatoshi Hijiyama
+wd:Q119123909 -> Yūichi Jin
+wd:Q106152664 -> Japan Game Awards Future Category
+wd:Q104117223 -> The Game Awards − Best Narrative
+wd:Q14864328 -> Everyone
+wd:Q59421242 -> Discord Store
+wd:Q96177142 -> Reset Media
+wd:Q115207305 -> bird's-eye view
+wd:Q15613992 -> arcade-style video game
+wd:Q96177138 -> Hi-Bit Studios.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="width:100%; font-size:86%;" id="softwarelist"
+|-
+! rowspan="2" style="width:31%;"|Title
+! rowspan="2" style="width:17%;"|Genre(s)
+! rowspan="2" style="width:15%;"|Developer(s)
+! rowspan="2" style="width:15%;"|Publisher(s)
+! colspan="3"|Release date
+! rowspan="2" style="width:4%;"|Addons
+! rowspan="2" class="unsortable"|{{abbr|Ref.|References}}
+|-
+| ''[[Alone with You (video game)|Alone with You]]''
+| Adventure
+| [[Benjamin Rivers]]
+| Benjamin Rivers
+| {{Unreleased}}
+| {{dts|2016|Aug|23}}
+| {{dts|2016|Aug|23}}
+|
+|
+|-
+| ''[[Alwa's Awakening]]''
+| Platform
+| Elden Pixels
+| Elden Pixels
+| {{Unreleased}}
+| {{dts|2019|Mar|21}}
+| {{dts|2019|Mar|21}}
+|
+|<ref>{{cite web|url=https://www.destructoid.com/retro-adventure-alwas-awakening-leaps-onto-ps4-this-week/|title=Retro adventure Alwa's Awakening leaps onto PS4 this week|last=Moyse|first=Chris|work=[[Destructoid]]|date=2019-03-18|accessdate=2023-04-02}}</ref>
+|-
+| ''[[Alwa's Legacy]]''
+| Platform
+| Elden Pixels
+| Elden Pixels
+| {{Unreleased}}
+| {{dtba}}
+| {{dtba}}
+|
+| align=center | <ref>{{cite web|url=https://www.gematsu.com/2020/04/alwas-legacy-launches-this-summer-for-switch-pc|title=Alwa's Legacy launches this summer for Switch, PC|website=Gematsu|date=15 April 2020|access-date=June 15, 2020|archive-date=22 June 2020|archive-url=https://web.archive.org/web/20200622074449/https://www.gematsu.com/2020/04/alwas-legacy-launches-this-summer-for-switch-pc|url-status=live}}</ref>
+|-
+| ''[[Always Sometimes Monsters]]''
+| Role-playing
+| Vagabond Dog
+| [[Devolver Digital]]
+| {{Unreleased}}
+| {{dts|2017|Oct|10}}
+| {{dts|2017|Oct|10}}
+|
+|
+|-
+| ''[[Amnesia Collection]]''
+| {{hlist|Adventure|[[survival horror]]}}
+| [[Frictional Games]]
+| Frictional Games
+| {{Unreleased}}
+| {{dts|2016|Nov|22}}
+| {{dts|2016|Nov|22}}
+| align=center | <span style="background:#fff; font-size:10px; margin:1px; padding:2px; border:1px solid #aab;">&nbsp;P&nbsp;</span>
+|
+|-
+| ''[[Amnesia: Rebirth]]''
+| {{hlist|Adventure|survival horror}}
+| Frictional Games
+| Frictional Games
+| {{Unreleased}}
+| {{dts|2020|Oct|20}}
+| {{dts|2020|Oct|20}}
+| align=center | <span style="background:#fff; font-size:10px; margin:1px; padding:2px; border:1px solid #aab;">&nbsp;P&nbsp;</span>
+| |}
+---

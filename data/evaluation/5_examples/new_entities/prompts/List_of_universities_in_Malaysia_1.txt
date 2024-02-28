@@ -1,0 +1,125 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of universities in Malaysia" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|+Polytechnics
+!Name in [[Malay language|Malay]]
+!Acronym
+!Foundation
+!Type
+!Location
+!class="unsortable"|Link
+|-
+|width="30%" align="center"|[[Ungku Omar Polytechnic|Politeknik Ungku Omar]]
+|width="10%" align="center"|PUO
+|width="10%" align="center"|1969
+|width="15%" align="center"|Premier polytechnic (university status)
+|width="15%" align="center"|[[Ipoh]], [[Perak]]
+|width="5%" align="center"|[http://www.puo.edu.my/]
+|-
+|width="30%" align="center"|[[Ibrahim Sultan Polytechnic|Politeknik Ibrahim Sultan]]
+|width="10%" align="center"|PIS
+|width="10%" align="center"|1998
+|width="15%" align="center"|Premier polytechnic (university status)
+|width="15%" align="center"|[[Pasir Gudang]], [[Johor]]
+|width="5%" align="center"|[http://www.pis.edu.my/]
+|-
+|width="30%" align="center"|[[Mukah Polytechnic|Politeknik Mukah Sarawak]]
+|width="10%" align="center"|PMU
+|width="10%" align="center"|2004
+|width="15%" align="center"|Conventional polytechnic
+|width="15%" align="center"|[[Mukah]], [[Sarawak]]
+|width="5%" align="center"|[http://www.pmu.edu.my/] |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Politeknik_Ungku_Omar> wdt:P571 "1969-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Ungku Omar Polytechnic"@en ;
+ wdt:P856 <http://www.puo.edu.my> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Ipoh> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ wdt:P31 wd:Q845392 ;
+ wdt:P571 "1969-06-02T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Politeknik_Ibrahim_Sultan> wdt:P571 "2015-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/University> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Malaysia> ;
+ rdfs:label "Politeknik Ibrahim Sultan"@en ;
+ wdt:P856 <http://www.pis.edu.my> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/PIS%20maingate.JPG> .
+
+<https://example.org/resource/Politeknik_Mukah_Sarawak> wdt:P31 <https://en.wikipedia.org/wiki/University> ;
+ rdfs:label "Mukah Polytechnic"@en .
+---
+These are the labels of the properties:
+
+wdt:P571 -> inception
+wdt:P856 -> official website URL
+wdt:P131 -> located in the administrative territorial entity
+wdt:P17 -> country
+wdt:P31 -> instance of
+wdt:P18 -> image.
+---
+These are the labels of the objects:
+
+wd:Q845392 -> polytechnic.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|+Polytechnics
+!Name in [[Malay language|Malay]]
+!Acronym
+!Foundation
+!Type
+!Location
+!class="unsortable"|Link
+|-
+|width="30%" align="center"|Politeknik METrO Kuala Lumpur
+|width="10%" align="center"|PMKL
+|width="10%" align="center"|2011
+|width="15%" align="center"|METrO polytechnic
+|width="15%" align="center"|[[Setiawangsa]], [[Kuala Lumpur]]
+|width="5%" align="center"|[https://web.archive.org/web/20160312232727/http://www.pmkl.edu.my/]
+|-
+|width="30%" align="center"|Politeknik METrO Kuantan
+|width="10%" align="center"|PMKU
+|width="10%" align="center"|2011
+|width="15%" align="center"|METrO polytechnic
+|width="15%" align="center"|[[Kuantan]], [[Pahang]]
+|width="5%" align="center"|[http://www.pmku.edu.my/]
+|-
+|width="30%" align="center"|Politeknik METrO Johor Bahru
+|width="10%" align="center"|PMJB
+|width="10%" align="center"|2011
+|width="15%" align="center"|METrO polytechnic
+|width="15%" align="center"|[[Johor Bahru]], [[Johor]]
+|width="5%" align="center"|[https://web.archive.org/web/20141220001703/http://www.pmjb.edu.my/]
+|-
+|width="30%" align="center"|Politeknik METrO Betong
+|width="10%" align="center"|PMBS
+|width="10%" align="center"|2012
+|width="15%" align="center"|METrO polytechnic
+|width="15%" align="center"|[[Betong, Sarawak]]
+|width="5%" align="center"|[http://www.pmbs.edu.my/]
+|-
+|width="30%" align="center"|Politeknik METrO Tasek Gelugor
+|width="10%" align="center"|PMTG
+|width="10%" align="center"|2012
+|width="15%" align="center"|METrO polytechnic
+|width="15%" align="center"|[[Seberang Perai]], [[Penang]]
+|width="5%" align="center"|[http://www.pmtg.edu.my/]
+|-
+|width="30%" align="center"|Politeknik Tun Syed Nasir Syed Ismail
+|width="10%" align="center"|PTSN
+|width="10%" align="center"|2013
+|width="15%" align="center"|Conventional polytechnic
+|width="15%" align="center"|[[Muar (district)|Muar]], [[Johor]]
+|width="5%" align="center"|[http://www.ptsn.edu.my/] |}
+---

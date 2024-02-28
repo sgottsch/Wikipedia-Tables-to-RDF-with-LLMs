@@ -1,0 +1,91 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of cities and towns in Saudi Arabia" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! City  !! data-sort-type=number | Population<ref>{{Cite web |title=Saudi Arabia: Regions & Major Cities - Population Statistics, Maps, Charts, Weather and Web Information |url=https://www.citypopulation.de/en/saudiarabia/cities/ |access-date=2024-02-03 |website=www.citypopulation.de}}</ref>!! Comments
+|-
+| [[Ad-Dilam]] || 39,267  (2022) ||
+|-
+| [[Al-Abwa]] || ||
+|-
+| [[Al Artaweeiyah]] || || |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Ad-Dilam> wdt:P2044 "453"^^xsd:decimal ;
+ wdt:P1082 "10141"^^xsd:decimal ;
+ wdt:P1082 "29973"^^xsd:decimal ;
+ wdt:P1082 "40114"^^xsd:decimal ;
+ rdfs:label "Ad-Dilam"@en ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B03:00> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Riyadh_Province> ;
+ wdt:P571 "2017-03-11T00:00:00Z"^^xsd:dateTime ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> ;
+ wdt:P31 wd:Q66661665 ;
+ wdt:P36 wd:Q108777536 ;
+ wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/Riyadh%20Region%20-%20Ad%20Dilam.svg> .
+
+<https://example.org/resource/Al-Abwa> wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B03:00> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Human_settlement> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Mecca_Province> ;
+ rdfs:label "Al-Abwa"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/%D8%A7%D9%84%D8%B6%D8%B1%D9%8A%D8%AD%20%D8%A7%D9%84%D8%A3%D9%8A%D9%85%D9%86%20%D9%84%D8%B6%D8%B1%D9%8A%D8%AD%20%D8%A7%D9%84%D8%B3%D9%8A%D8%AF%D8%A9%20%D8%A2%D9%85%D9%86%D8%A9%20%D8%B9%D9%84%D9%8A%D9%87%D8%A7%20%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85.JPG> .
+
+<https://example.org/resource/Al_Artaweeiyah> wdt:P2044 "609"^^xsd:decimal ;
+ wdt:P1082 "7560"^^xsd:decimal ;
+ wdt:P1082 "3036"^^xsd:decimal ;
+ wdt:P1082 "10596"^^xsd:decimal ;
+ wdt:P31 wd:Q23827464 ;
+ wdt:P421 <https://en.wikipedia.org/wiki/UTC%2B03:00> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Human_settlement> ;
+ rdfs:label "Al Artaweeiyah"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Riyadh_Province> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/Saudi_Arabia> .
+---
+These are the labels of the properties:
+
+wdt:P2044 -> elevation above sea level
+wdt:P1082 -> population
+wdt:P421 -> located in time zone
+wdt:P131 -> located in the administrative territorial entity
+wdt:P571 -> inception
+wdt:P17 -> country
+wdt:P31 -> instance of
+wdt:P36 -> capital
+wdt:P242 -> locator map image
+wdt:P18 -> image.
+---
+These are the labels of the objects:
+
+wd:Q66661665 -> governorate of Saudi Arabia
+wd:Q108777536 -> Ad-Dilam
+wd:Q23827464 -> centre of Saudi Arabia.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! City  !! data-sort-type=number | Population<ref>{{Cite web |title=Saudi Arabia: Regions & Major Cities - Population Statistics, Maps, Charts, Weather and Web Information |url=https://www.citypopulation.de/en/saudiarabia/cities/ |access-date=2024-02-03 |website=www.citypopulation.de}}</ref>!! Comments
+|-
+| [[Ras Tanura]] || 57,030 (2022) || Eastern Province
+|-
+| [[Ranyah]] || 28,681 (2022) ||
+|-
+| [[Riyadh Al Khabra|Riyadh Al-Khabra]]|| 25,588 (2022) || Historical city best known for trading and goods exchange
+|-
+| [[Rumailah, Saudi Arabia|Rumailah]] || 10,000 (2006) || Small village in [[Al-Ahsa Governorate|Al-Hasa]]
+|-
+|[[Sabya]]
+|72,086 (2022)
+|
+|-
+| [[Sarat Abidah]]|| 19,855 (2022)|| |}
+---

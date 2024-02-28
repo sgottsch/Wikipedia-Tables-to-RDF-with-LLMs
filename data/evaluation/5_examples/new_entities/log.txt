@@ -1,0 +1,120 @@
+Table	List_of_mosques_in_Africa	0	Done
+Article	List_of_mosques_in_Africa		Done
+Table	List_of_museums_in_Central_Texas	1	Done
+Table	List_of_museums_in_Central_Texas	2	Done
+Table	List_of_museums_in_Central_Texas	5	Done
+Table	List_of_museums_in_Central_Texas	9	Done
+Table	List_of_museums_in_Central_Texas	11	Done
+Article	List_of_museums_in_Central_Texas		Done
+Table	List_of_museums_and_galleries_in_Berlin	0	Done
+Article	List_of_museums_and_galleries_in_Berlin		Done
+Table	List_of_PlayStation_4_games_(A%E2%80%93L)	1	Done
+Article	List_of_PlayStation_4_games_(A%E2%80%93L)		Done
+Table	List_of_books_banned_by_governments	3	Done
+Table	List_of_books_banned_by_governments	21	Done
+Table	List_of_books_banned_by_governments	46	Done
+Table	List_of_books_banned_by_governments	47	Done
+Table	List_of_books_banned_by_governments	55	Done
+Article	List_of_books_banned_by_governments		Done
+Table	List_of_schools_in_the_Auckland_Region	0	Done
+Table	List_of_schools_in_the_Auckland_Region	2	Done
+Table	List_of_schools_in_the_Auckland_Region	5	Done
+Table	List_of_schools_in_the_Auckland_Region	6	Done
+Table	List_of_schools_in_the_Auckland_Region	10	Done
+Table	List_of_schools_in_the_Auckland_Region	11	Done
+Table	List_of_schools_in_the_Auckland_Region	15	Done
+Table	List_of_schools_in_the_Auckland_Region	17	Done
+Table	List_of_schools_in_the_Auckland_Region	18	Done
+Article	List_of_schools_in_the_Auckland_Region		Done
+Table	List_of_cinemas_in_Malaysia	2	Done
+Table	List_of_cinemas_in_Malaysia	7	Done
+Table	List_of_cinemas_in_Malaysia	12	Done
+Article	List_of_cinemas_in_Malaysia		Done
+Table	List_of_books_about_skepticism	0	Done
+Article	List_of_books_about_skepticism		Done
+Table	List_of_films_produced_and_released_by_Star_Cinema	2	Done
+Table	List_of_films_produced_and_released_by_Star_Cinema	3	Done
+Table	List_of_films_produced_and_released_by_Star_Cinema	4	Done
+Table	List_of_films_produced_and_released_by_Star_Cinema	5	Done
+Table	List_of_films_produced_and_released_by_Star_Cinema	6	Done
+Table	List_of_films_produced_and_released_by_Star_Cinema	7	Done
+Table	List_of_films_produced_and_released_by_Star_Cinema	9	Done
+Table	List_of_films_produced_and_released_by_Star_Cinema	10	Done
+Table	List_of_films_produced_and_released_by_Star_Cinema	24	Done
+Table	List_of_films_produced_and_released_by_Star_Cinema	26	Done
+Table	List_of_films_produced_and_released_by_Star_Cinema	27	Done
+Article	List_of_films_produced_and_released_by_Star_Cinema		Done
+Table	List_of_Latin_phrases_(T)	0	Done
+Article	List_of_Latin_phrases_(T)		Done
+Table	List_of_tallest_buildings_in_Malaysia	0	Error
+Table	List_of_tallest_buildings_in_Malaysia	3	Done
+Table	List_of_lost_expeditions	0	Done
+Article	List_of_lost_expeditions		Done
+Table	List_of_Web_archiving_initiatives	0	Done
+Article	List_of_Web_archiving_initiatives		Done
+Table	List_of_Ganesha_temples	1	Done
+Table	List_of_Ganesha_temples	2	Done
+Article	List_of_Ganesha_temples		Done
+Table	List_of_mosques_in_the_United_Kingdom	0	Done
+Table	List_of_mosques_in_the_United_Kingdom	2	Done
+Table	List_of_mosques_in_the_United_Kingdom	3	Done
+Table	List_of_mosques_in_the_United_Kingdom	7	Done
+Table	List_of_mosques_in_the_United_Kingdom	8	Done
+Table	List_of_mosques_in_the_United_Kingdom	9	Done
+Article	List_of_mosques_in_the_United_Kingdom		Done
+Table	List_of_mosques_in_Europe	0	Done
+Article	List_of_mosques_in_Europe		Done
+Table	List_of_oldest_church_buildings	0	Done
+Article	List_of_oldest_church_buildings		Done
+Table	List_of_universities_in_Malaysia	1	Done
+Table	List_of_universities_in_Malaysia	2	Done
+Article	List_of_universities_in_Malaysia		Done
+Table	List_of_cities_and_towns_in_Saudi_Arabia	0	Done
+Article	List_of_cities_and_towns_in_Saudi_Arabia		Done
+Table	List_of_coalition_military_operations_of_the_Iraq_War	0	Done
+Article	List_of_coalition_military_operations_of_the_Iraq_War		Done
+Table	List_of_airlines_of_India	1	Done
+Table	List_of_airlines_of_India	3	Done
+Article	List_of_airlines_of_India		Done
+Table	List_of_newspapers_in_Argentina	0	Done
+Article	List_of_newspapers_in_Argentina		Done
+Table	List_of_Arthurian_characters	0	Done
+Article	List_of_Arthurian_characters		Done
+Table	List_of_fictional_settlements	0	Done
+Table	List_of_fictional_settlements	1	Done
+Table	List_of_fictional_settlements	2	Done
+Table	List_of_fictional_settlements	3	Done
+Table	List_of_fictional_settlements	4	Done
+Table	List_of_fictional_settlements	5	Done
+Article	List_of_fictional_settlements		Done
+Table	List_of_longest_films	0	Done
+Table	List_of_longest_films	1	Done
+Article	List_of_longest_films		Done
+Table	List_of_films_featuring_dinosaurs	0	Done
+Table	List_of_films_featuring_dinosaurs	1	Done
+Article	List_of_films_featuring_dinosaurs		Done
+Table	List_of_monster_movies	0	Error
+Table	List_of_clock_towers_in_India	0	Done
+Article	List_of_clock_towers_in_India		Done
+Table	List_of_fictional_felines	0	Done
+Table	List_of_fictional_felines	3	Done
+Table	List_of_fictional_felines	5	Done
+Table	List_of_fictional_felines	6	Done
+Table	List_of_fictional_felines	7	Done
+Article	List_of_fictional_felines		Done
+Table	List_of_charities_accused_of_ties_to_terrorism	0	Done
+Article	List_of_charities_accused_of_ties_to_terrorism		Done
+Table	List_of_charities_established_by_Australian_athletes	0	Done
+Article	List_of_charities_established_by_Australian_athletes		Done
+Table	List_of_football_clubs_in_Chile	5	Done
+Article	List_of_football_clubs_in_Chile		Done
+Table	List_of_hairstyles	1	Done
+Table	List_of_hairstyles	2	Done
+Table	List_of_hairstyles	0	Done
+Article	List_of_hairstyles		Done
+Table	List_of_churches_in_London	0	Done
+Article	List_of_churches_in_London		Done
+Table	List_of_tallest_buildings_in_Malaysia	0	Done
+Article	List_of_tallest_buildings_in_Malaysia		Done
+Table	List_of_monster_movies	0	Done
+Article	List_of_monster_movies		Done

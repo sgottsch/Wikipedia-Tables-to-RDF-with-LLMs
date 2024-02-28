@@ -1,0 +1,168 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films produced and released by Star Cinema" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align: center;" | ''[[Eerie (film)|Eerie]]''
+| style="text-align: center;" | March 27
+| style="text-align: center;" |[[Mikhail Red]]
+| [[Bea Alonzo]], [[Jake Cuenca]], [[Maxene Magalona]] and [[Charo Santos-Concio]]
+| [[Horror film|Horror]], [[Suspense film|Suspense]], [[Thriller film|Thriller]], [[Crime fiction|Crime]]
+| Cre8 Productions, Pelikula Red, Media East
+|-
+| style="text-align: center;" | ''[[Last Fool Show]]''
+| style="text-align: center;" | April 10
+| style="text-align: center;" | Eduardo Roy Jr.
+| [[JM de Guzman]] and [[Arci Muñoz]]
+| [[Romance film|Romance]], [[Comedy film|Comedy]]
+| N<sup>2</sup> Productions, Emba Productions
+|-
+| style="text-align: center;" | ''[[Quezon's Game]]''
+| style="text-align: center;" | May 29
+| style="text-align: center;" | Matthew E. Rosen
+| [[Raymond Bagatsing]] and [[Rachel Alejandro]]
+| [[Historical film|History]], [[Drama film|Drama]]
+| Kinetek Productions
+|-
+| style="text-align: center;" | ''[[Hello, Love, Goodbye]]''
+| style="text-align: center;" | July 31
+| style="text-align: center;" | [[Cathy Garcia-Molina]]
+| [[Kathryn Bernardo]] and [[Alden Richards]]
+| [[Romance film|Romance]], [[Drama film|Drama]]
+|
+|-
+| style="text-align: center;" | ''[[Unbreakable (2019 film)|Unbreakable]]''
+| style="text-align: center;" | November 27
+| style="text-align: center;" | [[Mae Cruz-Alviar]]
+| [[Bea Alonzo]], [[Angelica Panganiban]] and [[Richard Gutierrez]]
+| [[Romance film|Romance]], [[Comedy]], [[Drama film|Drama]]
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Eerie> wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P136 wd:Q31888058 ;
+ wdt:P8889 wd:Q102108197 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Mikhail_Red> ;
+ wdt:P577 "2018-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P2684 wd:Q23649983 ;
+ rdfs:label "Eerie"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Netflix> .
+
+<https://example.org/resource/Last_Fool_Show> wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P9086 wd:Q104839736 ;
+ wdt:P8889 wd:Q102108196 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ rdfs:label "Last Fool Show"@en ;
+ wdt:P57 wd:Q113206301 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P577 "2019-04-10T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Quezon's_Game> wdt:P136 <https://en.wikipedia.org/wiki/Biographical_film> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ rdfs:label "Quezon's Game"@en ;
+ wdt:P8889 wd:Q102108196 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/New_York_(state)> ;
+ wdt:P577 "2018-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1476 "Quezon's Game"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P1657 wd:Q18665339 .
+
+<https://example.org/resource/Hello,_Love,_Goodbye> wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Hong_Kong> ;
+ rdfs:label "Hello, Love, Goodbye"@en ;
+ wdt:P8889 wd:Q102108196 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Cathy_Garcia-Sampana> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P577 "2019-07-31T00:00:00Z"^^xsd:dateTime .
+
+<https://example.org/resource/Unbreakable> wdt:P106 <https://en.wikipedia.org/wiki/Actor> ;
+ rdfs:label "Bea Alonzo"@en ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Singer> ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Comedian> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bea%20Alonzo%20by%20Ronn%20Tan%2C%20April%202010.png> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Human> ;
+ wdt:P21 <https://en.wikipedia.org/wiki/Female_(gender)> ;
+ wdt:P2031 "2008-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P27 <https://en.wikipedia.org/wiki/Philippines> ;
+ wdt:P69 <https://en.wikipedia.org/wiki/Jose_Abad_Santos_Memorial_School> ;
+ wdt:P735 <https://en.wikipedia.org/wiki/Bea_(given_name)> ;
+ wdt:P264 <https://en.wikipedia.org/wiki/Star_Music> ;
+ wdt:P19 <https://en.wikipedia.org/wiki/Cainta> ;
+ wdt:P734 <https://en.wikipedia.org/wiki/Alonzo> ;
+ wdt:P569 "1987-10-17T00:00:00Z"^^xsd:dateTime ;
+ wdt:P106 <https://en.wikipedia.org/wiki/Model_(person)> .
+---
+These are the labels of the properties:
+
+wdt:P437 -> distribution format
+wdt:P136 -> genre
+wdt:P8889 -> MTRCB rating
+wdt:P31 -> instance of
+wdt:P57 -> director
+wdt:P577 -> publication date
+wdt:P2684 -> Kijkwijzer rating
+wdt:P495 -> country of origin
+wdt:P750 -> distributed by
+wdt:P9086 -> BAMID film rating
+wdt:P364 -> original language of film or TV show
+wdt:P840 -> narrative location
+wdt:P1476 -> title
+wdt:P1657 -> MPA film rating
+wdt:P106 -> occupation
+wdt:P18 -> image
+wdt:P21 -> sex or gender
+wdt:P2031 -> work period (start)
+wdt:P27 -> country of citizenship
+wdt:P69 -> educated at
+wdt:P735 -> given name
+wdt:P264 -> record label
+wdt:P19 -> place of birth
+wdt:P734 -> family name
+wdt:P569 -> date of birth.
+---
+These are the labels of the objects:
+
+wd:Q31888058 -> ghost film
+wd:Q102108197 -> R-13
+wd:Q23649983 -> 12
+wd:Q104839736 -> 0+
+wd:Q102108196 -> Parental Guidance
+wd:Q113206301 -> Eduardo W. Roy Jr.
+wd:Q18665339 -> PG-13.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable " style="width:97%"
+|-
+! style="width:25%;"|Title
+! style="width:10%;"|Release date
+! style="width:10%;"|Director
+! style="width:30%;"|Cast
+! style="width:10%;"|Genre(s)
+! style="width:15%;"|Associated film production
+|-
+| style="text-align: center;" | ''Hellcome Home''
+| style="text-align: center;" | October 30
+| style="text-align: center;" | Bobby Bonifacio Jr.
+| [[Dennis Trillo]], Alyssa Muhlach, [[Beauty Gonzalez]], [[Teejay Marquez]] and [[Raymond Bagatsing]]
+| [[Horror film|Horror]], [[Suspense film|Suspense]], [[Thriller film|Thriller]]
+| [[IWantTFC]], Pelikula Indiopendent |}
+---

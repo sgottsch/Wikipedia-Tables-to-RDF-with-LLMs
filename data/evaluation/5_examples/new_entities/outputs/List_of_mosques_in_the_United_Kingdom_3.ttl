@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Al_Medinah_Mosque> rdfs:label "Al Medinah Mosque"@en ;
+    wdt:P131 wd:Q131491 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Al-Medinah%20Mosque,%20Bedford%20Place,%20Brighton%20(January%202012).JPG> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1991-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Brighton_Mosque> rdfs:label "Brighton Mosque"@en ;
+    wdt:P131 wd:Q131491 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Al-Quds%20Mosque,%20Dyke%20Road,%20Brighton.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1970-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Mid_Sussex_Islamic_Centre_Mosque> rdfs:label "Mid Sussex Islamic Centre & Mosque"@en ;
+    wdt:P131 wd:Q23287 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2010-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Nasir_Mosque> rdfs:label "Nasir Mosque"@en ;
+    wdt:P131 wd:Q610238 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2014-01-01T00:00:00+00:00"^^xsd:dateTime .
+

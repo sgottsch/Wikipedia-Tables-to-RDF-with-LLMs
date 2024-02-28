@@ -1,0 +1,70 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Borstal_Boy> rdfs:label "Borstal Boy"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P1476 "Borstal Boy"@en ;
+    wdt:P31 wd:Q8261 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P50 wd:Q313063 .
+
+<https://example.org/resource/Brave_New_World> rdfs:label "Brave New World"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P1476 "Brave New World"@en ;
+    wdt:P31 wd:Q8261 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P50 wd:Q81447 .
+
+<https://example.org/resource/Men_of_Good_Will> rdfs:label "Men of Good Will"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P1476 "Men of Good Will"@en ;
+    wdt:P31 wd:Q8261 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P50 wd:Q334983 .
+
+<https://example.org/resource/My_Secret_Garden> rdfs:label "My Secret Garden"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P1476 "My Secret Garden"@en ;
+    wdt:P31 wd:Q8261 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P50 wd:Q465011 .
+
+<https://example.org/resource/The_Country_Girls> rdfs:label "The Country Girls"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P1476 "The Country Girls"@en ;
+    wdt:P31 wd:Q8261 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P50 wd:Q178225 .
+
+<https://example.org/resource/The_Dark> rdfs:label "The Dark"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P1476 "The Dark"@en ;
+    wdt:P31 wd:Q8261 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P50 wd:Q1277641 ;
+    wdt:P921 wd:Q8261 .
+
+<https://example.org/resource/The_Lonely_Girl> rdfs:label "The Lonely Girl"@en ;
+    wdt:P136 wd:Q8261 ;
+    wdt:P1476 "The Lonely Girl"@en ;
+    wdt:P31 wd:Q8261 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P50 wd:Q178225 ;
+    wdt:P921 wd:Q8261 .
+
+<https://example.org/resource/The_Tailor_and_Ansty> rdfs:label "The Tailor and Ansty"@en ;
+    wdt:P1476 "The Tailor and Ansty"@en ;
+    wdt:P31 wd:Q333634 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P50 wd:Q5386321 ;
+    wdt:P577 "1942-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Work_Wealth_and_Happiness_of_Mankind> rdfs:label "The Work, Wealth and Happiness of Mankind"@en ;
+    wdt:P1476 "The Work, Wealth and Happiness of Mankind"@en ;
+    wdt:P31 wd:Q333634 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P50 wd:Q42511 ;
+    wdt:P577 "1932-01-01T00:00:00+00:00"^^xsd:dateTime .
+

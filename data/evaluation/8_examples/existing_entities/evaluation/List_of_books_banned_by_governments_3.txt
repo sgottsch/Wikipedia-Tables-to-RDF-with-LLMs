@@ -1,0 +1,172 @@
+In both
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P577> "1971-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P577> "1958-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.w3.org/2000/01/rdf-schema#label> "The World Is Full of Married Men"@en .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P1476> "The World Is Full of Married Men"@en .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q8977221> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.w3.org/2000/01/rdf-schema#label> "The Anarchist Cookbook"@en .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q3901471> .
+<https://example.org/resource/Borstal_Boy> <http://www.w3.org/2000/01/rdf-schema#label> "Borstal Boy"@en .
+<https://example.org/resource/The_Stud> <http://www.w3.org/2000/01/rdf-schema#label> "The Stud"@en .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P577> "1968-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Ecstasy_and_Me> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q49034> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P577> "1969-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Forever_Amber> <http://www.w3.org/2000/01/rdf-schema#label> "Forever Amber"@en .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q1196408> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q1837775> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q17277707> .
+<https://example.org/resource/American_Psycho> <http://www.w3.org/2000/01/rdf-schema#label> "American Psycho"@en .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q241583> .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P577> "1944-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q2342652> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P1476> "The Stud"@en .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.w3.org/2000/01/rdf-schema#label> "The Peaceful Pill Handbook"@en .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q313063> .
+<https://example.org/resource/Ecstasy_and_Me> <http://www.wikidata.org/prop/direct/P577> "1966-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P1476> "American Psycho"@en .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P1476> "Borstal Boy"@en .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P1476> "The Peaceful Pill Handbook"@en .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q1837775> .
+<https://example.org/resource/No_Game_No_Life> <http://www.w3.org/2000/01/rdf-schema#label> "No Game No Life"@en .
+In ground only
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q104213567> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q5420392> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q47469861> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q132311> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/''Another_Country''> <http://www.wikidata.org/prop/direct/P1476> "Another Country"@en .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P577> "2006-07-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/''Another_Country''> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P1680> "A Novel"@en .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q4366335> .
+<https://example.org/resource/''Another_Country''> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/''Another_Country''> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q60> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P856> <http://www.mediafactory.co.jp/bunkoj/book_detail/848> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q484188> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Anarchist%20Cookbook%20front%20cover.jpg> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q3138589> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q466533> .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P577> "1991-03-06T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Ecstasy_and_Me> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Ecstasy_and_Me> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q49034> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q47092> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q16961329> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P1482> <https://anime.stackexchange.com/tags/no-game-no-life> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1321> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q105173156> .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q7945613> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q11299> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P2438> <http://www.wikidata.org/entity/Q203927> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q100159> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P166> <http://www.wikidata.org/entity/Q4630676> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q96781565> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P1424> <http://www.wikidata.org/entity/Q20352769> .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P135> <http://www.wikidata.org/entity/Q38066> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q1405126> .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q21> .
+<https://example.org/resource/''Another_Country''> <http://www.w3.org/2000/01/rdf-schema#label> "Another Country"@en .
+<https://example.org/resource/''Another_Country''> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P8687> "150555"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P973> <http://catdir.loc.gov/catdir/description/random047/90010247.html> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q107413604> .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P577> "2012-04-25T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q182015> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P1476> "The Anarchist Cookbook Spanish"@en .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q63429928> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P155> <http://www.wikidata.org/entity/Q7775982> .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q60> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q17> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q84> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q53911753> .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P156> <http://www.wikidata.org/entity/Q7767098> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P7327> <http://www.wikidata.org/entity/Q66813072> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q5287> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q84> .
+<https://example.org/resource/Ecstasy_and_Me> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q369346> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q37601569> .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q6724738> .
+<https://example.org/resource/''Another_Country''> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q10318944> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q15501071> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q7834250> .
+<https://example.org/resource/''Another_Country''> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q101552489> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q366886> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/No-Game-No-Life-anime-logo.svg> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q21777935> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P856> <http://www.peacefulpillhandbook.com/> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P674> <http://www.wikidata.org/entity/Q203927> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P437> <http://www.wikidata.org/entity/Q128093> .
+<https://example.org/resource/Ecstasy_and_Me> <http://www.w3.org/2000/01/rdf-schema#label> "Ecstasy and Me: my life as a woman"@en .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q11690> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q850642> .
+<https://example.org/resource/''Another_Country''> <http://www.wikidata.org/prop/direct/P577> "1962-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/''Another_Country''> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q273210> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q84> .
+In predicted only
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q22890> .
+<https://example.org/resource/Another_Country> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/Another_Country> <http://www.wikidata.org/prop/direct/P577> "1962-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P1476> "No Game No Life"@en .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q63979202> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/Ecstasy_and_Me> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q408> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q858330> .
+<https://example.org/resource/Ecstasy_and_Me> <http://www.w3.org/2000/01/rdf-schema#label> "Ecstasy and Me"@en .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P577> "1991-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/Another_Country> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q273210> .
+<https://example.org/resource/Another_Country> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q18211073> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q408> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P577> "2012-01-01T00:00:00Z'^^xsd:dateTime , '2016-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q19209663> .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q30610070> .
+<https://example.org/resource/Another_Country> <http://www.w3.org/2000/01/rdf-schema#label> "Another Country"@en .
+<https://example.org/resource/Another_Country> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q43169292> .
+<https://example.org/resource/Ecstasy_and_Me> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q4184> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q3056541> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P6216> <http://www.wikidata.org/entity/Q19652> .
+<https://example.org/resource/Another_Country> <http://www.wikidata.org/prop/direct/P1476> "Another Country"@en .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q408> .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q456822> .
+<https://example.org/resource/Ecstasy_and_Me> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P6216> <http://www.wikidata.org/entity/Q19652> .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q858330> .
+<https://example.org/resource/Borstal_Boy> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q4946695> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P6216> <http://www.wikidata.org/entity/Q19652> .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P6216> <http://www.wikidata.org/entity/Q19652> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q408> .
+<https://example.org/resource/American_Psycho> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/The_Stud> <http://www.wikidata.org/prop/direct/P4969> <http://www.wikidata.org/entity/Q3490514> .
+<https://example.org/resource/The_Anarchist_Cookbook> <http://www.wikidata.org/prop/direct/P1476> "The Anarchist Cookbook"@en .
+<https://example.org/resource/The_World_Is_Full_of_Married_Men> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/No_Game_No_Life> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q111597131> .
+<https://example.org/resource/Forever_Amber> <http://www.wikidata.org/prop/direct/P1476> "Forever Amber"@en .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P577> "2007-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Ecstasy_and_Me> <http://www.wikidata.org/prop/direct/P1476> "Ecstasy and Me"@en .
+<https://example.org/resource/The_Peaceful_Pill_Handbook> <http://www.wikidata.org/prop/direct/P50> <https://en.wikipedia.org/wiki/Fiona_Stewart_(author)> .

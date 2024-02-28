@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Bedias_Museum_and_Library> rdfs:label "Bedias Museum and Library"@en ;
+    wdt:P131 wd:Q26616 ;
+    wdt:P1343 wd:Q112756208 ;
+    wdt:P1435 wd:Q19558910 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q33506 .
+
+<https://example.org/resource/Blues_Alley_museum> rdfs:label "Blues Alley museum"@en ;
+    wdt:P131 wd:Q978251 ;
+    wdt:P1343 wd:Q112756208 ;
+    wdt:P1435 wd:Q19558910 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q33506 .
+
+<https://example.org/resource/Horlock_House_Art_Gallery_and_History_Museum> rdfs:label "Horlock House Art Gallery and History Museum"@en ;
+    wdt:P131 wd:Q978251 ;
+    wdt:P1343 wd:Q112756208 ;
+    wdt:P1435 wd:Q19558910 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q11060274 .
+
+<https://example.org/resource/Texas_Rangers_Heritage_Center> rdfs:label "Texas Rangers Heritage Center"@en ;
+    wdt:P131 wd:Q27024 ;
+    wdt:P1343 wd:Q112756208 ;
+    wdt:P1435 wd:Q19558910 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q52063464 .
+
+<https://example.org/resource/Vereins_Kirche> rdfs:label "Vereins Kirche"@en ;
+    wdt:P131 wd:Q27024 ;
+    wdt:P1343 wd:Q112756208 ;
+    wdt:P1435 wd:Q19558910 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Vereins%20Kirche%20July%202017%205.jpg> ;
+    wdt:P31 wd:Q41176 .
+

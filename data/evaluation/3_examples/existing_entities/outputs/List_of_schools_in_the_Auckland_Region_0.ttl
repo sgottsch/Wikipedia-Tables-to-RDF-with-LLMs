@@ -1,0 +1,89 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Leigh_School> rdfs:label "Leigh"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Matakana_School> rdfs:label "Matakana"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Pakiri_School> rdfs:label "Pākiri"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Parakai_School> rdfs:label "Parakai"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Riverhead_School> rdfs:label "Riverhead"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Snells_Beach_Primary> rdfs:label "Snells Beach"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Tapora_School> rdfs:label "Tapora"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Tauhoa_School> rdfs:label "Tauhoa"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Taupaki_School> rdfs:label "Taupaki"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Tomarata_School> rdfs:label "Tomarata"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Waimauku_School> rdfs:label "Waimauku"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Wainui_School> rdfs:label "Wainui"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Waioneke_School> rdfs:label "Waioneke"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Waitoki_School> rdfs:label "Waitoki"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Warkworth_Primary_School> rdfs:label "Warkworth"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Wellsford_School> rdfs:label "Wellsford"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+
+<https://example.org/resource/Woodhill_School> rdfs:label "Woodhill"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P31 wd:Q3257686 .
+

@@ -1,0 +1,16 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Burger's_Daughter> wdt:P1476 "Burger's Daughter"@en ;
+    wdt:P495 wd:Q258 ;
+    wdt:P50 wd:Q47619 ;
+    wdt:P577 "1979-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7937 wd:Q8261 .
+
+<https://example.org/resource/July's_People> wdt:P1476 "July's People"@en ;
+    wdt:P495 wd:Q258 ;
+    wdt:P50 wd:Q47619 ;
+    wdt:P577 "1981-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P7937 wd:Q8261 .
+

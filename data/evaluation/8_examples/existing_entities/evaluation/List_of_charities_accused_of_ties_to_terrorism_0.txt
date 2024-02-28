@@ -1,0 +1,122 @@
+In both
+<https://example.org/resource/Islamic_Relief> <http://www.w3.org/2000/01/rdf-schema#label> "Islamic Relief"@en .
+<https://example.org/resource/Internationale_Humanitäre_Hilfsorganisation_e.V.> <http://www.w3.org/2000/01/rdf-schema#label> "Internationale Humanitäre Hilfsorganisation e.V."@en .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Jamaat_al_Dawa_al_Quran> <http://www.w3.org/2000/01/rdf-schema#label> "Jamaat al Dawa al Quran"@en .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Society_of_the_Revival_of_Islamic_Heritage> <http://www.w3.org/2000/01/rdf-schema#label> "Society of the Revival of Islamic Heritage"@en .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/Internationale_Humanitäre_Hilfsorganisation_e.V.> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .
+<https://example.org/resource/Maktab_al-Khidamat> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q889> .
+<https://example.org/resource/Maktab_al-Khidamat> <http://www.w3.org/2000/01/rdf-schema#label> "Maktab al-Khidamat"@en .
+<https://example.org/resource/Popular_Front_of_India> <http://www.w3.org/2000/01/rdf-schema#label> "Popular Front of India"@en .
+<https://example.org/resource/Tamils_Rehabilitation_Organisation> <http://www.w3.org/2000/01/rdf-schema#label> "Tamils Rehabilitation Organisation"@en .
+<https://example.org/resource/Muslim_Aid> <http://www.w3.org/2000/01/rdf-schema#label> "Muslim Aid"@en .
+In ground only
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P8687> "61007"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P2541> <http://www.wikidata.org/entity/Q13780930> .
+<https://example.org/resource/Popular_Front_of_India> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q163740> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P8093> "22089018"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P8687> "19000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q708676> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P1128> "34"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P1128> "801"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q708676> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P2139> "2550810"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Maktab_al-Khidamat> <http://www.wikidata.org/prop/direct/P112> <http://www.wikidata.org/entity/Q186316> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P6125> "1900"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P856> <https://www.islamic-relief.org/> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q84> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P571> "1985-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Tamils_Rehabilitation_Organisation> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Woman%20in%20Sri%20Lanka%20rescued%20during%20monsoon%20flooding.jpg> .
+<https://example.org/resource/Maktab_al-Khidamat> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q17127659> .
+<https://example.org/resource/Maktab_al-Khidamat> <http://www.wikidata.org/prop/direct/P112> <http://www.wikidata.org/entity/Q18978402> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P2139> "110395914"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P2139> "7037490"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P6125> "1850"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Internationale_Humanitäre_Hilfsorganisation_e.V.> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q1794> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P8093> "86658102"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P8093> "20109335"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Internationale_Humanitäre_Hilfsorganisation_e.V.> <http://www.wikidata.org/prop/direct/P740> <http://www.wikidata.org/entity/Q365> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P1128> "457"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Popular_Front_of_India> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Popular%20Front%20of%20India.svg> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P571> "1994-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Internationale_Humanitäre_Hilfsorganisation_e.V.> <http://www.wikidata.org/prop/direct/P1454> <http://www.wikidata.org/entity/Q9299236> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P8093> "133157385"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P2139> "127934411"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Internationale_Humanitäre_Hilfsorganisation_e.V.> <http://www.wikidata.org/prop/direct/P571> "1998-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P6125> "2480"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P856> <http://www.interpal.org/> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P8093> "5867809"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q219060> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P6125> "500"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P856> <https://www.islamic-relief.me/> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Interpal%20Charity%20-%20Leeds%20Road%20-%20geograph.org.uk%20-%201543005.jpg> .
+<https://example.org/resource/Internationale_Humanitäre_Hilfsorganisation_e.V.> <http://www.wikidata.org/prop/direct/P576> "2012-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P6125> "250"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Jamaat_al_Dawa_al_Quran> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q708676> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P856> <http://www.muslimaid.org/> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P1454> <http://www.wikidata.org/entity/Q708676> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q48204> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q2256> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P2139> "24501362"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P8093> "2550681"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P8093> "6044459"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P1128> "53"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P2139> "19977571"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Maktab_al-Khidamat> <http://www.wikidata.org/prop/direct/P576> "1996-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Society_of_the_Revival_of_Islamic_Heritage> <http://www.wikidata.org/prop/direct/P3461> <http://www.wikidata.org/entity/Q159> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P6125> "300"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P2139> "5907186"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P8093> "118077414"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P154> <http://commons.wikimedia.org/wiki/Special:FilePath/IRW-LOGO%20BOXED%20small.jpg> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P6125> "250"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P2139> "148990396"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Internationale_Humanitäre_Hilfsorganisation_e.V.> <http://www.wikidata.org/prop/direct/P488> <http://www.wikidata.org/entity/Q113808667> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P1128> "876"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P6125> "200"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P1128> "419"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P1128> "465"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Society_of_the_Revival_of_Islamic_Heritage> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q17127659> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P2139> "131048788"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P10624> <http://www.wikidata.org/entity/Q472311> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P6125> "1000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P112> <http://www.wikidata.org/entity/Q5651444> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5908002> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P8687> "17228"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P8093> "106657437"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q708676> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q1130774> .
+<https://example.org/resource/Popular_Front_of_India> <http://www.wikidata.org/prop/direct/P571> "2006-11-22T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P1128> "57"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P2139> "6077075"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P2139> "5542114"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P8093> "15343454"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P1128> "469"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P8093> "5471873"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P37> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P1128> "416"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Maktab_al-Khidamat> <http://www.wikidata.org/prop/direct/P571> "1984-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P1128> "48"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q110706912> .
+<https://example.org/resource/Interpal> <http://www.w3.org/2000/01/rdf-schema#label> "Interpal (Palestinian Relief and Development Fund)"@en .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P159> <http://www.wikidata.org/entity/Q23666> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P8093> "107148651"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P6125> "100"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Popular_Front_of_India> <http://www.wikidata.org/prop/direct/P856> <http://www.popularfrontindia.org/> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q43229> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P2139> "126546524"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Maktab_al-Khidamat> <http://www.wikidata.org/prop/direct/P112> <http://www.wikidata.org/entity/Q307613> .
+<https://example.org/resource/Tamils_Rehabilitation_Organisation> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q43229> .
+<https://example.org/resource/Islamic_Relief> <http://www.wikidata.org/prop/direct/P571> "1984-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Interpal> <http://www.wikidata.org/prop/direct/P8093> "6944676"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P2139> "30566770"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P1128> "841"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Internationale_Humanitäre_Hilfsorganisation_e.V.> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q48204> .
+<https://example.org/resource/Muslim_Aid> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q110706912> .
+In predicted only
+<https://example.org/resource/Tamils_Rehabilitation_Organisation> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q16> .
+<https://example.org/resource/Interpal> <http://www.w3.org/2000/01/rdf-schema#label> "Interpal"@en .
+<https://example.org/resource/Popular_Front_of_India> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q668> .
+<https://example.org/resource/Society_of_the_Revival_of_Islamic_Heritage> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q817> .
+<https://example.org/resource/Jamaat_al_Dawa_al_Quran> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q889> .

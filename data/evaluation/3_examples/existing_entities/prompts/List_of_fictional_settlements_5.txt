@@ -1,0 +1,113 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of fictional settlements" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+! Town name 
+! Author 
+! Origin 
+! class=unsortable|Notes
+|-
+|[[Castle Rock (Stephen King)|Castle Rock]]
+|[[Stephen King]]
+|[[Stephen King bibliography|various novels]]
+|'''Castle Rock, Maine''' is part of [[Stephen King]]'s fictional [[Maine]] topography and provides the setting for a number of his novels, novellas, and short stories. Built similarly to the fictional towns of [[Jerusalem's Lot (Stephen King)|Jerusalem's Lot]] (featured in the novel ''[['Salem's Lot]]'') and [[Derry (Stephen King)|Derry]] (featured in the novels ''[[It (novel)|It]]'', ''[[Insomnia (novel)|Insomnia]]'', and ''[[Dreamcatcher (novel)|Dreamcatcher]]''), Castle Rock is a typical small [[New England]] town with many dark secrets.
+|-
+|[[Cittàgazze]]
+|nowrap|[[Philip Pullman]]
+|''[[The Subtle Knife]]''
+|'''Cittàgazze''' (sometimes abbreviated to '''Ci'gazze'''), meaning "City of the [[Magpies]]" in Italian, is a fictional city within an unknown world (and parallel universe).
+|-
+|[[Clochemerle]]
+|[[Gabriel Chevallier]]
+|''[[Clochemerle]]''
+|'''Clochemerle''' is a fictional village in France, in a 1934 satirical novel of the same name by ''Gabriel Chevallier'', inspired by [[Vaux-en-Beaujolais]], a [[Communes of France|commune]] in the [[Beaujolais (province)|Beaujolais]]. The novel satirises the conflict between Catholics and republicans in the [[French Third Republic|Third Republic]].<ref>{{cite book |last1=Passmore |first1=Kevin |title=From Liberalism to Fascism: The Right in a French Province, 1928-1939 |date=1997 |publisher=Cambridge University Press |location=New York |isbn=0-521-89426-3 |page=104}}</ref> The story concerns a dispute over the construction of a vespasienne (public urinal) near the village church. The term Clochemerle has entered French as a term to describe "petty, parochial squabbling".<ref>{{cite book |last1=Mould |first1=Michael |title=The Routledge Dictionary of cultural references in modern French |date=2011 |publisher=Routledge |location=Abingdon |isbn=978-0-415-59792-0 |page=11}}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Castle_Rock> wdt:P170 <https://en.wikipedia.org/wiki/Stephen_King> ;
+ wdt:P1441 <https://en.wikipedia.org/wiki/The_Dead_Zone_(novel)> ;
+ wdt:P1705 "Castle Rock"@en ;
+ rdfs:label "Castle Rock"@en ;
+ wdt:P1080 wd:Q20714890 ;
+ wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Cittàgazze> wdt:P31 <https://en.wikipedia.org/wiki/Wikipedia:Lists> ;
+ rdfs:label "Locations in His Dark Materials"@en .
+
+<https://example.org/resource/Clochemerle> wdt:P4969 wd:Q23056332 ;
+ wdt:P495 <https://en.wikipedia.org/wiki/France> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/French_language> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Gabriel%20Chevallier%2C%20Clochemerle%2C%20couverture.jpg> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Gabriel_Chevallier> ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Novel> ;
+ wdt:P136 wd:Q110540276 ;
+ rdfs:label "Clochemerle"@en ;
+ wdt:P577 "1934-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P4969 wd:Q17354332 ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Clochemerle_(TV_series)> ;
+ wdt:P31 wd:Q7725634 .
+---
+These are the labels of the properties:
+
+wdt:P170 -> creator
+wdt:P1441 -> present in work
+wdt:P1705 -> native label
+wdt:P1080 -> from narrative universe
+wdt:P31 -> instance of
+wdt:P4969 -> derivative work
+wdt:P495 -> country of origin
+wdt:P407 -> language of work or name
+wdt:P18 -> image
+wdt:P50 -> author
+wdt:P7937 -> form of creative work
+wdt:P136 -> genre
+wdt:P577 -> publication date.
+---
+These are the labels of the objects:
+
+wd:Q20714890 -> Multiverse
+wd:Q1964689 -> fictional city
+wd:Q23056332 -> Clochemerle
+wd:Q110540276 -> satirical fiction
+wd:Q17354332 -> Q17354332
+wd:Q7725634 -> literary work.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+! Town name 
+! Author 
+! Origin 
+! class=unsortable|Notes
+|-
+|[[Lankhmar]]
+|nowrap| [[Fritz Leiber]]
+|''[[Fafhrd and the Gray Mouser]]''
+|'''Lankhmar''' is a populous, labyrinthine city rife with corruption. It serves as the home of Leiber's two anti-heroes Fafhrd and the Gray Mouser. It also forms a ''[[Dungeons & Dragons campaign settings|Dungeons & Dragons campaign setting]]''.
+|-
+|[[Ankh-Morpork]]
+|nowrap| [[Terry Pratchett]]
+|''[[Discworld]]''
+|Pratchett describes '''Ankh-Morpork''' as on the far side of corrupt and polluted, and as subject to outbreaks of comedic violence and brouhaha on a fairly regular basis. Ankh-Morpork is also the mercantile capital of the Discworld. As the series proceeds, Ankh-Morpork is more and more portrayed as multi-cultural (which in this case means multi-species, with increasingly prominent populations of creatures such as dwarves, trolls, vampires, gnomes, bogeymen, zombies and werewolves) and struggling with modern real-world challenges. Even when it is under attack from a dragon, the vegetable carts still have to come in. In The Art of Discworld, Pratchett explains that the city is similar to Tallinn and central Prague, but adds that it has elements of 18th-century London, 19th-century Seattle and modern New York City.
+|-
+|[[Alicante]]
+|[[Cassandra Clare]]
+|''[[The Mortal Instruments]]''
+|This city is the home to all shadow hunters in ''The Mortal Instrument'' series. However, not all shadow hunters live in Alicante. They have to live across the world to protect humanity from demons, but Alicante is always in their hearts. (Not the city in Spain)
+|-
+|[[Ulthar]]
+|[[H. P. Lovecraft]]
+|Various short stories
+|'''Ulthar''' is both a fictional town and a fictional deity. The town of Ulthar is part of H. P. Lovecraft's Dream Cycle, appearing in such stories as "The Dream-Quest of Unknown Kadath" (1926), "The Cats of Ulthar" (1920) and "The Other Gods" (1933).
+|-
+|[[Malgudi]]
+|[[R. K. Narayan]]
+|[[Swami and Friends]]
+|A town in [[Ramanathapuram]] in [[South India]] in the novels and short stories of [[R. K. Narayan]]. All but one of his fifteen novels and most of his short stories take place here. The name is a portmanteau of two Bangalore localities, [[Malleshwaram]] and [[Basavanagudi]]. |}
+---

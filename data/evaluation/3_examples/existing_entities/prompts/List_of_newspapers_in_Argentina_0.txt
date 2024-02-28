@@ -1,0 +1,98 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of newspapers in Argentina" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+! Newspaper !! Headquarters !! Founded !! Language !! Category 
+|-
+| ''[[Ámbito Financiero]]'' || [[Buenos Aires]] || 1976 || [[Spanish language|Spanish]] || Printed 
+|-
+| ''[[Argentinisches Tageblatt]]'' || [[Buenos Aires]] || 1878 
+| style="background:#bbeebb;" | [[German language|German]] || Printed 
+|-
+| ''[[Buenos Aires Herald]]'' || [[Buenos Aires]] || 1876–2017, relaunched 2023
+
+| style="background:#bbeebb;" | [[English language|English]] || Printed |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/Ámbito_Financiero> wdt:P17 <https://en.wikipedia.org/wiki/Argentina> ;
+ rdfs:label "Ámbito Financiero"@en ;
+ wdt:P463 <https://en.wikipedia.org/wiki/Inter_American_Press_Association> ;
+ wdt:P856 <http://www.ambito.com/> ;
+ wdt:P571 "1976-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Diario%20%C3%81mbito%20Financiero%20%285479749575%29.jpg> ;
+ wdt:P112 <https://en.wikipedia.org/wiki/Julio_Ramos> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/Spanish_language> ;
+ wdt:P1830 <https://en.wikipedia.org/wiki/Buenos_Aires_Herald> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Daily_newspaper> ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Buenos_Aires> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Argentina> .
+
+<https://example.org/resource/Argentinisches_Tageblatt> wdt:P17 <https://en.wikipedia.org/wiki/Argentina> ;
+ wdt:P127 <https://en.wikipedia.org/wiki/Roberto_Alemann> ;
+ wdt:P3912 <https://en.wikipedia.org/wiki/Broadsheet> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Periodical_literature> ;
+ rdfs:label "Argentinisches Tageblatt"@en ;
+ wdt:P856 <https://www.tageblatt.com.ar/> ;
+ wdt:P571 "1874-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P159 <https://en.wikipedia.org/wiki/Buenos_Aires> ;
+ wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/ArgentinischesTageblatt.svg> ;
+ wdt:P2896 "7"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Newspaper> ;
+ wdt:P407 <https://en.wikipedia.org/wiki/German_language> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Argentina> .
+
+<https://example.org/resource/Buenos_Aires_Herald> wdt:P17 <https://en.wikipedia.org/wiki/Argentina> ;
+ rdfs:label "Buenos Aires Herald"@en ;
+ wdt:P856 <http://www.buenosairesherald.com/> ;
+ wdt:P571 "1876-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P407 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Online_newspaper> ;
+ wdt:P576 "2017-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1476 "Buenos Aires Herald"@en ;
+ wdt:P3912 <https://en.wikipedia.org/wiki/Berliner_(format)> ;
+ wdt:P127 <https://en.wikipedia.org/wiki/%C3%81mbito_Financiero> ;
+ wdt:P1451 "A World of Information in a few words"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Buenos_Aires> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Argentina> .
+---
+These are the labels of the properties:
+
+wdt:P17 -> country
+wdt:P463 -> member of
+wdt:P856 -> official website URL
+wdt:P571 -> inception
+wdt:P18 -> image
+wdt:P112 -> founded by
+wdt:P407 -> language of work or name
+wdt:P1830 -> owner of
+wdt:P31 -> instance of
+wdt:P159 -> headquarters location
+wdt:P495 -> country of origin
+wdt:P127 -> owned by
+wdt:P3912 -> newspaper format
+wdt:P154 -> logo image
+wdt:P2896 -> publication interval
+wdt:P576 -> dissolved, abolished or demolished date
+wdt:P1476 -> title
+wdt:P1451 -> motto text
+wdt:P131 -> located in the administrative territorial entity.
+---
+These are the labels of the objects:
+
+.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+! Newspaper !! Headquarters !! Founded !! Language !! Category 
+|-
+| ''[[The Southern Cross (Argentina)|The Southern Cross]]'' || [[Buenos Aires]] || 1875 
+| style="background:#bbeebb;" | [[Irish language|Irish]], [[Spanish language|Spanish]] || Printed |}
+---

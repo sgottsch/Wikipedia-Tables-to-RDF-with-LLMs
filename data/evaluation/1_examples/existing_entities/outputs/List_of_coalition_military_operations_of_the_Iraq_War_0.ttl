@@ -1,0 +1,64 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Operation_Bayonet_Lightning> wdt:P361 wd:Q545449 ;
+    wdt:P580 "2003-12-02T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-02T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Operation_Bulldog_Mammoth> wdt:P276 wd:Q1530 ;
+    wdt:P361 wd:Q545449 ;
+    wdt:P580 "2003-12-04T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-04T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Operation_Desert_Scorpion> wdt:P276 wd:Q191170 ;
+    wdt:P361 wd:Q545449 ;
+    wdt:P580 "2003-06-15T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-06-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P828 wd:Q179933 .
+
+<https://example.org/resource/Operation_Desert_Thrust> wdt:P276 wd:Q796 ;
+    wdt:P361 wd:Q545449 ;
+    wdt:P580 "2003-10-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-10-31T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Operation_Iron_Hammer> wdt:P276 wd:Q1530 ;
+    wdt:P361 wd:Q545449 ;
+    wdt:P580 "2003-11-12T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-11-12T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P828 wd:Q9212 .
+
+<https://example.org/resource/Operation_Iron_Justice> wdt:P276 wd:Q1530 ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P580 "2003-12-18T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-18T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q163673,
+        wd:Q9212 ;
+    wdt:P828 wd:Q44554 .
+
+<https://example.org/resource/Operation_Ivy_Blizzard> wdt:P276 wd:Q170047 ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P580 "2003-12-17T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-17T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q30 ;
+    wdt:P828 wd:Q760037 .
+
+<https://example.org/resource/Operation_Panther_Squeeze> wdt:P276 wd:Q2618795 ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P580 "2003-12-10T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-10T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P828 wd:Q760037 .
+
+<https://example.org/resource/Operation_Peninsula_Strike> wdt:P276 wd:Q1029645 ;
+    wdt:P361 wd:Q545449 ;
+    wdt:P580 "2003-06-09T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-06-13T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P828 wd:Q179933 .
+
+<https://example.org/resource/Operation_Red_Dawn> wdt:P276 wd:Q1029552 ;
+    wdt:P31 wd:Q645883 ;
+    wdt:P580 "2003-12-13T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P582 "2003-12-13T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q30 ;
+    wdt:P828 wd:Q2526135 .
+

@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Corte-Real_expedition> rdfs:label "Gaspar Corte-Real"@en ;
+    wdt:P31 wd:Q14073567 ;
+    wdt:P3989 wd:Q15056182,
+        wd:Q45199 ;
+    wdt:P527 wd:Q15056183 ;
+    wdt:P580 "1501-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P937 wd:Q36124,
+        wd:Q380307 .
+
+<https://example.org/resource/Corte-Real_rescue_expedition> rdfs:label "Corte-Real rescue expedition"@en ;
+    wdt:P1343 wd:Q19219752 ;
+    wdt:P15 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Portugal.svg> ;
+    wdt:P17 wd:Q97 ;
+    wdt:P1876 wd:Q200464 ;
+    wdt:P31 wd:Q366301 ;
+    wdt:P495 wd:Q45 ;
+    wdt:P580 "1502-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P710 wd:Q374424,
+        wd:Q748766 .
+
+<https://example.org/resource/Ferrer_expedition> rdfs:label "Ferrer expedition"@en ;
+    wdt:P276 wd:Q6250 ;
+    wdt:P31 wd:Q110903080 ;
+    wdt:P361 wd:Q185222 ;
+    wdt:P585 "1346-01-01T00:00:00+00:00"^^xsd:dateTime .
+

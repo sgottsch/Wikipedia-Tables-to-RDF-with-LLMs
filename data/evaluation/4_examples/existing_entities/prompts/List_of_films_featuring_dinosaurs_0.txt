@@ -1,0 +1,224 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of films featuring dinosaurs" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+!Title!!Year!!Country!!Type!!Ref.
+|-
+| ''[[65 (film)|65]]'' || 2023 || United States || || <ref>{{cite web |url= https://www.smithsonianmag.com/science-nature/what-earth-would-have-really-looked-like-in-the-sci-fi-movie-65-180981772/ | title= What Earth Would Have Really Looked Like in Adam Driver’s ‘65’ |accessdate=4 February 2024}}</ref>
+|-
+| ''[[Adhisaya Ulagam]]'' || 2012 || India || ||{{fact|date=October 2023}}
+|-
+| ''[[Adventures in Dinosaur City]]'' || 1991 || United States, United Kingdom, Italy || TV film || {{fact|date=October 2023}}
+|-
+| ''[[Age of Dinosaurs]]'' || 2013 || United States || direct-to-DVD||{{fact|date=October 2023}} |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/65> wdt:P2629 wd:Q23301856 ;
+ wdt:P1552 wd:Q27834579 ;
+ wdt:P915 <https://en.wikipedia.org/wiki/New_Orleans> ;
+ wdt:P750 wd:Q3490764 ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Scott_Beck> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Bryan_Woods> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Sam_Raimi> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Adam_Driver> ;
+ wdt:P856 <https://www.65.movie/> ;
+ wdt:P2408 <https://en.wikipedia.org/wiki/Paleocene> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "93"^^xsd:decimal ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Bryan_Woods> ;
+ wdt:P1981 wd:Q20644797 ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Sony_Pictures> ;
+ wdt:P2363 wd:Q21571489 ;
+ wdt:P7573 wd:Q74434531 ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Ariana_Greenblatt> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Nika_King> ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Chloe_Coleman> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Debbie_Liebling> ;
+ wdt:P8889 wd:Q102108196 ;
+ rdfs:label "65"@en ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Thriller_film> ;
+ wdt:P2684 wd:Q23649983 ;
+ wdt:P2756 wd:Q23790275 ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Scott_Beck> ;
+ wdt:P344 <https://en.wikipedia.org/wiki/Salvatore_Totino> ;
+ wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/65%20film%20logo.jpg> ;
+ wdt:P272 <https://en.wikipedia.org/wiki/Columbia_Pictures> ;
+ wdt:P915 <https://en.wikipedia.org/wiki/Kisatchie_National_Forest> ;
+ wdt:P577 "2023-03-09T00:00:00Z"^^xsd:dateTime ;
+ wdt:P577 "2023-03-10T00:00:00Z"^^xsd:dateTime ;
+ wdt:P577 "2023-03-15T00:00:00Z"^^xsd:dateTime ;
+ wdt:P577 "2023-03-16T00:00:00Z"^^xsd:dateTime ;
+ wdt:P5150 wd:Q52692411 ;
+ wdt:P86 <https://en.wikipedia.org/wiki/Danny_Elfman> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Survival_film> ;
+ wdt:P3402 wd:Q27915575 ;
+ wdt:P3306 wd:Q27253945 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_film> ;
+ wdt:P1657 wd:Q18665339 ;
+ wdt:P2758 wd:Q23817739 ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Scott_Beck> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/HK%20SKD%20TKO%20%E5%B0%87%E8%BB%8D%E6%BE%B3%20Tseung%20Kwan%20O%20%E6%97%A5%E5%87%BA%E5%BA%B7%E5%9F%8E%20The%20Lohas%20Park%20%E5%95%86%E5%A0%B4%20mall%20shop%20%E8%8B%B1%E7%9A%87%E6%88%B2%E9%99%A2%20Emperor%20Cinemas%20banners%20n%20corridor%20lobby%20February%202023%20Px3%2001.jpg> ;
+ wdt:P2758 wd:Q23817729 ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Bryan_Woods> ;
+ wdt:P462 wd:Q22006653 ;
+ wdt:P2130 "45000000"^^xsd:decimal ;
+ wdt:P1476 "65"@en ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Adventure_film> .
+
+<https://example.org/resource/Adhisaya_Ulagam> wdt:P921 <https://en.wikipedia.org/wiki/Time_travel> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Chennai> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/Tamil_language> ;
+ wdt:P577 "2012-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Dinosaur> ;
+ rdfs:label "Adhisaya Ulagam 3D"@en ;
+ wdt:P495 <https://en.wikipedia.org/wiki/India> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/3D_film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_film> ;
+ wdt:P462 wd:Q22006653 .
+
+<https://example.org/resource/Adventures_in_Dinosaur_City> wdt:P161 <https://en.wikipedia.org/wiki/Omri_Katz> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Drama_(film_and_television)> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P1476 "Adventures in Dinosaur City"@en ;
+ wdt:P57 <https://en.wikipedia.org/wiki/Brett_Thompson> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "88"^^xsd:decimal ;
+ wdt:P58 <https://en.wikipedia.org/wiki/Lisa_Morton> ;
+ wdt:P577 "1991-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Republic_Pictures> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Children%27s_film> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P162 <https://en.wikipedia.org/wiki/Lisa_Morton> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Comedy_film> ;
+ wdt:P921 <https://en.wikipedia.org/wiki/Dinosaur> ;
+ wdt:P577 "1991-12-12T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "Adventures in Dinosaur City"@en ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Fantasy_film> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_film> ;
+ wdt:P2758 wd:Q23817729 ;
+ wdt:P162 wd:Q106313202 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Adventure_film> .
+
+<https://example.org/resource/Age_of_Dinosaurs> wdt:P840 <https://en.wikipedia.org/wiki/Los_Angeles> ;
+ rdfs:label "Age of Dinosaurs"@en ;
+ wdt:P1040 wd:Q64689345 ;
+ wdt:P162 wd:Q1175663 ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Video_on_demand> ;
+ wdt:P577 "2015-10-08T00:00:00Z"^^xsd:dateTime ;
+ wdt:P577 "2015-10-15T00:00:00Z"^^xsd:dateTime ;
+ wdt:P161 <https://en.wikipedia.org/wiki/Treat_Williams> ;
+ wdt:P364 <https://en.wikipedia.org/wiki/English_language> ;
+ wdt:P272 <https://en.wikipedia.org/wiki/The_Asylum> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Action_film> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/United_States> ;
+ wdt:P2047 "88"^^xsd:decimal ;
+ wdt:P1476 "Age of Dinosaurs"@en ;
+ wdt:P437 <https://en.wikipedia.org/wiki/Direct-to-video> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Film> ;
+ wdt:P577 "2013-05-19T00:00:00Z"^^xsd:dateTime ;
+ wdt:P161 wd:Q25907677 ;
+ wdt:P750 wd:Q16516296 ;
+ wdt:P86 wd:Q22662418 ;
+ wdt:P2363 wd:Q21571488 ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Science_fiction_film> ;
+ wdt:P57 wd:Q64590709 ;
+ wdt:P750 <https://en.wikipedia.org/wiki/Netflix> .
+---
+These are the labels of the properties:
+
+wdt:P2629 -> BBFC rating
+wdt:P1552 -> has characteristic
+wdt:P915 -> filming location
+wdt:P750 -> distributed by
+wdt:P57 -> director
+wdt:P364 -> original language of film or TV show
+wdt:P162 -> producer
+wdt:P161 -> cast member
+wdt:P856 -> official website URL
+wdt:P2408 -> set in period
+wdt:P495 -> country of origin
+wdt:P2047 -> duration
+wdt:P1981 -> FSK film rating
+wdt:P272 -> production company
+wdt:P2363 -> NMHH film rating
+wdt:P7573 -> IFCO rating
+wdt:P8889 -> MTRCB rating
+wdt:P31 -> instance of
+wdt:P136 -> genre
+wdt:P2684 -> Kijkwijzer rating
+wdt:P2756 -> EIRIN film rating
+wdt:P58 -> screenwriter
+wdt:P344 -> director of photography
+wdt:P154 -> logo image
+wdt:P577 -> publication date
+wdt:P5150 -> IGAC rating
+wdt:P86 -> composer
+wdt:P3402 -> CNC film rating (Romania)
+wdt:P3306 -> ICAA rating
+wdt:P1657 -> MPA film rating
+wdt:P2758 -> CNC film rating (France)
+wdt:P18 -> image
+wdt:P462 -> color
+wdt:P2130 -> cost
+wdt:P1476 -> title
+wdt:P921 -> main subject
+wdt:P840 -> narrative location
+wdt:P1040 -> film editor
+wdt:P437 -> distribution format.
+---
+These are the labels of the objects:
+
+wd:Q23301856 -> 12 certificate
+wd:Q27834579 -> title for Hispanic America
+wd:Q3490764 -> Sony Pictures Releasing France
+wd:Q20644797 -> FSK 16
+wd:Q21571489 -> Category IV
+wd:Q74434531 -> 12A
+wd:Q102108196 -> Parental Guidance
+wd:Q23649983 -> 12
+wd:Q23790275 -> G
+wd:Q52692411 -> M/12
+wd:Q27915575 -> A.P. - 12
+wd:Q27253945 -> not recommended for children under 12
+wd:Q18665339 -> PG-13
+wd:Q23817739 -> warning
+wd:Q23817729 -> no age restriction
+wd:Q22006653 -> color
+wd:Q106313202 -> Luigi Cingolani
+wd:Q64689345 -> Rob Pallatina
+wd:Q1175663 -> David Michael Latt
+wd:Q25907677 -> Jennifer Robyn Jacobs
+wd:Q16516296 -> ADS Service
+wd:Q22662418 -> Chris Ridenhour
+wd:Q21571488 -> Category III
+wd:Q64590709 -> Joseph J. Lawson.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+!Title!!Year!!Country!!Type!!Ref.
+|-
+| ''[[Jurassic World: Fallen Kingdom]]'' || 2018 || United States || Jurassic Park franchise ||<ref>{{cite web | url= https://movieweb.com/jurassic-park-criticized-sequel-hit-netflix/ | title= Jurassic Park's Most Criticized Sequel Becomes a Huge Hit on Netflix |accessdate=4 February 2024}}</ref>
+|-
+| ''[[King Dinosaur]]'' || 1955 || United States || ||{{fact|date=October 2023}}
+|-
+| ''[[King Kong (1933 film)|King Kong]]'' || 1933 || United States || ||{{fact|date=October 2023}}
+|-
+| ''[[King Kong (2005 film)|King Kong]]'' || 2005 || United States || ||{{fact|date=October 2023}}
+|-
+| ''[[King Kong Escapes]]'' || 1967 || United States || ||{{fact|date=October 2023}}
+|-
+| ''[[Kong: Skull Island]]'' || 2017 || United States || MonsterVerse || {{Efn|A ''[[Triceratops]]'' skull is briefly shown.}} |}
+---

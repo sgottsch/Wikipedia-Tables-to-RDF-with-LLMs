@@ -1,0 +1,17 @@
+SELECT DISTINCT ?p ?propertyLabel ?o ?oArticle ?oLabel WHERE {
+    wd:Q17526496 ?p ?o .
+
+    FILTER(STRSTARTS(STR(?p), STR(wdt:)) || ?p in (rdfs:label)) .
+    FILTER(!isLiteral(?o) || isNumeric(?o) || lang(?o) = "en") .
+
+    OPTIONAL {
+        ?oArticle schema:about ?o .
+        ?oArticle schema:isPartOf <https://en.wikipedia.org/> .
+    }
+
+    OPTIONAL {
+        ?property wikibase:directClaim ?p  .
+    }
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}

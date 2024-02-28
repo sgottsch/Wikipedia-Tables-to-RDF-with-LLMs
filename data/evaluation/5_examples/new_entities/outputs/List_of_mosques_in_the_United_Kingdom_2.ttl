@@ -1,0 +1,11 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/North_Manchester_Jamé_Masjid> rdfs:label "North Manchester Jamé Masjid"@en ;
+    wdt:P131 wd:Q21525592 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P7959 wd:Q67311452 ;
+    wdt:P856 <https://www.manchestermasjid.co.uk/> .
+

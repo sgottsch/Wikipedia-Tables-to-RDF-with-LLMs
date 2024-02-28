@@ -1,0 +1,30 @@
+In both
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20McKavett%20State%20Historic%20Site.jpg> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q112756208> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q111821> .
+In ground only
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q5471633> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q15243209> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1439> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P6375> "S bank of the San Saba River"@en .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q385378> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.w3.org/2000/01/rdf-schema#label> "Fort McKavett"@en .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.w3.org/2000/01/rdf-schema#label> "Presidio of San Sabá"@en .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P856> <https://www.thc.texas.gov/historic-sites/fort-mckavett-state-historic-site> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q52063464> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P1435> <http://www.wikidata.org/entity/Q19558910> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q40357> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Presidio%20de%20San%20Sab%C3%A1%20in%20Menard%20%2810549348075%29.jpg> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P973> <https://www.facebook.com/groups/fortmckavettvolunteers/> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1785071> .
+In predicted only
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q111821> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.w3.org/2000/01/rdf-schema#label> "Fort McKavett State Historic Site"@en .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Presidio%20de%20San%20Saba%20in%20Menard%20(10549348075).jpg> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q33506> .
+<https://example.org/resource/Fort_McKavett_State_Historic_Site> <http://www.wikidata.org/prop/direct/P571> "1852-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.w3.org/2000/01/rdf-schema#label> "Presidio de San Saba"@en .
+<https://example.org/resource/Presidio_de_San_Saba> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q112756208> .

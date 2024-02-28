@@ -1,0 +1,445 @@
+In both
+<https://example.org/resource/Ponytail> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20ponytail%20still%20intact.jpg> .
+<https://example.org/resource/Payot> <http://www.w3.org/2000/01/rdf-schema#label> "payot"@en .
+<https://example.org/resource/Frosted_tips> <http://www.w3.org/2000/01/rdf-schema#label> "frosted tips"@en .
+<https://example.org/resource/Mullet> <http://www.w3.org/2000/01/rdf-schema#label> "mullet"@en .
+<https://example.org/resource/Feathered_hair> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Lob> <http://www.w3.org/2000/01/rdf-schema#label> "lob"@en .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Princeton> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Taper_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Oseledets> <http://www.w3.org/2000/01/rdf-schema#label> "oseledets"@en .
+<https://example.org/resource/Wings> <http://www.w3.org/2000/01/rdf-schema#label> "wings"@en .
+<https://example.org/resource/Lob> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Devilock> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Liberty_spikes> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Shingle_bob> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Shape-Up> <http://www.w3.org/2000/01/rdf-schema#label> "shape-up"@en .
+<https://example.org/resource/Rattail> <http://www.w3.org/2000/01/rdf-schema#label> "rattail"@en .
+<https://example.org/resource/Payot> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Shag_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Jewfro> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Marcel_waves> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Short_hair> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Queue> <http://www.w3.org/2000/01/rdf-schema#label> "queue"@en .
+<https://example.org/resource/Ponytail> <http://www.w3.org/2000/01/rdf-schema#label> "ponytail"@en .
+<https://example.org/resource/Ponytail> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Oseledets> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Quiff> <http://www.w3.org/2000/01/rdf-schema#label> "quiff"@en .
+<https://example.org/resource/Waves> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Perm> <http://www.w3.org/2000/01/rdf-schema#label> "perm"@en .
+<https://example.org/resource/French_braid> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Hime_cut> <http://www.w3.org/2000/01/rdf-schema#label> "hime cut"@en .
+<https://example.org/resource/Liberty_spikes> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Spikesfront.jpg> .
+<https://example.org/resource/Ponyhawk> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Pompadour> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Mullet> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Lob> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q102247646> .
+<https://example.org/resource/Ringlets> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Spiky_hair> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Queue> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Surfer_hair> <http://www.w3.org/2000/01/rdf-schema#label> "surfer hair"@en .
+<https://example.org/resource/Short_brush_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/French_twist> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Feathered_hair> <http://www.w3.org/2000/01/rdf-schema#label> "feathered hair"@en .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Waves> <http://www.w3.org/2000/01/rdf-schema#label> "waves"@en .
+<https://example.org/resource/Quiff> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Devilock> <http://www.w3.org/2000/01/rdf-schema#label> "devilock"@en .
+<https://example.org/resource/Surfer_hair> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Jheri_curl> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Perm> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Frosted_tips> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Hime_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Pompadour> <http://www.w3.org/2000/01/rdf-schema#label> "pompadour"@en .
+<https://example.org/resource/Rattail> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Croydon_facelift> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Croydon%20facelift%202012.jpg> .
+<https://example.org/resource/Liberty_spikes> <http://www.w3.org/2000/01/rdf-schema#label> "liberty spikes"@en .
+<https://example.org/resource/Surfer_hair> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Surfer%20hair.jpg> .
+<https://example.org/resource/Short_hair> <http://www.w3.org/2000/01/rdf-schema#label> "short hair"@en .
+<https://example.org/resource/Fontange> <http://www.w3.org/2000/01/rdf-schema#label> "fontange"@en .
+<https://example.org/resource/French_twist> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Frenchtwist.jpg> .
+<https://example.org/resource/Croydon_facelift> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+In ground only
+<https://example.org/resource/Pigtail> <http://www.wikidata.org/prop/direct/P460> <http://www.wikidata.org/entity/Q102292133> .
+<https://example.org/resource/Princeton> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q49113> .
+<https://example.org/resource/Updo> <http://www.wikidata.org/prop/direct/P1687> <http://www.wikidata.org/entity/P8839> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q5362194> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/GolarkaElektryczna.JPG> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Cynthia.png> .
+<https://example.org/resource/Oseledets> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q11838553> .
+<https://example.org/resource/French_braid> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q17586681> .
+<https://example.org/resource/Pompadour> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q111032087> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Danielle%20Trotta%202016.jpg> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/%E6%9E%97%E9%9D%96%E9%A2%A8.jpg> .
+<https://example.org/resource/Hime_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/20170225%20CWT-T17%20Day1%20DSC%204495%20%2833023006411%29.jpg> .
+<https://example.org/resource/Short_hair> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q10532119> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Ponyhawk> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Duke.JPG> .
+<https://example.org/resource/Shag_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/The_Rachel> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q5383806> .
+<https://example.org/resource/Mullet> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Modern%20Mullet.jpg> .
+<https://example.org/resource/Shingle_bob> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q111204199> .
+<https://example.org/resource/Payot> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/East%20Jerusalem%20-%20The%20Old%20City%20-%20038%20%284260816689%29.jpg> .
+<https://example.org/resource/Short_brush_cut> <http://www.wikidata.org/prop/direct/P2561> "butch cut"@en .
+<https://example.org/resource/Short_brush_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/IMasc.jpg> .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q231250> .
+<https://example.org/resource/Wings> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/WingsHaircut.jpg> .
+<https://example.org/resource/Perm> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q915> .
+<https://example.org/resource/French_braid> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q65066971> .
+<https://example.org/resource/Taper_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q30898216> .
+<https://example.org/resource/Frosted_tips> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q62010418> .
+<https://example.org/resource/Mullet> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q4812073> .
+<https://example.org/resource/Chignon> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Shingle_bob> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q28454959> .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Fontange.jpg> .
+<https://example.org/resource/Updo> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q6961531> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P1535> <http://www.wikidata.org/entity/Q781850> .
+<https://example.org/resource/Feathered_hair> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Farrah%20Fawcett%201977.JPG> .
+<https://example.org/resource/Payot> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q2932663> .
+<https://example.org/resource/Payot> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111270084> .
+<https://example.org/resource/The_Rachel> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q7461136> .
+<https://example.org/resource/Pompadour> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Pompadour%20%28PSF%29.png> .
+<https://example.org/resource/Ringlets> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q12337> .
+<https://example.org/resource/Taper_cut> <http://www.w3.org/2000/01/rdf-schema#label> "male short haircut"@en .
+<https://example.org/resource/Hime_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q14130> .
+<https://example.org/resource/Ponyhawk> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q111353747> .
+<https://example.org/resource/Queue> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Qinghairstyle.jpg> .
+<https://example.org/resource/Updo> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q30059240> .
+<https://example.org/resource/Fringe_(bangs)> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q72854003> .
+<https://example.org/resource/Short_hair> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Young%20man%20with%20short%20black%20hair%20from%20behind.jpg> .
+<https://example.org/resource/Waves> <http://www.wikidata.org/prop/direct/P1382> <http://www.wikidata.org/entity/Q7259960> .
+<https://example.org/resource/Jewfro> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q15304953> .
+<https://example.org/resource/Queue> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q92101094> .
+<https://example.org/resource/Spiky_hair> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Spikesfront.jpg> .
+<https://example.org/resource/Perm> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q3080415> .
+<https://example.org/resource/Shingle_bob> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Rattail> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Child%20in%20the%201980%27s%20with%20a%20rattail.jpg> .
+<https://example.org/resource/Weave> <http://www.wikidata.org/prop/direct/P1382> <http://www.wikidata.org/entity/Q50303450> .
+<https://example.org/resource/The_Rachel> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q581353> .
+<https://example.org/resource/Updo> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q207961> .
+<https://example.org/resource/Harvard_clip> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Odango> <http://www.w3.org/2000/01/rdf-schema#label> "bun"@en .
+<https://example.org/resource/Mullet> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q2293042> .
+<https://example.org/resource/Updo> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20heads%20and%20shoulders%20of%20five%20women%20with%20their%20hair%20combed%20Wellcome%20V0019889EL.jpg> .
+<https://example.org/resource/Pigtail> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Mod_cut> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q2095299> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q597040> .
+<https://example.org/resource/Jewfro> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Perm> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1636584> .
+<https://example.org/resource/Ponytail> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q2942968> .
+<https://example.org/resource/Short_hair> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Hong%20Jin-kyung%20at%20the%202016%20KBS%20Entertainment%20Awards.jpg> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q1751721> .
+<https://example.org/resource/Chignon> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Scrunchie%20is%20back%20foulchie%20chignon%201024x1024%402x.jpg> .
+<https://example.org/resource/Frosted_tips> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Lance%20Bass%202014.jpg> .
+<https://example.org/resource/Pompadour> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q11283838> .
+<https://example.org/resource/Updo> <http://www.wikidata.org/prop/direct/P1479> <http://www.wikidata.org/entity/Q10532119> .
+<https://example.org/resource/Razor_cut> <http://www.w3.org/2000/01/rdf-schema#label> "razor"@en .
+<https://example.org/resource/Pigtail> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Hollantilaiset%20letit.jpg> .
+<https://example.org/resource/Step_cut> <http://www.w3.org/2000/01/rdf-schema#label> "Step cutting"@en .
+<https://example.org/resource/Short_brush_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1640574> .
+<https://example.org/resource/Princeton> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Liberty_spikes> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/BunnyPunk.jpg> .
+<https://example.org/resource/Waves> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Frosted_tips> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q2329734> .
+<https://example.org/resource/Wings> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q2095299> .
+<https://example.org/resource/Shag_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20surfer%20hair.jpg> .
+<https://example.org/resource/Marcel_waves> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1566524> .
+<https://example.org/resource/Marcel_waves> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/StateLibQld%201%20189979%20Actress%20Margery%20Hickling.jpg> .
+<https://example.org/resource/Jewfro> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Natural%20Afro%20-%20hair%20type%204c-%20model%20Gwyneth%20Ellis.jpg> .
+<https://example.org/resource/Lob> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q370366> .
+<https://example.org/resource/Short_hair> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P580> "1690-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/French_twist> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q1279269> .
+<https://example.org/resource/Ringlets> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1636584> .
+<https://example.org/resource/Weave> <http://www.w3.org/2000/01/rdf-schema#label> "artificial hair integrations"@en .
+<https://example.org/resource/Short_brush_cut> <http://www.w3.org/2000/01/rdf-schema#label> "brush cut"@en .
+<https://example.org/resource/Chignon> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kerry%20Washington%2C%20Deliver%20Commencement%20Address%20GWU%20%288755060710%29.jpg> .
+<https://example.org/resource/Marcel_waves> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q5450257> .
+<https://example.org/resource/Ponyhawk> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111032730> .
+<https://example.org/resource/Mullet> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/David%20Bowie%20-%20TopPop%201974%2003.png> .
+<https://example.org/resource/Shag_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Partridge%20Family%20David%20Cassidy%201972.jpg> .
+<https://example.org/resource/Princeton> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q863338> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q2942968> .
+<https://example.org/resource/Chignon> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q14130> .
+<https://example.org/resource/Shingle_bob> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q965880> .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q6918773> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/%E6%9E%97%E9%9D%96%E9%A2%A8.jpg> .
+<https://example.org/resource/Jewfro> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q48976692> .
+<https://example.org/resource/Payot> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q2835565> .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Duke.JPG> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q96211828> .
+<https://example.org/resource/Shape-Up> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111032730> .
+<https://example.org/resource/Devilock> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Misfits6.jpg> .
+<https://example.org/resource/Wings> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Styles2.jpg> .
+<https://example.org/resource/Marcel_waves> <http://www.wikidata.org/prop/direct/P5008> <http://www.wikidata.org/entity/Q15304953> .
+<https://example.org/resource/Quiff> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q14776796> .
+<https://example.org/resource/Weave> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q5856> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mus%C3%A9e%20d%27histoire%20de%20Nantes%20-%20465%20-%20Rasoir%20de%20marin.jpg> .
+<https://example.org/resource/Croydon_facelift> <http://www.wikidata.org/prop/direct/P460> <http://www.wikidata.org/entity/Q16550307> .
+<https://example.org/resource/Fringe_(bangs)> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Updo> <http://www.wikidata.org/prop/direct/P2919> <http://commons.wikimedia.org/wiki/Special:FilePath/Swl-h%C3%A5rklippning-spreadthesign-28606.ogv> .
+<https://example.org/resource/Oseledets> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q2415705> .
+<https://example.org/resource/The_Rachel> <http://www.w3.org/2000/01/rdf-schema#label> "Rachel haircut"@en .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P910> <http://www.wikidata.org/entity/Q55250246> .
+<https://example.org/resource/Brush_cut> <http://www.wikidata.org/prop/direct/P2561> "butch cut"@en .
+<https://example.org/resource/Ponyhawk> <http://www.w3.org/2000/01/rdf-schema#label> "Mohawk hairstyle"@en .
+<https://example.org/resource/Devilock> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Brush_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Chignon> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q111187248> .
+<https://example.org/resource/Oseledets> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Maksym%20Zalizniak.jpg> .
+<https://example.org/resource/Rattail> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q1410374> .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q28864320> .
+<https://example.org/resource/Mod_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/WingsHaircut.jpg> .
+<https://example.org/resource/Oseledets> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kozacka%20piesn.jpg> .
+<https://example.org/resource/Weave> <http://www.wikidata.org/prop/direct/P186> <http://www.wikidata.org/entity/Q28472> .
+<https://example.org/resource/Queue> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q8733> .
+<https://example.org/resource/Mod_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Styles2.jpg> .
+<https://example.org/resource/Ringlets> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q116267059> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q5139592> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P3095> <http://www.wikidata.org/entity/Q781850> .
+<https://example.org/resource/French_braid> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Auguste%20Renoir%20-%20Suzanne%20Valadon%20-%20La%20Natte.jpg> .
+<https://example.org/resource/Liberty_spikes> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q62010418> .
+<https://example.org/resource/Jheri_curl> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q869880> .
+<https://example.org/resource/Shingle_bob> <http://www.w3.org/2000/01/rdf-schema#label> "bob cut"@en .
+<https://example.org/resource/Liberty_spikes> <http://www.wikidata.org/prop/direct/P1269> <http://www.wikidata.org/entity/Q2423086> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q15244086> .
+<https://example.org/resource/French_twist> <http://www.w3.org/2000/01/rdf-schema#label> "French twist"@en .
+<https://example.org/resource/Updo> <http://www.w3.org/2000/01/rdf-schema#label> "hairstyle"@en .
+<https://example.org/resource/Mullet> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/SuperMullet.jpg> .
+<https://example.org/resource/Croydon_facelift> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Till%20pedagogkursen.jpg> .
+<https://example.org/resource/Short_hair> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q7309600> .
+<https://example.org/resource/Chignon> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q111190507> .
+<https://example.org/resource/Waves> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/360%20wave%20process%20hair%20waves.jpg> .
+<https://example.org/resource/Perm> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q5276131> .
+<https://example.org/resource/Short_hair> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q111203235> .
+<https://example.org/resource/Ringlets> <http://www.w3.org/2000/01/rdf-schema#label> "ringlet"@en .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q116971> .
+<https://example.org/resource/Ponytail> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q14130> .
+<https://example.org/resource/Ringlets> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q769737> .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.w3.org/2000/01/rdf-schema#label> "Mohawk hairstyle"@en .
+<https://example.org/resource/Jewfro> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/LaurynHill%20cropped.jpg> .
+<https://example.org/resource/French_braid> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q839734> .
+<https://example.org/resource/Marcel_waves> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Japanese%20woman%20curling%20hair%20c1920s.jpg> .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q28972621> .
+<https://example.org/resource/Ringlets> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Sharon%20Wild%20iafd.jpg> .
+<https://example.org/resource/Pigtail> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q2942968> .
+<https://example.org/resource/Pigtail> <http://www.w3.org/2000/01/rdf-schema#label> "pigtail"@en .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q68518> .
+<https://example.org/resource/Pigtail> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q72854003> .
+<https://example.org/resource/Brush_cut> <http://www.w3.org/2000/01/rdf-schema#label> "brush cut"@en .
+<https://example.org/resource/Ponytail> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q16550307> .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P793> <http://www.wikidata.org/entity/Q47468023> .
+<https://example.org/resource/Surfer_hair> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111143758> .
+<https://example.org/resource/Weave> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q29874252> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q3219606> .
+<https://example.org/resource/Brush_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Spiky_hair> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q250209> .
+<https://example.org/resource/Ponyhawk> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mohawk%20-%20Millennium%20Park.jpg> .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mohawk%20-%20Millennium%20Park.jpg> .
+<https://example.org/resource/Shape-Up> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/ScottEvansEmmys.jpg> .
+<https://example.org/resource/Bun> <http://www.w3.org/2000/01/rdf-schema#label> "bun"@en .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q2942968> .
+<https://example.org/resource/Ponyhawk> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q6542211> .
+<https://example.org/resource/Pompadour> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q2516953> .
+<https://example.org/resource/Hime_cut> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q3889712> .
+<https://example.org/resource/Brush_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1640574> .
+<https://example.org/resource/Hime_cut> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q3889712> .
+<https://example.org/resource/Taper_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q3041932> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q17457835> .
+<https://example.org/resource/Waves> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/How%20to%20get%20360waves.jpg> .
+<https://example.org/resource/Quiff> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Nieuwe%20Weense%20kapsels%2C%20Bestanddeelnr%20915-0081.jpg> .
+<https://example.org/resource/Updo> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1292119> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q72854003> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q72854003> .
+<https://example.org/resource/Mod_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Pompadour> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Laika%20ac%20Yoyogi%20Rockers%20%287520536482%29.jpg> .
+<https://example.org/resource/Mod_cut> <http://www.w3.org/2000/01/rdf-schema#label> "wings"@en .
+<https://example.org/resource/Jheri_curl> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1636584> .
+<https://example.org/resource/Brush_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/IMasc.jpg> .
+<https://example.org/resource/Weave> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q21369154> .
+<https://example.org/resource/Payot> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Government%20Press%20Office%20%28GPO%29%20-%20%E2%80%9CSlichot%E2%80%9D%20Prayer%20%283%29.jpg> .
+<https://example.org/resource/Fringe_(bangs)> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q11276054> .
+<https://example.org/resource/French_braid> <http://www.w3.org/2000/01/rdf-schema#label> "French braid"@en .
+<https://example.org/resource/Shape-Up> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q72858313> .
+<https://example.org/resource/Marcel_waves> <http://www.w3.org/2000/01/rdf-schema#label> "marcelling"@en .
+<https://example.org/resource/Spiky_hair> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q62010418> .
+<https://example.org/resource/Princeton> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q1427424> .
+<https://example.org/resource/Updo> <http://www.wikidata.org/prop/direct/P101> <http://www.wikidata.org/entity/Q12684> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q1440839> .
+<https://example.org/resource/Liberty_spikes> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q250209> .
+<https://example.org/resource/Taper_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/David%20Tomlinson%20Headshot.jpg> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q7299618> .
+<https://example.org/resource/Harvard_clip> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q1427424> .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q111353747> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q11625433> .
+<https://example.org/resource/Queue> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Chinese%20Meal%20by%20Lai%20Afong%2C%20c1880.JPG> .
+<https://example.org/resource/Rattail> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q3332053> .
+<https://example.org/resource/Taper_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Actor%20Benedict%20Wal.png> .
+<https://example.org/resource/Oseledets> <http://www.wikidata.org/prop/direct/P2561> "oseledets"@en .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q62010418> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q10528974> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q1279269> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Danielle%20Trotta%202016.jpg> .
+<https://example.org/resource/French_braid> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q65066971> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q1279269> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q1440839> .
+<https://example.org/resource/Jewfro> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q102247646> .
+<https://example.org/resource/Ponytail> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q839734> .
+<https://example.org/resource/Taper_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q17126303> .
+<https://example.org/resource/Mullet> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q953512> .
+<https://example.org/resource/Shingle_bob> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Hani%20at%20the%20Thank%20U%20Festival%202016%2001.jpg> .
+<https://example.org/resource/Princeton> <http://www.w3.org/2000/01/rdf-schema#label> "Ivy League haircut"@en .
+<https://example.org/resource/Fringe_(bangs)> <http://www.w3.org/2000/01/rdf-schema#label> "bangs"@en .
+<https://example.org/resource/Chignon> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q15240969> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q1751721> .
+<https://example.org/resource/Short_hair> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q102247468> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Maquinilla%20desarmada.JPG> .
+<https://example.org/resource/Queue> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111032730> .
+<https://example.org/resource/Jheri_curl> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q6065512> .
+<https://example.org/resource/Spiky_hair> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/BunnyPunk.jpg> .
+<https://example.org/resource/Chignon> <http://www.w3.org/2000/01/rdf-schema#label> "chignon"@en .
+<https://example.org/resource/Queue> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q65066971> .
+<https://example.org/resource/Jheri_curl> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ice%20Cube%20HS%20Yearbook.jpeg> .
+<https://example.org/resource/Taper_cut> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q111203235> .
+<https://example.org/resource/Lob> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Emma%20Stone%202014.jpg> .
+<https://example.org/resource/Jheri_curl> <http://www.w3.org/2000/01/rdf-schema#label> "Jheri curl"@en .
+<https://example.org/resource/Short_brush_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111032730> .
+<https://example.org/resource/Taper_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q3740435> .
+<https://example.org/resource/Pigtail> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q653122> .
+<https://example.org/resource/Oseledets> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q212> .
+<https://example.org/resource/The_Rachel> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Jennifer%20Aniston%202011.jpg> .
+<https://example.org/resource/Feathered_hair> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q102247646> .
+<https://example.org/resource/Ponyhawk> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q62010418> .
+<https://example.org/resource/Harvard_clip> <http://www.w3.org/2000/01/rdf-schema#label> "Ivy League haircut"@en .
+<https://example.org/resource/Spiky_hair> <http://www.w3.org/2000/01/rdf-schema#label> "liberty spikes"@en .
+<https://example.org/resource/Weave> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Deep%20wave%2Cdeep%20curl.jpg> .
+<https://example.org/resource/Quiff> <http://www.wikidata.org/prop/direct/P460> <http://www.wikidata.org/entity/Q111032087> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q56441911> .
+<https://example.org/resource/Harvard_clip> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q49113> .
+<https://example.org/resource/Fringe_(bangs)> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Bangs.jpg> .
+<https://example.org/resource/Layered_hair> <http://www.w3.org/2000/01/rdf-schema#label> "Layered hair"@en .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q32489> .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P582> "1710-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Spiky_hair> <http://www.wikidata.org/prop/direct/P1269> <http://www.wikidata.org/entity/Q2423086> .
+<https://example.org/resource/Queue> <http://www.wikidata.org/prop/direct/P1269> <http://www.wikidata.org/entity/Q15138317> .
+<https://example.org/resource/Waves> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1636584> .
+<https://example.org/resource/Shag_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q5274226> .
+<https://example.org/resource/Perm> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q7259960> .
+<https://example.org/resource/Pigtail> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q112999842> .
+<https://example.org/resource/Ponyhawk> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q116971> .
+<https://example.org/resource/French_braid> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q111236957> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P366> <http://www.wikidata.org/entity/Q369570> .
+<https://example.org/resource/Marcel_waves> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q1636584> .
+<https://example.org/resource/Harvard_clip> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q863338> .
+<https://example.org/resource/Devilock> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/DevilockSteven.jpg> .
+<https://example.org/resource/Jewfro> <http://www.w3.org/2000/01/rdf-schema#label> "afro"@en .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q30898216> .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q6542211> .
+<https://example.org/resource/Shag_cut> <http://www.w3.org/2000/01/rdf-schema#label> "shag"@en .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P2670> <http://www.wikidata.org/entity/Q1454931> .
+<https://example.org/resource/Payot> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q4173137> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q5362194> .
+<https://example.org/resource/Harvard_clip> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111082186> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q15244086> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Cynthia.png> .
+<https://example.org/resource/Jewfro> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q4906738> .
+<https://example.org/resource/Chignon> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q5502676> .
+<https://example.org/resource/Surfer_hair> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q14130> .
+<https://example.org/resource/French_braid> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Classic%20French%20Braid%20%282%29.JPG> .
+<https://example.org/resource/Bun> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q5139592> .
+<https://example.org/resource/Perm> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q2023802> .
+<https://example.org/resource/Ponyhawk> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q68518> .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P1343> <http://www.wikidata.org/entity/Q99982228> .
+<https://example.org/resource/Oseledets> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111032730> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q111507727> .
+<https://example.org/resource/Chignon> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Chignon-jennadrudi%20%28original%29.jpg> .
+<https://example.org/resource/Hime_cut> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q7244882> .
+<https://example.org/resource/Croydon_facelift> <http://www.w3.org/2000/01/rdf-schema#label> "tightly tied hair"@en .
+<https://example.org/resource/Wings> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q327496> .
+In predicted only
+<https://example.org/resource/Ponyhawk> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Mohawk%201951.jpg> .
+<https://example.org/resource/The_Rachel> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q32522> .
+<https://example.org/resource/The_Rachel> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Updo> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Updo1.jpg> .
+<https://example.org/resource/Shingle_bob> <http://www.w3.org/2000/01/rdf-schema#label> "shingle bob"@en .
+<https://example.org/resource/Jewfro> <http://www.w3.org/2000/01/rdf-schema#label> "jewfro"@en .
+<https://example.org/resource/Mod_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q10532119> .
+<https://example.org/resource/French_braid> <http://www.w3.org/2000/01/rdf-schema#label> "french braid"@en .
+<https://example.org/resource/Ringlets> <http://www.w3.org/2000/01/rdf-schema#label> "ringlets"@en .
+<https://example.org/resource/Jewfro> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Jewfro%202.jpg> .
+<https://example.org/resource/Ringlets> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Hannah%20Fry%20%28by%20Andrew%20Geddes%29.jpg> .
+<https://example.org/resource/Taper_cut> <http://www.w3.org/2000/01/rdf-schema#label> "taper cut"@en .
+<https://example.org/resource/Shag_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Shag%20hairstyle%2001.jpg> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q839734> .
+<https://example.org/resource/Oseledets> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Ilja%20Jefimowitsch%20Repin%20-%20Zaporozhian%20Cossacks%20%28image%20detail%29%202.jpg> .
+<https://example.org/resource/Weave> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Premium%20hair.JPG> .
+<https://example.org/resource/Ivy_League> <http://www.w3.org/2000/01/rdf-schema#label> "harvard clip"@en .
+<https://example.org/resource/Pigtails> <http://www.w3.org/2000/01/rdf-schema#label> "pigtails"@en .
+<https://example.org/resource/Fringe> <http://www.w3.org/2000/01/rdf-schema#label> "fringe"@en .
+<https://example.org/resource/Weave> <http://www.w3.org/2000/01/rdf-schema#label> "weave"@en .
+<https://example.org/resource/French_twist> <http://www.w3.org/2000/01/rdf-schema#label> "french twist"@en .
+<https://example.org/resource/Marcel_waves> <http://www.w3.org/2000/01/rdf-schema#label> "marcel waves"@en .
+<https://example.org/resource/Odango> <http://www.w3.org/2000/01/rdf-schema#label> "odango"@en .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Kim%20Nekroman%20live.jpg> .
+<https://example.org/resource/Jheri_curl> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Jheri%20Curl%20Smile%20(395044434).jpg> .
+<https://example.org/resource/Layered_hair> <http://www.w3.org/2000/01/rdf-schema#label> "layered hair"@en .
+<https://example.org/resource/Fringe> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Rattail> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Rattail.jpeg> .
+<https://example.org/resource/Shingle_bob> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Louise%20Brooks%20in%20Diary%20of%20a%20Lost%20Girl.jpg> .
+<https://example.org/resource/Jewfro> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q388036> .
+<https://example.org/resource/Princeton> <http://www.w3.org/2000/01/rdf-schema#label> "princeton"@en .
+<https://example.org/resource/Step_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Pompadour> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/PresleyPromo1954PhotoOnly.jpg> .
+<https://example.org/resource/Pigtails> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Pigtails.jpg> .
+<https://example.org/resource/Mod_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Razor_cut> <http://www.w3.org/2000/01/rdf-schema#label> "razor cut"@en .
+<https://example.org/resource/Short_brush_cut> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q66491086> .
+<https://example.org/resource/Updo> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/The_Rachel> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Jennifer%20Aniston%20February%202012.jpg> .
+<https://example.org/resource/Ponyhawk> <http://www.w3.org/2000/01/rdf-schema#label> "ponyhawk"@en .
+<https://example.org/resource/Queue> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Curley%20bear.jpg> .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q48976692> .
+<https://example.org/resource/Jheri_curl> <http://www.w3.org/2000/01/rdf-schema#label> "jheri curl"@en .
+<https://example.org/resource/French_braid> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Classic%20French%20Braid.JPG> .
+<https://example.org/resource/Ivy_League> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Wings> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Chace%20Crawford.jpg> .
+<https://example.org/resource/Frosted_tips> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Guy%20Fieri%20at%20Guantanamo%202.jpg> .
+<https://example.org/resource/Mod_cut> <http://www.w3.org/2000/01/rdf-schema#label> "mod cut"@en .
+<https://example.org/resource/Hime_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Hime%20cut.jpg> .
+<https://example.org/resource/Shag_cut> <http://www.w3.org/2000/01/rdf-schema#label> "shag cut"@en .
+<https://example.org/resource/Fontange> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Fontange%20Kneller%20-%20cropped.jpg> .
+<https://example.org/resource/Payot> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Payot%20on%20young%20Hasid%20man%2001.jpg> .
+<https://example.org/resource/Croydon_facelift> <http://www.w3.org/2000/01/rdf-schema#label> "croydon facelift"@en .
+<https://example.org/resource/Weave> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Spiky_hair> <http://www.w3.org/2000/01/rdf-schema#label> "spiky hair"@en .
+<https://example.org/resource/Odango> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Usagi%20Tsukino%20Sailor%20Moon.jpg> .
+<https://example.org/resource/Hime_cut> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q11276054> .
+<https://example.org/resource/The_Rachel> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q79784> .
+<https://example.org/resource/Step_cut> <http://www.w3.org/2000/01/rdf-schema#label> "step cut"@en .
+<https://example.org/resource/Layered_hair> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Mullet> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q102247646> .
+<https://example.org/resource/Waves> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/SpinnazForWiki.jpg> .
+<https://example.org/resource/Updo> <http://www.w3.org/2000/01/rdf-schema#label> "updo"@en .
+<https://example.org/resource/Pigtails> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Quiff> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Elly%20Jackson.jpg> .
+<https://example.org/resource/Shape-Up> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/D-Wade%20in%20Chicago%20-%20cropped%20version.jpg> .
+<https://example.org/resource/Wings> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Razor_cut> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Devilock> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Devilock.png> .
+<https://example.org/resource/Shape-Up> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q327496> .
+<https://example.org/resource/Psychobilly_Wedge> <http://www.w3.org/2000/01/rdf-schema#label> "psychobilly wedge"@en .
+<https://example.org/resource/Perm> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/IcallPlasticDressing.jpg> .
+<https://example.org/resource/Devilock> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q311785> .
+<https://example.org/resource/The_Rachel> <http://www.w3.org/2000/01/rdf-schema#label> "the Rachel"@en .
+<https://example.org/resource/Fringe> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q11276054> .
+<https://example.org/resource/Short_brush_cut> <http://www.w3.org/2000/01/rdf-schema#label> "short brush cut"@en .
+<https://example.org/resource/Devilock> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q708970> .
+<https://example.org/resource/Fringe> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Fringe%20haircut.jpg> .
+<https://example.org/resource/Spiky_hair> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Spiky%20hair%2001.jpg> .
+<https://example.org/resource/Taper_cut> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Taper%20cut.jpg> .
+<https://example.org/resource/Marcel_waves> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Francois%20Marcel%201922.jpg> .
+<https://example.org/resource/Mod_cut> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q5485082> .

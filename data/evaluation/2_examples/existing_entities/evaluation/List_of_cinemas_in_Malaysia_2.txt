@@ -1,0 +1,99 @@
+In both
+<https://example.org/resource/Sunway_Velocity_Mall> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Sunway_Putra_Mall> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Sunway_Velocity_Mall> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11315> .
+<https://example.org/resource/Pavilion_Bukit_Jalil> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11315> .
+<https://example.org/resource/Sunway_Putra_Mall> <http://www.w3.org/2000/01/rdf-schema#label> "Sunway Putra Mall"@en .
+<https://example.org/resource/118_Mall> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Sunway_Velocity_Mall> <http://www.w3.org/2000/01/rdf-schema#label> "Sunway Velocity Mall"@en .
+<https://example.org/resource/Sunway_Putra_Mall> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11315> .
+<https://example.org/resource/118_Mall> <http://www.w3.org/2000/01/rdf-schema#label> "118 Mall"@en .
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Coliseum_Theatre> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Coliseum_Theatre> <http://www.w3.org/2000/01/rdf-schema#label> "Coliseum Theatre"@en .
+<https://example.org/resource/Pavilion_Bukit_Jalil> <http://www.w3.org/2000/01/rdf-schema#label> "Pavilion Bukit Jalil"@en .
+In ground only
+<https://example.org/resource/Sunway_Velocity_Mall> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1087831> .
+<https://example.org/resource/Suria_KLCC> <http://www.wikidata.org/prop/direct/P527> <http://www.wikidata.org/entity/Q83063> .
+<https://example.org/resource/The_Exchange_TRX> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Sunway_Putra_Mall> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/118_Mall> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Sunway_Putra_Mall> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Sunway%20Putra%20Mall%2C%20Kuala%20Lumpur%2020240212%20134046.jpg> .
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Pavilion%20KL%20outview%202%20%28211030%29.jpg> .
+<https://example.org/resource/The_Exchange_TRX> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q20463413> .
+<https://example.org/resource/Mitsui_Shopping_Park_LaLaport> <http://www.w3.org/2000/01/rdf-schema#label> "Mitsui Shopping Park LaLaport Bukit Bintang City Centre"@en .
+<https://example.org/resource/Suria_KLCC> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q75129321> .
+<https://example.org/resource/Coliseum_Theatre> <http://www.wikidata.org/prop/direct/P1619> "1920-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Quill_City_Mall> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11315> .
+<https://example.org/resource/Setapak_Central> <http://www.wikidata.org/prop/direct/P571> "2015-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Suria_KLCC> <http://www.wikidata.org/prop/direct/P571> "1999-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Pavilion_Bukit_Jalil> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Pavilion%20Bukit%20Jalil%20%28211205%29%2001.jpg> .
+<https://example.org/resource/Coliseum_Theatre> <http://www.wikidata.org/prop/direct/P571> "1920-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Setapak_Central> <http://www.w3.org/2000/01/rdf-schema#label> "Setapak Central"@en .
+<https://example.org/resource/The_Gardens_Mall> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Midvalleymegamall.jpg> .
+<https://example.org/resource/The_Exchange_TRX> <http://www.wikidata.org/prop/direct/P1619> "2023-11-29T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Pavilion_Bukit_Jalil> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q31374404> .
+<https://example.org/resource/The_Gardens_Mall> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Coliseum_Theatre> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Lotus%20Five%20Star%20%2849625347786%29.jpg> .
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P1619> "2007-09-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Exchange_TRX> <http://www.w3.org/2000/01/rdf-schema#label> "The Exchange TRX"@en .
+<https://example.org/resource/The_Gardens_Mall> <http://www.w3.org/2000/01/rdf-schema#label> "Mid Valley Megamall"@en .
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P856> <http://www.pavilion-kl.com> .
+<https://example.org/resource/The_Exchange_TRX> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11315> .
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11303> .
+<https://example.org/resource/Pavilion_Bukit_Jalil> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/The_Exchange_TRX> <http://www.wikidata.org/prop/direct/P856> <https://www.theexchange.my/> .
+<https://example.org/resource/The_Exchange_TRX> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/The_Exchange_TRX> <http://www.wikidata.org/prop/direct/P361> <http://www.wikidata.org/entity/Q20463413> .
+<https://example.org/resource/The_Gardens_Mall> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86108806> .
+<https://example.org/resource/Quill_City_Mall> <http://www.w3.org/2000/01/rdf-schema#label> "Quill City Mall"@en .
+<https://example.org/resource/Sunway_Putra_Mall> <http://www.wikidata.org/prop/direct/P856> <http://www.sunwayputramall.com/> .
+<https://example.org/resource/Pavilion_Bukit_Jalil> <http://www.wikidata.org/prop/direct/P571> "2021-12-03T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Coliseum_Theatre> <http://www.wikidata.org/prop/direct/P149> <http://www.wikidata.org/entity/Q173782> .
+<https://example.org/resource/Setapak_Central> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P8687> "9329"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P571> "2007-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Coliseum_Theatre> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/The_Gardens_Mall> <http://www.wikidata.org/prop/direct/P1619> "1999-11-20T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Gardens_Mall> <http://www.wikidata.org/prop/direct/P856> <http://www.midvalley.com.my/> .
+<https://example.org/resource/118_Mall> <http://www.wikidata.org/prop/direct/P276> <http://www.wikidata.org/entity/Q17049670> .
+<https://example.org/resource/Suria_KLCC> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Setapak_Central> <http://www.wikidata.org/prop/direct/P127> <http://www.wikidata.org/entity/Q6555422> .
+<https://example.org/resource/Mitsui_Shopping_Park_LaLaport> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/LaLaport%20BBCC%20from%20Jalan%20Hang%20Tuah%20%28220121%29%2002.jpg> .
+<https://example.org/resource/The_Gardens_Mall> <http://www.wikidata.org/prop/direct/P571> "1999-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Quill_City_Mall> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Quill%20City%20Mall.jpg> .
+<https://example.org/resource/Quill_City_Mall> <http://www.wikidata.org/prop/direct/P571> "2014-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Sunway_Putra_Mall> <http://www.wikidata.org/prop/direct/P1619> "1987-06-12T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/Pavilion_KL> <http://www.w3.org/2000/01/rdf-schema#label> "Pavilion Kuala Lumpur"@en .
+<https://example.org/resource/Suria_KLCC> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11315> .
+<https://example.org/resource/Setapak_Central> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/Quill_City_Mall> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q833> .
+<https://example.org/resource/Suria_KLCC> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1865> .
+<https://example.org/resource/118_Mall> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q31374404> .
+<https://example.org/resource/Setapak_Central> <http://www.wikidata.org/prop/direct/P856> <http://www.setapakcentral.com.my> .
+<https://example.org/resource/Suria_KLCC> <http://www.w3.org/2000/01/rdf-schema#label> "Suria KLCC"@en .
+<https://example.org/resource/Coliseum_Theatre> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q41253> .
+<https://example.org/resource/The_Exchange_TRX> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Exchange%20TRX%20Shopping%20Mall%20%2823.12.02%29.jpg> .
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q104558608> .
+<https://example.org/resource/Quill_City_Mall> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86109019> .
+<https://example.org/resource/Sunway_Putra_Mall> <http://www.wikidata.org/prop/direct/P571> "2015-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/The_Gardens_Mall> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11315> .
+<https://example.org/resource/Suria_KLCC> <http://www.wikidata.org/prop/direct/P18> <http://commons.wikimedia.org/wiki/Special:FilePath/Suria%20KLCC%20%28Ampang%20exit%29%2C%20Kuala%20Lumpur.jpg> .
+In predicted only
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86108806> .
+<https://example.org/resource/Pavilion_Bukit_Jalil> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11315> .
+<https://example.org/resource/Coliseum_Theatre> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86108806> .
+<https://example.org/resource/Sunway_Putra_Mall> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86108806> .
+<https://example.org/resource/Pavilion_KL> <http://www.wikidata.org/prop/direct/P856> <https://www.dadi.com.my/> .
+<https://example.org/resource/Coliseum_Theatre> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11315> .
+<https://example.org/resource/Pavilion_KL> <http://www.w3.org/2000/01/rdf-schema#label> "Pavilion KL"@en .
+<https://example.org/resource/Sunway_Velocity_Mall> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86108806> .
+<https://example.org/resource/118_Mall> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86108806> .
+<https://example.org/resource/Sunway_Putra_Mall> <http://www.wikidata.org/prop/direct/P856> <https://www.sunwayputramall.com/> .
+<https://example.org/resource/118_Mall> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q11315> .
+<https://example.org/resource/Pavilion_Bukit_Jalil> <http://www.wikidata.org/prop/direct/P7561> <http://www.wikidata.org/entity/Q86108806> .
+<https://example.org/resource/Coliseum_Theatre> <http://www.wikidata.org/prop/direct/P856> <https://www.lfs.com.my/> .
+<https://example.org/resource/Sunway_Velocity_Mall> <http://www.wikidata.org/prop/direct/P856> <https://www.sunwayvelocitymall.com/> .
+<https://example.org/resource/Pavilion_Bukit_Jalil> <http://www.wikidata.org/prop/direct/P856> <https://www.tgv.com.my/cinemas/pavilion-bukit-jalil> .

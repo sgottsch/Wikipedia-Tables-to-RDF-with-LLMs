@@ -1,0 +1,50 @@
+In both
+<https://example.org/resource/Fawcett_City> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q18572946> .
+<https://example.org/resource/Fawcett_City> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Fawcett_City> <http://www.w3.org/2000/01/rdf-schema#label> "Justice League Watchtower"@en .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P1080> <http://www.wikidata.org/entity/Q1152150> .
+<https://example.org/resource/Fawcett_City> <http://www.wikidata.org/prop/direct/P1080> <http://www.wikidata.org/entity/Q1152150> .
+<https://example.org/resource/Fawcett_City> <http://www.wikidata.org/prop/direct/P466> <http://www.wikidata.org/entity/Q735744> .
+<https://example.org/resource/Fawcett_City> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q10318224> .
+<https://example.org/resource/Kamar-Taj> <http://www.wikidata.org/prop/direct/P1080> <http://www.wikidata.org/entity/Q931597> .
+<https://example.org/resource/Fawcett_City> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q3895768> .
+In ground only
+<https://example.org/resource/Smallville,_Kansas> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q3977687> .
+<https://example.org/resource/Kamar-Taj> <http://www.w3.org/2000/01/rdf-schema#label> "Kamar-Taj"@en .
+<https://example.org/resource/Riverdale> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1964689> .
+<https://example.org/resource/Smallville,_Kansas> <http://www.w3.org/2000/01/rdf-schema#label> "Smallville"@en .
+<https://example.org/resource/Kamar-Taj> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q20750954> .
+<https://example.org/resource/Smallville,_Kansas> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q106921111> .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q1964689> .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q379927> .
+<https://example.org/resource/Riverdale> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P1313> <http://www.wikidata.org/entity/Q105998262> .
+<https://example.org/resource/Star_City> <http://www.w3.org/2000/01/rdf-schema#label> "Star City"@en .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Riverdale> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1384> .
+<https://example.org/resource/Smallville,_Kansas> <http://www.wikidata.org/prop/direct/P1705> "Smallville"@en .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q19357593> .
+<https://example.org/resource/Riverdale> <http://www.w3.org/2000/01/rdf-schema#label> "Riverdale"@en .
+<https://example.org/resource/Smallville,_Kansas> <http://www.wikidata.org/prop/direct/P1080> <http://www.wikidata.org/entity/Q1152150> .
+<https://example.org/resource/Smallville,_Kansas> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/Fawcett_City> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q19880664> .
+In predicted only
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Kamar-Taj> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q13406463> .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q18572946> .
+<https://example.org/resource/Kamar-Taj> <http://www.wikidata.org/prop/direct/P466> <http://www.wikidata.org/entity/Q735744> .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q599124> .
+<https://example.org/resource/Fawcett_City> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q2924461> .
+<https://example.org/resource/Fawcett_City> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q933317> .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q3492738> .
+<https://example.org/resource/Kamar-Taj> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q10318224> .
+<https://example.org/resource/Kamar-Taj> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q907767> .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q611993> .
+<https://example.org/resource/Kamar-Taj> <http://www.w3.org/2000/01/rdf-schema#label> "Justice League Watchtower"@en .
+<https://example.org/resource/Kamar-Taj> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q3895768> .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P466> <http://www.wikidata.org/entity/Q735744> .
+<https://example.org/resource/Kamar-Taj> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q2365240> .
+<https://example.org/resource/Kamar-Taj> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q18572946> .
+<https://example.org/resource/Star_City> <http://www.w3.org/2000/01/rdf-schema#label> "Justice League Watchtower"@en .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P360> <http://www.wikidata.org/entity/Q3895768> .
+<https://example.org/resource/Star_City> <http://www.wikidata.org/prop/direct/P1441> <http://www.wikidata.org/entity/Q10318224> .

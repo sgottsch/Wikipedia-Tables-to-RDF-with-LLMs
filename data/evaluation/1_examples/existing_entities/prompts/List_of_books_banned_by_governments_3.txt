@@ -1,0 +1,260 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of books banned by governments" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! Title
+! Author(s)
+! Year published
+!Year Banned
+!Year Unbanned
+! Type
+! Notes
+|-
+| ''[[The Decameron]]''
+| [[Giovanni Boccaccio]]
+| 1353
+|1927
+|1936
+| Story collection
+| Banned in Australia from 1927 to 1936 and from 1938 to 1973.<ref>{{cite web |url=http://blog.naa.gov.au/banned/books/decameron/ |title=Decameron |publisher=National Archives of Australia |access-date=22 May 2017 |archive-date=March 19, 2018 |archive-url=https://web.archive.org/web/20180319231844/http://blog.naa.gov.au/banned/books/decameron/ }}</ref> |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/The_Decameron> wdt:P2670 wd:Q43281973 ;
+ wdt:P674 wd:Q43256358 ;
+ wdt:P527 wd:Q43148644 ;
+ wdt:P527 wd:Q43148682 ;
+ wdt:P527 wd:Q43148695 ;
+ wdt:P527 wd:Q43250990 ;
+ wdt:P747 wd:Q43169292 ;
+ wdt:P527 wd:Q43282531 ;
+ wdt:P747 wd:Q43371966 ;
+ wdt:P747 wd:Q43371964 ;
+ wdt:P747 wd:Q43371965 ;
+ wdt:P747 wd:Q43372456 ;
+ wdt:P747 wd:Q43372498 ;
+ wdt:P747 wd:Q43372512 ;
+ wdt:P747 wd:Q43372535 ;
+ wdt:P747 wd:Q43374361 ;
+ wdt:P747 wd:Q43374414 ;
+ wdt:P747 wd:Q43374499 ;
+ wdt:P747 wd:Q43385014 ;
+ wdt:P747 wd:Q43473229 ;
+ wdt:P747 wd:Q43474239 ;
+ wdt:P747 wd:Q43474377 ;
+ wdt:P747 wd:Q43474812 ;
+ wdt:P747 wd:Q43475069 ;
+ wdt:P747 wd:Q43475969 ;
+ wdt:P747 wd:Q43516994 ;
+ wdt:P747 wd:Q43517456 ;
+ wdt:P747 wd:Q44082253 ;
+ wdt:P747 wd:Q44171388 ;
+ wdt:P747 wd:Q44172004 ;
+ wdt:P747 wd:Q43168448 ;
+ wdt:P747 wd:Q43168563 ;
+ wdt:P747 wd:Q43306113 ;
+ wdt:P747 wd:Q43387682 ;
+ wdt:P747 wd:Q43947778 ;
+ wdt:P747 wd:Q43168698 ;
+ wdt:P527 wd:Q43148678 ;
+ wdt:P527 wd:Q43148688 ;
+ wdt:P527 wd:Q43148666 ;
+ wdt:P527 wd:Q43148700 ;
+ wdt:P747 wd:Q50929361 ;
+ wdt:P747 wd:Q50929882 ;
+ wdt:P747 wd:Q50930183 ;
+ wdt:P747 wd:Q50930496 ;
+ wdt:P747 wd:Q41529369 ;
+ wdt:P747 wd:Q43169039 ;
+ wdt:P747 wd:Q43437721 ;
+ wdt:P747 wd:Q43475477 ;
+ wdt:P527 wd:Q43148690 ;
+ wdt:P747 wd:Q43149861 ;
+ wdt:P747 wd:Q43150110 ;
+ wdt:P747 wd:Q43306114 ;
+ wdt:P747 wd:Q43306115 ;
+ wdt:P747 wd:Q43431543 ;
+ wdt:P747 wd:Q43432002 ;
+ wdt:P747 wd:Q43472747 ;
+ wdt:P747 wd:Q43387689 ;
+ wdt:P747 wd:Q121819187 ;
+ wdt:P2670 wd:Q43148525 ;
+ wdt:P2670 wd:Q43303440 ;
+ wdt:P747 wd:Q80977948 ;
+ wdt:P747 wd:Q87442870 ;
+ wdt:P527 wd:Q43148668 ;
+ wdt:P674 wd:Q3900044 ;
+ wdt:P527 wd:Q43148675 ;
+ wdt:P674 wd:Q3833370 ;
+ wdt:P407 wd:Q21550769 ;
+ wdt:P571 "1351-01-01T00:00:00Z"^^xsd:dateTime ;
+ rdfs:label "The Decameron"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20del%20Castagno%20Giovanni%20Boccaccio%20c%201450.jpg> ;
+ wdt:P7937 wd:Q43334491 ;
+ wdt:P31 wd:Q7725634 ;
+ wdt:P2670 <https://en.wikipedia.org/wiki/Introduction_(writing)> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Agilulf> ;
+ wdt:P136 <https://en.wikipedia.org/wiki/Novella> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Italy> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Pope_Boniface_VIII> ;
+ wdt:P674 <https://en.wikipedia.org/wiki/Giotto> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Short_story_collection> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Holy_Roman_Empire> ;
+ wdt:P6216 <https://en.wikipedia.org/wiki/Public_domain> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/The_Decameron_(film)> ;
+ wdt:P910 <https://en.wikipedia.org/wiki/Category:The_Decameron> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Decameron_Nights> ;
+ wdt:P4969 <https://en.wikipedia.org/wiki/Wondrous_Boccaccio> ;
+ wdt:P7937 <https://en.wikipedia.org/wiki/Prose> ;
+ wdt:P495 <https://en.wikipedia.org/wiki/Republic_of_Florence> ;
+ wdt:P50 <https://en.wikipedia.org/wiki/Giovanni_Boccaccio> ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/The_Nuttall_Encyclop%C3%A6dia> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Decameron_(disambiguation)> ;
+ wdt:P2348 <https://en.wikipedia.org/wiki/Renaissance> ;
+ wdt:P840 <https://en.wikipedia.org/wiki/Florence> .
+---
+These are the labels of the properties:
+
+wdt:P2670 -> has part(s) of the class
+wdt:P674 -> characters
+wdt:P527 -> has part(s)
+wdt:P747 -> has edition or translation
+wdt:P407 -> language of work or name
+wdt:P571 -> inception
+wdt:P18 -> image
+wdt:P7937 -> form of creative work
+wdt:P31 -> instance of
+wdt:P136 -> genre
+wdt:P495 -> country of origin
+wdt:P6216 -> copyright status
+wdt:P4969 -> derivative work
+wdt:P910 -> topic's main category
+wdt:P50 -> author
+wdt:P1343 -> described by source
+wdt:P1889 -> different from
+wdt:P2348 -> time period
+wdt:P840 -> narrative location.
+---
+These are the labels of the objects:
+
+wd:Q43281973 -> introduction to the day
+wd:Q43256358 -> brigata
+wd:Q43148644 -> Day 1
+wd:Q43148682 -> Day 6
+wd:Q43148695 -> Day 9
+wd:Q43250990 -> Proem
+wd:Q43169292 -> Q43169292
+wd:Q43282531 -> Conclusion
+wd:Q43371966 -> Q43371966
+wd:Q43371964 -> Q43371964
+wd:Q43371965 -> Q43371965
+wd:Q43372456 -> Q43372456
+wd:Q43372498 -> Q43372498
+wd:Q43372512 -> Q43372512
+wd:Q43372535 -> Q43372535
+wd:Q43374361 -> Q43374361
+wd:Q43374414 -> Q43374414
+wd:Q43374499 -> Q43374499
+wd:Q43385014 -> Q43385014
+wd:Q43473229 -> Q43473229
+wd:Q43474239 -> Q43474239
+wd:Q43474377 -> Q43474377
+wd:Q43474812 -> Q43474812
+wd:Q43475069 -> Q43475069
+wd:Q43475969 -> Q43475969
+wd:Q43516994 -> Q43516994
+wd:Q43517456 -> Q43517456
+wd:Q44082253 -> Q44082253
+wd:Q44171388 -> Q44171388
+wd:Q44172004 -> Q44172004
+wd:Q43168448 -> Decamerón
+wd:Q43168563 -> Decameron
+wd:Q43306113 -> Decameron
+wd:Q43387682 -> Decameron
+wd:Q43947778 -> Decameron
+wd:Q43168698 -> Dekameron
+wd:Q43148678 -> Day 5
+wd:Q43148688 -> Day 7
+wd:Q43148666 -> Day 2
+wd:Q43148700 -> Day 10
+wd:Q50929361 -> Dekameron
+wd:Q50929882 -> Dekameron
+wd:Q50930183 -> Dekameron
+wd:Q50930496 -> Dekameron
+wd:Q41529369 -> Le Décaméron
+wd:Q43169039 -> Декамерон
+wd:Q43437721 -> Decameron di Giovanni Boccaccio corretto ed illustrato con note
+wd:Q43475477 -> Декамерон
+wd:Q43148690 -> Day 8
+wd:Q43149861 -> The Decameron
+wd:Q43150110 -> The Decameron
+wd:Q43306114 -> Il Decamerone
+wd:Q43306115 -> The Decameron
+wd:Q43431543 -> Il Decameron
+wd:Q43432002 -> Il Decameron
+wd:Q43472747 -> Il Decameron
+wd:Q43387689 -> Decameron de Boccace - BNF Fr239
+wd:Q121819187 -> Libro de las ciento novelas
+wd:Q43148525 -> day of the Decameron
+wd:Q43303440 -> novella in the Decameron
+wd:Q80977948 -> Dekameron
+wd:Q87442870 -> Q87442870
+wd:Q43148668 -> Day 3
+wd:Q3900044 -> Peronella
+wd:Q43148675 -> Day 4
+wd:Q3833370 -> Lisabetta
+wd:Q21550769 -> Medieval Italian
+wd:Q43334491 -> novella
+wd:Q7725634 -> literary work.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! Title
+! Author(s)
+! Year published
+!Year Banned
+!Year Unbanned
+! Type
+! Notes
+|-
+| ''[[The Anarchist Cookbook]]''
+| [[William Powell (author)|William Powell]]
+| 1971
+|*Unknown*
+|*Unknown*
+| Instructional
+| Banned in Australia.<ref name="unimelb1">{{cite web|url=http://www.lib.unimelb.edu.au/collections/special/exhibitions/bannedbooks/exhibition/australia.html|title=Banned Books in Australia: A Selection|archive-url=https://web.archive.org/web/20160203214917/http://www.lib.unimelb.edu.au/collections/special/exhibitions/bannedbooks/exhibition/australia.html|archive-date=February 3, 2016|publisher=University of Melbourne}}</ref>{{Explain|date=November 2016}}
+|-
+| ''[[American Psycho]]''
+| [[Bret Easton Ellis]]
+| 1991
+|1991
+|1992 (ages 18+) *Unknown* (younger than 18)
+| Novel
+| Sale and purchase was banned in the Australian [[Queensland|State of Queensland]]. Now available in public libraries and for sale to people 18 years and older. Sale restricted to persons at least 18 years old in the other Australian states.<ref>{{Cite web |title=AMERICAN PSYCHO (C) 1991 |url=https://www.classification.gov.au/titles/american-psycho-c-1991 |website=Australian Government. Department of Infrastructure, Transport, Regional Development, Communications and the Arts}}</ref>
+|-
+| ''[[The Peaceful Pill Handbook]]'' (2007)
+| [[Philip Nitschke]] and [[Fiona Stewart (author)|Fiona Stewart]]
+| 2007
+|2007
+|2007 
+| Instructional manual on [[euthanasia]]
+| The book was initially restricted in Australia:<ref>[http://www.oflc.gov.au/www/cob/find.nsf/d853f429dd038ae1ca25759b0003557c/0805c534c8c481d7ca257671007b2ee0!OpenDocument]{{dead link|date=June 2016|bot=medic}}{{cbignore|bot=medic}}</ref> after review the 2007 edition was banned outright.<ref name="oflc.gov.au"/><ref>[https://web.archive.org/web/20100604234632/http://www.censorship.govt.nz/pdfword/peaceful%20pill%20s38.pdf Office of Film & Literature Classification] censorship.govt.nz</ref><ref>[http://www.oflc.gov.au/www/cob/find.nsf/d853f429dd038ae1ca25759b0003557c/b1721daed0983d5eca2576710079a73b!OpenDocument] {{dead link|date=January 2012}}</ref>
+|-
+| ''[[No Game No Life]]'' (Volumes 1, 2, 9)
+| [[Yuu Kamiya]]
+| 2012–2016
+|2020
+|*Unknown*
+| Novel
+| [[Light novel]] volumes banned in Australia due to depiction which "in a way that is likely to cause offence to a reasonable adult, a person who is, or appears to be, a child under 18".<ref>{{cite news |title=Australia Bans Three No Game, No Life Light Novels |url=https://www.kotaku.com.au/2020/08/no-game-no-life-light-novels-banned-australia/ |access-date=17 November 2020 |work=Kotaku Australia |date=12 August 2020 |language=en-AU}}</ref> |}
+---

@@ -1,0 +1,140 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Alor_Setar_Tower> wdt:P1101 6.0 ;
+    wdt:P1619 "1996-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 165.5 ;
+    wdt:P276 wd:Q474868 .
+
+<https://example.org/resource/AmBank_Tower> wdt:P1101 50.0 ;
+    wdt:P1619 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 210.0 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/Arte_S_Tower_1> wdt:P1101 51.0 ;
+    wdt:P1619 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 186.0 ;
+    wdt:P6375 "George Town, Penang" .
+
+<https://example.org/resource/Berjaya_Times_Square_Tower_A> wdt:P1101 48.0 ;
+    wdt:P1619 "2003-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 203.1 ;
+    wdt:P6375 "Kuala Lumpur" .
+
+<https://example.org/resource/Citibank_Tower> wdt:P1101 50.0 ;
+    wdt:P1619 "1995-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 190.2 ;
+    wdt:P6375 "Kuala Lumpur" .
+
+<https://example.org/resource/Dayabumi_Complex> wdt:P1101 36.0 ;
+    wdt:P1619 "1984-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 157.0 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/Grand_Seasons_Hotel> wdt:P1101 46.0 ;
+    wdt:P1619 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 184.0 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/Gurney_Paragon_East_Tower> wdt:P1101 43.0 ;
+    wdt:P1619 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 155.0 ;
+    wdt:P276 wd:Q61092 .
+
+<https://example.org/resource/Gurney_Paragon_West_Tower> wdt:P1101 43.0 ;
+    wdt:P1619 "2011-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 155.0 ;
+    wdt:P276 wd:Q61092 .
+
+<https://example.org/resource/Hilton_Kuala_Lumpur> wdt:P1101 37.0 ;
+    wdt:P1619 "2004-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 154.0 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/KH_Tower> wdt:P1101 36.0 ;
+    wdt:P1619 "1983-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 152.0 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/Komtar> wdt:P1101 68.0 ;
+    wdt:P1619 "1986-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 248.7 ;
+    wdt:P276 wd:Q61092 .
+
+<https://example.org/resource/Marriott_Residences_Penang> wdt:P1101 56.0 ;
+    wdt:P1619 "2023-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 223.5 ;
+    wdt:P276 wd:Q61092 .
+
+<https://example.org/resource/Maxis_Tower> wdt:P1101 49.0 ;
+    wdt:P1619 "1998-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 212.0 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/Maybank_Tower> wdt:P1101 50.0 ;
+    wdt:P1619 "1987-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 243.5 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/Multi_Purpose_Tower> wdt:P1101 40.0 ;
+    wdt:P1619 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 198.2 ;
+    wdt:P6375 "Kuala Lumpur" .
+
+<https://example.org/resource/Muze_Block_B> wdt:P1101 58.0 ;
+    wdt:P1619 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 205.5 ;
+    wdt:P6375 "George Town, Penang" .
+
+<https://example.org/resource/Permata_Sapura_Tower> wdt:P1101 53.0 ;
+    wdt:P1619 "2020-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 252.5 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/Petronas_Tower_3> wdt:P1101 60.0 ;
+    wdt:P1619 "2012-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 267.0 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/Setia_V_Residences_Tower_A> wdt:P1101 48.0 ;
+    wdt:P1619 "2017-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 164.0 ;
+    wdt:P276 wd:Q61092 .
+
+<https://example.org/resource/Star_Residences_ONE> wdt:P1101 58.0 ;
+    wdt:P1619 "2019-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 264.9 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/The_Astaka_Tower_B> wdt:P1101 67.0 ;
+    wdt:P1619 "2018-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 255.6 ;
+    wdt:P276 wd:Q231318 .
+
+<https://example.org/resource/The_Stride> wdt:P1101 48.0 ;
+    wdt:P1619 "2022-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 209.0 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/The_Troika_Tower_3> wdt:P1101 50.0 ;
+    wdt:P1619 "2010-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P17 wd:Q833 ;
+    wdt:P2048 204.0 ;
+    wdt:P6375 "Kuala Lumpur" .
+
+<https://example.org/resource/Vista_Tower> wdt:P1101 62.0 ;
+    wdt:P1619 "1994-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 238.0 ;
+    wdt:P276 wd:Q1865 .
+
+<https://example.org/resource/Vortex_Tower> wdt:P1101 58.0 ;
+    wdt:P1619 "2016-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P2048 235.0 ;
+    wdt:P276 wd:Q1865 .
+

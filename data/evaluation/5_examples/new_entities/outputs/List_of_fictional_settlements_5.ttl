@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+<https://example.org/resource/Amber> rdfs:label "Amber"@en ;
+    wdt:P1080 wd:Q20714890 ;
+    wdt:P1441 wd:Q1053330 ;
+    wdt:P170 wd:Q295406 ;
+    wdt:P1705 "Amber"@en ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Jonathanland> rdfs:label "Jonathanland"@en ;
+    wdt:P1080 wd:Q20714890 ;
+    wdt:P170 wd:Q16855170 ;
+    wdt:P1705 "Jonathanland"@en .
+
+<https://example.org/resource/Kirrin_Island> rdfs:label "Kirrin Island"@en ;
+    wdt:P1080 wd:Q20714890 ;
+    wdt:P170 wd:Q192069 ;
+    wdt:P1705 "Kirrin Island"@en ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Peterswood> rdfs:label "Peterswood"@en ;
+    wdt:P1080 wd:Q20714890 ;
+    wdt:P1441 wd:Q1498450 ;
+    wdt:P170 wd:Q192069 ;
+    wdt:P1705 "Peterswood"@en ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/Rocky_Beach> rdfs:label "Rocky Beach"@en ;
+    wdt:P1080 wd:Q20714890 ;
+    wdt:P1441 wd:Q49945 ;
+    wdt:P170 wd:Q1937199 ;
+    wdt:P1705 "Rocky Beach"@en ;
+    wdt:P31 wd:Q1964689 .
+
+<https://example.org/resource/TKKG_City> rdfs:label "TKKG City"@en ;
+    wdt:P1080 wd:Q20714890 ;
+    wdt:P1441 wd:Q321382 ;
+    wdt:P170 wd:Q90459 ;
+    wdt:P1705 "TKKG City"@en ;
+    wdt:P31 wd:Q1964689 .
+

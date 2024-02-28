@@ -1,0 +1,698 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/2064_Read_Only_Memories> rdfs:label "2064: Read Only Memories"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P577 "2017-01-17T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <http://www.rom2064.com/> .
+
+<https://example.org/resource/20XX> rdfs:label "20XX"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P577 "2018-07-10T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <http://www.batterystaplegames.com/20xx> .
+
+<https://example.org/resource/2Dark> rdfs:label "2Dark"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q11338014,
+        wd:Q858523 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q150,
+        wd:Q1860 ;
+    wdt:P577 "2017-06-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <http://www.2dark.cc/> .
+
+<https://example.org/resource/428_Shibuya_Scramble> rdfs:label "428: Shibuya Scramble"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q689445 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P577 "2018-09-06T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <http://www.spike-chunsoft.co.jp/428/> .
+
+<https://example.org/resource/5_Star_Wrestling_ReGenesis> rdfs:label "5 Star Wrestling: ReGenesis"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q868217 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P577 "2016-01-20T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <http://www.seriousparody.com/5starwrestling> .
+
+<https://example.org/resource/60_Seconds> rdfs:label "60 Seconds!"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q343568,
+        wd:Q472055 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P577 "2020-03-06T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <http://www.robotgentleman.com/60seconds> .
+
+<https://example.org/resource/7_Days_to_Die> rdfs:label "7 Days to Die"@en ;
+    wdt:P136 wd:Q333967 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1321,
+        wd:Q1412,
+        wd:Q150,
+        wd:Q1860,
+        wd:Q188,
+        wd:Q256,
+        wd:Q5146,
+        wd:Q5287,
+        wd:Q652,
+        wd:Q7411,
+        wd:Q750553,
+        wd:Q7737,
+        wd:Q7913,
+        wd:Q7918,
+        wd:Q809,
+        wd:Q8798,
+        wd:Q9027,
+        wd:Q9035,
+        wd:Q9043,
+        wd:Q9056,
+        wd:Q9067,
+        wd:Q9129,
+        wd:Q9176,
+        wd:Q9199,
+        wd:Q9217 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P577 "2016-06-28T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://7daystodie.com/> .
+
+<https://example.org/resource/8-Bit_Armies> rdfs:label "8-Bit Armies"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q6895044 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P577 "2018-09-21T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.8bitarmies.com/> .
+
+<https://example.org/resource/8-Bit_Hordes> rdfs:label "8-Bit Hordes"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q6895044 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P577 "2019-02-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.8bithordes.com/> .
+
+<https://example.org/resource/8-Bit_Invaders> rdfs:label "8-Bit Invaders"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q6895044 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P577 "2019-02-26T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.8bitinvaders.com/> .
+
+<https://example.org/resource/911_Operator> rdfs:label "911 Operator"@en ;
+    wdt:P136 wd:Q828322 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P577 "2017-11-08T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://911operator.com/> .
+
+<https://example.org/resource/99Vidas> wdt:P123 wd:Q100871652 ;
+    wdt:P136 wd:Q401831 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2017-07-18T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/9_Monkeys_of_Shaolin> rdfs:label "9 Monkeys of Shaolin"@en ;
+    wdt:P136 wd:Q401831 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P408 wd:Q63966 ;
+    wdt:P577 "2020-10-16T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://9monkeys.com/> .
+
+<https://example.org/resource/AFL_Evolution> rdfs:label "AFL Evolution"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850,
+        wd:Q868217 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P577 "2017-05-05T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P856 <https://www.trublu.com.au/> .
+
+<https://example.org/resource/AFL_Evolution_2> rdfs:label "AFL Evolution 2"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P400 wd:Q19610114,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850,
+        wd:Q868217 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P577 "2020-04-16T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P856 <https://www.hes.net/> .
+
+<https://example.org/resource/AI_The_Somnium_Files> rdfs:label "AI: The Somnium Files"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q23916 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P407 wd:Q5287 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "2019-09-19T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://spike-chunsoft.com/ai/> .
+
+<https://example.org/resource/AI_The_Somnium_Files_Nirvana_Initiative> rdfs:label "AI: The Somnium Files - Nirvana Initiative"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q23916 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P407 wd:Q5287 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "2022-06-23T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://spike-chunsoft.com/ai-ni/> .
+
+<https://example.org/resource/A_Boy_and_His_Blob> wdt:P123 wd:Q14864330 ;
+    wdt:P136 wd:Q54767,
+        wd:Q828322 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2016-01-19T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/A_Certain_Magical_Virtual-On> rdfs:label "A Certain Magical Virtual-On"@en ;
+    wdt:P123 wd:Q14864330 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2018-02-15T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/A_Hat_in_Time> rdfs:label "A Hat in Time"@en ;
+    wdt:P123 wd:Q100871652 ;
+    wdt:P136 wd:Q828322 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2017-12-06T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <http://www.gearsforbreakfast.com/> .
+
+<https://example.org/resource/A_King's_Tale_Final_Fantasy_XV> rdfs:label "A King's Tale: Final Fantasy XV"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2017-03-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 .
+
+<https://example.org/resource/Absolute_Drift_Zen_Edition> wdt:P123 wd:Q14864330 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2016-08-23T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Absolver> wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q1422746 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2017-08-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P852 wd:Q14864329 .
+
+<https://example.org/resource/Abyss_Odyssey> wdt:P123 wd:Q14864329 ;
+    wdt:P136 wd:Q270948 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2015-07-28T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Abzû> wdt:P123 wd:Q14864329 ;
+    wdt:P136 wd:Q23916,
+        wd:Q3739535 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2016-08-02T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Accel_World_vs_Sword_Art_Online_Millennium_Twilight> rdfs:label "Accel World vs. Sword Art Online: Millennium Twilight"@en ;
+    wdt:P123 wd:Q14864330 ;
+    wdt:P136 wd:Q1422746 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2017-03-16T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Ace_Combat_7_Skies_Unknown> rdfs:label "Ace Combat 7: Skies Unknown"@en ;
+    wdt:P123 wd:Q14864329 ;
+    wdt:P136 wd:Q214932 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2019-01-18T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 wd:Q21704660 .
+
+<https://example.org/resource/Achtung_Cthulhu_Tactics> rdfs:label "Achtung! Cthulhu Tactics"@en ;
+    wdt:P123 wd:Q14864330 ;
+    wdt:P136 wd:Q1529437 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2018-11-20T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 .
+
+<https://example.org/resource/Adrift> rdfs:label "Adrift"@en ;
+    wdt:P123 wd:Q14864330 ;
+    wdt:P136 wd:Q23916 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2016-07-15T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 wd:Q18693102 .
+
+<https://example.org/resource/Adventure_Time_Finn_Jake_Investigations> rdfs:label "Adventure Time: Finn & Jake Investigations"@en ;
+    wdt:P136 wd:Q343568 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1321,
+        wd:Q150,
+        wd:Q1860,
+        wd:Q188 ;
+    wdt:P408 wd:Q2409319 ;
+    wdt:P577 "2015-10-20T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.littleorbit.com/> .
+
+<https://example.org/resource/Adventure_Time_Pirates_of_the_Enchiridion> rdfs:label "Adventure Time: Pirates of the Enchiridion"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P400 wd:Q1406,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P408 wd:Q5133643 ;
+    wdt:P577 "2018-07-17T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.littleorbit.com/> .
+
+<https://example.org/resource/Adventures_of_Pip> rdfs:label "Adventures of Pip"@en ;
+    wdt:P123 wd:Q14864330 ;
+    wdt:P136 wd:Q828322 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2015-08-18T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 wd:Q20031737 .
+
+<https://example.org/resource/Aegis_Defenders> rdfs:label "Aegis Defenders"@en ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P404 wd:Q208850,
+        wd:Q472055 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P577 "2018-02-08T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P856 <https://www.gutsdepartment.com/> .
+
+<https://example.org/resource/Aegis_of_Earth_Protonovus_Assault> rdfs:label "Aegis of Earth: Protonovus Assault"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P400 wd:Q188808,
+        wd:Q5014725 ;
+    wdt:P404 wd:Q1137896,
+        wd:Q208850 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P408 wd:Q481968 ;
+    wdt:P577 "2016-08-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P856 <https://www.aksysgames.com/> .
+
+<https://example.org/resource/Afterparty> rdfs:label "Afterparty"@en ;
+    wdt:P123 wd:Q14864330 ;
+    wdt:P136 wd:Q23916 ;
+    wdt:P178 wd:Q14864330 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2019-10-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <http://nightschoolstudio.com/afterparty> .
+
+<https://example.org/resource/Agatha_Christie_The_ABC_Murders> rdfs:label "Agatha Christie: The ABC Murders"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2017-04-28T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.microids.com/the-abc-murders> .
+
+<https://example.org/resource/Age_of_Wonders_Planetfall> rdfs:label "Age of Wonders: Planetfall"@en ;
+    wdt:P123 wd:Q115198281 ;
+    wdt:P136 wd:Q2176159 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2019-08-06T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.aow-planetfall.com> .
+
+<https://example.org/resource/Agent_A_A_Puzzle_in_Disguise> rdfs:label "Agent A: A Puzzle in Disguise"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q23916,
+        wd:Q54767 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2019-08-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.yakandco.net/agent-a> .
+
+<https://example.org/resource/Agents_of_Mayhem> rdfs:label "Agents of Mayhem"@en ;
+    wdt:P123 wd:Q115198281 ;
+    wdt:P136 wd:Q270948,
+        wd:Q380266 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2017-12-07T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.agentsofmayhem.com> .
+
+<https://example.org/resource/Agony> rdfs:label "Agony"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2018-05-29T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.playagony.com> .
+
+<https://example.org/resource/Air_Conflicts_Pacific_Carriers> rdfs:label "Air Conflicts: Pacific Carriers"@en ;
+    wdt:P123 wd:Q100871652 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P495 wd:Q183 ;
+    wdt:P577 "2015-11-03T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.kalypsomedia.com/us/air-conflicts-pacific-carriers/> .
+
+<https://example.org/resource/Air_Conflicts_Vietnam> rdfs:label "Air Conflicts: Vietnam"@en ;
+    wdt:P123 wd:Q100871652 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P495 wd:Q183 ;
+    wdt:P577 "2014-09-16T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.bitcomposer.com/game/air-conflicts-vietnam/> .
+
+<https://example.org/resource/Airport_Simulator_2019> rdfs:label "Airport Simulator 2019"@en ;
+    wdt:P123 wd:Q100871652 ;
+    wdt:P136 wd:Q1610017 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P495 wd:Q40 ;
+    wdt:P577 "2019-04-09T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.toplitz-productions.com/airport-simulator-2019/> .
+
+<https://example.org/resource/Akiba's_Beat> rdfs:label "Akiba's Beat"@en ;
+    wdt:P123 wd:Q100871652,
+        wd:Q14864330,
+        wd:Q42328566 ;
+    wdt:P136 wd:Q1422746 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P400 wd:Q188808,
+        wd:Q5014725 ;
+    wdt:P495 wd:Q17,
+        wd:Q46,
+        wd:Q49 ;
+    wdt:P577 "2016-12-15T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q100871652,
+        wd:Q1052025,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.akibasbeat.com/> .
+
+<https://example.org/resource/Akiba's_Trip_Hellbound_&_Debriefed> rdfs:label "Akiba's Trip: Hellbound & Debriefed"@en ;
+    wdt:P123 wd:Q14864330,
+        wd:Q42328566 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P400 wd:Q5014725,
+        wd:Q63184502 ;
+    wdt:P495 wd:Q17,
+        wd:Q8036765 ;
+    wdt:P577 "2021-05-20T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864329 ;
+    wdt:P856 <https://www.akibastriphd.com/> .
+
+<https://example.org/resource/Akiba's_Trip_Undead_&_Undressed> rdfs:label "Akiba's Trip: Undead & Undressed"@en ;
+    wdt:P123 wd:Q100871652,
+        wd:Q14864330,
+        wd:Q42328566 ;
+    wdt:P178 wd:Q100871863 ;
+    wdt:P400 wd:Q10683,
+        wd:Q5014725 ;
+    wdt:P495 wd:Q17,
+        wd:Q46,
+        wd:Q49 ;
+    wdt:P577 "2014-07-03T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q100871652,
+        wd:Q1052025,
+        wd:Q42328566 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.akibastrip.com/> .
+
+<https://example.org/resource/Alan_Wake_Alan_Wake_Remastered> rdfs:label "Alan Wake Remastered"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2021-10-05T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 .
+
+<https://example.org/resource/Alba_A_Wildlife_Adventure> rdfs:label "Alba: A Wildlife Adventure"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2021-07-21T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 .
+
+<https://example.org/resource/Alekhines_Gun> rdfs:label "Alekhine's Gun"@en ;
+    wdt:P123 wd:Q14864330 ;
+    wdt:P136 wd:Q270948 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725,
+        wd:Q6795851 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P495 wd:Q30 ;
+    wdt:P577 "2015-11-01T00:00:00+00:00"^^xsd:dateTime,
+        "2015-11-10T00:00:00+00:00"^^xsd:dateTime,
+        "2016-03-11T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <http://www.haggardgames.com/> .
+
+<https://example.org/resource/Aleste_Collection> rdfs:label "Aleste Collection"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q1044478 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P407 wd:Q5287 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "2020-12-24T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Alex_Kidd_in_Miracle_World_DX> rdfs:label "Alex Kidd in Miracle World DX"@en ;
+    wdt:P123 wd:Q100871652,
+        wd:Q14864330 ;
+    wdt:P136 wd:Q828322 ;
+    wdt:P178 wd:Q100871652,
+        wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2021-06-24T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 .
+
+<https://example.org/resource/Alice_Gear_Aegis_CS_Concerto_of_Simulatrix> rdfs:label "Alice Gear Aegis CS: Concerto of Simulatrix"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q270948 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q11230855,
+        wd:Q5014725 ;
+    wdt:P407 wd:Q5287 ;
+    wdt:P495 wd:Q17 ;
+    wdt:P577 "2022-09-08T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Alien_Isolation> rdfs:label "Alien: Isolation"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q333967 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q122741,
+        wd:Q5014725 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "2014-10-07T00:00:00+00:00"^^xsd:dateTime,
+        "2015-06-11T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q337535 .
+
+<https://example.org/resource/Alienation> rdfs:label "Alienation"@en ;
+    wdt:P123 wd:Q14864330 ;
+    wdt:P136 wd:Q1044478 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P31 wd:Q7889 ;
+    wdt:P400 wd:Q18594,
+        wd:Q5014725 ;
+    wdt:P407 wd:Q1412 ;
+    wdt:P437 wd:Q54820071 ;
+    wdt:P495 wd:Q33 ;
+    wdt:P577 "2016-04-26T00:00:00+00:00"^^xsd:dateTime,
+        "2016-06-02T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 .
+
+<https://example.org/resource/Alone_with_You> rdfs:label "Alone with You"@en ;
+    wdt:P123 wd:Q100871652 ;
+    wdt:P136 wd:Q23916 ;
+    wdt:P178 wd:Q100871652 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2016-08-23T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.benjaminrivers.com/alone-with-you> .
+
+<https://example.org/resource/Alwas_Awakening> rdfs:label "Alwa's Awakening"@en ;
+    wdt:P123 wd:Q60256879 ;
+    wdt:P136 wd:Q828322 ;
+    wdt:P178 wd:Q60256879 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2019-03-21T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://eldenpixels.com/alwas-awakening> .
+
+<https://example.org/resource/Alwas_Legacy> rdfs:label "Alwa's Legacy"@en ;
+    wdt:P136 wd:Q828322 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://eldenpixels.com/alwas-legacy> .
+
+<https://example.org/resource/Always_Sometimes_Monsters> rdfs:label "Always Sometimes Monsters"@en ;
+    wdt:P123 wd:Q115198281 ;
+    wdt:P136 wd:Q744038 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2017-10-10T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://vagabonddog.com/always-sometimes-monsters> .
+
+<https://example.org/resource/Amnesia_Collection> rdfs:label "Amnesia Collection"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q23916,
+        wd:Q333967 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2016-11-22T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.frictionalgames.com/series/amnesia> .
+
+<https://example.org/resource/Amnesia_Rebirth> rdfs:label "Amnesia: Rebirth"@en ;
+    wdt:P123 wd:Q33438189 ;
+    wdt:P136 wd:Q23916,
+        wd:Q333967 ;
+    wdt:P178 wd:Q33438189 ;
+    wdt:P400 wd:Q5014725 ;
+    wdt:P577 "2020-10-20T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P750 wd:Q1052025 ;
+    wdt:P852 wd:Q14864330 ;
+    wdt:P856 <https://www.frictionalgames.com/games/amnesia-rebirth> .
+

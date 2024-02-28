@@ -1,0 +1,111 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Clayton_Park_School> rdfs:label "Clayton Park School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1247.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q7974975 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "Clayton Road, Wattle Downs, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.claytonpark.school.nz> .
+
+<https://example.org/resource/Everglade_School> rdfs:label "Everglade School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1164.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q5583711 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "Everglade Drive, Goodwood Heights, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.everglade.school.nz> .
+
+<https://example.org/resource/Greenmeadows_Intermediate> rdfs:label "Greenmeadows Intermediate"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1300.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q6753180 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P6375 "Greenmeadows Avenue, Manurewa East, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.greenmeadows.school.nz> .
+
+<https://example.org/resource/Homai_School> rdfs:label "Homai School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1317.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q5887422 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "Homai Road, Homai, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.homai.school.nz> .
+
+<https://example.org/resource/Te_Kura_Kaupapa_Māori_o_Manurewa> rdfs:label "Te Kura Kaupapa Māori o Manurewa"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 4229.0 ;
+    wdt:P276 wd:Q5131609 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P7419 wd:Q70853302 .
+
+<https://example.org/resource/Te_Matauranga> rdfs:label "Te Matauranga"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 6741.0 ;
+    wdt:P276 wd:Q5131609 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P7419 wd:Q70853302 .
+
+<https://example.org/resource/Waimahia_Intermediate_School> rdfs:label "Waimahia Intermediate School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1569.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q5131609 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P6375 "Waimahia Road, Clendon Park, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.waimahia.school.nz> .
+
+<https://example.org/resource/Weymouth_School> rdfs:label "Weymouth School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1570.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q85815210 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914,
+        wd:Q9842 ;
+    wdt:P6375 "Weymouth Road, Weymouth, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.weymouthprimary.school.nz> .
+
+<https://example.org/resource/Wiri_Central_School> rdfs:label "Wiri Central School"@en ;
+    wdt:P131 wd:Q726917 ;
+    wdt:P17 wd:Q664 ;
+    wdt:P2196 1576.0 ;
+    wdt:P276 wd:Q37100,
+        wd:Q8026945 ;
+    wdt:P31 wd:Q1080794,
+        wd:Q3914 ;
+    wdt:P6375 "Wiri Station Road, Wiri, Auckland"@en ;
+    wdt:P7419 wd:Q70853302 ;
+    wdt:P856 <http://www.wiricentral.school.nz/> .
+

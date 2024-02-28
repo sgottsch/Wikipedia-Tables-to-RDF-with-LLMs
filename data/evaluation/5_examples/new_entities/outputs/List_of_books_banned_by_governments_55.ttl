@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Despised_and_Rejected> rdfs:label "Despised and Rejected"@en ;
+    wdt:P136 wd:Q18211073 ;
+    wdt:P1476 "Despised and Rejected"@en ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P577 "1918-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P7937 wd:Q8261 .
+
+<https://example.org/resource/Kill_or_Get_Killed> rdfs:label "Kill or Get Killed"@en ;
+    wdt:P1476 "Kill or Get Killed"@en ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P50 wd:Q4392948 ;
+    wdt:P577 "1976-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 .
+
+<https://example.org/resource/Lord_Horror> rdfs:label "Lord Horror"@en ;
+    wdt:P1476 "Lord Horror"@en ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P495 wd:Q21 ;
+    wdt:P50 wd:Q5231755 ;
+    wdt:P577 "1990-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6216 wd:Q19652 ;
+    wdt:P7937 wd:Q8261 .
+
+<https://example.org/resource/Put_Em_Down_Take_Em_Out_Knife_Fighting_Techniques_From_Folsom_Prison> rdfs:label "Put 'Em Down. Take 'Em Out. Knife Fighting Techniques From Folsom Prison"@en ;
+    wdt:P1476 "Put 'Em Down. Take 'Em Out. Knife Fighting Techniques From Folsom Prison"@en ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P495 wd:Q145 ;
+    wdt:P6216 wd:Q19652 .
+

@@ -1,0 +1,167 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of mosques in the United Kingdom" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|-
+| [[Chesham Mosque]]
+| [[File:Chesham Mosque.jpg|120px|center]]
+| [[Chesham]] ([[Buckinghamshire]])
+| 2005
+| [[Sunni Muslim]]
+|
+|-
+| [[Madina Mosque, Horsham|Madina Mosque]]
+| [[File:Madina Mosque (Formerly Jireh Independent Chapel), Park Terrace East, Horsham.jpg|120px|center]]
+| [[Horsham]] ([[West Sussex]])
+| 2008
+| D
+| Built in 1857 as the Jireh Independent Baptist Chapel<ref name="Argus-14052008">{{cite news|url=http://www.theargus.co.uk/news/2269818.print/|title=Mosque finds a home in Horsham salon|last=Bauldry|first=Jess|date=14 May 2008|work=[[The Argus (Brighton)|The Argus]]|publisher=[[Newsquest|Newsquest Media Group]]|access-date=25 March 2011}}</ref>
+|-
+|[[Mubarak Mosque (Tilford)|Mubarak Mosque]]
+|[[File:مسجد_مبارک،_اسلام_آباد.jpg|center|frameless|120x120px]]
+|[[Tilford]]
+|2019
+|AMJ<ref>{{Cite web|title=Former Foreign Secretary Visits Head of Ahmadiyya Muslim Community {{!}} Ahmadiyya Muslim Community UK {{!}} Love For All Hatred For None|url=https://www.loveforallhatredfornone.org/former-foreign-secretary-visits-head-of-ahmadiyya-muslim-community/|access-date=2020-06-23}}</ref>
+|It currently serves as the mosque on the site of the international headquarters of the [[Ahmadiyya Muslim Community]], known as '''Islamabad''' (English: ''Place of Islam'').
+|-
+|[[Noor Mosque, Crawley|Noor Mosque]]
+|[[File:Noor Ahmadiyya Mosque, Langley Drive, Langley Green (September 2014) (1).JPG|center|120px]]
+|[[Crawley]]
+|2014
+|AMJ
+|This former church was bought and has been renovated and transformed into a mosque
+|- valign=top
+| [[Shah Jahan Mosque, Woking|Shah Jahan Mosque]]
+| [[File:Shah Jahan Mosque TQ0159 214.jpg|120px|center]]
+| [[Woking]]
+| 1889
+| [[Sunni Muslim]]
+| |}
+---
+For this example table, the following triples are created:
+
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://example.org/resource/Chesham_Mosque> wdt:P131 <https://en.wikipedia.org/wiki/Buckinghamshire> ;
+ wdt:P7959 wd:Q67285329 ;
+ rdfs:label "Chesham Mosque"@en ;
+ wdt:P571 "2005-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P856 <http://www.cheshammosque.org.uk/> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+
+<https://example.org/resource/Madina_Mosque> wdt:P131 <https://en.wikipedia.org/wiki/West_Sussex> ;
+ wdt:P7959 <https://en.wikipedia.org/wiki/Sussex> ;
+ rdfs:label "Madina Mosque, Horsham"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Horsham> ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Madina%20Mosque%20%28Formerly%20Jireh%20Independent%20Chapel%29%2C%20Park%20Terrace%20East%2C%20Horsham.jpg> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P149 <https://en.wikipedia.org/wiki/Classical_architecture> .
+
+<https://example.org/resource/Mubarak_Mosque> wdt:P571 "2019-06-29T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Moubarak_Mosque,_Val-d%27Oise> ;
+ rdfs:label "Mubarak Mosque"@en ;
+ wdt:P706 <https://en.wikipedia.org/wiki/Islamabad,_Tilford> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Mubarak_Mosque,_Qadian> ;
+ wdt:P7959 wd:Q67443130 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/%D9%85%D8%B3%D8%AC%D8%AF%20%D9%85%D8%A8%D8%A7%D8%B1%DA%A9%D8%8C%20%D8%A7%D8%B3%D9%84%D8%A7%D9%85%20%D8%A2%D8%A8%D8%A7%D8%AF.jpg> ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Tilford> ;
+ wdt:P1083 "500"^^xsd:decimal ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P856 <https://mubarakmosque.uk> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P1705 "Mubarak Mosque"@en .
+
+<https://example.org/resource/Noor_Mosque> wdt:P7959 <https://en.wikipedia.org/wiki/Sussex> ;
+ rdfs:label "Noor Mosque"@en ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Noor%20Ahmadiyya%20Mosque%2C%20Langley%20Drive%2C%20Langley%20Green%20%28September%202014%29%20%281%29.JPG> ;
+ wdt:P571 "2012-01-01T00:00:00Z"^^xsd:dateTime ;
+ wdt:P1083 "350"^^xsd:decimal ;
+ wdt:P1619 "2014-01-18T00:00:00Z"^^xsd:dateTime ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> ;
+ wdt:P131 wd:Q21886073 .
+
+<https://example.org/resource/Shah_Jahan_Mosque> wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Shah%20Jahan%20Mosque%20TQ0159%20214.jpg> ;
+ rdfs:label "Shah Jahan Mosque"@en ;
+ wdt:P131 <https://en.wikipedia.org/wiki/Borough_of_Woking> ;
+ wdt:P7959 wd:Q67443130 ;
+ wdt:P1435 wd:Q15700831 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Mosque> ;
+ wdt:P17 <https://en.wikipedia.org/wiki/United_Kingdom> .
+---
+These are the labels of the properties:
+
+wdt:P131 -> located in the administrative territorial entity
+wdt:P7959 -> historic county
+wdt:P571 -> inception
+wdt:P31 -> instance of
+wdt:P856 -> official website URL
+wdt:P17 -> country
+wdt:P18 -> image
+wdt:P149 -> architectural style
+wdt:P1889 -> different from
+wdt:P706 -> located in/on physical feature
+wdt:P1083 -> maximum capacity
+wdt:P1705 -> native label
+wdt:P1619 -> date of official opening
+wdt:P1435 -> heritage designation.
+---
+These are the labels of the objects:
+
+wd:Q67285329 -> Buckinghamshire
+wd:Q67443130 -> Surrey
+wd:Q21886073 -> Crawley
+wd:Q15700831 -> Grade II* listed building.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+|-
+! width="200" align="left" |Name
+! width="160" align="center" class="unsortable" |Images
+! width="150" align="left" |City
+! width="50" align="left" |Year
+! width="60" align="left" |Groups
+! width="250" align="left" class="unsortable" |Remarks
+|-
+| Al Medinah Mosque
+| [[File:Al-Medinah Mosque, Bedford Place, Brighton (January 2012).JPG|120px|center]]
+| [[Brighton]]
+| 1991<ref name=":0">{{Cite web|title=Mosques in Brighton – An Muslim's Guide to Prayer – Jolly Explorer|url=https://jollyexplorer.com/muslims-guide-to-mosques-in-brighton/|access-date=2022-04-18|website=jollyexplorer.com}}</ref>
+|
+|
+|-
+| Brighton Mosque
+| [[File:Al-Quds Mosque, Dyke Road, Brighton.jpg|120px|center]]
+| [[Brighton]]
+| Late 1970s
+|
+| Also known as Al-Quds Mosque, it was the first mosque in Brighton<ref name=":0" />
+|-
+|Nasir Mosque<ref>{{Cite web|url=https://ahmadiyya.uk/mosques/nasir-mosque-gillingham/|title=Nasir Mosque - Gillingham |website=Ahmadiyya Muslim Association UK}}</ref>
+|
+|[[Gillingham, Kent|Gillingham]]
+|2014
+|AMJ
+|The building, originally known as Nasir Hall, was home to the Lower Gillingham Liberal and Radical Club until the early 1970s. It has been used by the [[Ahmadiyya|Ahmadiyya Muslim Community]] since 1975.
+|-
+| Mid Sussex Islamic Centre & Mosque
+| 
+| [[Haywards Heath]] ([[West Sussex]])
+| 2010
+| 
+| Converted from a church hall in 2010 at a cost of over £250,000<ref>{{cite news |url=https://www.theargus.co.uk/news/8851354.amp/ |title=Four arrested after Haywards Heath mosque torched |last=Roberts |first=Anna |date=14 February 2011 |work=[[The Argus (Brighton)|The Argus]] |access-date=22 June 2023}}</ref> |}
+---

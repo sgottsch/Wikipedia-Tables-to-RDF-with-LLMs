@@ -1,0 +1,99 @@
+Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page "List of Latin phrases (T)" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
+---
+This is the example table:
+
+{| class="wikitable "
+!Latin!!Translation!!Notes
+|-
+|''[[tabula rasa]]''||scraped tablet||Thus, "blank slate". Romans used to write on [[wax]]-covered wooden tablets, which were erased by scraping with the flat end of the [[stylus]]. [[John Locke]] used the term to describe the human [[mind]] at birth, before it had acquired any knowledge.
+|-
+|[[Tempora mutantur|''tempora mutantur et nos mutamur in illis'']]||the times are changing, and we change in them||16th century variant of two classical lines of Ovid: ''tempora labuntur'' ("time labors", ''Fasti'') and ''omnia mutantur'' ("everything changes", ''Metamorphoses''). See [[Tempora mutantur|entry]] for details.
+|-
+|''[[tempus fugit]]''||Time flees.<br>Time flies.||From [[Virgil]]'s ''[[Georgics]]'' (Book III, line 284), where it appears as ''fugit inreparabile tempus''. A common [[list of sundial mottos|sundial motto]]. See also ''tempus volat, hora fugit'' below.
+|-
+|''[[terminus post quem|terminus ante/post quem]]''||limit before/after which||In archaeology or history, refers to the date before which an artefact or feature must have been deposited. Used with ''terminus post quem'' (limit after which). Similarly, ''terminus ad quem'' (limit to which) may also refer to the latest possible date of a non-punctual event (period, era, etc.), while ''terminus a quo'' (limit from which) may refer to the earliest such date.
+|-
+|''[[terra incognita]]''||unknown land
+|-
+|''[[terra nullius]]''||land of none||That is, [[no man's land]]. A neutral or uninhabited area, or a land not under the sovereignty of any recognized political entity.
+|-
+|''[[tertium non datur]]''||no third (possibility) is given||A logical axiom that a claim is either true or false, with no third option. |}
+---
+For this example table, the following triples are created:
+
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/resource/tabula_rasa> wdt:P1343 wd:Q19219752 ;
+ wdt:P1343 wd:Q63284758 ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Tabula_Rasa_(disambiguation)> ;
+ rdfs:label "blank slate"@en ;
+ wdt:P1343 <https://en.wikipedia.org/wiki/Armenian_Soviet_Encyclopedia> ;
+ wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/''tempora_mutantur_et_nos_mutamur_in_illis''> wdt:P1343 wd:Q19219752 ;
+ rdfs:label "tempora mutantur"@en ;
+ wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tempus_fugit> wdt:P1343 wd:Q2041543 ;
+ wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tempus%20fugit%2C%20Sundial%20versus%20Digital%20clock.JPG> ;
+ rdfs:label "Tempus fugit"@en ;
+ wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/terminus_ante/post_quem> rdfs:label "terminus post quem"@en ;
+ wdt:P1424 <https://en.wikipedia.org/wiki/Template:After_date> ;
+ wdt:P461 <https://en.wikipedia.org/wiki/Terminus_ante_quem> ;
+ wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/terra_incognita> wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q150%20%28fra%29-GeoMechain-terra%20incognita.wav> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Phrase> ;
+ rdfs:label "terra incognita"@en .
+
+<https://example.org/resource/terra_nullius> wdt:P279 <https://en.wikipedia.org/wiki/Territory> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Legal_status> ;
+ wdt:P460 <https://en.wikipedia.org/wiki/No_man%27s_land> ;
+ rdfs:label "terra nullius"@en ;
+ wdt:P31 wd:Q3062294 .
+
+<https://example.org/resource/tertium_non_datur> wdt:P989 <http://commons.wikimedia.org/wiki/Special:FilePath/Nl-Wet%20van%20de%20uitgesloten%20derde-article.ogg> ;
+ wdt:P1343 wd:Q19219752 ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Axiom> ;
+ wdt:P361 <https://en.wikipedia.org/wiki/Epistemology> ;
+ wdt:P31 <https://en.wikipedia.org/wiki/Theorem> ;
+ wdt:P361 <https://en.wikipedia.org/wiki/Classical_logic> ;
+ rdfs:label "principle of excluded middle"@en ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Principle_of_bivalence> ;
+ wdt:P1889 <https://en.wikipedia.org/wiki/Law_of_noncontradiction> ;
+ wdt:P6104 <https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Mathematics> .
+---
+These are the labels of the properties:
+
+wdt:P1343 -> described by source
+wdt:P1889 -> different from
+wdt:P31 -> instance of
+wdt:P18 -> image
+wdt:P1424 -> topic's main template
+wdt:P461 -> opposite of
+wdt:P443 -> pronunciation audio
+wdt:P279 -> subclass of
+wdt:P460 -> said to be the same as
+wdt:P989 -> spoken text audio
+wdt:P361 -> part of
+wdt:P6104 -> maintained by WikiProject.
+---
+These are the labels of the objects:
+
+wd:Q19219752 -> Meyers Konversations-Lexikon, 4th edition (1885–1890)
+wd:Q63284758 -> Desktop Encyclopedic Dictionary
+wd:Q3062294 -> Latin phrase
+wd:Q2041543 -> Ottův slovník naučný.
+---
+This is the table for which you should extract RDF triples:
+
+{| class="wikitable "
+!Latin!!Translation!!Notes
+|-
+|''[[tu quoque]]''||you too||The logical [[fallacy]] of attempting to defend one's position merely by pointing out the same weakness in one's opponent. |}
+---

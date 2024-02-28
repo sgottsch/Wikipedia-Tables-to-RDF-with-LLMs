@@ -1,0 +1,114 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Holocaust_Memorial_Museum_of_San_Antonio> rdfs:label "Holocaust Memorial Museum of San Antonio"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P276 wd:Q16861 ;
+    wdt:P856 <https://atlas.thc.state.tx.us/Details/4200001143> .
+
+<https://example.org/resource/McNay_Art_Museum> rdfs:label "McNay Art Museum"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P276 wd:Q16861 ;
+    wdt:P856 <https://www.tshaonline.org/handbook/entries/marion-koogler-mcnay-art-museum> .
+
+<https://example.org/resource/O._Henry_House_Museum> rdfs:label "O. Henry House Museum"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P276 wd:Q16861 ;
+    wdt:P856 <https://www.tshaonline.org/handbook/entries/o-henry-museum> .
+
+<https://example.org/resource/Ruby_City> rdfs:label "Ruby City"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P276 wd:Q16861 ;
+    wdt:P856 <https://www.texasmonthly.com/arts-entertainment/ruby-city-linda-pace-tangible-nothing-san-antonio/> .
+
+<https://example.org/resource/San_Antonio_Missions_National_Historical_Park> rdfs:label "San Antonio Missions National Historical Park"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P276 wd:Q16861 ;
+    wdt:P856 <https://atlas.thc.state.tx.us/Details/4200000368> .
+
+<https://example.org/resource/San_Antonio_Museum_of_Art> rdfs:label "San Antonio Museum of Art"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P276 wd:Q16861 ;
+    wdt:P856 <https://www.tshaonline.org/handbook/entries/san-antonio-museum-of-art> .
+
+<https://example.org/resource/Spanish_Governor's_Palace> rdfs:label "Spanish Governor's Palace"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P1435 wd:Q1129142 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/San%20Antonio%20TX%20Spanish%20Govenors%20Palace.jpg> ;
+    wdt:P276 wd:Q975 ;
+    wdt:P571 "1749-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.visitsanantonio.com/venue/spanish-governors-palace/> .
+
+<https://example.org/resource/Texas_Air_Museum_at_Stinson_Field> rdfs:label "Texas Air Museum"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P1435 wd:Q19558910 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P571 "1999-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.texasairmuseum.org/> .
+
+<https://example.org/resource/Texas_Transportation_Museum> rdfs:label "Texas Transportation Museum"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P1435 wd:Q19558910 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P571 "1964-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.texastransportationmuseum.org/> .
+
+<https://example.org/resource/USAF_Airman_Heritage_Museum> rdfs:label "USAF Airman Heritage Museum"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P1435 wd:Q1129142 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P571 "1953-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.jbsa.mil/Home/USAF-Airman-Heritage-Museum/> .
+
+<https://example.org/resource/UTSA_art_galleries> rdfs:label "UTSA art galleries"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q1007870 ;
+    wdt:P6375 "Main Art Gallery - UTSA Department of Art & Art History"@en ;
+    wdt:P856 <https://art.utsa.edu/main-gallery> .
+
+<https://example.org/resource/United_States_Army_Medical_Department_Museum> rdfs:label "United States Army Medical Department Museum"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P1435 wd:Q1129142 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P571 "1946-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://ameddmuseum.amedd.army.mil/> .
+
+<https://example.org/resource/University_of_Texas_Institute_of_Texan_Cultures> rdfs:label "University of Texas Institute of Texan Cultures"@en ;
+    wdt:P131 wd:Q1439 ;
+    wdt:P1435 wd:Q1129142 ;
+    wdt:P276 wd:Q975 ;
+    wdt:P571 "1965-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://www.texancultures.com/> .
+
+<https://example.org/resource/Villa_Finale> rdfs:label "Villa Finale"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P1435 wd:Q3719 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Norton%20polk%20mathis%20house%202014.jpg> ;
+    wdt:P31 wd:Q2087181 ;
+    wdt:P571 "1876-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "401 King William St."@en ;
+    wdt:P856 <https://www.villafinale.org/> .
+
+<https://example.org/resource/Witte_Museum> rdfs:label "Witte Museum"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Witte%20Museum%20Acrocanthosaurus.jpg> ;
+    wdt:P31 wd:Q33506 ;
+    wdt:P571 "1926-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "3801 Broadway St."@en ;
+    wdt:P856 <https://www.wittemuseum.org/> .
+
+<https://example.org/resource/Yturri-Edmunds_Historic_Site> rdfs:label "Yturri-Edmunds Historic Site"@en ;
+    wdt:P131 wd:Q975 ;
+    wdt:P1435 wd:Q3719 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Yturriedmunds1.jpg> ;
+    wdt:P31 wd:Q1081138 ;
+    wdt:P571 "1840-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P6375 "200 E. Grayson St."@en ;
+    wdt:P856 <https://www.saconservation.org/what-we-do/tours/yturri-edmunds-house-museum/> .
+

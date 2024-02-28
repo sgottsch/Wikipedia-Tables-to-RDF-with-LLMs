@@ -1,0 +1,392 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Ahat_Jami_Mosque> rdfs:label "Ahat Jami Mosque"@en ;
+    wdt:P131 wd:Q43070 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/2011-10-30%20-%20panoramio%20(1).jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P361 wd:Q9747 ;
+    wdt:P571 1993 .
+
+<https://example.org/resource/Al-Andalus_Mosque> rdfs:label "Al-Andalus Mosque"@en ;
+    wdt:P17 wd:Q29 ;
+    wdt:P1754 wd:Q8642190 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mezquita%20de%20al-%C3%81ndalus1.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2009 .
+
+<https://example.org/resource/Al-Morabito_Mosque> rdfs:label "Al-Morabito Mosque"@en ;
+    wdt:P138 wd:Q9747 ;
+    wdt:P17 wd:Q29 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/El_Morabito.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1936 .
+
+<https://example.org/resource/Al-Salam_Mosque_Odessa> rdfs:label "Al-Salam Mosque"@en ;
+    wdt:P131 wd:Q1874 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Arabskiy-kulturny-tzentr.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2000 .
+
+<https://example.org/resource/Almonaster_Mosque> rdfs:label "Almonaster Mosque"@en ;
+    wdt:P131 wd:Q533277 ;
+    wdt:P138 wd:Q9747 ;
+    wdt:P17 wd:Q29 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Almonaster_la_real_vue_d%27ensemble.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "9-10"^^xsd:integer .
+
+<https://example.org/resource/Ar-Rahma_Mosque_Kyiv> rdfs:label "Ar-Rahma Mosque, Kyiv"@en ;
+    wdt:P131 wd:Q1899 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mechet.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2000 .
+
+<https://example.org/resource/Bajrakli_Mosque_Belgrade> rdfs:label "Bajrakli Mosque"@en ;
+    wdt:P131 wd:Q3711 ;
+    wdt:P138 wd:Q9747 ;
+    wdt:P17 wd:Q403 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bajrakli_d%C5%BEamija.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1575 .
+
+<https://example.org/resource/Banya_Bashi_Mosque> rdfs:label "Banya Bashi Mosque"@en ;
+    wdt:P131 wd:Q472 ;
+    wdt:P17 wd:Q219 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Banya-bashi-imagesfrombulgaria.JPG> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1576 .
+
+<https://example.org/resource/Bohoniki_Mosque> rdfs:label "Bohoniki Mosque"@en ;
+    wdt:P131 wd:Q833571 ;
+    wdt:P138 <https://pl.wikipedia.org/wiki/Meczet_w_Bohonikach> ;
+    wdt:P17 wd:Q36 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Meczet_w_Bohonikach_02.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "19/20"^^xsd:integer .
+
+<https://example.org/resource/Dublin_Mosque> rdfs:label "Dublin Mosque"@en ;
+    wdt:P131 wd:Q1761 ;
+    wdt:P17 wd:Q22890 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Dublin%20Mosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1976 .
+
+<https://example.org/resource/Esmahan_Sultan_Mosque> rdfs:label "Esmahan Sultan Mosque"@en ;
+    wdt:P131 wd:Q467498 ;
+    wdt:P17 wd:Q218 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mangalia_Mosque1020578.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1575 .
+
+<https://example.org/resource/Fuengirola_Mosque> rdfs:label "Fuengirola Mosque"@en ;
+    wdt:P131 wd:Q492735 ;
+    wdt:P17 wd:Q29 ;
+    wdt:P1754 wd:Q8642190 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/HPIM2216.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1994 .
+
+<https://example.org/resource/Geneva_Mosque> rdfs:label "Geneva Mosque"@en ;
+    wdt:P131 wd:Q71 ;
+    wdt:P138 wd:Q1065 ;
+    wdt:P17 wd:Q39 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mosqu%C3%A9eGen%C3%A8ve.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1978 .
+
+<https://example.org/resource/Grand_Mosque_of_Constanța> rdfs:label "Grand Mosque of Constanța"@en ;
+    wdt:P17 wd:Q218 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Moscheea_Carol_I,_Constanta.JPG> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1912 .
+
+<https://example.org/resource/Hadum_Mosque> rdfs:label "Hadum Mosque"@en ;
+    wdt:P17 wd:Q1246 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Hadum%20Mosque%20-%20Gjakovë.JPG> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1594 .
+
+<https://example.org/resource/Ibrahim-al-Ibrahim_Mosque> rdfs:label "Ibrahim-al-Ibrahim Mosque"@en ;
+    wdt:P131 wd:Q1410 ;
+    wdt:P1448 "King Fahd bin Abdulaziz al-Saud Mosque" ;
+    wdt:P17 wd:Q1410 ;
+    wdt:P1754 wd:Q7481533 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/DIMG%206359%20(1874021030).jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1997 ;
+    wdt:P580 "1997-08-08"^^xsd:dateTime ;
+    wdt:P793 "SA" .
+
+<https://example.org/resource/Ibrahim_Pasha_Mosque> rdfs:label "Ibrahim Pasha Mosque"@en ;
+    wdt:P131 wd:Q189650 ;
+    wdt:P17 wd:Q219 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Maktul%20ibrahim%20Pasa%20Camii%20(Razgrad).jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1616 .
+
+<https://example.org/resource/Ismi_Khan_Jami_Mosque> rdfs:label "Ismi Khan Jami Mosque"@en ;
+    wdt:P131 wd:Q158604 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ismi%20Han%20Cami.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 17 .
+
+<https://example.org/resource/Işak_Bey_Mosque> rdfs:label "Işak Bey Mosque"@en ;
+    wdt:P131 wd:Q384 ;
+    wdt:P17 wd:Q221 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Isak_Bey_Turbe_Aladja_Mosque_Skopje.JPG> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P361 wd:Q9747 .
+
+<https://example.org/resource/Järvenpää_Mosque> rdfs:label "Järvenpää Mosque"@en ;
+    wdt:P17 wd:Q33 ;
+    wdt:P1754 wd:Q15278028 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Järvenpään%20islamilainen%20rukoushuone%20-%20Keskitalontie%203%20-%20Kinnari%20-%20Järvenpää.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1942 .
+
+<https://example.org/resource/Kebir-Jami_Mosque_Simferopol> rdfs:label "Kebir-Jami Mosque"@en ;
+    wdt:P131 wd:Q19566 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C%20%D0%9A%D0%B5%D0%B1%D1%96%D1%80-%D0%94%D0%B6%D0%B0%D0%BC%D1%96.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1508 .
+
+<https://example.org/resource/Kharkiv_Cathedral_Mosque> rdfs:label "Kharkiv Cathedral Mosque"@en ;
+    wdt:P131 wd:Q42308 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C%20%D0%B2%20%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D0%B5.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P361 wd:Q9747 ;
+    wdt:P571 1993 .
+
+<https://example.org/resource/King_Abdelaziz_Mosque> rdfs:label "King Abdelaziz Mosque"@en ;
+    wdt:P131 wd:Q484799 ;
+    wdt:P17 wd:Q29 ;
+    wdt:P1754 wd:Q8642190 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mosque%20of%20King%20Abdelaziz.JPG> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1981 .
+
+<https://example.org/resource/Kruszyniany_Mosque> rdfs:label "Kruszyniany Mosque"@en ;
+    wdt:P131 wd:Q837715 ;
+    wdt:P138 <https://pl.wikipedia.org/wiki/Meczet_w_Kruszynianach> ;
+    wdt:P17 wd:Q36 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kruszyniany_Mosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "18/19"^^xsd:integer .
+
+<https://example.org/resource/Kyiv_Islamic_Cultural_Center> rdfs:label "Kyiv Islamic Cultural Center"@en ;
+    wdt:P131 wd:Q1899 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kyiv%20Islamic%20Cultural%20Center.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2001 .
+
+<https://example.org/resource/Lisbon_Mosque> rdfs:label "Lisbon Mosque"@en ;
+    wdt:P131 wd:Q597 ;
+    wdt:P17 wd:Q45 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Lisbon_Mosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1988 .
+
+<https://example.org/resource/List_of_mosques_in_Cyprus> rdfs:label "list of mosques in Cyprus"@en ;
+    wdt:P17 wd:Q229 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 .
+
+<https://example.org/resource/List_of_mosques_in_France> rdfs:label "list of mosques in France"@en ;
+    wdt:P17 wd:Q142 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 .
+
+<https://example.org/resource/List_of_mosques_in_Germany> rdfs:label "list of mosques in Germany"@en ;
+    wdt:P17 wd:Q183 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 .
+
+<https://example.org/resource/List_of_mosques_in_Russia> rdfs:label "list of mosques in Russia"@en ;
+    wdt:P17 wd:Q159 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 .
+
+<https://example.org/resource/List_of_mosques_in_Sweden> rdfs:label "list of mosques in Sweden"@en ;
+    wdt:P17 wd:Q34 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 .
+
+<https://example.org/resource/List_of_mosques_in_the_Nagorno-Karabakh> rdfs:label "List of mosques in the Nagorno-Karabakh"@en ;
+    wdt:P17 wd:Q227 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 .
+
+<https://example.org/resource/List_of_mosques_in_the_Netherlands> rdfs:label "List of mosques in the Netherlands"@en ;
+    wdt:P17 wd:Q55 ;
+    wdt:P31 wd:Q13406463 ;
+    wdt:P360 wd:Q32815 .
+
+<https://example.org/resource/Ljubljana_Mosque> rdfs:label "Ljubljana Mosque"@en ;
+    wdt:P131 wd:Q437 ;
+    wdt:P17 wd:Q215 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/D%C5%BEamija_Ljubljana_3.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Luhansk_Cathedral_Mosque> rdfs:label "Luhansk Cathedral Mosque"@en ;
+    wdt:P131 wd:Q134279 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mosque%20-%20panoramio%20(10).jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2010 .
+
+<https://example.org/resource/Madrid_Central_Mosque> rdfs:label "Madrid Central Mosque"@en ;
+    wdt:P131 wd:Q2807 ;
+    wdt:P17 wd:Q29 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20central%20mosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1988 .
+
+<https://example.org/resource/Mahmood_Mosque> rdfs:label "Mahmood Mosque"@en ;
+    wdt:P138 wd:Q2039886 ;
+    wdt:P17 wd:Q39 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mahmud%20Moschee.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1963 .
+
+<https://example.org/resource/Mariam_Al-Batool_Mosque> rdfs:label "Mariam Al-Batool Mosque"@en ;
+    wdt:P131 wd:Q846589 ;
+    wdt:P138 wd:Q7950608 ;
+    wdt:P17 wd:Q233 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Malta%20-%20Paola%20-%20Triq%20Kordin%20-%20Mosque%2005%20ies.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1978 .
+
+<https://example.org/resource/Maryam_Mosque> rdfs:label "Maryam Mosque"@en ;
+    wdt:P17 wd:Q218 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2014 .
+
+<https://example.org/resource/Molla-Mustafa_Jami_Mosque> rdfs:label "Molla-Mustafa Jami Mosque"@en ;
+    wdt:P131 wd:Q158604 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Molla%20Mustafa%20Cami.jpg> ;
+    wdt:P31 wd:Q32815 .
+
+<https://example.org/resource/Mosque_Cathedral_of_C%C3%B3rdoba> rdfs:label "Mosque–Cathedral of Córdoba"@en ;
+    wdt:P138 wd:Q9747 ;
+    wdt:P17 wd:Q29 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Cordoba_moscheefassade.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 784 .
+
+<https://example.org/resource/Mosque_of_Cristo_de_la_Luz> rdfs:label "Mosque of Cristo de la Luz"@en ;
+    wdt:P131 wd:Q5836 ;
+    wdt:P17 wd:Q29 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Cristo%20de%20la%20Luz.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 999 .
+
+<https://example.org/resource/Mosque_of_Rome> rdfs:label "Mosque of Rome"@en ;
+    wdt:P131 wd:Q220 ;
+    wdt:P17 wd:Q38 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Rome%20Masjid.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1995 .
+
+<https://example.org/resource/Mosque_of_Segrate> rdfs:label "Mosque of Segrate"@en ;
+    wdt:P131 wd:Q42902 ;
+    wdt:P17 wd:Q38 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Moschea%20di%20Segrate.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1988 .
+
+<https://example.org/resource/Mufti-Jami_Mosque> rdfs:label "Mufti-Jami Mosque"@en ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mufti%20Dzhami%20Theodosia%20Mosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P361 wd:Q9747 ;
+    wdt:P571 1637 .
+
+<https://example.org/resource/Mustapha_Pasha_Mosque> rdfs:label "Mustapha Pasha Mosque"@en ;
+    wdt:P131 wd:Q384 ;
+    wdt:P17 wd:Q221 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P361 wd:Q9747 ;
+    wdt:P571 1492 .
+
+<https://example.org/resource/Orta_Juma_Jami> rdfs:label "Orta Juma Jami"@en ;
+    wdt:P131 wd:Q158604 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Orta%20Juma%20Jami%20(1674)%20view%20from%20the%20Lenina%20street,%20Bakhchisaray,%20Crimea,%20Ukraine,%202013.JPG> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P361 wd:Q9747 ;
+    wdt:P571 1674 .
+
+<https://example.org/resource/Reykjavík_Mosque> rdfs:label "Reykjavík Mosque"@en ;
+    wdt:P17 wd:Q189 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Moskan%20i%20reykjavik.JPG> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2002 .
+
+<https://example.org/resource/Sailors_Mosque> rdfs:label "Sailors' Mosque"@en ;
+    wdt:P131 wd:Q189969 ;
+    wdt:P1441 "Destroyed in 1931, rebuilt between 2008 and 2012"@en ;
+    wdt:P17 wd:Q236 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sailors%E2%80%99_Mosque_(2012).jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P361 wd:Q9747 ;
+    wdt:P571 1798 .
+
+<https://example.org/resource/Sultan_Suleiman_Mosque> rdfs:label "Sultan Suleiman Mosque"@en ;
+    wdt:P131 wd:Q37133 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mosque%20in%20Mariupol.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 2007 .
+
+<https://example.org/resource/Tahtali-Jami_Mosque> rdfs:label "Tahtali-Jami Mosque"@en ;
+    wdt:P131 wd:Q158604 ;
+    wdt:P17 wd:Q212 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tahtal%C4%B1%20Cami%20mosque.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P361 wd:Q9747 ;
+    wdt:P571 1707 .
+
+<https://example.org/resource/Tombul_Mosque> rdfs:label "Tombul Mosque"@en ;
+    wdt:P131 wd:Q181830 ;
+    wdt:P17 wd:Q219 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Tombul%20Djamia%20Shumen.JPG> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1740,
+        1744 .
+
+<https://example.org/resource/Tornerías_Mosque> rdfs:label "Tornerías Mosque"@en ;
+    wdt:P131 wd:Q5836 ;
+    wdt:P17 wd:Q29 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/%D9%85%D8%B3%D8%AC%D8%AF%20%D8%AA%D8%B1%D9%86%D8%B1%D9%8A%D8%A7%D8%B3.JPG> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1050 .
+
+<https://example.org/resource/Zagreb_Mosque> rdfs:label "Zagreb Mosque"@en ;
+    wdt:P131 wd:Q1435 ;
+    wdt:P17 wd:Q224 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Zagreb%20-%20Islamski%20centar%20-%20d%C5%BEamija.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 1987 .
+
+<https://example.org/resource/Çelebi_Sultan_Mehmed_Mosque> rdfs:label "Çelebi Sultan Mehmed Mosque"@en ;
+    wdt:P131 wd:Q932648 ;
+    wdt:P1448 "Bayezid Mosque",
+        "Didymoteicho Mosque" ;
+    wdt:P17 wd:Q41 ;
+    wdt:P1754 wd:Q7481489 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/20100328_Bayezid_Mosque_Mehmed_I_Didymoteicho_Evros_Greece_1.jpg> ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 15 ;
+    wdt:P793 "Ottoman" .
+

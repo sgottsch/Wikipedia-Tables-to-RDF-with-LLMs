@@ -1,0 +1,38 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Bait_Ur_Rahman_Mosque> rdfs:label "Bait Ur Rahman Mosque"@en ;
+    wdt:P1083 1904.0 ;
+    wdt:P131 wd:Q55934339 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bait%20Ur%20Rahman%20Mosque.jpg> ;
+    wdt:P276 wd:Q4093 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1984-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://ahmadiyya.uk/mosques/baitur-rahman-mosque-glasgow/> .
+
+<https://example.org/resource/Falkirk_Islamic_Centre> rdfs:label "Falkirk Islamic Centre"@en ;
+    wdt:P131 wd:Q231830 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P276 wd:Q623687 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1992-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    wdt:P856 <https://falkirkislamiccentre.org/> .
+
+<https://example.org/resource/Masjid_Noor> rdfs:label "Masjid Noor"@en ;
+    wdt:P131 wd:Q55934339 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P276 wd:Q4093 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "1998-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Zia-ul-Quran_Mosque> rdfs:label "Zia-ul-Quran Mosque"@en ;
+    wdt:P1083 200.0 ;
+    wdt:P131 wd:Q55934339 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P276 wd:Q4093 ;
+    wdt:P31 wd:Q32815 ;
+    wdt:P571 "2000-01-01T00:00:00+00:00"^^xsd:dateTime .
+

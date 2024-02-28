@@ -1,0 +1,88 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Aspects_of_China's_Anti-Japanese_Struggle> rdfs:label "Aspects of China's Anti-Japanese Struggle"@en ;
+    wdt:P136 wd:Q1391420 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P407 wd:Q7850 ;
+    wdt:P50 wd:Q5816 ;
+    wdt:P577 "1948-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Combat_Liberalism> rdfs:label "Combat Liberalism"@en ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P50 wd:Q5816 ;
+    wdt:P577 "1937-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Concerning_Marxism_in_Linguistics> rdfs:label "Concerning Marxism in Linguistics"@en ;
+    wdt:P136 wd:Q1391420 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P407 wd:Q7737 ;
+    wdt:P50 wd:Q855 ;
+    wdt:P577 "1950-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Friedrich_Engels_A_Biography> rdfs:label "Friedrich Engels: A Biography"@en ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P50 wd:Q2708930 ;
+    wdt:P577 "1920-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Fundamental_Problems_of_Marxism> rdfs:label "Fundamental Problems of Marxism"@en ;
+    wdt:P136 wd:Q109884040 ;
+    wdt:P50 wd:Q182905 ;
+    wdt:P577 "1908-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Heroines_of_the_Modern_Progress> rdfs:label "Heroines of the Modern Progress"@en ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P577 "1913-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Problems_of_Leninism> rdfs:label "Problems of Leninism"@en ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P50 wd:Q855 ;
+    wdt:P577 "1926-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Red_Lines_Political_Cartoons_and_the_Struggle_Against_Censorship> rdfs:label "Red Lines: Political Cartoons and the Struggle Against Censorship"@en ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P50 wd:Q97819604,
+        <https://en.wikipedia.org/wiki/Sonny_Liew> ;
+    wdt:P577 "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_A_to_Z_of_the_Soviet_Union> rdfs:label "The A to Z of the Soviet Union"@en ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P577 "1946-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Case_for_Communism> rdfs:label "The Case for Communism"@en ;
+    wdt:P136 wd:Q1391420 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P577 "1949-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Social_and_State_Structure_of_the_USSR> rdfs:label "The Social and State Structure of the USSR"@en ;
+    wdt:P136 wd:Q1391420 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P407 wd:Q7737 ;
+    wdt:P50 wd:Q729563 ;
+    wdt:P577 "1952-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/The_Wisdom_of_Jihad> rdfs:label "The Wisdom of Jihad"@en ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P577 "2005-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Things_that_Nullify_Ones_Islaam> rdfs:label "Things that Nullify One's Islaam"@en ;
+    wdt:P136 wd:Q7725634 ;
+    wdt:P577 "2013-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/Twilight_of_World_Capitalism> rdfs:label "Twilight of World Capitalism"@en ;
+    wdt:P136 wd:Q1391420 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P50 wd:Q1382452 ;
+    wdt:P577 "1949-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+<https://example.org/resource/What_Islam_Is_All_About> rdfs:label "What Islam Is All About"@en ;
+    wdt:P136 wd:Q1391420 ;
+    wdt:P31 wd:Q7725634 ;
+    wdt:P407 wd:Q1860 ;
+    wdt:P50 wd:Q8046816 ;
+    wdt:P577 "1997-01-01T00:00:00+00:00"^^xsd:dateTime .
+

@@ -1,0 +1,49 @@
+In both
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P1476> "Burger's Daughter"@en .
+<https://example.org/resource/July's_People> <http://www.wikidata.org/prop/direct/P1476> "July's People"@en .
+<https://example.org/resource/Burger's_Daughter> <http://www.w3.org/2000/01/rdf-schema#label> "Burger's Daughter"@en .
+<https://example.org/resource/July's_People> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q258> .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q47619> .
+<https://example.org/resource/July's_People> <http://www.w3.org/2000/01/rdf-schema#label> "July's People"@en .
+<https://example.org/resource/July's_People> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/July's_People> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/July's_People> <http://www.wikidata.org/prop/direct/P577> "1981-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/July's_People> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q47619> .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q7725634> .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P577> "1979-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+In ground only
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q3277534> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q256223> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q2874472> .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q192239> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q179461> .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q145> .
+<https://example.org/resource/July's_People> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q2478965> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P840> <http://www.wikidata.org/entity/Q46> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.w3.org/2000/01/rdf-schema#label> "The Satanic Bible"@en .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P674> <http://www.wikidata.org/entity/Q35230> .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P407> <http://www.wikidata.org/entity/Q1860> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P156> <http://www.wikidata.org/entity/Q7762291> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P577> "1969-01-01T00:00:00+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.org/resource/July's_People> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q8261> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q27801> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P674> <http://www.wikidata.org/entity/Q815594> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P674> <http://www.wikidata.org/entity/Q192677> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P50> <http://www.wikidata.org/entity/Q26168> .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P136> <http://www.wikidata.org/entity/Q20358335> .
+<https://example.org/resource/July's_People> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q3277534> .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P921> <http://www.wikidata.org/entity/Q11409> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P1476> "The Satanic Bible"@en .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P747> <http://www.wikidata.org/entity/Q60374594> .
+<https://example.org/resource/July's_People> <http://www.wikidata.org/prop/direct/P123> <http://www.wikidata.org/entity/Q921536> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q133363> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q30> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P1889> <http://www.wikidata.org/entity/Q212180> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P138> <http://www.wikidata.org/entity/Q1845> .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47461344> .
+<https://example.org/resource/The_Satanic_Bible> <http://www.wikidata.org/prop/direct/P674> <http://www.wikidata.org/entity/Q185498> .
+In predicted only
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P495> <http://www.wikidata.org/entity/Q258> .
+<https://example.org/resource/Burger's_Daughter> <http://www.wikidata.org/prop/direct/P7937> <http://www.wikidata.org/entity/Q8261> .

@@ -1,0 +1,198 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/Al-Gwei'iyyah> wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Al-Hareeq> rdfs:label "Al-Hareeq"@en ;
+    wdt:P1082 6895.0 ;
+    wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Al-Khutt> wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Al-Namas> rdfs:label "Al-Namas"@en ;
+    wdt:P1082 22541.0 .
+
+<https://example.org/resource/Al-Omran> wdt:P1082 22781.0 .
+
+<https://example.org/resource/Al-Oyoon> wdt:P1082 35226.0 .
+
+<https://example.org/resource/Al-Saih> wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Al_Lith> rdfs:label "Al Lith"@en ;
+    wdt:P1082 20811.0 .
+
+<https://example.org/resource/Al_Majma'ah> rdfs:label "Al Majma'ah"@en ;
+    wdt:P1082 70243.0 .
+
+<https://example.org/resource/Al_Qunfudhah> wdt:P1082 42447.0 .
+
+<https://example.org/resource/Ar_Rass> wdt:P1082 107902.0 .
+
+<https://example.org/resource/Dahaban> rdfs:label "Dahaban"@en ;
+    wdt:P1082 9436.0 ;
+    wdt:P17 wd:Q851 .
+
+<https://example.org/resource/Dawadmi> wdt:P1082 86861.0 .
+
+<https://example.org/resource/Dhahran> rdfs:label "Dhahran"@en ;
+    wdt:P1082 143936.0 ;
+    wdt:P17 wd:Q851 .
+
+<https://example.org/resource/Dhurma> rdfs:label "Dhurma"@en ;
+    wdt:P1082 16344.0 ;
+    wdt:P17 wd:Q851 .
+
+<https://example.org/resource/Diriyah> rdfs:label "Diriyah"@en ;
+    wdt:P17 wd:Q851 ;
+    wdt:P36 wd:Q97291223 .
+
+<https://example.org/resource/Duba> rdfs:label "Duba"@en ;
+    wdt:P1082 39543.0 ;
+    wdt:P17 wd:Q851 .
+
+<https://example.org/resource/Dumat_Al-Jandal> rdfs:label "Dumat Al-Jandal"@en ;
+    wdt:P1082 24134.0 ;
+    wdt:P17 wd:Q851 .
+
+<https://example.org/resource/Farasan> wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Gerrha> wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Ghawiyah> wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Hafr_Al-Batin> rdfs:label "Hafr Al-Batin"@en ;
+    wdt:P1082 387096.0 ;
+    wdt:P131 wd:Q953508 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q486972 ;
+    wdt:P421 wd:Q6760 .
+
+<https://example.org/resource/Hajrah> rdfs:label "Hajrah"@en ;
+    wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Haql> rdfs:label "Haql"@en ;
+    wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Harmah> rdfs:label "Harmah"@en ;
+    wdt:P1082 7775.0 ;
+    wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Hautat_Sudair> rdfs:label "Hautat Sudair"@en ;
+    wdt:P1082 14813.0 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q486972 ;
+    wdt:P36 wd:Q28684872 ;
+    wdt:P421 wd:Q6760 .
+
+<https://example.org/resource/Hofuf-Al-Mubarraz> rdfs:label "Hofuf-Al-Mubarraz"@en ;
+    wdt:P1082 729606.0 ;
+    wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Hotat_Bani_Tamim> rdfs:label "Hotat Bani Tamim"@en ;
+    wdt:P1082 30720.0 ;
+    wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Huraymila> rdfs:label "Huraymila"@en ;
+    wdt:P1082 0.0 .
+
+<https://example.org/resource/Irqah> rdfs:label "Irqah"@en ;
+    wdt:P1082 42179.0 ;
+    wdt:P17 wd:Q851 .
+
+<https://example.org/resource/Jabal_Umm_al_Ru'us> rdfs:label "Jabal Umm al Ru'us"@en ;
+    wdt:P1082 0.0 .
+
+<https://example.org/resource/Jalajil> rdfs:label "Jalajil"@en ;
+    wdt:P1082 3411.0 .
+
+<https://example.org/resource/Jazan_Economic_City> rdfs:label "Jazan Economic City"@en ;
+    wdt:P1082 0.0 ;
+    wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Jeddah> rdfs:label "Jeddah"@en ;
+    wdt:P1082 3712917.0 ;
+    wdt:P131 wd:Q234167 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q486972 ;
+    wdt:P421 wd:Q6760 .
+
+<https://example.org/resource/Jubail> rdfs:label "Jubail"@en ;
+    wdt:P1082 474679.0 ;
+    wdt:P17 wd:Q851 .
+
+<https://example.org/resource/Khafji> rdfs:label "Khafji"@en ;
+    wdt:P1082 78691.0 ;
+    wdt:P17 wd:Q851 .
+
+<https://example.org/resource/Khamis_Mushait> rdfs:label "Khamis Mushait"@en ;
+    wdt:P1082 535065.0 ;
+    wdt:P17 wd:Q851 .
+
+<https://example.org/resource/Khaybar> rdfs:label "Khaybar"@en ;
+    wdt:P17 wd:Q851 .
+
+<https://example.org/resource/Khobar> wdt:P1082 409549.0 .
+
+<https://example.org/resource/King_Abdullah_Economic_City> rdfs:label "King Abdullah Economic City"@en ;
+    wdt:P1082 5100.0 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q22698 .
+
+<https://example.org/resource/King_Khalid_Military_City> wdt:P1082 25356.0 .
+
+<https://example.org/resource/Knowledge_Economic_City_Medina> wdt:P31 wd:Q486972 .
+
+<https://example.org/resource/Layla> wdt:P1082 29698.0 .
+
+<https://example.org/resource/Lihyan> rdfs:label "Lihyan"@en ;
+    wdt:P1082 0.0 .
+
+<https://example.org/resource/Mastoorah> rdfs:label "Mastoorah"@en ;
+    wdt:P1082 0.0 .
+
+<https://example.org/resource/Muzahmiyya> rdfs:label "Muzahmiyya"@en ;
+    wdt:P1082 55604.0 .
+
+<https://example.org/resource/Neom> rdfs:label "Neom"@en .
+
+<https://example.org/resource/Qadeimah> rdfs:label "Qadeimah"@en .
+
+<https://example.org/resource/Qaisumah> wdt:P1082 20887.0 .
+
+<https://example.org/resource/Qatif> wdt:P1082 87332.0 .
+
+<https://example.org/resource/Qurayyat> wdt:P1082 167080.0 .
+
+<https://example.org/resource/Rabigh> wdt:P1082 72928.0 .
+
+<https://example.org/resource/Rafha> wdt:P1082 63929.0 .
+
+<https://example.org/resource/Ranyah> rdfs:label "Ranyah"@en ;
+    wdt:P1082 28681.0 .
+
+<https://example.org/resource/Ras_Tanura> rdfs:label "Ras Tanura"@en ;
+    wdt:P1082 57030.0 .
+
+<https://example.org/resource/Riyadh_Al_Khabra> rdfs:label "Riyadh Al-Khabra"@en ;
+    wdt:P1082 25588.0 ;
+    wdt:P17 wd:Q851 ;
+    wdt:P31 wd:Q18616576 .
+
+<https://example.org/resource/Rumailah,_Saudi_Arabia> rdfs:label "Rumailah"@en ;
+    wdt:P1082 10000.0 ;
+    wdt:P131 wd:Q4702167 .
+
+<https://example.org/resource/Sabya> rdfs:label "Sabya"@en ;
+    wdt:P1082 72086.0 .
+
+<https://example.org/resource/Sarat_Abidah> rdfs:label "Sarat Abidah"@en ;
+    wdt:P1082 19855.0 .
+
+<https://example.org/resource/Umluj> wdt:P1082 46229.0 .
+
