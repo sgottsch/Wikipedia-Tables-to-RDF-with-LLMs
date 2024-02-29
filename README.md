@@ -38,14 +38,14 @@ You need to configure an OpenAI key in your environment variables.
 ## Project structure
 
 This repository is structured as follows:
-- `data`: Folder containing a list of tables for experiments and the results of experiments.
-   - `data/evaluation`: Results of experiments, grouped by the number of examples in the prompt and the two types of experiments. Thisa repository already contains results of two experiments:
+- [`data`](data): Folder containing a list of tables for experiments and the results of experiments.
+   - [`data/evaluation`](data/evaluation): Results of experiments, grouped by the number of examples in the prompt and the two types of experiments. Thisa repository already contains results of two experiments:
        - Evaluation on known target triples for 1-8 examples
        - Generation of triples for unlinked entities for 5 examples
-- `examples`: Folder with some examples and more descriptions of this repository.
+- [`examples`](examples): Folder with some example resuts and more descriptions of this repository.
 - Python scripts to run experiments
 
-## Example
+## Run an Example
 
 Run `example.py` to extract Wikidata triples from an example Wikipedia table and explore the created knowledge graph.
 
