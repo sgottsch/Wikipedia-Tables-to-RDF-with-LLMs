@@ -47,7 +47,7 @@ This repository is structured as follows:
 
 ## Run an Example
 
-Run `example.py` to extract Wikidata triples from an example Wikipedia table and explore the created knowledge graph.
+Run [`example.py`](example.py) to extract Wikidata triples from an example Wikipedia table and explore the created knowledge graph.
 
 ## Experiment 1: Extract new entities
 
