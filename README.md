@@ -14,7 +14,7 @@ See [here](examples) for different examples.
 
 ## Installation
 
-In order to run this PYthon3.9 project, you need to install the libraries *rdflib*, *pymediawiki*, *SPARQLWrapper* and *openai*.
+In order to run this Python3.9 project, you need to install the libraries *rdflib*, *pymediawiki*, *SPARQLWrapper* and *openai*.
 
 ### Create DBpedia/Wikidata mapping file
 
