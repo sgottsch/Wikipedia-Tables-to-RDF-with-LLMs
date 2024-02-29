@@ -2,13 +2,13 @@
 
 ## Wikidata Query
 
-[This Wikidata example query](examples/example_wikidata_sparql_query.txt) is used to get relevant triples about the entity "[St Margaret's Church, Barking](https://www.wikidata.org/wiki/Q17526496)".
+[This Wikidata example query](example_wikidata_sparql_query.txt) is used to get relevant triples about the entity "[St Margaret's Church, Barking](https://www.wikidata.org/wiki/Q17526496)".
 
 You can see the results of this query on the Wikidata SPARQL endpoint [here](https://w.wiki/9Kfp).
 
 ## Example Graph
 
-See [examples/example_churches_in_london.ttl](here) for an example RDF Turtle file automatically generated for the table "Barking and Dagenham" in the Wikipedia page ["List of churches in London"](https://en.wikipedia.org/w/index.php?title=List_of_churches_in_London&oldid=1203013560).
+See [example_churches_in_london.ttl](here) for an example RDF Turtle file automatically generated for the table "Barking and Dagenham" in the Wikipedia page ["List of churches in London"](https://en.wikipedia.org/w/index.php?title=List_of_churches_in_London&oldid=1203013560).
 
 ## Example Experiments
 
