@@ -8,9 +8,9 @@ This is an overview of our approach:
 
 ![Overview of our approach](images/approach.png)
 
-## Examples
+## Example Results
 
-See [here](examples) for different examples.
+See [here](examples) for different example results.
 
 ## Installation
 
