@@ -51,12 +51,12 @@ Run `example.py` to extract Wikidata triples from an example Wikipedia table and
 
 ## Experiment 1: Extract new entities
 
-Run `experiments_new_entities.py` to extract triples for the tables defined in `data/wikipedia_list_tables.tsv`. As a result, one .ttl is created for table.
+Run [`experiments_new_entities.py`](experiments_new_entities.py) to extract triples for the tables defined in [`data/wikipedia_list_tables.tsv`](data/wikipedia_list_tables.tsv). As a result, one .ttl is created for table.
 
 _The repository already contains the files created for 5 examples (`number_of_examples = 5`)._
 
 ## Experiment 2: Evaluation
 
-Run `experiments_existing_entities.py` to extract triples for already linked entities in the tables defined in `data/wikipedia_list_tables.tsv`. As a result, one .ttl is created for table, plus JSON files iving evaluation metrics.
+Run [`experiments_existing_entities.py`](experiments_existing_entities.py) to extract triples for already linked entities in the tables defined in [`data/wikipedia_list_tables.tsv`](data/wikipedia_list_tables.tsv). As a result, one .ttl is created for table, plus JSON files iving evaluation metrics.
 
 _The repository already contains the files created for 1-8 examples.
