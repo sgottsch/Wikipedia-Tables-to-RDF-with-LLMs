@@ -2,7 +2,7 @@ SELECT DISTINCT ?p ?propertyLabel ?o ?oArticle ?oLabel WHERE {
     wd:Q17526496 ?p ?o .
 
     FILTER(STRSTARTS(STR(?p), STR(wdt:)) || ?p in (rdfs:label)) .
-    FILTER(!isLiteral(?o) || isNumeric(?o) || lang(?o) = "en") .
+    FILTER(!isLiteral(?o) || isNumeric(?o) || lang(?o) = "en" || datatype(?o) = xsd:dateTime || datatype(?o) = xsd:date || datatype(?o) = xsd:time) .
 
     OPTIONAL {
         ?oArticle schema:about ?o .

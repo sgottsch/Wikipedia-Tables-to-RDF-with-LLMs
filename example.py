@@ -31,7 +31,7 @@ def explore_graph(file_name):
 
 
 if __name__ == "__main__":
-    ttl_filename = "data/examples/example_churches_in_london.ttl"
+    ttl_filename = "examples/example_churches_in_london.ttl"
     dbpedia_to_wikidata = get_dbpedia_to_wikidata_mapping()
     extract_triples_for_wikipedia_article(page_name="List of churches in London", table_number=0,
                                           number_of_examples=4, dbpedia_to_wikidata=dbpedia_to_wikidata,
