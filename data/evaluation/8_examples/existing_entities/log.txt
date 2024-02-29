@@ -118,3 +118,6 @@ Table	List_of_books_about_skepticism	0	Error	2024-02-28 13:55:14
 Table	List_of_films_featuring_dinosaurs	0	Done	2024-02-28 13:58:31
 Article	List_of_films_featuring_dinosaurs		Done	2024-02-28 13:58:31
 Table	List_of_books_about_skepticism	0	Error	2024-02-28 16:05:49
+Table	List_of_books_about_skepticism	0	Error	2024-02-28 17:28:41
+Table	List_of_books_about_skepticism	0	Done	2024-02-28 17:39:34
+Article	List_of_books_about_skepticism		Done	2024-02-28 17:39:34

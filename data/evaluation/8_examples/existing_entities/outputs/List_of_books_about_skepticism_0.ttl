@@ -1,17 +1,8 @@
 @prefix ns1: <http://www.wikidata.org/prop/direct/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns2: <https://example.org/resource/Blackmore,> .
 
-<https://example.org/resource/Carroll,_Sean_M.> ns1:P101 <http://www.wikidata.org/entity/Q11452>,
-        <http://www.wikidata.org/entity/Q1165883>,
-        <http://www.wikidata.org/entity/Q1505283>,
-        <http://www.wikidata.org/entity/Q18334>,
-        <http://www.wikidata.org/entity/Q18362>,
-        <http://www.wikidata.org/entity/Q2485457>,
-        <http://www.wikidata.org/entity/Q338>,
-        <http://www.wikidata.org/entity/Q413>,
-        <http://www.wikidata.org/entity/Q445622>,
-        <http://www.wikidata.org/entity/Q472328>,
-        <http://www.wikidata.org/entity/Q59115>,
-        <http://www.wikidata.org/entity/Q7433714>,
-        <http://www.wikidata.org/entity/Q944>,
-        
+<https://example.org/resource/Carroll,_Sean_M.> ns1:P1559 "Sean M. Carroll"@en ;
+    ns1:P463 <http://www.wikidata.org/entity/Q5317558>,
+        <http://www.wikidata.org/entity/Q67311526> ;
+    ns2:_Susan ns1:P101 .
+

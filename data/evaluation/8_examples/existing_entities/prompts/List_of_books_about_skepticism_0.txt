@@ -79,10 +79,10 @@ This is the example table:
 ---
 For this example table, the following triples are created:
 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
-@prefix wdt: <http://www.wikidata.org/prop/direct/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.org/resource/John_William_Draper> wdt:P69 <https://en.wikipedia.org/wiki/Perelman_School_of_Medicine_at_the_University_of_Pennsylvania> ;
  wdt:P69 <https://en.wikipedia.org/wiki/Woodhouse_Grove_School> ;
@@ -530,51 +530,51 @@ This is the table for which you should extract RDF triples:
 ! Edition 
 ! Year
 |-
-| [[Jon Entine|Entine, Jon]]
+| [[David Aaronovitch|Aaronovitch, David]]
+| [[Conspiracy theory]]
+| ''Voodoo Histories: The Role of the Conspiracy Theory in Shaping Modern History''
+| {{ISBNT|978-1594484988}}
+| [[Riverhead Books]]
+| Paperback
+| 2010
+|-
+| [[Vincent Bugliosi|Bugliosi, Vincent]]
+| [[Conspiracy theory]]
+| ''[[Reclaiming History]]: The Assassination of President John F. Kennedy''
+| {{ISBNT|978-0393045253}}
+| [[W. W. Norton & Company]]
+| Hardcover
+| 2007
+|-
+| [[Darryl Cunningham|Cunningham, Darryl]]
+| Young Skeptics
+| ''How to Fake a Moon Landing: Exposing the Myths of Science Denial''
+| {{ISBNT|978-1419706899}}
+| [[Abrams Books]]
+| Hardcover
+| 2013
+|-
+| [[Yes! (U.S. magazine)]]
+| Young Skeptics
+| ''Hoaxed!: Fakes and Mistakes in the World of Science''
+| {{ISBNT|978-1554532070}}
+| [[Kids Can Press]]
+| Paperback
+| 2009
+|-
+| [[Yes! (U.S. magazine)]]
+| Young Skeptics
+| ''Science Detectives: How Scientists Solved Six Real-Life Mysteries''
+| {{ISBNT|978-1553379959}}
+| [[Kids Can Press]]
+| Paperback
+| 2006
+|-
+| [[Jesse Bering|Bering, Jesse]]
 | [[Scientific skepticism]]
-| ''[[Let Them Eat Precaution]]: How Politics is Undermining the Genetic Revolution in Agriculture''
-| {{ISBNT|978-0844742007}}
-| [[American Enterprise Institute|Aei Press]]
-| Hardcover
-| 2005
-|-
-| [[Petr Skrabanek|Skrabanek, Petr]]; James McCormick
-| [[Alt med]]
-| ''Follies and Fallacies in Medicine''
-| {{ISBNT|978-0879756307}}
-| [[Prometheus Books]]
-| Hardback
-| 1990
-|-
-|[[Mark Twain|Twain, Mark]]
-|[[Religious skepticism]]
-|''[[Christian Science (book)|Christian Science]]''
-|
-|
-|
-|1907
-|-
-| [[Yuval Noah Harari|Harari, Yuval Noah]]
-| [[Scientific skepticism]]
-| ''[[Sapiens: A Brief History of Humankind]]''
-| {{ISBNT|978-0062316097}}
-| Harper
-| Hardcover
-| 2015
-|-
-| [[Nicholas Mark Harding|Harding, Nick]]
-| [[Religious skepticism]]
-| ''How to be a Good Atheist''
-| {{ISBNT|978-1842432372}}
-| Oldcastle Books
-| Hardcover
-| 2008
-|-
-| [[Martin Gardner|Gardner, Martin]]
-| [[Scientific skepticism]]
-| ''Weird Water & Fuzzy Logic''
-| {{ISBNT|978-1573920964}}
-| [[Prometheus Books]]
-| Hardcover
-| 1996 |}
+| ''The Belief Instinct: The Psychology of Souls, Destiny, and the Meaning of Life''
+| {{ISBNT|978-0393341263}}
+| [[W. W. Norton & Company]]
+| Paperback
+| 2012 |}
 ---

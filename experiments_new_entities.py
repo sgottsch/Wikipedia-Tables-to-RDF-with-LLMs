@@ -4,13 +4,11 @@ import os
 import traceback
 from datetime import datetime
 
-from rdflib import Graph, RDFS, Literal, URIRef
+from rdflib import Graph, Literal, URIRef
 
-from table_to_kg import create_triples
-from wiki_downloader import download_article, get_tables, remove_example_rows, split_table_for_new_entities
+from table_to_kg import create_triples_and_store_results
+from wiki_downloader import download_article, get_tables, split_table_for_new_entities
 from wikidata_dbpedia_mapper import get_dbpedia_to_wikidata_mapping
-
-MAX_NUMBER_OF_EXAMPLES = 3
 
 
 def run_experiments():
@@ -60,18 +58,18 @@ def run_experiments():
             page_id = None
             if len(row) > 2:
                 page_id = row[2]
-            article_name = wikipedia_page.replace("https://en.wikipedia.org/wiki/", "")
+            page_name = wikipedia_page.replace("https://en.wikipedia.org/wiki/", "")
 
-            if article_name in done_articles:
+            if page_name in done_articles:
                 print("Article name: Already done.")
                 continue
 
-            #if article_name != "List_of_churches_in_London":
+            # if article_name != "List_of_churches_in_London":
             #    continue
 
-            print("Article name:", article_name, "-> Table numbers:", table_numbers)
+            print("Article name:", page_name, "-> Table numbers:", table_numbers)
 
-            article_content = download_article(article_name, page_id)
+            article_content = download_article(page_name, page_id)
             tables = get_tables(article_content)
 
             errors_in_article = False
@@ -80,13 +78,13 @@ def run_experiments():
 
                 print("--- Table number: " + str(table_number) + " ---\n")
 
-                if article_name + "_" + str(table_number) in done_tables:
+                if page_name + "_" + str(table_number) in done_tables:
                     print("Table " + str(table_number) + ": Already done.")
                     continue
 
                 table = tables[table_number]
 
-                config_dict = {"article_name": article_name, "table_number": table_number,
+                config_dict = {"page_name": page_name, "table_number": table_number,
                                "number_of_examples": number_of_examples,
                                "time": datetime.today().strftime('%Y-%m-%d %H:%M:%S')}
 
@@ -98,7 +96,7 @@ def run_experiments():
 
                 if not example_table:
                     print("Skip table.")
-                    file_log.write("\t".join(["Table", article_name, str(table_number), "Skipped"]) + "\n")
+                    file_log.write("\t".join(["Table", page_name, str(table_number), "Skipped"]) + "\n")
                     file_log.flush()
                     continue
 
@@ -107,22 +105,22 @@ def run_experiments():
                 total_number_of_target_entities += number_of_target_entities
 
                 try:
-                    create_triples(example_table, target_table, example_entities, article_name,
-                                   dbpedia_to_wikidata,
-                                   table_number, number_of_examples, config_dict)
+                    create_triples_and_store_results(page_name, table_number, example_table, target_table,
+                                                     example_entities, dbpedia_to_wikidata, number_of_examples,
+                                                     config_dict)
                 except Exception as e:
                     print("Error with table:", e)
                     errors_in_article = True
                     traceback.print_exc()
-                    file_log.write("\t".join(["Table", article_name, str(table_number), "Error"]) + "\n")
+                    file_log.write("\t".join(["Table", page_name, str(table_number), "Error"]) + "\n")
                     file_log.flush()
                     continue
 
-                file_log.write("\t".join(["Table", article_name, str(table_number), "Done"]) + "\n")
+                file_log.write("\t".join(["Table", page_name, str(table_number), "Done"]) + "\n")
                 file_log.flush()
 
             if not errors_in_article:
-                file_log.write("\t".join(["Article", article_name, "", "Done"]) + "\n")
+                file_log.write("\t".join(["Article", page_name, "", "Done"]) + "\n")
                 file_log.flush()
 
     print("number_of_tables:", number_of_tables)
@@ -155,7 +153,6 @@ def get_results():
             g.parse("data/evaluation/" + str(number_of_examples) + "_examples/new_entities/outputs/" + file_name)
 
             for s, p, o in g.triples((None, None, None)):
-                print(s,p,o)
                 subjects.add(s)
                 subjects2.append(s)
                 properties.add(p)
@@ -180,7 +177,8 @@ def get_results():
     number_of_target_entities = 0
     for file_name in os.listdir("data/evaluation/" + str(number_of_examples) + "_examples/new_entities/prompts/"):
         if file_name.endswith(".json"):
-            with open("data/evaluation/" + str(number_of_examples) + "_examples/new_entities/prompts/" + file_name) as f:
+            with open(
+                    "data/evaluation/" + str(number_of_examples) + "_examples/new_entities/prompts/" + file_name) as f:
                 json_prompt = json.load(f)
                 number_of_target_entities += json_prompt["config"]["number_of_target_entities"]
                 print(json_prompt["config"]["number_of_examples"])
@@ -206,5 +204,5 @@ def get_results():
 
 
 if __name__ == "__main__":
-    #run_experiments()
+    # run_experiments()
     get_results()

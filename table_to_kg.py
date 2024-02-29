@@ -55,42 +55,152 @@ def create_entity_graphs_prompt(links, all_property_labels, all_object_labels, a
     return entity_graphs_prompt
 
 
-def create_triples(example_table, target_tables, example_entities, page_name, dbpedia_to_wikidata,
-                   table_number, number_of_example_entities, config_dict,
-                   evaluate_existing_entities=False, target_entities=None):
-    output_folder = "data/evaluation/" + str(number_of_example_entities) + "_examples/"
+def evaluate(page_name, table_number, config_dict, output_folder, target_entities, predicted_triples, all_prefix_lines,
+             all_property_labels, all_object_labels):
+    with open(output_folder + "evaluation/" + page_name + "_" + str(table_number) + ".txt",
+              "w", encoding="utf8") as file_evaluation:
 
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+        entity_graphs_prompt_other = "\n".join(all_prefix_lines) + "\n" + create_entity_graphs_prompt(target_entities,
+                                                                                                      all_property_labels,
+                                                                                                      all_object_labels,
+                                                                                                      all_prefix_lines)
+        g_ground = Graph()
+        entity_graphs_prompt_other_wd_links = ""
+        for line in entity_graphs_prompt_other.split("\n"):
+            if line.count("\"") > 2:
+                print("Fix quotation error in " + line)
+                # Convert  rdfs:label ""Left-Wing" Communism: An Infantile Disorder"@en ; into  rdfs:label "'Left-Wing' Communism: An Infantile Disorder"@en ;
+                first_occurrence = line.find("\"")
+                last_occurrence = line.rfind("\"")
+                # Replace all occurrences of "x" except for the first and last
+                line = line[:first_occurrence + 1] + line[
+                                                     first_occurrence + 1:last_occurrence].replace(
+                    "\"", "'") + line[last_occurrence:]
 
-    if evaluate_existing_entities:
-        output_folder += "existing_entities/"
-    else:
-        output_folder += "new_entities/"
+            entity_graphs_prompt_other_wd_links += replace_dbpedia_with_wikidata(line, dbpedia_to_wikidata) + "\n"
 
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
-    if not os.path.exists(output_folder + "outputs"):
-        os.makedirs(output_folder + "outputs")
-    if not os.path.exists(output_folder + "prompts"):
-        os.makedirs(output_folder + "prompts")
-    if evaluate_existing_entities:
-        if not os.path.exists(output_folder + "evaluation"):
-            os.makedirs(output_folder + "evaluation")
+        if PRINT_INFO:
+            print("GROUND2")
+            print(entity_graphs_prompt_other_wd_links)
+
+        g_ground.parse(data=entity_graphs_prompt_other_wd_links)
+        g_ground.remove((None, None, URIRef("http://www.wikidata.org/entity/Delete")))
+        ground_triples = g_ground.serialize(format='nt')
+
+        if PRINT_INFO:
+            print("GROUND")
+            print(ground_triples)
+
+        all_triple_strings_predicted = set(predicted_triples.split("\n"))
+        all_triple_strings_predicted.remove("")
+        all_triple_strings_ground = set(ground_triples.split("\n"))
+        all_triple_strings_ground.remove("")
+
+        common_triples = all_triple_strings_predicted.intersection(all_triple_strings_ground)
+        only_predicted = all_triple_strings_predicted.difference(all_triple_strings_ground)
+        only_ground = all_triple_strings_ground.difference(all_triple_strings_predicted)
+
+        if PRINT_INFO:
+            print("In both")
+        file_evaluation.write("In both" + "\n")
+        for triple in common_triples:
+            if PRINT_INFO:
+                print(triple)
+            file_evaluation.write(triple + "\n")
+
+        if PRINT_INFO:
+            print("In ground only")
+        file_evaluation.write("In ground only" + "\n")
+        for triple in only_ground:
+            if PRINT_INFO:
+                print(triple)
+            file_evaluation.write(triple + "\n")
+
+        if PRINT_INFO:
+            print("In predicted only")
+        file_evaluation.write("In predicted only" + "\n")
+        for triple in only_predicted:
+            if PRINT_INFO:
+                print(triple)
+            file_evaluation.write(triple + "\n")
+
+        precision = 1
+        if len(all_triple_strings_predicted) > 0:
+            precision = len(common_triples) / (len(all_triple_strings_predicted))
+
+        recall = 0
+        if len(all_triple_strings_ground) > 0:
+            recall = len(common_triples) / (len(all_triple_strings_ground))
+
+        f1 = 0
+        if precision + recall > 0:
+            f1 = (2 * precision * recall) / (precision + recall)
+
+        eval_dict = {"config": config_dict, "in_both": len(common_triples),
+                     "in_ground": len(all_triple_strings_ground), "in_predicted": len(all_triple_strings_predicted),
+                     "in_ground_only": len(only_ground), "in_predicted_only": len(only_predicted),
+                     "recall": recall,
+                     "precision": precision,
+                     "f1": f1}
+
+        with open(output_folder + "evaluation/" + page_name + "_" + str(table_number) + ".json",
+                  "w") as file_evaluation_json:
+            json.dump(eval_dict, file_evaluation_json)
+
+        print("Recall:", recall)
+        print("Precision:", precision)
+        print("F1:", f1)
+
+
+def create_triples(page_name, table_number, example_table, target_tables, example_entities,
+                   dbpedia_to_wikidata, number_of_example_entities, ttl_filename):
+    return create_triples_and_store_results(page_name, table_number, example_table, target_tables, example_entities,
+                                            dbpedia_to_wikidata, number_of_example_entities, ttl_filename=ttl_filename)
+
+
+def create_triples_and_store_results(page_name, table_number, example_table, target_tables, example_entities,
+                                     dbpedia_to_wikidata, number_of_example_entities, config_dict=None,
+                                     evaluate_existing_entities=False, target_entities=None, ttl_filename=None):
+    store_results = True
+    if ttl_filename:
+        store_results = False
+
+    if not config_dict:
+        config_dict = {"page_name": page_name, "table_number": table_number,
+                       "number_of_examples": number_of_example_entities,
+                       "time": datetime.today().strftime('%Y-%m-%d %H:%M:%S')}
+
+    output_folder = None
+    if store_results:
+        output_folder = "data/evaluation/" + str(number_of_example_entities) + "_examples/"
+
+        if not os.path.exists(output_folder):
+            os.makedirs(output_folder)
+
+        if evaluate_existing_entities:
+            output_folder += "existing_entities/"
+        else:
+            output_folder += "new_entities/"
+
+        # Create folders
+        if not os.path.exists(output_folder):
+            os.makedirs(output_folder)
+        if not os.path.exists(output_folder + "outputs"):
+            os.makedirs(output_folder + "outputs")
+        if not os.path.exists(output_folder + "prompts"):
+            os.makedirs(output_folder + "prompts")
+        if evaluate_existing_entities:
+            if not os.path.exists(output_folder + "evaluation"):
+                os.makedirs(output_folder + "evaluation")
 
     print("=== " + page_name + " ===")
 
-    output_dict = {"config": config_dict}
-
-    output_dict["table_with_only_examples"] = example_table
-    output_dict["tables_without_examples"] = target_tables
-    output_dict["links"] = example_entities
+    output_dict = {"config": config_dict, "table_with_only_examples": example_table,
+                   "tables_without_examples": target_tables, "links": example_entities}
     if target_entities:
         output_dict["links_other"] = target_entities
 
     print("tables_without_examples", len(target_tables))
-
-    triples_examples = []
 
     all_prefix_lines = set()
     # add some required prefixes in case they are missed by the LLM
@@ -99,26 +209,26 @@ def create_triples(example_table, target_tables, example_entities, page_name, db
     all_prefix_lines.add("@prefix wd: <http://www.wikidata.org/entity/> .")
     all_prefix_lines.add("@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .")
 
-    if number_of_example_entities > 0:
-        all_property_labels = {}
-        all_object_labels = {}
-        entity_graphs_prompt = create_entity_graphs_prompt(example_entities, all_property_labels, all_object_labels,
-                                                           all_prefix_lines)
+    all_property_labels = {}
+    all_object_labels = {}
 
-        all_property_labels_strings = []
-        for key, value in all_property_labels.items():
-            all_property_labels_strings.append(key + " -> " + value)
-        all_property_labels_string = "\n".join(all_property_labels_strings)
+    entity_graphs_prompt = create_entity_graphs_prompt(example_entities, all_property_labels, all_object_labels,
+                                                       all_prefix_lines)
 
-        all_object_labels_strings = []
-        for key, value in all_object_labels.items():
-            all_object_labels_strings.append(key + " -> " + value)
-        all_object_labels_string = "\n".join(all_object_labels_strings)
+    all_property_labels_strings = []
+    for key, value in all_property_labels.items():
+        all_property_labels_strings.append(key + " -> " + value)
+    all_property_labels_string = "\n".join(all_property_labels_strings)
 
-        all_prefix_lines_strings = "\n".join(all_prefix_lines)
+    all_object_labels_strings = []
+    for key, value in all_object_labels.items():
+        all_object_labels_strings.append(key + " -> " + value)
+    all_object_labels_string = "\n".join(all_object_labels_strings)
 
-        output_dict["all_object_labels"] = all_object_labels
-        output_dict["all_property_labels"] = all_property_labels
+    all_prefix_lines_strings = "\n".join(all_prefix_lines)
+
+    output_dict["all_object_labels"] = all_object_labels
+    output_dict["all_property_labels"] = all_property_labels
 
     output_dict["prompts"] = []
     other_lines = []
@@ -129,12 +239,6 @@ def create_triples(example_table, target_tables, example_entities, page_name, db
         output_dict["prompts"].append(prompt_dict)
         prompt_dict["table_without_examples"] = table_without_examples
 
-        # if number_of_examples == 0:
-        #    llm_prompt = ('''Your task is to create RDF triples in the Turtle format for entities described in a table from the Wikipedia page \"{0}\" in the Wikitext format. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects.
-        #    \n---\nThis is the table for which you should extract RDF triples:\n\n{1}
-        #    \n ---'''.format(article_name.replace("_", " "),
-        #                     table_without_examples.strip()))
-        # else:
         llm_prompt = '''Your task is to create RDF triples in the Turtle format for entities described in a table in the Wikitext format, given an example table from the Wikipedia page \"{0}\" and triples extracted from that example table. Only use information which is directly stated in the table. Return all triples for all entities that you can find, I do not want a partial representation. Do not return placeholders, only complete objects. If you provide a URL, the URL must be stated in the table.
 ---\nThis is the example table:\n\n{1}
 ---\nFor this example table, the following triples are created:\n\n{2}
@@ -146,13 +250,12 @@ def create_triples(example_table, target_tables, example_entities, page_name, db
               all_property_labels_string.strip(), all_object_labels_string.strip(),
               table_without_examples.strip())
 
-        with open(output_folder + "prompts/" + page_name + "_" + str(table_number) + ".txt", "w",
-                  encoding="utf8") as file_prompt_txt:
-            file_prompt_txt.write(llm_prompt)
+        if store_results:
+            with open(output_folder + "prompts/" + page_name + "_" + str(table_number) + ".txt", "w",
+                      encoding="utf8") as file_prompt_txt:
+                file_prompt_txt.write(llm_prompt)
 
         prompt_dict["prompt"] = llm_prompt
-
-        # print(llm_prompt)
 
         print("Execute prompt... (" + datetime.today().strftime('%Y-%m-%d %H:%M:%S') + ")")
         completion = openai.chat.completions.create(
@@ -189,7 +292,8 @@ def create_triples(example_table, target_tables, example_entities, page_name, db
                     if PRINT_INFO:
                         print("Ignore:", line)
 
-    ttl_filename = output_folder + "outputs/" + page_name + "_" + str(table_number) + ".ttl"
+    if not ttl_filename:
+        ttl_filename = output_folder + "outputs/" + page_name + "_" + str(table_number) + ".ttl"
 
     with open(ttl_filename, "w", encoding="utf8") as f:
         for prefix_line in all_prefix_lines:
@@ -236,9 +340,6 @@ def create_triples(example_table, target_tables, example_entities, page_name, db
     print("Triples:", len(g))
     g.remove((None, None, URIRef("http://www.wikidata.org/entity/Delete")))
     # g.remove((None, None, Literal("Unknown", datatype=XSD.decimal)))
-    # g.remove((None, None, Literal("unknown", datatype=XSD.decimal)))
-    # g.remove((None, None, Literal("Unknown", datatype=XSD.integer)))
-    # g.remove((None, None, Literal("unknown", datatype=XSD.integer)))
     print("Triples after cleaning:", len(g))
     g.serialize(destination=ttl_filename)
     predicted_triples = g.serialize(format='nt')
@@ -247,105 +348,14 @@ def create_triples(example_table, target_tables, example_entities, page_name, db
         print("PREDICTED")
         print(predicted_triples)
 
-    with open(output_folder + "prompts/" + page_name + "_" + str(table_number) + ".json", "w") as fp:
-        json.dump(output_dict, fp)
+    if store_results:
+        with open(output_folder + "prompts/" + page_name + "_" + str(table_number) + ".json", "w") as fp:
+            json.dump(output_dict, fp)
 
-    if evaluate_existing_entities:
-        # Evaluation
-
-        with open(output_folder + "evaluation/" + page_name + "_" + str(table_number) + ".txt",
-                  "w", encoding="utf8") as file_evaluation:
-
-            entity_graphs_prompt_other = "\n".join(all_prefix_lines) + "\n" + create_entity_graphs_prompt(target_entities,
-                                                                                                          all_property_labels,
-                                                                                                          all_object_labels,
-                                                                                                          all_prefix_lines)
-            g_ground = Graph()
-            entity_graphs_prompt_other_wd_links = ""
-            for line in entity_graphs_prompt_other.split("\n"):
-                if line.count("\"") > 2:
-                    print("Fix quotation error in " + other_line)
-                    # Convert  rdfs:label ""Left-Wing" Communism: An Infantile Disorder"@en ; into  rdfs:label "'Left-Wing' Communism: An Infantile Disorder"@en ;
-                    first_occurrence = line.find("\"")
-                    last_occurrence = line.rfind("\"")
-                    # Replace all occurrences of "x" except for the first and last
-                    line = line[:first_occurrence + 1] + line[
-                                                         first_occurrence + 1:last_occurrence].replace(
-                        "\"", "'") + line[last_occurrence:]
-
-                entity_graphs_prompt_other_wd_links += replace_dbpedia_with_wikidata(line, dbpedia_to_wikidata) + "\n"
-
-            if PRINT_INFO:
-                print("GROUND2")
-                print(entity_graphs_prompt_other_wd_links)
-
-            g_ground.parse(data=entity_graphs_prompt_other_wd_links)
-            g_ground.remove((None, None, URIRef("http://www.wikidata.org/entity/Delete")))
-            ground_triples = g_ground.serialize(format='nt')
-
-            if PRINT_INFO:
-                print("GROUND")
-                print(ground_triples)
-
-            all_triple_strings_predicted = set(predicted_triples.split("\n"))
-            all_triple_strings_predicted.remove("")
-            all_triple_strings_ground = set(ground_triples.split("\n"))
-            all_triple_strings_ground.remove("")
-
-            common_triples = all_triple_strings_predicted.intersection(all_triple_strings_ground)
-            only_predicted = all_triple_strings_predicted.difference(all_triple_strings_ground)
-            only_ground = all_triple_strings_ground.difference(all_triple_strings_predicted)
-
-            if PRINT_INFO:
-                print("In both")
-            file_evaluation.write("In both" + "\n")
-            for triple in common_triples:
-                if PRINT_INFO:
-                    print(triple)
-                file_evaluation.write(triple + "\n")
-
-            if PRINT_INFO:
-                print("In ground only")
-            file_evaluation.write("In ground only" + "\n")
-            for triple in only_ground:
-                if PRINT_INFO:
-                    print(triple)
-                file_evaluation.write(triple + "\n")
-
-            if PRINT_INFO:
-                print("In predicted only")
-            file_evaluation.write("In predicted only" + "\n")
-            for triple in only_predicted:
-                if PRINT_INFO:
-                    print(triple)
-                file_evaluation.write(triple + "\n")
-
-            precision = 1
-            if len(all_triple_strings_predicted) > 0:
-                precision = len(common_triples) / (len(all_triple_strings_predicted))
-
-            recall = 0
-            if len(all_triple_strings_ground) > 0:
-                recall = len(common_triples) / (len(all_triple_strings_ground))
-
-            f1 = 0
-            if precision + recall > 0:
-                f1 = (2 * precision * recall) / (precision + recall)
-
-            eval_dict = {"config": config_dict, "in_both": len(common_triples),
-                         "in_ground": len(all_triple_strings_ground), "in_predicted": len(all_triple_strings_predicted),
-                         "in_ground_only": len(only_ground), "in_predicted_only": len(only_predicted),
-                         "recall": recall,
-                         "precision": precision,
-                         "f1": f1}
-
-            with open(output_folder + "evaluation/" + page_name + "_" + str(table_number) + ".json",
-                      "w") as file_evaluation_json:
-                json.dump(eval_dict, file_evaluation_json)
-
-            print("Recall:", recall)
-            print("Precision:", precision)
-            print("F1:", f1)
+        if evaluate_existing_entities:
+            # Evaluation
+            evaluate(page_name, table_number, config_dict, output_folder, target_entities,
+                     predicted_triples, all_prefix_lines, all_property_labels, all_object_labels)
 
 
 '''

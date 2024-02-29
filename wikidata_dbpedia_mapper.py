@@ -1,13 +1,12 @@
-import bz2
 import csv
 
 
-# 1. Download https://databus.dbpedia.org/dbpedia/wikidata/sameas-all-wikis
-# 2. grep '<http://dbpedia.org/resource/' sameas-all-wikis.ttl > sameas-en-wiki.ttl
 
 def create_mapping():
+    # 1. Download https://databus.dbpedia.org/dbpedia/wikidata/sameas-all-wikis
+    # 2. grep '<http://dbpedia.org/resource/' sameas-all-wikis.ttl > sameas-en-wiki.ttl
     with open("data/sameas-all-enwiki.tsv", "w") as f:
-        with open("C:/Users/simon/Downloads/sameas-en-wiki.ttl", errors="ignore") as file_ttl:
+        with open("data/sameas-en-wiki.ttl", errors="ignore") as file_ttl:
             for line in file_ttl:
                 parts = line.split(" ")
                 wikidata_id = parts[0].replace("<http://wikidata.dbpedia.org/resource/", "").replace(">", "")

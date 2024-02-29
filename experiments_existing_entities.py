@@ -4,12 +4,9 @@ import os
 import traceback
 from datetime import datetime
 
-from table_to_kg import create_triples
-from wiki_downloader import download_article, get_tables, remove_example_rows, split_table_for_new_entities, \
-    split_table_for_existing_entities
+from table_to_kg import create_triples_and_store_results
+from wiki_downloader import download_article, get_tables, split_table_for_existing_entities
 from wikidata_dbpedia_mapper import get_dbpedia_to_wikidata_mapping
-
-MAX_NUMBER_OF_EXAMPLES = 3
 
 
 def run_experiments():
@@ -19,7 +16,7 @@ def run_experiments():
     min_number_of_rows_without_examples_required = 2
     max_number_of_batches = 10
 
-    for number_of_examples in [8,7,6,5,4,3,2,1]:  # [1, 2, 3, 4, 5, 6, 7, 8]:#[1 , 2, 3, 4, 5]:
+    for number_of_examples in [8, 7, 6, 5, 4, 3, 2, 1]:  # [1, 2, 3, 4, 5, 6, 7, 8]:#[1 , 2, 3, 4, 5]:
 
         print("=== Number of examples: " + str(number_of_examples) + "===\n")
 
@@ -64,17 +61,17 @@ def run_experiments():
                 page_id = None
                 if len(row) > 2:
                     page_id = row[2]
-                article_name = wikipedia_page.replace("https://en.wikipedia.org/wiki/", "")
+                page_name = wikipedia_page.replace("https://en.wikipedia.org/wiki/", "")
 
-                if article_name in done_articles:
-                    print("Skip article: " + article_name + " - Already done.")
+                if page_name in done_articles:
+                    print("Skip article: " + page_name + " - Already done.")
                     continue
 
                 # if article_name != "List_of_museums_in_Central_Texas":
                 #    continue
 
-                print("Article name:", article_name, "-> Table numbers:", table_numbers)
-                article_content = download_article(article_name, page_id)
+                print("Article name:", page_name, "-> Table numbers:", table_numbers)
+                article_content = download_article(page_name, page_id)
                 tables = get_tables(article_content)
 
                 errors_in_article = False
@@ -83,7 +80,7 @@ def run_experiments():
 
                     print("--- Table number: " + str(table_number) + " ---\n")
 
-                    if article_name + "_" + str(table_number) in done_tables:
+                    if page_name + "_" + str(table_number) in done_tables:
                         print("Table " + str(table_number) + ": Already done.")
                         continue
 
@@ -92,7 +89,7 @@ def run_experiments():
 
                     table = tables[table_number]
 
-                    config_dict = {"article_name": article_name, "table_number": table_number,
+                    config_dict = {"page_name": page_name, "table_number": table_number,
                                    "number_of_examples": number_of_examples,
                                    "max_number_of_examples": max_number_of_examples,
                                    "min_number_of_rows_without_examples_required": min_number_of_rows_without_examples_required,
@@ -104,7 +101,7 @@ def run_experiments():
 
                     if not example_table:
                         print("Skip table.")
-                        file_log.write("\t".join(["Table", article_name, str(table_number), "Skipped",
+                        file_log.write("\t".join(["Table", page_name, str(table_number), "Skipped",
                                                   datetime.today().strftime('%Y-%m-%d %H:%M:%S')]) + "\n")
                         file_log.flush()
                         continue
@@ -114,25 +111,26 @@ def run_experiments():
                     total_number_of_tables += 1
 
                     try:
-                        create_triples(example_table, target_table, example_entities, article_name,
-                                       dbpedia_to_wikidata, table_number, number_of_examples, config_dict,
-                                       evaluate_existing_entities=True, target_entities=target_entities)
+                        create_triples_and_store_results(page_name, table_number, example_table, target_table,
+                                                         example_entities, dbpedia_to_wikidata, number_of_examples,
+                                                         config_dict, evaluate_existing_entities=True,
+                                                         target_entities=target_entities)
                     except Exception as e:
                         print("Error with table:", e)
                         errors_in_article = True
                         traceback.print_exc()
-                        file_log.write("\t".join(["Table", article_name, str(table_number), "Error",
+                        file_log.write("\t".join(["Table", page_name, str(table_number), "Error",
                                                   datetime.today().strftime('%Y-%m-%d %H:%M:%S')]) + "\n")
                         file_log.flush()
                         continue
 
-                    file_log.write("\t".join(["Table", article_name, str(table_number), "Done",
+                    file_log.write("\t".join(["Table", page_name, str(table_number), "Done",
                                               datetime.today().strftime('%Y-%m-%d %H:%M:%S')]) + "\n")
                     file_log.flush()
 
                 if not errors_in_article:
                     file_log.write("\t".join(
-                        ["Article", article_name, "", "Done", datetime.today().strftime('%Y-%m-%d %H:%M:%S')]) + "\n")
+                        ["Article", page_name, "", "Done", datetime.today().strftime('%Y-%m-%d %H:%M:%S')]) + "\n")
                 file_log.flush()
 
         print("total_number_of_target_entities:", total_number_of_target_entities)
@@ -208,4 +206,4 @@ def get_results():
 
 if __name__ == "__main__":
     run_experiments()
-    #get_results()
+    get_results()
