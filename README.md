@@ -2,6 +2,16 @@
 
 Using few-short prompting on GPT-3.5, you can extract Wikidata RDF triples from Wikipedia tables.
 
+## Idea
+
+This is an overview of our approach:
+
+![Overview of our approach](images/approach.png)
+
+## Examples
+
+See [here](examples) for different examples.
+
 ## Installation
 
 In order to run this PYthon3.9 project, you need to install the libraries *rdflib*, *pymediawiki*, *SPARQLWrapper* and *openai*.
